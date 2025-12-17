@@ -1,0 +1,5 @@
+{
+  "name": "Art History ChronoMap",
+  "description": "An interactive, zoomable timeline of Western Art History, visualizing eras, movements, and key events.",
+  "requestFramePermissions": []
+}
