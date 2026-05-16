@@ -1,0 +1,110 @@
+[
+  {
+    "id": "jomon",
+    "nameEn": "Jōmon Period",
+    "nameCn": "绳文时代",
+    "startYear": -14000,
+    "endYear": -300,
+    "colorHex": "#8B4513",
+    "colorBackground": "#fcfaf9"
+  },
+  {
+    "id": "yayoi",
+    "nameEn": "Yayoi Period",
+    "nameCn": "弥生时代",
+    "startYear": -300,
+    "endYear": 250,
+    "colorHex": "#D2691E",
+    "colorBackground": "#fdf8f4"
+  },
+  {
+    "id": "kofun",
+    "nameEn": "Kofun Period",
+    "nameCn": "古坟时代",
+    "startYear": 250,
+    "endYear": 538,
+    "colorHex": "#DAA520",
+    "colorBackground": "#fdfdf0"
+  },
+  {
+    "id": "asuka",
+    "nameEn": "Asuka Period",
+    "nameCn": "飞鸟时代",
+    "startYear": 538,
+    "endYear": 710,
+    "colorHex": "#556B2F",
+    "colorBackground": "#f4fbf4"
+  },
+  {
+    "id": "nara",
+    "nameEn": "Nara Period",
+    "nameCn": "奈良时代",
+    "startYear": 710,
+    "endYear": 794,
+    "colorHex": "#4682B4",
+    "colorBackground": "#f0f4f8"
+  },
+  {
+    "id": "heian",
+    "nameEn": "Heian Period",
+    "nameCn": "平安时代",
+    "startYear": 794,
+    "endYear": 1185,
+    "colorHex": "#483D8B",
+    "colorBackground": "#f0f0f8"
+  },
+  {
+    "id": "kamakura",
+    "nameEn": "Kamakura Period",
+    "nameCn": "镰仓时代",
+    "startYear": 1185,
+    "endYear": 1333,
+    "colorHex": "#800080",
+    "colorBackground": "#faf5fa"
+  },
+  {
+    "id": "muromachi",
+    "nameEn": "Muromachi Period",
+    "nameCn": "室町时代",
+    "startYear": 1336,
+    "endYear": 1573,
+    "colorHex": "#8B008B",
+    "colorBackground": "#faf5fa"
+  },
+  {
+    "id": "azuchi_momoyama",
+    "nameEn": "Azuchi-Momoyama Period",
+    "nameCn": "安土桃山时代",
+    "startYear": 1573,
+    "endYear": 1603,
+    "colorHex": "#B22222",
+    "colorBackground": "#fdf2f2"
+  },
+  {
+    "id": "edo",
+    "nameEn": "Edo Period",
+    "nameCn": "江户时代",
+    "startYear": 1603,
+    "endYear": 1868,
+    "colorHex": "#CD5C5C",
+    "colorBackground": "#fdf2f2"
+  },
+  {
+    "id": "meiji_taisho",
+    "nameEn": "Meiji & Taishō Periods",
+    "nameCn": "明治与大正时代",
+    "startYear": 1868,
+    "endYear": 1926,
+    "colorHex": "#C71585",
+    "colorBackground": "#fff0f5"
+  },
+  {
+    "id": "showa_heisei_reiwa",
+    "nameEn": "Shōwa, Heisei & Reiwa",
+    "nameCn": "昭和、平成与令和",
+    "startYear": 1926,
+    "endYear": 2025,
+    "colorHex": "#FF1493",
+    "colorBackground": "#fff0f5"
+  }
+]

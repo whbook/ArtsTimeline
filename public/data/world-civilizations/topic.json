@@ -1,0 +1,34 @@
+{
+  "id": "world-civilizations",
+  "titleEn": "World Culture & Civilizations",
+  "titleCn": "世界文化与文明演进史",
+  "description": "A global timeline of human civilizations, showing concurrent development across different regions. / 全球人类文明时间轴，展示不同地域文明的并行发展。",
+  "color": "#27AE60",
+  "defaultViewport": {
+    "startYear": -3500,
+    "endYear": 2050
+  },
+  "minZoomRange": 100,
+  "maxZoomRange": 10000,
+  "playbackSpeed": 2.5,
+  "eventFields": [
+    {
+      "key": "region",
+      "labelEn": "Region",
+      "labelCn": "所属地域",
+      "type": "text"
+    },
+    {
+      "key": "category",
+      "labelEn": "Category",
+      "labelCn": "领域类别",
+      "type": "text"
+    },
+    {
+      "key": "significance",
+      "labelEn": "Significance",
+      "labelCn": "历史意义",
+      "type": "text"
+    }
+  ]
+}

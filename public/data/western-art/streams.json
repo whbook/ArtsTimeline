@@ -1,0 +1,472 @@
+[
+  {
+    "id": "m1",
+    "periodId": "pre_ancient",
+    "nameEn": "Sumerian",
+    "nameCn": "苏美尔",
+    "startYear": -4000,
+    "endYear": -2000,
+    "color": "#D2691E",
+    "lane": 0
+  },
+  {
+    "id": "m2",
+    "periodId": "pre_ancient",
+    "nameEn": "Babylonian",
+    "nameCn": "巴比伦",
+    "startYear": -1800,
+    "endYear": -539,
+    "color": "#D2691E",
+    "lane": 1
+  },
+  {
+    "id": "m3",
+    "periodId": "pre_ancient",
+    "nameEn": "Egyptian Old Kingdom",
+    "nameCn": "古埃及古王国",
+    "startYear": -2686,
+    "endYear": -2181,
+    "color": "#DAA520",
+    "lane": 2
+  },
+  {
+    "id": "m4",
+    "periodId": "pre_ancient",
+    "nameEn": "Egyptian New Kingdom",
+    "nameCn": "古埃及新王国",
+    "startYear": -1550,
+    "endYear": -1069,
+    "color": "#DAA520",
+    "lane": 3
+  },
+  {
+    "id": "m5",
+    "periodId": "classical",
+    "nameEn": "Archaic Greek",
+    "nameCn": "希腊古风",
+    "startYear": -800,
+    "endYear": -480,
+    "color": "#556B2F",
+    "lane": 0
+  },
+  {
+    "id": "m6",
+    "periodId": "classical",
+    "nameEn": "Classical Greek",
+    "nameCn": "希腊古典",
+    "startYear": -480,
+    "endYear": -323,
+    "color": "#556B2F",
+    "lane": 1
+  },
+  {
+    "id": "m7",
+    "periodId": "classical",
+    "nameEn": "Hellenistic",
+    "nameCn": "希腊化",
+    "startYear": -323,
+    "endYear": -31,
+    "color": "#556B2F",
+    "lane": 2
+  },
+  {
+    "id": "m8",
+    "periodId": "classical",
+    "nameEn": "Roman Republic",
+    "nameCn": "罗马共和",
+    "startYear": -509,
+    "endYear": -27,
+    "color": "#8FBC8F",
+    "lane": 3
+  },
+  {
+    "id": "m9",
+    "periodId": "classical",
+    "nameEn": "Roman Empire",
+    "nameCn": "罗马帝国",
+    "startYear": -27,
+    "endYear": 476,
+    "color": "#8FBC8F",
+    "lane": 4
+  },
+  {
+    "id": "m10",
+    "periodId": "medieval",
+    "nameEn": "Byzantine",
+    "nameCn": "拜占庭",
+    "startYear": 330,
+    "endYear": 1453,
+    "color": "#4682B4",
+    "lane": 0
+  },
+  {
+    "id": "m11",
+    "periodId": "medieval",
+    "nameEn": "Romanesque",
+    "nameCn": "罗马式",
+    "startYear": 1000,
+    "endYear": 1150,
+    "color": "#483D8B",
+    "lane": 1
+  },
+  {
+    "id": "m12",
+    "periodId": "medieval",
+    "nameEn": "Gothic",
+    "nameCn": "哥特式",
+    "startYear": 1150,
+    "endYear": 1400,
+    "color": "#483D8B",
+    "lane": 2
+  },
+  {
+    "id": "m13",
+    "periodId": "renaissance",
+    "nameEn": "Early Renaissance",
+    "nameCn": "早期文艺复兴",
+    "startYear": 1400,
+    "endYear": 1495,
+    "color": "#800080",
+    "lane": 0
+  },
+  {
+    "id": "m14",
+    "periodId": "renaissance",
+    "nameEn": "High Renaissance",
+    "nameCn": "盛期文艺复兴",
+    "startYear": 1495,
+    "endYear": 1520,
+    "color": "#800080",
+    "lane": 1
+  },
+  {
+    "id": "m15",
+    "periodId": "renaissance",
+    "nameEn": "Mannerism",
+    "nameCn": "矫饰主义",
+    "startYear": 1520,
+    "endYear": 1600,
+    "color": "#800080",
+    "lane": 2
+  },
+  {
+    "id": "m16",
+    "periodId": "renaissance",
+    "nameEn": "Northern Renaissance",
+    "nameCn": "北方文艺复兴",
+    "startYear": 1430,
+    "endYear": 1580,
+    "color": "#800080",
+    "lane": 3
+  },
+  {
+    "id": "m17",
+    "periodId": "baroque_rococo",
+    "nameEn": "Baroque",
+    "nameCn": "巴洛克",
+    "startYear": 1600,
+    "endYear": 1750,
+    "color": "#8B0000",
+    "lane": 4
+  },
+  {
+    "id": "m18",
+    "periodId": "baroque_rococo",
+    "nameEn": "Dutch Golden Age",
+    "nameCn": "荷兰黄金时代",
+    "startYear": 1588,
+    "endYear": 1672,
+    "color": "#8B0000",
+    "lane": 5
+  },
+  {
+    "id": "m19",
+    "periodId": "baroque_rococo",
+    "nameEn": "Rococo",
+    "nameCn": "洛可可",
+    "startYear": 1730,
+    "endYear": 1780,
+    "color": "#8B0000",
+    "lane": 6
+  },
+  {
+    "id": "m20",
+    "periodId": "neoclassic_romantic",
+    "nameEn": "Neoclassicism",
+    "nameCn": "新古典主义",
+    "startYear": 1750,
+    "endYear": 1850,
+    "color": "#708090",
+    "lane": 0
+  },
+  {
+    "id": "m21",
+    "periodId": "neoclassic_romantic",
+    "nameEn": "Romanticism",
+    "nameCn": "浪漫主义",
+    "startYear": 1780,
+    "endYear": 1850,
+    "color": "#C71585",
+    "lane": 1
+  },
+  {
+    "id": "m22",
+    "periodId": "neoclassic_romantic",
+    "nameEn": "Realism",
+    "nameCn": "现实主义",
+    "startYear": 1848,
+    "endYear": 1900,
+    "color": "#A0522D",
+    "lane": 2
+  },
+  {
+    "id": "m23",
+    "periodId": "neoclassic_romantic",
+    "nameEn": "Pre-Raphaelites",
+    "nameCn": "前拉斐尔派",
+    "startYear": 1848,
+    "endYear": 1900,
+    "color": "#C71585",
+    "lane": 3
+  },
+  {
+    "id": "m24",
+    "periodId": "neoclassic_romantic",
+    "nameEn": "Impressionism",
+    "nameCn": "印象派",
+    "startYear": 1860,
+    "endYear": 1890,
+    "color": "#FF4500",
+    "lane": 4
+  },
+  {
+    "id": "m25",
+    "periodId": "neoclassic_romantic",
+    "nameEn": "Post-Impressionism",
+    "nameCn": "后印象派",
+    "startYear": 1886,
+    "endYear": 1905,
+    "color": "#FF4500",
+    "lane": 5
+  },
+  {
+    "id": "m26",
+    "periodId": "neoclassic_romantic",
+    "nameEn": "Arts & Crafts",
+    "nameCn": "工艺美术",
+    "startYear": 1880,
+    "endYear": 1920,
+    "color": "#A0522D",
+    "lane": 6
+  },
+  {
+    "id": "m27",
+    "periodId": "neoclassic_romantic",
+    "nameEn": "Symbolism",
+    "nameCn": "象征主义",
+    "startYear": 1880,
+    "endYear": 1910,
+    "color": "#FF4500",
+    "lane": 7
+  },
+  {
+    "id": "m28",
+    "periodId": "neoclassic_romantic",
+    "nameEn": "Art Nouveau",
+    "nameCn": "新艺术运动",
+    "startYear": 1890,
+    "endYear": 1910,
+    "color": "#FF4500",
+    "lane": 8
+  },
+  {
+    "id": "m29",
+    "periodId": "modern_era",
+    "nameEn": "Fauvism",
+    "nameCn": "野兽派",
+    "startYear": 1904,
+    "endYear": 1908,
+    "color": "#FF4500",
+    "lane": 0
+  },
+  {
+    "id": "m30",
+    "periodId": "modern_era",
+    "nameEn": "Cubism",
+    "nameCn": "立体主义",
+    "startYear": 1907,
+    "endYear": 1914,
+    "color": "#FF4500",
+    "lane": 1
+  },
+  {
+    "id": "m31",
+    "periodId": "modern_era",
+    "nameEn": "Expressionism",
+    "nameCn": "表现主义",
+    "startYear": 1905,
+    "endYear": 1933,
+    "color": "#FF4500",
+    "lane": 2
+  },
+  {
+    "id": "m32",
+    "periodId": "modern_era",
+    "nameEn": "Futurism",
+    "nameCn": "未来主义",
+    "startYear": 1909,
+    "endYear": 1944,
+    "color": "#FF4500",
+    "lane": 3
+  },
+  {
+    "id": "m33",
+    "periodId": "modern_era",
+    "nameEn": "Suprematism",
+    "nameCn": "至上主义",
+    "startYear": 1913,
+    "endYear": 1928,
+    "color": "#FF4500",
+    "lane": 4
+  },
+  {
+    "id": "m34",
+    "periodId": "modern_era",
+    "nameEn": "Constructivism",
+    "nameCn": "构成主义",
+    "startYear": 1915,
+    "endYear": 1940,
+    "color": "#FF4500",
+    "lane": 5
+  },
+  {
+    "id": "m35",
+    "periodId": "modern_era",
+    "nameEn": "Dada",
+    "nameCn": "达达主义",
+    "startYear": 1916,
+    "endYear": 1924,
+    "color": "#FF4500",
+    "lane": 6
+  },
+  {
+    "id": "m36",
+    "periodId": "modern_era",
+    "nameEn": "De Stijl",
+    "nameCn": "风格派",
+    "startYear": 1917,
+    "endYear": 1931,
+    "color": "#FF4500",
+    "lane": 7
+  },
+  {
+    "id": "m37",
+    "periodId": "modern_era",
+    "nameEn": "Bauhaus",
+    "nameCn": "包豪斯",
+    "startYear": 1919,
+    "endYear": 1933,
+    "color": "#FF4500",
+    "lane": 8
+  },
+  {
+    "id": "m38",
+    "periodId": "modern_era",
+    "nameEn": "Surrealism",
+    "nameCn": "超现实主义",
+    "startYear": 1924,
+    "endYear": 1966,
+    "color": "#FF4500",
+    "lane": 9
+  },
+  {
+    "id": "m39",
+    "periodId": "modern_era",
+    "nameEn": "Art Deco",
+    "nameCn": "装饰艺术",
+    "startYear": 1920,
+    "endYear": 1940,
+    "color": "#FF4500",
+    "lane": 10
+  },
+  {
+    "id": "m40",
+    "periodId": "contemporary",
+    "nameEn": "Abstract Exp.",
+    "nameCn": "抽象表现主义",
+    "startYear": 1943,
+    "endYear": 1965,
+    "color": "#C71585",
+    "lane": 0
+  },
+  {
+    "id": "m41",
+    "periodId": "contemporary",
+    "nameEn": "Pop Art",
+    "nameCn": "波普艺术",
+    "startYear": 1955,
+    "endYear": 1970,
+    "color": "#C71585",
+    "lane": 1
+  },
+  {
+    "id": "m42",
+    "periodId": "contemporary",
+    "nameEn": "Minimalism",
+    "nameCn": "极简主义",
+    "startYear": 1960,
+    "endYear": 1975,
+    "color": "#C71585",
+    "lane": 2
+  },
+  {
+    "id": "m43",
+    "periodId": "contemporary",
+    "nameEn": "Conceptual Art",
+    "nameCn": "观念艺术",
+    "startYear": 1960,
+    "endYear": 1980,
+    "color": "#C71585",
+    "lane": 3
+  },
+  {
+    "id": "m44",
+    "periodId": "contemporary",
+    "nameEn": "Land Art",
+    "nameCn": "大地艺术",
+    "startYear": 1968,
+    "endYear": 1985,
+    "color": "#C71585",
+    "lane": 4
+  },
+  {
+    "id": "m45",
+    "periodId": "contemporary",
+    "nameEn": "Neo-Expressionism",
+    "nameCn": "新表现主义",
+    "startYear": 1978,
+    "endYear": 1995,
+    "color": "#C71585",
+    "lane": 5
+  },
+  {
+    "id": "m46",
+    "periodId": "contemporary",
+    "nameEn": "YBA",
+    "nameCn": "英国青年艺术家",
+    "startYear": 1988,
+    "endYear": 2000,
+    "color": "#C71585",
+    "lane": 6
+  },
+  {
+    "id": "m47",
+    "periodId": "contemporary",
+    "nameEn": "Street Art",
+    "nameCn": "街头艺术",
+    "startYear": 1980,
+    "endYear": 2024,
+    "color": "#C71585",
+    "lane": 7
+  }
+]

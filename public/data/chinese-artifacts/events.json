@@ -1,0 +1,158 @@
+[
+  {
+    "id": "c1",
+    "periodId": "shang",
+    "titleEn": "Houmuwu Ding",
+    "titleCn": "后母戊鼎",
+    "year": -1200,
+    "descriptionEn": "The heaviest piece of bronze work found from the ancient world.",
+    "descriptionCn": "中国国家博物馆镇馆之宝，商代晚期青铜器，世界迄今出土最大最重的青铜器。",
+    "meta": {
+      "material": "青铜 (Bronze)",
+      "excavation": "河南安阳武官村",
+      "location": "中国国家博物馆"
+    }
+  },
+  {
+    "id": "c2",
+    "periodId": "shang",
+    "titleEn": "Four-Ram Square Zun",
+    "titleCn": "四羊方尊",
+    "year": -1100,
+    "descriptionEn": "A masterpiece of bronze casting from the late Shang Dynasty, featuring four rams.",
+    "descriptionCn": "商代晚期青铜礼器，臻于极致的青铜典范，造型雄奇，工艺精湛。",
+    "meta": {
+      "material": "青铜 (Bronze)",
+      "excavation": "湖南宁乡月山铺",
+      "location": "中国国家博物馆"
+    }
+  },
+  {
+    "id": "c3",
+    "periodId": "eastern_zhou",
+    "titleEn": "Sword of Goujian",
+    "titleCn": "越王勾践剑",
+    "year": -496,
+    "descriptionEn": "A bronze sword from the Spring and Autumn period, renowned for its untarnished blade.",
+    "descriptionCn": "春秋晚期越国青铜剑，因剑身被镀上了一层含铬的金属而千年不锈，被誉为“天下第一剑”。",
+    "meta": {
+      "material": "青铜 (Bronze)",
+      "excavation": "湖北江陵望山一号楚墓",
+      "location": "湖北省博物馆"
+    }
+  },
+  {
+    "id": "c4",
+    "periodId": "eastern_zhou",
+    "titleEn": "Bianzhong of Marquis Yi of Zeng",
+    "titleCn": "曾侯乙编钟",
+    "year": -433,
+    "descriptionEn": "A massive set of bronze bells from the early Warring States period.",
+    "descriptionCn": "战国早期大型编钟，由65件青铜编钟组成，音域跨五个半八度，十二个半音齐备。",
+    "meta": {
+      "material": "青铜 (Bronze)",
+      "excavation": "湖北随县擂鼓墩",
+      "location": "湖北省博物馆"
+    }
+  },
+  {
+    "id": "c5",
+    "periodId": "western_han",
+    "titleEn": "Jade Burial Suit of Liu Sheng",
+    "titleCn": "刘胜金缕玉衣",
+    "year": -113,
+    "descriptionEn": "A ceremonial suit made of jade pieces sewn together with gold wire.",
+    "descriptionCn": "西汉中山靖王刘胜的敛服，由2498片玉片和1100多克金丝编缀而成，是我国首次发现、规格最高、最完整的玉衣。",
+    "meta": {
+      "material": "玉片、金丝 (Jade, Gold)",
+      "excavation": "河北满城陵山一号汉墓",
+      "location": "河北博物院"
+    }
+  },
+  {
+    "id": "c6",
+    "periodId": "eastern_han",
+    "titleEn": "Galloping Horse Treading on a Flying Swallow",
+    "titleCn": "马踏飞燕",
+    "year": 150,
+    "descriptionEn": "An Eastern Han bronze sculpture of a horse stepping on a swallow, symbol of Chinese tourism.",
+    "descriptionCn": "东汉青铜器，又名“铜奔马”，造型生动，铸造精美，被定为中国旅游标志。",
+    "meta": {
+      "material": "青铜 (Bronze)",
+      "excavation": "甘肃武威雷台汉墓",
+      "location": "甘肃省博物馆"
+    }
+  },
+  {
+    "id": "c7",
+    "periodId": "tang",
+    "titleEn": "Agate Cup with Beast Head",
+    "titleCn": "镶金兽首玛瑙杯",
+    "year": 730,
+    "descriptionEn": "A Tang Dynasty agate cup shaped like a beast's head, showing Central Asian influence.",
+    "descriptionCn": "唐代玉器，由罕见的红色缠丝玛瑙雕刻而成，是唐代中外文化交流的珍贵实物。",
+    "meta": {
+      "material": "玛瑙、金 (Agate, Gold)",
+      "excavation": "陕西西安何家村窖藏",
+      "location": "陕西历史博物馆"
+    }
+  },
+  {
+    "id": "c8",
+    "periodId": "tang",
+    "titleEn": "Gilt-silver Flask with Dancing Horse",
+    "titleCn": "鎏金舞马衔杯纹银壶",
+    "year": 740,
+    "descriptionEn": "A silver flask depicting a dancing horse, reflecting the prosperous culture of the Tang Dynasty.",
+    "descriptionCn": "盛唐时期金银器，壶身两侧各有一匹口衔酒杯、跪拜祝寿的舞马，印证了唐玄宗时期舞马祝寿的历史记载。",
+    "meta": {
+      "material": "银、鎏金 (Silver, Gilt Gold)",
+      "excavation": "陕西西安何家村窖藏",
+      "location": "陕西历史博物馆"
+    }
+  },
+  {
+    "id": "c9",
+    "periodId": "song",
+    "titleEn": "Along the River During the Qingming Festival",
+    "titleCn": "清明上河图",
+    "year": 1110,
+    "descriptionEn": "A panoramic painting by Zhang Zeduan capturing the daily life of people in the Song Dynasty.",
+    "descriptionCn": "北宋风俗画，张择端仅见的存世精品，生动记录了中国十二世纪北宋都城东京的城市面貌和当时社会各阶层人民的生活状况。",
+    "creator": "Zhang Zeduan",
+    "creatorCn": "张择端",
+    "meta": {
+      "material": "绢本设色 (Ink and color on silk)",
+      "excavation": "传世品",
+      "location": "北京故宫博物院"
+    }
+  },
+  {
+    "id": "c10",
+    "periodId": "yuan",
+    "titleEn": "Dushan Grand Jade Sea",
+    "titleCn": "渎山大玉海",
+    "year": 1265,
+    "descriptionEn": "A massive jade wine vessel commissioned by Kublai Khan in the Yuan Dynasty.",
+    "descriptionCn": "元代大型玉雕，元世祖忽必烈下令制作的巨型贮酒器，是中国现存最早的大型玉器。",
+    "meta": {
+      "material": "独山玉 (Dushan Jade)",
+      "excavation": "传世品",
+      "location": "北京北海公园团城"
+    }
+  },
+  {
+    "id": "c11",
+    "periodId": "qing",
+    "titleEn": "Jade Mountain with Yu the Great Taming the Waters",
+    "titleCn": "大禹治水图玉山",
+    "year": 1787,
+    "descriptionEn": "The largest jade sculpture in the world, depicting the legendary Yu the Great controlling floods.",
+    "descriptionCn": "清乾隆时期玉雕，世界上最大的玉雕作品，耗时十年雕琢而成，气势磅礴。",
+    "meta": {
+      "material": "和田玉 (Hetian Jade)",
+      "excavation": "传世品",
+      "location": "北京故宫博物院"
+    }
+  }
+]

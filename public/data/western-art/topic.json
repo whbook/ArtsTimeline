@@ -1,0 +1,22 @@
+{
+  "id": "western-art",
+  "titleEn": "Western Art History",
+  "titleCn": "西方绘画史",
+  "description": "A timeline of Western Art History",
+  "color": "#800080",
+  "defaultViewport": {
+    "startYear": -4000,
+    "endYear": 2050
+  },
+  "minZoomRange": 1,
+  "maxZoomRange": 10000,
+  "playbackSpeed": 1.0,
+  "eventFields": [
+    {
+      "key": "creator",
+      "labelEn": "Artist",
+      "labelCn": "艺术家",
+      "type": "text"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ancient",
+    "nameEn": "Ancient Civilizations",
+    "nameCn": "上古文明时代",
+    "startYear": -3500,
+    "endYear": -500,
+    "colorHex": "#8B4513",
+    "colorBackground": "#fcfaf9"
+  },
+  {
+    "id": "classical",
+    "nameEn": "Classical Antiquity",
+    "nameCn": "古典时代",
+    "startYear": -500,
+    "endYear": 500,
+    "colorHex": "#DAA520",
+    "colorBackground": "#fdfdf0"
+  },
+  {
+    "id": "post_classical",
+    "nameEn": "Post-Classical / Middle Ages",
+    "nameCn": "中古时代 / 中世纪",
+    "startYear": 500,
+    "endYear": 1500,
+    "colorHex": "#4682B4",
+    "colorBackground": "#f0f4f8"
+  },
+  {
+    "id": "early_modern",
+    "nameEn": "Early Modern Period",
+    "nameCn": "早期现代",
+    "startYear": 1500,
+    "endYear": 1800,
+    "colorHex": "#800080",
+    "colorBackground": "#faf5fa"
+  },
+  {
+    "id": "modern",
+    "nameEn": "Modern & Contemporary",
+    "nameCn": "近现代与当代",
+    "startYear": 1800,
+    "endYear": 2050,
+    "colorHex": "#C71585",
+    "colorBackground": "#fff0f5"
+  }
+]

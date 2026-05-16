@@ -1,0 +1,26 @@
+[
+  {
+    "id": "western-art",
+    "titleCn": "西方绘画史",
+    "titleEn": "Western Art History",
+    "color": "#800080"
+  },
+  {
+    "id": "chinese-artifacts",
+    "titleCn": "中国文物史",
+    "titleEn": "Chinese Artifacts",
+    "color": "#C0392B"
+  },
+  {
+    "id": "japanese-art",
+    "titleCn": "日本艺术史",
+    "titleEn": "Japanese Art History",
+    "color": "#2E86C1"
+  },
+  {
+    "id": "world-civilizations",
+    "titleCn": "世界文明史",
+    "titleEn": "World Civilizations",
+    "color": "#27AE60"
+  }
+]

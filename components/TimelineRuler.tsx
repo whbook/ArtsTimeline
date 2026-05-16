@@ -62,9 +62,11 @@ const TimelineRuler: React.FC<TimelineRulerProps> = ({ viewport, hoveredMovement
     const right = getX(hoveredMovement.endYear);
     const width = right - left;
     return {
-        left: `${left}%`,
-        width: `${Math.max(width, 0)}%`,
+        left: 0,
+        width: `${Math.max(width, 0)}vw`,
+        transform: `translate3d(${left}vw, 0, 0)`,
         backgroundColor: hoveredMovement.color,
+        willChange: 'transform'
     };
   }, [hoveredMovement, startYear, range]);
 
@@ -99,7 +101,11 @@ const TimelineRuler: React.FC<TimelineRulerProps> = ({ viewport, hoveredMovement
           <div
             key={tick}
             className="absolute bottom-0 flex flex-col items-center pointer-events-none"
-            style={{ left: `${xPos}%`, transform: 'translateX(-50%)' }}
+            style={{ 
+              left: 0, 
+              transform: `translate3d(calc(${xPos}vw - 50%), 0, 0)`,
+              willChange: 'transform'
+            }}
           >
             <span className="text-[9px] font-semibold text-gray-500 mb-1 whitespace-nowrap">
               {formatLabel(tick)}
@@ -113,7 +119,11 @@ const TimelineRuler: React.FC<TimelineRulerProps> = ({ viewport, hoveredMovement
       {markerPosition !== null && (
           <div 
             className="absolute bottom-0 w-[2px] h-[10px] bg-red-600 z-50 transition-all duration-75 pointer-events-none"
-            style={{ left: `${markerPosition}%`, transform: 'translateX(-50%)' }}
+            style={{ 
+              left: 0, 
+              transform: `translate3d(calc(${markerPosition}vw - 50%), 0, 0)`,
+              willChange: 'transform'
+            }}
           >
               {/* Optional tiny triangle or dot at bottom to indicate precision */}
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-red-600 rounded-full -mt-1"></div>

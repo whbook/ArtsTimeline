@@ -1,0 +1,200 @@
+[
+  {
+    "id": "neolithic",
+    "nameEn": "Neolithic Period",
+    "nameCn": "新石器时代",
+    "startYear": -10000,
+    "endYear": -2070,
+    "colorHex": "#8B4513",
+    "colorBackground": "#fcfaf9"
+  },
+  {
+    "id": "xia",
+    "nameEn": "Xia Dynasty",
+    "nameCn": "夏朝",
+    "startYear": -2070,
+    "endYear": -1600,
+    "colorHex": "#D2691E",
+    "colorBackground": "#fdf8f4"
+  },
+  {
+    "id": "shang",
+    "nameEn": "Shang Dynasty",
+    "nameCn": "商朝",
+    "startYear": -1600,
+    "endYear": -1046,
+    "colorHex": "#DAA520",
+    "colorBackground": "#fdfdf0"
+  },
+  {
+    "id": "western_zhou",
+    "nameEn": "Western Zhou",
+    "nameCn": "西周",
+    "startYear": -1046,
+    "endYear": -771,
+    "colorHex": "#B8860B",
+    "colorBackground": "#fdfdf0"
+  },
+  {
+    "id": "eastern_zhou",
+    "nameEn": "Eastern Zhou (Spring & Autumn, Warring States)",
+    "nameCn": "东周 (春秋战国)",
+    "startYear": -770,
+    "endYear": -256,
+    "colorHex": "#CD853F",
+    "colorBackground": "#fdfdf0"
+  },
+  {
+    "id": "qin",
+    "nameEn": "Qin Dynasty",
+    "nameCn": "秦朝",
+    "startYear": -221,
+    "endYear": -206,
+    "colorHex": "#556B2F",
+    "colorBackground": "#f4fbf4"
+  },
+  {
+    "id": "western_han",
+    "nameEn": "Western Han",
+    "nameCn": "西汉",
+    "startYear": -202,
+    "endYear": 8,
+    "colorHex": "#6B8E23",
+    "colorBackground": "#f4fbf4"
+  },
+  {
+    "id": "xin",
+    "nameEn": "Xin Dynasty",
+    "nameCn": "新朝",
+    "startYear": 8,
+    "endYear": 23,
+    "colorHex": "#808000",
+    "colorBackground": "#f4fbf4"
+  },
+  {
+    "id": "eastern_han",
+    "nameEn": "Eastern Han",
+    "nameCn": "东汉",
+    "startYear": 25,
+    "endYear": 220,
+    "colorHex": "#9ACD32",
+    "colorBackground": "#f4fbf4"
+  },
+  {
+    "id": "three_kingdoms",
+    "nameEn": "Three Kingdoms",
+    "nameCn": "三国",
+    "startYear": 220,
+    "endYear": 280,
+    "colorHex": "#4682B4",
+    "colorBackground": "#f0f4f8"
+  },
+  {
+    "id": "jin",
+    "nameEn": "Jin Dynasty",
+    "nameCn": "晋朝",
+    "startYear": 265,
+    "endYear": 420,
+    "colorHex": "#5F9EA0",
+    "colorBackground": "#f0f4f8"
+  },
+  {
+    "id": "southern_northern",
+    "nameEn": "Southern & Northern Dynasties",
+    "nameCn": "南北朝",
+    "startYear": 420,
+    "endYear": 589,
+    "colorHex": "#4169E1",
+    "colorBackground": "#f0f4f8"
+  },
+  {
+    "id": "sui",
+    "nameEn": "Sui Dynasty",
+    "nameCn": "隋朝",
+    "startYear": 581,
+    "endYear": 618,
+    "colorHex": "#483D8B",
+    "colorBackground": "#f0f0f8"
+  },
+  {
+    "id": "tang",
+    "nameEn": "Tang Dynasty",
+    "nameCn": "唐朝",
+    "startYear": 618,
+    "endYear": 907,
+    "colorHex": "#6A5ACD",
+    "colorBackground": "#f0f0f8"
+  },
+  {
+    "id": "five_dynasties",
+    "nameEn": "Five Dynasties & Ten Kingdoms",
+    "nameCn": "五代十国",
+    "startYear": 907,
+    "endYear": 979,
+    "colorHex": "#7B68EE",
+    "colorBackground": "#f0f0f8"
+  },
+  {
+    "id": "song",
+    "nameEn": "Song Dynasty",
+    "nameCn": "宋朝",
+    "startYear": 960,
+    "endYear": 1279,
+    "colorHex": "#800080",
+    "colorBackground": "#faf5fa"
+  },
+  {
+    "id": "liao_jin_xia",
+    "nameEn": "Liao, Jin, Western Xia",
+    "nameCn": "辽金西夏",
+    "startYear": 916,
+    "endYear": 1234,
+    "colorHex": "#8B008B",
+    "colorBackground": "#faf5fa"
+  },
+  {
+    "id": "yuan",
+    "nameEn": "Yuan Dynasty",
+    "nameCn": "元朝",
+    "startYear": 1271,
+    "endYear": 1368,
+    "colorHex": "#9932CC",
+    "colorBackground": "#faf5fa"
+  },
+  {
+    "id": "ming",
+    "nameEn": "Ming Dynasty",
+    "nameCn": "明朝",
+    "startYear": 1368,
+    "endYear": 1644,
+    "colorHex": "#8B0000",
+    "colorBackground": "#fdf2f2"
+  },
+  {
+    "id": "qing",
+    "nameEn": "Qing Dynasty",
+    "nameCn": "清朝",
+    "startYear": 1644,
+    "endYear": 1912,
+    "colorHex": "#A52A2A",
+    "colorBackground": "#fdf2f2"
+  },
+  {
+    "id": "roc",
+    "nameEn": "Republic of China",
+    "nameCn": "中华民国",
+    "startYear": 1912,
+    "endYear": 1949,
+    "colorHex": "#C71585",
+    "colorBackground": "#fff0f5"
+  },
+  {
+    "id": "prc",
+    "nameEn": "People's Republic of China",
+    "nameCn": "中华人民共和国",
+    "startYear": 1949,
+    "endYear": 2025,
+    "colorHex": "#FF1493",
+    "colorBackground": "#fff0f5"
+  }
+]

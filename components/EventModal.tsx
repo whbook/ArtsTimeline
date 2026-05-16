@@ -1,20 +1,20 @@
 import React from 'react';
 import { X } from 'lucide-react';
-import { TimelineEvent } from '../types';
+import { TimelineEvent, Topic } from '../types';
 
-interface ArtworkModalProps {
+interface EventModalProps {
+  topic: Topic;
   event: TimelineEvent | null;
   onClose: () => void;
 }
 
-const ArtworkModal: React.FC<ArtworkModalProps> = ({ event, onClose }) => {
+const EventModal: React.FC<EventModalProps> = ({ topic, event, onClose }) => {
   if (!event) return null;
 
-  const [titleEng, titleCn] = event.label.split('/').map(s => s.trim());
-  const descriptionParts = event.description ? event.description.split('\n') : [];
-  const descEng = descriptionParts[0];
-  const descCn = descriptionParts[1];
-  const artistParts = event.artist ? event.artist.split('/') : ['Unknown'];
+  const titleEng = event.titleEn;
+  const titleCn = event.titleCn;
+  const descEng = event.descriptionEn;
+  const descCn = event.descriptionCn;
 
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" onClick={onClose}>
@@ -44,15 +44,23 @@ const ArtworkModal: React.FC<ArtworkModalProps> = ({ event, onClose }) => {
 
         {/* Content */}
         <div className="p-6">
-            <div className="flex justify-between items-start border-b border-gray-100 pb-4 mb-4">
-                <div>
-                    <span className="text-xs font-bold uppercase tracking-wider text-gray-400">Artist / 艺术家</span>
-                    <p className="text-lg font-medium text-gray-900">
-                        {artistParts[0]} 
-                        {artistParts[1] && <span className="text-gray-500 ml-2 text-base font-normal">{artistParts[1]}</span>}
-                    </p>
-                </div>
-                <div className="text-right">
+            <div className="flex flex-wrap gap-y-4 justify-between items-start border-b border-gray-100 pb-4 mb-4">
+                {/* Dynamic Fields */}
+                {topic.eventFields.map(field => {
+                    let value = (event as any)[field.key] || (event.meta && event.meta[field.key]);
+                    if (!value) return null;
+                    
+                    return (
+                        <div key={field.key} className="min-w-[45%]">
+                            <span className="text-xs font-bold uppercase tracking-wider text-gray-400">{field.labelEn} / {field.labelCn}</span>
+                            <p className="text-lg font-medium text-gray-900">
+                                {value}
+                            </p>
+                        </div>
+                    );
+                })}
+                
+                <div className="text-right ml-auto">
                     <span className="text-xs font-bold uppercase tracking-wider text-gray-400">Year / 年份</span>
                     <p className="text-xl font-serif font-bold text-gray-900">
                         {event.year < 0 ? `${Math.abs(event.year)} BCE` : event.year}
@@ -61,10 +69,12 @@ const ArtworkModal: React.FC<ArtworkModalProps> = ({ event, onClose }) => {
             </div>
 
             <div className="space-y-4">
-                <div>
-                    <h4 className="font-bold text-gray-800 mb-1">Description</h4>
-                    <p className="text-gray-600 leading-relaxed text-sm">{descEng}</p>
-                </div>
+                {descEng && (
+                  <div>
+                      <h4 className="font-bold text-gray-800 mb-1">Description</h4>
+                      <p className="text-gray-600 leading-relaxed text-sm">{descEng}</p>
+                  </div>
+                )}
                 {descCn && (
                     <div>
                         <h4 className="font-bold text-gray-800 mb-1">简介</h4>
@@ -78,4 +88,4 @@ const ArtworkModal: React.FC<ArtworkModalProps> = ({ event, onClose }) => {
   );
 };
 
-export default ArtworkModal;
+export default EventModal;

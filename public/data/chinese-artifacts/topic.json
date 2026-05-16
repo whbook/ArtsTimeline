@@ -1,0 +1,34 @@
+{
+  "id": "chinese-artifacts",
+  "titleEn": "Chinese Artifacts History",
+  "titleCn": "中国文物史",
+  "description": "A timeline of Chinese historical artifacts and cultural heritage / 中国历代文物与文化遗产时间轴",
+  "color": "#C0392B",
+  "defaultViewport": {
+    "startYear": -3000,
+    "endYear": 2000
+  },
+  "minZoomRange": 10,
+  "maxZoomRange": 15000,
+  "playbackSpeed": 0.8,
+  "eventFields": [
+    {
+      "key": "material",
+      "labelEn": "Material",
+      "labelCn": "材质",
+      "type": "text"
+    },
+    {
+      "key": "excavation",
+      "labelEn": "Excavation",
+      "labelCn": "出土/发现地",
+      "type": "text"
+    },
+    {
+      "key": "location",
+      "labelEn": "Current Location",
+      "labelCn": "现藏地",
+      "type": "text"
+    }
+  ]
+}
