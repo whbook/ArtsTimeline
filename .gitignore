@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Build and Deployment artifacts
+*.zip
+*.ps1
+*.conf
+*.cjs

@@ -1,1 +1,310 @@
-[]
+[
+  {
+    "id": "s_neolithic",
+    "periodId": "neolithic",
+    "nameEn": "Neolithic Period",
+    "nameCn": "新石器时代",
+    "start": {
+      "year": -10000
+    },
+    "end": {
+      "year": -2070
+    },
+    "color": "#8B4513",
+    "lane": 0
+  },
+  {
+    "id": "s_xia",
+    "periodId": "xia",
+    "nameEn": "Xia Dynasty",
+    "nameCn": "夏朝",
+    "start": {
+      "year": -2070
+    },
+    "end": {
+      "year": -1600
+    },
+    "color": "#D2691E",
+    "lane": 1
+  },
+  {
+    "id": "s_shang",
+    "periodId": "shang",
+    "nameEn": "Shang Dynasty",
+    "nameCn": "商朝",
+    "start": {
+      "year": -1600
+    },
+    "end": {
+      "year": -1046
+    },
+    "color": "#DAA520",
+    "lane": 2
+  },
+  {
+    "id": "s_western_zhou",
+    "periodId": "western_zhou",
+    "nameEn": "Western Zhou",
+    "nameCn": "西周",
+    "start": {
+      "year": -1046
+    },
+    "end": {
+      "year": -771
+    },
+    "color": "#B8860B",
+    "lane": 3
+  },
+  {
+    "id": "s_eastern_zhou",
+    "periodId": "eastern_zhou",
+    "nameEn": "Eastern Zhou (Spring & Autumn, Warring States)",
+    "nameCn": "东周 (春秋战国)",
+    "start": {
+      "year": -770
+    },
+    "end": {
+      "year": -256
+    },
+    "color": "#CD853F",
+    "lane": 0
+  },
+  {
+    "id": "s_qin",
+    "periodId": "qin",
+    "nameEn": "Qin Dynasty",
+    "nameCn": "秦朝",
+    "start": {
+      "year": -221
+    },
+    "end": {
+      "year": -206
+    },
+    "color": "#556B2F",
+    "lane": 1
+  },
+  {
+    "id": "s_western_han",
+    "periodId": "western_han",
+    "nameEn": "Western Han",
+    "nameCn": "西汉",
+    "start": {
+      "year": -202
+    },
+    "end": {
+      "year": 8
+    },
+    "color": "#6B8E23",
+    "lane": 2
+  },
+  {
+    "id": "s_xin",
+    "periodId": "xin",
+    "nameEn": "Xin Dynasty",
+    "nameCn": "新朝",
+    "start": {
+      "year": 8
+    },
+    "end": {
+      "year": 23
+    },
+    "color": "#808000",
+    "lane": 3
+  },
+  {
+    "id": "s_eastern_han",
+    "periodId": "eastern_han",
+    "nameEn": "Eastern Han",
+    "nameCn": "东汉",
+    "start": {
+      "year": 25
+    },
+    "end": {
+      "year": 220
+    },
+    "color": "#9ACD32",
+    "lane": 0
+  },
+  {
+    "id": "s_three_kingdoms",
+    "periodId": "three_kingdoms",
+    "nameEn": "Three Kingdoms",
+    "nameCn": "三国",
+    "start": {
+      "year": 220
+    },
+    "end": {
+      "year": 280
+    },
+    "color": "#4682B4",
+    "lane": 1
+  },
+  {
+    "id": "s_jin",
+    "periodId": "jin",
+    "nameEn": "Jin Dynasty",
+    "nameCn": "晋朝",
+    "start": {
+      "year": 265
+    },
+    "end": {
+      "year": 420
+    },
+    "color": "#5F9EA0",
+    "lane": 2
+  },
+  {
+    "id": "s_southern_northern",
+    "periodId": "southern_northern",
+    "nameEn": "Southern & Northern Dynasties",
+    "nameCn": "南北朝",
+    "start": {
+      "year": 420
+    },
+    "end": {
+      "year": 589
+    },
+    "color": "#4169E1",
+    "lane": 3
+  },
+  {
+    "id": "s_sui",
+    "periodId": "sui",
+    "nameEn": "Sui Dynasty",
+    "nameCn": "隋朝",
+    "start": {
+      "year": 581
+    },
+    "end": {
+      "year": 618
+    },
+    "color": "#483D8B",
+    "lane": 0
+  },
+  {
+    "id": "s_tang",
+    "periodId": "tang",
+    "nameEn": "Tang Dynasty",
+    "nameCn": "唐朝",
+    "start": {
+      "year": 618
+    },
+    "end": {
+      "year": 907
+    },
+    "color": "#6A5ACD",
+    "lane": 1
+  },
+  {
+    "id": "s_five_dynasties",
+    "periodId": "five_dynasties",
+    "nameEn": "Five Dynasties & Ten Kingdoms",
+    "nameCn": "五代十国",
+    "start": {
+      "year": 907
+    },
+    "end": {
+      "year": 979
+    },
+    "color": "#7B68EE",
+    "lane": 2
+  },
+  {
+    "id": "s_song",
+    "periodId": "song",
+    "nameEn": "Song Dynasty",
+    "nameCn": "宋朝",
+    "start": {
+      "year": 960
+    },
+    "end": {
+      "year": 1279
+    },
+    "color": "#800080",
+    "lane": 3
+  },
+  {
+    "id": "s_liao_jin_xia",
+    "periodId": "liao_jin_xia",
+    "nameEn": "Liao, Jin, Western Xia",
+    "nameCn": "辽金西夏",
+    "start": {
+      "year": 916
+    },
+    "end": {
+      "year": 1234
+    },
+    "color": "#8B008B",
+    "lane": 0
+  },
+  {
+    "id": "s_yuan",
+    "periodId": "yuan",
+    "nameEn": "Yuan Dynasty",
+    "nameCn": "元朝",
+    "start": {
+      "year": 1271
+    },
+    "end": {
+      "year": 1368
+    },
+    "color": "#9932CC",
+    "lane": 1
+  },
+  {
+    "id": "s_ming",
+    "periodId": "ming",
+    "nameEn": "Ming Dynasty",
+    "nameCn": "明朝",
+    "start": {
+      "year": 1368
+    },
+    "end": {
+      "year": 1644
+    },
+    "color": "#8B0000",
+    "lane": 2
+  },
+  {
+    "id": "s_qing",
+    "periodId": "qing",
+    "nameEn": "Qing Dynasty",
+    "nameCn": "清朝",
+    "start": {
+      "year": 1644
+    },
+    "end": {
+      "year": 1912
+    },
+    "color": "#A52A2A",
+    "lane": 3
+  },
+  {
+    "id": "s_roc",
+    "periodId": "roc",
+    "nameEn": "Republic of China",
+    "nameCn": "中华民国",
+    "start": {
+      "year": 1912
+    },
+    "end": {
+      "year": 1949
+    },
+    "color": "#C71585",
+    "lane": 0
+  },
+  {
+    "id": "s_prc",
+    "periodId": "prc",
+    "nameEn": "People's Republic of China",
+    "nameCn": "中华人民共和国",
+    "start": {
+      "year": 1949
+    },
+    "end": {
+      "year": 2025
+    },
+    "color": "#FF1493",
+    "lane": 1
+  }
+]

@@ -19,3 +19,14 @@ export const BASE_SCREEN_WIDTH = 1920;
 export const BASE_SCREEN_HEIGHT = 1080;
 // 底部面板的基准列宽
 export const BASE_COLUMN_WIDTH = 320;
+
+// --- Level of Detail (LOD) / 语义缩放配置 ---
+// 映射事件的 importance 等级 (1-5) 到它能保持可见的【最大标准化时间跨度】(年)
+// 例如：等级 3 的事件，只有当屏幕上显示的时间跨度小于 1500 年时才会出现
+export const IMPORTANCE_THRESHOLDS: Record<number, number> = {
+  1: Infinity, // 等级 1: 国家/全球级，永远可见
+  2: 5000,     // 等级 2: 省级/大时代级，跨度 <= 5000年可见
+  3: 1500,     // 等级 3: 市级/重要流派级，跨度 <= 1500年可见
+  4: 400,      // 等级 4: 区级/普通事件级，跨度 <= 400年可见
+  5: 100       // 等级 5: 街道级/细节事件级，跨度 <= 100年可见
+};

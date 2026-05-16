@@ -1,7 +1,52 @@
+import { FuzzyDate } from './types';
+
 export const MONTHS = [
   "Jan/1月", "Feb/2月", "Mar/3月", "Apr/4月", "May/5月", "Jun/6月", 
   "Jul/7月", "Aug/8月", "Sep/9月", "Oct/10月", "Nov/11月", "Dec/12月"
 ];
+
+// Convert a FuzzyDate object to a precise decimal year for mathematical positioning
+export const getDecimalYear = (fd: FuzzyDate): number => {
+  let y = fd.year;
+  if (fd.month) {
+    // month is 1-indexed
+    y += (fd.month - 1) / 12;
+    if (fd.day) {
+      // day is 1-indexed, approximate 30.44 days per month
+      y += (fd.day - 1) / 365.25;
+    }
+  }
+  return y;
+};
+
+// Format a FuzzyDate into a human-readable string with accuracy prefixes
+export const formatFuzzyDate = (fd: FuzzyDate): string => {
+  let base = '';
+  if (fd.year < 0) {
+    base = `公元前${Math.abs(fd.year)}年`;
+  } else {
+    base = `${fd.year}年`;
+  }
+  
+  if (fd.month) {
+    base += `${fd.month}月`;
+    if (fd.day) {
+      base += `${fd.day}日`;
+    }
+  }
+
+  switch (fd.accuracy) {
+    case 'approximate': 
+      return `约 ${base}`;
+    case 'not_before': 
+      return `不早于 ${base}`;
+    case 'not_after': 
+      return `不晚于 ${base}`;
+    case 'exact':
+    default:
+      return base;
+  }
+};
 
 // Convert a decimal year (e.g. 2020.5) to { year, month, day }
 // Assumptions: 1 year = 12 months, 1 month = ~30.44 days

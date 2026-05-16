@@ -4,152 +4,209 @@
     "periodId": "ancient",
     "nameEn": "Xia, Shang, Zhou",
     "nameCn": "夏商周 (中国/东亚)",
-    "startYear": -2070,
-    "endYear": -256,
     "color": "#D2691E",
-    "lane": 0
+    "lane": 0,
+    "start": {
+      "year": -2070
+    },
+    "end": {
+      "year": -256
+    }
   },
   {
     "id": "s_china_2",
     "periodId": "classical",
     "nameEn": "Qin, Han",
     "nameCn": "秦汉 (中国/东亚)",
-    "startYear": -221,
-    "endYear": 220,
     "color": "#D2691E",
-    "lane": 0
+    "lane": 0,
+    "start": {
+      "year": -221
+    },
+    "end": {
+      "year": 220
+    }
   },
   {
     "id": "s_china_3",
     "periodId": "post_classical",
     "nameEn": "Sui, Tang, Song",
     "nameCn": "隋唐宋 (中国/东亚)",
-    "startYear": 581,
-    "endYear": 1279,
     "color": "#D2691E",
-    "lane": 0
+    "lane": 0,
+    "start": {
+      "year": 581
+    },
+    "end": {
+      "year": 1279
+    }
   },
   {
     "id": "s_china_4",
     "periodId": "early_modern",
     "nameEn": "Ming, Qing",
     "nameCn": "明清 (中国/东亚)",
-    "startYear": 1368,
-    "endYear": 1912,
     "color": "#D2691E",
-    "lane": 0
+    "lane": 0,
+    "start": {
+      "year": 1368
+    },
+    "end": {
+      "year": 1912
+    }
   },
-
   {
     "id": "s_europe_1",
     "periodId": "ancient",
     "nameEn": "Ancient Greece",
     "nameCn": "古希腊 (欧洲)",
-    "startYear": -800,
-    "endYear": -146,
     "color": "#556B2F",
-    "lane": 1
+    "lane": 1,
+    "start": {
+      "year": -800
+    },
+    "end": {
+      "year": -146
+    }
   },
   {
     "id": "s_europe_2",
     "periodId": "classical",
     "nameEn": "Roman Empire",
     "nameCn": "罗马帝国 (欧洲)",
-    "startYear": -27,
-    "endYear": 476,
     "color": "#556B2F",
-    "lane": 1
+    "lane": 1,
+    "start": {
+      "year": -27
+    },
+    "end": {
+      "year": 476
+    }
   },
   {
     "id": "s_europe_3",
     "periodId": "post_classical",
     "nameEn": "Byzantine Empire",
     "nameCn": "拜占庭帝国 (欧洲)",
-    "startYear": 330,
-    "endYear": 1453,
     "color": "#556B2F",
-    "lane": 1
+    "lane": 1,
+    "start": {
+      "year": 330
+    },
+    "end": {
+      "year": 1453
+    }
   },
   {
     "id": "s_europe_4",
     "periodId": "early_modern",
     "nameEn": "Renaissance & Enlightenment",
     "nameCn": "文艺复兴与启蒙 (欧洲)",
-    "startYear": 1300,
-    "endYear": 1800,
     "color": "#556B2F",
-    "lane": 1
+    "lane": 1,
+    "start": {
+      "year": 1300
+    },
+    "end": {
+      "year": 1800
+    }
   },
-
   {
     "id": "s_mideast_1",
     "periodId": "ancient",
     "nameEn": "Ancient Egypt & Mesopotamia",
     "nameCn": "古埃及与两河 (中东/北非)",
-    "startYear": -3100,
-    "endYear": -332,
     "color": "#DAA520",
-    "lane": 2
+    "lane": 2,
+    "start": {
+      "year": -3100
+    },
+    "end": {
+      "year": -332
+    }
   },
   {
     "id": "s_mideast_2",
     "periodId": "classical",
     "nameEn": "Persian Empires",
     "nameCn": "波斯帝国 (中东)",
-    "startYear": -550,
-    "endYear": 651,
     "color": "#DAA520",
-    "lane": 2
+    "lane": 2,
+    "start": {
+      "year": -550
+    },
+    "end": {
+      "year": 651
+    }
   },
   {
     "id": "s_mideast_3",
     "periodId": "post_classical",
     "nameEn": "Islamic Caliphates",
     "nameCn": "阿拉伯帝国 (中东)",
-    "startYear": 632,
-    "endYear": 1258,
     "color": "#DAA520",
-    "lane": 2
+    "lane": 2,
+    "start": {
+      "year": 632
+    },
+    "end": {
+      "year": 1258
+    }
   },
   {
     "id": "s_mideast_4",
     "periodId": "early_modern",
     "nameEn": "Ottoman Empire",
     "nameCn": "奥斯曼帝国 (中东)",
-    "startYear": 1299,
-    "endYear": 1922,
     "color": "#DAA520",
-    "lane": 2
+    "lane": 2,
+    "start": {
+      "year": 1299
+    },
+    "end": {
+      "year": 1922
+    }
   },
-
   {
     "id": "s_americas_1",
     "periodId": "ancient",
     "nameEn": "Indus Valley",
     "nameCn": "印度河文明 (南亚)",
-    "startYear": -2500,
-    "endYear": -1700,
     "color": "#4682B4",
-    "lane": 3
+    "lane": 3,
+    "start": {
+      "year": -2500
+    },
+    "end": {
+      "year": -1700
+    }
   },
   {
     "id": "s_americas_2",
     "periodId": "post_classical",
     "nameEn": "Maya Civilization",
     "nameCn": "玛雅文明 (美洲)",
-    "startYear": 250,
-    "endYear": 1500,
     "color": "#4682B4",
-    "lane": 3
+    "lane": 3,
+    "start": {
+      "year": 250
+    },
+    "end": {
+      "year": 1500
+    }
   },
   {
     "id": "s_americas_3",
     "periodId": "early_modern",
     "nameEn": "Inca & Aztec",
     "nameCn": "印加与阿兹特克 (美洲)",
-    "startYear": 1300,
-    "endYear": 1533,
     "color": "#4682B4",
-    "lane": 3
+    "lane": 3,
+    "start": {
+      "year": 1300
+    },
+    "end": {
+      "year": 1533
+    }
   }
 ]

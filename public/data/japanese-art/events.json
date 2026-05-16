@@ -4,13 +4,15 @@
     "periodId": "jomon",
     "titleEn": "Dogū (Clay Figurine)",
     "titleCn": "遮光器土偶",
-    "year": -1000,
     "descriptionEn": "Abstract clay figurines from the late Jōmon period, often believed to have sympathetic magic purposes.",
     "descriptionCn": "绳文时代晚期的代表性陶偶，造型夸张，双目如佩戴遮光器，被认为与祭祀或祈求丰收有关。",
     "meta": {
       "creator": "Unknown / 佚名",
       "medium": "Earthenware / 陶土",
       "location": "Tokyo National Museum / 东京国立博物馆"
+    },
+    "date": {
+      "year": -1000
     }
   },
   {
@@ -18,13 +20,15 @@
     "periodId": "yayoi",
     "titleEn": "Dōtaku (Bronze Bell)",
     "titleCn": "袈裟襷文铜铎",
-    "year": 100,
     "descriptionEn": "A bronze bell used for ritual purposes in the Yayoi period, decorated with crossing bands.",
     "descriptionCn": "弥生时代的青铜祭器，表面饰有类似袈裟的交叉纹样，反映了当时的农耕祭祀文化。",
     "meta": {
       "creator": "Unknown / 佚名",
       "medium": "Bronze / 青铜",
       "location": "Tokyo National Museum / 东京国立博物馆"
+    },
+    "date": {
+      "year": 100
     }
   },
   {
@@ -32,13 +36,15 @@
     "periodId": "kofun",
     "titleEn": "Haniwa Warrior",
     "titleCn": "武人埴轮",
-    "year": 500,
     "descriptionEn": "Terracotta clay figures made for ritual use and buried with the dead as funerary objects.",
     "descriptionCn": "古坟时代的陶制殉葬品，这件武人埴轮身披铠甲，生动展现了当时的军事装备。",
     "meta": {
       "creator": "Unknown / 佚名",
       "medium": "Terracotta / 陶土",
       "location": "Tokyo National Museum / 东京国立博物馆"
+    },
+    "date": {
+      "year": 500
     }
   },
   {
@@ -46,13 +52,15 @@
     "periodId": "asuka",
     "titleEn": "Tamamushi Shrine",
     "titleCn": "玉虫厨子",
-    "year": 650,
     "descriptionEn": "A miniature shrine decorated with iridescent wings of the jewel beetle, featuring early Buddhist paintings.",
     "descriptionCn": "飞鸟时代的微型佛龛，原以玉虫（吉丁虫）翅膀装饰，其上的绘画是日本现存最古老的佛教绘画之一。",
     "meta": {
       "creator": "Unknown / 佚名",
       "medium": "Wood, lacquer, beetle wings / 木、漆、虫翅",
       "location": "Hōryū-ji, Nara / 奈良法隆寺"
+    },
+    "date": {
+      "year": 650
     }
   },
   {
@@ -60,13 +68,15 @@
     "periodId": "nara",
     "titleEn": "Statue of Ashura",
     "titleCn": "阿修罗像",
-    "year": 734,
     "descriptionEn": "A dry-lacquer statue of the multi-armed deity Ashura, famous for its sorrowful, adolescent expression.",
     "descriptionCn": "奈良时代脱活干漆造像的巅峰之作，三面六臂的阿修罗展现出充满哀愁的少年面容。",
     "meta": {
       "creator": "Unknown / 佚名",
       "medium": "Dry lacquer / 脱活干漆",
       "location": "Kōfuku-ji, Nara / 奈良兴福寺"
+    },
+    "date": {
+      "year": 734
     }
   },
   {
@@ -74,83 +84,101 @@
     "periodId": "heian",
     "titleEn": "The Tale of Genji Scroll",
     "titleCn": "源氏物语绘卷",
-    "year": 1130,
     "descriptionEn": "The oldest surviving illustration of The Tale of Genji, a masterpiece of Yamato-e painting.",
     "descriptionCn": "日本现存最古老的《源氏物语》插画，大和绘的巅峰之作，采用“吹拔屋台”的透视技法。",
     "meta": {
       "creator": "Attributed to Fujiwara no Takayoshi / 传 藤原隆能",
       "medium": "Ink and color on paper / 纸本设色",
       "location": "Tokugawa Art Museum / 德川美术馆"
-    }
+    },
+    "date": {
+      "year": 1130
+    },
+    "streamId": "s1"
   },
   {
     "id": "j7",
     "periodId": "kamakura",
     "titleEn": "The Great Buddha of Kamakura",
     "titleCn": "镰仓大佛",
-    "year": 1252,
     "descriptionEn": "A monumental outdoor bronze statue of Amida Buddha.",
     "descriptionCn": "镰仓时代的标志性露天青铜阿弥陀佛坐像，高约13.35米。",
     "meta": {
       "creator": "Unknown / 佚名",
       "medium": "Bronze / 青铜",
       "location": "Kōtoku-in, Kamakura / 镰仓高德院"
-    }
+    },
+    "date": {
+      "year": 1252
+    },
+    "streamId": "s2"
   },
   {
     "id": "j8",
     "periodId": "muromachi",
     "titleEn": "Pine Trees Screen",
     "titleCn": "松林图屏风",
-    "year": 1590,
     "descriptionEn": "A masterpiece of Japanese ink wash painting, depicting pine trees in mist.",
     "descriptionCn": "日本水墨画的最高杰作之一，以极简的笔墨描绘了雾中若隐若现的松林。",
     "meta": {
       "creator": "Hasegawa Tōhaku / 长谷川等伯",
       "medium": "Ink on paper / 纸本墨画",
       "location": "Tokyo National Museum / 东京国立博物馆"
-    }
+    },
+    "date": {
+      "year": 1590
+    },
+    "streamId": "s4"
   },
   {
     "id": "j9",
     "periodId": "edo",
     "titleEn": "Wind God and Thunder God",
     "titleCn": "风神雷神图屏风",
-    "year": 1630,
     "descriptionEn": "A highly decorative folding screen that became a foundational work of the Rinpa school.",
     "descriptionCn": "琳派艺术的开山之作，金箔背景上极具动感的风神与雷神形象。",
     "meta": {
       "creator": "Tawaraya Sōtatsu / 俵屋宗达",
       "medium": "Color and gold leaf on paper / 纸本金地设色",
       "location": "Kennin-ji, Kyoto / 京都建仁寺"
-    }
+    },
+    "date": {
+      "year": 1630
+    },
+    "streamId": "s5"
   },
   {
     "id": "j10",
     "periodId": "edo",
     "titleEn": "The Great Wave off Kanagawa",
     "titleCn": "神奈川冲浪里",
-    "year": 1831,
     "descriptionEn": "The most famous ukiyo-e woodblock print, depicting a massive wave threatening boats near Mount Fuji.",
     "descriptionCn": "全球最著名的浮世绘木版画，展现了富士山前惊涛骇浪中的小船，极具视觉冲击力。",
     "meta": {
       "creator": "Katsushika Hokusai / 葛饰北斋",
       "medium": "Woodblock print / 木版画",
       "location": "Various / 多处藏有"
-    }
+    },
+    "date": {
+      "year": 1831
+    },
+    "streamId": "s5"
   },
   {
     "id": "j11",
     "periodId": "edo",
     "titleEn": "Sudden Shower over Shin-Ōhashi bridge",
     "titleCn": "大桥骤雨",
-    "year": 1857,
     "descriptionEn": "A famous ukiyo-e print from 'One Hundred Famous Views of Edo', later copied by Vincent van Gogh.",
     "descriptionCn": "《名所江户百景》之一，生动刻画了突降暴雨时桥上行人的慌乱，曾被梵高临摹。",
     "meta": {
       "creator": "Utagawa Hiroshige / 歌川广重",
       "medium": "Woodblock print / 木版画",
       "location": "Various / 多处藏有"
-    }
+    },
+    "date": {
+      "year": 1857
+    },
+    "streamId": "s5"
   }
 ]

@@ -1,472 +1,2252 @@
 [
   {
-    "id": "m1",
+    "id": "m_cycladic",
     "periodId": "pre_ancient",
-    "nameEn": "Sumerian",
-    "nameCn": "苏美尔",
-    "startYear": -4000,
-    "endYear": -2000,
-    "color": "#D2691E",
-    "lane": 0
+    "nameEn": "Cycladic Art",
+    "nameCn": "基克拉泽斯艺术",
+    "color": "#D2B48C",
+    "lane": 0,
+    "descriptionCn": "爱琴海基克拉泽斯群岛的早期青铜时代艺术，以极具现代感、高度抽象和几何化的大理石女性雕像闻名。",
+    "start": {
+      "year": -3300
+    },
+    "end": {
+      "year": -1100
+    }
   },
   {
-    "id": "m2",
+    "id": "m_aegean",
     "periodId": "pre_ancient",
-    "nameEn": "Babylonian",
-    "nameCn": "巴比伦",
-    "startYear": -1800,
-    "endYear": -539,
-    "color": "#D2691E",
-    "lane": 1
+    "nameEn": "Aegean Art",
+    "nameCn": "爱琴艺术",
+    "color": "#8B4513",
+    "lane": 1,
+    "descriptionCn": "起源于爱琴海地区（克里特岛、基克拉泽斯群岛和希腊大陆）的青铜时代艺术。代表包括基克拉泽斯大理石雕像、米诺斯文明的克诺索斯宫殿壁画。艺术主张自然生动，充满海洋气息。",
+    "start": {
+      "year": -3000
+    },
+    "end": {
+      "year": -1100
+    }
   },
   {
-    "id": "m3",
+    "id": "m_minoan",
     "periodId": "pre_ancient",
-    "nameEn": "Egyptian Old Kingdom",
-    "nameCn": "古埃及古王国",
-    "startYear": -2686,
-    "endYear": -2181,
-    "color": "#DAA520",
-    "lane": 2
+    "nameEn": "Minoan Art",
+    "nameCn": "米诺斯艺术",
+    "color": "#A0522D",
+    "lane": 2,
+    "descriptionCn": "克里特岛的青铜时代文明艺术。以色彩鲜艳的湿壁画、精美的陶器（如海洋风格陶器）和复杂的宫殿建筑著称。艺术风格轻快、富有动感，常描绘自然、海洋生物和跳牛仪式。",
+    "start": {
+      "year": -3000
+    },
+    "end": {
+      "year": -1100
+    }
   },
   {
-    "id": "m4",
+    "id": "m_thracian",
     "periodId": "pre_ancient",
-    "nameEn": "Egyptian New Kingdom",
-    "nameCn": "古埃及新王国",
-    "startYear": -1550,
-    "endYear": -1069,
-    "color": "#DAA520",
-    "lane": 3
+    "nameEn": "Thracian Art",
+    "nameCn": "色雷斯艺术",
+    "color": "#8B4513",
+    "lane": 3,
+    "descriptionCn": "古代色雷斯人的艺术，以精美的金银器、金属工艺和墓葬壁画闻名，深受古希腊和波斯艺术影响。",
+    "start": {
+      "year": -3000
+    },
+    "end": {
+      "year": -46
+    }
   },
   {
-    "id": "m5",
+    "id": "m_dacian",
+    "periodId": "pre_ancient",
+    "nameEn": "Dacian Art",
+    "nameCn": "达契亚艺术",
+    "color": "#A0522D",
+    "lane": 4,
+    "descriptionCn": "古代达契亚人（今罗马尼亚地区）的艺术，以金属工艺（如著名的达契亚金银手镯）和防御性建筑著称。",
+    "start": {
+      "year": -2000
+    },
+    "end": {
+      "year": 106
+    }
+  },
+  {
+    "id": "m_minyan",
+    "periodId": "pre_ancient",
+    "nameEn": "Minyan ware",
+    "nameCn": "米尼亚陶器",
+    "color": "#F4A460",
+    "lane": 5,
+    "descriptionCn": "希腊中赫拉迪克时期的单色陶器，表面光滑呈金属质感，主要为灰色或黄色，反映了早期希腊人的制陶技术。",
+    "start": {
+      "year": -2000
+    },
+    "end": {
+      "year": -1550
+    }
+  },
+  {
+    "id": "m_nuragic",
+    "periodId": "pre_ancient",
+    "nameEn": "Nuragic Art",
+    "nameCn": "努拉吉艺术",
+    "color": "#CD853F",
+    "lane": 6,
+    "descriptionCn": "撒丁岛青铜时代的文明艺术，以巨石建筑“努拉吉”和极为生动的青铜小雕像（表现战士、祭司等）为代表。",
+    "start": {
+      "year": -1800
+    },
+    "end": {
+      "year": -238
+    }
+  },
+  {
+    "id": "m_mycenaean",
+    "periodId": "pre_ancient",
+    "nameEn": "Mycenaean Art",
+    "nameCn": "迈锡尼艺术",
+    "color": "#CD853F",
+    "lane": 7,
+    "descriptionCn": "希腊大陆的晚期青铜时代艺术。深受米诺斯影响，但更具尚武色彩。代表作包括迈锡尼的狮子门、阿伽门农黄金面具和巨石砌筑的圆顶墓。",
+    "start": {
+      "year": -1600
+    },
+    "end": {
+      "year": -1100
+    }
+  },
+  {
+    "id": "m_sub_mycenaean",
+    "periodId": "classical",
+    "nameEn": "Sub-Mycenaean",
+    "nameCn": "次迈锡尼风格",
+    "color": "#556B2F",
+    "lane": 5,
+    "descriptionCn": "迈锡尼文明崩溃后的过渡期艺术，陶器装饰简化，多为简单的波浪线和半圆，反映了“希腊黑暗时代”初期的衰退。",
+    "start": {
+      "year": -1100
+    },
+    "end": {
+      "year": -1000
+    }
+  },
+  {
+    "id": "m_protogeometric",
+    "periodId": "classical",
+    "nameEn": "Protogeometric",
+    "nameCn": "原几何纹样风格",
+    "color": "#6B8E23",
+    "lane": 0,
+    "descriptionCn": "古希腊黑暗时代的陶器风格，使用圆规和多管笔绘制精确的同心圆和半圆，标志着希腊艺术秩序感的复苏。",
+    "start": {
+      "year": -1050
+    },
+    "end": {
+      "year": -900
+    }
+  },
+  {
+    "id": "m_greek_geometric",
+    "periodId": "classical",
+    "nameEn": "Geometric Art",
+    "nameCn": "几何纹样时代",
+    "color": "#556B2F",
+    "lane": 1,
+    "descriptionCn": "古希腊艺术的早期阶段，以陶器上严格的几何图案（如回折纹、三角形）和高度程式化的人体、动物剪影为特征。代表作为雅典国家考古博物馆的迪普隆双耳瓶。",
+    "start": {
+      "year": -900
+    },
+    "end": {
+      "year": -700
+    }
+  },
+  {
+    "id": "m_etruscan",
+    "periodId": "classical",
+    "nameEn": "Etruscan Art",
+    "nameCn": "伊特鲁里亚艺术",
+    "color": "#BDB76B",
+    "lane": 2,
+    "descriptionCn": "意大利半岛前罗马时期的重要艺术。以赤陶雕塑、精美的青铜器和色彩丰富的墓室壁画著称。艺术风格生动活泼，对早期罗马艺术产生了深远影响。代表作有《阿波罗赤陶像》、《母狼雕像》。",
+    "start": {
+      "year": -900
+    },
+    "end": {
+      "year": -27
+    }
+  },
+  {
+    "id": "m_greek_archaic",
     "periodId": "classical",
     "nameEn": "Archaic Greek",
-    "nameCn": "希腊古风",
-    "startYear": -800,
-    "endYear": -480,
-    "color": "#556B2F",
-    "lane": 0
+    "nameCn": "古风时期",
+    "color": "#6B8E23",
+    "lane": 0,
+    "descriptionCn": "古希腊艺术的形成期。雕塑以带有“古风式微笑”的青年雕像（库洛斯）和少女雕像（科尔）为代表，受古埃及影响但逐渐走向自然主义。黑绘和红绘陶器开始繁荣。",
+    "start": {
+      "year": -800
+    },
+    "end": {
+      "year": -480
+    }
   },
   {
-    "id": "m6",
+    "id": "m_orientalizing",
+    "periodId": "classical",
+    "nameEn": "Orientalizing Period",
+    "nameCn": "东方化时期",
+    "color": "#8FBC8F",
+    "lane": 5,
+    "descriptionCn": "古希腊艺术受近东和埃及影响的时期，陶器上大量出现狮身人面像、斯芬克斯等东方神话动物及莲花纹样。",
+    "start": {
+      "year": -700
+    },
+    "end": {
+      "year": -600
+    }
+  },
+  {
+    "id": "m_black_figure",
+    "periodId": "classical",
+    "nameEn": "Black-figure pottery",
+    "nameCn": "黑绘陶器",
+    "color": "#2F4F4F",
+    "lane": 7,
+    "descriptionCn": "古希腊陶器绘画风格，在红色陶土上用黑色釉料绘制人物剪影，并用刻针划出细节。代表人物为埃克塞基亚斯。",
+    "start": {
+      "year": -700
+    },
+    "end": {
+      "year": -500
+    }
+  },
+  {
+    "id": "m_scythian",
+    "periodId": "classical",
+    "nameEn": "Scythian Art",
+    "nameCn": "斯基泰艺术",
+    "color": "#D2691E",
+    "lane": 8,
+    "descriptionCn": "欧亚大草原游牧民族的艺术，以高度风格化的“动物纹样”（如盘绕的豹子、搏斗的野兽）金银饰品和武器装饰闻名。",
+    "start": {
+      "year": -700
+    },
+    "end": {
+      "year": -200
+    }
+  },
+  {
+    "id": "m_red_figure",
+    "periodId": "classical",
+    "nameEn": "Red-figure pottery",
+    "nameCn": "红绘陶器",
+    "color": "#8B0000",
+    "lane": 1,
+    "descriptionCn": "取代黑绘的古希腊陶器风格，背景涂黑，保留陶土本色作为人物，用画笔描绘细节，使得人体解剖和衣褶表现更为生动自然。",
+    "start": {
+      "year": -530
+    },
+    "end": {
+      "year": -300
+    }
+  },
+  {
+    "id": "m_roman_republic",
+    "periodId": "classical",
+    "nameEn": "Roman Republican",
+    "nameCn": "罗马共和时期",
+    "color": "#4682B4",
+    "lane": 5,
+    "descriptionCn": "罗马艺术的早期阶段。深受伊特鲁里亚和希腊艺术影响。肖像雕塑以极度的写实主义（真实记录皱纹和衰老，强调祖先崇拜和美德）为特征。建筑上开始广泛使用拱门和混凝土。",
+    "start": {
+      "year": -509
+    },
+    "end": {
+      "year": -27
+    }
+  },
+  {
+    "id": "m_iberian",
+    "periodId": "classical",
+    "nameEn": "Iberian sculpture",
+    "nameCn": "伊比利亚雕塑",
+    "color": "#A0522D",
+    "lane": 9,
+    "descriptionCn": "罗马征服前伊比利亚半岛的艺术，受腓尼基和希腊影响。代表作《埃尔切的夫人》展现了独特的复杂头饰和神秘面容。",
+    "start": {
+      "year": -500
+    },
+    "end": {
+      "year": -100
+    }
+  },
+  {
+    "id": "m_gaulish",
+    "periodId": "classical",
+    "nameEn": "Gaulish Art",
+    "nameCn": "高卢艺术",
+    "color": "#CD853F",
+    "lane": 10,
+    "descriptionCn": "古代凯尔特人（高卢人）的艺术，以复杂的曲线、螺旋纹、交织图案和风格化的金属工艺（如托克项圈）为特征。",
+    "start": {
+      "year": -500
+    },
+    "end": {
+      "year": -50
+    }
+  },
+  {
+    "id": "m_severe_style",
+    "periodId": "classical",
+    "nameEn": "Severe style",
+    "nameCn": "严谨风格",
+    "color": "#2E8B57",
+    "lane": 7,
+    "descriptionCn": "古风向古典时期过渡的雕塑风格，摒弃了“古风式微笑”，面部表情庄重严肃，人体结构更加真实厚重。代表作为《德尔斐的御者》。",
+    "start": {
+      "year": -490
+    },
+    "end": {
+      "year": -450
+    }
+  },
+  {
+    "id": "m_greek_classical",
     "periodId": "classical",
     "nameEn": "Classical Greek",
-    "nameCn": "希腊古典",
-    "startYear": -480,
-    "endYear": -323,
-    "color": "#556B2F",
-    "lane": 1
+    "nameCn": "古典时期",
+    "color": "#8FBC8F",
+    "lane": 11,
+    "descriptionCn": "古希腊艺术的巅峰。追求理想化的比例、和谐与理性（如波利克里托斯的《法则》）。代表人物包括菲迪亚斯、米隆、普拉克西特列斯。代表作有雅典卫城帕特农神庙及雕塑、《掷铁饼者》。",
+    "start": {
+      "year": -480
+    },
+    "end": {
+      "year": -323
+    }
   },
   {
-    "id": "m7",
+    "id": "m_kerch_style",
+    "periodId": "classical",
+    "nameEn": "Kerch style",
+    "nameCn": "刻赤风格",
+    "color": "#4682B4",
+    "lane": 0,
+    "descriptionCn": "古典时代晚期雅典生产的红绘陶器风格，大量使用附加的白色、黄色和金箔，常描绘女性生活或神话场景，出口至黑海地区。",
+    "start": {
+      "year": -375
+    },
+    "end": {
+      "year": -300
+    }
+  },
+  {
+    "id": "m_greek_hellenistic",
     "periodId": "classical",
     "nameEn": "Hellenistic",
-    "nameCn": "希腊化",
-    "startYear": -323,
-    "endYear": -31,
-    "color": "#556B2F",
-    "lane": 2
+    "nameCn": "希腊化时期",
+    "color": "#2E8B57",
+    "lane": 7,
+    "descriptionCn": "亚历山大大帝东征后的艺术时期。打破了古典时期的宁静，转向表现强烈的情感、戏剧性的动感和现实主义（包括丑陋和痛苦）。代表作有《拉奥孔与儿子们》、《萨莫色雷斯的胜利女神》、《米洛斯的维纳斯》。",
+    "start": {
+      "year": -323
+    },
+    "end": {
+      "year": -31
+    }
   },
   {
-    "id": "m8",
+    "id": "m_indo_greek",
     "periodId": "classical",
-    "nameEn": "Roman Republic",
-    "nameCn": "罗马共和",
-    "startYear": -509,
-    "endYear": -27,
-    "color": "#8FBC8F",
-    "lane": 3
+    "nameEn": "Indo-Greek Art",
+    "nameCn": "印度-希腊艺术",
+    "color": "#BDB76B",
+    "lane": 0,
+    "descriptionCn": "亚历山大东征后在中亚和印度西北部形成的混合艺术，钱币雕刻极为精美，融合了希腊写实主义与印度佛教元素。",
+    "start": {
+      "year": -200
+    },
+    "end": {
+      "year": 10
+    }
   },
   {
-    "id": "m9",
+    "id": "m_neo_attic",
+    "periodId": "classical",
+    "nameEn": "Neo-Attic",
+    "nameCn": "新阿提卡派",
+    "color": "#708090",
+    "lane": 1,
+    "descriptionCn": "希腊化晚期和罗马早期的雕塑流派，专门为罗马贵族客户复制、模仿古希腊古典时期的雕塑和浮雕，风格典雅但略显程式化。",
+    "start": {
+      "year": -150
+    },
+    "end": {
+      "year": 100
+    }
+  },
+  {
+    "id": "m_pompeian",
+    "periodId": "classical",
+    "nameEn": "Pompeian Styles",
+    "nameCn": "庞贝壁画风格",
+    "color": "#CD5C5C",
+    "lane": 6,
+    "descriptionCn": "古罗马壁画的四个发展阶段：从模仿大理石拼贴，到绘制建筑透视错觉，再到平面化的装饰图案，最后是复杂的剧场式幻觉空间。",
+    "start": {
+      "year": -150
+    },
+    "end": {
+      "year": 79
+    }
+  },
+  {
+    "id": "m_greco_buddhist",
+    "periodId": "classical",
+    "nameEn": "Greco-Buddhist Art",
+    "nameCn": "希腊式佛教艺术 (犍陀罗艺术)",
+    "color": "#DAA520",
+    "lane": 8,
+    "descriptionCn": "以犍陀罗地区为中心，首次以希腊雕塑技法（如阿波罗式的面容、波浪卷发、厚重衣褶）来塑造佛陀形象，对亚洲佛教艺术影响深远。",
+    "start": {
+      "year": -100
+    },
+    "end": {
+      "year": 700
+    }
+  },
+  {
+    "id": "m_gallo_roman",
+    "periodId": "classical",
+    "nameEn": "Gallo-Roman Art",
+    "nameCn": "高卢-罗马艺术",
+    "color": "#8FBC8F",
+    "lane": 9,
+    "descriptionCn": "罗马帝国统治下高卢地区的混合艺术，将罗马的写实主义和建筑技术与凯尔特本土的装饰传统相结合。",
+    "start": {
+      "year": -50
+    },
+    "end": {
+      "year": 400
+    }
+  },
+  {
+    "id": "m_roman_empire",
     "periodId": "classical",
     "nameEn": "Roman Empire",
-    "nameCn": "罗马帝国",
-    "startYear": -27,
-    "endYear": 476,
-    "color": "#8FBC8F",
-    "lane": 4
+    "nameCn": "罗马帝国时期",
+    "color": "#5F9EA0",
+    "lane": 3,
+    "descriptionCn": "罗马艺术的鼎盛期。艺术成为宣扬帝国权威和皇帝神化的工具。代表作包括奥古斯都盔甲雕像、图拉真柱、罗马斗兽场、万神庙。庞贝古城的壁画展示了其绘画的极高成就。",
+    "start": {
+      "year": -27
+    },
+    "end": {
+      "year": 476
+    }
   },
   {
-    "id": "m10",
+    "id": "m_julio_claudian",
+    "periodId": "classical",
+    "nameEn": "Julio-Claudian Art",
+    "nameCn": "朱里亚·克劳狄艺术",
+    "color": "#5F9EA0",
+    "lane": 10,
+    "descriptionCn": "罗马帝国初期的艺术，以奥古斯都时期的古典复兴为代表，强调帝国的和平与繁荣，雕塑风格理想化、庄重。",
+    "start": {
+      "year": -27
+    },
+    "end": {
+      "year": 68
+    }
+  },
+  {
+    "id": "m_trajanic",
+    "periodId": "classical",
+    "nameEn": "Trajanic Art",
+    "nameCn": "图拉真艺术",
+    "color": "#4682B4",
+    "lane": 0,
+    "descriptionCn": "罗马帝国全盛期的艺术，以宏大的公共建筑和纪功柱（图拉真柱）为代表，浮雕采用连续叙事手法，详尽记录了战争场面。",
+    "start": {
+      "year": 98
+    },
+    "end": {
+      "year": 117
+    }
+  },
+  {
+    "id": "m_severan",
+    "periodId": "classical",
+    "nameEn": "Severan Art",
+    "nameCn": "塞维鲁艺术",
+    "color": "#800080",
+    "lane": 0,
+    "descriptionCn": "罗马帝国晚期艺术的转折点，古典的写实和比例逐渐瓦解，转向正面律、平面化和更强烈的精神表达，预示了中世纪艺术的到来。",
+    "start": {
+      "year": 193
+    },
+    "end": {
+      "year": 235
+    }
+  },
+  {
+    "id": "m_late_antique",
+    "periodId": "medieval",
+    "nameEn": "Late Antique Art",
+    "nameCn": "晚期古典艺术",
+    "color": "#8A2BE2",
+    "lane": 1,
+    "descriptionCn": "罗马帝国晚期向中世纪过渡的艺术。古典的写实主义衰退，转向象征性、平面化和精神性的表达，为基督教艺术奠定了基础。",
+    "start": {
+      "year": 200
+    },
+    "end": {
+      "year": 500
+    }
+  },
+  {
+    "id": "m_early_christian",
+    "periodId": "medieval",
+    "nameEn": "Early Christian",
+    "nameCn": "早期基督教艺术",
+    "color": "#8A2BE2",
+    "lane": 0,
+    "descriptionCn": "基督教合法化前后的艺术。最初隐蔽于地下墓室（如罗马地下墓穴壁画），多使用象征符号（如鱼、好牧人）。君士坦丁大帝后，开始建造大型巴西利卡式教堂并使用马赛克装饰。",
+    "start": {
+      "year": 260
+    },
+    "end": {
+      "year": 525
+    }
+  },
+  {
+    "id": "m_migration",
+    "periodId": "medieval",
+    "nameEn": "Migration Period",
+    "nameCn": "民族大迁徙时期艺术",
+    "color": "#D2691E",
+    "lane": 2,
+    "descriptionCn": "日耳曼等蛮族入侵罗马帝国时期的艺术。以小型的便携物品（如珠宝、武器、带扣）为主，盛行复杂的动物纹样（Animal Style）和几何交织图案（多色镶嵌和掐丝珐琅工艺）。",
+    "start": {
+      "year": 300
+    },
+    "end": {
+      "year": 900
+    }
+  },
+  {
+    "id": "m_coptic",
+    "periodId": "medieval",
+    "nameEn": "Coptic Art",
+    "nameCn": "科普特艺术",
+    "color": "#D2691E",
+    "lane": 4,
+    "descriptionCn": "埃及早期基督教艺术。融合了古埃及、希腊化和拜占庭元素。以生动的纺织品、墓葬肖像和修道院壁画闻名，人物常有大而凝视的眼睛。",
+    "start": {
+      "year": 300
+    },
+    "end": {
+      "year": 1200
+    }
+  },
+  {
+    "id": "m_ethiopian",
+    "periodId": "medieval",
+    "nameEn": "Ethiopian Art",
+    "nameCn": "埃塞俄比亚艺术",
+    "color": "#CD853F",
+    "lane": 5,
+    "descriptionCn": "非洲之角的基督教艺术。以岩石教堂（如拉利贝拉）、色彩鲜艳的泥金手抄本和独特的十字架设计著称，长期保持独立发展。",
+    "start": {
+      "year": 300
+    },
+    "end": {
+      "year": 1900
+    }
+  },
+  {
+    "id": "m_hunnic",
+    "periodId": "medieval",
+    "nameEn": "Hunnic Art",
+    "nameCn": "匈人艺术",
+    "color": "#A0522D",
+    "lane": 6,
+    "descriptionCn": "匈人游牧帝国的艺术，主要为便携的金属饰品和马具，常镶嵌红宝石或玻璃，对欧洲民族大迁徙时期的多色装饰风格影响巨大。",
+    "start": {
+      "year": 300
+    },
+    "end": {
+      "year": 500
+    }
+  },
+  {
+    "id": "m_pictish",
+    "periodId": "medieval",
+    "nameEn": "Pictish Art",
+    "nameCn": "皮克特艺术",
+    "color": "#556B2F",
+    "lane": 7,
+    "descriptionCn": "苏格兰皮克特人的艺术。以神秘的石雕（皮克特石碑）闻名，刻有独特的几何符号和生动的动物形象，后期受海岛艺术影响。",
+    "start": {
+      "year": 300
+    },
+    "end": {
+      "year": 900
+    }
+  },
+  {
+    "id": "m_byzantine",
     "periodId": "medieval",
     "nameEn": "Byzantine",
-    "nameCn": "拜占庭",
-    "startYear": 330,
-    "endYear": 1453,
-    "color": "#4682B4",
-    "lane": 0
+    "nameCn": "拜占庭艺术",
+    "color": "#4169E1",
+    "lane": 10,
+    "descriptionCn": "东罗马帝国的艺术。以宏伟的圆顶建筑（如圣索菲亚大教堂）、金碧辉煌的马赛克镶嵌画和圣像画（Icon）为代表。风格高度程式化、平面化，强调精神性和神圣感，反感肉体的真实描绘。",
+    "start": {
+      "year": 330
+    },
+    "end": {
+      "year": 1453
+    }
   },
   {
-    "id": "m11",
+    "id": "m_anglo_saxon",
+    "periodId": "medieval",
+    "nameEn": "Anglo-Saxon Art",
+    "nameCn": "盎格鲁-撒克逊艺术",
+    "color": "#8B4513",
+    "lane": 11,
+    "descriptionCn": "英国早期的日耳曼艺术。以萨顿胡船葬出土的精美金属工艺（如头盔、带扣）和后期的泥金手抄本为代表，盛行复杂的动物交织纹样。",
+    "start": {
+      "year": 400
+    },
+    "end": {
+      "year": 1066
+    }
+  },
+  {
+    "id": "m_visigothic",
+    "periodId": "medieval",
+    "nameEn": "Visigothic Art",
+    "nameCn": "西哥特艺术",
+    "color": "#DAA520",
+    "lane": 12,
+    "descriptionCn": "统治伊比利亚半岛的西哥特人艺术。建筑上广泛使用马蹄形拱门，金属工艺（如瓜萨萨尔宝藏的还愿冠）极为奢华精美。",
+    "start": {
+      "year": 400
+    },
+    "end": {
+      "year": 711
+    }
+  },
+  {
+    "id": "m_merovingian",
+    "periodId": "medieval",
+    "nameEn": "Merovingian Art",
+    "nameCn": "墨洛温艺术",
+    "color": "#D2691E",
+    "lane": 9,
+    "descriptionCn": "法兰克王国早期的艺术。手抄本插图使用大量鸟类和鱼类组成首字母，金属工艺和洗礼堂建筑融合了高卢-罗马和日耳曼传统。",
+    "start": {
+      "year": 476
+    },
+    "end": {
+      "year": 750
+    }
+  },
+  {
+    "id": "m_lombard",
+    "periodId": "medieval",
+    "nameEn": "Lombard Art",
+    "nameCn": "伦巴第艺术",
+    "color": "#B8860B",
+    "lane": 0,
+    "descriptionCn": "统治意大利的日耳曼部落艺术。融合了日耳曼动物纹样与古典、拜占庭传统，在金匠工艺和早期石雕（如祭坛栏板）上成就突出。",
+    "start": {
+      "year": 568
+    },
+    "end": {
+      "year": 774
+    }
+  },
+  {
+    "id": "m_insular",
+    "periodId": "medieval",
+    "nameEn": "Insular Art",
+    "nameCn": "海岛艺术",
+    "color": "#CD853F",
+    "lane": 1,
+    "descriptionCn": "不列颠群岛（爱尔兰和英国）的早期中世纪艺术。融合了凯尔特、盎格鲁-撒克逊和早期基督教元素。以极其精美复杂的泥金装饰手抄本（如《凯尔经》、《林迪斯法恩福音书》）和高十字架雕塑闻名。",
+    "start": {
+      "year": 600
+    },
+    "end": {
+      "year": 900
+    }
+  },
+  {
+    "id": "m_mozarabic",
+    "periodId": "medieval",
+    "nameEn": "Mozarabic Art",
+    "nameCn": "莫扎拉布艺术",
+    "color": "#6B8E23",
+    "lane": 3,
+    "descriptionCn": "伊斯兰统治下西班牙基督徒的艺术。融合了伊斯兰建筑元素（如马蹄形拱、交错拱）和基督教传统，手抄本插图（如《启示录注释》）色彩极其浓烈奇幻。",
+    "start": {
+      "year": 711
+    },
+    "end": {
+      "year": 1000
+    }
+  },
+  {
+    "id": "m_iconoclast",
+    "periodId": "medieval",
+    "nameEn": "Iconoclast",
+    "nameCn": "破坏圣像运动",
+    "color": "#2F4F4F",
+    "lane": 6,
+    "descriptionCn": "拜占庭帝国时期禁止并销毁宗教人像的运动。导致大量早期圣像被毁，艺术转向十字架、动植物和几何图案的装饰。",
+    "start": {
+      "year": 726
+    },
+    "end": {
+      "year": 843
+    }
+  },
+  {
+    "id": "m_carolingian",
+    "periodId": "medieval",
+    "nameEn": "Carolingian",
+    "nameCn": "加洛林文艺复兴",
+    "color": "#B8860B",
+    "lane": 8,
+    "descriptionCn": "查理曼大帝统治时期的文化复兴。试图恢复古罗马的古典艺术传统。建立了宫廷学校，规范了字体（加洛林小写体），在手抄本插图、象牙雕刻和金银器制作上取得了极高成就。",
+    "start": {
+      "year": 780
+    },
+    "end": {
+      "year": 900
+    }
+  },
+  {
+    "id": "m_viking",
+    "periodId": "medieval",
+    "nameEn": "Viking Art",
+    "nameCn": "维京艺术",
+    "color": "#2E8B57",
+    "lane": 0,
+    "descriptionCn": "北欧海盗时期的艺术。以木雕（如奥塞贝格船）、金属工艺和如尼石碑为主。风格以极具动感、相互缠绕的“抓握野兽”图案为核心特征。",
+    "start": {
+      "year": 793
+    },
+    "end": {
+      "year": 1066
+    }
+  },
+  {
+    "id": "m_macedonian",
+    "periodId": "medieval",
+    "nameEn": "Macedonian Renaissance",
+    "nameCn": "马其顿文艺复兴",
+    "color": "#4169E1",
+    "lane": 6,
+    "descriptionCn": "拜占庭艺术的黄金时代。圣像破坏运动结束后，艺术重新繁荣，吸收了古典时代的自然主义和柔和色彩，代表作为《巴黎诗篇》。",
+    "start": {
+      "year": 867
+    },
+    "end": {
+      "year": 1056
+    }
+  },
+  {
+    "id": "m_ottonian",
+    "periodId": "medieval",
+    "nameEn": "Ottonian",
+    "nameCn": "奥托艺术",
+    "color": "#DAA520",
+    "lane": 1,
+    "descriptionCn": "神圣罗马帝国奥托王朝时期的艺术。继承了加洛林传统并融合了拜占庭风格。手抄本插图极具表现力和情感张力。青铜铸造工艺复兴，如希尔德斯海姆大教堂的伯恩瓦尔德青铜门。",
+    "start": {
+      "year": 936
+    },
+    "end": {
+      "year": 1050
+    }
+  },
+  {
+    "id": "m_romanesque",
     "periodId": "medieval",
     "nameEn": "Romanesque",
-    "nameCn": "罗马式",
-    "startYear": 1000,
-    "endYear": 1150,
-    "color": "#483D8B",
-    "lane": 1
+    "nameCn": "罗曼式艺术",
+    "color": "#9ACD32",
+    "lane": 2,
+    "descriptionCn": "11至12世纪西欧的艺术风格。建筑以厚重的石墙、半圆拱、小窗户和筒形穹顶为特征，外观如同堡垒。雕塑多依附于建筑（如教堂大门半月楣上的《最后的审判》），风格夸张、变形以适应建筑空间。",
+    "start": {
+      "year": 1000
+    },
+    "end": {
+      "year": 1200
+    }
   },
   {
-    "id": "m12",
+    "id": "m_mosan",
+    "periodId": "medieval",
+    "nameEn": "Mosan Art",
+    "nameCn": "莫桑艺术",
+    "color": "#CD853F",
+    "lane": 3,
+    "descriptionCn": "默兹河流域（今比利时）的罗曼式艺术。以极其精湛的金属工艺和内填珐琅（如尼古拉·凡·凡尔登的作品）闻名，风格带有强烈的古典主义色彩。",
+    "start": {
+      "year": 1050
+    },
+    "end": {
+      "year": 1250
+    }
+  },
+  {
+    "id": "m_norman",
+    "periodId": "medieval",
+    "nameEn": "Norman Art",
+    "nameCn": "诺曼艺术",
+    "color": "#8B4513",
+    "lane": 1,
+    "descriptionCn": "诺曼人征服英国和西西里后的艺术。建筑上以宏伟的罗曼式大教堂和坚固的城堡（如伦敦塔）著称，著名的《贝叶挂毯》是此时期的刺绣杰作。",
+    "start": {
+      "year": 1066
+    },
+    "end": {
+      "year": 1200
+    }
+  },
+  {
+    "id": "m_opus_anglicanum",
+    "periodId": "medieval",
+    "nameEn": "Opus Anglicanum",
+    "nameCn": "英国刺绣",
+    "color": "#A0522D",
+    "lane": 0,
+    "descriptionCn": "中世纪英国极负盛名的奢华刺绣工艺。使用金银线和丝绸，在祭服上绣出精美的宗教场景，出口至全欧洲，深受教皇和王室喜爱。",
+    "start": {
+      "year": 1100
+    },
+    "end": {
+      "year": 1350
+    }
+  },
+  {
+    "id": "m_mudejar",
+    "periodId": "medieval",
+    "nameEn": "Mudéjar Art",
+    "nameCn": "穆德哈尔艺术",
+    "color": "#800000",
+    "lane": 6,
+    "descriptionCn": "收复失地运动后，留在基督教西班牙的穆斯林工匠创造的混合风格。在罗曼式和哥特式建筑中大量使用砖块、马蹄拱、灰泥雕刻和复杂的木雕天花板。",
+    "start": {
+      "year": 1100
+    },
+    "end": {
+      "year": 1600
+    }
+  },
+  {
+    "id": "m_gothic",
     "periodId": "medieval",
     "nameEn": "Gothic",
-    "nameCn": "哥特式",
-    "startYear": 1150,
-    "endYear": 1400,
-    "color": "#483D8B",
-    "lane": 2
+    "nameCn": "哥特式艺术",
+    "color": "#20B2AA",
+    "lane": 7,
+    "descriptionCn": "起源于法国的晚期中世纪艺术。建筑以尖肋拱顶、飞扶壁和彩色玻璃花窗为标志，追求垂直向上的动势和内部的光明（如巴黎圣母院、沙特尔大教堂）。雕塑逐渐脱离建筑，变得更加自然和人性化。",
+    "start": {
+      "year": 1140
+    },
+    "end": {
+      "year": 1500
+    }
   },
   {
-    "id": "m13",
+    "id": "m_italo_byzantine",
+    "periodId": "medieval",
+    "nameEn": "Italo-Byzantine",
+    "nameCn": "意大利-拜占庭风格",
+    "color": "#5F9EA0",
+    "lane": 8,
+    "descriptionCn": "中世纪晚期意大利流行的绘画风格（又称“希腊画法”）。保留了拜占庭的金色背景和程式化构图，但逐渐尝试表现体积感和情感，契马布埃是代表人物。",
+    "start": {
+      "year": 1200
+    },
+    "end": {
+      "year": 1300
+    }
+  },
+  {
+    "id": "m_sienese_school",
+    "periodId": "medieval",
+    "nameEn": "Sienese School",
+    "nameCn": "锡耶纳画派",
+    "color": "#CD5C5C",
+    "lane": 1,
+    "descriptionCn": "与佛罗伦萨画派并立。侧重于拜占庭传统的装饰性、优雅的线条、丰富的色彩和抒情的宗教情感，而非科学透视。代表人物有杜乔、西蒙内·马蒂尼。",
+    "start": {
+      "year": 1250
+    },
+    "end": {
+      "year": 1500
+    }
+  },
+  {
+    "id": "m_palaeologan",
+    "periodId": "medieval",
+    "nameEn": "Palaeologan Renaissance",
+    "nameCn": "帕里奥洛格斯文艺复兴",
+    "color": "#4682B4",
+    "lane": 2,
+    "descriptionCn": "拜占庭帝国的最后复兴。壁画和马赛克变得更加生动、富有情感和叙事性，背景增加了建筑和风景细节，对意大利早期文艺复兴产生影响。",
+    "start": {
+      "year": 1261
+    },
+    "end": {
+      "year": 1453
+    }
+  },
+  {
+    "id": "m_proto_renaissance",
+    "periodId": "renaissance",
+    "nameEn": "Proto-Renaissance",
+    "nameCn": "前文艺复兴",
+    "color": "#D2B48C",
+    "lane": 3,
+    "descriptionCn": "主要在意大利（特别是佛罗伦萨和锡耶纳）。标志着从拜占庭和哥特式风格向自然主义的过渡。乔托是关键人物，他引入了三维空间感、真实的情感表达和坚实的人体结构，代表作有斯克罗威尼礼拜堂壁画。",
+    "start": {
+      "year": 1280
+    },
+    "end": {
+      "year": 1400
+    }
+  },
+  {
+    "id": "m_trecento",
+    "periodId": "renaissance",
+    "nameEn": "Trecento",
+    "nameCn": "十四世纪 (特雷琴托)",
+    "color": "#D2B48C",
+    "lane": 4,
+    "descriptionCn": "意大利文艺复兴的黎明。以乔托为代表，打破了拜占庭的僵化，引入了自然主义、体积感和真实情感。同时期文学上出现了但丁、彼特拉克和薄伽丘。",
+    "start": {
+      "year": 1300
+    },
+    "end": {
+      "year": 1400
+    }
+  },
+  {
+    "id": "m_florentine_school",
+    "periodId": "renaissance",
+    "nameEn": "Florentine School",
+    "nameCn": "佛罗伦萨画派",
+    "color": "#DAA520",
+    "lane": 9,
+    "descriptionCn": "文艺复兴的核心画派。极度强调“素描”（Disegno）、透视学、解剖学和理性的构图。从乔托、马萨乔到波提切利，再到米开朗基罗，主导了文艺复兴的发展。",
+    "start": {
+      "year": 1300
+    },
+    "end": {
+      "year": 1600
+    }
+  },
+  {
+    "id": "m_international_gothic",
+    "periodId": "medieval",
+    "nameEn": "International Gothic",
+    "nameCn": "国际哥特式",
+    "color": "#3CB371",
+    "lane": 0,
+    "descriptionCn": "14世纪末至15世纪初在欧洲宫廷流行的优雅风格。融合了北欧的细节写实和意大利的抒情线条。色彩鲜艳，注重服饰的华丽细节和贵族生活的描绘。代表人物有林堡兄弟（《贝里公爵的豪华日课经》）、真蒂莱·达·法布里亚诺。",
+    "start": {
+      "year": 1375
+    },
+    "end": {
+      "year": 1425
+    }
+  },
+  {
+    "id": "m_early_renaissance",
     "periodId": "renaissance",
     "nameEn": "Early Renaissance",
     "nameCn": "早期文艺复兴",
-    "startYear": 1400,
-    "endYear": 1495,
-    "color": "#800080",
-    "lane": 0
+    "color": "#DAA520",
+    "lane": 8,
+    "descriptionCn": "以佛罗伦萨为中心。艺术家开始系统研究透视学、解剖学和古典时代的比例。布鲁内莱斯基（建筑）、多纳泰罗（雕塑，如《大卫》）和马萨乔（绘画，如《纳税银》）是三大奠基人。波提切利的作品（如《春》）则展现了优雅的线条。",
+    "start": {
+      "year": 1400
+    },
+    "end": {
+      "year": 1490
+    }
   },
   {
-    "id": "m14",
+    "id": "m_quattrocento",
     "periodId": "renaissance",
-    "nameEn": "High Renaissance",
-    "nameCn": "盛期文艺复兴",
-    "startYear": 1495,
-    "endYear": 1520,
-    "color": "#800080",
-    "lane": 1
+    "nameEn": "Quattrocento",
+    "nameCn": "十五世纪 (早期文艺复兴)",
+    "color": "#B8860B",
+    "lane": 11,
+    "descriptionCn": "意大利早期文艺复兴。在美第奇家族的赞助下，艺术在科学（透视、解剖）和古典复兴的指导下突飞猛进。代表人物有布鲁内莱斯基、多纳泰罗、马萨乔。",
+    "start": {
+      "year": 1400
+    },
+    "end": {
+      "year": 1500
+    }
   },
   {
-    "id": "m15",
+    "id": "m_early_netherlandish",
     "periodId": "renaissance",
-    "nameEn": "Mannerism",
-    "nameCn": "矫饰主义",
-    "startYear": 1520,
-    "endYear": 1600,
-    "color": "#800080",
-    "lane": 2
+    "nameEn": "Early Netherlandish",
+    "nameCn": "早期尼德兰绘画",
+    "color": "#556B2F",
+    "lane": 3,
+    "descriptionCn": "北方文艺复兴的开端。首创或完善了油画技法，以极其逼真的细节、复杂的光影和丰富的宗教象征主义著称。代表人物有扬·凡·艾克、罗吉尔·凡·德·韦登。",
+    "start": {
+      "year": 1420
+    },
+    "end": {
+      "year": 1530
+    }
   },
   {
-    "id": "m16",
+    "id": "m_northern_renaissance",
     "periodId": "renaissance",
     "nameEn": "Northern Renaissance",
     "nameCn": "北方文艺复兴",
-    "startYear": 1430,
-    "endYear": 1580,
-    "color": "#800080",
-    "lane": 3
+    "color": "#556B2F",
+    "lane": 4,
+    "descriptionCn": "阿尔卑斯山以北（尼德兰、德国、法国）的文艺复兴。不侧重透视和理想化比例，而极度注重对现实细节的微观刻画和油画技法的完善。代表人物有扬·凡·艾克（《阿尔诺芬尼夫妇像》）、丢勒、博斯和老彼得·勃鲁盖尔。",
+    "start": {
+      "year": 1430
+    },
+    "end": {
+      "year": 1580
+    }
   },
   {
-    "id": "m17",
-    "periodId": "baroque_rococo",
-    "nameEn": "Baroque",
-    "nameCn": "巴洛克",
-    "startYear": 1600,
-    "endYear": 1750,
-    "color": "#8B0000",
-    "lane": 4
+    "id": "m_venetian_school",
+    "periodId": "renaissance",
+    "nameEn": "Venetian School",
+    "nameCn": "威尼斯画派",
+    "color": "#CD5C5C",
+    "lane": 0,
+    "descriptionCn": "与佛罗伦萨画派重素描和结构不同，威尼斯画派以色彩（Colorito）和光影的感官享受为核心。代表人物包括乔尔乔内（《沉睡的维纳斯》）、提香（《乌尔比诺的维纳斯》）、丁托列托和委罗内塞。",
+    "start": {
+      "year": 1450
+    },
+    "end": {
+      "year": 1600
+    }
   },
   {
-    "id": "m18",
-    "periodId": "baroque_rococo",
+    "id": "m_ferrarese_school",
+    "periodId": "renaissance",
+    "nameEn": "Ferrarese School",
+    "nameCn": "费拉拉画派",
+    "color": "#CD853F",
+    "lane": 12,
+    "descriptionCn": "意大利北部的画派。受曼特尼亚和北方文艺复兴影响，画风奇特，人物常有金属般的质感和紧张的姿态，背景多为奇幻的风景。代表人物为科西莫·图拉。",
+    "start": {
+      "year": 1450
+    },
+    "end": {
+      "year": 1598
+    }
+  },
+  {
+    "id": "m_high_renaissance",
+    "periodId": "renaissance",
+    "nameEn": "High Renaissance",
+    "nameCn": "盛期文艺复兴",
+    "color": "#B8860B",
+    "lane": 2,
+    "descriptionCn": "文艺复兴的巅峰，以罗马和佛罗伦萨为中心。追求完美的和谐、平衡与理想美。达·芬奇（《蒙娜丽莎》、《最后的晚餐》）、米开朗基罗（《大卫》、《创世纪》）和拉斐尔（《雅典学院》）被誉为“文艺复兴三杰”。",
+    "start": {
+      "year": 1490
+    },
+    "end": {
+      "year": 1527
+    }
+  },
+  {
+    "id": "m_german_renaissance",
+    "periodId": "renaissance",
+    "nameEn": "German Renaissance",
+    "nameCn": "德国文艺复兴",
+    "color": "#8FBC8F",
+    "lane": 10,
+    "descriptionCn": "在版画（木刻和铜版）领域取得了世界顶级的成就。丢勒将意大利的理论与北方的写实结合；荷尔拜因是顶尖的肖像画家；格吕内瓦尔德则表现出强烈的表现主义色彩。",
+    "start": {
+      "year": 1490
+    },
+    "end": {
+      "year": 1580
+    }
+  },
+  {
+    "id": "m_cinquecento",
+    "periodId": "renaissance",
+    "nameEn": "Cinquecento",
+    "nameCn": "十五世纪 (盛期与晚期)",
+    "color": "#8B4513",
+    "lane": 8,
+    "descriptionCn": "涵盖了盛期文艺复兴和样式主义。罗马取代佛罗伦萨成为艺术中心，达·芬奇、米开朗基罗和拉斐尔创造了古典艺术的最高典范。",
+    "start": {
+      "year": 1500
+    },
+    "end": {
+      "year": 1600
+    }
+  },
+  {
+    "id": "m_danube_school",
+    "periodId": "renaissance",
+    "nameEn": "Danube School",
+    "nameCn": "多瑙河画派",
+    "color": "#2E8B57",
+    "lane": 13,
+    "descriptionCn": "德国和奥地利的早期风景画派。首次将风景作为独立的绘画主体，画风充满神秘、浪漫和表现主义色彩，常描绘茂密的森林和戏剧性的天空。代表人物为阿尔特多费尔。",
+    "start": {
+      "year": 1500
+    },
+    "end": {
+      "year": 1550
+    }
+  },
+  {
+    "id": "m_antwerp_mannerism",
+    "periodId": "renaissance",
+    "nameEn": "Antwerp Mannerism",
+    "nameCn": "安特卫普样式主义",
+    "color": "#4682B4",
+    "lane": 14,
+    "descriptionCn": "尼德兰早期的过渡风格。结合了晚期哥特式的繁复细节与意大利文艺复兴的装饰元素，人物姿态做作，服饰华丽且充满异国情调。",
+    "start": {
+      "year": 1500
+    },
+    "end": {
+      "year": 1530
+    }
+  },
+  {
+    "id": "m_english_renaissance",
+    "periodId": "renaissance",
+    "nameEn": "English Renaissance",
+    "nameCn": "英国文艺复兴",
+    "color": "#CD5C5C",
+    "lane": 15,
+    "descriptionCn": "在视觉艺术上主要表现为都铎王朝和伊丽莎白时代的宫廷肖像画和细密画（如尼古拉斯·希利亚德）。建筑上则发展出独特的都铎和伊丽莎白式庄园。",
+    "start": {
+      "year": 1500
+    },
+    "end": {
+      "year": 1620
+    }
+  },
+  {
+    "id": "m_mannerism",
+    "periodId": "renaissance",
+    "nameEn": "Mannerism",
+    "nameCn": "样式主义 (矫饰主义)",
+    "color": "#8B008B",
+    "lane": 1,
+    "descriptionCn": "盛期文艺复兴之后的艺术流派。打破了古典的和谐与平衡，追求人为的优雅、拉长的人体比例、扭曲的姿态（蛇形曲线）和不自然的色彩。代表人物有帕尔米贾尼诺（《长颈圣母》）、蓬托尔莫、布隆齐诺和埃尔·格列柯。",
+    "start": {
+      "year": 1520
+    },
+    "end": {
+      "year": 1600
+    }
+  },
+  {
+    "id": "m_world_landscape",
+    "periodId": "renaissance",
+    "nameEn": "World landscape",
+    "nameCn": "世界风景画",
+    "color": "#6B8E23",
+    "lane": 7,
+    "descriptionCn": "北方文艺复兴时期的一种全景式风景画风格。从高视点俯瞰广阔的虚构风景，包含山脉、河流、城市和微小的人物。代表人物为帕蒂尼尔和老勃鲁盖尔。",
+    "start": {
+      "year": 1520
+    },
+    "end": {
+      "year": 1600
+    }
+  },
+  {
+    "id": "m_romanism",
+    "periodId": "renaissance",
+    "nameEn": "Romanism",
+    "nameCn": "罗马派",
+    "color": "#5F9EA0",
+    "lane": 11,
+    "descriptionCn": "指那些前往罗马学习米开朗基罗和拉斐尔风格，并将其带回尼德兰的北方艺术家。他们试图将意大利的宏大构图与北方的写实传统结合。",
+    "start": {
+      "year": 1520
+    },
+    "end": {
+      "year": 1600
+    }
+  },
+  {
+    "id": "m_bolognese_school",
+    "periodId": "renaissance",
+    "nameEn": "Bolognese School",
+    "nameCn": "波伦亚画派",
+    "color": "#A0522D",
+    "lane": 2,
+    "descriptionCn": "由卡拉齐家族创立，旨在反对样式主义的做作。主张回归盛期文艺复兴的古典传统，注重写生和理想美的结合，建立了欧洲最早的美术学院。",
+    "start": {
+      "year": 1580
+    },
+    "end": {
+      "year": 1700
+    }
+  },
+  {
+    "id": "m_dutch_golden_age",
+    "periodId": "baroque",
     "nameEn": "Dutch Golden Age",
     "nameCn": "荷兰黄金时代",
-    "startYear": 1588,
-    "endYear": 1672,
-    "color": "#8B0000",
-    "lane": 5
+    "color": "#D2691E",
+    "lane": 3,
+    "descriptionCn": "新教荷兰共和国的艺术繁荣期。由于缺乏教会和宫廷赞助，艺术转向迎合中产阶级市民。风景画、静物画、风俗画和群体肖像画高度发达。代表人物有伦勃朗（《夜巡》）、维米尔（《戴珍珠耳环的少女》）和弗兰斯·哈尔斯。",
+    "start": {
+      "year": 1588
+    },
+    "end": {
+      "year": 1672
+    }
   },
   {
-    "id": "m19",
-    "periodId": "baroque_rococo",
+    "id": "m_baroque",
+    "periodId": "baroque",
+    "nameEn": "Baroque",
+    "nameCn": "巴洛克艺术",
+    "color": "#800000",
+    "lane": 4,
+    "descriptionCn": "起源于罗马，受天主教反宗教改革推动。特点是强烈的动感、戏剧性的光影对比（明暗对照法）、宏大的尺度和情感的宣泄。代表人物有卡拉瓦乔（《圣马太蒙召》）、贝尼尼（《圣特蕾莎的狂喜》）、鲁本斯（《下十字架》）。",
+    "start": {
+      "year": 1600
+    },
+    "end": {
+      "year": 1750
+    }
+  },
+  {
+    "id": "m_classicism",
+    "periodId": "baroque",
+    "nameEn": "Classicism",
+    "nameCn": "古典主义",
+    "color": "#4682B4",
+    "lane": 10,
+    "descriptionCn": "与巴洛克的狂放不同，17世纪的法国和部分意大利艺术家追求理智、秩序和古希腊罗马的庄重。普桑（《阿卡迪亚的牧人》）和克洛德·洛兰是代表人物，确立了法国学院派的古典风景画传统。",
+    "start": {
+      "year": 1600
+    },
+    "end": {
+      "year": 1700
+    }
+  },
+  {
+    "id": "m_flemish_baroque",
+    "periodId": "baroque",
+    "nameEn": "Flemish Baroque",
+    "nameCn": "佛兰德斯巴洛克",
+    "color": "#800000",
+    "lane": 13,
+    "descriptionCn": "天主教统治下的南尼德兰（今比利时）艺术。以鲁本斯为绝对核心，画风宏大、充满动感、色彩绚丽，肉体丰满，极具感官刺激，主要服务于教会和宫廷。",
+    "start": {
+      "year": 1600
+    },
+    "end": {
+      "year": 1700
+    }
+  },
+  {
+    "id": "m_caravaggisti",
+    "periodId": "baroque",
+    "nameEn": "Caravaggisti",
+    "nameCn": "卡拉瓦乔派",
+    "color": "#2F4F4F",
+    "lane": 14,
+    "descriptionCn": "追随卡拉瓦乔的欧洲画家。他们广泛采用极端的明暗对照法（Tenebrism）和未经美化的底层平民形象来表现宗教和风俗题材。包括乌得勒支卡拉瓦乔派和那不勒斯画派。",
+    "start": {
+      "year": 1600
+    },
+    "end": {
+      "year": 1650
+    }
+  },
+  {
+    "id": "m_delft_school",
+    "periodId": "baroque",
+    "nameEn": "Delft School",
+    "nameCn": "代尔夫特画派",
+    "color": "#D2691E",
+    "lane": 0,
+    "descriptionCn": "荷兰黄金时代在代尔夫特形成的流派。以维米尔和彼得·德·霍赫为代表，专注于描绘宁静的室内家庭生活，对光线、色彩和空间透视有着极其精确和诗意的把握。",
+    "start": {
+      "year": 1650
+    },
+    "end": {
+      "year": 1670
+    }
+  },
+  {
+    "id": "m_rococo",
+    "periodId": "baroque",
     "nameEn": "Rococo",
-    "nameCn": "洛可可",
-    "startYear": 1730,
-    "endYear": 1780,
-    "color": "#8B0000",
-    "lane": 6
+    "nameCn": "洛可可艺术",
+    "color": "#FFB6C1",
+    "lane": 0,
+    "descriptionCn": "起源于法国路易十五时期。是对巴洛克宏大沉重风格的反叛，转向轻快、柔美、享乐和精致。常描绘贵族的游乐（雅宴画）、神话和爱情。色彩多用粉彩。代表人物有华托（《舟发西苔岛》）、布歇、弗拉戈纳尔（《秋千》）。",
+    "start": {
+      "year": 1720
+    },
+    "end": {
+      "year": 1780
+    }
   },
   {
-    "id": "m20",
-    "periodId": "neoclassic_romantic",
+    "id": "m_neoclassicism",
+    "periodId": "modern_early",
     "nameEn": "Neoclassicism",
     "nameCn": "新古典主义",
-    "startYear": 1750,
-    "endYear": 1850,
     "color": "#708090",
-    "lane": 0
+    "lane": 1,
+    "descriptionCn": "受庞贝古城发掘和启蒙运动影响，反对洛可可的轻浮，主张回归古希腊罗马的严谨、理性和英雄主义道德。构图严谨，色彩克制，强调素描关系。代表人物有大卫（《荷拉斯兄弟之誓》）、安格尔（《马拉之死》）和雕塑家卡诺瓦。",
+    "start": {
+      "year": 1760
+    },
+    "end": {
+      "year": 1830
+    }
   },
   {
-    "id": "m21",
-    "periodId": "neoclassic_romantic",
+    "id": "m_romanticism",
+    "periodId": "modern_early",
     "nameEn": "Romanticism",
     "nameCn": "浪漫主义",
-    "startYear": 1780,
-    "endYear": 1850,
-    "color": "#C71585",
-    "lane": 1
+    "color": "#8B0000",
+    "lane": 0,
+    "descriptionCn": "反对新古典主义的理性与秩序，强调个人情感、直觉、想象力和对大自然敬畏。题材常涉及异国情调、中世纪传说、恐怖或壮丽的自然景观。代表人物有德拉克洛瓦（《自由引导人民》）、籍里柯（《梅杜萨之筏》）、戈雅、透纳和弗里德里希。",
+    "start": {
+      "year": 1790
+    },
+    "end": {
+      "year": 1850
+    }
   },
   {
-    "id": "m22",
-    "periodId": "neoclassic_romantic",
+    "id": "m_academic_art",
+    "periodId": "modern_early",
+    "nameEn": "Academic Art",
+    "nameCn": "学院派艺术",
+    "color": "#708090",
+    "lane": 2,
+    "descriptionCn": "由欧洲官方艺术学院（特别是法国美术学院）主导的官方风格。融合了新古典主义和浪漫主义，极其注重素描基本功、历史和神话题材以及高度抛光的画面质感。代表人物有布格罗（《维纳斯的诞生》）、卡巴内尔。",
+    "start": {
+      "year": 1800
+    },
+    "end": {
+      "year": 1900
+    }
+  },
+  {
+    "id": "m_danish_golden_age",
+    "periodId": "modern_early",
+    "nameEn": "Danish Golden Age",
+    "nameCn": "丹麦黄金时代",
+    "color": "#8B0000",
+    "lane": 3,
+    "descriptionCn": "丹麦艺术的繁荣期。受新古典主义和早期浪漫主义影响，画风清晰、光线明亮，常描绘哥本哈根的日常生活、风景和肖像。代表人物为克里斯托弗·威廉·埃克斯贝格。",
+    "start": {
+      "year": 1800
+    },
+    "end": {
+      "year": 1850
+    }
+  },
+  {
+    "id": "m_nazarene",
+    "periodId": "modern_early",
+    "nameEn": "Nazarene movement",
+    "nameCn": "拿撒勒画派",
+    "color": "#A0522D",
+    "lane": 4,
+    "descriptionCn": "一群德国浪漫主义画家在罗马成立的团体。他们反叛新古典主义，主张回归中世纪和早期文艺复兴的基督教艺术纯洁性，对后来的拉斐尔前派有直接影响。",
+    "start": {
+      "year": 1809
+    },
+    "end": {
+      "year": 1830
+    }
+  },
+  {
+    "id": "m_hudson_river",
+    "periodId": "modern_early",
+    "nameEn": "Hudson River School",
+    "nameCn": "哈德逊河画派",
+    "color": "#D2B48C",
+    "lane": 6,
+    "descriptionCn": "美国第一个本土风景画派。受浪漫主义影响，以极度写实和宏大的尺幅描绘美国未受破坏的自然风光（如哈德逊河谷、西部荒野），表达了对自然的敬畏和国家扩张的自豪。",
+    "start": {
+      "year": 1825
+    },
+    "end": {
+      "year": 1870
+    }
+  },
+  {
+    "id": "m_dusseldorf_school",
+    "periodId": "modern_early",
+    "nameEn": "Düsseldorf School",
+    "nameCn": "杜塞尔多夫画派",
+    "color": "#CD853F",
+    "lane": 7,
+    "descriptionCn": "德国杜塞尔多夫艺术学院的画家群体。以精细的风景画和带有浪漫、宗教或政治寓意的风俗画著称，对美国哈德逊河画派影响深远。",
+    "start": {
+      "year": 1826
+    },
+    "end": {
+      "year": 1859
+    }
+  },
+  {
+    "id": "m_orientalism",
+    "periodId": "modern_early",
+    "nameEn": "Orientalism",
+    "nameCn": "东方主义",
+    "color": "#556B2F",
+    "lane": 8,
+    "descriptionCn": "19世纪欧洲艺术家对中东、北非和亚洲的描绘。常带有西方视角的浪漫化、异国情调甚至刻板印象，题材多为后宫、集市和沙漠风光。让-莱昂·热罗姆是代表人物。",
+    "start": {
+      "year": 1830
+    },
+    "end": {
+      "year": 1900
+    }
+  },
+  {
+    "id": "m_barbizon_school",
+    "periodId": "modern_early",
+    "nameEn": "Barbizon School",
+    "nameCn": "巴比松画派",
+    "color": "#6B8E23",
+    "lane": 9,
+    "descriptionCn": "法国现实主义风景画派，因聚集在枫丹白露森林的巴比松村而得名。他们主张直接对自然写生，拒绝学院派的理想化风景，为印象派铺平了道路。代表人物有卢梭、柯罗、米勒。",
+    "start": {
+      "year": 1830
+    },
+    "end": {
+      "year": 1870
+    }
+  },
+  {
+    "id": "m_realism",
+    "periodId": "modern_early",
     "nameEn": "Realism",
     "nameCn": "现实主义",
-    "startYear": 1848,
-    "endYear": 1900,
-    "color": "#A0522D",
-    "lane": 2
+    "color": "#8B4513",
+    "lane": 1,
+    "descriptionCn": "起源于法国，反对浪漫主义的夸张和新古典主义的理想化。主张如实描绘当代普通人的日常生活，特别是底层劳动者。库尔贝（《画室》、《打石工》）是核心人物，米勒（《拾穗者》）和杜米埃也是重要代表。",
+    "start": {
+      "year": 1840
+    },
+    "end": {
+      "year": 1880
+    }
   },
   {
-    "id": "m23",
-    "periodId": "neoclassic_romantic",
-    "nameEn": "Pre-Raphaelites",
-    "nameCn": "前拉斐尔派",
-    "startYear": 1848,
-    "endYear": 1900,
-    "color": "#C71585",
-    "lane": 3
+    "id": "m_pre_raphaelite",
+    "periodId": "modern_early",
+    "nameEn": "Pre-Raphaelite Brotherhood",
+    "nameCn": "拉斐尔前派",
+    "color": "#2E8B57",
+    "lane": 4,
+    "descriptionCn": "英国维多利亚时代的艺术运动。反对皇家艺术学院僵化的拉斐尔式古典规范，主张回归拉斐尔之前中世纪早期和早期文艺复兴的真诚与自然。画风细节极其逼真，色彩鲜艳，常带有文学和道德隐喻。代表人物有罗塞蒂、米莱斯（《奥菲莉娅》）、霍尔曼·亨特。",
+    "start": {
+      "year": 1848
+    },
+    "end": {
+      "year": 1890
+    }
   },
   {
-    "id": "m24",
-    "periodId": "neoclassic_romantic",
+    "id": "m_luminism_us",
+    "periodId": "modern_early",
+    "nameEn": "American Luminism",
+    "nameCn": "美国发光派",
+    "color": "#F4A460",
+    "lane": 10,
+    "descriptionCn": "哈德逊河画派的衍生。专注于描绘宁静水面上的光线效果，笔触隐藏，画面充满诗意和沉思的氛围。代表人物为菲茨·亨利·莱恩。",
+    "start": {
+      "year": 1850
+    },
+    "end": {
+      "year": 1870
+    }
+  },
+  {
+    "id": "m_macchiaioli",
+    "periodId": "modern_early",
+    "nameEn": "Macchiaioli",
+    "nameCn": "斑痕画派",
+    "color": "#8FBC8F",
+    "lane": 11,
+    "descriptionCn": "意大利佛罗伦萨的先锋画派。比法国印象派更早开始外光写生，主张用色块（Macchie）来捕捉光影和形式，题材多为托斯卡纳的乡村和意大利统一运动。",
+    "start": {
+      "year": 1855
+    },
+    "end": {
+      "year": 1880
+    }
+  },
+  {
+    "id": "m_impressionism",
+    "periodId": "modern_early",
     "nameEn": "Impressionism",
     "nameCn": "印象派",
-    "startYear": 1860,
-    "endYear": 1890,
-    "color": "#FF4500",
-    "lane": 4
+    "color": "#87CEEB",
+    "lane": 0,
+    "descriptionCn": "西方艺术史的重大转折。艺术家走出画室，在户外进行外光写生（En plein air）。不再关注物体的固有色，而是捕捉光影在瞬间的色彩变化。笔触快速、破碎。代表人物有莫奈（《日出·印象》）、雷诺阿、德加、毕沙罗、西斯莱。",
+    "start": {
+      "year": 1860
+    },
+    "end": {
+      "year": 1890
+    }
   },
   {
-    "id": "m25",
-    "periodId": "neoclassic_romantic",
-    "nameEn": "Post-Impressionism",
-    "nameCn": "后印象派",
-    "startYear": 1886,
-    "endYear": 1905,
-    "color": "#FF4500",
-    "lane": 5
+    "id": "m_japonisme",
+    "periodId": "modern_early",
+    "nameEn": "Japonisme",
+    "nameCn": "日本主义",
+    "color": "#2F4F4F",
+    "lane": 3,
+    "descriptionCn": "19世纪下半叶日本浮世绘和工艺品对西方艺术的巨大冲击。其非对称构图、平涂色彩和明确的轮廓线深刻影响了印象派、后印象派和新艺术运动。",
+    "start": {
+      "year": 1860
+    },
+    "end": {
+      "year": 1910
+    }
   },
   {
-    "id": "m26",
-    "periodId": "neoclassic_romantic",
-    "nameEn": "Arts & Crafts",
-    "nameCn": "工艺美术",
-    "startYear": 1880,
-    "endYear": 1920,
-    "color": "#A0522D",
-    "lane": 6
+    "id": "m_hague_school",
+    "periodId": "modern_early",
+    "nameEn": "Hague School",
+    "nameCn": "海牙画派",
+    "color": "#8B0000",
+    "lane": 12,
+    "descriptionCn": "荷兰的现实主义风景画派。受巴比松画派影响，常描绘荷兰阴郁的天空、风车和渔民生活，色调多为灰暗的绿色和棕色。早期梵高深受其影响。",
+    "start": {
+      "year": 1860
+    },
+    "end": {
+      "year": 1890
+    }
   },
   {
-    "id": "m27",
-    "periodId": "neoclassic_romantic",
+    "id": "m_aestheticism",
+    "periodId": "modern_early",
+    "nameEn": "Aestheticism",
+    "nameCn": "唯美主义",
+    "color": "#4682B4",
+    "lane": 13,
+    "descriptionCn": "主张“为艺术而艺术”（Art for art's sake），认为艺术不需要承担道德、政治或叙事责任，只需提供纯粹的视觉美感。惠斯勒（《夜曲》系列）和王尔德是重要倡导者。",
+    "start": {
+      "year": 1860
+    },
+    "end": {
+      "year": 1900
+    }
+  },
+  {
+    "id": "m_peredvizhniki",
+    "periodId": "modern_early",
+    "nameEn": "Peredvizhniki",
+    "nameCn": "巡回展览画派",
+    "color": "#2E8B57",
+    "lane": 7,
+    "descriptionCn": "俄罗斯批判现实主义画派。他们脱离皇家美术学院，在全国巡回展览，致力于描绘俄罗斯广袤的自然风景和底层人民的苦难。列宾（《伏尔加河上的纤夫》）、苏里科夫、列维坦是核心人物。",
+    "start": {
+      "year": 1870
+    },
+    "end": {
+      "year": 1923
+    }
+  },
+  {
+    "id": "m_symbolism",
+    "periodId": "modern_early",
     "nameEn": "Symbolism",
     "nameCn": "象征主义",
-    "startYear": 1880,
-    "endYear": 1910,
-    "color": "#FF4500",
-    "lane": 7
+    "color": "#4B0082",
+    "lane": 6,
+    "descriptionCn": "反对现实主义和印象派的客观性，主张艺术应表达内在的精神世界、梦境、神秘和潜意识。常使用隐喻和象征手法。代表人物有莫罗、雷东、鲁东、蒙克（《呐喊》）以及纳比派画家。",
+    "start": {
+      "year": 1880
+    },
+    "end": {
+      "year": 1910
+    }
   },
   {
-    "id": "m28",
-    "periodId": "neoclassic_romantic",
+    "id": "m_arts_and_crafts",
+    "periodId": "modern_early",
+    "nameEn": "Arts and Crafts",
+    "nameCn": "工艺美术运动",
+    "color": "#BDB76B",
+    "lane": 9,
+    "descriptionCn": "由威廉·莫里斯在英国发起。反对工业革命带来的粗制滥造，提倡恢复中世纪手工艺的传统和尊严，强调设计应诚实反映材料和功能。直接启发了新艺术运动和包豪斯。",
+    "start": {
+      "year": 1880
+    },
+    "end": {
+      "year": 1920
+    }
+  },
+  {
+    "id": "m_tonalism",
+    "periodId": "modern_early",
+    "nameEn": "Tonalism",
+    "nameCn": "色调主义",
+    "color": "#DAA520",
+    "lane": 10,
+    "descriptionCn": "美国风景画风格。特点是画面笼罩在统一的、柔和的暗色调（如灰色、棕色、蓝色）中，常描绘雾气、黄昏，营造出一种忧郁和神秘的氛围。",
+    "start": {
+      "year": 1880
+    },
+    "end": {
+      "year": 1915
+    }
+  },
+  {
+    "id": "m_post_impressionism",
+    "periodId": "modern_early",
+    "nameEn": "Post-Impressionism",
+    "nameCn": "后印象派",
+    "color": "#9370DB",
+    "lane": 14,
+    "descriptionCn": "并非一个统一的组织，而是指在印象派之后，对印象派过于客观记录光影感到不满的几位大师。他们更强调主观情感的表达或画面的结构秩序。塞尚（几何结构）、梵高（强烈情感与色彩，如《星月夜》）、高更（象征色彩）是三大支柱。",
+    "start": {
+      "year": 1886
+    },
+    "end": {
+      "year": 1905
+    }
+  },
+  {
+    "id": "m_neo_impressionism",
+    "periodId": "modern_early",
+    "nameEn": "Neo-Impressionism / Pointillism",
+    "nameCn": "新印象派 / 点彩派",
+    "color": "#40E0D0",
+    "lane": 15,
+    "descriptionCn": "由乔治·修拉创立。运用光学和色彩学原理，将纯色的小点并列在画布上，让观众的眼睛在一定距离外自动将色彩混合（视学混合）。代表作有修拉的《大碗岛的星期天下午》、西涅克。",
+    "start": {
+      "year": 1886
+    },
+    "end": {
+      "year": 1900
+    }
+  },
+  {
+    "id": "m_pont_aven",
+    "periodId": "modern_early",
+    "nameEn": "Pont-Aven School",
+    "nameCn": "阿旺桥画派",
+    "color": "#708090",
+    "lane": 16,
+    "descriptionCn": "以高更为中心，在法国布列塔尼阿旺桥村形成的后印象派团体。他们发展了“综合主义”，使用大块纯色和粗重的深色轮廓线，画风具有强烈的装饰性和象征性。",
+    "start": {
+      "year": 1886
+    },
+    "end": {
+      "year": 1896
+    }
+  },
+  {
+    "id": "m_les_nabis",
+    "periodId": "modern_early",
+    "nameEn": "Les Nabis",
+    "nameCn": "纳比派",
+    "color": "#D2691E",
+    "lane": 17,
+    "descriptionCn": "受高更影响的法国青年艺术家团体（“纳比”在希伯来语中意为先知）。他们将绘画视为色彩在平面上的排列，作品带有神秘主义色彩，并积极参与海报、戏剧布景等实用设计。代表人物有博纳尔、维亚尔。",
+    "start": {
+      "year": 1888
+    },
+    "end": {
+      "year": 1900
+    }
+  },
+  {
+    "id": "m_art_nouveau",
+    "periodId": "modern_early",
     "nameEn": "Art Nouveau",
     "nameCn": "新艺术运动",
-    "startYear": 1890,
-    "endYear": 1910,
-    "color": "#FF4500",
-    "lane": 8
+    "color": "#DAA520",
+    "lane": 1,
+    "descriptionCn": "一场跨越建筑、实用艺术和纯艺术的国际运动。灵感来源于自然界（植物、花卉），以充满活力的波浪形、不对称的“鞭状线条”为主要特征。代表人物有穆夏（插画）、高迪（建筑）、克林姆特。",
+    "start": {
+      "year": 1890
+    },
+    "end": {
+      "year": 1910
+    }
   },
   {
-    "id": "m29",
-    "periodId": "modern_era",
+    "id": "m_secessionism",
+    "periodId": "modern_mid",
+    "nameEn": "Secessionism",
+    "nameCn": "分离派",
+    "color": "#A0522D",
+    "lane": 11,
+    "descriptionCn": "德国和奥地利艺术家脱离官方学院派的运动。最著名的是克林姆特领导的维也纳分离派，其风格融合了新艺术运动的装饰性、象征主义和强烈的感官色彩。",
+    "start": {
+      "year": 1892
+    },
+    "end": {
+      "year": 1914
+    }
+  },
+  {
+    "id": "m_ashcan_school",
+    "periodId": "modern_mid",
+    "nameEn": "Ashcan School",
+    "nameCn": "垃圾箱画派",
+    "color": "#D2B48C",
+    "lane": 0,
+    "descriptionCn": "美国现实主义画派。他们反叛当时的唯美风气，专门描绘纽约街头、贫民窟、酒馆等粗糙、真实的都市生活场景，被称为“垃圾箱”。代表人物为罗伯特·亨利。",
+    "start": {
+      "year": 1900
+    },
+    "end": {
+      "year": 1915
+    }
+  },
+  {
+    "id": "m_fauvism",
+    "periodId": "modern_mid",
     "nameEn": "Fauvism",
     "nameCn": "野兽派",
-    "startYear": 1904,
-    "endYear": 1908,
     "color": "#FF4500",
-    "lane": 0
+    "lane": 4,
+    "descriptionCn": "20世纪初的第一个先锋运动。以马蒂斯（《舞蹈》）、德兰为首。特点是完全脱离客观色彩的束缚，使用极其狂野、未经调和的纯色，以及粗犷的笔触来表达内在情感。因被评论家戏称为“野兽”而得名。",
+    "start": {
+      "year": 1905
+    },
+    "end": {
+      "year": 1910
+    }
   },
   {
-    "id": "m30",
-    "periodId": "modern_era",
-    "nameEn": "Cubism",
-    "nameCn": "立体主义",
-    "startYear": 1907,
-    "endYear": 1914,
-    "color": "#FF4500",
-    "lane": 1
-  },
-  {
-    "id": "m31",
-    "periodId": "modern_era",
+    "id": "m_expressionism",
+    "periodId": "modern_mid",
     "nameEn": "Expressionism",
     "nameCn": "表现主义",
-    "startYear": 1905,
-    "endYear": 1933,
-    "color": "#FF4500",
-    "lane": 2
+    "color": "#8B0000",
+    "lane": 12,
+    "descriptionCn": "主要在德国兴起（桥社、青骑士社）。反对印象派的表面光影，主张通过扭曲的形态、强烈的色彩和粗糙的笔触来表现内心的焦虑、恐惧或精神体验。代表人物有基尔希纳、康定斯基、马尔克。",
+    "start": {
+      "year": 1905
+    },
+    "end": {
+      "year": 1930
+    }
   },
   {
-    "id": "m32",
-    "periodId": "modern_era",
+    "id": "m_die_brucke",
+    "periodId": "modern_mid",
+    "nameEn": "Die Brücke",
+    "nameCn": "桥社",
+    "color": "#CD853F",
+    "lane": 18,
+    "descriptionCn": "德国表现主义的早期团体，成立于德累斯顿。受尼采哲学启发，试图成为通向未来的“桥梁”。画风粗犷、色彩刺眼，常描绘城市生活的焦虑和原始的裸体。代表人物为基尔希纳。",
+    "start": {
+      "year": 1905
+    },
+    "end": {
+      "year": 1913
+    }
+  },
+  {
+    "id": "m_cubism",
+    "periodId": "modern_mid",
+    "nameEn": "Cubism",
+    "nameCn": "立体主义",
+    "color": "#A0522D",
+    "lane": 16,
+    "descriptionCn": "由毕加索（《亚威农少女》）和布拉克创立，是20世纪最具革命性的艺术运动。打破了自文艺复兴以来的单一透视法，将物体分解为几何切面，从多个角度同时展现。分为早期“分析立体主义”和后期“综合立体主义”。",
+    "start": {
+      "year": 1907
+    },
+    "end": {
+      "year": 1914
+    }
+  },
+  {
+    "id": "m_futurism",
+    "periodId": "modern_mid",
     "nameEn": "Futurism",
     "nameCn": "未来主义",
-    "startYear": 1909,
-    "endYear": 1944,
-    "color": "#FF4500",
-    "lane": 3
+    "color": "#B22222",
+    "lane": 19,
+    "descriptionCn": "发源于意大利，由马里内蒂发表宣言。狂热崇拜现代科技、机器、速度、力量和暴力，彻底否定过去的传统。艺术上试图在静止的画面中表现连续的运动和时间。代表人物有波丘尼、巴拉（《空间中连续的唯一形体》）。",
+    "start": {
+      "year": 1909
+    },
+    "end": {
+      "year": 1944
+    }
   },
   {
-    "id": "m33",
-    "periodId": "modern_era",
+    "id": "m_der_blaue_reiter",
+    "periodId": "modern_mid",
+    "nameEn": "Der Blaue Reiter",
+    "nameCn": "青骑士社",
+    "color": "#8B4513",
+    "lane": 2,
+    "descriptionCn": "德国表现主义的另一个核心团体，成立于慕尼黑。相比桥社，他们更注重精神性和色彩的音乐感。康定斯基在此期间创作了西方艺术史上第一批纯抽象绘画。",
+    "start": {
+      "year": 1911
+    },
+    "end": {
+      "year": 1914
+    }
+  },
+  {
+    "id": "m_rayonism",
+    "periodId": "modern_mid",
+    "nameEn": "Rayonism",
+    "nameCn": "辐射主义",
+    "color": "#556B2F",
+    "lane": 5,
+    "descriptionCn": "俄罗斯早期的抽象艺术运动，由拉里奥诺夫和冈察洛娃创立。试图在画布上描绘光线反射和交叉的动态效果，画面充满锐利的对角线。",
+    "start": {
+      "year": 1911
+    },
+    "end": {
+      "year": 1914
+    }
+  },
+  {
+    "id": "m_orphism",
+    "periodId": "modern_mid",
+    "nameEn": "Orphism",
+    "nameCn": "奥费主义",
+    "color": "#F4A460",
+    "lane": 8,
+    "descriptionCn": "立体主义的一个分支，由德劳内创立。在立体主义的几何结构中重新引入了鲜艳的色彩，强调色彩的对比和音乐般的节奏感，是最早的抽象尝试之一。",
+    "start": {
+      "year": 1912
+    },
+    "end": {
+      "year": 1914
+    }
+  },
+  {
+    "id": "m_suprematism",
+    "periodId": "modern_mid",
     "nameEn": "Suprematism",
     "nameCn": "至上主义",
-    "startYear": 1913,
-    "endYear": 1928,
-    "color": "#FF4500",
-    "lane": 4
+    "color": "#6B8E23",
+    "lane": 13,
+    "descriptionCn": "由俄罗斯艺术家马列维奇创立的极端抽象流派。主张艺术应表现“纯粹感情的至高无上”，完全抛弃客观物象，仅使用基本的几何图形（如黑方块、红十字）。",
+    "start": {
+      "year": 1913
+    },
+    "end": {
+      "year": 1920
+    }
   },
   {
-    "id": "m34",
-    "periodId": "modern_era",
+    "id": "m_constructivism",
+    "periodId": "modern_mid",
     "nameEn": "Constructivism",
     "nameCn": "构成主义",
-    "startYear": 1915,
-    "endYear": 1940,
-    "color": "#FF4500",
-    "lane": 5
+    "color": "#CD5C5C",
+    "lane": 14,
+    "descriptionCn": "起源于俄罗斯，与十月革命紧密相关。主张艺术应为社会和工业服务，反对“为艺术而艺术”。作品多使用工业材料（玻璃、钢铁），以严谨的几何结构“构建”而非“描绘”。代表人物有塔特林（《第三国际纪念塔》）、罗德琴科。",
+    "start": {
+      "year": 1915
+    },
+    "end": {
+      "year": 1930
+    }
   },
   {
-    "id": "m35",
-    "periodId": "modern_era",
+    "id": "m_dada",
+    "periodId": "modern_mid",
     "nameEn": "Dada",
     "nameCn": "达达主义",
-    "startYear": 1916,
-    "endYear": 1924,
-    "color": "#FF4500",
-    "lane": 6
+    "color": "#2F4F4F",
+    "lane": 15,
+    "descriptionCn": "一战期间在苏黎世兴起的反艺术运动。出于对战争的绝望，达达主义者反对一切理性和传统美学，崇尚荒诞、无意义、偶然性和破坏。杜尚的“现成品”艺术（如《泉》即小便池）彻底改变了艺术的定义。",
+    "start": {
+      "year": 1916
+    },
+    "end": {
+      "year": 1924
+    }
   },
   {
-    "id": "m36",
-    "periodId": "modern_era",
+    "id": "m_de_stijl",
+    "periodId": "modern_mid",
     "nameEn": "De Stijl",
     "nameCn": "风格派",
-    "startYear": 1917,
-    "endYear": 1931,
-    "color": "#FF4500",
-    "lane": 7
+    "color": "#FFD700",
+    "lane": 17,
+    "descriptionCn": "荷兰的几何抽象艺术运动。主张纯粹的抽象和普遍性，将视觉词汇简化为直线、直角以及红、黄、蓝三原色和黑白灰。蒙德里安（《红、黄、蓝的构成》）和杜斯堡是核心人物。",
+    "start": {
+      "year": 1917
+    },
+    "end": {
+      "year": 1931
+    }
   },
   {
-    "id": "m37",
-    "periodId": "modern_era",
+    "id": "m_purism",
+    "periodId": "modern_mid",
+    "nameEn": "Purism",
+    "nameCn": "纯粹主义",
+    "color": "#8FBC8F",
+    "lane": 20,
+    "descriptionCn": "由勒·柯布西耶和奥占芳发起。批评立体主义后期的纯装饰倾向，主张回归机器时代的秩序、清晰和简洁，画中常出现标准化的日常物品（如瓶子、玻璃杯）。",
+    "start": {
+      "year": 1918
+    },
+    "end": {
+      "year": 1925
+    }
+  },
+  {
+    "id": "m_harlem_renaissance",
+    "periodId": "modern_mid",
+    "nameEn": "Harlem Renaissance",
+    "nameCn": "哈莱姆文艺复兴",
+    "color": "#2E8B57",
+    "lane": 21,
+    "descriptionCn": "美国纽约哈莱姆区非裔美国人的文化繁荣。视觉艺术家们首次在主流艺术界展现黑人的生活、历史和尊严，融合了现代主义技法与非洲艺术元素。代表人物为阿伦·道格拉斯。",
+    "start": {
+      "year": 1918
+    },
+    "end": {
+      "year": 1937
+    }
+  },
+  {
+    "id": "m_bauhaus",
+    "periodId": "modern_mid",
     "nameEn": "Bauhaus",
     "nameCn": "包豪斯",
-    "startYear": 1919,
-    "endYear": 1933,
-    "color": "#FF4500",
-    "lane": 8
+    "color": "#696969",
+    "lane": 22,
+    "descriptionCn": "由格罗皮乌斯在德国创立的艺术与设计学校。打破了纯艺术与工艺的界限，确立了“形式追随功能”的现代设计原则。对现代建筑、工业设计和艺术教育产生了不可估量的深远影响。",
+    "start": {
+      "year": 1919
+    },
+    "end": {
+      "year": 1933
+    }
   },
   {
-    "id": "m38",
-    "periodId": "modern_era",
+    "id": "m_art_deco",
+    "periodId": "modern_mid",
+    "nameEn": "Art Deco",
+    "nameCn": "装饰艺术运动",
+    "color": "#DAA520",
+    "lane": 1,
+    "descriptionCn": "兴起于法国并在全球流行的设计风格。结合了现代主义的几何形态与奢华材料，表现出对机械时代的乐观和对奢华的追求。常见于摩天大楼（如纽约克莱斯勒大厦）、珠宝和室内设计。",
+    "start": {
+      "year": 1920
+    },
+    "end": {
+      "year": 1939
+    }
+  },
+  {
+    "id": "m_new_objectivity",
+    "periodId": "modern_mid",
+    "nameEn": "New Objectivity",
+    "nameCn": "新客观派",
+    "color": "#2F4F4F",
+    "lane": 3,
+    "descriptionCn": "魏玛共和国时期的德国艺术运动。作为对表现主义主观宣泄的反弹，他们以极其冷酷、甚至愤世嫉俗的写实手法，揭露战后社会的腐败、战争创伤和人性的丑陋。代表人物为奥托·迪克斯、乔治·格罗兹。",
+    "start": {
+      "year": 1920
+    },
+    "end": {
+      "year": 1933
+    }
+  },
+  {
+    "id": "m_social_realism",
+    "periodId": "modern_mid",
+    "nameEn": "Social Realism",
+    "nameCn": "社会现实主义",
+    "color": "#8B0000",
+    "lane": 4,
+    "descriptionCn": "国际性的艺术运动。艺术家利用写实手法描绘工人阶级的困境，批判资本主义的不公，具有强烈的左翼政治色彩。墨西哥壁画运动（如里维拉）是其重要分支。",
+    "start": {
+      "year": 1920
+    },
+    "end": {
+      "year": 1940
+    }
+  },
+  {
+    "id": "m_surrealism",
+    "periodId": "modern_mid",
     "nameEn": "Surrealism",
     "nameCn": "超现实主义",
-    "startYear": 1924,
-    "endYear": 1966,
-    "color": "#FF4500",
-    "lane": 9
+    "color": "#483D8B",
+    "lane": 2,
+    "descriptionCn": "受弗洛伊德精神分析学说影响，由安德烈·布勒东发起。致力于探索潜意识、梦境和非理性状态。分为两派：达利（《记忆的永恒》）、马格里特为代表的“写实超现实主义”，以及米罗、米罗、马松为代表的“绝对自动主义”。",
+    "start": {
+      "year": 1924
+    },
+    "end": {
+      "year": 1966
+    }
   },
   {
-    "id": "m39",
-    "periodId": "modern_era",
-    "nameEn": "Art Deco",
-    "nameCn": "装饰艺术",
-    "startYear": 1920,
-    "endYear": 1940,
-    "color": "#FF4500",
-    "lane": 10
-  },
-  {
-    "id": "m40",
+    "id": "m_color_field",
     "periodId": "contemporary",
-    "nameEn": "Abstract Exp.",
-    "nameCn": "抽象表现主义",
-    "startYear": 1943,
-    "endYear": 1965,
-    "color": "#C71585",
-    "lane": 0
+    "nameEn": "Color Field",
+    "nameCn": "色域绘画",
+    "color": "#4682B4",
+    "lane": 0,
+    "descriptionCn": "抽象表现主义的一个分支。与波洛克的狂躁线条不同，罗斯科、纽曼等人使用大面积的、平涂的纯色色块，旨在唤起观众深沉的宗教或冥想体验。",
+    "start": {
+      "year": 1940
+    },
+    "end": {
+      "year": 1960
+    }
   },
   {
-    "id": "m41",
+    "id": "m_abstract_expressionism",
+    "periodId": "contemporary",
+    "nameEn": "Abstract Expressionism",
+    "nameCn": "抽象表现主义",
+    "color": "#B22222",
+    "lane": 3,
+    "descriptionCn": "二战后以纽约为中心的艺术运动，标志着世界艺术中心从巴黎转移到纽约。强调自发性、潜意识的表达和绘画行为本身。分为波洛克（《秋韵》）的“行动绘画”和罗斯科的“色域绘画”。",
+    "start": {
+      "year": 1943
+    },
+    "end": {
+      "year": 1965
+    }
+  },
+  {
+    "id": "m_pop_art",
     "periodId": "contemporary",
     "nameEn": "Pop Art",
     "nameCn": "波普艺术",
-    "startYear": 1955,
-    "endYear": 1970,
-    "color": "#C71585",
-    "lane": 1
+    "color": "#FF1493",
+    "lane": 1,
+    "descriptionCn": "起源于英国，鼎盛于美国。对抽象表现主义的高雅精英姿态进行反叛，将大众文化（广告、漫画、消费品、名人）直接引入艺术。代表人物有安迪·沃霍尔（《玛丽莲·梦露》）、利希滕斯坦。",
+    "start": {
+      "year": 1955
+    },
+    "end": {
+      "year": 1970
+    }
   },
   {
-    "id": "m42",
+    "id": "m_minimalism",
     "periodId": "contemporary",
     "nameEn": "Minimalism",
     "nameCn": "极简主义",
-    "startYear": 1960,
-    "endYear": 1975,
-    "color": "#C71585",
-    "lane": 2
+    "color": "#A9A9A9",
+    "lane": 4,
+    "descriptionCn": "主张将艺术剥离到最基本的几何形态，消除艺术家的个人情感痕迹和隐喻，强调“你看到的就是你看到的”。多使用工业材料进行重复排列。代表人物有唐纳德·贾德、丹·弗莱文。",
+    "start": {
+      "year": 1960
+    },
+    "end": {
+      "year": 1975
+    }
   },
   {
-    "id": "m43",
+    "id": "m_conceptual_art",
     "periodId": "contemporary",
     "nameEn": "Conceptual Art",
     "nameCn": "观念艺术",
-    "startYear": 1960,
-    "endYear": 1980,
-    "color": "#C71585",
-    "lane": 3
+    "color": "#4682B4",
+    "lane": 5,
+    "descriptionCn": "认为艺术的“观念”或“概念”比物质实体或审美表现更重要。艺术品可以仅仅是一段文字、一个指令或记录。代表作如约瑟夫·科苏斯的《一把和三把椅子》。彻底颠覆了传统艺术品的定义。",
+    "start": {
+      "year": 1960
+    },
+    "end": {
+      "year": 2026
+    }
   },
   {
-    "id": "m44",
+    "id": "m_fluxus",
+    "periodId": "contemporary",
+    "nameEn": "Fluxus",
+    "nameCn": "激浪派",
+    "color": "#8B008B",
+    "lane": 6,
+    "descriptionCn": "一个跨学科的国际先锋艺术网络。受达达主义和约翰·凯奇影响，主张艺术与生活的融合，强调过程、即兴和幽默，常以“事件”（Event）和行为表演的形式出现。代表人物有小野洋子、博伊斯。",
+    "start": {
+      "year": 1960
+    },
+    "end": {
+      "year": 1978
+    }
+  },
+  {
+    "id": "m_performance_art",
+    "periodId": "contemporary",
+    "nameEn": "Performance Art",
+    "nameCn": "行为艺术",
+    "color": "#FF4500",
+    "lane": 7,
+    "descriptionCn": "以艺术家的身体为媒介，在特定时间和地点进行的现场表演。强调艺术家与观众的互动，挑战艺术的商品化属性。代表人物有玛丽娜·阿布拉莫维奇（《艺术家在场》）、克里斯·波顿。",
+    "start": {
+      "year": 1960
+    },
+    "end": {
+      "year": 2026
+    }
+  },
+  {
+    "id": "m_op_art",
+    "periodId": "contemporary",
+    "nameEn": "Op Art",
+    "nameCn": "欧普艺术 (光效应艺术)",
+    "color": "#DAA520",
+    "lane": 8,
+    "descriptionCn": "利用人类视觉的错觉原理，通过精确计算的几何图形和色彩对比，在平面的画布上产生闪烁、流动或凸凹的强烈光学动态效果。代表人物为维克多·瓦萨雷里。",
+    "start": {
+      "year": 1960
+    },
+    "end": {
+      "year": 1970
+    }
+  },
+  {
+    "id": "m_video_art",
+    "periodId": "contemporary",
+    "nameEn": "Video Art",
+    "nameCn": "录像艺术",
+    "color": "#00CED1",
+    "lane": 9,
+    "descriptionCn": "随着便携式摄像机的普及而产生。利用影像和音频技术进行创作，探索时间、空间、媒体对现实的塑造。白南准被誉为录像艺术之父。如今已发展为涵盖数字媒体和虚拟现实的新媒体艺术。",
+    "start": {
+      "year": 1965
+    },
+    "end": {
+      "year": 2026
+    }
+  },
+  {
+    "id": "m_arte_povera",
+    "periodId": "contemporary",
+    "nameEn": "Arte Povera",
+    "nameCn": "贫穷艺术",
+    "color": "#BDB76B",
+    "lane": 10,
+    "descriptionCn": "发生于意大利的先锋运动。艺术家故意使用“贫穷”的日常材料（如泥土、破布、树枝、煤炭）进行创作，以反抗艺术的商业化和传统美学。",
+    "start": {
+      "year": 1967
+    },
+    "end": {
+      "year": 1972
+    }
+  },
+  {
+    "id": "m_land_art",
     "periodId": "contemporary",
     "nameEn": "Land Art",
     "nameCn": "大地艺术",
-    "startYear": 1968,
-    "endYear": 1985,
-    "color": "#C71585",
-    "lane": 4
+    "color": "#8B4513",
+    "lane": 11,
+    "descriptionCn": "艺术家走出画廊，直接在广阔的自然环境中创作，使用泥土、岩石等自然材料。作品往往规模巨大且随时间自然消亡，表达对生态和艺术商业化的反思。代表作有罗伯特·史密森的《螺旋防波堤》。",
+    "start": {
+      "year": 1968
+    },
+    "end": {
+      "year": 2026
+    }
   },
   {
-    "id": "m45",
+    "id": "m_postmodernism",
     "periodId": "contemporary",
-    "nameEn": "Neo-Expressionism",
+    "nameEn": "Postmodernism",
+    "nameCn": "后现代主义",
+    "color": "#9932CC",
+    "lane": 0,
+    "descriptionCn": "对现代主义宏大叙事和乌托邦理想的怀疑与解构。特点是多元化、挪用（Appropriation）、拼贴、戏仿和对高雅/低俗文化界限的打破。涵盖了新表现主义、女性主义艺术等众多流派。",
+    "start": {
+      "year": 1970
+    },
+    "end": {
+      "year": 2026
+    }
+  },
+  {
+    "id": "m_neo_expressionism",
+    "periodId": "contemporary",
+    "nameEn": "Neo-expressionism",
     "nameCn": "新表现主义",
-    "startYear": 1978,
-    "endYear": 1995,
-    "color": "#C71585",
-    "lane": 5
+    "color": "#708090",
+    "lane": 12,
+    "descriptionCn": "作为对极简主义和观念艺术冷酷理性的反弹，绘画在70年代末强势回归。画面尺幅巨大，笔触粗野，色彩强烈，充满神话、历史和个人情感的隐喻。代表人物有巴塞利兹、基弗、朱利安·施纳贝尔。",
+    "start": {
+      "year": 1970
+    },
+    "end": {
+      "year": 1990
+    }
   },
   {
-    "id": "m46",
-    "periodId": "contemporary",
-    "nameEn": "YBA",
-    "nameCn": "英国青年艺术家",
-    "startYear": 1988,
-    "endYear": 2000,
-    "color": "#C71585",
-    "lane": 6
-  },
-  {
-    "id": "m47",
+    "id": "m_street_art",
     "periodId": "contemporary",
     "nameEn": "Street Art",
     "nameCn": "街头艺术",
-    "startYear": 1980,
-    "endYear": 2024,
-    "color": "#C71585",
-    "lane": 7
+    "color": "#D2691E",
+    "lane": 13,
+    "descriptionCn": "起源于纽约的涂鸦文化，后发展为全球性的公共艺术形式。使用喷漆、模板、贴纸等在公共空间表达政治诉求或社会讽刺。代表人物有让-米歇尔·巴斯奎特、凯斯·哈林、Banksy。",
+    "start": {
+      "year": 1970
+    },
+    "end": {
+      "year": 2026
+    }
+  },
+  {
+    "id": "m_yba",
+    "periodId": "contemporary",
+    "nameEn": "Young British Artists",
+    "nameCn": "英国青年艺术家 (YBA)",
+    "color": "#DC143C",
+    "lane": 1,
+    "descriptionCn": "20世纪80年代末在伦敦崛起的一群艺术家。以震撼、挑衅性的题材（死亡、腐烂、性）和非传统材料（如浸泡在甲醛中的动物）闻名，极具商业运作意识。代表人物有达米恩·赫斯特（《生者对死者无动于衷》）、翠西·艾敏。",
+    "start": {
+      "year": 1988
+    },
+    "end": {
+      "year": 2000
+    }
   }
 ]

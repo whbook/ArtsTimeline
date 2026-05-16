@@ -4,79 +4,111 @@
     "periodId": "heian",
     "nameEn": "Yamato-e",
     "nameCn": "大和绘",
-    "startYear": 794,
-    "endYear": 1185,
     "color": "#483D8B",
-    "lane": 0
+    "lane": 0,
+    "start": {
+      "year": 794
+    },
+    "end": {
+      "year": 1185
+    }
   },
   {
     "id": "s2",
     "periodId": "kamakura",
     "nameEn": "Emakimono (Picture Scrolls)",
     "nameCn": "绘卷物",
-    "startYear": 1185,
-    "endYear": 1333,
     "color": "#800080",
-    "lane": 1
+    "lane": 1,
+    "start": {
+      "year": 1185
+    },
+    "end": {
+      "year": 1333
+    }
   },
   {
     "id": "s3",
     "periodId": "muromachi",
     "nameEn": "Sumi-e (Ink Wash Painting)",
     "nameCn": "水墨画",
-    "startYear": 1336,
-    "endYear": 1573,
     "color": "#8B008B",
-    "lane": 2
+    "lane": 2,
+    "start": {
+      "year": 1336
+    },
+    "end": {
+      "year": 1573
+    }
   },
   {
     "id": "s4",
     "periodId": "muromachi",
     "nameEn": "Kanō School",
     "nameCn": "狩野派",
-    "startYear": 1490,
-    "endYear": 1868,
     "color": "#B22222",
-    "lane": 3
+    "lane": 3,
+    "start": {
+      "year": 1490
+    },
+    "end": {
+      "year": 1868
+    }
   },
   {
     "id": "s5",
     "periodId": "edo",
     "nameEn": "Rinpa School",
     "nameCn": "琳派",
-    "startYear": 1615,
-    "endYear": 1868,
     "color": "#CD5C5C",
-    "lane": 4
+    "lane": 4,
+    "start": {
+      "year": 1615
+    },
+    "end": {
+      "year": 1868
+    }
   },
   {
     "id": "s6",
     "periodId": "edo",
     "nameEn": "Ukiyo-e",
     "nameCn": "浮世绘",
-    "startYear": 1603,
-    "endYear": 1868,
     "color": "#E67E22",
-    "lane": 5
+    "lane": 5,
+    "start": {
+      "year": 1603
+    },
+    "end": {
+      "year": 1868
+    }
   },
   {
     "id": "s7",
     "periodId": "meiji_taisho",
     "nameEn": "Nihonga",
     "nameCn": "日本画",
-    "startYear": 1868,
-    "endYear": 2025,
     "color": "#C71585",
-    "lane": 6
+    "lane": 6,
+    "start": {
+      "year": 1868
+    },
+    "end": {
+      "year": 2025
+    }
   },
   {
     "id": "s8",
     "periodId": "meiji_taisho",
     "nameEn": "Yōga (Western-style)",
     "nameCn": "洋画",
-    "startYear": 1868,
-    "endYear": 2025,
     "color": "#FF1493",
-    "lane": 7
+    "lane": 7,
+    "start": {
+      "year": 1868
+    },
+    "end": {
+      "year": 2025
+    }
   }
 ]

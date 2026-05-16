@@ -7,6 +7,8 @@ import {
   AUTOPLAY_MODE 
 } from '../constants';
 
+import { getDecimalYear } from '../utils';
+
 export function useAutoPlay(
   topicData: TopicData | null,
   onRequestSwitch: () => void,
@@ -73,6 +75,9 @@ export function useAutoPlay(
          animationRef.current = requestAnimationFrame(loop);
          return;
       }
+      
+      // Cap dt to avoid huge jumps or stuttering if frame drops
+      const safeDt = Math.min(dt, 0.05);
 
       setViewport(prev => {
         const range = prev.endYear - prev.startYear;
@@ -82,13 +87,14 @@ export function useAutoPlay(
         let lastEventYear = prev.endYear;
 
         if (events.length > 0) {
-          firstEventYear = Math.min(...events.map(e => e.year));
-          lastEventYear = Math.max(...events.map(e => e.year));
+          firstEventYear = Math.min(...events.map(e => getDecimalYear(e.date)));
+          lastEventYear = Math.max(...events.map(e => getDecimalYear(e.date)));
         }
 
         // Check if we reached the end of the topic (with some buffer)
-        // If the last event has scrolled past the left edge of the screen
-        if (prev.startYear > lastEventYear + range * 0.1) {
+        // If the last event has scrolled past the center of the screen
+        const centerYear = prev.startYear + range / 2;
+        if (centerYear > lastEventYear + range * 0.1) {
           if (!isSwitchingRef.current) {
             isSwitchingRef.current = true;
             countdownStartRef.current = time;
@@ -106,7 +112,10 @@ export function useAutoPlay(
               setCountdown(remaining);
             }
           }
-          return prev; // Stop panning while counting down
+          // Do not return prev here immediately, allow very slow panning or stop completely
+          // Returning prev stops panning entirely, which might feel abrupt.
+          // For now, we return prev to stop it.
+          return prev; 
         } else {
           if (isSwitchingRef.current) {
             isSwitchingRef.current = false;
@@ -138,7 +147,7 @@ export function useAutoPlay(
           speed = speed + (fastSpeed - speed) * factor;
         }
 
-        const delta = speed * dt;
+        const delta = speed * safeDt;
         return {
           startYear: prev.startYear + delta,
           endYear: prev.endYear + delta

@@ -4,506 +4,652 @@
     "periodId": "pre_ancient",
     "titleEn": "Venus of Willendorf",
     "titleCn": "维伦多夫维纳斯",
-    "year": -24000,
     "creator": "Unknown",
     "descriptionEn": "Oolitic limestone figurine. Symbol of fertility.",
-    "descriptionCn": "舊石器時代的女性雕像，象徵多產与生命。"
+    "descriptionCn": "舊石器時代的女性雕像，象徵多產与生命。",
+    "date": {
+      "year": -24000
+    },
+    "streamId": "m_cycladic"
   },
   {
     "id": "102",
     "periodId": "pre_ancient",
     "titleEn": "Lascaux Hall of Bulls",
     "titleCn": "拉斯科公牛大厅",
-    "year": -17000,
     "creator": "Paleolithic Humans",
     "descriptionEn": "Magdalenian cave paintings.",
-    "descriptionCn": "马格德林时期的岩洞壁画杰作。"
+    "descriptionCn": "马格德林时期的岩洞壁画杰作。",
+    "date": {
+      "year": -17000
+    },
+    "streamId": "m_cycladic"
   },
   {
     "id": "103",
     "periodId": "pre_ancient",
     "titleEn": "Great Sphinx",
     "titleCn": "狮身人面像",
-    "year": -2500,
     "creator": "Old Kingdom Egypt",
     "descriptionEn": "Limestone statue of a reclining sphinx.",
-    "descriptionCn": "古埃及第四王朝的巨型石灰岩雕像。"
+    "descriptionCn": "古埃及第四王朝的巨型石灰岩雕像。",
+    "date": {
+      "year": -2500
+    },
+    "streamId": "m_cycladic"
   },
   {
     "id": "104",
     "periodId": "pre_ancient",
     "titleEn": "Code of Hammurabi",
     "titleCn": "汉谟拉比法典",
-    "year": -1754,
     "creator": "Babylonian",
     "descriptionEn": "Basalt stele with laws.",
-    "descriptionCn": "刻在黑色玄武岩柱上的巴比伦法律条文。"
+    "descriptionCn": "刻在黑色玄武岩柱上的巴比伦法律条文。",
+    "date": {
+      "year": -1754
+    },
+    "streamId": "m_cycladic"
   },
   {
     "id": "105",
     "periodId": "pre_ancient",
     "titleEn": "Mask of Tutankhamun",
     "titleCn": "图坦卡蒙金面具",
-    "year": -1323,
     "creator": "New Kingdom Egypt",
     "descriptionEn": "Gold death mask.",
-    "descriptionCn": "古埃及新王国时期的黄金陪葬面具。"
+    "descriptionCn": "古埃及新王国时期的黄金陪葬面具。",
+    "date": {
+      "year": -1323
+    },
+    "streamId": "m_cycladic"
   },
   {
     "id": "201",
     "periodId": "classical",
     "titleEn": "Discobolus",
     "titleCn": "掷铁饼者",
-    "year": -450,
     "creator": "Myron",
     "creatorCn": "米隆",
     "descriptionEn": "Classical Greek sculpture depicting athletic motion.",
-    "descriptionCn": "希腊古典时期表现运动张力的雕塑杰作。"
+    "descriptionCn": "希腊古典时期表现运动张力的雕塑杰作。",
+    "importance": 3,
+    "date": {
+      "year": -450
+    },
+    "streamId": "m_etruscan"
   },
   {
     "id": "202",
     "periodId": "classical",
     "titleEn": "Parthenon Sculptures",
     "titleCn": "帕特农神庙雕塑",
-    "year": -432,
     "creator": "Phidias",
     "creatorCn": "菲迪亚斯",
     "descriptionEn": "Elgin Marbles, high classical style.",
-    "descriptionCn": "雅典卫城的巅峰之作，埃尔金大理石雕。"
+    "descriptionCn": "雅典卫城的巅峰之作，埃尔金大理石雕。",
+    "importance": 1,
+    "date": {
+      "year": -432
+    },
+    "streamId": "m_etruscan"
   },
   {
     "id": "203",
     "periodId": "classical",
     "titleEn": "Winged Victory",
     "titleCn": "萨莫色雷斯胜利女神",
-    "year": -190,
     "creator": "Hellenistic",
     "creatorCn": "希腊化",
     "descriptionEn": "Masterpiece of movement and emotion.",
-    "descriptionCn": "卢浮宫镇馆之宝，表现海风吹拂下的动态。"
+    "descriptionCn": "卢浮宫镇馆之宝，表现海风吹拂下的动态。",
+    "importance": 2,
+    "date": {
+      "year": -190
+    },
+    "streamId": "m_etruscan"
   },
   {
     "id": "204",
     "periodId": "classical",
     "titleEn": "Venus de Milo",
     "titleCn": "断臂维纳斯",
-    "year": -130,
     "creator": "Alexandros",
     "creatorCn": "亚历山德罗斯",
     "descriptionEn": "Standard of female beauty.",
-    "descriptionCn": "希腊化时期女性美的典范。"
+    "descriptionCn": "希腊化时期女性美的典范。",
+    "importance": 1,
+    "date": {
+      "year": -130
+    },
+    "streamId": "m_etruscan"
   },
   {
     "id": "205",
     "periodId": "classical",
     "titleEn": "Trajan's Column",
     "titleCn": "图拉真柱",
-    "year": 113,
     "creator": "Roman Imperial",
     "descriptionEn": "Continuous narrative relief.",
-    "descriptionCn": "罗马帝国连续叙事浮雕的代表。"
+    "descriptionCn": "罗马帝国连续叙事浮雕的代表。",
+    "importance": 3,
+    "date": {
+      "year": 113
+    },
+    "streamId": "m_greco_buddhist"
   },
   {
     "id": "301",
     "periodId": "medieval",
     "titleEn": "Hagia Sophia",
     "titleCn": "圣索菲亚大教堂",
-    "year": 537,
     "creator": "Isidore & Anthemius",
     "descriptionEn": "Byzantine architectural marvel.",
-    "descriptionCn": "拜占庭建筑奇迹，巨大的穹顶。"
+    "descriptionCn": "拜占庭建筑奇迹，巨大的穹顶。",
+    "date": {
+      "year": 537
+    },
+    "streamId": "m_migration"
   },
   {
     "id": "302",
     "periodId": "medieval",
     "titleEn": "Book of Kells",
     "titleCn": "凯尔经",
-    "year": 800,
     "creator": "Celtic Monks",
     "descriptionEn": "Illuminated manuscript.",
-    "descriptionCn": "爱尔兰岛屿风格手抄本巅峰。"
+    "descriptionCn": "爱尔兰岛屿风格手抄本巅峰。",
+    "date": {
+      "year": 800
+    },
+    "streamId": "m_migration"
   },
   {
     "id": "303",
     "periodId": "medieval",
     "titleEn": "Lamentation",
     "titleCn": "哀悼基督",
-    "year": 1305,
     "creator": "Giotto",
     "creatorCn": "乔托",
     "descriptionEn": "Early emotional realism in fresco.",
-    "descriptionCn": "斯克罗威尼礼拜堂壁画，开启了现实主义情感表达。"
+    "descriptionCn": "斯克罗威尼礼拜堂壁画，开启了现实主义情感表达。",
+    "date": {
+      "year": 1305
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "304",
     "periodId": "medieval",
     "titleEn": "Effects of Good Gov.",
     "titleCn": "好政府的寓意",
-    "year": 1339,
     "creator": "Ambrogio Lorenzetti",
     "descriptionEn": "Secular fresco in Siena.",
-    "descriptionCn": "锡耶纳市政厅的世俗题材壁画。"
+    "descriptionCn": "锡耶纳市政厅的世俗题材壁画。",
+    "date": {
+      "year": 1339
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "401",
     "periodId": "renaissance",
     "titleEn": "Arnolfini Portrait",
     "titleCn": "阿尔诺芬尼夫妇像",
-    "year": 1434,
     "creator": "Jan van Eyck",
     "creatorCn": "扬·范·艾克",
     "descriptionEn": "Mastery of oil paint and symbolism.",
-    "descriptionCn": "北方文艺复兴油画技法与象征主义的代表。"
+    "descriptionCn": "北方文艺复兴油画技法与象征主义的代表。",
+    "date": {
+      "year": 1434
+    },
+    "streamId": "m_florentine_school"
   },
   {
     "id": "402",
     "periodId": "renaissance",
     "titleEn": "The Birth of Venus",
     "titleCn": "维纳斯的诞生",
-    "year": 1486,
     "creator": "Botticelli",
     "creatorCn": "波提切利",
     "descriptionEn": "Neoplatonic mythology.",
-    "descriptionCn": "佛罗伦萨新柏拉图主义的视觉化。"
+    "descriptionCn": "佛罗伦萨新柏拉图主义的视觉化。",
+    "date": {
+      "year": 1486
+    },
+    "streamId": "m_florentine_school"
   },
   {
     "id": "403",
     "periodId": "renaissance",
     "titleEn": "The Last Supper",
     "titleCn": "最后的晚餐",
-    "year": 1498,
     "creator": "da Vinci",
     "creatorCn": "达·芬奇",
     "descriptionEn": "Perspective and psychological drama.",
-    "descriptionCn": "透视法与心理戏剧张力的完美结合。"
+    "descriptionCn": "透视法与心理戏剧张力的完美结合。",
+    "date": {
+      "year": 1498
+    },
+    "streamId": "m_florentine_school"
   },
   {
     "id": "404",
     "periodId": "renaissance",
     "titleEn": "David",
     "titleCn": "大卫像",
-    "year": 1504,
     "creator": "Michelangelo",
     "creatorCn": "米开朗基罗",
     "descriptionEn": "High Renaissance sculpture.",
-    "descriptionCn": "盛期文艺复兴人体雕塑的巅峰。"
+    "descriptionCn": "盛期文艺复兴人体雕塑的巅峰。",
+    "date": {
+      "year": 1504
+    },
+    "streamId": "m_florentine_school"
   },
   {
     "id": "405",
     "periodId": "renaissance",
     "titleEn": "The School of Athens",
     "titleCn": "雅典学院",
-    "year": 1511,
     "creator": "Raphael",
     "creatorCn": "拉斐尔",
     "descriptionEn": "Philosophy and harmony.",
-    "descriptionCn": "梵蒂冈教皇宫壁画，哲学的颂歌。"
+    "descriptionCn": "梵蒂冈教皇宫壁画，哲学的颂歌。",
+    "date": {
+      "year": 1511
+    },
+    "streamId": "m_florentine_school"
   },
   {
     "id": "406",
     "periodId": "renaissance",
     "titleEn": "Hunters in the Snow",
     "titleCn": "雪中猎人",
-    "year": 1565,
     "creator": "Bruegel",
     "creatorCn": "老勃鲁盖尔",
     "descriptionEn": "Northern landscape tradition.",
-    "descriptionCn": "北方风景画与风俗画的杰作。"
+    "descriptionCn": "北方风景画与风俗画的杰作。",
+    "date": {
+      "year": 1565
+    },
+    "streamId": "m_florentine_school"
   },
   {
     "id": "501",
     "periodId": "baroque_rococo",
     "titleEn": "Calling of St Matthew",
     "titleCn": "圣马太蒙召",
-    "year": 1600,
     "creator": "Caravaggio",
     "creatorCn": "卡拉瓦乔",
     "descriptionEn": "Chiaroscuro (Tenebrism).",
-    "descriptionCn": "强烈的明暗对照法（暗绘风格）。"
+    "descriptionCn": "强烈的明暗对照法（暗绘风格）。",
+    "date": {
+      "year": 1600
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "502",
     "periodId": "baroque_rococo",
     "titleEn": "Judith Slaying Holofernes",
     "titleCn": "朱迪斯斩首荷罗孚尼",
-    "year": 1625,
     "creator": "Artemisia Gentileschi",
     "descriptionEn": "Female Baroque power.",
-    "descriptionCn": "女性画家的力量与复仇主题。"
+    "descriptionCn": "女性画家的力量与复仇主题。",
+    "date": {
+      "year": 1625
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "503",
     "periodId": "baroque_rococo",
     "titleEn": "The Night Watch",
     "titleCn": "夜巡",
-    "year": 1642,
     "creator": "Rembrandt",
     "creatorCn": "伦勃朗",
     "descriptionEn": "Group portrait in action.",
-    "descriptionCn": "充满动感与光影的团体肖像。"
+    "descriptionCn": "充满动感与光影的团体肖像。",
+    "date": {
+      "year": 1642
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "504",
     "periodId": "baroque_rococo",
     "titleEn": "Ecstasy of Saint Teresa",
     "titleCn": "圣特雷萨的狂喜",
-    "year": 1652,
     "creator": "Bernini",
     "creatorCn": "贝尼尼",
     "descriptionEn": "Baroque sculpture drama.",
-    "descriptionCn": "巴洛克雕塑剧场感的极致。"
+    "descriptionCn": "巴洛克雕塑剧场感的极致。",
+    "date": {
+      "year": 1652
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "505",
     "periodId": "baroque_rococo",
     "titleEn": "Las Meninas",
     "titleCn": "宫俄",
-    "year": 1656,
     "creator": "Velázquez",
     "creatorCn": "委拉斯开兹",
     "descriptionEn": "Complex composition.",
-    "descriptionCn": "构图复杂、探讨真实与幻觉的杰作。"
+    "descriptionCn": "构图复杂、探讨真实与幻觉的杰作。",
+    "date": {
+      "year": 1656
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "506",
     "periodId": "baroque_rococo",
     "titleEn": "The Swing",
     "titleCn": "秋千",
-    "year": 1767,
     "creator": "Fragonard",
     "creatorCn": "弗拉戈纳尔",
     "descriptionEn": "Rococo playfulness.",
-    "descriptionCn": "洛可可风格的轻浮与欢愉。"
+    "descriptionCn": "洛可可风格的轻浮与欢愉。",
+    "date": {
+      "year": 1767
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "601",
     "periodId": "neoclassic_romantic",
     "titleEn": "Oath of the Horatii",
     "titleCn": "荷拉斯兄弟之誓",
-    "year": 1784,
     "creator": "David",
     "creatorCn": "大卫",
     "descriptionEn": "Neoclassical civic duty.",
-    "descriptionCn": "新古典主义的理性与公民责任。"
+    "descriptionCn": "新古典主义的理性与公民责任。",
+    "date": {
+      "year": 1784
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "602",
     "periodId": "neoclassic_romantic",
     "titleEn": "The Third of May 1808",
     "titleCn": "1808年5月3日",
-    "year": 1814,
     "creator": "Goya",
     "creatorCn": "戈雅",
     "descriptionEn": "Raw war brutality.",
-    "descriptionCn": "对战争残酷性的直白描绘。"
+    "descriptionCn": "对战争残酷性的直白描绘。",
+    "date": {
+      "year": 1814
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "603",
     "periodId": "neoclassic_romantic",
     "titleEn": "Wanderer above the Sea of Fog",
     "titleCn": "雾海上的旅人",
-    "year": 1818,
     "creator": "Friedrich",
     "creatorCn": "弗里德里希",
     "descriptionEn": "Romantic sublime.",
-    "descriptionCn": "浪漫主义的崇高感与孤独。"
+    "descriptionCn": "浪漫主义的崇高感与孤独。",
+    "date": {
+      "year": 1818
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "604",
     "periodId": "neoclassic_romantic",
     "titleEn": "Raft of the Medusa",
     "titleCn": "梅杜萨之筏",
-    "year": 1819,
     "creator": "Géricault",
     "creatorCn": "席里柯",
     "descriptionEn": "Human desperation.",
-    "descriptionCn": "浪漫主义对绝望人性的刻画。"
+    "descriptionCn": "浪漫主义对绝望人性的刻画。",
+    "date": {
+      "year": 1819
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "605",
     "periodId": "neoclassic_romantic",
     "titleEn": "Liberty Leading the People",
     "titleCn": "自由引导人民",
-    "year": 1830,
     "creator": "Delacroix",
     "creatorCn": "德拉克洛瓦",
     "descriptionEn": "Revolutionary spirit.",
-    "descriptionCn": "法国大革命精神的象征。"
+    "descriptionCn": "法国大革命精神的象征。",
+    "date": {
+      "year": 1830
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "606",
     "periodId": "neoclassic_romantic",
     "titleEn": "Impression, Sunrise",
     "titleCn": "印象·日出",
-    "year": 1872,
     "creator": "Monet",
     "creatorCn": "莫奈",
     "descriptionEn": "Birth of Impressionism.",
-    "descriptionCn": "印象派的命名之作。"
+    "descriptionCn": "印象派的命名之作。",
+    "date": {
+      "year": 1872
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "607",
     "periodId": "neoclassic_romantic",
     "titleEn": "A Sunday on La Grande Jatte",
     "titleCn": "大碗岛星期天的下午",
-    "year": 1884,
     "creator": "Seurat",
     "creatorCn": "修拉",
     "descriptionEn": "Pointillism science.",
-    "descriptionCn": "点彩派（新印象主义）的科学色彩实验。"
+    "descriptionCn": "点彩派（新印象主义）的科学色彩实验。",
+    "date": {
+      "year": 1884
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "608",
     "periodId": "neoclassic_romantic",
     "titleEn": "The Starry Night",
     "titleCn": "星月夜",
-    "year": 1889,
     "creator": "Van Gogh",
     "creatorCn": "梵高",
     "descriptionEn": "Post-Impressionist emotion.",
-    "descriptionCn": "后印象派情感的爆发与扭曲。"
+    "descriptionCn": "后印象派情感的爆发与扭曲。",
+    "date": {
+      "year": 1889
+    },
+    "streamId": "m_ethiopian"
   },
   {
     "id": "701",
     "periodId": "modern_era",
     "titleEn": "Les Demoiselles d'Avignon",
     "titleCn": "亚威农少女",
-    "year": 1907,
     "creator": "Picasso",
     "creatorCn": "毕加索",
     "descriptionEn": "Cubism begins.",
-    "descriptionCn": "立体主义的开山之作，打破传统透视。"
+    "descriptionCn": "立体主义的开山之作，打破传统透视。",
+    "date": {
+      "year": 1907
+    },
+    "streamId": "m_japonisme"
   },
   {
     "id": "702",
     "periodId": "modern_era",
     "titleEn": "The Dance",
     "titleCn": "舞蹈",
-    "year": 1910,
     "creator": "Matisse",
     "creatorCn": "马蒂斯",
     "descriptionEn": "Fauvist joy.",
-    "descriptionCn": "野兽派色彩与线条的纯粹快乐。"
+    "descriptionCn": "野兽派色彩与线条的纯粹快乐。",
+    "date": {
+      "year": 1910
+    },
+    "streamId": "m_japonisme"
   },
   {
     "id": "703",
     "periodId": "modern_era",
     "titleEn": "Composition VII",
     "titleCn": "构图七号",
-    "year": 1913,
     "creator": "Kandinsky",
     "creatorCn": "康定斯基",
     "descriptionEn": "Pure Abstraction.",
-    "descriptionCn": "纯粹抽象艺术的交响乐。"
+    "descriptionCn": "纯粹抽象艺术的交响乐。",
+    "date": {
+      "year": 1913
+    },
+    "streamId": "m_peredvizhniki"
   },
   {
     "id": "704",
     "periodId": "modern_era",
     "titleEn": "Fountain",
     "titleCn": "泉",
-    "year": 1917,
     "creator": "Duchamp",
     "creatorCn": "杜尚",
     "descriptionEn": "Readymade Dada.",
-    "descriptionCn": "现成品艺术，达达主义对艺术定义的挑战。"
+    "descriptionCn": "现成品艺术，达达主义对艺术定义的挑战。",
+    "date": {
+      "year": 1917
+    },
+    "streamId": "m_peredvizhniki"
   },
   {
     "id": "705",
     "periodId": "modern_era",
     "titleEn": "The Persistence of Memory",
     "titleCn": "记忆的永恒",
-    "year": 1931,
     "creator": "Dalí",
     "creatorCn": "达利",
     "descriptionEn": "Surrealist dream.",
-    "descriptionCn": "超现实主义的梦境与融化的时钟。"
+    "descriptionCn": "超现实主义的梦境与融化的时钟。",
+    "date": {
+      "year": 1931
+    },
+    "streamId": "m_futurism"
   },
   {
     "id": "706",
     "periodId": "modern_era",
     "titleEn": "Guernica",
     "titleCn": "格尔尼卡",
-    "year": 1937,
     "creator": "Picasso",
     "creatorCn": "毕加索",
     "descriptionEn": "Anti-war manifesto.",
-    "descriptionCn": "20世纪最伟大的反战宣言。"
+    "descriptionCn": "20世纪最伟大的反战宣言。",
+    "date": {
+      "year": 1937
+    },
+    "streamId": "m_futurism"
   },
   {
     "id": "707",
     "periodId": "modern_era",
     "titleEn": "Autumn Rhythm",
     "titleCn": "秋韵",
-    "year": 1950,
     "creator": "Pollock",
     "creatorCn": "波洛克",
     "descriptionEn": "Action Painting.",
-    "descriptionCn": "抽象表现主义的行动绘画。"
+    "descriptionCn": "抽象表现主义的行动绘画。",
+    "date": {
+      "year": 1950
+    },
+    "streamId": "m_surrealism"
   },
   {
     "id": "708",
     "periodId": "modern_era",
     "titleEn": "Campbell's Soup Cans",
     "titleCn": "金宝汤罐头",
-    "year": 1962,
     "creator": "Warhol",
     "creatorCn": "沃霍尔",
     "descriptionEn": "Pop Art icon.",
-    "descriptionCn": "波普艺术对消费文化的挪用。"
+    "descriptionCn": "波普艺术对消费文化的挪用。",
+    "date": {
+      "year": 1962
+    },
+    "streamId": "m_surrealism"
   },
   {
     "id": "801",
     "periodId": "contemporary",
     "titleEn": "Rhythm 0",
     "titleCn": "节奏0",
-    "year": 1974,
     "creator": "Abramović",
     "creatorCn": "阿布拉莫维奇",
     "descriptionEn": "Performance Art limits.",
-    "descriptionCn": "行为艺术对身体与观众关系的极限测试。"
+    "descriptionCn": "行为艺术对身体与观众关系的极限测试。",
+    "date": {
+      "year": 1974
+    },
+    "streamId": "m_minimalism"
   },
   {
     "id": "802",
     "periodId": "contemporary",
     "titleEn": "Untitled",
     "titleCn": "无题",
-    "year": 1982,
     "creator": "Basquiat",
     "creatorCn": "巴斯奎特",
     "descriptionEn": "Neo-expressionism.",
-    "descriptionCn": "街头涂鸦与新表现主义的结合。"
+    "descriptionCn": "街头涂鸦与新表现主义的结合。",
+    "date": {
+      "year": 1982
+    },
+    "streamId": "m_conceptual_art"
   },
   {
     "id": "803",
     "periodId": "contemporary",
     "titleEn": "The Physical Impossibility of Death...",
     "titleCn": "生者对死者无动于衷",
-    "year": 1991,
     "creator": "Damien Hirst",
     "creatorCn": "赫斯特",
     "descriptionEn": "YBA Shock Art.",
-    "descriptionCn": "英国青年艺术家的鲨鱼标本，探讨死亡。"
+    "descriptionCn": "英国青年艺术家的鲨鱼标本，探讨死亡。",
+    "date": {
+      "year": 1991
+    },
+    "streamId": "m_conceptual_art"
   },
   {
     "id": "804",
     "periodId": "contemporary",
     "titleEn": "The Weather Project",
     "titleCn": "气候工程",
-    "year": 2003,
     "creator": "Olafur Eliasson",
     "creatorCn": "埃利亚松",
     "descriptionEn": "Installation Art.",
-    "descriptionCn": "泰特美术馆的沉浸式装置艺术。"
+    "descriptionCn": "泰特美术馆的沉浸式装置艺术。",
+    "date": {
+      "year": 2003
+    },
+    "streamId": "m_conceptual_art"
   },
   {
     "id": "805",
     "periodId": "contemporary",
     "titleEn": "Sunflower Seeds",
     "titleCn": "葵花籽",
-    "year": 2010,
     "creator": "Ai Weiwei",
     "creatorCn": "艾未未",
     "descriptionEn": "Conceptual Porcelain.",
-    "descriptionCn": "观念艺术与传统工艺的结合。"
+    "descriptionCn": "观念艺术与传统工艺的结合。",
+    "date": {
+      "year": 2010
+    },
+    "streamId": "m_conceptual_art"
   }
 ]

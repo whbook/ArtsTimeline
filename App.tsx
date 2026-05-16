@@ -1,13 +1,13 @@
-import React, { useState, useRef, useEffect, useCallback } from 'react';
+import React, { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import TimelineRuler from './components/TimelineRuler';
 import TimelineCanvas from './components/TimelineCanvas';
 import DetailPanel from './components/DetailPanel';
 import EventModal from './components/EventModal';
 import TopicSelector from './components/TopicSelector';
-import { MIN_ZOOM_RANGE, MAX_ZOOM_RANGE, AUTOPLAY_MODE } from './constants';
+import { MIN_ZOOM_RANGE, MAX_ZOOM_RANGE, AUTOPLAY_MODE, IMPORTANCE_THRESHOLDS } from './constants';
 import { Viewport, TimelineEvent, Stream } from './types';
 import { ZoomIn, ZoomOut, Loader2, Play } from 'lucide-react';
-import { formatTimelineDate } from './utils';
+import { formatTimelineDate, getDecimalYear } from './utils';
 import { useTopics } from './hooks/useTopics';
 import { useTopicData } from './hooks/useTopicData';
 import { useAutoPlay } from './hooks/useAutoPlay';
@@ -52,9 +52,30 @@ const App: React.FC = () => {
   const [isDragging, setIsDragging] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState<TimelineEvent | null>(null);
   
-  // Hover states for interactions
+  // Hover and Focus states for interactions
   const [hoveredMovement, setHoveredMovement] = useState<Stream | null>(null);
   const [hoveredEvent, setHoveredEvent] = useState<TimelineEvent | null>(null);
+  const [focusSection, setFocusSection] = useState<{id: string, ts: number} | null>(null);
+
+  const handleMovementClick = useCallback((stream: Stream) => {
+    const start = getDecimalYear(stream.start);
+    const end = getDecimalYear(stream.end);
+    
+    setViewport(prev => {
+      const range = prev.endYear - prev.startYear;
+      const centerYear = prev.startYear + range / 2;
+      
+      // If the stream doesn't intersect the red line (centerYear), move the red line to the stream's center
+      if (centerYear < start || centerYear > end) {
+        const streamCenter = (start + end) / 2;
+        return { startYear: streamCenter - range / 2, endYear: streamCenter + range / 2 };
+      }
+      return prev;
+    });
+
+    // Send focus signal to DetailPanel
+    setFocusSection({ id: stream.id, ts: Date.now() });
+  }, []);
   
   const handleRequestSwitch = useCallback(() => {
     setIsTransitioning(true);
@@ -133,30 +154,44 @@ const App: React.FC = () => {
     lastMouseX.current = e.clientX;
   };
 
+  const rafRef = useRef<number | null>(null);
+
   const handleMouseMove = (e: React.MouseEvent) => {
     if (!isDragging) return;
     
-    const container = containerRef.current;
-    if (!container) return;
+    if (rafRef.current) {
+      cancelAnimationFrame(rafRef.current);
+    }
 
-    const { width } = container.getBoundingClientRect();
-    const deltaPixels = lastMouseX.current - e.clientX;
+    const currentX = e.clientX;
     
-    // Convert pixels to years
-    const currentRange = viewport.endYear - viewport.startYear;
-    const yearsPerPixel = currentRange / width;
-    const deltaYears = deltaPixels * yearsPerPixel;
+    rafRef.current = requestAnimationFrame(() => {
+      const container = containerRef.current;
+      if (!container) return;
 
-    setViewport(prev => ({
-      startYear: prev.startYear + deltaYears,
-      endYear: prev.endYear + deltaYears
-    }));
+      const { width } = container.getBoundingClientRect();
+      const deltaPixels = lastMouseX.current - currentX;
+      
+      // Convert pixels to years
+      const currentRange = viewport.endYear - viewport.startYear;
+      const yearsPerPixel = currentRange / width;
+      const deltaYears = deltaPixels * yearsPerPixel;
 
-    lastMouseX.current = e.clientX;
+      setViewport(prev => ({
+        startYear: prev.startYear + deltaYears,
+        endYear: prev.endYear + deltaYears
+      }));
+
+      lastMouseX.current = currentX;
+    });
   };
 
   const handleMouseUp = () => {
     setIsDragging(false);
+    if (rafRef.current) {
+      cancelAnimationFrame(rafRef.current);
+      rafRef.current = null;
+    }
   };
 
   // --- Manual Controls ---
@@ -188,6 +223,19 @@ const App: React.FC = () => {
   // Determine precision for display
   const range = viewport.endYear - viewport.startYear;
   const precision = range < 1 ? (range < 0.1 ? 'day' : 'month') : 'year';
+
+  // --- Level of Detail (LOD) Filtering ---
+  const visibleEvents = useMemo(() => {
+    if (!topicData) return [];
+    // Normalize range based on screen width so LOD feels consistent across devices
+    const normalizedRange = range / scale.scaleX;
+    
+    return topicData.events.filter(event => {
+      const importance = event.importance || 1; // Default to 1 (always visible) if not specified
+      const threshold = IMPORTANCE_THRESHOLDS[importance] || Infinity;
+      return normalizedRange <= threshold;
+    });
+  }, [topicData, range, scale.scaleX]);
 
   if (topicsLoading) {
     return <div className="flex h-screen w-screen items-center justify-center bg-[#f8f8f5]"><Loader2 className="animate-spin text-gray-400" size={32} /></div>;
@@ -259,18 +307,23 @@ const App: React.FC = () => {
                 viewport={viewport} 
                 periods={topicData.periods}
                 streams={topicData.streams}
-                events={topicData.events}
+                events={visibleEvents}
                 scaleX={scale.scaleX}
                 scaleY={scale.scaleY}
                 onEventClick={setSelectedEvent}
                 onMovementHover={setHoveredMovement}
+                onMovementClick={handleMovementClick}
                 onEventHover={setHoveredEvent}
             />
             
             {/* Floating current range indicator */}
-            <div className="absolute bottom-4 right-4 bg-white/95 backdrop-blur border border-gray-300 px-4 py-2 text-sm font-serif shadow-lg pointer-events-none z-20 rounded">
-              <span className="text-gray-500 italic mr-2">Visible Era / 显示时间:</span>
-              <strong>{formatTimelineDate(viewport.startYear, precision)}</strong> — <strong>{formatTimelineDate(viewport.endYear, precision)}</strong>
+            <div className="absolute bottom-4 right-4 bg-white/95 backdrop-blur border border-gray-300 px-4 py-2 text-sm font-serif shadow-lg pointer-events-none z-20 rounded flex items-center w-[480px]">
+              <span className="text-gray-500 italic shrink-0 w-[150px]">Visible Era / 显示时间:</span>
+              <div className="flex-1 flex items-center justify-center font-bold tabular-nums tracking-tight">
+                <span className="w-[140px] text-right truncate">{formatTimelineDate(viewport.startYear, precision)}</span>
+                <span className="mx-2 text-gray-400 font-normal shrink-0">—</span>
+                <span className="w-[140px] text-left truncate">{formatTimelineDate(viewport.endYear, precision)}</span>
+              </div>
             </div>
           </div>
 
@@ -279,8 +332,11 @@ const App: React.FC = () => {
             <DetailPanel 
                 topic={topicData.topic}
                 periods={topicData.periods}
-                events={topicData.events}
+                streams={topicData.streams}
+                events={visibleEvents}
                 viewport={viewport} 
+                scaleX={scale.scaleX}
+                focusSection={focusSection}
                 onEventClick={setSelectedEvent}
                 onEventHover={setHoveredEvent}
             />

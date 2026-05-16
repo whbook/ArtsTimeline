@@ -23,13 +23,27 @@ export interface Topic extends TopicEntry {
   eventFields: FieldDef[];
 }
 
+// --- 时间精度与模糊日期 ---
+export type DateAccuracy = 
+  | 'exact'       // 精确 (默认)
+  | 'approximate' // 大约 / 约 (circa)
+  | 'not_before'  // 不早于 (TPQ)
+  | 'not_after';  // 不晚于 (TAQ)
+
+export interface FuzzyDate {
+  year: number;
+  month?: number;
+  day?: number;
+  accuracy?: DateAccuracy;
+}
+
 // --- 时代分期 ---
 export interface Period {
   id: string; 
   nameEn: string; 
   nameCn?: string;
-  startYear: number; 
-  endYear: number;
+  start: FuzzyDate; 
+  end: FuzzyDate;
   colorHex: string; 
   colorBackground: string; 
   description?: string;
@@ -41,10 +55,12 @@ export interface Stream {
   periodId?: string;
   nameEn: string; 
   nameCn?: string;
-  startYear: number; 
-  endYear: number;
+  start: FuzzyDate; 
+  end: FuzzyDate;
   color: string; 
   lane: number;
+  descriptionCn?: string; // 流派详细介绍
+  descriptionEn?: string;
 }
 
 // --- 事件/作品/人物 ---
@@ -54,14 +70,15 @@ export interface TimelineEvent {
   streamId?: string;
   titleEn: string; 
   titleCn?: string;
-  year: number; 
-  endYear?: number;
+  date: FuzzyDate; 
+  endDate?: FuzzyDate;
   creator?: string; 
   creatorCn?: string;
   location?: string; 
   imageUrl?: string;
   descriptionEn?: string; 
   descriptionCn?: string;
+  importance?: number; // 1 (highest) to 5 (lowest). Defines zoom-level visibility. / 权重等级，决定在何种缩放比例下显示
   tags?: string[];
   meta?: Record<string, string | number | string[]>; // 主题扩展字段
 }

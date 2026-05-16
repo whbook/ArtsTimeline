@@ -4,167 +4,202 @@
     "periodId": "ancient",
     "titleEn": "Invention of Cuneiform",
     "titleCn": "楔形文字的发明",
-    "year": -3400,
     "descriptionEn": "Sumerians in Mesopotamia develop one of the earliest systems of writing.",
     "descriptionCn": "美索不达米亚的苏美尔人发明了楔形文字，这是人类已知最早的文字系统之一。",
     "meta": {
       "region": "Mesopotamia / 美索不达米亚",
       "category": "Technology & Culture / 科技与文化",
       "significance": "Marked the beginning of recorded history. / 标志着信史时代的开端。"
-    }
+    },
+    "date": {
+      "year": -3400
+    },
+    "streamId": "s_china_1"
   },
   {
     "id": "w2",
     "periodId": "ancient",
     "titleEn": "Great Pyramid of Giza",
     "titleCn": "吉萨大金字塔",
-    "year": -2580,
     "descriptionEn": "Construction of the largest Egyptian pyramid, built as a tomb for Pharaoh Khufu.",
     "descriptionCn": "古埃及最大的一座金字塔，为法老胡夫的陵墓，是古代世界七大奇迹中唯一尚存的建筑。",
     "meta": {
       "region": "Egypt / 埃及",
       "category": "Architecture / 建筑",
       "significance": "Pinnacle of ancient Egyptian engineering. / 古埃及工程学的巅峰。"
-    }
+    },
+    "date": {
+      "year": -2580
+    },
+    "streamId": "s_mideast_1"
   },
   {
     "id": "w3",
     "periodId": "ancient",
     "titleEn": "Oracle Bone Script",
     "titleCn": "甲骨文",
-    "year": -1200,
     "descriptionEn": "The earliest known form of Chinese writing, used for divination during the Shang Dynasty.",
     "descriptionCn": "中国商代晚期用于占卜记事的契刻文字，是汉字的最早成熟形态。",
     "meta": {
       "region": "China / 中国",
       "category": "Culture / 文化",
       "significance": "Foundation of the Chinese writing system. / 汉字系统的基石。"
-    }
+    },
+    "date": {
+      "year": -1200
+    },
+    "streamId": "s_china_1"
   },
   {
     "id": "w4",
     "periodId": "classical",
     "titleEn": "The Parthenon",
     "titleCn": "帕特农神庙",
-    "year": -432,
     "descriptionEn": "A former temple on the Athenian Acropolis, dedicated to the goddess Athena.",
     "descriptionCn": "古希腊雅典卫城的主体建筑，供奉雅典娜女神，是古典希腊艺术的最高成就。",
     "meta": {
       "region": "Greece / 希腊",
       "category": "Architecture & Art / 建筑与艺术",
       "significance": "Enduring symbol of Ancient Greece and democracy. / 古希腊与民主制度的不朽象征。"
-    }
+    },
+    "date": {
+      "year": -432
+    },
+    "streamId": "s_mideast_2"
   },
   {
     "id": "w5",
     "periodId": "classical",
     "titleEn": "Invention of Paper",
     "titleCn": "造纸术的改良",
-    "year": 105,
     "descriptionEn": "Cai Lun traditionally invents the papermaking process during the Eastern Han Dynasty.",
     "descriptionCn": "东汉蔡伦改进了造纸术，使用树皮、破布、麻头和鱼网等原料造纸。",
     "meta": {
       "region": "China / 中国",
       "category": "Technology / 科技",
       "significance": "Revolutionized global information storage and transmission. / 彻底改变了全球信息的存储与传播。"
-    }
+    },
+    "date": {
+      "year": 105
+    },
+    "streamId": "s_china_2"
   },
   {
     "id": "w6",
     "periodId": "classical",
     "titleEn": "Fall of the Western Roman Empire",
     "titleCn": "西罗马帝国灭亡",
-    "year": 476,
     "descriptionEn": "The deposition of Romulus Augustulus marks the end of the Western Roman Empire.",
     "descriptionCn": "西罗马帝国最后一位皇帝被废黜，标志着欧洲古典时代的终结和中世纪的开始。",
     "meta": {
       "region": "Europe / 欧洲",
       "category": "Politics / 政治",
       "significance": "Transition from Classical Antiquity to the Middle Ages. / 从古典时代向中世纪的过渡。"
-    }
+    },
+    "date": {
+      "year": 476
+    },
+    "streamId": "s_europe_2"
   },
   {
     "id": "w7",
     "periodId": "post_classical",
     "titleEn": "House of Wisdom",
     "titleCn": "智慧之家",
-    "year": 800,
     "descriptionEn": "A major intellectual center during the Islamic Golden Age in Baghdad.",
     "descriptionCn": "伊斯兰黄金时代巴格达的学术中心，翻译并保存了大量古希腊、印度和波斯的典籍。",
     "meta": {
       "region": "Middle East / 中东",
       "category": "Science & Culture / 科学与文化",
       "significance": "Preserved and advanced global scientific knowledge. / 保存并推进了全球科学知识。"
-    }
+    },
+    "date": {
+      "year": 800
+    },
+    "streamId": "s_china_3"
   },
   {
     "id": "w8",
     "periodId": "post_classical",
     "titleEn": "Movable Type Printing",
     "titleCn": "活字印刷术",
-    "year": 1040,
     "descriptionEn": "Bi Sheng invents the first known movable type system using ceramic technology in Song Dynasty China.",
     "descriptionCn": "北宋毕昇发明了泥活字印刷术，是世界上最早的活字印刷技术。",
     "meta": {
       "region": "China / 中国",
       "category": "Technology / 科技",
       "significance": "A major milestone in the history of printing. / 印刷史上的重大里程碑。"
-    }
+    },
+    "date": {
+      "year": 1040
+    },
+    "streamId": "s_china_3"
   },
   {
     "id": "w9",
     "periodId": "post_classical",
     "titleEn": "Gutenberg Printing Press",
     "titleCn": "谷登堡印刷机",
-    "year": 1440,
     "descriptionEn": "Johannes Gutenberg invents the mechanical movable type printing press in Europe.",
     "descriptionCn": "约翰内斯·谷登堡在欧洲发明了机械金属活字印刷机，引发了欧洲的印刷革命。",
     "meta": {
       "region": "Europe / 欧洲",
       "category": "Technology / 科技",
       "significance": "Catalyzed the Renaissance, Reformation, and Scientific Revolution. / 催生了文艺复兴、宗教改革和科学革命。"
-    }
+    },
+    "date": {
+      "year": 1440
+    },
+    "streamId": "s_europe_3"
   },
   {
     "id": "w10",
     "periodId": "early_modern",
     "titleEn": "Columbian Exchange",
     "titleCn": "哥伦布大交换",
-    "year": 1492,
     "descriptionEn": "The widespread transfer of plants, animals, culture, and human populations between the Americas and the Old World.",
     "descriptionCn": "美洲与旧大陆之间在植物、动物、文化、人口等方面的广泛交流。",
     "meta": {
       "region": "Global / 全球",
       "category": "Economy & Ecology / 经济与生态",
       "significance": "Fundamentally altered global agriculture, diets, and demographics. / 根本性地改变了全球农业、饮食和人口结构。"
-    }
+    },
+    "date": {
+      "year": 1492
+    },
+    "streamId": "s_china_4"
   },
   {
     "id": "w11",
     "periodId": "early_modern",
     "titleEn": "Industrial Revolution Begins",
     "titleCn": "工业革命开始",
-    "year": 1760,
     "descriptionEn": "Transition to new manufacturing processes in Great Britain, shifting from hand production to machines.",
     "descriptionCn": "英国开始向新的制造过程过渡，从手工生产转向机器生产。",
     "meta": {
       "region": "Europe / 欧洲",
       "category": "Technology & Economy / 科技与经济",
       "significance": "Transformed human society from agrarian to industrial. / 人类社会从农业向工业的彻底转型。"
-    }
+    },
+    "date": {
+      "year": 1760
+    },
+    "streamId": "s_china_4"
   },
   {
     "id": "w12",
     "periodId": "modern",
     "titleEn": "Information Age",
     "titleCn": "信息时代",
-    "year": 1950,
     "descriptionEn": "The shift from traditional industry to an economy based on information technology.",
     "descriptionCn": "人类社会从传统工业经济向以信息技术为基础的经济的转变。",
     "meta": {
       "region": "Global / 全球",
       "category": "Technology / 科技",
       "significance": "The digital revolution that connects the modern world. / 连接现代世界的数字革命。"
+    },
+    "date": {
+      "year": 1950
     }
   }
 ]

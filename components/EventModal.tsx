@@ -1,6 +1,7 @@
 import React from 'react';
 import { X } from 'lucide-react';
 import { TimelineEvent, Topic } from '../types';
+import { formatFuzzyDate } from '../utils';
 
 interface EventModalProps {
   topic: Topic;
@@ -61,9 +62,9 @@ const EventModal: React.FC<EventModalProps> = ({ topic, event, onClose }) => {
                 })}
                 
                 <div className="text-right ml-auto">
-                    <span className="text-xs font-bold uppercase tracking-wider text-gray-400">Year / 年份</span>
+                    <span className="text-xs font-bold uppercase tracking-wider text-gray-400">Date / 时间</span>
                     <p className="text-xl font-serif font-bold text-gray-900">
-                        {event.year < 0 ? `${Math.abs(event.year)} BCE` : event.year}
+                        {formatFuzzyDate(event.date)}
                     </p>
                 </div>
             </div>

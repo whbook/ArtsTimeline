@@ -3,72 +3,104 @@
     "id": "pre_ancient",
     "nameEn": "Prehistoric & Ancient",
     "nameCn": "史前与上古",
-    "startYear": -40000,
-    "endYear": -800,
     "colorHex": "#8B4513",
-    "colorBackground": "#fcfaf9"
+    "colorBackground": "#fcfaf9",
+    "start": {
+      "year": -40000
+    },
+    "end": {
+      "year": -800
+    }
   },
   {
     "id": "classical",
     "nameEn": "Classical World",
     "nameCn": "古典文明",
-    "startYear": -800,
-    "endYear": 400,
     "colorHex": "#556B2F",
-    "colorBackground": "#f4fbf4"
+    "colorBackground": "#f4fbf4",
+    "start": {
+      "year": -800
+    },
+    "end": {
+      "year": 400
+    }
   },
   {
     "id": "medieval",
     "nameEn": "Middle Ages",
     "nameCn": "中世纪",
-    "startYear": 400,
-    "endYear": 1400,
     "colorHex": "#483D8B",
-    "colorBackground": "#f0f0f8"
+    "colorBackground": "#f0f0f8",
+    "start": {
+      "year": 400
+    },
+    "end": {
+      "year": 1400
+    }
   },
   {
     "id": "renaissance",
     "nameEn": "Renaissance",
     "nameCn": "文艺复兴",
-    "startYear": 1400,
-    "endYear": 1600,
     "colorHex": "#800080",
-    "colorBackground": "#faf5fa"
+    "colorBackground": "#faf5fa",
+    "start": {
+      "year": 1400
+    },
+    "end": {
+      "year": 1600
+    }
   },
   {
     "id": "baroque_rococo",
     "nameEn": "Baroque & Rococo",
     "nameCn": "巴洛克与洛可可",
-    "startYear": 1600,
-    "endYear": 1780,
     "colorHex": "#8B0000",
-    "colorBackground": "#fdf2f2"
+    "colorBackground": "#fdf2f2",
+    "start": {
+      "year": 1600
+    },
+    "end": {
+      "year": 1780
+    }
   },
   {
     "id": "neoclassic_romantic",
     "nameEn": "19th Century",
     "nameCn": "19世纪艺术",
-    "startYear": 1780,
-    "endYear": 1900,
     "colorHex": "#C71585",
-    "colorBackground": "#f0f4f8"
+    "colorBackground": "#f0f4f8",
+    "start": {
+      "year": 1780
+    },
+    "end": {
+      "year": 1900
+    }
   },
   {
     "id": "modern_era",
     "nameEn": "Modernism",
     "nameCn": "现代主义",
-    "startYear": 1900,
-    "endYear": 1970,
     "colorHex": "#FF4500",
-    "colorBackground": "#fff5f0"
+    "colorBackground": "#fff5f0",
+    "start": {
+      "year": 1900
+    },
+    "end": {
+      "year": 1970
+    }
   },
   {
     "id": "contemporary",
     "nameEn": "Contemporary",
     "nameCn": "当代艺术",
-    "startYear": 1970,
-    "endYear": 2025,
     "colorHex": "#C71585",
-    "colorBackground": "#fff0f5"
+    "colorBackground": "#fff0f5",
+    "start": {
+      "year": 1970
+    },
+    "end": {
+      "year": 2025
+    }
   }
 ]

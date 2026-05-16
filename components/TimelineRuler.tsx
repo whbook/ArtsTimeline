@@ -1,14 +1,14 @@
-import React, { useMemo } from 'react';
-import { Viewport, ArtMovement, TimelineEvent } from '../types';
-import { decimalYearToDate, MONTHS, formatTimelineDate } from '../utils';
+import React, { useMemo, memo } from 'react';
+import { Viewport, Stream, TimelineEvent } from '../types';
+import { decimalYearToDate, MONTHS, formatTimelineDate, getDecimalYear } from '../utils';
 
 interface TimelineRulerProps {
   viewport: Viewport;
-  hoveredMovement?: ArtMovement | null;
+  hoveredMovement?: Stream | null;
   hoveredEvent?: TimelineEvent | null;
 }
 
-const TimelineRuler: React.FC<TimelineRulerProps> = ({ viewport, hoveredMovement, hoveredEvent }) => {
+const TimelineRuler: React.FC<TimelineRulerProps> = memo(({ viewport, hoveredMovement, hoveredEvent }) => {
   const { startYear, endYear } = viewport;
   const range = endYear - startYear;
 
@@ -58,8 +58,8 @@ const TimelineRuler: React.FC<TimelineRulerProps> = ({ viewport, hoveredMovement
   // Logic for Movement Highlight
   const highlightStyle = useMemo(() => {
     if (!hoveredMovement) return null;
-    const left = getX(hoveredMovement.startYear);
-    const right = getX(hoveredMovement.endYear);
+    const left = getX(getDecimalYear(hoveredMovement.start));
+    const right = getX(getDecimalYear(hoveredMovement.end));
     const width = right - left;
     return {
         left: 0,
@@ -73,7 +73,7 @@ const TimelineRuler: React.FC<TimelineRulerProps> = ({ viewport, hoveredMovement
   // Logic for Event Marker
   const markerPosition = useMemo(() => {
       if (!hoveredEvent) return null;
-      return getX(hoveredEvent.year);
+      return getX(getDecimalYear(hoveredEvent.date));
   }, [hoveredEvent, startYear, range]);
 
   return (
@@ -131,6 +131,6 @@ const TimelineRuler: React.FC<TimelineRulerProps> = ({ viewport, hoveredMovement
       )}
     </div>
   );
-};
+});
 
 export default TimelineRuler;
