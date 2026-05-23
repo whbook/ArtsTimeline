@@ -28,5 +28,11 @@
     "titleCn": "世界艺术编年史",
     "titleEn": "World Art Chronology",
     "color": "#1F8A70"
+  },
+  {
+    "id": "chinese-calligraphy-history",
+    "titleCn": "中国书法史",
+    "titleEn": "Chinese Calligraphy History",
+    "color": "#8C3A2B"
   }
 ]

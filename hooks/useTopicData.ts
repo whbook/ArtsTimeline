@@ -23,12 +23,19 @@ export function useTopicData(topicId: string | null) {
     setLoading(true);
     setError(null);
 
-    Promise.all([
-      fetch(`/data/${topicId}/topic.json`).then(r => r.json()),
-      fetch(`/data/${topicId}/periods.json`).then(r => r.json()),
-      fetch(`/data/${topicId}/streams.json`).then(r => r.ok ? r.json() : []), // streams are optional
-      fetch(`/data/${topicId}/events.json`).then(r => r.json())
-    ])
+    fetch(`/data/${topicId}/topic.json`)
+      .then(r => {
+        if (!r.ok) throw new Error(`Failed to load topic ${topicId}`);
+        return r.json();
+      })
+      .then(topic => Promise.all([
+        Promise.resolve(topic),
+        fetch(`/data/${topicId}/periods.json`).then(r => r.json()),
+        fetch(`/data/${topicId}/streams.json`).then(r => r.ok ? r.json() : []), // streams are optional
+        topic.chunked
+          ? Promise.resolve([])
+          : fetch(`/data/${topicId}/events.json`).then(r => r.json())
+      ]))
       .then(([topic, periods, streams, events]) => {
         const topicData: TopicData = { topic, periods, streams, events };
         topicCache.set(topicId, topicData);

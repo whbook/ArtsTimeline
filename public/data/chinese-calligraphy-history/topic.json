@@ -1,0 +1,41 @@
+{
+  "id": "chinese-calligraphy-history",
+  "titleEn": "Chinese Calligraphy History",
+  "titleCn": "中国书法史",
+  "description": "由《中国书法纪年表》转换而来的主题展，按朝代呈现书体、书家、碑帖、书论与展览事件。",
+  "color": "#8C3A2B",
+  "defaultViewport": {
+    "startYear": -1600,
+    "endYear": 2026
+  },
+  "minZoomRange": 1,
+  "maxZoomRange": 8000,
+  "playbackSpeed": 1.4,
+  "chunked": true,
+  "eventFields": [
+    {
+      "key": "dynasty",
+      "labelEn": "Dynasty",
+      "labelCn": "朝代",
+      "type": "text"
+    },
+    {
+      "key": "traditionalDate",
+      "labelEn": "Traditional Date",
+      "labelCn": "传统纪年",
+      "type": "text"
+    },
+    {
+      "key": "person",
+      "labelEn": "Person",
+      "labelCn": "人物",
+      "type": "text"
+    },
+    {
+      "key": "style",
+      "labelEn": "Category",
+      "labelCn": "书法类别",
+      "type": "text"
+    }
+  ]
+}

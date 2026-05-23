@@ -1,0 +1,5844 @@
+[
+  {
+    "id": "3b0d9a0c-2b82-42e7-b4db-04176c2b4367",
+    "periodId": "p_early_modern",
+    "streamId": "s_gothic",
+    "titleEn": "《时祷书》中《天使报喜》图创作",
+    "titleCn": "《时祷书》中《天使报喜》图创作",
+    "date": {
+      "year": 1400,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1400年至1410年，一位意大利艺术家在巴黎创作了《时祷书》中的《天使报喜》图，该手稿画属于国际哥特式风格。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式时期",
+      "standardPeriod": "哥特式",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a1d8fd6c-b3f0-4728-9243-f22ed0305b84",
+    "periodId": "p_early_modern",
+    "streamId": "s_gothic",
+    "titleEn": "《博福特祈祷书》制作",
+    "titleCn": "《博福特祈祷书》制作",
+    "date": {
+      "year": 1401
+    },
+    "descriptionCn": "1401年至1410年，制作《博福特祈祷书》，细密画风格返归国际风格。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "哥特式时期",
+      "standardPeriod": "哥特式",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "3abb5066-4c12-4cc4-872b-1f0a3b6bfa58",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "佛罗伦萨洗礼堂青铜门竞赛举行",
+    "titleCn": "佛罗伦萨洗礼堂青铜门竞赛举行",
+    "date": {
+      "year": 1401
+    },
+    "descriptionCn": "1401年，佛罗伦萨行会为装饰洗礼堂举办青铜门竞赛，菲利波·布鲁内莱斯基和洛伦佐·吉贝尔蒂分别制作了试验浮雕《亚伯拉罕用以撒献祭》。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "2797dde4-577d-438d-b478-c9d9f0e974a9",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "吉贝尔蒂赢得佛罗伦萨洗礼堂第二次青铜门竞赛",
+    "titleCn": "吉贝尔蒂赢得佛罗伦萨洗礼堂第二次青铜门竞赛",
+    "date": {
+      "year": 1401
+    },
+    "descriptionCn": "1401年，洛伦佐·吉贝尔蒂在佛罗伦萨洗礼堂第二次青铜门竞赛中获胜。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "3392d970-e542-4541-952c-ecefe0a3fbb1",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "镇议会资助建造弗拉·拉涅里·拉西尼祭坛",
+    "titleCn": "镇议会资助建造弗拉·拉涅里·拉西尼祭坛",
+    "date": {
+      "year": 1402
+    },
+    "descriptionCn": "1402年，圣塞波尔克罗镇议会资助建造了一座祭坛，专门献给本地真福弗拉·拉涅里·拉西尼。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "81c0d59f-fdf7-4da5-b853-70ecc2b5b82a",
+    "periodId": "p_early_modern",
+    "streamId": "s_gothic",
+    "titleEn": "加冕礼师傅为《淑女传》绘制插图",
+    "titleCn": "加冕礼师傅为《淑女传》绘制插图",
+    "date": {
+      "year": 1403,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1403年以前，加冕礼师傅为《淑女传》法文译本绘制插图，该译本于1403年作为新年礼物赠送。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式",
+      "standardPeriod": "哥特式",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "23df5edd-7d57-4451-85b3-786b0718c9ed",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "吉贝尔蒂制作佛罗伦萨洗礼堂第一次青铜门",
+    "titleCn": "吉贝尔蒂制作佛罗伦萨洗礼堂第一次青铜门",
+    "date": {
+      "year": 1403
+    },
+    "descriptionCn": "1403年至1423年，洛伦佐·吉贝尔蒂以接近哥特式的风格制作佛罗伦萨洗礼堂的第一次青铜大门。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "ce2a9c25-86dc-41bd-8929-3962834f9f76",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "吉贝尔蒂被授予佛罗伦萨洗礼堂青铜门委托",
+    "titleCn": "吉贝尔蒂被授予佛罗伦萨洗礼堂青铜门委托",
+    "date": {
+      "year": 1403
+    },
+    "descriptionCn": "1403年，评审委员会最终决定将佛罗伦萨洗礼堂青铜门的委托授予洛伦佐·吉贝尔蒂。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "6b910bab-214b-47ec-b2e5-0375029bdc62",
+    "periodId": "p_early_modern",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "塔麦兰墓建造",
+    "titleCn": "塔麦兰墓建造",
+    "date": {
+      "year": 1405
+    },
+    "descriptionCn": "1405年，塔麦兰墓在撒马尔罕建成，是帖木儿帝国时期的纪念碑建筑。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "乌兹别克斯坦",
+      "originalPeriod": "中世纪",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "357cac58-e8b2-49b4-98ff-4814725584aa",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "郑和下西洋带回苏尼勃青青花料",
+    "titleCn": "郑和下西洋带回苏尼勃青青花料",
+    "date": {
+      "year": 1405
+    },
+    "descriptionCn": "永乐三年（1405年），三宝太监郑和下西洋带回苏尼勃青青花料，用于青花瓷烧造。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "274ef731-cd25-46b2-9b46-5a27657aee01",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "北京故宫开始营造",
+    "titleCn": "北京故宫开始营造",
+    "date": {
+      "year": 1406
+    },
+    "descriptionCn": "1406年，明永乐四年，北京故宫开始营造，由工部侍郎吴中以及蒯祥、杨青、蔡信等设计建造，历时14年余，至1420年基本建成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "c9656b77-53fb-484b-a371-df78145bc0ed",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "北京紫禁城开始筹建",
+    "titleCn": "北京紫禁城开始筹建",
+    "date": {
+      "year": 1406
+    },
+    "descriptionCn": "1406年，北京紫禁城开始筹建，建设持续数个世纪，涉及大量工匠和材料，成为明清两代的皇宫。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "7898bb82-c5b5-4847-84f3-ee43512c60a5",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "雅各布·德拉·奎尔恰建造伊拉里娅·达·卡雷托的陵墓",
+    "titleCn": "雅各布·德拉·奎尔恰建造伊拉里娅·达·卡雷托的陵墓",
+    "date": {
+      "year": 1406
+    },
+    "descriptionCn": "1406年至1408年，雅各布·德拉·奎尔恰用卡拉拉大理石为伊拉里娅·达·卡雷托建造陵墓，最初位于卢卡的圣方济各修道院，后移至卢卡大教堂。伊拉里娅是卢卡僭主保罗·朱尼吉的妻子，1405年在生女儿时去世。陵墓以其优雅的卧像和装饰闻名。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "3214b6ba-08bd-4236-ae7c-be54557ac9da",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "吉贝尔蒂工作室雇佣多名助手和学徒",
+    "titleCn": "吉贝尔蒂工作室雇佣多名助手和学徒",
+    "date": {
+      "year": 1407
+    },
+    "descriptionCn": "1407年至1415年间，吉贝尔蒂在其佛罗伦萨工作室中雇用了3名学徒和19名助手，包括多纳太罗、米开罗佐和保罗·乌切洛。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "38646c01-5bf3-41ad-ae09-c22cdda5ce80",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "维罗纳玻璃制作匠遭受经济问题",
+    "titleCn": "维罗纳玻璃制作匠遭受经济问题",
+    "date": {
+      "year": 1409
+    },
+    "descriptionCn": "1409年，一位维罗纳的玻璃制作匠因拥有大量炉子、坩埚和未售出的玻璃制品而陷入流动资金匮乏的危机。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a8ed8986-f2b2-42fb-8a60-ee846277de96",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳泰洛创作《圣约翰》雕像",
+    "titleCn": "多纳泰洛创作《圣约翰》雕像",
+    "date": {
+      "year": 1411,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1411年，多纳泰洛为佛罗伦萨中央教堂创作了《圣约翰》雕像。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "7ddf5fc8-0c46-4f6e-b890-c48c38b0e2c1",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳泰罗创作《圣马可》",
+    "titleCn": "多纳泰罗创作《圣马可》",
+    "date": {
+      "year": 1411,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1411年至1414年，意大利雕塑家多纳泰罗受亚麻纺织工和商贩行会委托，创作了大理石雕像《圣马可》，放置在佛罗伦萨圣弥额尔教堂的壁龛中。雕像采用对立式平衡，人物形象自然写实，体现了文艺复兴对古典艺术的复兴。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "4f531689-a26c-4981-897b-f4e4b9a3cdb6",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "林堡兄弟绘制《贝里公爵祈祷书》细密画",
+    "titleCn": "林堡兄弟绘制《贝里公爵祈祷书》细密画",
+    "date": {
+      "year": 1411
+    },
+    "descriptionCn": "1411年至1416年间，林堡兄弟（扬、波尔和埃纳坎）为贝里公爵绘制《贝里公爵祈祷书》细密画，将写生风景引入绘画，体现了国际哥特式风格。",
+    "importance": 3,
+    "tags": [
+      "细密画",
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "细密画、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "26d06cc0-c025-47aa-b524-0b3905ce7e64",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "热那亚镇议会减少对外地画家的禁律",
+    "titleCn": "热那亚镇议会减少对外地画家的禁律",
+    "date": {
+      "year": 1415
+    },
+    "descriptionCn": "1415年，热那亚镇议会通过法令减少对外地画家的禁律，以鼓励艺术家迁入。",
+    "importance": 4,
+    "tags": [
+      "其他"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "其他",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "70b643be-1e75-4cc5-b604-5e6511f5579c",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳泰洛创作《先知》雕像",
+    "titleCn": "多纳泰洛创作《先知》雕像",
+    "date": {
+      "year": 1416
+    },
+    "descriptionCn": "1416年至1435年，多纳泰洛为佛罗伦萨中央教堂钟楼创作了《先知》雕像。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "8751b980-6372-4fcf-b732-f8d08955126b",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳泰洛创作《圣乔治》雕像",
+    "titleCn": "多纳泰洛创作《圣乔治》雕像",
+    "date": {
+      "year": 1416,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1416年，多纳泰洛为佛罗伦萨圣米凯莱教堂创作了《圣乔治》雕像。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "7b7a1c80-6538-4973-a66c-11b4c816548d",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳太罗创作《马尔佐科》",
+    "titleCn": "多纳太罗创作《马尔佐科》",
+    "date": {
+      "year": 1418
+    },
+    "descriptionCn": "1418年，多纳太罗创作了砂岩雕塑《马尔佐科》，最初用作楼梯柱，置于圣玛利亚·诺维拉修道院。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "15世纪",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "9c859ba7-78b9-4651-bd8f-884ee2b98af2",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "吉贝尔蒂与佛罗伦萨银行家行会签订圣马太雕像合同",
+    "titleCn": "吉贝尔蒂与佛罗伦萨银行家行会签订圣马太雕像合同",
+    "date": {
+      "year": 1419
+    },
+    "descriptionCn": "1419年，洛伦佐·吉贝尔蒂与佛罗伦萨银行家行会坎比奥签订合同，为圣弥额尔教堂神龛制作圣马太青铜雕像。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "daf244a0-f39d-4604-a5bc-4813972afd72",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "布鲁内莱斯基建造圣洛伦佐教堂中殿",
+    "titleCn": "布鲁内莱斯基建造圣洛伦佐教堂中殿",
+    "date": {
+      "year": 1419
+    },
+    "descriptionCn": "1419年，佛罗伦萨圣洛伦佐教堂中殿由布鲁内莱斯基开始建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "79a105fb-bcbf-4b06-875c-5af45c049d23",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "上莱茵画师创作《小伊甸乐园》",
+    "titleCn": "上莱茵画师创作《小伊甸乐园》",
+    "date": {
+      "year": 1420,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1420年，上莱茵画师创作了《小伊甸乐园》，原藏法兰克福施塔德尔艺术学会。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "dce029ea-bf6c-41a4-ac3c-c296b8e4071e",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳太罗制作青铜雕塑《大卫和歌利亚的头》",
+    "titleCn": "多纳太罗制作青铜雕塑《大卫和歌利亚的头》",
+    "date": {
+      "year": 1420,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1420年代，多纳太罗为佛罗伦萨美第奇家族制作了青铜雕塑《大卫和歌利亚的头》。雕像描绘大卫脚踩歌利亚头颅，底座附有拉丁文铭文，鼓励公民对抗暴君，具有政治寓意。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "dbc7bea5-7a7a-4d4c-bddf-d752e95a101c",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "布鲁内莱斯基为佛罗伦萨百花圣马利亚教堂建造圆顶",
+    "titleCn": "布鲁内莱斯基为佛罗伦萨百花圣马利亚教堂建造圆顶",
+    "date": {
+      "year": 1420
+    },
+    "descriptionCn": "1420年至1434年，布鲁内莱斯基为佛罗伦萨百花圣马利亚教堂建造圆顶（1417年投标）。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "04de437d-fe48-4c01-9e08-cc9d42df5015",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "布鲁内莱斯基开始建造佛罗伦萨大教堂穹顶",
+    "titleCn": "布鲁内莱斯基开始建造佛罗伦萨大教堂穹顶",
+    "date": {
+      "year": 1420
+    },
+    "descriptionCn": "1420年至1436年，意大利建筑师菲利普·布鲁内莱斯基主持建造了佛罗伦萨大教堂的穹顶，该穹顶采用先进的双层壳结构，是文艺复兴建筑的重要成就。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "db1cd1ef-9ff7-44e8-ae52-45932608ef70",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "马索利诺创作《赫罗德的生平》壁画",
+    "titleCn": "马索利诺创作《赫罗德的生平》壁画",
+    "date": {
+      "year": 1420,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1420年，马索利诺在卡斯蒂廖内·德·奥洛纳洗礼堂创作了壁画《赫罗德的生平》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "c0a69fd4-25e8-4b0c-810f-731d315f9272",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多梅尼科·代·科里被锡耶纳城聘请教授手艺",
+    "titleCn": "多梅尼科·代·科里被锡耶纳城聘请教授手艺",
+    "date": {
+      "year": 1421
+    },
+    "descriptionCn": "1421年，细木镶嵌装饰设计者兼木刻家多梅尼科·代·科里应锡耶纳城聘请，教授两三个年轻人其手艺。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "0a87cd2d-b3fc-4baf-aae9-aa03f33d7eff",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳太罗与米开罗佐制作巴尔达萨雷·科萨陵墓",
+    "titleCn": "多纳太罗与米开罗佐制作巴尔达萨雷·科萨陵墓",
+    "date": {
+      "year": 1421,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1421年至1428年，多纳太罗和米开罗佐在佛罗伦萨洗礼堂制作了敌对教皇约翰二十三世巴尔达萨雷·科萨的大理石及青铜包金陵墓。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "6e86025a-f481-4bc8-99f9-b5e26e436a13",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "明北京内城筑成",
+    "titleCn": "明北京内城筑成",
+    "date": {
+      "year": 1421
+    },
+    "descriptionCn": "1421年，明北京内城筑成，墙高12米，九门上设城楼和箭楼，四角设角楼。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "d12d0be3-91e7-43ef-a4db-256e2657f1cd",
+    "periodId": "p_early_modern",
+    "streamId": "s_gothic",
+    "titleEn": "威尼斯黄金府邸建造",
+    "titleCn": "威尼斯黄金府邸建造",
+    "date": {
+      "year": 1422
+    },
+    "descriptionCn": "1422年至1440年，威尼斯黄金府邸建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "哥特式",
+      "standardPeriod": "哥特式",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "76183f70-0826-4d97-9796-99ce13a5d9f2",
+    "periodId": "p_early_modern",
+    "streamId": "s_gothic",
+    "titleEn": "威尼斯黄金府邸建造",
+    "titleCn": "威尼斯黄金府邸建造",
+    "date": {
+      "year": 1422
+    },
+    "descriptionCn": "1422年至1440年间，威尼斯黄金府邸由马泰奥·拉韦尔蒂为康塔里尼家族建造。府邸依运河而建，外观对称，装饰有尖拱和四叶纹饰，外墙曾描金彩绘。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "哥特式",
+      "standardPeriod": "哥特式",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "0bc6dd2f-e62d-49db-9644-83ba73215be9",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "真蒂莱·达·法布里亚诺创作《三博士朝拜》",
+    "titleCn": "真蒂莱·达·法布里亚诺创作《三博士朝拜》",
+    "date": {
+      "year": 1423
+    },
+    "descriptionCn": "1423年，真蒂莱·达·法布里亚诺创作了《三博士朝拜》，现藏于佛罗伦萨乌菲齐教堂。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "aa103e23-c0a8-48b9-a2d9-65fd7ae777c3",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "马萨乔和马索利诺开始绘制布兰卡奇小礼拜堂湿壁画《圣彼得的生活》",
+    "titleCn": "马萨乔和马索利诺开始绘制布兰卡奇小礼拜堂湿壁画《圣彼得的生活》",
+    "date": {
+      "year": 1424
+    },
+    "descriptionCn": "1424年，马萨乔和马索利诺受费利切·布兰卡奇委托，开始为佛罗伦萨圣玛利亚·德尔·卡尔米内教堂的布兰卡奇小礼拜堂绘制湿壁画《圣彼得的生活》。工作持续至1428年马萨乔去世，后于1481—1482年由菲利皮诺·利皮完成。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "95360ecb-5bbe-474d-9b65-5a4dea73472f",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "吉贝尔蒂创作《天堂之门》",
+    "titleCn": "吉贝尔蒂创作《天堂之门》",
+    "date": {
+      "year": 1425
+    },
+    "descriptionCn": "1425年至1452年，洛伦佐·吉贝尔蒂创作了佛罗伦萨洗礼堂的第三次青铜门《天堂之门》。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "93efdbc1-f279-4262-b89a-271d0d610e51",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "吉贝尔蒂获得天堂之门合同",
+    "titleCn": "吉贝尔蒂获得天堂之门合同",
+    "date": {
+      "year": 1425,
+      "month": 1,
+      "day": 2
+    },
+    "descriptionCn": "1425年1月2日，洛伦佐·吉贝尔蒂获得为佛罗伦萨洗礼堂制作第二套青铜门（即天堂之门）的合同。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "59909707-4016-4fdb-9cc5-57672b359486",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳太罗与米开罗佐建立合资经营",
+    "titleCn": "多纳太罗与米开罗佐建立合资经营",
+    "date": {
+      "year": 1425
+    },
+    "descriptionCn": "1425年至1434年间，多纳太罗与米开罗佐以合资形式联合经营，在佛罗伦萨共用一个工作室，并拥有比萨的工作室、两艘船和一头骡子。",
+    "importance": 2,
+    "tags": [
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "交易",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "b304d806-4841-4cb8-8495-1ced5722623a",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "洛伦佐·吉贝尔蒂创作《天堂之门》",
+    "titleCn": "洛伦佐·吉贝尔蒂创作《天堂之门》",
+    "date": {
+      "year": 1425
+    },
+    "descriptionCn": "1425年至1452年，意大利雕塑家洛伦佐·吉贝尔蒂受洗礼堂歌剧院和毛织品行会委托，为佛罗伦萨洗礼堂创作了镀金青铜门《天堂之门》，门上包含十个圣经故事浮雕，运用科学透视和古典建筑元素，被誉为文艺复兴时期最昂贵的雕塑作品。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "24a20ca3-71e4-4070-bbbd-eaba53487233",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "洛伦佐·吉贝尔蒂创作自画像",
+    "titleCn": "洛伦佐·吉贝尔蒂创作自画像",
+    "date": {
+      "year": 1425
+    },
+    "descriptionCn": "1425年至1452年，洛伦佐·吉贝尔蒂为佛罗伦萨洗礼堂制作第二套青铜大门时，在其中加入了自画像，并题词赞扬自己的技艺。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "cffcb1d0-af53-4b81-91ab-76552210d0e4",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "罗伯特·康平创作《受胎告知》三联画",
+    "titleCn": "罗伯特·康平创作《受胎告知》三联画",
+    "date": {
+      "year": 1425,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1425年至1430年，佛兰德斯画家罗伯特·康平创作了《受胎告知》三联画，描绘了天使加百利告知圣母玛利亚她将怀孕生子的场景，背景设定在15世纪的佛兰德斯房间内，充满了日常细节和象征意义。作品采用油画，展现了精确的自然主义和光线处理。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "比利时",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a8cd9a0d-c2b5-4c41-9bc4-8dcc06b2a45d",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "马索利诺前往匈牙利为布兰达·卡斯蒂廖尼工作",
+    "titleCn": "马索利诺前往匈牙利为布兰达·卡斯蒂廖尼工作",
+    "date": {
+      "year": 1425
+    },
+    "descriptionCn": "1425年，佛罗伦萨艺术家马索利诺前往匈牙利，为米兰红衣主教布兰达·卡斯蒂廖尼工作，为期三年。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "匈牙利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "88b3cce2-1f6f-470b-9dfe-2b85e49df0de",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "马萨乔创作《三位一体和圣母、圣约翰及捐赠人》",
+    "titleCn": "马萨乔创作《三位一体和圣母、圣约翰及捐赠人》",
+    "date": {
+      "year": 1425,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1425年至1428年，意大利画家马萨乔为佛罗伦萨新圣母玛丽亚教堂创作了壁画《三位一体和圣母、圣约翰及捐赠人》，采用科学透视法构建错觉空间，画面中圣父托起十字架，圣母和圣约翰立于下方，两侧为捐赠人，底部有骷髅头及铭文，寓意死亡警告。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "03df20dd-3963-4a53-b53c-96d29f815c07",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "马萨乔创作《纳税钱》",
+    "titleCn": "马萨乔创作《纳税钱》",
+    "date": {
+      "year": 1425,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1425年至1428年，意大利画家马萨乔为佛罗伦萨卡尔米内圣母大殿的布兰卡契小教堂绘制了壁画《纳税钱》，采用连续叙述手法，展现耶稣指示彼得从鱼腹中取钱交税的故事，画面运用科学透视和大气透视，人物生动有力。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "701015d6-aa10-455d-95c0-1f3ac86fe820",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "慈善会委托建造圣塞波尔克罗教堂祭坛画框",
+    "titleCn": "慈善会委托建造圣塞波尔克罗教堂祭坛画框",
+    "date": {
+      "year": 1426,
+      "month": 8,
+      "day": 2
+    },
+    "descriptionCn": "1426年8月2日，圣塞波尔克罗镇圣方济各教堂的慈善会委托木匠建造一个巨大的祭坛画画框，以14世纪多联画为模板。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画、建筑",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5ea1c27e-1278-42be-b3d3-d4773e289e08",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳太罗欠乔万尼·迪·雅各布·德利·斯特罗齐报酬",
+    "titleCn": "多纳太罗欠乔万尼·迪·雅各布·德利·斯特罗齐报酬",
+    "date": {
+      "year": 1427
+    },
+    "descriptionCn": "1427年，多纳太罗欠铸造厂工人乔万尼·迪·雅各布·德利·斯特罗齐15弗罗林报酬，用于浇铸圣罗索雷头骨圣骨盒的多次尝试。",
+    "importance": 2,
+    "tags": [
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "交易",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "b2d1d602-75ee-4567-8600-feb2334e0859",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "巴尔托洛梅奥·博恩雕刻石灰石头像",
+    "titleCn": "巴尔托洛梅奥·博恩雕刻石灰石头像",
+    "date": {
+      "year": 1427
+    },
+    "descriptionCn": "1427年至1428年，威尼斯雕刻家巴尔托洛梅奥·博恩花费203天雕刻了一个精美的石灰石头像。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "f24e1a7b-e464-4922-b2c1-4ed4d9e75782",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "彼得罗·兰贝蒂为拉法埃莱·富尔戈肖制作墓碑",
+    "titleCn": "彼得罗·兰贝蒂为拉法埃莱·富尔戈肖制作墓碑",
+    "date": {
+      "year": 1427
+    },
+    "descriptionCn": "1427年，帕多瓦法官拉法埃莱·富尔戈肖死于瘟疫，其妻子乔万娜·德·贝卡里亚委托佛罗伦萨雕塑家彼得罗·兰贝蒂在帕多瓦圣安东尼奥大教堂为其制作一块奢侈的墓碑。墓碑使用伊斯特里亚大理石和红色维罗纳石，肖像和材料在合同中详细规定。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "fb0eee70-e6e3-4b7f-ac97-b6522854518c",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "马萨乔创作《三位一体》",
+    "titleCn": "马萨乔创作《三位一体》",
+    "date": {
+      "year": 1427,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1427年，马萨乔在佛罗伦萨新圣母大殿创作了湿壁画《三位一体》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴初期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "8efbceb8-447e-423e-8e50-84f670beec9b",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "马萨乔创作布兰卡奇教堂壁画",
+    "titleCn": "马萨乔创作布兰卡奇教堂壁画",
+    "date": {
+      "year": 1427,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1427年至1428年，马萨乔在佛罗伦萨卡尔梅利特女修道院布兰卡奇教堂创作了壁画《圣彼得的生平》，包括《贡钱》等局部。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9d5c95c5-462d-4591-b442-f91c47bef6ab",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "马萨乔绘制《三位一体》湿壁画",
+    "titleCn": "马萨乔绘制《三位一体》湿壁画",
+    "date": {
+      "year": 1427,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1427年，马萨乔为佛罗伦萨圣玛利亚·诺维拉教堂绘制湿壁画《三位一体》，描绘圣父、圣子和圣灵（鸽子）相结合的神迹。该作品因对透视法的创新使用而闻名，由24个“工作日区域”组成。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "24373770-9c3f-46dd-9f4b-18205a7c006e",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "乔万尼·达·阿莱马尼亚同意绘制富尔戈肖陵墓",
+    "titleCn": "乔万尼·达·阿莱马尼亚同意绘制富尔戈肖陵墓",
+    "date": {
+      "year": 1431
+    },
+    "descriptionCn": "1431年，威尼斯画家乔万尼·达·阿莱马尼亚同意以50弗罗林的价格绘制帕多瓦律师拉法埃莱·富尔戈肖的陵墓，并承诺按照已提交给委托人的设计图进行创作。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9831a5be-3278-4916-bfe3-b90cc981cc9e",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "弗拉·安杰利科绘制《最后的审判》",
+    "titleCn": "弗拉·安杰利科绘制《最后的审判》",
+    "date": {
+      "year": 1431
+    },
+    "descriptionCn": "1431年，弗拉·安杰利科为佛罗伦萨圣马可博物馆绘制了板上蛋彩画《最后的审判》，画中包含了超过250个人物，高度浓缩了末日审判的景象。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "1886f20e-8e70-4cc2-abcb-0badafc4ff48",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "皮萨内洛创作壁画《圣乔治援救公主》",
+    "titleCn": "皮萨内洛创作壁画《圣乔治援救公主》",
+    "date": {
+      "year": 1431
+    },
+    "descriptionCn": "1431年，皮萨内洛在维罗纳圣阿纳斯塔西亚教堂创作了壁画《圣乔治援救公主》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "c8ca0abf-1eb3-4b19-b049-07b522549e0c",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "修女萨拉委托绘制向圣方济各许愿的画作",
+    "titleCn": "修女萨拉委托绘制向圣方济各许愿的画作",
+    "date": {
+      "year": 1432,
+      "month": 10,
+      "day": 14
+    },
+    "descriptionCn": "1432年10月14日，修女萨拉为了纪念一次祈祷应验，委托艺术家（归于安东尼奥·奥尔西尼）绘制了板上蛋彩画《费拉拉修女萨拉向圣方济各许愿》，描绘两位骑士决斗被阻止的场景。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "755bdeb6-c682-45d7-8d11-b5994a20f494",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳泰洛游访罗马",
+    "titleCn": "多纳泰洛游访罗马",
+    "date": {
+      "year": 1432
+    },
+    "descriptionCn": "1432年至1433年，多纳泰洛游访罗马，受古典作品影响。",
+    "importance": 4,
+    "tags": [
+      "行为艺术"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "行为艺术",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "abc73f2a-1c6c-41d9-b6ed-8f521dee3a59",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "胡伯特·凡·艾克和扬·凡·艾克完成《羔羊祭坛画》",
+    "titleCn": "胡伯特·凡·艾克和扬·凡·艾克完成《羔羊祭坛画》",
+    "date": {
+      "year": 1432
+    },
+    "descriptionCn": "1432年，佛兰德斯画家胡伯特·凡·艾克和扬·凡·艾克合作完成《羔羊祭坛画》（亦称《根特祭坛画》），这是一幅大型多联板油画，描绘了羔羊的胜利、圣父、圣母等丰富场景，细节精美，体现了扬·凡·艾克对油画的精湛运用。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "比利时",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "884fbcd0-9bdd-4c9d-bfc7-cc944c48971f",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "范·埃伊克兄弟合作完成根特祭坛画《耶稣的礼拜》",
+    "titleCn": "范·埃伊克兄弟合作完成根特祭坛画《耶稣的礼拜》",
+    "date": {
+      "year": 1432
+    },
+    "descriptionCn": "1432年，范·埃伊克兄弟（许伯特和扬）合作完成根特圣巴文教堂内的祭坛画《耶稣的礼拜》，该作品标志着油画技术的成熟与现实主义风格的确定。",
+    "importance": 3,
+    "tags": [
+      "祭坛画",
+      "绘画"
+    ],
+    "meta": {
+      "country": "佛兰德",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "祭坛画、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "f20fefec-569e-49c3-9b82-9ff285b8cbcf",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "决定烧造龙凤瓷器四十四万三千五百件",
+    "titleCn": "决定烧造龙凤瓷器四十四万三千五百件",
+    "date": {
+      "year": 1433
+    },
+    "descriptionCn": "宣德八年（1433年），明朝决定烧造龙凤瓷器四十四万三千五百件。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "e2bf8a6c-3754-4023-8c85-47790efed46a",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "弗拉·安杰利科完成《利纳约里》祭坛画",
+    "titleCn": "弗拉·安杰利科完成《利纳约里》祭坛画",
+    "date": {
+      "year": 1433,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1433年，弗拉·安杰利科完成了《利纳约里》祭坛画，该作品为板上蛋彩画，现藏于佛罗伦萨圣马可博物馆。祭坛画原用于利纳约里行会会议厅，通常只在聚会时打开，关闭时显示圣彼得和圣保罗形象，打开时则展示圣母子像，周围金箔闪耀。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "cc746062-94a9-42bb-9449-243381aeace6",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "扬·凡·艾克创作《自画像》",
+    "titleCn": "扬·凡·艾克创作《自画像》",
+    "date": {
+      "year": 1433
+    },
+    "descriptionCn": "1433年，扬·凡·艾克创作了一幅自画像，画中人物头戴奇异头巾，目光锐利，画框上刻有艺术家的座右铭“尽我所能”及创作年份。该作品被誉为技艺精湛的杰作。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "比利时",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "025eea63-9ea2-42d0-a5f2-fde134cd6668",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "菲拉雷特制作圣彼得大教堂青铜门",
+    "titleCn": "菲拉雷特制作圣彼得大教堂青铜门",
+    "date": {
+      "year": 1433
+    },
+    "descriptionCn": "1433年至1445年，菲拉雷特（安东尼奥·阿韦利诺）为罗马圣彼得大教堂制作青铜门，通过减少嵌板数量和较薄铸件降低成本，但增加了浇铸危险。门上包含赞助人形象、教皇徽章以及圣彼得殉难浅浮雕，菲拉雷特在三个地方签名，并留下一组幽默场景描绘工作过程。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "fc30620b-8f8d-4519-adcc-995f281ec7f1",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "圣洛伦佐教堂始建",
+    "titleCn": "圣洛伦佐教堂始建",
+    "date": {
+      "year": 1434
+    },
+    "descriptionCn": "1434年，佛罗伦萨的圣洛伦佐教堂（梅迪奇家族教堂）开始建设。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "90431a15-bace-471e-8d6b-5dcef5362e27",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "扬·凡·艾克创作《阿尔诺芬尼夫妇像》",
+    "titleCn": "扬·凡·艾克创作《阿尔诺芬尼夫妇像》",
+    "date": {
+      "year": 1434
+    },
+    "descriptionCn": "1434年，佛兰德斯画家扬·凡·艾克创作了《阿尔诺芬尼夫妇像》，这幅木板油画描绘了意大利商人乔瓦尼·阿尔诺芬尼与妻子乔凡娜·齐纳米在卧室中的场景，画中细节丰富，并包含艺术家的签名及日期。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "比利时",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "cd4e7cdc-5040-4fa1-ae10-61fc2e243499",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "扬·范·埃伊克绘制《扬·阿诺尔菲尼和夫人》",
+    "titleCn": "扬·范·埃伊克绘制《扬·阿诺尔菲尼和夫人》",
+    "date": {
+      "year": 1434
+    },
+    "descriptionCn": "1434年，扬·范·埃伊克绘制肖像画《扬·阿诺尔菲尼和夫人》，现藏于伦敦国家美术馆。作品以其细腻的写实风格和光线处理著称。",
+    "importance": 3,
+    "tags": [
+      "肖像画",
+      "绘画"
+    ],
+    "meta": {
+      "country": "佛兰德",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "肖像画、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "1d01460a-fa56-4542-81b7-11151e9fb0eb",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳泰洛创作《圣母领报》大理石浮雕",
+    "titleCn": "多纳泰洛创作《圣母领报》大理石浮雕",
+    "date": {
+      "year": 1435,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1435年，多纳泰洛创作了大理石浮雕《圣母领报》，现藏于佛罗伦萨圣克罗切教堂。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "dc150737-4545-430b-be66-a9f67bd5a128",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "太皇太后张氏发布懿旨罢去宫中玩好之物",
+    "titleCn": "太皇太后张氏发布懿旨罢去宫中玩好之物",
+    "date": {
+      "year": 1435
+    },
+    "descriptionCn": "1435年，宣德帝病死的当年，太皇太后张氏发布懿旨，将宫中一切玩好之物、不急之务悉皆罢去，革中官不差。此举导致宣德朝蓬勃兴旺的宫廷绘画突然跌落，景德镇御器厂停烧虫罐，此后官窑青花花鸟画再难超越宣德蟋蟀罐的水平。",
+    "importance": 3,
+    "tags": [
+      "陶瓷",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "bc3c8374-f3a2-4805-87ee-10df5358143b",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "康拉德·维茨创作《扎博泰和贝纳伊亚救世镜屏》",
+    "titleCn": "康拉德·维茨创作《扎博泰和贝纳伊亚救世镜屏》",
+    "date": {
+      "year": 1435,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1435年，康拉德·维茨创作了《扎博泰和贝纳伊亚救世镜屏》，现藏于巴塞尔艺术博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "瑞士",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d7bffa0d-7ce4-4810-8378-3fd0ecc1f095",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "罗吉尔·凡·德尔·维登创作《基督下十字架》",
+    "titleCn": "罗吉尔·凡·德尔·维登创作《基督下十字架》",
+    "date": {
+      "year": 1435
+    },
+    "descriptionCn": "1435年至1438年，罗吉尔·凡·德尔·维登受卢万弩兵协会委托，为城外圣母大教堂创作木板油画《基督下十字架》，作品尺寸为2.2米×2.62米。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "比利时",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "6e060002-543b-4fa5-8a9f-25add089831f",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "罗吉尔·范·德尔·韦伊登创作《耶稣降架》",
+    "titleCn": "罗吉尔·范·德尔·韦伊登创作《耶稣降架》",
+    "date": {
+      "year": 1435
+    },
+    "descriptionCn": "1435年至1443年间，罗吉尔·范·德尔·韦伊登创作《耶稣降架》，现藏于马德里普拉多宫。作品被视为着色的浮雕，具有强烈的哥特式风格和情感表现。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "佛兰德",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "eda5c211-cead-40bc-a3d2-bf4339c5f0fa",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "莱昂·巴蒂斯塔·阿尔贝蒂撰写《论绘画》",
+    "titleCn": "莱昂·巴蒂斯塔·阿尔贝蒂撰写《论绘画》",
+    "date": {
+      "year": 1435
+    },
+    "descriptionCn": "1435年，莱昂·巴蒂斯塔·阿尔贝蒂撰写了专题论文《论绘画》，展示了其清晰的数学知识，该论文的意大利文版于1436年发行，并献给菲利波·布鲁内莱斯基。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "5d25d487-78b7-4993-ac40-100d4826d32b",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "科西莫·德·梅迪奇建立圣马尔科男修道院",
+    "titleCn": "科西莫·德·梅迪奇建立圣马尔科男修道院",
+    "date": {
+      "year": 1436
+    },
+    "descriptionCn": "1436年，科西莫·德·梅迪奇在佛罗伦萨为多明我会建立了圣马尔科男修道院。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "69702481-c84c-45a5-9149-7b27fd56ad43",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "切尼诺·切尼尼完成《艺人手册》",
+    "titleCn": "切尼诺·切尼尼完成《艺人手册》",
+    "date": {
+      "year": 1437
+    },
+    "descriptionCn": "1437年，早期文艺复兴艺术家切尼诺·切尼尼完成了他的著作《艺人手册》，其中对蛋彩画技法进行了极为细致的描述。该书后来成为研究蛋彩画技法的重要文献。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "1688c3ba-2434-405b-aa11-a2978f3a0279",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳太罗赢得圣母百花大教堂圣器室青铜门委托",
+    "titleCn": "多纳太罗赢得圣母百花大教堂圣器室青铜门委托",
+    "date": {
+      "year": 1437
+    },
+    "descriptionCn": "1437年，雕塑家多纳太罗向佛罗伦萨大教堂慈善会提交模型后，赢得为北圣器室制作一套青铜门的委托。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "设计"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、设计",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "6b3c9a1e-39d2-4ddf-92fe-df808176820d",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "正统二年墓出土民窑青花瓷",
+    "titleCn": "正统二年墓出土民窑青花瓷",
+    "date": {
+      "year": 1437
+    },
+    "descriptionCn": "1437年（明正统二年），有纪年墓出土了民窑青花瓷，填补了空白期青花瓷的空白。",
+    "importance": 2,
+    "tags": [
+      "陶瓷",
+      "考古"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、考古",
+      "eventCategory": "考古与发现"
+    }
+  },
+  {
+    "id": "d4b57f2c-64f9-4015-a2de-e8ee582f4c0b",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "汉斯·穆尔特舍尔绘制《基督背负十字架》",
+    "titleCn": "汉斯·穆尔特舍尔绘制《基督背负十字架》",
+    "date": {
+      "year": 1437
+    },
+    "descriptionCn": "1437年，汉斯·穆尔特舍尔绘制《基督背负十字架》，现藏于柏林凯泽·弗里德里希博物馆。作品体现了通俗的、戏剧性的风格。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b870f78e-2b1c-4e6b-b485-46672dc0fc47",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "米开罗佐为巴尔托洛梅奥·阿拉加齐设计陵墓浮雕",
+    "titleCn": "米开罗佐为巴尔托洛梅奥·阿拉加齐设计陵墓浮雕",
+    "date": {
+      "year": 1437
+    },
+    "descriptionCn": "1437年，米开罗佐·迪·巴尔托洛梅奥接受了巴尔托洛梅奥·阿拉加齐陵墓的浮雕制作委托，并于1438年完成。浮雕名为《巴尔托洛梅奥·阿拉加齐的告别》，材质为大理石，位于蒙泰普尔恰诺大教堂。作品表现了灵魂从尘世束缚中离开，以古罗马形象为蓝本。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "83a3ba07-a58a-47fb-bc7c-06de24fa528a",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "巴尔托洛梅奥·博恩记录威尼斯总督宫正门工程条件",
+    "titleCn": "巴尔托洛梅奥·博恩记录威尼斯总督宫正门工程条件",
+    "date": {
+      "year": 1438
+    },
+    "descriptionCn": "1438年，雕塑家兼建筑师巴尔托洛梅奥·博恩亲手记录了他与父亲承担威尼斯总督宫正门（Porta della Carta）工程的条件，包括使用石料类型和1700达克特报酬等。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "设计",
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑、设计、交易",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "8daf8612-42f9-44d2-a1d2-48e28e5f5119",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "明英宗下令禁止民窑烧造官样青花白地瓷器",
+    "titleCn": "明英宗下令禁止民窑烧造官样青花白地瓷器",
+    "date": {
+      "year": 1438
+    },
+    "descriptionCn": "明英宗正统三年（1438年），明英宗下令禁止江西瓷器窑场烧造官样青花白地瓷器并到各处货卖，违者正法处死，全家发配充军边卫。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "e00c0526-3baa-4319-9429-a71744958308",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "朝廷对景德镇民窑烧造颁布禁令（正统三年）",
+    "titleCn": "朝廷对景德镇民窑烧造颁布禁令（正统三年）",
+    "date": {
+      "year": 1438
+    },
+    "descriptionCn": "1438年（明正统三年），朝廷颁布禁令，限制景德镇民窑烧造。",
+    "importance": 4,
+    "tags": [
+      "陶瓷",
+      "政策"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、政策",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "ed81134f-0f4e-48d0-bae7-35b75246a0c9",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "圣塞波尔克罗修道士与萨塞塔协商祭坛画主题",
+    "titleCn": "圣塞波尔克罗修道士与萨塞塔协商祭坛画主题",
+    "date": {
+      "year": 1439,
+      "month": 1
+    },
+    "descriptionCn": "1439年1月，圣塞波尔克罗镇圣方济各教堂的修道士举行全体教士大会，决定派遣两名成员前往锡耶纳，与画家萨塞塔协商祭坛画的主题、人物及叙事内容。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "c1ef3a2b-e176-4183-9d30-eb5d1888ff3d",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "法海寺建造",
+    "titleCn": "法海寺建造",
+    "date": {
+      "year": 1439
+    },
+    "descriptionCn": "1439年（明正统四年），北京西郊翠微山南麓法海寺开始建造，于1443年（正统八年）竣工。大雄宝殿内保存有正统年间壁画10铺。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "62f78914-5aec-47b2-b1d1-881ae47424d7",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "皮萨内洛成为曼图亚宫廷的家人",
+    "titleCn": "皮萨内洛成为曼图亚宫廷的家人",
+    "date": {
+      "year": 1439
+    },
+    "descriptionCn": "1439年，皮萨内洛已成为曼图亚宫廷的“家人”，同时也在为费拉拉的莱奥内洛·德·埃斯塔工作。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画、雕塑",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d5ee9cce-4e27-4a76-a015-2c48623f1dac",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "绘制阿尔比齐家族耻辱像",
+    "titleCn": "绘制阿尔比齐家族耻辱像",
+    "date": {
+      "year": 1440,
+      "month": 7
+    },
+    "descriptionCn": "1440年7月，佛罗伦萨将失败的阿尔比齐家族及其支持者绘制成耻辱像，其中成员安德烈亚·德尔·卡斯塔尼奥因此得名“倒垂者安德烈亚”。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "15世纪",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "716b27e9-ea51-4458-ac55-bf3c3faf0111",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "迪奥戈·德·托拉尔瓦设计贝伦哲罗姆修道院大礼拜堂",
+    "titleCn": "迪奥戈·德·托拉尔瓦设计贝伦哲罗姆修道院大礼拜堂",
+    "date": {
+      "year": 1440
+    },
+    "descriptionCn": "1440年至1450年，迪奥戈·德·托拉尔瓦设计了贝伦哲罗姆修道院的大礼拜堂。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "葡萄牙",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "d14df06a-5cc9-4d1f-bed9-8fb4ef226b5d",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "雅各布·贝利尼与多纳托·布拉加迪诺签订合伙合同",
+    "titleCn": "雅各布·贝利尼与多纳托·布拉加迪诺签订合伙合同",
+    "date": {
+      "year": 1440,
+      "month": 9,
+      "day": 24,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1440年9月24日，画家雅各布·贝利尼与多纳托·布拉加迪诺在威尼斯签订合同，约定未来五年合伙生产绘画作品，均分在威尼斯境内销售利润。",
+    "importance": 2,
+    "tags": [
+      "交易",
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "交易、绘画",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "35babe98-d889-4e62-8bd2-ab10dc2d6d41",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "卢卡·德拉·罗比亚提交圣器室讲道台设计稿",
+    "titleCn": "卢卡·德拉·罗比亚提交圣器室讲道台设计稿",
+    "date": {
+      "year": 1442
+    },
+    "descriptionCn": "1442年，雕塑家卢卡·德拉·罗比亚向佛罗伦萨大教堂慈善会提交了北圣器室讲道台的设计稿。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "设计"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、设计",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "a2087d62-9fe4-4d61-93eb-3ebe0625d29f",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "安德烈亚·德尔·卡斯塔尼奥在圣扎卡里亚女修道院绘制湿壁画",
+    "titleCn": "安德烈亚·德尔·卡斯塔尼奥在圣扎卡里亚女修道院绘制湿壁画",
+    "date": {
+      "year": 1442
+    },
+    "descriptionCn": "1442年，安德烈亚·德尔·卡斯塔尼奥在威尼斯圣扎卡里亚女修道院圣塔拉西奥小礼拜堂的祭坛环形殿拱顶上绘制湿壁画，描绘圣徒像，并与弗朗切斯科·达·法恩扎共同署名，日期标注为1442年。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "40395c21-ea75-4e7b-9ac9-bab44f698caf",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "正统七年墓出土民窑青花瓷",
+    "titleCn": "正统七年墓出土民窑青花瓷",
+    "date": {
+      "year": 1442
+    },
+    "descriptionCn": "1442年（明正统七年），有纪年墓出土了民窑青花瓷。",
+    "importance": 2,
+    "tags": [
+      "陶瓷",
+      "考古"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、考古",
+      "eventCategory": "考古与发现"
+    }
+  },
+  {
+    "id": "c45a6100-fa99-44af-abd1-eea06ad92508",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "汉斯·科隆为布尔戈斯教堂建造尖塔",
+    "titleCn": "汉斯·科隆为布尔戈斯教堂建造尖塔",
+    "date": {
+      "year": 1442
+    },
+    "descriptionCn": "1442年至1458年间，德国建筑师汉斯·科隆为西班牙布尔戈斯教堂建造了两座高耸的尖塔，仿科隆教堂设计，是西班牙第一批火焰式哥特建筑。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "ffc45ab1-051e-43a3-9e17-ec270869724c",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "安东尼奥·维瓦里尼和乔万尼·达·阿莱马尼亚制作祭坛装饰画",
+    "titleCn": "安东尼奥·维瓦里尼和乔万尼·达·阿莱马尼亚制作祭坛装饰画",
+    "date": {
+      "year": 1443
+    },
+    "descriptionCn": "1443年，安东尼奥·维瓦里尼和乔万尼·达·阿莱马尼亚为威尼斯圣扎卡里亚女修道院圣塔拉西奥小礼拜堂制作了三幅纪念碑似的祭坛装饰画，每幅祭坛画上刻有为此画付过钱的修女的名字。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "62472e05-6268-4a5f-a9d8-ee70a1c613f6",
+    "periodId": "p_early_modern",
+    "streamId": "s_gothic",
+    "titleEn": "布尔日的雅克·克尔宅建造",
+    "titleCn": "布尔日的雅克·克尔宅建造",
+    "date": {
+      "year": 1443
+    },
+    "descriptionCn": "1443年至1451年间，法国布尔日的雅克·克尔宅第建成。该建筑由法王财政大臣雅克·克尔建造，倚城墙而建，包含礼拜堂和多边形楼梯塔，平面布局自由。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式",
+      "standardPeriod": "哥特式",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "e320fc1e-eb72-45b4-9a69-065a72df68dd",
+    "periodId": "p_early_modern",
+    "streamId": "s_gothic",
+    "titleEn": "布尔日雅克·克尔宅建造",
+    "titleCn": "布尔日雅克·克尔宅建造",
+    "date": {
+      "year": 1443
+    },
+    "descriptionCn": "1443年至1451年，布尔日雅克·克尔宅建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式",
+      "standardPeriod": "哥特式",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "c2d74bc7-7c1e-4d73-a445-9eca72130984",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "羊毛行会召集专家评价圣器室设计方案",
+    "titleCn": "羊毛行会召集专家评价圣器室设计方案",
+    "date": {
+      "year": 1443
+    },
+    "descriptionCn": "1443年，佛罗伦萨羊毛行会召集包括保罗·托斯卡内利、布鲁内莱斯基和吉贝尔蒂在内的专家，评价圣母百花大教堂第二个圣器室的设计与材料方案。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "设计"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑、设计",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "12e4d973-faf7-4b52-8318-baf035bb26aa",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "阿拉贡的阿方索进入那不勒斯并计划建造凯旋门",
+    "titleCn": "阿拉贡的阿方索进入那不勒斯并计划建造凯旋门",
+    "date": {
+      "year": 1443
+    },
+    "descriptionCn": "1443年，阿拉贡的阿方索进入那不勒斯，城市组织胜利游行并出资计划建造凯旋门，以纪念这一时刻。凯旋门始建时间早于1452年，但未完成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "15世纪",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "729f1520-69ea-4420-9dc7-40615216d8ca",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳泰洛创作帕多瓦圣教堂青铜浮雕",
+    "titleCn": "多纳泰洛创作帕多瓦圣教堂青铜浮雕",
+    "date": {
+      "year": 1444
+    },
+    "descriptionCn": "1444年至1448年，多纳泰洛为帕多瓦圣教堂创作了青铜浮雕。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "3b2a874b-55ab-4f51-9a36-003054f25a8d",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "米凯莱·萨沃纳罗拉在帕多瓦写就著作强调绘画",
+    "titleCn": "米凯莱·萨沃纳罗拉在帕多瓦写就著作强调绘画",
+    "date": {
+      "year": 1444
+    },
+    "descriptionCn": "1444年，人文主义者米凯莱·萨沃纳罗拉在帕多瓦写就著作，强调绘画将文学研究与自由艺术连接起来，因为绘画是透视法的分支，而透视法是哲学的分支。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "e3a040e7-97b0-4747-ac3d-41aa3fb9bd01",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "米凯莱·萨沃纳罗拉描述帕多瓦洗礼堂湿壁画",
+    "titleCn": "米凯莱·萨沃纳罗拉描述帕多瓦洗礼堂湿壁画",
+    "date": {
+      "year": 1444
+    },
+    "descriptionCn": "1444年，帕多瓦医生米凯莱·萨沃纳罗拉在描述帕多瓦洗礼堂的湿壁画时认为，观众是在洗礼仪式的整体背景中观看这些湿壁画的，这一背景促进了为洗礼特殊时刻而聚集的观众对湿壁画的持久关注。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "e8517b86-5eb4-479c-813c-01e8f1fca507",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "贝尔纳多·罗塞利诺建造列奥纳多·布鲁尼的陵墓",
+    "titleCn": "贝尔纳多·罗塞利诺建造列奥纳多·布鲁尼的陵墓",
+    "date": {
+      "year": 1444
+    },
+    "descriptionCn": "1444年至1446年，贝尔纳多·罗塞利诺在佛罗伦萨圣克罗切教堂为列奥纳多·布鲁尼建造大理石陵墓。布鲁尼的头戴桂冠，双手抱着他撰写的《佛罗伦萨史》，陵墓铭文歌颂其学识。该陵墓由佛罗伦萨政府出资，以表彰布鲁尼的贡献。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "4d501797-9471-409b-b1ad-23b027406fe9",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳太罗制作加塔梅拉塔骑马青铜像",
+    "titleCn": "多纳太罗制作加塔梅拉塔骑马青铜像",
+    "date": {
+      "year": 1445,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1445年至1453年，多纳太罗在帕多瓦的圣安东尼奥广场制作了埃拉斯莫·德·纳尔尼（加塔梅拉塔）的骑马青铜像，底座为大理石。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "9504a76d-5de2-478c-9500-b82650e8d268",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳泰罗创作《加塔梅拉塔骑马像》",
+    "titleCn": "多纳泰罗创作《加塔梅拉塔骑马像》",
+    "date": {
+      "year": 1445
+    },
+    "descriptionCn": "1445年至1453年，多纳泰罗受威尼斯参议院委托，为帕多瓦桑托广场创作青铜骑马像《加塔梅拉塔》，雕像高3.7米，最初饰有镀金。该作品是古希腊罗马以来最大的青铜雕塑。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "0e499dd0-f0ba-4ce0-b210-5435938b2231",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "安杰利科修士被召至罗马",
+    "titleCn": "安杰利科修士被召至罗马",
+    "date": {
+      "year": 1445
+    },
+    "descriptionCn": "1445年，安杰利科修士被教皇欧金内四世召至罗马。",
+    "importance": 4,
+    "tags": [
+      "行为艺术"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "行为艺术",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "09685137-ecc6-4991-9b92-27038a30e6f8",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "行会认为多纳太罗无法完成青铜门",
+    "titleCn": "行会认为多纳太罗无法完成青铜门",
+    "date": {
+      "year": 1445
+    },
+    "descriptionCn": "1445年，佛罗伦萨羊毛行会认为雕塑家多纳太罗已无法完成其承诺的圣母百花大教堂圣器室青铜门。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、交易",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "5bf339df-3c1a-4fa6-a9ff-0b905f159f7e",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "让·富凯游访意大利",
+    "titleCn": "让·富凯游访意大利",
+    "date": {
+      "year": 1445
+    },
+    "descriptionCn": "1445年，法国画家让·富凯游访意大利，受意大利文艺复兴艺术影响，此后将古典建筑与空间透视融入法国绘画。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "13158bf5-fe67-450a-9245-4cd1cafca6e6",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "路易斯·达尔毛完成巴塞罗那教堂康塞勒祭坛画",
+    "titleCn": "路易斯·达尔毛完成巴塞罗那教堂康塞勒祭坛画",
+    "date": {
+      "year": 1445
+    },
+    "descriptionCn": "1445年，路易斯·达尔毛完成巴塞罗那教堂的康塞勒祭坛画，该作品模仿扬·范·埃伊克的风格。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "天主教国王时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "adc2623a-fb17-4c08-a475-e1f9a28c4624",
+    "periodId": "p_early_modern",
+    "streamId": "s_gothic",
+    "titleEn": "剑桥大学国王学院礼拜堂建造",
+    "titleCn": "剑桥大学国王学院礼拜堂建造",
+    "date": {
+      "year": 1446
+    },
+    "descriptionCn": "1446年至1515年，剑桥大学国王学院礼拜堂建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "垂直式哥特式",
+      "standardPeriod": "哥特式",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "0951b420-6618-4058-a1ac-a4e7876fd6ef",
+    "periodId": "p_early_modern",
+    "streamId": "s_gothic",
+    "titleEn": "剑桥大学国王学院礼拜堂建造",
+    "titleCn": "剑桥大学国王学院礼拜堂建造",
+    "date": {
+      "year": 1446,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1446年至1515年间，剑桥大学国王学院礼拜堂建造完成。内部为无侧廊的大空间，扇形拱顶由约翰·沃斯特尔设计，精美华丽。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "哥特式",
+      "standardPeriod": "哥特式",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "785743dd-ba90-4e2d-b4b4-e74936d7ff0a",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "明英宗再次下令禁止私造白地青花瓷器",
+    "titleCn": "明英宗再次下令禁止私造白地青花瓷器",
+    "date": {
+      "year": 1446
+    },
+    "descriptionCn": "明英宗正统十一年（1446年），明英宗再次下令禁止江西饶州府私造白地青花瓷器，首犯凌迟处死，没收家产，成年男子充军边卫，知情不报者连坐。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "d9ebd8c4-b71d-416e-b006-c1fc9cded956",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "朝廷对景德镇民窑烧造颁布禁令（正统十一年）",
+    "titleCn": "朝廷对景德镇民窑烧造颁布禁令（正统十一年）",
+    "date": {
+      "year": 1446
+    },
+    "descriptionCn": "1446年（明正统十一年），朝廷再次颁布禁令，限制景德镇民窑烧造。",
+    "importance": 4,
+    "tags": [
+      "陶瓷",
+      "政策"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、政策",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "2d1087d8-5865-4a89-bcfd-706c0d2de29d",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "行会将青铜门委托给卢卡·德拉·罗比亚团队",
+    "titleCn": "行会将青铜门委托给卢卡·德拉·罗比亚团队",
+    "date": {
+      "year": 1446
+    },
+    "descriptionCn": "1446年，佛罗伦萨羊毛行会将圣母百花大教堂圣器室青铜门的委托转交给由卢卡·德拉·罗比亚、米开罗佐和马索·迪·巴尔托洛梅奥组成的团队。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、交易",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "d614d162-20eb-43ec-855d-9d383431cbbd",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "里米尼圣弗朗切斯科教堂正面建造",
+    "titleCn": "里米尼圣弗朗切斯科教堂正面建造",
+    "date": {
+      "year": 1446,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1446年，里米尼的马拉泰斯蒂亚诺教堂（圣弗朗切斯科教堂）正面建成，基于古典凯旋门。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "c812612a-c0a9-431f-9007-376860b517e8",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "阿尔贝蒂设计的鲁切拉伊宫建造",
+    "titleCn": "阿尔贝蒂设计的鲁切拉伊宫建造",
+    "date": {
+      "year": 1446
+    },
+    "descriptionCn": "1446年至1451年，莱翁·巴蒂斯塔·阿尔贝蒂设计的鲁切拉伊宫在佛罗伦萨建成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "739f2de3-23d4-4b3d-9b00-d0c23065e063",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "卡利马拉行会委托制作珊瑚底座",
+    "titleCn": "卡利马拉行会委托制作珊瑚底座",
+    "date": {
+      "year": 1447
+    },
+    "descriptionCn": "1447年，卡利马拉行会委托里纳尔多·迪·乔万尼·迪·吉诺及助手制作阿尼基诺·科尔西捐献的珊瑚还愿物底座，材料为银包金。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "a2b97c88-3242-4f93-b90e-aa2367add634",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "奥维塔里小礼拜堂装饰委托两组艺术家",
+    "titleCn": "奥维塔里小礼拜堂装饰委托两组艺术家",
+    "date": {
+      "year": 1448
+    },
+    "descriptionCn": "1448年，帕多瓦的奥维塔里小礼拜堂的遗嘱执行人委托两组艺术家进行装饰：第一组为威尼斯画家乔万尼·达·阿莱马尼亚及其妹夫安东尼奥·维瓦里尼；第二组为帕多瓦画家尼可洛·皮佐洛与安德烈亚·曼坦尼亚。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "e7a80ca0-c917-4f30-bac9-d2bfc4e00930",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "尼可洛·皮佐洛存放奥维塔里小礼拜堂祭坛画设计图",
+    "titleCn": "尼可洛·皮佐洛存放奥维塔里小礼拜堂祭坛画设计图",
+    "date": {
+      "year": 1448
+    },
+    "descriptionCn": "1448年，画家尼可洛·皮佐洛在公证人处存放了一幅为奥维塔里小礼拜堂祭坛画所作的设计图，作为创作依据。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "设计"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画、设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "65827636-fa32-4325-b22e-a7d2899339cb",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "鲁切拉伊家族委托制作讲道台",
+    "titleCn": "鲁切拉伊家族委托制作讲道台",
+    "date": {
+      "year": 1448
+    },
+    "descriptionCn": "1448年，佛罗伦萨鲁切拉伊家族委托制作讲道台，由安德烈亚·迪·拉扎罗·卡瓦尔坎蒂（布贾诺）根据菲利波·布鲁内莱斯基的设计制作，使用大理石包金，放置在圣玛利亚·诺维拉教堂。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "86a70ba0-d691-4441-9412-20205291c6c5",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "乔万尼·迪·塞尔·乔万尼（斯凯贾）创作《名望的胜利》生日盘",
+    "titleCn": "乔万尼·迪·塞尔·乔万尼（斯凯贾）创作《名望的胜利》生日盘",
+    "date": {
+      "year": 1449
+    },
+    "descriptionCn": "1449年，乔万尼·迪·塞尔·乔万尼（被称为斯凯贾）创作了《名望的胜利》生日盘。该作品为板上蛋彩，并使用了银和金，直径62.2厘米（仅限着色部分）。现藏于大都会艺术博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "07468f4b-50b8-43c9-87e2-5b409581af8a",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "安杰利科修士在梵蒂冈尼科拉斯五世教堂创作壁画",
+    "titleCn": "安杰利科修士在梵蒂冈尼科拉斯五世教堂创作壁画",
+    "date": {
+      "year": 1449
+    },
+    "descriptionCn": "1449年至1450年，安杰利科修士在梵蒂冈尼科拉斯五世教堂创作了壁画《圣斯蒂芬和圣劳伦斯的生平》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "32078947-f708-4121-8fcc-6d8e90a4bb64",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "斯凯贾为洛伦佐·德·美第奇出生制作生日盘《名望的胜利》",
+    "titleCn": "斯凯贾为洛伦佐·德·美第奇出生制作生日盘《名望的胜利》",
+    "date": {
+      "year": 1449
+    },
+    "descriptionCn": "1449年，乔万尼·迪·塞尔·乔万尼（斯凯贾）为庆祝洛伦佐·德·美第奇出生制作了生日盘《名望的胜利》，使用板上蛋彩、银和金，背面有美第奇和托尔纳博尼家族徽章。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "af8e3d9f-c89a-4141-8d0c-64111f5845d5",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "曼泰尼亚创作帕多瓦埃雷米塔尼教堂壁画",
+    "titleCn": "曼泰尼亚创作帕多瓦埃雷米塔尼教堂壁画",
+    "date": {
+      "year": 1449
+    },
+    "descriptionCn": "1449年至1454年，安德烈亚·曼泰尼亚为帕多瓦的埃雷米塔尼教堂创作了壁画《圣詹姆斯和圣克里斯托弗的生平和殉难》，该壁画被视为文艺复兴时期的杰作，但在1944年几乎完全被毁。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "壁画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画、壁画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b9f5787e-fecd-4dc3-aff1-485e3c33b8b0",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "皮佐洛与曼坦尼亚因工作分配问题请求仲裁",
+    "titleCn": "皮佐洛与曼坦尼亚因工作分配问题请求仲裁",
+    "date": {
+      "year": 1449
+    },
+    "descriptionCn": "1449年，画家尼可洛·皮佐洛与安德烈亚·曼坦尼亚因工作分配问题，请求仲裁者介入决定如何分割奥维塔里小礼拜堂的湿壁画绘制工作。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "eea2bc2c-23a1-4eae-bdde-6c0a6d5aad36",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "阿拉贡的阿方索雇用皮萨内洛",
+    "titleCn": "阿拉贡的阿方索雇用皮萨内洛",
+    "date": {
+      "year": 1449
+    },
+    "descriptionCn": "1449年，阿拉贡的阿方索（那不勒斯国王）雇用画家兼徽章设计者皮萨内洛为宫廷服务。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "设计"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画、设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "3615863a-6128-4001-bf0e-5892373be28a",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "保罗·乌切洛创作《圣罗马诺的溃败》",
+    "titleCn": "保罗·乌切洛创作《圣罗马诺的溃败》",
+    "date": {
+      "year": 1450,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1450年至1460年，保罗·乌切洛创作了战争画《圣罗马诺的溃败》，现藏于伦敦国家美术馆等地。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d285ad2a-f689-4f32-822b-5b68959df5fc",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "古腾堡圣经完成",
+    "titleCn": "古腾堡圣经完成",
+    "date": {
+      "year": 1450,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1450年至1456年，约翰内斯·古腾堡在美因茨完成第一部完整的活字印刷书籍《古腾堡圣经》，标志着西方印刷术的重大突破。",
+    "importance": 4,
+    "tags": [
+      "印刷"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "印刷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "cb6d9792-59ab-4743-ba6c-b66f13ced12e",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "阿拉贡凯旋门建于诺沃城堡",
+    "titleCn": "阿拉贡凯旋门建于诺沃城堡",
+    "date": {
+      "year": 1451
+    },
+    "descriptionCn": "1451年至1453年，在那不勒斯诺沃城堡建造了阿拉贡凯旋门，标志着那不勒斯文艺复兴的开始。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "dd7a304d-9852-449a-8e0b-95110392fab8",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "天堂之门完成",
+    "titleCn": "天堂之门完成",
+    "date": {
+      "year": 1452,
+      "month": 4
+    },
+    "descriptionCn": "1452年4月，洛伦佐·吉贝尔蒂完成佛罗伦萨洗礼堂的青铜包金门（天堂之门）。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "8bf3ec57-c3ac-4597-9925-675c1330a09c",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "米开罗佐制作施洗者圣约翰雕像",
+    "titleCn": "米开罗佐制作施洗者圣约翰雕像",
+    "date": {
+      "year": 1452,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1452年，米开罗佐运用失蜡法为佛罗伦萨洗礼堂银祭坛制作施洗者圣约翰站立雕像。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "d39f463e-d87b-4c66-b539-949749de88bf",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "达·芬奇出生",
+    "titleCn": "达·芬奇出生",
+    "date": {
+      "year": 1452
+    },
+    "descriptionCn": "1452年，列奥纳多·达·芬奇出生。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画、雕塑",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "43cf3e64-9cb1-44a3-8370-67b17d86dab5",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "马索·菲尼圭拉制作圣像牌",
+    "titleCn": "马索·菲尼圭拉制作圣像牌",
+    "date": {
+      "year": 1452
+    },
+    "descriptionCn": "1452年，佛罗伦萨商业行会委托马索·菲尼圭拉制作刻有圣母加冕礼场面的黑银镶嵌圣像牌。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "42e10ab1-d092-4db4-9730-ee1f5d681fb7",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "乔万尼·迪·保罗创作《施洗者圣约翰的诞生》",
+    "titleCn": "乔万尼·迪·保罗创作《施洗者圣约翰的诞生》",
+    "date": {
+      "year": 1453,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1453年，乔万尼·迪·保罗创作了木板蛋彩画《施洗者圣约翰的诞生》，尺寸为30.5厘米×36.5厘米，现由伦敦国家美术馆托管。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9e30026e-d8f9-4635-91f0-db225143bea0",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "乔万尼·迪·保罗绘制《施洗者圣约翰的诞生》",
+    "titleCn": "乔万尼·迪·保罗绘制《施洗者圣约翰的诞生》",
+    "date": {
+      "year": 1453,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1453年，锡耶纳画家乔万尼·迪·保罗绘制木板蛋彩画《施洗者圣约翰的诞生》，为献給施洗者圣约翰的五联祭坛画之一。作品遵循14世纪早期锡耶纳传统，通过逐渐后退的地砖创造空间效果。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5bf80f6a-f50e-4ae1-b1b7-632b37aa0d85",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳太罗与帕多瓦达成协议制作加塔梅拉塔骑马像",
+    "titleCn": "多纳太罗与帕多瓦达成协议制作加塔梅拉塔骑马像",
+    "date": {
+      "year": 1453
+    },
+    "descriptionCn": "1453年，多纳太罗与帕多瓦达成最终协议，制作加塔梅拉塔（埃拉斯莫·德·纳尔尼）的骑马青铜像，报酬为1650达克特，并同意在同年9月前将马像放置到底座上。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "d49a7aae-4279-4b46-8f02-bd88d00779ba",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多纳泰洛竖立《加塔梅拉塔》骑马像",
+    "titleCn": "多纳泰洛竖立《加塔梅拉塔》骑马像",
+    "date": {
+      "year": 1453
+    },
+    "descriptionCn": "1453年，多纳泰洛在帕多瓦竖立了《雇佣兵队长加塔梅加塔》骑马像，象征自信力和智力战胜蛮力。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "69583d23-6faf-4e22-8dba-265b68e0843f",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "景泰四年墓出土民窑青花瓷",
+    "titleCn": "景泰四年墓出土民窑青花瓷",
+    "date": {
+      "year": 1453
+    },
+    "descriptionCn": "1453年（明景泰四年），有纪年墓出土了民窑青花瓷。",
+    "importance": 2,
+    "tags": [
+      "陶瓷",
+      "考古"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、考古",
+      "eventCategory": "考古与发现"
+    }
+  },
+  {
+    "id": "cae52553-bb8c-44e8-a5c6-c0e874be3624",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "曼泰尼亚与乔瓦尼·贝利尼联姻",
+    "titleCn": "曼泰尼亚与乔瓦尼·贝利尼联姻",
+    "date": {
+      "year": 1453
+    },
+    "descriptionCn": "1453年，安德烈亚·曼泰尼亚与乔瓦尼·贝利尼成为姻亲，这一关系影响了乔瓦尼·贝利尼的艺术风格。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d3dffd70-6ebe-4d73-a038-ccaf65318744",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "米诺·达·菲埃索莱创作《皮耶罗·德·美第奇肖像》",
+    "titleCn": "米诺·达·菲埃索莱创作《皮耶罗·德·美第奇肖像》",
+    "date": {
+      "year": 1453
+    },
+    "descriptionCn": "1453年，意大利雕塑家米诺·达·菲埃索莱创作了《皮耶罗·德·美第奇肖像》大理石肖像雕塑，表现了文艺复兴时期对个人价值的关注。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "d60464d7-dcd4-419e-b040-ea6bc9e3c7ae",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "乌尔比诺公爵府城堡建造",
+    "titleCn": "乌尔比诺公爵府城堡建造",
+    "date": {
+      "year": 1454,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1454年至约1480年，费代里戈·达·蒙泰费尔特罗公爵的乌尔比诺城堡建造，1466/1467年起由卢恰诺·劳拉纳施工，后由弗朗切斯科·迪·乔治续建。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "5d49f72c-5fa8-4259-a00f-1e2c7afdb690",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "景泰五年减饶州岁造瓷器三分之一",
+    "titleCn": "景泰五年减饶州岁造瓷器三分之一",
+    "date": {
+      "year": 1454
+    },
+    "descriptionCn": "1454年（明景泰五年），朝廷下令减少饶州（景德镇）岁造瓷器的三分之一。",
+    "importance": 4,
+    "tags": [
+      "陶瓷",
+      "政策"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、政策",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "b643bfb0-9eef-4dab-8287-dccdeceba246",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "卡洛·迪·科西莫秘密将古代人像运出罗马",
+    "titleCn": "卡洛·迪·科西莫秘密将古代人像运出罗马",
+    "date": {
+      "year": 1455,
+      "month": 10,
+      "day": 31
+    },
+    "descriptionCn": "1455年10月31日，美第奇家族成员卡洛·迪·科西莫在给兄弟乔万尼的信中报告，在雕塑家贝尔纳多·罗塞利的帮助下，将一尊古代人像秘密用船运出罗马，并提及在皮萨内洛去世当天购得30块银质纪念章后被迫让渡给彼得罗·巴尔博。",
+    "importance": 2,
+    "tags": [
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "交易",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "b35ff974-efba-4551-9926-ea96b9bf04fc",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "米开洛佐·巴托洛米奥建造美第奇别墅",
+    "titleCn": "米开洛佐·巴托洛米奥建造美第奇别墅",
+    "date": {
+      "year": 1455,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1455年，米开洛佐·巴托洛米奥在菲耶索莱建造美第奇别墅，该别墅选址于山顶，俯瞰周围乡村和佛罗伦萨城，体现了美学与经济价值的转变。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "3b7b7f9c-a8d2-4235-8a3a-cf7019a120f4",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "安德烈亚·曼坦尼亚受委托制作圣泽诺祭坛画",
+    "titleCn": "安德烈亚·曼坦尼亚受委托制作圣泽诺祭坛画",
+    "date": {
+      "year": 1456
+    },
+    "descriptionCn": "1456年，维罗纳圣泽诺修道院院长格雷戈里奥·科雷尔委托安德烈亚·曼坦尼亚制作圣泽诺祭坛画，板上蛋彩，包含涡卷形装饰框架和古代习俗主题。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "委托"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画、委托",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "809d18fb-9e19-49eb-b634-8e01ee3deeb7",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "景泰七年墓出土民窑青花瓷",
+    "titleCn": "景泰七年墓出土民窑青花瓷",
+    "date": {
+      "year": 1456
+    },
+    "descriptionCn": "1456年（明景泰七年），有纪年墓出土了民窑青花瓷。",
+    "importance": 2,
+    "tags": [
+      "陶瓷",
+      "考古"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、考古",
+      "eventCategory": "考古与发现"
+    }
+  },
+  {
+    "id": "de7d9ec7-243c-4582-89b2-28a332d508bf",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "奥维塔里小礼拜堂湿壁画最终完成",
+    "titleCn": "奥维塔里小礼拜堂湿壁画最终完成",
+    "date": {
+      "year": 1457,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1457年，帕多瓦奥维塔里小礼拜堂的湿壁画最终完成，共有12位艺术家历时约10年创作了27幅湿壁画。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "263de31c-0f21-4668-8d49-6c2fcef397c3",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "弗朗切斯科·斯福尔扎威胁绘制传教士耻辱像",
+    "titleCn": "弗朗切斯科·斯福尔扎威胁绘制传教士耻辱像",
+    "date": {
+      "year": 1458
+    },
+    "descriptionCn": "1458年，米兰公爵弗朗切斯科·斯福尔扎威胁传教士罗伯托·达·莱切，若不返回米兰履行职责，将在市政厅墙上绘制其倒挂的耻辱像。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "15世纪",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "22b24007-d99a-483d-b6d3-8e0a43e44467",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "教皇庇护二世将金玫瑰赐予锡耶纳",
+    "titleCn": "教皇庇护二世将金玫瑰赐予锡耶纳",
+    "date": {
+      "year": 1458
+    },
+    "descriptionCn": "1458年，教皇庇护二世将一支金玫瑰（由西莫内·迪·乔万尼·迪·乔万尼·吉尼制作）赐予锡耶纳市政厅。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "bec1984f-90b7-4583-9a93-e97d252253e1",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "加莱亚佐·玛利亚·斯福尔扎访问美第奇家族",
+    "titleCn": "加莱亚佐·玛利亚·斯福尔扎访问美第奇家族",
+    "date": {
+      "year": 1459
+    },
+    "descriptionCn": "1459年，米兰大公的继承者、13岁的加莱亚佐·玛利亚·斯福尔扎访问美第奇家族，对主人的财富印象深刻，并被允许在女眷居住区停留，视此为特殊荣耀。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "550243c0-28c9-4075-943a-72141ac17733",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "匿名捐赠者在佛罗伦萨洗礼堂放置神龛",
+    "titleCn": "匿名捐赠者在佛罗伦萨洗礼堂放置神龛",
+    "date": {
+      "year": 1459
+    },
+    "descriptionCn": "1459年，一位匿名捐赠者获准在佛罗伦萨洗礼堂放置一个神龛，但要求神龛上只能放置城市自治体和卡里马拉行会的正式徽章，以隐藏捐赠者身份作为灵魂奖赏。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "91ba4894-ba3e-47ea-909a-23e13c9885a2",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "原定烧造十三万三千余件，后工部奏减八万",
+    "titleCn": "原定烧造十三万三千余件，后工部奏减八万",
+    "date": {
+      "year": 1459
+    },
+    "descriptionCn": "天顺三年（1459年），明朝原定烧造瓷器十三万三千余件，后工部奏减八万，实际烧造五万三千余件。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "238d1d6f-3d77-486e-b78d-875ce8a196d0",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "贝诺佐·戈佐利创作美第奇小礼拜堂湿壁画",
+    "titleCn": "贝诺佐·戈佐利创作美第奇小礼拜堂湿壁画",
+    "date": {
+      "year": 1459
+    },
+    "descriptionCn": "1459年，贝诺佐·戈佐利在佛罗伦萨的美第奇宫创作了美第奇小礼拜堂湿壁画。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "3d8ff52d-01b5-4803-a18e-5fbb485dfd1a",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "贝诺佐·戈佐利绘制美第奇小礼拜堂湿壁画",
+    "titleCn": "贝诺佐·戈佐利绘制美第奇小礼拜堂湿壁画",
+    "date": {
+      "year": 1459
+    },
+    "descriptionCn": "1459年，贝诺佐·戈佐利为美第奇宫的小礼拜堂绘制了湿壁画《美第奇小礼拜堂》，描绘东方三博士的队列，画面中出现了科西莫、皮耶罗·德·美第奇以及艺术家本人的形象。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "59968aef-e8a4-42ce-8c7b-c5fb6c889c74",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "努尼奥·贡萨尔维斯受委约绘制圣文森特祭坛画",
+    "titleCn": "努尼奥·贡萨尔维斯受委约绘制圣文森特祭坛画",
+    "date": {
+      "year": 1460,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1460年，努尼奥·贡萨尔维斯受委约绘制圣文森特祭坛画，该作品现藏于里斯本国家博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "葡萄牙",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5fe39493-9cf1-4f7a-8d40-66520e83ef42",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "版画《圣格雷戈里的弥撒》创作",
+    "titleCn": "版画《圣格雷戈里的弥撒》创作",
+    "date": {
+      "year": 1460
+    },
+    "descriptionCn": "1460年至1470年间，在佛罗伦萨制作了版画《圣格雷戈里的弥撒》，这是一幅非正式的特赦图像，题名告知拥有者和观众，在这幅画面前向圣母祷告可以确保免除苦难。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画、出版",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "c16808f3-03e4-4a43-adc4-1aa0d85985b8",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "皮耶罗·德拉·弗朗西斯卡创作《复活》",
+    "titleCn": "皮耶罗·德拉·弗朗西斯卡创作《复活》",
+    "date": {
+      "year": 1460,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1460年，皮耶罗·德拉·弗朗西斯卡受桑塞波尔克罗最高行政官委托，为会所创作壁画《复活》，作品尺寸约2.25米×2米，现藏于桑塞波尔克罗美术馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "55876962-7696-41af-a25a-fb1af909d2cf",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "阿戈斯蒂诺·迪·杜乔创作《天使奏乐》大理石雕像",
+    "titleCn": "阿戈斯蒂诺·迪·杜乔创作《天使奏乐》大理石雕像",
+    "date": {
+      "year": 1460
+    },
+    "descriptionCn": "1460年，阿戈斯蒂诺·迪·杜乔创作了大理石雕像《天使奏乐》，现藏于佩鲁贾圣贝尔纳迪诺小礼拜堂。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "1635957f-18e9-4e73-b673-49b15430ded6",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "奎里齐奥·达·穆拉诺绘制《基督向一位克莱尔修会修女展示他的伤口和圣饼》",
+    "titleCn": "奎里齐奥·达·穆拉诺绘制《基督向一位克莱尔修会修女展示他的伤口和圣饼》",
+    "date": {
+      "year": 1461,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1461年，威尼斯修女委托画家奎里齐奥·达·穆拉诺绘制祭坛画《基督向一位克莱尔修会修女展示他的伤口和圣饼》。该画为板上蛋彩和油画，强调了耶稣的伤口与圣饼之间的联系，用于宗教崇拜。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "71621e02-d59b-4fe2-9c74-b86aeb691c2a",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "安德烈亚·曼坦尼亚开始在曼图亚服务",
+    "titleCn": "安德烈亚·曼坦尼亚开始在曼图亚服务",
+    "date": {
+      "year": 1461
+    },
+    "descriptionCn": "1461年，安德烈亚·曼坦尼亚开始为曼图亚宫廷服务，直至1506年去世，期间为三代统治者效力。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9757645f-361c-48d3-b950-f29e691bfad3",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "教皇庇护二世对马拉泰斯塔进行模拟审判和焚烧模拟像",
+    "titleCn": "教皇庇护二世对马拉泰斯塔进行模拟审判和焚烧模拟像",
+    "date": {
+      "year": 1462
+    },
+    "descriptionCn": "1462年，教皇庇护二世在罗马对雇佣兵队长西吉斯蒙多·潘多尔福·马拉泰斯塔进行模拟审判，并焚烧其模拟像，以惩罚其不服从行为。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "15世纪",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画、雕塑",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "de01b2dd-9301-4a82-bb4b-e74e8d5e7966",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "尼可洛·德尔·阿尔卡创作《哀悼基督》",
+    "titleCn": "尼可洛·德尔·阿尔卡创作《哀悼基督》",
+    "date": {
+      "year": 1463
+    },
+    "descriptionCn": "1463年，尼可洛·德尔·阿尔卡创作了彩陶雕塑《哀悼基督》，位于博洛尼亚的圣母生命堂。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "10cbde12-e3a5-4c02-9f87-e0176a48408a",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "尼可洛·德尔·阿尔卡创作《哀悼基督》圣母玛利亚形象细部",
+    "titleCn": "尼可洛·德尔·阿尔卡创作《哀悼基督》圣母玛利亚形象细部",
+    "date": {
+      "year": 1463
+    },
+    "descriptionCn": "1463年，尼可洛·德尔·阿尔卡创作了彩陶雕塑《哀悼基督》的圣母玛利亚形象细部，位于博洛尼亚的圣母生命堂。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "c5802934-c956-4ba8-b41f-f89b046188a3",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "尼可洛·德尔·阿尔卡创作《哀悼基督》基督形象细部",
+    "titleCn": "尼可洛·德尔·阿尔卡创作《哀悼基督》基督形象细部",
+    "date": {
+      "year": 1463
+    },
+    "descriptionCn": "1463年，尼可洛·德尔·阿尔卡创作了彩陶雕塑《哀悼基督》的基督形象细部，位于博洛尼亚的圣母生命堂。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "5328e57b-42a8-49cb-b5b1-1508eb6a8846",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "尼可洛·德尔·阿尔卡制作《哀悼基督》彩陶",
+    "titleCn": "尼可洛·德尔·阿尔卡制作《哀悼基督》彩陶",
+    "date": {
+      "year": 1463
+    },
+    "descriptionCn": "1463年，尼可洛·德尔·阿尔卡为博洛尼亚圣玛利亚·德拉·维塔医院制作彩陶群雕《哀悼基督》，再现基督尸体从十字架移下的场景，最初放置在通向病房的入口处。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "dad2b3d5-b879-4b38-8788-55a6783dd5af",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "红衣主教贝萨里翁将保存耶稣十字架碎片的圣盒捐赠给圣玛利亚仁爱兄弟会",
+    "titleCn": "红衣主教贝萨里翁将保存耶稣十字架碎片的圣盒捐赠给圣玛利亚仁爱兄弟会",
+    "date": {
+      "year": 1463
+    },
+    "descriptionCn": "1463年，红衣主教贝萨里翁将他个人保存的耶稣十字架碎片圣盒捐赠给威尼斯的鞭笞派圣玛利亚仁爱兄弟会。",
+    "importance": 2,
+    "tags": [
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "交易",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "b84ffe6d-5069-42bf-8aab-cf93b351d47a",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "《大卫》雕像所用大理石被开采",
+    "titleCn": "《大卫》雕像所用大理石被开采",
+    "date": {
+      "year": 1464
+    },
+    "descriptionCn": "1464年，一块巨大的白色大理石在比萨附近的卡拉拉采石场被开采出来，随后被运往佛罗伦萨，用于雕刻《大卫》雕像。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "a9953a76-2f99-4b0e-86dc-fc3255e02424",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "乔托的画像或雕像被安装于佛罗伦萨大教堂",
+    "titleCn": "乔托的画像或雕像被安装于佛罗伦萨大教堂",
+    "date": {
+      "year": 1465
+    },
+    "descriptionCn": "1465年，乔托的画像或雕像被安装于佛罗伦萨大教堂圣玛利亚·德尔·菲奥雷，作为对这位艺术家的纪念。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、绘画",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "23d0284e-b5be-4633-b060-96be058af028",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "威尼斯政府免税奖励斯夸尔乔内的地图绘制",
+    "titleCn": "威尼斯政府免税奖励斯夸尔乔内的地图绘制",
+    "date": {
+      "year": 1465
+    },
+    "descriptionCn": "1465年，威尼斯政府为奖励艺术家斯夸尔乔内绘制帕多瓦及其领土地图，同意免除其税款。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画、交易",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "13497e04-0144-4552-9455-660d990c3d59",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "安德烈亚·曼坦尼亚开始绘制曼图亚‘画房’湿壁画",
+    "titleCn": "安德烈亚·曼坦尼亚开始绘制曼图亚‘画房’湿壁画",
+    "date": {
+      "year": 1465
+    },
+    "descriptionCn": "1465年，安德烈亚·曼坦尼亚开始为曼图亚侯爵卢多维科·贡扎加在圣乔治宫绘制“画房”湿壁画，最终于1472年完成。作品包括错觉艺术手法的织锦挂毯模仿和宫廷场景。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "acda8b7e-27dd-489d-82b9-d57c45b697ce",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "迪尔克·鲍茨创作《最后的晚餐》三联画中联",
+    "titleCn": "迪尔克·鲍茨创作《最后的晚餐》三联画中联",
+    "date": {
+      "year": 1465
+    },
+    "descriptionCn": "1465年至1468年间，迪尔克·鲍茨创作《最后的晚餐》三联画中联，现藏于卢万圣皮埃尔教堂。作品展示了直线透视的造型试验。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "佛兰德",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "50c647e1-6b9c-438c-bcd9-94e0b9945ec1",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "韦罗基奥受委托为科西莫·德·美第奇准备陵墓",
+    "titleCn": "韦罗基奥受委托为科西莫·德·美第奇准备陵墓",
+    "date": {
+      "year": 1465
+    },
+    "descriptionCn": "1465年至1467年间，皮耶罗·德·美第奇委托安德烈亚·德尔·韦罗基奥为其父科西莫·德·美第奇准备陵墓。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "6523f9d9-512c-4d9e-aede-eb2afa488ecd",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "热那亚圣乔治银行开始为减税市民塑像的传统",
+    "titleCn": "热那亚圣乔治银行开始为减税市民塑像的传统",
+    "date": {
+      "year": 1466
+    },
+    "descriptionCn": "1466年，热那亚圣乔治银行开始了一项持续至17世纪的传统，即为那些为减轻热那亚赋税作出重大贡献的市民塑像。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "54b1f339-bd4b-4862-8439-96c27b9c6d8f",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "古宗内与斯夸尔乔内签订学徒合同",
+    "titleCn": "古宗内与斯夸尔乔内签订学徒合同",
+    "date": {
+      "year": 1467,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1467年，帕多瓦画家古宗内代表其子弗朗切斯科与师父弗朗切斯科·斯夸尔乔内签订学徒合同，约定斯夸尔乔内教授透视缩短、裸体绘制等技巧，并规定以食物作为报酬和礼物。",
+    "importance": 2,
+    "tags": [
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "交易",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "b7236a00-b458-4061-a16e-8de225bb9b36",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "弗朗切斯科·德尔·科萨为斯基法诺亚宫制作湿壁画",
+    "titleCn": "弗朗切斯科·德尔·科萨为斯基法诺亚宫制作湿壁画",
+    "date": {
+      "year": 1467,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1467年至1472年，弗朗切斯科·德尔·科萨在费拉拉的斯基法诺亚宫为博尔索·德·埃斯塔公爵制作湿壁画，包括《四月》和《密涅瓦的胜利》等作品。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "fae48e32-7eda-4350-8ef8-d614fa961d9e",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "沈周创作《庐山高图》",
+    "titleCn": "沈周创作《庐山高图》",
+    "date": {
+      "year": 1467
+    },
+    "descriptionCn": "1467年，沈周40岁时创作巨幅画作《庐山高图》，该画采用王蒙缜密皴法，于苍茫中见文秀，代表其“细沈”面貌，现藏于台北故宫博物院。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "77b8ded2-b0aa-46de-9c1b-f645ecd9d3b1",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "威尼斯总督宫正门框架出现遗漏",
+    "titleCn": "威尼斯总督宫正门框架出现遗漏",
+    "date": {
+      "year": 1468
+    },
+    "descriptionCn": "1468年，尽管石匠巴尔托洛梅奥·博恩曾作出承诺，但威尼斯总督宫正门（Porta della Carta）的框架仍存在未完成的部分。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "e1dbd1dc-c2ec-47f3-9e70-0925fe49906f",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "委托尼可洛·德尔·阿尔卡制作圣多梅尼科神龛顶盖",
+    "titleCn": "委托尼可洛·德尔·阿尔卡制作圣多梅尼科神龛顶盖",
+    "date": {
+      "year": 1469
+    },
+    "descriptionCn": "1469年，博洛尼亚统治者委托尼可洛·德尔·阿尔卡为圣多梅尼科教堂的圣多梅尼科神龛制作大理石纪念碑式顶盖。顶盖原计划包括21个人物雕像，最终只完成了16个。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、交易",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "9801e0c4-b89d-4f44-911b-8a17894dfc2a",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "韦罗基奥制作皮耶罗和乔万尼·德·美第奇陵墓",
+    "titleCn": "韦罗基奥制作皮耶罗和乔万尼·德·美第奇陵墓",
+    "date": {
+      "year": 1469
+    },
+    "descriptionCn": "1469年至1472年，安德烈亚·德尔·韦罗基奥为皮耶罗和乔万尼·德·美第奇制作陵墓，使用青铜、斑岩、蛇纹岩和大理石材料，位于佛罗伦萨圣洛伦佐教堂老圣器收藏室。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "f25f9c47-3703-4422-b58c-2f643cb3f7ed",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "乔凡尼·贝利尼绘制佩萨罗祭坛嵌板绘画《圣哲罗姆》",
+    "titleCn": "乔凡尼·贝利尼绘制佩萨罗祭坛嵌板绘画《圣哲罗姆》",
+    "date": {
+      "year": 1471,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1471—1474年，意大利画家乔凡尼·贝利尼为佩萨罗祭坛绘制了嵌板绘画《圣哲罗姆》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ca840195-da81-48b2-bd1a-a85af8990977",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "《玛丽亚·波提纳利像》",
+    "titleCn": "《玛丽亚·波提纳利像》",
+    "date": {
+      "year": 1472,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1472年，佛兰德斯画家汉斯·曼姆林创作了蛋清画《玛丽亚·波提纳利像》，现藏于纽约大都会艺术博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "佛兰德斯",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "092f5c41-0299-446b-931f-6b5e065566b3",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "乔万尼·安东尼奥·阿马代奥建造梅代亚·科莱奥尼的陵墓",
+    "titleCn": "乔万尼·安东尼奥·阿马代奥建造梅代亚·科莱奥尼的陵墓",
+    "date": {
+      "year": 1472
+    },
+    "descriptionCn": "1472年，乔万尼·安东尼奥·阿马代奥用大理石为梅代亚·科莱奥尼建造陵墓，最初位于马尔帕加的巴塞拉修道院，后移至贝加莫的科莱奥尼小教堂。梅代亚是巴尔托洛梅奥·科莱奥尼的女儿，其雕像为年轻女性形象，体态匀称，身着盛装。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "abccf258-36b3-43d8-86c4-8c5ffaeab5cc",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "安德烈亚·曼坦尼亚完成曼图亚‘画房’湿壁画",
+    "titleCn": "安德烈亚·曼坦尼亚完成曼图亚‘画房’湿壁画",
+    "date": {
+      "year": 1472
+    },
+    "descriptionCn": "1472年，安德烈亚·曼坦尼亚完成曼图亚圣乔治宫“画房”湿壁画，作品包括错觉艺术手法和宫廷会议场景。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4ad588a7-9f76-4d4d-be56-0bd1d3a150f5",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "雅各布·德尔·塞拉约和比亚焦·达·安东尼奥绘制莫雷利-内利箱柜",
+    "titleCn": "雅各布·德尔·塞拉约和比亚焦·达·安东尼奥绘制莫雷利-内利箱柜",
+    "date": {
+      "year": 1472,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1472年，雅各布·德尔·塞拉约（Jacopo del Sellaio）和比亚焦·达·安东尼奥（Biagio d'Antonio）为佛罗伦萨贵族洛伦佐·迪·马泰奥·莫雷利与瓦贾·迪·塔纳·内利的婚礼绘制了彩绘箱柜，描绘了《法莱里的教师》和富里乌斯·卡米卢斯的故事。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "fd06c8a4-d35b-4e6a-9b85-2dd1723d23f9",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "乔万尼·安东尼奥·阿马代奥与其他四位大理石雕刻家达成协定分享墓碑制作工作",
+    "titleCn": "乔万尼·安东尼奥·阿马代奥与其他四位大理石雕刻家达成协定分享墓碑制作工作",
+    "date": {
+      "year": 1473,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1473年，伦巴第雕塑家乔万尼·安东尼奥·阿马代奥与其他四位大理石雕刻家达成正式协定，约定无论其中谁赢得制作米兰公爵私生兄弟墓碑的委托，都必须与其他合伙人分享该项工作。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、交易",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "d282f2ac-7cf6-454a-81d4-84cc56c190a6",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "列奥纳多·达·芬奇创作阿尔诺河谷风景素描",
+    "titleCn": "列奥纳多·达·芬奇创作阿尔诺河谷风景素描",
+    "date": {
+      "year": 1473
+    },
+    "descriptionCn": "1473年，意大利画家列奥纳多·达·芬奇创作了阿尔诺河谷风景素描。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "28800630-7ae5-4192-91ae-5fb98ad46a0e",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "列奥纳多·达·芬奇绘制风景素描《阿尔诺河谷》",
+    "titleCn": "列奥纳多·达·芬奇绘制风景素描《阿尔诺河谷》",
+    "date": {
+      "year": 1473
+    },
+    "descriptionCn": "1473年，列奥纳多·达·芬奇绘制了一幅墨水钢笔风景素描，通常被认为是阿尔诺河谷的景色。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "28db833e-8ce2-450a-a54e-f7660ab35bab",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "菲利波·斯特罗齐委托制作并赠送《斯特罗齐板面油画》给那不勒斯国王",
+    "titleCn": "菲利波·斯特罗齐委托制作并赠送《斯特罗齐板面油画》给那不勒斯国王",
+    "date": {
+      "year": 1473
+    },
+    "descriptionCn": "1473年，佛罗伦萨富商菲利波·斯特罗齐委托制作《斯特罗齐板面油画》（描绘1464年阿拉贡舰队胜利回归），并将其作为高靠背长凳的一部分赠送给那不勒斯国王，以提醒国王斯特罗齐银行的支持。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画、交易",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "393e876c-f710-42a1-9840-b1c166b8440a",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "丹麦国王克利斯汀参观曼图亚‘画房’",
+    "titleCn": "丹麦国王克利斯汀参观曼图亚‘画房’",
+    "date": {
+      "year": 1474
+    },
+    "descriptionCn": "1474年，丹麦国王克利斯汀访问曼图亚，参观了“画房”，曼坦尼亚在湿壁画背景中加入了克利斯汀和腓特烈三世的肖像以表敬意。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "383acbd4-b7b4-4196-ab7f-64905c72ce96",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "皮耶罗·德拉·弗朗西斯卡创作《巴蒂斯塔·斯福尔扎和费德里戈·达·蒙泰费尔特罗》",
+    "titleCn": "皮耶罗·德拉·弗朗西斯卡创作《巴蒂斯塔·斯福尔扎和费德里戈·达·蒙泰费尔特罗》",
+    "date": {
+      "year": 1474
+    },
+    "descriptionCn": "1474年，皮耶罗·德拉·弗朗西斯卡受乌尔比诺公爵费德里戈·达·蒙泰费尔特罗委托，创作双联木板油画《巴蒂斯塔·斯福尔扎和费德里戈·达·蒙泰费尔特罗》，每幅尺寸为47厘米×33厘米，现藏于乌菲兹美术馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "6fa685fd-eb88-41a9-a9b5-78f3b0a0913f",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "《玛丽亚·波提纳利》（波提纳利祭坛画细部）",
+    "titleCn": "《玛丽亚·波提纳利》（波提纳利祭坛画细部）",
+    "date": {
+      "year": 1475,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1475年，佛兰德斯画家雨果·凡·德戈斯创作了祭坛画《牧羊人的礼拜》中的细部《玛丽亚·波提纳利》，现藏于佛罗伦萨乌菲齐美术馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "88308329-5e45-4cd3-9747-5b91ab25fc2d",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "卢卡·德拉·罗比亚的青铜门最终安装",
+    "titleCn": "卢卡·德拉·罗比亚的青铜门最终安装",
+    "date": {
+      "year": 1475
+    },
+    "descriptionCn": "1475年，卢卡·德拉·罗比亚为佛罗伦萨圣母百花大教堂北圣器室制作的青铜门最终安装到位。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "a9433cf8-e054-40c2-9cd7-35cede8eb187",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "安东内洛·达·梅西纳将油画技术引进威尼斯",
+    "titleCn": "安东内洛·达·梅西纳将油画技术引进威尼斯",
+    "date": {
+      "year": 1475
+    },
+    "descriptionCn": "1475年，西西里画家安东内洛·达·梅西纳将油画技术引进威尼斯，其作品如《雇佣兵队长像》展示了油画的表现力，并影响了威尼斯画派的发展。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9f0fa5f7-d5d4-4455-b0ee-dc1d4564b367",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "米凯莱·达·阿里亚建造多梅尼科·帕斯蒂内雕像",
+    "titleCn": "米凯莱·达·阿里亚建造多梅尼科·帕斯蒂内雕像",
+    "date": {
+      "year": 1475
+    },
+    "descriptionCn": "1475年，雕塑家米凯莱·达·阿里亚建造了一尊多梅尼科·帕斯蒂内的雕像，以纪念这位减轻了繁重谷物赋税的商人。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "55eae782-e1e9-4e87-9044-be12a27919e0",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "米开朗基罗出生",
+    "titleCn": "米开朗基罗出生",
+    "date": {
+      "year": 1475
+    },
+    "descriptionCn": "1475年，米开朗基罗出生。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、绘画",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "67b01228-944d-4de9-9958-c2d506fcf46d",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "罗比内托·迪·弗兰恰（基于科斯梅·图拉的设计）创作《圣母怜子》织锦挂毯",
+    "titleCn": "罗比内托·迪·弗兰恰（基于科斯梅·图拉的设计）创作《圣母怜子》织锦挂毯",
+    "date": {
+      "year": 1475
+    },
+    "descriptionCn": "1475年，罗比内托·迪·弗兰恰基于科斯梅·图拉的设计，创作了《圣母怜子》织锦挂毯。作品使用金、银、丝线和羊毛，尺寸为97厘米×206厘米。现藏于蒂森-博内米萨收藏，卢加诺。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "104bd49f-cf7e-4ce2-92d1-1a8d62f3300f",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "贝内代托·达·马亚诺制作菲利波·斯特罗齐半身像",
+    "titleCn": "贝内代托·达·马亚诺制作菲利波·斯特罗齐半身像",
+    "date": {
+      "year": 1475
+    },
+    "descriptionCn": "1475年，佛罗伦萨雕塑家贝内代托·达·马亚诺制作了菲利波·斯特罗齐的大理石半身像，并在内部签署了姓名和日期。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "9a8befd9-8979-48e3-a016-c744764672c1",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "彼得罗·隆巴尔多制作总督彼得罗·莫切尼戈的陵墓",
+    "titleCn": "彼得罗·隆巴尔多制作总督彼得罗·莫切尼戈的陵墓",
+    "date": {
+      "year": 1476,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1476年至1481年，彼得罗·隆巴尔多在威尼斯的圣乔万尼和保罗教堂制作了总督彼得罗·莫切尼戈的陵墓，使用伊斯特里亚石和大理石。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "df3f7f5a-0872-40d6-9d45-510af303f5da",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "老普林尼《自然史》被译为意大利文",
+    "titleCn": "老普林尼《自然史》被译为意大利文",
+    "date": {
+      "year": 1476
+    },
+    "descriptionCn": "1476年，老普林尼的《自然史》被翻译成意大利文，从而得以更广泛地流传，对艺术史写作和艺术发展产生了重要影响。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "ef929f10-ae7f-4983-9594-cc8db31f7bc2",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "韦罗基奥创作《大卫》青铜雕像",
+    "titleCn": "韦罗基奥创作《大卫》青铜雕像",
+    "date": {
+      "year": 1476
+    },
+    "descriptionCn": "1476年，安德烈亚·德尔·韦罗基奥创作了青铜雕像《大卫》，现藏于佛罗伦萨监狱。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "85613873-5265-460e-8d48-4649f587c597",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "文件首次记载多纳太罗建造加塔梅拉塔纪念像",
+    "titleCn": "文件首次记载多纳太罗建造加塔梅拉塔纪念像",
+    "date": {
+      "year": 1477
+    },
+    "descriptionCn": "1477年，文件中第一次记载了多纳太罗在建造帕多瓦的雇佣兵队长埃拉斯莫·德·纳尔尼（加塔梅拉塔）的骑马青铜纪念像。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "0463146e-fc57-4389-b357-b4b57976b537",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "曼坦尼亚为保拉·贡扎加婚礼创作箱柜组画《图拉真的公正》",
+    "titleCn": "曼坦尼亚为保拉·贡扎加婚礼创作箱柜组画《图拉真的公正》",
+    "date": {
+      "year": 1477
+    },
+    "descriptionCn": "1477年，安德烈亚·曼坦尼亚为曼图亚侯爵之女保拉·贡扎加与奥地利戈里齐亚伯爵的婚礼创作了箱柜组画《图拉真的公正》，采用木板和灰泥彩绘。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "128ccf5c-05f7-480a-8949-4fe04c798b2a",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "法伊特·施托斯创作《圣母祭坛》木雕",
+    "titleCn": "法伊特·施托斯创作《圣母祭坛》木雕",
+    "date": {
+      "year": 1477
+    },
+    "descriptionCn": "1477年至1486年间，法伊特·施托斯在克拉科夫圣母教堂创作《圣母祭坛》木雕，作品具有强烈的表现主义风格和自然主义倾向。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "木雕"
+    ],
+    "meta": {
+      "country": "波兰",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、木雕",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "e33ecc79-dff0-4c14-b9d6-d1731fc8fdaf",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "佛罗伦萨统计艺术家工作室数量",
+    "titleCn": "佛罗伦萨统计艺术家工作室数量",
+    "date": {
+      "year": 1478
+    },
+    "descriptionCn": "1478年，佛罗伦萨统计各类艺术家工作室数量：54个石匠及雕塑家工作室，44个金匠工作室，84个木匠工作室，40个画家工作室，83个丝绸制造匠工作室。",
+    "importance": 4,
+    "tags": [
+      "其他"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "其他",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "fad1d323-6ad1-43d7-83b5-f4faa0e36b9a",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "安杰洛·萨林贝尼写作关于弗朗切斯科·德尔·科萨之死的赞颂",
+    "titleCn": "安杰洛·萨林贝尼写作关于弗朗切斯科·德尔·科萨之死的赞颂",
+    "date": {
+      "year": 1478
+    },
+    "descriptionCn": "1478年冬天，安杰洛·萨林贝尼写作赞美已故画家弗朗切斯科·德尔·科萨，称其为所见最博学多才的艺术家，其作品优雅逼真。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "7e33ff92-a16a-4ad4-9fdc-0f7e1e2fe28f",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "胡安·瓜斯在托莱多建造圣胡安王宫",
+    "titleCn": "胡安·瓜斯在托莱多建造圣胡安王宫",
+    "date": {
+      "year": 1478
+    },
+    "descriptionCn": "1478年，胡安·瓜斯在托莱多建造圣胡安王宫。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "天主教国王时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "6a67b75c-502c-41d9-bcd0-08e3d3c4d222",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "沈周创作《东庄图》册页",
+    "titleCn": "沈周创作《东庄图》册页",
+    "date": {
+      "year": 1479
+    },
+    "descriptionCn": "1479年，沈周52岁时创作《东庄图》册页，共24幅，构图自然开阔，代表其“粗沈”面貌，其中21幅现藏于南京博物院。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "efe579cd-9fad-4dd3-9ad5-67b90e624d8a",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "真蒂莱·贝利尼在苏丹穆罕默德二世宫廷担任宫廷艺术家",
+    "titleCn": "真蒂莱·贝利尼在苏丹穆罕默德二世宫廷担任宫廷艺术家",
+    "date": {
+      "year": 1479
+    },
+    "descriptionCn": "1479年至1480年，威尼斯画家真蒂莱·贝利尼在奥斯曼帝国苏丹穆罕默德二世的宫廷中担任宫廷艺术家，为期一年。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "土耳其",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "332a6ca9-a184-4887-86d0-831d2cb85544",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "真蒂莱·贝利尼游访君士坦丁堡",
+    "titleCn": "真蒂莱·贝利尼游访君士坦丁堡",
+    "date": {
+      "year": 1479
+    },
+    "descriptionCn": "1479年，威尼斯画家真蒂莱·贝利尼游访君士坦丁堡，受到东方艺术的影响。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "土耳其",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "581c6c45-22c9-40ae-830a-ce7e85bfae9c",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "尼可洛·达·瓦拉洛为米兰大教堂制作彩色玻璃窗",
+    "titleCn": "尼可洛·达·瓦拉洛为米兰大教堂制作彩色玻璃窗",
+    "date": {
+      "year": 1480
+    },
+    "descriptionCn": "1480年至1486年，尼可洛·达·瓦拉洛为米兰大教堂制作彩色玻璃窗，描绘金匠守护神圣埃利朱斯以学徒形象出现。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "44d71ca2-b31e-42af-9c21-961315dc20ae",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "胡安·瓜斯在瓜达拉哈拉建造王子宫",
+    "titleCn": "胡安·瓜斯在瓜达拉哈拉建造王子宫",
+    "date": {
+      "year": 1480
+    },
+    "descriptionCn": "1480年，胡安·瓜斯在瓜达拉哈拉建造王子宫。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "天主教国王时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "2b0854c3-a5e8-4636-bcae-d32acbea50da",
+    "periodId": "p_early_modern",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "巴耶齐德清真寺建造",
+    "titleCn": "巴耶齐德清真寺建造",
+    "date": {
+      "year": 1481
+    },
+    "descriptionCn": "1481年至1512年，奥斯曼帝国建筑师维海尔丁建造了巴耶齐德清真寺。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "土耳其",
+      "originalPeriod": "奥斯曼帝国",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "f90c978b-da84-4e7c-a5ea-bdc89614c9a4",
+    "periodId": "p_early_modern",
+    "streamId": "s_gothic",
+    "titleEn": "布尔戈斯圣母玛利亚大教堂城主礼拜堂拱顶建造",
+    "titleCn": "布尔戈斯圣母玛利亚大教堂城主礼拜堂拱顶建造",
+    "date": {
+      "year": 1482
+    },
+    "descriptionCn": "1482年至1494年间，西班牙布尔戈斯的圣母玛利亚大教堂城主礼拜堂拱顶建造完成，由科洛尼亚的西蒙设计。拱顶呈八角星形，采用火焰式窗花格，装饰华丽。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "哥特式",
+      "standardPeriod": "哥特式",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "b5f194ed-6f10-46f0-bb0e-c966a773c827",
+    "periodId": "p_early_modern",
+    "streamId": "s_gothic",
+    "titleEn": "布尔戈斯城主礼拜堂建造",
+    "titleCn": "布尔戈斯城主礼拜堂建造",
+    "date": {
+      "year": 1482
+    },
+    "descriptionCn": "1482年至1494年，布尔戈斯城主礼拜堂建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "火焰式哥特式",
+      "standardPeriod": "哥特式",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "6f451162-104f-4a3f-b8dc-aba0bb6770ed",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "扬·范·埃伊克游访葡萄牙",
+    "titleCn": "扬·范·埃伊克游访葡萄牙",
+    "date": {
+      "year": 1482
+    },
+    "descriptionCn": "1482年，扬·范·埃伊克游访葡萄牙，对葡萄牙绘画产生了强烈影响。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "葡萄牙",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "80eab86b-6e89-47a1-af07-2bea66399fb8",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "西蒙·德·科洛尼亚建造康斯特布尔小教堂",
+    "titleCn": "西蒙·德·科洛尼亚建造康斯特布尔小教堂",
+    "date": {
+      "year": 1482
+    },
+    "descriptionCn": "1482年，西蒙·德·科洛尼亚在西班牙布尔戈斯教堂建造了康斯特布尔小教堂，属于火焰式哥特建筑。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "e7b83544-fe8c-4853-a304-2ab923fb4ddb",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "米凯莱·达·阿里亚制作安布罗乔·迪·内格罗像",
+    "titleCn": "米凯莱·达·阿里亚制作安布罗乔·迪·内格罗像",
+    "date": {
+      "year": 1483
+    },
+    "descriptionCn": "1483年至1490年，米凯莱·达·阿里亚制作了科西嘉岛专员安布罗乔·迪·内格罗的大理石雕像，以表彰他在减轻热那亚赋税方面的贡献，该雕像位于热那亚圣乔治宫。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "b744021a-89f1-4a05-b1b5-f1c8869c4e61",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "莱奥纳尔多·达·芬奇绘制《岩间圣母》",
+    "titleCn": "莱奥纳尔多·达·芬奇绘制《岩间圣母》",
+    "date": {
+      "year": 1483,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1483年，莱奥纳尔多·达·芬奇绘制了《岩间圣母》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ee7cc3ad-fbad-4b9f-862c-e3744e4ede54",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "博蒂切利开始创作《春》和《维纳斯的诞生》",
+    "titleCn": "博蒂切利开始创作《春》和《维纳斯的诞生》",
+    "date": {
+      "year": 1485
+    },
+    "descriptionCn": "1485年，山德罗·博蒂切利开始创作受古代神话题材启发的画作《春》和《维纳斯的诞生》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "15e5261f-3c61-41be-aba6-043a7c247d05",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "多梅尼科·吉兰达约绘制托尔纳博尼小礼拜堂湿壁画",
+    "titleCn": "多梅尼科·吉兰达约绘制托尔纳博尼小礼拜堂湿壁画",
+    "date": {
+      "year": 1485,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1485年，多梅尼科·吉兰达约为佛罗伦萨圣玛利亚·诺维拉教堂的托尔纳博尼—托尔纳昆齐小礼拜堂绘制湿壁画《施洗者圣约翰的生活》。壁画位于左墙，描绘了圣母玛利亚与伊丽莎白的会面、施洗者诞生等场景，并包含赞助人家族成员的肖像。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "0b69d0ce-73ff-4067-b0be-892e6711db08",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "韦罗基奥创作《科莱奥尼》骑马像",
+    "titleCn": "韦罗基奥创作《科莱奥尼》骑马像",
+    "date": {
+      "year": 1485
+    },
+    "descriptionCn": "1485年，安德烈亚·德尔·韦罗基奥在威尼斯创作了《科莱奥尼》骑马像，是对多纳泰洛《加塔梅拉塔》的应答。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "183f74d7-70cd-4cef-af12-bbfc8c5f0992",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "韦罗基奥到达威尼斯开始制作科莱奥尼纪念像",
+    "titleCn": "韦罗基奥到达威尼斯开始制作科莱奥尼纪念像",
+    "date": {
+      "year": 1486
+    },
+    "descriptionCn": "1486年春天，韦罗基奥到达威尼斯，开始制作巴尔托洛梅奥·科莱奥尼的骑马青铜纪念像。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "28d5c439-8d55-43a8-990a-05d358c42acb",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "安杰洛·萨林贝尼为1487年婚礼写作赞颂金匠的诗",
+    "titleCn": "安杰洛·萨林贝尼为1487年婚礼写作赞颂金匠的诗",
+    "date": {
+      "year": 1487
+    },
+    "descriptionCn": "1487年，安杰洛·萨林贝尼为一场婚礼写作长篇作品，其中赞颂了15世纪的金匠，如弗朗切斯科·弗兰恰，称其绘画和雕塑超越古代大师。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "7c8c96fa-2f65-43d3-8c9b-5c9b79e74c39",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "汉斯·梅林创作《持苹果的圣母》",
+    "titleCn": "汉斯·梅林创作《持苹果的圣母》",
+    "date": {
+      "year": 1487,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1487年，汉斯·梅林创作了《持苹果的圣母》，属于马丁·范·纽文霍芬双联画的一翼，藏于布鲁日圣约翰医院。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "比利时",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "cf34aebb-7c20-4003-9c6c-0004d885c1f0",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "菲利皮诺·利皮与菲利波·斯特罗齐签订合同装饰斯特罗齐礼拜堂",
+    "titleCn": "菲利皮诺·利皮与菲利波·斯特罗齐签订合同装饰斯特罗齐礼拜堂",
+    "date": {
+      "year": 1487
+    },
+    "descriptionCn": "1487年，菲利皮诺·利皮与赞助人菲利波·斯特罗齐签订合同，为圣玛利亚·诺维拉教堂的斯特罗齐礼拜堂绘制湿壁画。合同要求使用真正的湿壁画技法，并采用每盎司4弗罗林的群青颜料，委托最高价格为200里拉。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画、交易",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "7b56195f-3ea6-4d3d-ac35-3a974bc54879",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "菲利皮诺·利皮创作《圣菲利普驱逐恶魔》",
+    "titleCn": "菲利皮诺·利皮创作《圣菲利普驱逐恶魔》",
+    "date": {
+      "year": 1487
+    },
+    "descriptionCn": "1487年至1502年，菲利皮诺·利皮在佛罗伦萨新圣母大殿斯特罗齐礼拜堂创作了湿壁画《圣菲利普驱逐恶魔》，现由伦敦国家美术馆托管。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "537ce176-de98-44d7-b948-665bb4b3c647",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "菲利皮诺·利皮创作《斯特罗齐礼拜堂》湿壁画",
+    "titleCn": "菲利皮诺·利皮创作《斯特罗齐礼拜堂》湿壁画",
+    "date": {
+      "year": 1487
+    },
+    "descriptionCn": "1487年至1502年，菲利皮诺·利皮在佛罗伦萨新圣母大殿斯特罗齐礼拜堂创作了湿壁画《斯特罗齐礼拜堂》，描绘了贝内代托·达·马亚诺建造的陵墓场景。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "8d7d8530-7a9f-4e0d-a303-7f4595b677fd",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "巴利亚多利德圣格雷戈里奥学院入口建造",
+    "titleCn": "巴利亚多利德圣格雷戈里奥学院入口建造",
+    "date": {
+      "year": 1488
+    },
+    "descriptionCn": "1488年至1496年，巴利亚多利德圣格雷戈里奥学院入口建造完成，建筑师不详。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "天主教国王时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "56c2143e-63f9-44ff-b9b6-7c9872a25f05",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "明弘治元年刊刻《九九消寒图》",
+    "titleCn": "明弘治元年刊刻《九九消寒图》",
+    "date": {
+      "year": 1488
+    },
+    "descriptionCn": "明弘治元年（1488年），刊刻《九九消寒图》，图中夹梅花八十一瓣，周围有一九至九九的画图，描绘贺年、观灯、耕田、游春等活动及羊驮聚宝盆等吉祥图画。",
+    "importance": 4,
+    "tags": [
+      "年画",
+      "版画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "年画、版画",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "09d3e0f6-f1a3-4ce0-823e-8a6580a4ffe1",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "韦罗基奥去世，完成科莱奥尼纪念像陶土模型",
+    "titleCn": "韦罗基奥去世，完成科莱奥尼纪念像陶土模型",
+    "date": {
+      "year": 1488
+    },
+    "descriptionCn": "1488年，安德烈亚·德尔·韦罗基奥去世，他只完成了巴尔托洛梅奥·科莱奥尼骑马纪念像的陶土模型。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "d5a91f48-cf50-4669-9a83-c04d50781ffa",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "希尔·德·西洛埃开始雕刻米拉弗洛雷斯卡尔特修道院约翰二世和伊萨贝拉墓",
+    "titleCn": "希尔·德·西洛埃开始雕刻米拉弗洛雷斯卡尔特修道院约翰二世和伊萨贝拉墓",
+    "date": {
+      "year": 1489,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1489年，希尔·德·西洛埃开始雕刻米拉弗洛雷斯卡尔特修道院的约翰二世和伊萨贝拉墓，采用大理石雕刻。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "天主教国王时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "416e06a4-159f-4afa-bf92-e71578ec5129",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "洛伦索·巴斯克斯建造巴利阿多里德圣克鲁斯学院",
+    "titleCn": "洛伦索·巴斯克斯建造巴利阿多里德圣克鲁斯学院",
+    "date": {
+      "year": 1489
+    },
+    "descriptionCn": "1489年，洛伦索·巴斯克斯在巴利阿多里德建造圣克鲁斯学院。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "94f84a2f-deff-4a0f-9e19-9010596980a7",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "温琴佐·福帕与布雷西亚达成养老金协定",
+    "titleCn": "温琴佐·福帕与布雷西亚达成养老金协定",
+    "date": {
+      "year": 1489
+    },
+    "descriptionCn": "1489年，画家温琴佐·福帕因年老与家乡布雷西亚达成协定，获得养老金。",
+    "importance": 2,
+    "tags": [
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "交易",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "4c62c9af-69e8-4fcc-bd43-922ccb911d37",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "贝内代托·达·马亚诺建造斯特罗齐宫",
+    "titleCn": "贝内代托·达·马亚诺建造斯特罗齐宫",
+    "date": {
+      "year": 1489
+    },
+    "descriptionCn": "1489年，贝内代托·达·马亚诺在佛罗伦萨建造了斯特罗齐宫。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "9a1889b8-11af-4605-abe5-f4e189a1f9c6",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "丢勒第一次游学全国",
+    "titleCn": "丢勒第一次游学全国",
+    "date": {
+      "year": 1490
+    },
+    "descriptionCn": "1490年至1494年，丢勒在德国进行游学全国。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "99f244e6-394c-4862-afde-0cfb7479910b",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "列奥纳多·达·芬奇撰写《论绘画》",
+    "titleCn": "列奥纳多·达·芬奇撰写《论绘画》",
+    "date": {
+      "year": 1490
+    },
+    "descriptionCn": "1490年-1495年，列奥纳多·达·芬奇撰写了《论绘画》。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "a72af730-c23c-4fa2-bd66-1c6fa98ec841",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "卡尔帕乔创作《圣乌尔苏拉的传说》",
+    "titleCn": "卡尔帕乔创作《圣乌尔苏拉的传说》",
+    "date": {
+      "year": 1490
+    },
+    "descriptionCn": "1490年至1498年，维托雷·卡尔帕乔为威尼斯圣乌尔苏拉会堂创作了系列画作《圣乌尔苏拉的传说》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "f4ac4893-f9e0-46b5-8fb6-4f6112616066",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "卡洛·克里韦利被封为骑士",
+    "titleCn": "卡洛·克里韦利被封为骑士",
+    "date": {
+      "year": 1490
+    },
+    "descriptionCn": "1490年，威尼斯艺术家卡洛·克里韦利因其为加普亚的费迪南王子所做的工作而被封为骑士，此后在其祭坛画上署名为“战士”。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a796efff-8a65-49d3-a804-47b5474730cb",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "威尼斯参议院将科莱奥尼纪念像陶土模型交给莱奥帕尔迪浇铸",
+    "titleCn": "威尼斯参议院将科莱奥尼纪念像陶土模型交给莱奥帕尔迪浇铸",
+    "date": {
+      "year": 1490
+    },
+    "descriptionCn": "1490年，威尼斯参议院将韦罗基奥制作的科莱奥尼纪念像陶土模型交给当地艺术家亚历山德罗·莱奥帕尔迪进行浇铸。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "126a59b2-e1be-4c01-87fe-83706b4e904b",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "达·芬奇开始制作斯福尔扎骑马雕像模型",
+    "titleCn": "达·芬奇开始制作斯福尔扎骑马雕像模型",
+    "date": {
+      "year": 1490
+    },
+    "descriptionCn": "1490年，列奥纳多·达·芬奇开始为弗朗切斯科·斯福尔扎制作骑马青铜像的陶土模型。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "15世纪",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "7d5ca0f9-c384-476b-a4d0-a428487cf8dc",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "平图里基奥装饰博尔贾府邸",
+    "titleCn": "平图里基奥装饰博尔贾府邸",
+    "date": {
+      "year": 1492
+    },
+    "descriptionCn": "1492年至1494年，佩鲁贾画家平图里基奥受教皇亚历山大六世之命，为梵蒂冈的博尔贾府邸创作装饰画。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "壁画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画、壁画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "42a95ab9-bf9e-4ef2-ba19-4c40d484f26e",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "丢勒第一次游访意大利",
+    "titleCn": "丢勒第一次游访意大利",
+    "date": {
+      "year": 1494
+    },
+    "descriptionCn": "1494年至1495年，丢勒首次游访意大利。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "61643140-9d1d-49b7-aa77-e69dfa0c4409",
+    "periodId": "p_early_modern",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "塞巴斯蒂安·勃兰特创作《愚人船》",
+    "titleCn": "塞巴斯蒂安·勃兰特创作《愚人船》",
+    "date": {
+      "year": 1494
+    },
+    "descriptionCn": "1494年，塞巴斯蒂安·勃兰特创作了文学作品《愚人船》。该作品是对当时社会愚行的讽刺，在文学史上具有重要意义。",
+    "importance": 3,
+    "tags": [
+      "文学"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "中世纪晚期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "文学",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "970f078a-7613-4197-837a-be509f33e139",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "希尔·德·西洛埃和迭戈·德·拉·克鲁斯制作卡尔特修道院教堂祭坛镀金木雕",
+    "titleCn": "希尔·德·西洛埃和迭戈·德·拉·克鲁斯制作卡尔特修道院教堂祭坛镀金木雕",
+    "date": {
+      "year": 1494
+    },
+    "descriptionCn": "1494年至1499年，希尔·德·西洛埃和迭戈·德·拉·克鲁斯在米拉弗洛雷斯卡尔特修道院教堂制作了祭坛镀金木雕。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "天主教国王时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "4fc442d5-b4cf-42ad-9d1b-7f1065f3f3ac",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "法国国王查理八世要求获得洛伦佐工作室物品",
+    "titleCn": "法国国王查理八世要求获得洛伦佐工作室物品",
+    "date": {
+      "year": 1494
+    },
+    "descriptionCn": "1494年，法国国王查理八世抵达佛罗伦萨，立即派人索取美第奇家族洛伦佐工作室中的收藏品，包括纪念章、石雕、贝雕和瓷器。",
+    "importance": 2,
+    "tags": [
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "交易",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "ec391e02-7b9d-4d8b-82e9-088faed7e65b",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "米开朗基罗受雇完成圣多梅尼科神龛雕像",
+    "titleCn": "米开朗基罗受雇完成圣多梅尼科神龛雕像",
+    "date": {
+      "year": 1494
+    },
+    "descriptionCn": "1494年，尼可洛·德尔·阿尔卡去世后，19岁的米开朗基罗受博洛尼亚贵族吉安·弗朗切斯科·阿尔多维兰迪尼雇用，为圣多梅尼科神龛完成缺失的3个人物雕像，包括博洛尼亚主教圣佩特罗尼乌斯、圣普罗库勒和一位手持烛台的天使。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、交易",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "fb77c6ad-28ac-4367-8af3-8220118dc1d5",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "西尔维斯特罗·德尔·阿奎拉建造玛利亚·佩雷拉·坎波内斯基和女儿贝亚特丽切的陵墓纪念碑",
+    "titleCn": "西尔维斯特罗·德尔·阿奎拉建造玛利亚·佩雷拉·坎波内斯基和女儿贝亚特丽切的陵墓纪念碑",
+    "date": {
+      "year": 1494
+    },
+    "descriptionCn": "1494年，西尔维斯特罗·德尔·阿奎拉用大理石在阿奎拉的圣贝尔纳迪诺教堂为玛利亚·佩雷拉·坎波内斯基及其幼女贝亚特丽切建造了陵墓纪念碑。玛利亚出身阿拉贡王室，丈夫去世后进入女修道院，1488年自行安排陵墓并捐赠，要求建造最新时尚风格的作品。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "2a362bf2-4106-4256-9976-89bbdd3f3a77",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "莱奥纳尔多·达·芬奇绘制《最后的晚餐》",
+    "titleCn": "莱奥纳尔多·达·芬奇绘制《最后的晚餐》",
+    "date": {
+      "year": 1495
+    },
+    "descriptionCn": "1495年至1498年，莱奥纳尔多·达·芬奇在米兰恩施圣马利亚教堂绘制了壁画《最后的晚餐》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ad67e9f8-c245-4fa3-9aaf-2151a4164556",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "达·芬奇创作《最后的晚餐》",
+    "titleCn": "达·芬奇创作《最后的晚餐》",
+    "date": {
+      "year": 1495,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1495年-1498年，达·芬奇在米兰圣玛丽亚感恩教堂的餐厅创作了壁画《最后的晚餐》。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "壁画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画、壁画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5901e57e-7074-4ab6-975d-802f7bc30540",
+    "periodId": "p_early_modern",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "道德剧《凡夫俗子》成功上演",
+    "titleCn": "道德剧《凡夫俗子》成功上演",
+    "date": {
+      "year": 1495
+    },
+    "descriptionCn": "1495年，道德剧《凡夫俗子》成功上演。该剧是英国戏剧的代表作品，探讨了人类面对死亡的主题。",
+    "importance": 4,
+    "tags": [
+      "戏剧"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "中世纪晚期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "戏剧",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "b9f54fe2-42b2-4798-b8aa-718801853be3",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "真蒂莱·贝利尼绘制油画《耶稣十字架碎片在圣马可广场上的游行》",
+    "titleCn": "真蒂莱·贝利尼绘制油画《耶稣十字架碎片在圣马可广场上的游行》",
+    "date": {
+      "year": 1496
+    },
+    "descriptionCn": "1496年，真蒂莱·贝利尼为威尼斯圣乔万尼福音兄弟会绘制布面油画《耶稣十字架碎片在圣马可广场上的游行》，描绘了游行时发生的奇迹。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "af210374-b656-40ad-ad9f-299c536d20f3",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "科莱奥尼骑马纪念像放置到位",
+    "titleCn": "科莱奥尼骑马纪念像放置到位",
+    "date": {
+      "year": 1496,
+      "month": 3
+    },
+    "descriptionCn": "1496年3月，巴尔托洛梅奥·科莱奥尼的骑马青铜纪念像在威尼斯的圣乔瓦尼和保罗广场被放置到位。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "2d6df2c6-da2f-4b3d-aeb8-6f6894dbeee2",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "丢勒创作木版画《天启四骑士》",
+    "titleCn": "丢勒创作木版画《天启四骑士》",
+    "date": {
+      "year": 1497,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1497年至1498年，阿尔布雷特·丢勒创作了木版画《天启四骑士》，尺寸为39.4厘米×27.9厘米，属于《启示录》组画之一。",
+    "importance": 3,
+    "tags": [
+      "版画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "版画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a846a7c6-377f-4e32-b315-4956779502b6",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "安东·科尔布筹划印刷威尼斯全景图",
+    "titleCn": "安东·科尔布筹划印刷威尼斯全景图",
+    "date": {
+      "year": 1497
+    },
+    "descriptionCn": "1497年，德国印刷商安东·科尔布准备设计和印刷雅各布·德·巴尔巴里创作的《威尼斯全景图》，该项目要求特殊造纸厂生产大型纸张，并极度小心设计和印刷过程。",
+    "importance": 3,
+    "tags": [
+      "设计",
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "设计、出版",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4b96110f-6b47-4963-a131-4c020fc49ef6",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "约翰内斯·巴尔布斯《万灵药》在威尼斯印制",
+    "titleCn": "约翰内斯·巴尔布斯《万灵药》在威尼斯印制",
+    "date": {
+      "year": 1497,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1497年，约翰内斯·巴尔布斯的《万灵药》在威尼斯印制，其中阐述了图像的三种功能：教导无知者、保持圣徒记忆、激发虔诚。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "f197cf1e-63ca-43bc-8080-3a7edd351e0d",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "阿尔布雷特·丢勒绘制《圣母马丽亚和长尾猴》",
+    "titleCn": "阿尔布雷特·丢勒绘制《圣母马丽亚和长尾猴》",
+    "date": {
+      "year": 1497,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1497—1498年，德国画家阿尔布雷特·丢勒绘制了《圣母马丽亚和长尾猴》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9c056799-0786-40d1-9af5-f51f4371b1d3",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "阿尔布雷特·丢勒绘制《池塘小屋》",
+    "titleCn": "阿尔布雷特·丢勒绘制《池塘小屋》",
+    "date": {
+      "year": 1497,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1497年，德国画家阿尔布雷特·丢勒绘制了水彩画《池塘小屋》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "fb2915d8-693b-4c0f-9b5e-1d17fc866079",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "乔万尼·蓬塔诺论述‘华丽’主题",
+    "titleCn": "乔万尼·蓬塔诺论述‘华丽’主题",
+    "date": {
+      "year": 1498
+    },
+    "descriptionCn": "1498年，那不勒斯法院书记官乔万尼·蓬塔诺在其关于社会美德的系列论文中论述了“华丽”主题，区分了日常用品与装饰品，强调物品的得体摆放和多样化的展示。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "1c12df3e-3456-4fb5-aa9d-726217bce8f8",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "乔万尼·蓬塔诺论述高尚花费的著作",
+    "titleCn": "乔万尼·蓬塔诺论述高尚花费的著作",
+    "date": {
+      "year": 1498
+    },
+    "descriptionCn": "1498年，那不勒斯人文主义者乔万尼·蓬塔诺在其著作中论述了高尚之人需通过巨额花费以显示伟大，并列举了辉煌宫殿、教堂等艺术项目。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "15世纪",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "733d53fd-e1f3-4cfe-bda5-89430e7eb56e",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "佩鲁吉诺创作《圣家族》",
+    "titleCn": "佩鲁吉诺创作《圣家族》",
+    "date": {
+      "year": 1498,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1498年，佩鲁吉诺创作了《圣家族》，现藏于巴黎罗浮宫。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "433b2b63-24e8-48a8-8518-63275d42b4f3",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "穆兰画师创作《穆兰三联画》中心画",
+    "titleCn": "穆兰画师创作《穆兰三联画》中心画",
+    "date": {
+      "year": 1498,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1498年，穆兰画师创作了《穆兰三联画》中心画《圣母子》，藏于穆兰教堂。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9e1da2bf-2a60-4e1a-8690-96892aa90b4e",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "米开朗基罗创作《圣母怜子》",
+    "titleCn": "米开朗基罗创作《圣母怜子》",
+    "date": {
+      "year": 1498
+    },
+    "descriptionCn": "1498年-1499年，米开朗基罗在罗马圣彼得大教堂创作了大型大理石雕塑《圣母怜子》，该作品高1.74米，人物尺寸大于真人。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "b79f8b17-c867-4ef7-8157-e0da6e79b1e4",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "米开朗基罗签署合同创作《圣母怜子》",
+    "titleCn": "米开朗基罗签署合同创作《圣母怜子》",
+    "date": {
+      "year": 1498,
+      "month": 8,
+      "day": 27
+    },
+    "descriptionCn": "1498年8月27日，米开朗基罗在罗马签署合同，受托为法国红衣主教让·德·比雷尔·拉格罗拉斯创作墓葬雕塑《圣母怜子》。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  }
+]

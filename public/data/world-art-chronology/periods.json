@@ -1,64 +1,77 @@
 [
   {
-    "id": "p_ancient_early_china",
-    "nameEn": "Ancient & Early Chinese Traditions",
-    "nameCn": "古代与早期中国传统",
-    "colorHex": "#6C5B7B",
-    "colorBackground": "#f6f2fa",
+    "id": "p_prehistoric",
+    "nameEn": "Prehistoric & Early Civilizations",
+    "nameCn": "史前与早期文明",
+    "colorHex": "#5E548E",
+    "colorBackground": "#f2eff9",
     "start": {
-      "year": -5000
+      "year": -30000
     },
     "end": {
+      "year": -3001
+    }
+  },
+  {
+    "id": "p_ancient_classical",
+    "nameEn": "Ancient & Classical",
+    "nameCn": "古代与古典时期",
+    "colorHex": "#4C78A8",
+    "colorBackground": "#edf3fb",
+    "start": {
+      "year": -3000
+    },
+    "end": {
+      "year": 499
+    }
+  },
+  {
+    "id": "p_medieval",
+    "nameEn": "Medieval",
+    "nameCn": "中世纪",
+    "colorHex": "#B279A2",
+    "colorBackground": "#f8eef6",
+    "start": {
       "year": 500
-    }
-  },
-  {
-    "id": "p_roman_medieval",
-    "nameEn": "Romanesque & Early Medieval",
-    "nameCn": "罗马式与早期中世纪",
-    "colorHex": "#355C7D",
-    "colorBackground": "#eef4fa",
-    "start": {
-      "year": 500
     },
     "end": {
-      "year": 1139
+      "year": 1399
     }
   },
   {
-    "id": "p_gothic_late_medieval",
-    "nameEn": "Gothic & Late Medieval",
-    "nameCn": "哥特式与晚期中世纪",
-    "colorHex": "#C06C84",
-    "colorBackground": "#fdf1f5",
+    "id": "p_early_modern",
+    "nameEn": "Early Modern",
+    "nameCn": "近代早期",
+    "colorHex": "#F58518",
+    "colorBackground": "#fff4e9",
     "start": {
-      "year": 1140
-    },
-    "end": {
-      "year": 1449
-    }
-  },
-  {
-    "id": "p_renaissance_academy",
-    "nameEn": "Renaissance & Academy Formation",
-    "nameCn": "文艺复兴与学院化",
-    "colorHex": "#F67280",
-    "colorBackground": "#fff1f3",
-    "start": {
-      "year": 1450
+      "year": 1400
     },
     "end": {
       "year": 1799
     }
   },
   {
-    "id": "p_modern_contemporary",
-    "nameEn": "Modern & Contemporary Art Systems",
-    "nameCn": "现代与当代艺术体系",
-    "colorHex": "#2A9D8F",
-    "colorBackground": "#edf8f6",
+    "id": "p_modern",
+    "nameEn": "Modern",
+    "nameCn": "现代",
+    "colorHex": "#54A24B",
+    "colorBackground": "#eef9ee",
     "start": {
       "year": 1800
+    },
+    "end": {
+      "year": 1944
+    }
+  },
+  {
+    "id": "p_contemporary",
+    "nameEn": "Contemporary",
+    "nameCn": "当代",
+    "colorHex": "#E45756",
+    "colorBackground": "#fff0f0",
+    "start": {
+      "year": 1945
     },
     "end": {
       "year": 2050

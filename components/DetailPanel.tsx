@@ -4,6 +4,7 @@ import { useVirtualizer } from '@tanstack/react-virtual';
 import { BASE_COLUMN_WIDTH } from '../constants';
 import { getDecimalYear, formatFuzzyDate } from '../utils';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import EventImage from './EventImage';
 
 interface DetailPanelProps {
   topic: Topic;
@@ -46,7 +47,7 @@ const SectionColumn: React.FC<{
   const rowVirtualizer = useVirtualizer({
     count: events.length,
     getScrollElement: () => parentRef.current,
-    estimateSize: () => 120, 
+    estimateSize: () => 132, 
     overscan: 5,
   });
 
@@ -88,7 +89,7 @@ const SectionColumn: React.FC<{
           </div>
           
           {/* Description for Streams */}
-          {section.descriptionCn && (
+          {section.descriptionCn && topic.id !== 'chinese-calligraphy-history' && (
             <div className="mt-2 text-white/90 text-xs leading-relaxed max-h-32 overflow-y-auto custom-scrollbar pr-2 relative z-10">
               {section.descriptionCn}
             </div>
@@ -98,8 +99,11 @@ const SectionColumn: React.FC<{
       {/* Event List (Virtual) */}
       <div 
         ref={parentRef}
-        className="p-4 overflow-y-auto flex-1 min-w-max"
-        style={{ width: `${columnWidth}px` }}
+        className="p-4 overflow-y-auto flex-1 min-w-max section-scrollbar"
+        style={{
+          width: `${columnWidth}px`,
+          '--section-color': section.color,
+        } as React.CSSProperties}
       >
         {events.length === 0 ? (
           <div className="text-gray-400 text-sm italic text-center mt-10">
@@ -115,6 +119,10 @@ const SectionColumn: React.FC<{
           >
             {rowVirtualizer.getVirtualItems().map((virtualRow) => {
               const event = events[virtualRow.index];
+              const titleCn = event.titleCn?.trim();
+              const titleEn = event.titleEn?.trim();
+              const displayTitle = titleCn || titleEn || '';
+              const subtitle = titleCn && titleEn && titleCn !== titleEn ? titleEn : null;
               return (
                 <div
                   key={virtualRow.key}
@@ -137,30 +145,40 @@ const SectionColumn: React.FC<{
                   >
                     <div className="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-gray-300 group-hover:bg-gray-800 transition-colors"></div>
                     
-                    <div className="flex flex-col mb-1">
-                      <div className="flex justify-between items-baseline">
-                          <h4 className="font-serif font-bold text-gray-800 text-sm group-hover:text-blue-700 transition-colors leading-tight">
-                              {event.titleEn}
-                          </h4>
-                          <span className="text-[10px] font-mono text-gray-400 shrink-0 ml-2">
-                             {formatFuzzyDate(event.date)}
-                          </span>
+                    <div className="mb-2 flex gap-3">
+                      <EventImage
+                        src={event.imageUrl}
+                        alt={displayTitle}
+                        className="h-24 w-24 shrink-0 rounded-md border border-stone-200 shadow-sm"
+                        imgClassName="group-hover:scale-105"
+                      />
+                      <div className="flex min-w-0 flex-1 flex-col">
+                        <div className="flex justify-between items-baseline">
+                            <h4 className="font-serif font-bold text-gray-800 text-sm group-hover:text-blue-700 transition-colors leading-tight">
+                                {displayTitle}
+                            </h4>
+                            <span className="text-[10px] font-mono text-gray-400 shrink-0 ml-2">
+                               {formatFuzzyDate(event.date)}
+                            </span>
+                        </div>
+                        {subtitle && <span className="text-xs text-gray-500 font-sans mt-0.5">{subtitle}</span>}
+                        <div className="mt-2 space-y-1">
+                          {/* Dynamic Fields based on topic config */}
+                          {topic.eventFields.map(field => {
+                            let value = (event as any)[field.key] || (event.meta && event.meta[field.key]);
+                            if (!value) return null;
+                            if (Array.isArray(value)) value = value.join('、');
+                            
+                            return (
+                              <p key={field.key} className="text-[10px] font-bold uppercase tracking-wider text-gray-500 group-hover:text-gray-700 truncate">
+                                 <span className="opacity-60 mr-1">{field.labelEn}:</span>
+                                 {value}
+                              </p>
+                            );
+                          })}
+                        </div>
                       </div>
-                      {event.titleCn && <span className="text-xs text-gray-500 font-sans mt-0.5">{event.titleCn}</span>}
                     </div>
-                    
-                    {/* Dynamic Fields based on topic config */}
-                    {topic.eventFields.map(field => {
-                      let value = (event as any)[field.key] || (event.meta && event.meta[field.key]);
-                      if (!value) return null;
-                      
-                      return (
-                        <p key={field.key} className="text-[10px] font-bold uppercase tracking-wider text-gray-500 group-hover:text-gray-700 mt-1 truncate">
-                           <span className="opacity-60 mr-1">{field.labelEn}:</span>
-                           {value}
-                        </p>
-                      );
-                    })}
                   </div>
                 </div>
               );
@@ -203,8 +221,10 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, even
     containerRef.current.scrollLeft = scrollLeft.current - walk;
   };
   
-  // Dynamically calculate column width based on screen scale
-  const COLUMN_WIDTH = Math.max(BASE_COLUMN_WIDTH, BASE_COLUMN_WIDTH * Math.min(scaleX, 2.5));
+  const hasImageEvents = useMemo(() => events.some(event => !!event.imageUrl), [events]);
+  const baseColumnWidth = hasImageEvents ? BASE_COLUMN_WIDTH + 120 : BASE_COLUMN_WIDTH;
+  // Dynamically calculate column width based on screen scale; image-heavy exhibits need more room for metadata.
+  const COLUMN_WIDTH = Math.max(baseColumnWidth, baseColumnWidth * Math.min(scaleX, 2.5));
 
   const range = viewport.endYear - viewport.startYear;
   const centerYear = viewport.startYear + range / 2;

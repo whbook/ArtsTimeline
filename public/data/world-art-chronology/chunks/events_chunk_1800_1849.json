@@ -1,0 +1,3305 @@
+[
+  {
+    "id": "ed67d7d0-8972-42d5-b5ce-35c1fd46afa9",
+    "periodId": "p_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "安东尼奥·弗朗西斯科·利斯博阿创作《先知》",
+    "titleCn": "安东尼奥·弗朗西斯科·利斯博阿创作《先知》",
+    "date": {
+      "year": 1800
+    },
+    "descriptionCn": "1800年，安东尼奥·弗朗西斯科·利斯博阿（小病弱者）在孔戈尼亚斯营创作了《先知》。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "巴西",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "8a1bec4b-0d48-4484-9948-e76683e12fef",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "戈雅创作《卡洛斯四世一家》",
+    "titleCn": "戈雅创作《卡洛斯四世一家》",
+    "date": {
+      "year": 1800
+    },
+    "descriptionCn": "1800年，弗朗西斯科·戈雅创作了油画《卡洛斯四世一家》，描绘西班牙王室家庭成员。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "137ca1cb-3211-49cc-9ef0-93553e3161a1",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "托马斯·罗兰森创作水彩画《花花公子的美人与罗兰森的鉴赏家》",
+    "titleCn": "托马斯·罗兰森创作水彩画《花花公子的美人与罗兰森的鉴赏家》",
+    "date": {
+      "year": 1800
+    },
+    "descriptionCn": "1800年，英国画家托马斯·罗兰森创作水彩画《花花公子的美人与罗兰森的鉴赏家》，以怪诞风格讽刺鉴赏家和时髦女性。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "7dc997c3-863b-47d1-ac40-cb5116732ac3",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "托马斯·罗兰森创作《老议员在去下议院的路上》",
+    "titleCn": "托马斯·罗兰森创作《老议员在去下议院的路上》",
+    "date": {
+      "year": 1801
+    },
+    "descriptionCn": "1801年，英国画家托马斯·罗兰森创作《老议员在去下议院的路上》，以怪诞风格讽刺政治人物的虚伪。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "24fff6e9-d686-4e06-ac60-b8ec8a9730f7",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "托马斯·韦奇伍德和汉弗莱·戴维爵士进行摄影实验",
+    "titleCn": "托马斯·韦奇伍德和汉弗莱·戴维爵士进行摄影实验",
+    "date": {
+      "year": 1802
+    },
+    "descriptionCn": "1802年，英国科学家托马斯·韦奇伍德和汉弗莱·戴维爵士使用硝酸银溶液浸过的白纸捕捉物像，但未能使影像永久固定。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "de1f3b14-4a7d-4ba9-8a41-8d1e0e638677",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "拿破仑委托安东尼奥·卡诺瓦创作《作和平卫士马尔斯状的拿破仑像》",
+    "titleCn": "拿破仑委托安东尼奥·卡诺瓦创作《作和平卫士马尔斯状的拿破仑像》",
+    "date": {
+      "year": 1802
+    },
+    "descriptionCn": "1802年，拿破仑委托当时欧洲最伟大的雕塑家安东尼奥·卡诺瓦为其创作纪念性雕塑，表现他身着古罗马战神马尔斯装束的裸体形象。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "94718b49-7da8-43ca-aa9f-1e03b7714857",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "詹姆斯·巴里最终完成《扮成蒂曼提斯的自画像》",
+    "titleCn": "詹姆斯·巴里最终完成《扮成蒂曼提斯的自画像》",
+    "date": {
+      "year": 1802
+    },
+    "descriptionCn": "1802年，詹姆斯·巴里最终完成了布面油画《扮成蒂曼提斯的自画像》，尺寸为76厘米×63厘米。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "爱尔兰",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4375f298-b211-4ded-a9cd-f3c553fecb52",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "阿内-路易·吉罗代创作《奥西恩迎接法国军官的英灵》",
+    "titleCn": "阿内-路易·吉罗代创作《奥西恩迎接法国军官的英灵》",
+    "date": {
+      "year": 1802
+    },
+    "descriptionCn": "1802年，阿内-路易·吉罗代创作了油画《奥西恩迎接法国军官的英灵》，作品构图复杂，描绘了奥西恩在奥丁神殿迎接法国军人的英灵，明显想到拿破仑。作品中法国人胜利行进，古代北欧勇士向法军亮出虏获的罗马人头盔等，颂扬北欧男性精神。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "517140d7-d631-4442-9a15-b0f1262a9161",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "伦格为双亲创作纪念肖像",
+    "titleCn": "伦格为双亲创作纪念肖像",
+    "date": {
+      "year": 1806
+    },
+    "descriptionCn": "1806年，伦格为双亲创作了一幅纪念肖像，其父母原在汉堡经营轮船公司，因法国军队占领德国被迫离乡。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "867011a4-344e-414b-a1bc-4a756060f22d",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "扎哈罗夫设计建造圣彼得堡海军部大门",
+    "titleCn": "扎哈罗夫设计建造圣彼得堡海军部大门",
+    "date": {
+      "year": 1806
+    },
+    "descriptionCn": "1806-1810年，俄国建筑师阿德里安·扎哈罗夫在圣彼得堡设计建造海军部大门，该建筑成为俄罗斯帝国风格的典范。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "俄罗斯",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "e80b136c-0f3c-4ce7-82a9-f6a77cffd5aa",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "托马斯·沃拉斯顿发明明箱",
+    "titleCn": "托马斯·沃拉斯顿发明明箱",
+    "date": {
+      "year": 1806
+    },
+    "descriptionCn": "1806年，托马斯·沃拉斯顿发明了明箱，这是一种帮助艺术家精准描绘风景的光学仪器，其工作原理基于通过棱镜的光线折射。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ab10ff3d-d172-426c-ae15-6747c6d0fe07",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "杨芳出生",
+    "titleCn": "杨芳出生",
+    "date": {
+      "year": 1806
+    },
+    "descriptionCn": "1806年，杨芳出生于山东潍县。他是新盛元画店的第二代传人，也是人们记忆中杨家埠年画最老的艺人。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "8db87d10-309d-45d2-81e3-72913060a518",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "让-弗朗索瓦·特雷兹·沙尔格兰开始设计建造巴黎凯旋门",
+    "titleCn": "让-弗朗索瓦·特雷兹·沙尔格兰开始设计建造巴黎凯旋门",
+    "date": {
+      "year": 1806
+    },
+    "descriptionCn": "1806年，法国建筑师让-弗朗索瓦·特雷兹·沙尔格兰受拿破仑委托开始设计建造巴黎凯旋门，以纪念拿破仑的军功。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "2c68d271-0d1d-4b32-bf4d-c324a5ee538c",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "卡斯帕·大卫·弗里德里希创作《山中的十字架》",
+    "titleCn": "卡斯帕·大卫·弗里德里希创作《山中的十字架》",
+    "date": {
+      "year": 1808
+    },
+    "descriptionCn": "1808年，德国画家卡斯帕·大卫·弗里德里希（Caspar David Friedrich）创作了油画《山中的十字架》（又称《台岑祭坛画》），被视为德国神秘主义绘画的典范，原本准备献给瑞典国王古斯塔夫·阿道弗斯以感谢其抵抗拿破仑。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "19世纪初",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5d718338-40fb-46a5-8754-39fba32381b5",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "古斯塔夫三世纪念雕像揭幕",
+    "titleCn": "古斯塔夫三世纪念雕像揭幕",
+    "date": {
+      "year": 1808,
+      "month": 1,
+      "day": 4,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1808年1月4日，约翰·托比亚斯·塞格尔创作的古斯塔夫三世纪念雕像在斯德哥尔摩揭幕。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "展览"
+    ],
+    "meta": {
+      "country": "瑞典",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑、展览",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "a0281ea6-094f-4978-91c6-0ce1c1aae743",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "托马斯·罗兰森和A. C.皮然创作铜版画《巴多罗买展销会》",
+    "titleCn": "托马斯·罗兰森和A. C.皮然创作铜版画《巴多罗买展销会》",
+    "date": {
+      "year": 1808
+    },
+    "descriptionCn": "1808年至1810年，托马斯·罗兰森和A. C.皮然合作创作了铜版画《巴多罗买展销会》，描绘了伦敦巴多罗买展销会的热闹场景，反映了街头娱乐文化与精英艺术的对比。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画、出版",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b08c2ed9-d8b9-4b9f-9bf3-a58d81ccddba",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "本杰明·海登计划在多佛峭壁上竖立不列颠尼亚雕像",
+    "titleCn": "本杰明·海登计划在多佛峭壁上竖立不列颠尼亚雕像",
+    "date": {
+      "year": 1808,
+      "month": 7
+    },
+    "descriptionCn": "1808年7月，本杰明·海登在日记中记录了一项创作计划，拟在多佛峭壁上竖立一座巨大的不列颠尼亚雕像，以高傲姿态俯视法兰西。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "2bb6e711-778a-402c-b5c2-e9651655a3e6",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "约翰·克罗姆创作油画《亚尔河上月出》",
+    "titleCn": "约翰·克罗姆创作油画《亚尔河上月出》",
+    "date": {
+      "year": 1808,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1808年，英国画家约翰·克罗姆创作了油画《亚尔河上月出》，现藏于伦敦国家美术馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "f5e9bf8f-bba1-4588-be92-0a970016567e",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "英国皇家美术学院院士召开系列会议研究埃尔金大理石",
+    "titleCn": "英国皇家美术学院院士召开系列会议研究埃尔金大理石",
+    "date": {
+      "year": 1808,
+      "month": 6
+    },
+    "descriptionCn": "1808年6月至7月，英国皇家美术学院的知名院士召开了系列会议，专门研究新近运抵英国的埃尔金大理石雕像，尤其关注其中举世闻名的英国拳击手形象。他们一致认为，这些运动员的肌肉发达外形与古典雕刻非常接近。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "cdbf2f4f-091a-4c41-b8c7-02c8aef9290e",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "卡斯帕·达维德·弗里德里希创作《橡树林中的大教堂》",
+    "titleCn": "卡斯帕·达维德·弗里德里希创作《橡树林中的大教堂》",
+    "date": {
+      "year": 1809
+    },
+    "descriptionCn": "1809年至1810年，德国画家卡斯帕·达维德·弗里德里希创作了布面油画《橡树林中的大教堂》，尺寸为1.12米×1.74米，现藏于德国柏林夏洛腾堡。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "浪漫主义时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "1b577f3b-14ed-493a-ac0d-3cf50ea649bd",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "雅各布-德斯马尔特为玛丽-路易丝皇后制作宝石柜",
+    "titleCn": "雅各布-德斯马尔特为玛丽-路易丝皇后制作宝石柜",
+    "date": {
+      "year": 1809
+    },
+    "descriptionCn": "1809年，雅各布-德斯马尔特为玛丽-路易丝皇后制作宝石柜，现藏枫丹白露宫。",
+    "importance": 3,
+    "tags": [
+      "设计",
+      "工艺美术"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "法兰西第一帝国",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计、工艺美术",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "2f9a3a22-b39d-4d50-8280-f07377ef1d2f",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "一群艺术家在罗马圣伊西多罗修道院聚集并自称拿撒勒人派",
+    "titleCn": "一群艺术家在罗马圣伊西多罗修道院聚集并自称拿撒勒人派",
+    "date": {
+      "year": 1810
+    },
+    "descriptionCn": "1810年，一群艺术家聚集在罗马圣伊西多罗修道院，自称拿撒勒人派，使德国脱离新古典主义传统，颂扬佩鲁吉诺和拉斐尔的早期作品。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ea453281-28c5-4691-ad6c-003a5965321f",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "德国拿撒勒人画派在罗马成立",
+    "titleCn": "德国拿撒勒人画派在罗马成立",
+    "date": {
+      "year": 1810
+    },
+    "descriptionCn": "1810年，德国画家在罗马圣伊西多罗修道院内集结，形成'拿撒勒人'画派。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "浪漫主义",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "fe81c9af-9fbc-4674-ae74-55e4f5fe935e",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "司汤达创作《意大利绘画史》",
+    "titleCn": "司汤达创作《意大利绘画史》",
+    "date": {
+      "year": 1811
+    },
+    "descriptionCn": "1811年至1817年，司汤达创作了艺术史著作《意大利绘画史》。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "36512295-dc40-403f-a7db-4ac709df135b",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "安东尼奥·卡诺瓦完成《作和平卫士马尔斯状的拿破仑像》",
+    "titleCn": "安东尼奥·卡诺瓦完成《作和平卫士马尔斯状的拿破仑像》",
+    "date": {
+      "year": 1811
+    },
+    "descriptionCn": "1811年，安东尼奥·卡诺瓦完成拿破仑委托的雕塑《作和平卫士马尔斯状的拿破仑像》，但由于拿破仑地位动摇，未公开展出。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "f173d886-2c49-4afd-8cfe-f6b48db5db0e",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "托瓦尔森创作《亚历山大浮雕饰带》",
+    "titleCn": "托瓦尔森创作《亚历山大浮雕饰带》",
+    "date": {
+      "year": 1812
+    },
+    "descriptionCn": "1812年，丹麦雕塑家贝特尔·托瓦尔森为拿破仑在罗马的宅邸创作了《亚历山大浮雕饰带》，将拿破仑进入罗马与亚历山大大帝征服巴比伦相提并论。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "1d1de3d9-5fae-4095-9911-f25e01eb69c8",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "托马斯·罗兰森刻版《天才的房间》",
+    "titleCn": "托马斯·罗兰森刻版《天才的房间》",
+    "date": {
+      "year": 1812
+    },
+    "descriptionCn": "1812年，英国艺术家托马斯·罗兰森创作着色铜版画《天才的房间》，描绘艺术家在阁楼画室中专注于创作，妻子痛苦地蜷缩在床上的场景，讽刺社会对天才艺术家的刻板印象。",
+    "importance": 3,
+    "tags": [
+      "版画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "版画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b6d3d9ac-b62b-42c8-9534-9d6e758073f8",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "托马斯·罗兰森发行《天才的房间》",
+    "titleCn": "托马斯·罗兰森发行《天才的房间》",
+    "date": {
+      "year": 1812,
+      "month": 4,
+      "day": 2
+    },
+    "descriptionCn": "1812年4月2日，托马斯·罗兰森发行了着色铜版画《天才的房间》，尺寸为21.5厘米×28.8厘米。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "2042485d-e2a1-44f8-adc3-55cfae660797",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威尔基创作《介绍信》",
+    "titleCn": "威尔基创作《介绍信》",
+    "date": {
+      "year": 1813
+    },
+    "descriptionCn": "1813年，大卫·威尔基创作了木板油画《介绍信》，描绘了自己当年携带介绍信拜见怀特福德的场景，表达对朋友的纪念。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "07ffa48a-8e78-4180-a435-b4eadaba6ad2",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "申克尔为妻子苏珊创作素描",
+    "titleCn": "申克尔为妻子苏珊创作素描",
+    "date": {
+      "year": 1813
+    },
+    "descriptionCn": "1813年，卡尔·弗里德里希·申克尔为孕中的妻子苏珊创作了一幅铅笔素描，画中妻子站在哥特式门廊前，象征女性气质。该年德国在拿破仑战争中获胜，画家第三子出生，苏珊父亲去世。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "c2c768ac-26da-414d-87b4-ea968b181593",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "克里斯托弗·威廉·埃克斯贝尔创作《贝特尔·托瓦尔森像》",
+    "titleCn": "克里斯托弗·威廉·埃克斯贝尔创作《贝特尔·托瓦尔森像》",
+    "date": {
+      "year": 1814
+    },
+    "descriptionCn": "1814年，丹麦画家克里斯托弗·威廉·埃克斯贝尔为哥本哈根皇家美术学院创作了肖像画《贝特尔·托瓦尔森像》。画中托瓦尔森坐在工作室中，身后是他为罗马奎里纳勒宫所作的浮雕模型，暗示艺术与军事胜利的联系。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "丹麦",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "844ab695-d29d-4820-9aa9-7c1837f5d494",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "克里斯托弗·威廉·埃克斯贝尔创作《贝特尔·托瓦尔森像》",
+    "titleCn": "克里斯托弗·威廉·埃克斯贝尔创作《贝特尔·托瓦尔森像》",
+    "date": {
+      "year": 1814
+    },
+    "descriptionCn": "1814年，克里斯托弗·威廉·埃克斯贝尔创作了布面油画《贝特尔·托瓦尔森像》，尺寸为90.7厘米×74.3厘米。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "丹麦",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "734d264a-0023-4281-9754-f91380c81570",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "弗朗西斯科·戈雅创作《1808年5月3日处决马德里人》",
+    "titleCn": "弗朗西斯科·戈雅创作《1808年5月3日处决马德里人》",
+    "date": {
+      "year": 1814
+    },
+    "descriptionCn": "1814年至1815年，弗朗西斯科·戈雅创作了《1808年5月3日处决马德里人》，描绘拿破仑军队处决反抗者，谴责战争暴行。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "3274124f-c5e6-4811-a08a-e21aafd6615d",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "弗朗西斯科·戈雅向新西班牙政府请愿用画笔描绘起义",
+    "titleCn": "弗朗西斯科·戈雅向新西班牙政府请愿用画笔描绘起义",
+    "date": {
+      "year": 1814
+    },
+    "descriptionCn": "1814年拿破仑倒台后，戈雅向新西班牙政府请愿，请求用绘画记录西班牙反抗拿破仑的起义，并获得委托。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "465642e8-7cec-417e-af0d-c53f75ad4253",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "泰奥多尔·席里柯创作《受伤的胸甲骑兵》",
+    "titleCn": "泰奥多尔·席里柯创作《受伤的胸甲骑兵》",
+    "date": {
+      "year": 1814
+    },
+    "descriptionCn": "1814年，法国画家泰奥多尔·席里柯创作了油画《受伤的胸甲骑兵》，表现骑兵在失败与挫折面前的勇敢精神。作品尺幅巨大，据称仅用三天完成，但遭到评论界恶评。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4b50d90e-3d1a-40aa-bed2-17947559de9a",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "泰奥多尔·席里柯创作《受伤的胸甲骑兵》",
+    "titleCn": "泰奥多尔·席里柯创作《受伤的胸甲骑兵》",
+    "date": {
+      "year": 1814
+    },
+    "descriptionCn": "1814年，泰奥多尔·席里柯创作了布面油画《受伤的胸甲骑兵》，尺寸为353厘米×294厘米。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "e7d8f0f0-d103-4565-8210-9f291d6b8085",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "《石渠宝笈三编》编成",
+    "titleCn": "《石渠宝笈三编》编成",
+    "date": {
+      "year": 1815
+    },
+    "descriptionCn": "1815年，英和、黄钺等按《石渠宝笈续编》体例，编成《石渠宝笈三编》，不分卷，装成28函、112册，书前设总目，每卷前设分目，收录书画2000余件。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画、书法",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "fa872deb-9692-4a52-b8cb-f274f17e2b06",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "卡尔·弗里德里希·申克尔创作《河边的中世纪城市》",
+    "titleCn": "卡尔·弗里德里希·申克尔创作《河边的中世纪城市》",
+    "date": {
+      "year": 1815
+    },
+    "descriptionCn": "1815年，德国建筑师和画家卡尔·弗里德里希·申克尔（Karl Friedrich Schinkel）创作了油画《河边的中世纪城市》，画面中耸立的哥特式教堂尖塔象征宗教复兴，彩虹预示和平。此画是一对作品中的一幅，另一幅已丢失。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "19世纪初",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "50d99e3e-1f91-48fe-9232-da649c282578",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "卡诺瓦前往英国参观埃尔金大理石",
+    "titleCn": "卡诺瓦前往英国参观埃尔金大理石",
+    "date": {
+      "year": 1815
+    },
+    "descriptionCn": "1815年，意大利雕塑家安东尼奥·卡诺瓦前往英国参观埃尔金大理石雕塑，此行得益于1814年的停战。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "f9a6c854-ba34-4f7c-8154-d86c3f6bfe4a",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "陈曼生设计紫砂壶",
+    "titleCn": "陈曼生设计紫砂壶",
+    "date": {
+      "year": 1815
+    },
+    "descriptionCn": "1815年，陈曼生设计紫砂壶，由制陶工匠杨彭年制作，壶上篆书为郭频伽所书。此壶体现了上层文人参与紫砂陶艺设计与篆刻结合的潮流。",
+    "importance": 3,
+    "tags": [
+      "设计",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "设计、雕塑",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "f9a6c854-ba34-4f7c-8154-d86c3f6bfe4a",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "陈曼生设计紫砂壶",
+    "titleCn": "陈曼生设计紫砂壶",
+    "date": {
+      "year": 1815
+    },
+    "descriptionCn": "1815年，陈曼生设计紫砂壶，由制陶工匠杨彭年制作，壶上篆书为郭频伽所书。此壶体现了上层文人参与紫砂陶艺设计与篆刻结合的潮流。",
+    "importance": 3,
+    "tags": [
+      "设计",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "设计、雕塑",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "335a25af-a198-4fdb-b293-250096fea84d",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "奥韦尔贝克和彼得·科内利乌斯接受委托在罗马巴尔托尔迪府邸创作约瑟夫生平壁画",
+    "titleCn": "奥韦尔贝克和彼得·科内利乌斯接受委托在罗马巴尔托尔迪府邸创作约瑟夫生平壁画",
+    "date": {
+      "year": 1816,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1816年，奥韦尔贝克和彼得·科内利乌斯接受委托，在罗马巴尔托尔迪府邸内创作一组描绘约瑟夫生平的壁画，运用他们的新学说。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "dde6b46f-b8c4-40bf-b496-d70f93417082",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "威廉·黑兹利特参观卢浮宫",
+    "titleCn": "威廉·黑兹利特参观卢浮宫",
+    "date": {
+      "year": 1816
+    },
+    "descriptionCn": "1816年，威廉·黑兹利特参观卢浮宫，感叹艺术如同女王般坐于王位，接受众人的崇拜。",
+    "importance": 1,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "940fe70b-f15a-4192-aa7c-711d1eb3ecc4",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "《京都竹枝词》刊行记载年画售卖盛况",
+    "titleCn": "《京都竹枝词》刊行记载年画售卖盛况",
+    "date": {
+      "year": 1817
+    },
+    "descriptionCn": "1817年（嘉庆二十二年），《京都竹枝词》刊行，其中描述了北京年画铺遍布街巷的盛况，并记载了\"西单东四画铺全，处处张罗写对联\"的诗句。",
+    "importance": 4,
+    "tags": [
+      "文学",
+      "民俗"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "文学、民俗",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "540eae4f-f514-4851-aa01-66d47044e804",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "吉罗代-特里奥松在四大美术学院会议上质疑审美绝对论",
+    "titleCn": "吉罗代-特里奥松在四大美术学院会议上质疑审美绝对论",
+    "date": {
+      "year": 1817,
+      "month": 4,
+      "day": 24
+    },
+    "descriptionCn": "1817年4月24日，法国画家吉罗代-特里奥松在四大美术学院会议上公开质疑审美绝对论，认为不同文化有迥异的美的观念。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "72a5c279-cffc-4d2e-addf-63d09063c468",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "透纳创作《迦太基帝国的衰落》",
+    "titleCn": "透纳创作《迦太基帝国的衰落》",
+    "date": {
+      "year": 1817
+    },
+    "descriptionCn": "1817年，英国画家威廉·透纳（J.M.W. Turner）创作了油画《迦太基帝国的衰落》（The Decline of Carthage），以历史题材警示英国公众骄傲与财富会导致文明毁灭。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "19世纪初",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "64eb0f8f-207e-481b-805f-8ac856eeacda",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "透纳创作水彩画《滑铁卢战场》",
+    "titleCn": "透纳创作水彩画《滑铁卢战场》",
+    "date": {
+      "year": 1817,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1817年，英国画家威廉·透纳创作了水彩画《滑铁卢战场》，描绘滑铁卢战役后的场景，表达对战争和民族主义热情的批判。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "19世纪初",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ef73d2e0-51e7-4dc1-9cb0-4a8bc5871663",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "书商编《芥子园画传》四集",
+    "titleCn": "书商编《芥子园画传》四集",
+    "date": {
+      "year": 1818
+    },
+    "descriptionCn": "1818年，书商因看到《芥子园画传》有利可图，于是编成《芥子园画传》四集，但该集没有画法说明，失去了学画工具书的作用。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "cf08f0f8-d465-4cf2-b305-d4ee10a99f65",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "劳伦斯为沙皇亚历山大画肖像",
+    "titleCn": "劳伦斯为沙皇亚历山大画肖像",
+    "date": {
+      "year": 1818,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1818年，托马斯·劳伦斯受托为沙皇亚历山大一世绘制肖像，该肖像为纪念《亚琛合约》签订的系列肖像之一。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "028cee76-aa9b-4159-8a5b-8c836e5cf3af",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "卡斯帕·大卫·弗里德里希创作《雾中大海上的徘徊者》",
+    "titleCn": "卡斯帕·大卫·弗里德里希创作《雾中大海上的徘徊者》",
+    "date": {
+      "year": 1818
+    },
+    "descriptionCn": "1818年，卡斯帕·大卫·弗里德里希创作了《雾中大海上的徘徊者》，描绘一位男子站在山顶俯瞰雾海，通过人物背影与逆光效果，探讨崇高体验中的自我消失与自然的力量。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ca9f3fc2-c7d9-4cda-a3d2-6f720810775a",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "泰奥多尔·席里柯创作《梅杜萨之筏》",
+    "titleCn": "泰奥多尔·席里柯创作《梅杜萨之筏》",
+    "date": {
+      "year": 1818
+    },
+    "descriptionCn": "1818年至1819年，法国画家泰奥多尔·席里柯创作大型历史画《梅杜萨之筏》，聚焦于一场因船长无能导致的海难，被视为政治抗议。创作期间艺术家几乎与世隔绝，观察将死病人并研究尸体以还原场景。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "3673e070-4ee7-4b05-8d5f-b13ae7273aaa",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "泰奥尔多·热里科创作《美杜莎之筏》",
+    "titleCn": "泰奥尔多·热里科创作《美杜莎之筏》",
+    "date": {
+      "year": 1818
+    },
+    "descriptionCn": "1818年至1819年，泰奥尔多·热里科创作了大型油画《美杜莎之筏》，取材自真实海难，批判政府无能。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4c53f609-87dc-4d76-b2dc-ead7b50439fd",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "萨穆埃尔·阿姆斯勒制作卡尔·菲利普·福尔肖像版画",
+    "titleCn": "萨穆埃尔·阿姆斯勒制作卡尔·菲利普·福尔肖像版画",
+    "date": {
+      "year": 1818
+    },
+    "descriptionCn": "1818年，瑞士版画家萨穆埃尔·阿姆斯勒（Samuel Amsler）根据卡尔·巴斯的素描原作，为德国画家卡尔·菲利普·福尔（Carl Philipp Fohr）制作了一幅版画肖像，以纪念这位溺死于台伯河中的画家。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "出版"
+    ],
+    "meta": {
+      "country": "瑞士",
+      "originalPeriod": "19世纪初",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、出版",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "f95ec820-4555-494d-a996-01668bfe8b49",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "《从主教花园看索尔兹伯里大教堂》",
+    "titleCn": "《从主教花园看索尔兹伯里大教堂》",
+    "date": {
+      "year": 1820,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1820年及其后，英国画家约翰·康斯特布尔创作了油画《从主教花园看索尔兹伯里大教堂》，描绘索尔兹伯里大教堂的景色，现藏于纽约大都会艺术博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "13d49d58-ea4c-4603-a61c-f04736054011",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "巴托洛米奥·皮内利创作肖像画《一个真正的罗马人后裔》",
+    "titleCn": "巴托洛米奥·皮内利创作肖像画《一个真正的罗马人后裔》",
+    "date": {
+      "year": 1820
+    },
+    "descriptionCn": "1820年，巴托洛米奥·皮内利创作肖像画《一个真正的罗马人后裔》，描绘了具有贵族气息的罗马农民形象。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9097f055-ec66-48f9-aeb4-5ebbecc56239",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "弗朗西斯科·戈雅创作《接受阿列塔医生治疗的自画像》",
+    "titleCn": "弗朗西斯科·戈雅创作《接受阿列塔医生治疗的自画像》",
+    "date": {
+      "year": 1820
+    },
+    "descriptionCn": "1820年，弗朗西斯科·戈雅创作了《接受阿列塔医生治疗的自画像》，描绘了他在1819年末患病时被救治的场景。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "86000c56-a4e3-4e23-b3ca-df94dd9b909c",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "桑顿博士委托威廉·布莱克为《维吉尔》作插图",
+    "titleCn": "桑顿博士委托威廉·布莱克为《维吉尔》作插图",
+    "date": {
+      "year": 1820
+    },
+    "descriptionCn": "1820年，桑顿博士委托英国诗人及画家威廉·布莱克为其《维吉尔》一书创作插图，但完成稿让桑顿震惊，几经周折才得以出版。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、出版",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4ea64d79-fe61-41f9-b467-c22ba1adb065",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "霍勒斯·韦尔内创作《和平与战争》",
+    "titleCn": "霍勒斯·韦尔内创作《和平与战争》",
+    "date": {
+      "year": 1820
+    },
+    "descriptionCn": "1820年，法国画家霍勒斯·韦尔内创作油画《和平与战争》，描绘一名骑兵军官在耕作时回忆辉煌过去，隐含对拿破仑时代军事实力丧失的批评。作品两年后在画家画室展出。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "展览"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、展览",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "e725647f-f455-47ca-b7d8-fd58e0db8f1c",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "霍勒斯·韦尔内创作《和平与战争》",
+    "titleCn": "霍勒斯·韦尔内创作《和平与战争》",
+    "date": {
+      "year": 1820
+    },
+    "descriptionCn": "1820年，霍勒斯·韦尔内创作了布面油画《和平与战争》，尺寸为55厘米×45.8厘米。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "53d41e3d-913a-4fe7-977c-527ce4bf0791",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "约翰·康斯坦布尔创作《干草车》",
+    "titleCn": "约翰·康斯坦布尔创作《干草车》",
+    "date": {
+      "year": 1821,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1821年，英国画家约翰·康斯坦布尔创作了布面油画《干草车》，尺寸为1.3米×1.85米，现藏于英国伦敦国家美术馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "浪漫主义时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "8b004177-bca9-4431-a8a9-fcc507a2c31c",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "巴托洛米奥·皮内利创作表现科隆纳广场狂欢节的版画",
+    "titleCn": "巴托洛米奥·皮内利创作表现科隆纳广场狂欢节的版画",
+    "date": {
+      "year": 1822
+    },
+    "descriptionCn": "1822年，巴托洛米奥·皮内利创作表现科隆纳广场罗马狂欢节的版画，认为狂欢节是意大利原始仪式的遗产。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "34759a9f-ce73-47ff-8f14-f207daa75a19",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "路易斯·达盖尔发明透视画",
+    "titleCn": "路易斯·达盖尔发明透视画",
+    "date": {
+      "year": 1822
+    },
+    "descriptionCn": "1822年，路易斯·达盖尔发明了透视画（diorama），将景象确立为照相机最基本的题材之一。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "7d9c7af7-262e-45fc-9366-1c7958f64295",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "阮元刻印《四库未收书提要》",
+    "titleCn": "阮元刻印《四库未收书提要》",
+    "date": {
+      "year": 1822
+    },
+    "descriptionCn": "道光二年（1822年），阮元刻印《四库未收书提要》，该书共5卷，收录《四库全书》未收之书172种，各撰提要一篇。",
+    "importance": 2,
+    "tags": [
+      "出版",
+      "文献编纂"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版、文献编纂",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "65489c40-01fe-4a98-91ec-771b5d20fc75",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "霍勒斯·韦尔内创作《约瑟夫·韦尔内把自己系在船桅上研究风暴》",
+    "titleCn": "霍勒斯·韦尔内创作《约瑟夫·韦尔内把自己系在船桅上研究风暴》",
+    "date": {
+      "year": 1822,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1822年，法国画家霍勒斯·韦尔内创作油画《约瑟夫·韦尔内把自己系在船桅上研究风暴》，描绘其祖父为体验自然力量而将自己绑在桅杆上的英雄故事。此主题在19世纪初法国艺术民俗学领域受到重视。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "00df216f-e801-49ea-89f4-979926fb4450",
+    "periodId": "p_modern",
+    "streamId": "s_east_asia_pre_modern",
+    "titleEn": "《神奈川外的巨浪》",
+    "titleCn": "《神奈川外的巨浪》",
+    "date": {
+      "year": 1823,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1823年至1829年间，日本画家葛饰北斋创作了木刻画《神奈川外的巨浪》，是《富岳三十六景》之一，现藏于纽约大都会艺术博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "日本",
+      "originalPeriod": "江户时代",
+      "standardPeriod": "东亚：前现代",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d8d4ebfa-e603-46e8-956c-4d5ff9fd080f",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "巴托洛米奥·皮内利创作版画《强盗的故事》",
+    "titleCn": "巴托洛米奥·皮内利创作版画《强盗的故事》",
+    "date": {
+      "year": 1823
+    },
+    "descriptionCn": "1823年，巴托洛米奥·皮内利创作版画《强盗的故事》，讲述了一个强盗妻子为子报仇的故事。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、出版",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "904a94dd-5174-4fe3-a9d7-694b4c7bf413",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "德·热维尔提出“罗马式”艺术名称",
+    "titleCn": "德·热维尔提出“罗马式”艺术名称",
+    "date": {
+      "year": 1823
+    },
+    "descriptionCn": "1823年，德·热维尔（de Gerville）以拉丁系语言的类推法提出“罗马式”这一艺术名称。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "b048c64f-6545-40ac-9143-544e71e4ec30",
+    "periodId": "p_modern",
+    "streamId": "s_east_asia_pre_modern",
+    "titleEn": "葛饰北斋创作《巨浪》（《富岳三十六景》之一）",
+    "titleCn": "葛饰北斋创作《巨浪》（《富岳三十六景》之一）",
+    "date": {
+      "year": 1823
+    },
+    "descriptionCn": "1823年至1829年，日本艺术家葛饰北斋创作了木刻版画《巨浪》，为《富岳三十六景》系列之一，尺寸为24厘米×37厘米，由出版商委托绘制。",
+    "importance": 3,
+    "tags": [
+      "版画"
+    ],
+    "meta": {
+      "country": "日本",
+      "originalPeriod": "江户时代",
+      "standardPeriod": "东亚：前现代",
+      "eventTypeRaw": "版画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "e13c6b3b-8f64-4401-b180-342f4fe89fdb",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "司汤达出版《欧洲雕塑概览》",
+    "titleCn": "司汤达出版《欧洲雕塑概览》",
+    "date": {
+      "year": 1824
+    },
+    "descriptionCn": "1824年，法国作家司汤达（Stendhal）出版了《欧洲雕塑概览》（Survey of the State of Sculpture in Europe），作为国际艺术报道的典范，反映了后拿破仑时代欧洲艺术世界的分裂。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪初",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "fbd8de7a-c37d-4468-90d6-c9cf926ae432",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "威廉·黑兹利特参观伦敦国家画廊",
+    "titleCn": "威廉·黑兹利特参观伦敦国家画廊",
+    "date": {
+      "year": 1824
+    },
+    "descriptionCn": "1824年，威廉·黑兹利特参观了新开放的伦敦国家画廊，认为其空间具有仪式化特征，能够带来精神上的治愈和转化。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "abf18bab-abea-4b0d-ab2e-4f67d76e7818",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "利奥波德·罗伯特完成画作《强盗一家，正用偷自游客的东西装扮自己》",
+    "titleCn": "利奥波德·罗伯特完成画作《强盗一家，正用偷自游客的东西装扮自己》",
+    "date": {
+      "year": 1825
+    },
+    "descriptionCn": "1825年，利奥波德·罗伯特完成画作《强盗一家，正用偷自游客的东西装扮自己》，该画随后被内塞尔罗德女伯爵收购。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "交易"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、交易",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "98e4bce7-a013-4a33-876d-e3386c45b5cd",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "涅普斯用日光蚀刻法制作第一张照片",
+    "titleCn": "涅普斯用日光蚀刻法制作第一张照片",
+    "date": {
+      "year": 1826,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1826年，约瑟夫·尼塞福尔·涅普斯用日光蚀刻法制作了史上第一张照片，将涂有沥青溶液的铜板经长时间曝光成像。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d3209aca-ef53-403e-8e91-adaad3a371db",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "约瑟夫·尼塞福尔·涅普斯固定第一张摄影形象",
+    "titleCn": "约瑟夫·尼塞福尔·涅普斯固定第一张摄影形象",
+    "date": {
+      "year": 1826,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1826年，法国人约瑟夫·尼塞福尔·涅普斯使用日光仪经过八小时曝光，拍摄了《从格拉斯的窗口看到的景象》，这张照片被认为是世界上第一张永久固定的摄影图像。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "f4767280-7463-4a88-be14-77e24457ff3e",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "德拉克罗瓦在沙龙展出《萨尔达纳帕卢斯之死》",
+    "titleCn": "德拉克罗瓦在沙龙展出《萨尔达纳帕卢斯之死》",
+    "date": {
+      "year": 1827
+    },
+    "descriptionCn": "1827年，欧仁·德拉克罗瓦在法国沙龙展出油画《萨尔达纳帕卢斯之死》，现藏于巴黎罗浮宫。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "浪漫主义",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "bf152ffd-9bd4-4384-8e49-e240282d7a1f",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "本杰明·海登创作《模拟选举》",
+    "titleCn": "本杰明·海登创作《模拟选举》",
+    "date": {
+      "year": 1827
+    },
+    "descriptionCn": "1827年，本杰明·海登创作了油画《模拟选举》（Mock Election），描绘了他在狱中因债务问题被监禁期间目睹的一场妙趣横生的模拟选举。画中重点描绘了一名健壮的运动员，其姿态直接源于古典艺术，显示了某种历史画的宏大精神，有意与荷加斯的《选举宴会》形成对比。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a566a534-24ec-4b0f-b7e7-fab811cea85e",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "J. C. F. 罗西完成雕塑《英国拳击手》",
+    "titleCn": "J. C. F. 罗西完成雕塑《英国拳击手》",
+    "date": {
+      "year": 1828,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1828年，约翰·查尔斯·费力克斯·罗西（J. C. F. Rossi）完成了雕塑代表作《英国拳击手》（The British Pugilist），该雕像由一整块大理石雕刻而成（尽管后人有争议），为埃格雷蒙特勋爵的雕塑博物馆所作。雕像展现了近代英国男性的古典男性气概，技巧堪比古代雕塑家。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "a9200304-c21f-46da-a603-09e21847883c",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "J. T.史密斯出版《诺勒肯斯及其时代》",
+    "titleCn": "J. T.史密斯出版《诺勒肯斯及其时代》",
+    "date": {
+      "year": 1828
+    },
+    "descriptionCn": "1828年，英国作家J. T.史密斯出版回忆录《诺勒肯斯及其时代》，记录18世纪最后30年伦敦艺术界的琐事，通过对比雕塑家诺勒肯斯与弗拉克斯曼，体现艺术价值观的变迁。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "f95c19b9-ac5c-40a7-ad7f-a6a4379d6de2",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "罗马举行国际艺术展览",
+    "titleCn": "罗马举行国际艺术展览",
+    "date": {
+      "year": 1829
+    },
+    "descriptionCn": "1829年至1830年，罗马举行了一次国际艺术展览，由德国、意大利及英国艺术家组成的团体举办，旨在促进国际艺术友爱。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "939c4b08-90ff-4d24-9a6f-91fcf4cab1fa",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "卡尔·布留洛夫创作《庞贝末日》",
+    "titleCn": "卡尔·布留洛夫创作《庞贝末日》",
+    "date": {
+      "year": 1830
+    },
+    "descriptionCn": "1830年至1833年，俄国画家卡尔·布留洛夫创作了油画《庞贝末日》（The Last Day of Pompeii），成为第一件引起国际轰动的俄国艺术作品，反映了后拿破仑时代的绝望预言。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "俄罗斯",
+      "originalPeriod": "19世纪初",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9c98d7b2-f5aa-4066-8dca-4920116d03f2",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "湖北汉剧戏班进京",
+    "titleCn": "湖北汉剧戏班进京",
+    "date": {
+      "year": 1830
+    },
+    "descriptionCn": "道光十年（1830年），湖北汉剧戏班进京，以皮黄腔声震京师。",
+    "importance": 4,
+    "tags": [
+      "戏曲"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "戏曲",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "18d258c9-0042-4781-900e-2dc441aad61b",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "霍勒斯·韦尔内完成画作《教皇军队突袭意大利强盗》",
+    "titleCn": "霍勒斯·韦尔内完成画作《教皇军队突袭意大利强盗》",
+    "date": {
+      "year": 1831
+    },
+    "descriptionCn": "1831年，霍勒斯·韦尔内完成画作《教皇军队突袭意大利强盗》，该画强烈表达了对强盗文化遭迫害的愤慨。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "0afb42b6-352e-4499-a8d5-03146415f434",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "奥诺雷·杜米埃因漫画讽刺国王入狱",
+    "titleCn": "奥诺雷·杜米埃因漫画讽刺国王入狱",
+    "date": {
+      "year": 1832
+    },
+    "descriptionCn": "1832年，法国艺术家奥诺雷·杜米埃因在漫画中将国王路易·菲利普画成《巨人传》中的高康太形象，被判处5个月监禁。",
+    "importance": 4,
+    "tags": [
+      "漫画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "漫画",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "b8d0e770-30dc-48ec-b366-e5d840fb6c87",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "美国国会委托霍拉肖·格里诺创作乔治·华盛顿雕像",
+    "titleCn": "美国国会委托霍拉肖·格里诺创作乔治·华盛顿雕像",
+    "date": {
+      "year": 1832
+    },
+    "descriptionCn": "1832年，美国国会委托当时在美国工作的著名雕塑家霍拉肖·格里诺创作一尊巨大的乔治·华盛顿大理石雕像，原本计划放置在国会大厦圆形大厅。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "f81f3692-a52a-486e-b0b9-d8c043d769ce",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "埃德姆·让·皮加尔创作《院士》",
+    "titleCn": "埃德姆·让·皮加尔创作《院士》",
+    "date": {
+      "year": 1833,
+      "month": 10,
+      "day": 2
+    },
+    "descriptionCn": "1833年10月2日，埃德姆·让·皮加尔创作了着色石版画《院士》，属于《巴黎职业》组画，发表于《逗闹》杂志，尺寸为50厘米×40厘米。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "69bf4309-d0ee-41e2-8a02-cd4974f4da79",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "弗朗索瓦·吕德创作《1792年志愿者启程》（《马赛曲》）",
+    "titleCn": "弗朗索瓦·吕德创作《1792年志愿者启程》（《马赛曲》）",
+    "date": {
+      "year": 1833,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1833年至1836年，法国雕塑家弗朗索瓦·吕德创作了高浮雕作品《1792年志愿者启程》（又称《马赛曲》），用于装饰巴黎凯旋门。该作品为石灰岩材质，高约12.6米，由法王路易·菲利普政府委托制作。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "浪漫主义时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "f8ae233a-05a9-4c95-9539-aa5505d7d950",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "约瑟夫·尼塞福尔·涅普斯逝世",
+    "titleCn": "约瑟夫·尼塞福尔·涅普斯逝世",
+    "date": {
+      "year": 1833,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1833年，法国摄影先驱约瑟夫·尼塞福尔·涅普斯去世。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d5f0f4eb-547a-4cbd-a5ef-b78799ec3f6b",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "奥诺雷·杜米埃创作《新闻自由：不可干涉的自由》",
+    "titleCn": "奥诺雷·杜米埃创作《新闻自由：不可干涉的自由》",
+    "date": {
+      "year": 1834
+    },
+    "descriptionCn": "1834年，法国艺术家奥诺雷·杜米埃创作了石板印刷作品《新闻自由：不可干涉的自由》，尺寸为29厘米×44厘米，刊登在1834年5月版的《漫画》杂志上，可能由该杂志出版商委托创作。",
+    "importance": 3,
+    "tags": [
+      "版画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "版画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b171e123-6a50-4c63-af3f-a167ae65f57d",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "奥诺雷·杜米埃创作《特兰斯诺南街事件》",
+    "titleCn": "奥诺雷·杜米埃创作《特兰斯诺南街事件》",
+    "date": {
+      "year": 1834
+    },
+    "descriptionCn": "1834年，法国艺术家奥诺雷·杜米埃创作了石板印刷作品《特兰斯诺南街事件》，尺寸为29厘米×44厘米，于1834年6月发表在《每月协会》杂志上，可能由杂志发行商委托制作。该作品描绘了1834年4月14日至15日夜间警察杀害无辜居民的事件，表达了对政府残酷政策的谴责。",
+    "importance": 3,
+    "tags": [
+      "版画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "版画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "07e48f71-d76e-4ac3-b9b5-aa3e4e6e201a",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·亨利·福克斯·塔尔博特开始实验光照图画",
+    "titleCn": "威廉·亨利·福克斯·塔尔博特开始实验光照图画",
+    "date": {
+      "year": 1834
+    },
+    "descriptionCn": "1834年，英国科学家威廉·亨利·福克斯·塔尔博特开始使用“光照图画”进行摄影实验，将物体放在感光纸上并暴露于日光下，制作出简单的物像印痕。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "85378d95-165e-4db5-b153-d30e36a92376",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "威斯敏斯特宫（伦敦议会大厦）发生大火",
+    "titleCn": "威斯敏斯特宫（伦敦议会大厦）发生大火",
+    "date": {
+      "year": 1834
+    },
+    "descriptionCn": "1834年，威斯敏斯特宫（伦敦议会大厦）发生大火，后由查尔斯·巴里和普金重建。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "d5d6d286-8cc0-42c1-a671-ba2a222925a1",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "弗里德里希创作《人生的阶段》",
+    "titleCn": "弗里德里希创作《人生的阶段》",
+    "date": {
+      "year": 1834
+    },
+    "descriptionCn": "1834年至1835年，卡斯帕·大卫·弗里德里希创作了《人生的阶段》（又名《男人的三个阶段》），为哥哥所画，完成于拿破仑战败20年后。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b130ddd4-3568-441c-b161-e5e6faa7743c",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "关乔昌油画参加伦敦皇家学院展览",
+    "titleCn": "关乔昌油画参加伦敦皇家学院展览",
+    "date": {
+      "year": 1835
+    },
+    "descriptionCn": "1835年，关乔昌的油画参加了伦敦皇家学院的展览。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "5ff509c8-bc98-4027-a7a9-0fcb9d04d6f9",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·亨利·福克斯·塔尔博特制作第一张负片《格窗》",
+    "titleCn": "威廉·亨利·福克斯·塔尔博特制作第一张负片《格窗》",
+    "date": {
+      "year": 1835
+    },
+    "descriptionCn": "1835年，威廉·亨利·福克斯·塔尔博特拍摄了《格窗》，这是世界上第一张负片，从此可以通过负片复制无数正片，奠定了现代摄影的基础。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5c252955-f3bd-4635-b395-3f39d21da597",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "杨中海出生",
+    "titleCn": "杨中海出生",
+    "date": {
+      "year": 1835
+    },
+    "descriptionCn": "1835年，杨中海出生。为南公泰画店传人，自幼聪颖好学，全面掌握了绘刻技艺。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "cf9421e5-40ef-409c-883c-02ee6de3861a",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "爱德华·莱恩出版《现代埃及人的习俗和习惯》",
+    "titleCn": "爱德华·莱恩出版《现代埃及人的习俗和习惯》",
+    "date": {
+      "year": 1835
+    },
+    "descriptionCn": "1835年，爱德华·莱恩出版了著作《现代埃及人的习俗和习惯》，该书以其精确的描述成为现代埃及人种学的经典作品。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "c3ec2928-2ba9-484e-b58e-19a148658dbd",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "高桐轩出生",
+    "titleCn": "高桐轩出生",
+    "date": {
+      "year": 1835
+    },
+    "descriptionCn": "1835年，高桐轩出生于杨柳青镇。",
+    "importance": 4,
+    "tags": [
+      "年画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "年画",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "098744e1-a6f4-4b5d-bcab-3f0b03fcde4e",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "黑格尔《美学讲演录》出版",
+    "titleCn": "黑格尔《美学讲演录》出版",
+    "date": {
+      "year": 1835
+    },
+    "descriptionCn": "1835年至1838年，格奥尔格·威廉·弗里德里希·黑格尔的《美学讲演录》在柏林出版。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "098744e1-a6f4-4b5d-bcab-3f0b03fcde4e",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "黑格尔《美学讲演录》出版",
+    "titleCn": "黑格尔《美学讲演录》出版",
+    "date": {
+      "year": 1835
+    },
+    "descriptionCn": "1835年至1838年，格奥尔格·威廉·弗里德里希·黑格尔的《美学讲演录》在柏林出版。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "6a427a02-382d-4e51-91d8-fa67860d268f",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "黑格尔出版《美学：美术讲座》",
+    "titleCn": "黑格尔出版《美学：美术讲座》",
+    "date": {
+      "year": 1835
+    },
+    "descriptionCn": "1835年至1838年，格奥尔格·威廉·弗里德里希·黑格尔的《美学：美术讲座》出版，该书基于1820年至1830年间在柏林大学的讲座内容，系统阐述了其艺术哲学，将艺术视为绝对理念的感性显现，并提出了象征型、古典型和浪漫型艺术的历史发展模式。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "a2316774-61e8-4cbc-a972-7790b21c7911",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "巴黎凯旋门完工",
+    "titleCn": "巴黎凯旋门完工",
+    "date": {
+      "year": 1836
+    },
+    "descriptionCn": "1836年，巴黎凯旋门最终完工，其上增加的雕塑向法国大革命中的英雄致敬。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "5ae8b646-b905-4cd9-980f-0abde6147b44",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "托马斯·科尔创作《帝国历程：荒芜》",
+    "titleCn": "托马斯·科尔创作《帝国历程：荒芜》",
+    "date": {
+      "year": 1836
+    },
+    "descriptionCn": "1836年，托马斯·科尔创作了布面油画《帝国历程：荒芜》，为《帝国历程》组画之一。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ce1768cb-dcda-4ad2-8458-c398c00355f9",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "托马斯·科尔致信卢曼·里德哀恸树木被砍伐",
+    "titleCn": "托马斯·科尔致信卢曼·里德哀恸树木被砍伐",
+    "date": {
+      "year": 1836,
+      "month": 3,
+      "day": 26
+    },
+    "descriptionCn": "1836年3月26日，托马斯·科尔致信友人卢曼·里德，哀恸于美丽山谷中的树木被砍伐，并呼吁杜兰德一同诅咒视金钱如上帝的功利主义者。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "1985fe16-4140-45a0-9d4c-31b993823f21",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "查尔斯·巴里和奥古斯塔斯·皮金开始建造伦敦议会大厦",
+    "titleCn": "查尔斯·巴里和奥古斯塔斯·皮金开始建造伦敦议会大厦",
+    "date": {
+      "year": 1836
+    },
+    "descriptionCn": "1836年，建筑师查尔斯·巴里和奥古斯塔斯·皮金开始建造英国伦敦的议会大厦（哥特式复兴风格），该建筑于1852年投入使用，1870年竣工，由国会和英王威廉四世委托建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "维多利亚时代",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "df4ee357-20d2-4953-b585-281a7658d25d",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "路易斯-雅克-曼德·达盖尔拍摄《珍奇盒子的内部》",
+    "titleCn": "路易斯-雅克-曼德·达盖尔拍摄《珍奇盒子的内部》",
+    "date": {
+      "year": 1837
+    },
+    "descriptionCn": "1837年，法国人路易斯-雅克-曼德·达盖尔拍摄了银版照片《珍奇盒子的内部》，展现了高度的清晰度和细节，标志着银版照相技术的成熟。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "c6fb3712-31c1-489e-97cd-6de8c1e7ada9",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "克里斯托弗·威廉·埃克斯贝尔创作《托瓦尔森抵达哥本哈根》",
+    "titleCn": "克里斯托弗·威廉·埃克斯贝尔创作《托瓦尔森抵达哥本哈根》",
+    "date": {
+      "year": 1838
+    },
+    "descriptionCn": "1838年，克里斯托弗·威廉·埃克斯贝尔创作了布面油画《托瓦尔森抵达哥本哈根》，尺寸为71.9厘米×96.2厘米。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "丹麦",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "661e7353-9383-4bde-a055-4658c63855e2",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "托瓦尔森抵达哥本哈根",
+    "titleCn": "托瓦尔森抵达哥本哈根",
+    "date": {
+      "year": 1838
+    },
+    "descriptionCn": "1838年，丹麦雕塑家贝特尔·托瓦尔森抵达哥本哈根，受到欢迎，美国罗德岛历史协会秘书在致辞中宣称其是早期美国殖民者的后裔。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "展览"
+    ],
+    "meta": {
+      "country": "丹麦",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "雕塑、展览",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "d3a9a574-5d38-42b0-b313-2c95e11cfb6a",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "托马斯·科尔创作《史洛恩山，阿迪朗达克山脉》",
+    "titleCn": "托马斯·科尔创作《史洛恩山，阿迪朗达克山脉》",
+    "date": {
+      "year": 1838,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1838年，托马斯·科尔创作了油画《史洛恩山，阿迪朗达克山脉》，描绘纽约州阿迪朗达克山脉的秋景，画面前景有两个印第安人，作品歌颂美国风景，收藏于克利夫兰美术馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "e825928c-e38d-4778-b78a-91c5304256e0",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "贝特尔·托瓦尔森抵达哥本哈根",
+    "titleCn": "贝特尔·托瓦尔森抵达哥本哈根",
+    "date": {
+      "year": 1838,
+      "month": 9
+    },
+    "descriptionCn": "1838年9月，丹麦雕塑家贝特尔·托瓦尔森回到哥本哈根，受到公众狂热欢迎，场面如同迎接凯旋的战争英雄。埃克斯贝尔描绘了这一场景，画中天空出现巨大彩虹，海面被罕见天光照亮。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "展览"
+    ],
+    "meta": {
+      "country": "丹麦",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑、展览",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "ec8def03-1335-4a60-a0c5-36bc2c7d4b72",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "保罗·德拉罗什向法国国民议会宣布摄影术诞生",
+    "titleCn": "保罗·德拉罗什向法国国民议会宣布摄影术诞生",
+    "date": {
+      "year": 1839
+    },
+    "descriptionCn": "1839年，画家保罗·德拉罗什向法国国民议会宣布摄影术诞生。",
+    "importance": 2,
+    "tags": [
+      "出版",
+      "设计"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "出版、设计",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "df3d6b1b-8267-411b-8bc5-368bc7f82055",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·亨利·福克斯·塔尔博特公布摄影发明",
+    "titleCn": "威廉·亨利·福克斯·塔尔博特公布摄影发明",
+    "date": {
+      "year": 1839
+    },
+    "descriptionCn": "1839年，英国科学家威廉·亨利·福克斯·塔尔博特公布了他的摄影发明，即碘化银纸照相法的基础。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "614c5ab7-e93b-461d-b883-e733b24ded93",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "约翰·赫舍尔首次使用“摄影”一词",
+    "titleCn": "约翰·赫舍尔首次使用“摄影”一词",
+    "date": {
+      "year": 1839,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1839年，英国科学家约翰·赫舍尔爵士在皇家美术学院的讲座中首次使用“摄影”一词，源自古希腊语“美的图画”。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "95005873-ee37-430d-bdd4-072d33b73c0b",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "路易-雅克-曼德·达盖尔创作摄影作品《贝壳与化石》",
+    "titleCn": "路易-雅克-曼德·达盖尔创作摄影作品《贝壳与化石》",
+    "date": {
+      "year": 1839
+    },
+    "descriptionCn": "1839年，法国摄影家路易-雅克-曼德·达盖尔创作了摄影作品《贝壳与化石》，反映了19世纪的博物馆文化与分类收藏。",
+    "importance": 3,
+    "tags": [
+      "摄影"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "摄影",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4ff150a3-9f1a-44a0-82a3-76f8ed550105",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "路易斯-雅克-曼德·达盖尔公布银版照相法",
+    "titleCn": "路易斯-雅克-曼德·达盖尔公布银版照相法",
+    "date": {
+      "year": 1839
+    },
+    "descriptionCn": "1839年，法国发明家路易斯-雅克-曼德·达盖尔正式公布银版照相法，这一发明被《法国时报》称为将给图画艺术带来革命。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "7f94a47a-cfbb-4031-864e-640a13a6916b",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "达盖尔公布银版照相法",
+    "titleCn": "达盖尔公布银版照相法",
+    "date": {
+      "year": 1839
+    },
+    "descriptionCn": "1839年，法国人路易斯-雅克-曼德·达盖尔公布了银版照相法，该技术基于与涅普斯合作的成果，在抛光的铜版上镀银并用碘蒸气熏制感光。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "04a747f4-402e-4929-91e5-b75eb890454c",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "达盖尔银版法摄影术公诸于世",
+    "titleCn": "达盖尔银版法摄影术公诸于世",
+    "date": {
+      "year": 1839
+    },
+    "descriptionCn": "1839年，达盖尔银版法摄影术公诸于世，摄影艺术由此诞生。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ec7172ed-1090-49d1-8111-bc2b6acac8f1",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "塔尔博特发明碘化银纸照相法",
+    "titleCn": "塔尔博特发明碘化银纸照相法",
+    "date": {
+      "year": 1840
+    },
+    "descriptionCn": "1840年，英国发明家威廉·亨利·福克斯·塔尔博特发明了碘化银纸照相法，这是一种使用纸基硝酸银盐相纸的摄影技术。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "56a9b680-1007-47e9-ba51-0f08c66d3901",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·亨利·福克斯·塔尔博特发明碘化银纸照相法",
+    "titleCn": "威廉·亨利·福克斯·塔尔博特发明碘化银纸照相法",
+    "date": {
+      "year": 1840
+    },
+    "descriptionCn": "1840年，威廉·亨利·福克斯·塔尔博特发明了碘化银纸照相法，这是第一个真正的负/正摄影过程，可以从一个负片产生无数正片。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ec7757a5-c847-48ad-9098-63f1f833dc7e",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "托马斯·科尔创作《建筑家之梦》",
+    "titleCn": "托马斯·科尔创作《建筑家之梦》",
+    "date": {
+      "year": 1840
+    },
+    "descriptionCn": "1840年，美国画家托马斯·科尔（Thomas Cole）创作了油画《建筑家之梦》（The Architect's Dream），描绘一个现代艺术家俯瞰不同历史时期建筑的集合，体现了19世纪初的现代性观念。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "20bb49f7-98e7-442c-b729-a3565c43a4a5",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "约瑟夫·马洛德·威廉·透纳创作《奴隶船》",
+    "titleCn": "约瑟夫·马洛德·威廉·透纳创作《奴隶船》",
+    "date": {
+      "year": 1840,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1840年，英国画家约瑟夫·马洛德·威廉·透纳创作了布面油画《奴隶船》，尺寸为91厘米×123厘米，现藏于波士顿美术馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "浪漫主义时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a079e09c-5967-44f9-890b-8e04961efbde",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "绘制《道光皇帝和他的孩子们》画卷",
+    "titleCn": "绘制《道光皇帝和他的孩子们》画卷",
+    "date": {
+      "year": 1840
+    },
+    "descriptionCn": "1840年，清宫廷画家绘制《道光皇帝和他的孩子们》绢本画卷。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a079e09c-5967-44f9-890b-8e04961efbde",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "绘制《道光皇帝和他的孩子们》画卷",
+    "titleCn": "绘制《道光皇帝和他的孩子们》画卷",
+    "date": {
+      "year": 1840
+    },
+    "descriptionCn": "1840年，清宫廷画家绘制《道光皇帝和他的孩子们》绢本画卷。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b574b37f-cffc-44d9-9fd3-5c82081f01ab",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "关乔昌作品参加纽约展览",
+    "titleCn": "关乔昌作品参加纽约展览",
+    "date": {
+      "year": 1841,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1841年，关乔昌作品参加纽约展览。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "b574b37f-cffc-44d9-9fd3-5c82081f01ab",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "关乔昌作品参加纽约展览",
+    "titleCn": "关乔昌作品参加纽约展览",
+    "date": {
+      "year": 1841,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1841年，关乔昌作品参加纽约展览。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "facc9c8e-6ab2-405d-8ef7-538d5f066bb3",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "霍拉肖·格里诺完成乔治·华盛顿雕像",
+    "titleCn": "霍拉肖·格里诺完成乔治·华盛顿雕像",
+    "date": {
+      "year": 1841
+    },
+    "descriptionCn": "1841年，霍拉肖·格里诺完成乔治·华盛顿雕像，但由于当时美国人对新古典主义热情减弱，雕像未获好评。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "a930f0fa-0f7d-41c8-beac-27acbb925cb7",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "《暴风雪中的汽船》",
+    "titleCn": "《暴风雪中的汽船》",
+    "date": {
+      "year": 1842
+    },
+    "descriptionCn": "1842年，英国画家J.M.W.透纳创作了油画《暴风雪中的汽船》，表现海上的风暴，现藏于伦敦泰特美术馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "47a1ec3e-7da0-4573-aa9a-dadeb47772cc",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "尼古拉一世雇用建筑师建造公共博物馆",
+    "titleCn": "尼古拉一世雇用建筑师建造公共博物馆",
+    "date": {
+      "year": 1842
+    },
+    "descriptionCn": "1842年至1851年，俄国沙皇尼古拉一世雇用德国建筑师奥托·冯·克伦策在冬宫旁建造一座公共博物馆。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "俄罗斯",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "cd11e401-1beb-411c-bd90-1e56acdeba39",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "盖恩斯伍德建造（古希腊式复兴风格）",
+    "titleCn": "盖恩斯伍德建造（古希腊式复兴风格）",
+    "date": {
+      "year": 1842
+    },
+    "descriptionCn": "1842年至1860年前后，在美国阿拉巴马州迪莫波利斯建造了盖恩斯伍德（古希腊式复兴风格建筑），为木结构。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "92f0a385-d2ad-4ff6-9b3c-ad0bf9c8e570",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·亨利·福克斯·塔尔博特创作摄影作品《敞开的门》",
+    "titleCn": "威廉·亨利·福克斯·塔尔博特创作摄影作品《敞开的门》",
+    "date": {
+      "year": 1843
+    },
+    "descriptionCn": "1843年，英国摄影家威廉·亨利·福克斯·塔尔博特创作了摄影作品《敞开的门》，该作品明显参照了17世纪荷兰艺术，具有绘画性构图。",
+    "importance": 3,
+    "tags": [
+      "摄影"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "维多利亚时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "摄影",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "0991766a-fea6-4504-97ae-5d3144baec06",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "亨利·福克斯·塔尔博特出版《自然的铅笔》",
+    "titleCn": "亨利·福克斯·塔尔博特出版《自然的铅笔》",
+    "date": {
+      "year": 1844,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1844年至1846年，英国摄影家亨利·福克斯·塔尔博特分期出版了摄影出版物《自然的铅笔》，该书包含24幅粘贴的碘化银纸照片，是首本包含摄影图像的书，生产了约2475张复制照片。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "维多利亚时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "f43bf511-f59f-40f1-bde8-691647d764c1",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "吴昌硕出生",
+    "titleCn": "吴昌硕出生",
+    "date": {
+      "year": 1844
+    },
+    "descriptionCn": "1844年，吴昌硕出生于浙江安吉，后成为清末民初著名书法家、篆刻家，海派书画代表人物。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "503289d2-9d52-4c5f-90ff-c6f621bfc31b",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·亨利·福克斯·塔尔博特出版《自然的铅笔》",
+    "titleCn": "威廉·亨利·福克斯·塔尔博特出版《自然的铅笔》",
+    "date": {
+      "year": 1844
+    },
+    "descriptionCn": "1844年，威廉·亨利·福克斯·塔尔博特出版了《自然的铅笔》，这是第一本以照片作为插图的书，展示了摄影的再现能力。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "6a085fbc-5920-42d6-89f9-afd52c86752e",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "查尔斯·舍瓦利耶创作巴黎景色照片",
+    "titleCn": "查尔斯·舍瓦利耶创作巴黎景色照片",
+    "date": {
+      "year": 1844
+    },
+    "descriptionCn": "1844年，查尔斯·舍瓦利耶创作了巴黎景色的照片，体现了全景图对城市摄影传统的重要性。",
+    "importance": 3,
+    "tags": [
+      "摄影"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "摄影",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "53003682-6f51-426a-a82d-9ae022f2f26a",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "邹伯奇完成第一部摄影技术著作",
+    "titleCn": "邹伯奇完成第一部摄影技术著作",
+    "date": {
+      "year": 1844
+    },
+    "descriptionCn": "1844年，邹伯奇完成第一部关于摄影技术的著作。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "53003682-6f51-426a-a82d-9ae022f2f26a",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "邹伯奇完成第一部摄影技术著作",
+    "titleCn": "邹伯奇完成第一部摄影技术著作",
+    "date": {
+      "year": 1844
+    },
+    "descriptionCn": "1844年，邹伯奇完成第一部关于摄影技术的著作。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "53003682-6f51-426a-a82d-9ae022f2f26a",
+    "periodId": "p_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "邹伯奇完成第一部摄影技术著作",
+    "titleCn": "邹伯奇完成第一部摄影技术著作",
+    "date": {
+      "year": 1844
+    },
+    "descriptionCn": "1844年，邹伯奇完成第一部关于摄影技术的著作。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "d00864e0-8b0b-4222-9546-6a64df1f3d3f",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "乔治·凯莱布·宾厄姆创作《密苏里河顺流而下的皮毛商人》",
+    "titleCn": "乔治·凯莱布·宾厄姆创作《密苏里河顺流而下的皮毛商人》",
+    "date": {
+      "year": 1845,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1845年，乔治·凯莱布·宾厄姆创作了油画《密苏里河顺流而下的皮毛商人》，描绘了密苏里河上顺流而下的独木舟上的皮毛商人父子，现藏于纽约大都会美术馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a21300cc-c698-4cf7-942f-257f2eefed04",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "亚历山大·杰克逊·戴维斯为威廉·罗奇设计住宅",
+    "titleCn": "亚历山大·杰克逊·戴维斯为威廉·罗奇设计住宅",
+    "date": {
+      "year": 1845
+    },
+    "descriptionCn": "1845年，亚历山大·杰克逊·戴维斯在美国马萨诸塞州新贝德福德为威廉·罗奇设计了一座住宅，建筑元素借鉴法国哥特式大教堂，屋檐下采用圆齿状装饰，门廊柱有木质雕刻的花边图案，体现了“木制哥特式”风格。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "209a3781-12a3-47ce-8860-d60e7aa6abaf",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "戴维·奥克塔维厄斯·希尔和罗伯特·亚当森创作摄影作品《放渔线》",
+    "titleCn": "戴维·奥克塔维厄斯·希尔和罗伯特·亚当森创作摄影作品《放渔线》",
+    "date": {
+      "year": 1845
+    },
+    "descriptionCn": "1845年，戴维·奥克塔维厄斯·希尔和罗伯特·亚当森创作了摄影作品《放渔线》。该作品拍摄纽黑文的渔夫，没有放弃图画般的人物形象，也没有按照社会类型分类，而是对渔夫的历史和生存表示敬意，保持着他们的本质与个性。照片为全身照，身体的全部在场意味着将细节使用融入由社会、文化及个人指数构成的更大综合体中。",
+    "importance": 3,
+    "tags": [],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "209a3781-12a3-47ce-8860-d60e7aa6abaf",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "戴维·奥克塔维厄斯·希尔和罗伯特·亚当森创作摄影作品《放渔线》",
+    "titleCn": "戴维·奥克塔维厄斯·希尔和罗伯特·亚当森创作摄影作品《放渔线》",
+    "date": {
+      "year": 1845
+    },
+    "descriptionCn": "1845年，戴维·奥克塔维厄斯·希尔和罗伯特·亚当森创作了摄影作品《放渔线》。该作品拍摄纽黑文的渔夫，没有放弃图画般的人物形象，也没有按照社会类型分类，而是对渔夫的历史和生存表示敬意，保持着他们的本质与个性。照片为全身照，身体的全部在场意味着将细节使用融入由社会、文化及个人指数构成的更大综合体中。",
+    "importance": 3,
+    "tags": [],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "bcff09f5-6c5b-4b84-ab1f-85140f6ed3e2",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "瑞典工业设计协会创建",
+    "titleCn": "瑞典工业设计协会创建",
+    "date": {
+      "year": 1845
+    },
+    "descriptionCn": "1845年，瑞典工业设计协会创建，旨在鼓励和推动手工业的发展。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "瑞典",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b0b37ff1-99ec-4ccb-afc7-64089e388a2e",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "William Edward Kilburn拍摄《The Great Chartist Meeting on Kennington Common》",
+    "titleCn": "William Edward Kilburn拍摄《The Great Chartist Meeting on Kennington Common》",
+    "date": {
+      "year": 1848
+    },
+    "descriptionCn": "1848年，William Edward Kilburn拍摄了达盖尔银版照片《The Great Chartist Meeting on Kennington Common》，现藏于温莎城堡皇家档案馆。",
+    "importance": 3,
+    "tags": [
+      "摄影"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "摄影",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "7920f0ed-de88-4a14-a5c3-8071aa738569",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·爱德华·基尔伯恩拍摄《肯宁顿大宪章会议》",
+    "titleCn": "威廉·爱德华·基尔伯恩拍摄《肯宁顿大宪章会议》",
+    "date": {
+      "year": 1848
+    },
+    "descriptionCn": "1848年，威廉·爱德华·基尔伯恩在肯宁顿拍摄了《肯宁顿大宪章会议》，记录了宪章运动集会。",
+    "importance": 3,
+    "tags": [
+      "摄影"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "摄影",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "7920f0ed-de88-4a14-a5c3-8071aa738569",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·爱德华·基尔伯恩拍摄《肯宁顿大宪章会议》",
+    "titleCn": "威廉·爱德华·基尔伯恩拍摄《肯宁顿大宪章会议》",
+    "date": {
+      "year": 1848
+    },
+    "descriptionCn": "1848年，威廉·爱德华·基尔伯恩在肯宁顿拍摄了《肯宁顿大宪章会议》，记录了宪章运动集会。",
+    "importance": 3,
+    "tags": [
+      "摄影"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "摄影",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ddbea06f-5561-498e-b272-629ba2d0e778",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "拉斐尔前派兄弟会成立",
+    "titleCn": "拉斐尔前派兄弟会成立",
+    "date": {
+      "year": 1848,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1848年，丹特·加布里埃尔·罗塞蒂、威廉·霍尔曼·亨特和约翰·埃弗雷特·米莱等三位画家与几位作家、一位雕塑家一起组织了拉斐尔前派兄弟会，反对官方拉斐尔崇拜，提倡现实主义。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "948e36d2-01a9-4fbc-93e5-85c4c18c5991",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "米勒、杜米埃、库尔贝被授予现实主义者称号",
+    "titleCn": "米勒、杜米埃、库尔贝被授予现实主义者称号",
+    "date": {
+      "year": 1848
+    },
+    "descriptionCn": "1848年，让·弗朗索瓦·米勒、奥诺雷·杜米埃和居斯塔夫·库尔贝等艺术家被授予现实主义者称号，他们专注于描绘人类的戏剧和民众生活。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9641bda0-3d2c-47c4-b084-67aa485a0ab7",
+    "periodId": "p_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "莱奥·冯·克伦策在慕尼黑建造雅典卫城柱廊式入口",
+    "titleCn": "莱奥·冯·克伦策在慕尼黑建造雅典卫城柱廊式入口",
+    "date": {
+      "year": 1848
+    },
+    "descriptionCn": "1848年至1860年，德国建筑师莱奥·冯·克伦策在慕尼黑建造了雅典卫城柱廊式入口。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "新古典主义",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "1358c85a-a642-4193-aec9-dfc5823e762b",
+    "periodId": "p_modern",
+    "streamId": "s_realism_impressionism",
+    "titleEn": "古斯塔夫·库尔贝创作《奥尔南的葬礼》",
+    "titleCn": "古斯塔夫·库尔贝创作《奥尔南的葬礼》",
+    "date": {
+      "year": 1849
+    },
+    "descriptionCn": "1849年至1850年，古斯塔夫·库尔贝创作了油画《奥尔南的葬礼》，描绘了法国奥尔南的一场葬礼场景，以现实主义风格挑战学院派传统，现藏于巴黎奥赛美术馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "19世纪",
+      "standardPeriod": "现实主义至后印象派",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "406db131-eea3-457c-b1c0-6aef3e47e695",
+    "periodId": "p_modern",
+    "streamId": "s_east_asia_pre_modern",
+    "titleEn": "歌川国贞的木刻版画《被雷声惊吓的女子》创作完成",
+    "titleCn": "歌川国贞的木刻版画《被雷声惊吓的女子》创作完成",
+    "date": {
+      "year": 1849
+    },
+    "descriptionCn": "1849年至1853年，日本艺术家歌川国贞创作了木刻版画《被雷声惊吓的女子》，画幅尺寸为37厘米×26厘米。",
+    "importance": 3,
+    "tags": [
+      "版画"
+    ],
+    "meta": {
+      "country": "日本",
+      "originalPeriod": "江户时代",
+      "standardPeriod": "东亚：前现代",
+      "eventTypeRaw": "版画",
+      "eventCategory": "绘画与设计"
+    }
+  }
+]

@@ -1,0 +1,3178 @@
+[
+  {
+    "id": "66b45007942c7eb28beeb95a",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "成祖即位，诏能书者入翰林",
+    "titleCn": "成祖即位，诏能书者入翰林",
+    "date": {
+      "year": 1402
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "建文四年",
+      "person": "明成祖朱棣",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1136
+    },
+    "creatorCn": "明成祖朱棣",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240828175939227.png",
+    "descriptionCn": "成祖（朱棣）六月即位，旋诏能书者入翰林，沈度（民则）、沈粲（民望）、滕用亨、陈登等俱入选。"
+  },
+  {
+    "id": "66b45007942c7eb28beeb95b",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "成祖亲为解缙持砚",
+    "titleCn": "成祖亲为解缙持砚",
+    "date": {
+      "year": 1403,
+      "accuracy": "not_before"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "楷书 / Regular Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "永乐年间以后",
+      "person": "明成祖朱棣、解缙",
+      "style": "楷书 / Regular Script",
+      "sourceOrder": 1137
+    },
+    "creatorCn": "明成祖朱棣、解缙",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240828175952220.png",
+    "descriptionCn": "诏选中书舍人二十八人专习右军、大令书。成祖爱重解缙（大绅）楷书，当亲为持砚，时称羡焉。"
+  },
+  {
+    "id": "66b45007942c7eb28beeb95c",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "诏择善书者十人为翰林院庶吉士",
+    "titleCn": "诏择善书者十人为翰林院庶吉士",
+    "date": {
+      "year": 1404
+    },
+    "importance": 5,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "永乐二年",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1138
+    }
+  },
+  {
+    "id": "66b45008942c7eb28beeb95d",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "滕用亨诏试篆书称旨",
+    "titleCn": "滕用亨诏试篆书称旨",
+    "date": {
+      "year": 1405
+    },
+    "importance": 5,
+    "tags": [
+      "明",
+      "篆书 / Seal Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "永乐三年",
+      "person": "滕用亨",
+      "style": "篆书 / Seal Script",
+      "sourceOrder": 1139
+    },
+    "creatorCn": "滕用亨",
+    "descriptionCn": "滕用亨被荐，诏试篆书称旨，授翰林待诏。"
+  },
+  {
+    "id": "66b45008942c7eb28beeb95e",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "解缙书《自书诗卷》",
+    "titleCn": "解缙书《自书诗卷》",
+    "date": {
+      "year": 1410
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "永乐八年",
+      "person": "解缙",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1140
+    },
+    "creatorCn": "解缙",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240828180253087.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb95f",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "解缙书《宋真宗采贾谊置器说草书卷》",
+    "titleCn": "解缙书《宋真宗采贾谊置器说草书卷》",
+    "date": {
+      "year": 1415,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "草书 / Cursive Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "永乐十三年以前",
+      "person": "解缙",
+      "style": "草书 / Cursive Script",
+      "sourceOrder": 1141
+    },
+    "creatorCn": "解缙",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829092330241.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb960",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "解缙撰《春雨杂述》",
+    "titleCn": "解缙撰《春雨杂述》",
+    "date": {
+      "year": 1415,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书论与收藏 / Theory and Connoisseurship"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "永乐十三年以前",
+      "person": "解缙",
+      "style": "书论与收藏 / Theory and Connoisseurship",
+      "sourceOrder": 1142
+    },
+    "creatorCn": "解缙",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829092604239.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb961",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "周宪王朱有敦刻《东书堂集古法帖》十卷",
+    "titleCn": "周宪王朱有敦刻《东书堂集古法帖》十卷",
+    "date": {
+      "year": 1416
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "永乐十四年",
+      "person": "周宪王朱有敦",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1143
+    },
+    "creatorCn": "周宪王朱有敦",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829093106362.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb962",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "沈度书《敬斋箴册》",
+    "titleCn": "沈度书《敬斋箴册》",
+    "date": {
+      "year": 1418
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "永乐十六年",
+      "person": "沈度",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1144
+    },
+    "creatorCn": "沈度",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829093604472.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb973",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "张弼书《元宵有怀南安旧治》",
+    "titleCn": "张弼书《元宵有怀南安旧治》",
+    "date": {
+      "year": 1425
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "洪熙元年至成化二十三年",
+      "person": "张弼",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1161
+    },
+    "endDate": {
+      "year": 1487
+    },
+    "creatorCn": "张弼",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829120925168.png",
+    "descriptionCn": "按：此款署“东海翁”，当为晚年所作。"
+  },
+  {
+    "id": "66b45008942c7eb28beeb974",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "张弼书《蝶恋花词轴》",
+    "titleCn": "张弼书《蝶恋花词轴》",
+    "date": {
+      "year": 1425
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "洪熙元年至成化二十三年",
+      "person": "张弼",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1162
+    },
+    "endDate": {
+      "year": 1487
+    },
+    "creatorCn": "张弼",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829121219304.png",
+    "descriptionCn": "按：此款署“东海翁”，当为晚年所作。"
+  },
+  {
+    "id": "66b45008942c7eb28beeb963",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "沈度书《不自弃说文轴》",
+    "titleCn": "沈度书《不自弃说文轴》",
+    "date": {
+      "year": 1426
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "宣德元年",
+      "person": "沈度",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1145
+    },
+    "creatorCn": "沈度",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829093347095.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb964",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "沈度书《张桓墓碣铭稿》",
+    "titleCn": "沈度书《张桓墓碣铭稿》",
+    "date": {
+      "year": 1427
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "宣德二年",
+      "person": "沈度",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1146
+    },
+    "creatorCn": "沈度",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829094541965.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb965",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "沈周出生",
+    "titleCn": "沈周出生",
+    "date": {
+      "year": 1427
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "宣德二年",
+      "person": "沈周",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1147
+    },
+    "creatorCn": "沈周",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829094911832.png",
+    "descriptionCn": "沈周卒于公元1509年，时年八十二岁。"
+  },
+  {
+    "id": "66b45008942c7eb28beeb966",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "吕震奉勅编《历代玺印谱》二册",
+    "titleCn": "吕震奉勅编《历代玺印谱》二册",
+    "date": {
+      "year": 1428
+    },
+    "importance": 5,
+    "tags": [
+      "明",
+      "篆刻与印学 / Seal Carving"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "宣德三年",
+      "person": "吕震",
+      "style": "篆刻与印学 / Seal Carving",
+      "sourceOrder": 1148
+    },
+    "creatorCn": "吕震"
+  },
+  {
+    "id": "66b45009942c7eb28beeb979",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "陈献章书《自书诗卷》",
+    "titleCn": "陈献章书《自书诗卷》",
+    "date": {
+      "year": 1428
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "宣德三年至弘治十三年",
+      "person": "陈献章",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1167
+    },
+    "endDate": {
+      "year": 1500
+    },
+    "creatorCn": "陈献章",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829141256066.png",
+    "descriptionCn": "按：张翊《白沙先生行状》称其“束茅代笔，晚年专用，遂自成一家，时呼为茅笔字，此卷笔意正是如此，当为公甫晚年所作。"
+  },
+  {
+    "id": "66b45009942c7eb28beeb97a",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "陈献章书《再次玉台诗卷》",
+    "titleCn": "陈献章书《再次玉台诗卷》",
+    "date": {
+      "year": 1428
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "宣德三年至弘治十三年",
+      "person": "陈献章",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1168
+    },
+    "endDate": {
+      "year": 1500
+    },
+    "creatorCn": "陈献章",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829141633756.png",
+    "descriptionCn": "按：张翊《白沙先生行状》称其“束茅代笔，晚年专用，遂自成一家，时呼为茅笔字，此卷笔意正是如此，当为公甫晚年所作。"
+  },
+  {
+    "id": "66b45009942c7eb28beeb97b",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "陈献章书《种蓖麻诗卷》",
+    "titleCn": "陈献章书《种蓖麻诗卷》",
+    "date": {
+      "year": 1428
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "宣德三年至弘治十三年",
+      "person": "陈献章",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1169
+    },
+    "endDate": {
+      "year": 1500
+    },
+    "creatorCn": "陈献章",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829142245228.png",
+    "descriptionCn": "按：张翊《白沙先生行状》称其“束茅代笔，晚年专用，遂自成一家，时呼为茅笔字，此卷笔意正是如此，当为公甫晚年所作。"
+  },
+  {
+    "id": "66b45008942c7eb28beeb967",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "程南云书《行书千字文册》",
+    "titleCn": "程南云书《行书千字文册》",
+    "date": {
+      "year": 1441
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "行书 / Running Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "正统六年",
+      "person": "程南云",
+      "style": "行书 / Running Script",
+      "sourceOrder": 1149
+    },
+    "creatorCn": "程南云",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829095827232.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb989",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "李东阳书《与陆治斋尺牍》",
+    "titleCn": "李东阳书《与陆治斋尺牍》",
+    "date": {
+      "year": 1447
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "正统十二年至正德十一年",
+      "person": "李东阳",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1183
+    },
+    "endDate": {
+      "year": 1516
+    },
+    "creatorCn": "李东阳",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829154146952.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb969",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "李淳进献元李溥光《雪庵永字八法》",
+    "titleCn": "李淳进献元李溥光《雪庵永字八法》",
+    "date": {
+      "year": 1450
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "景泰元年至景泰七年",
+      "person": "李淳、李溥光",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1151
+    },
+    "endDate": {
+      "year": 1456
+    },
+    "creatorCn": "李淳、李溥光",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829103826181.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb968",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "李淳作书论《大字结构八十四法》",
+    "titleCn": "李淳作书论《大字结构八十四法》",
+    "date": {
+      "year": 1451
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书论与收藏 / Theory and Connoisseurship"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "景泰二年",
+      "person": "李淳",
+      "style": "书论与收藏 / Theory and Connoisseurship",
+      "sourceOrder": 1150
+    },
+    "creatorCn": "李淳",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829102205183.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb96a",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "祝允明出生",
+    "titleCn": "祝允明出生",
+    "date": {
+      "year": 1460
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "天顺四年",
+      "person": "祝允明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1152
+    },
+    "creatorCn": "祝允明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829104037459.png",
+    "descriptionCn": "祝允明卒于公元1527年，时年六十七岁。"
+  },
+  {
+    "id": "66b45008942c7eb28beeb96b",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "陈献章书《朱熹敦本文轴》",
+    "titleCn": "陈献章书《朱熹敦本文轴》",
+    "date": {
+      "year": 1465
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "成化元年",
+      "person": "陈献章",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1153
+    },
+    "creatorCn": "陈献章",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829104426727.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb96c",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "张弼书《草书千字文卷》",
+    "titleCn": "张弼书《草书千字文卷》",
+    "date": {
+      "year": 1466
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "草书 / Cursive Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "成化二年",
+      "person": "张弼",
+      "style": "草书 / Cursive Script",
+      "sourceOrder": 1154
+    },
+    "creatorCn": "张弼",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829104550106.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb96d",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明出生",
+    "titleCn": "文征明出生",
+    "date": {
+      "year": 1470
+    },
+    "importance": 5,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "成化六年",
+      "person": "文征明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1155
+    },
+    "creatorCn": "文征明",
+    "descriptionCn": "文征明卒于公元1559年，时年八十九岁。"
+  },
+  {
+    "id": "66b45008942c7eb28beeb96e",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "唐寅出生",
+    "titleCn": "唐寅出生",
+    "date": {
+      "year": 1470
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "成化六年",
+      "person": "唐寅",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1156
+    },
+    "creatorCn": "唐寅",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829112334765.png",
+    "descriptionCn": "唐寅卒于公元1524年，时年五十四岁。"
+  },
+  {
+    "id": "66b45008942c7eb28beeb96f",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "李东阳书《送秦夔归武昌诗轴》",
+    "titleCn": "李东阳书《送秦夔归武昌诗轴》",
+    "date": {
+      "year": 1477
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "成化十三年",
+      "person": "李东阳",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1157
+    },
+    "creatorCn": "李东阳",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829113245103.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb970",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "张弼书《苏轼书李太白仙诗卷跋》",
+    "titleCn": "张弼书《苏轼书李太白仙诗卷跋》",
+    "date": {
+      "year": 1483
+    },
+    "importance": 1,
+    "tags": [
+      "明",
+      "行书 / Running Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "成化十九年",
+      "person": "张弼",
+      "style": "行书 / Running Script",
+      "sourceOrder": 1158
+    },
+    "creatorCn": "张弼",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829113808809.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb971",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "陈淳出生",
+    "titleCn": "陈淳出生",
+    "date": {
+      "year": 1483
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "成化十九年",
+      "person": "陈淳",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1159
+    },
+    "creatorCn": "陈淳",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829114137683.png",
+    "descriptionCn": "陈淳卒于公元1544年，时年六十一岁。"
+  },
+  {
+    "id": "66b45008942c7eb28beeb972",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "沈周书《七星桧图题诗》",
+    "titleCn": "沈周书《七星桧图题诗》",
+    "date": {
+      "year": 1484
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "成化二十年",
+      "person": "沈周",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1160
+    },
+    "creatorCn": "沈周",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829115417768.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb975",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "朱奇源使王进书《宝贤堂集古法帖》",
+    "titleCn": "朱奇源使王进书《宝贤堂集古法帖》",
+    "date": {
+      "year": 1489
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "弘治二年",
+      "person": "朱奇源、王进",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1163
+    },
+    "creatorCn": "朱奇源、王进",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829121342425.png",
+    "descriptionCn": "晋庄王子朱奇源使王进等人以《阁帖》《绛帖》《大观帖》《宝晋斋帖》为主，益以所藏宋、元及明初先贤墨迹，成《宝贤堂集古法帖》十二卷勒石。"
+  },
+  {
+    "id": "66b45008942c7eb28beeb976",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "吴宽书《种竹诗卷》",
+    "titleCn": "吴宽书《种竹诗卷》",
+    "date": {
+      "year": 1494
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "弘治七年",
+      "person": "吴宽",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1164
+    },
+    "creatorCn": "吴宽",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829121443326.png"
+  },
+  {
+    "id": "66b45008942c7eb28beeb977",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王宠出生",
+    "titleCn": "王宠出生",
+    "date": {
+      "year": 1494
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "弘治七年",
+      "person": "王宠",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1165
+    },
+    "creatorCn": "王宠",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829121854038.png",
+    "descriptionCn": "王宠卒于公元1533年，时年三十九岁。"
+  },
+  {
+    "id": "66b45009942c7eb28beeb978",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文彭出生",
+    "titleCn": "文彭出生",
+    "date": {
+      "year": 1498
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "弘治十一年",
+      "person": "文彭",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1166
+    },
+    "creatorCn": "文彭",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829122212575.png",
+    "descriptionCn": "文彭卒于公元1573年，时年七十五岁。"
+  },
+  {
+    "id": "66b45009942c7eb28beeb97c",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "吴宽书《何处疏砧诗稿》",
+    "titleCn": "吴宽书《何处疏砧诗稿》",
+    "date": {
+      "year": 1502
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "弘治十五年",
+      "person": "吴宽",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1170
+    },
+    "creatorCn": "吴宽",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829142632463.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb97d",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "唐寅书《同歌梓叶诗轴》",
+    "titleCn": "唐寅书《同歌梓叶诗轴》",
+    "date": {
+      "year": 1502
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "弘治十五年",
+      "person": "唐寅",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1171
+    },
+    "creatorCn": "唐寅",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829142830147.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb97e",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "吴宽书《次韵东园菊花诗卷》",
+    "titleCn": "吴宽书《次韵东园菊花诗卷》",
+    "date": {
+      "year": 1503
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "弘治十六年",
+      "person": "吴宽",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1172
+    },
+    "creatorCn": "吴宽",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829142928010.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb97f",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "沈周书《生朝自遣诗卷》",
+    "titleCn": "沈周书《生朝自遣诗卷》",
+    "date": {
+      "year": 1505
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "弘治十八年",
+      "person": "沈周",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1173
+    },
+    "creatorCn": "沈周",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829143042521.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb980",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "刻唐寅书《桃花诗刻石》",
+    "titleCn": "刻唐寅书《桃花诗刻石》",
+    "date": {
+      "year": 1505
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "弘治十八年",
+      "person": "唐寅",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1174
+    },
+    "creatorCn": "唐寅",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829144416400.png",
+    "descriptionCn": "明刻石。唐寅书。明弘治十八年(1505年)二月刻。"
+  },
+  {
+    "id": "66b45009942c7eb28beeb981",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "沈周书《汪宗道所藏米芾蜀素帖跋》",
+    "titleCn": "沈周书《汪宗道所藏米芾蜀素帖跋》",
+    "date": {
+      "year": 1506
+    },
+    "importance": 1,
+    "tags": [
+      "明",
+      "行书 / Running Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "正德元年",
+      "person": "沈周",
+      "style": "行书 / Running Script",
+      "sourceOrder": 1175
+    },
+    "creatorCn": "沈周",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829145825813.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb982",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王守仁书《何陋轩记》",
+    "titleCn": "王守仁书《何陋轩记》",
+    "date": {
+      "year": 1508
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "正德三年至四年",
+      "person": "王守仁",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1176
+    },
+    "endDate": {
+      "year": 1509
+    },
+    "creatorCn": "王守仁",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829150000355.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb983",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "李东阳书《王徽墓表卷》",
+    "titleCn": "李东阳书《王徽墓表卷》",
+    "date": {
+      "year": 1510
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "正德五年",
+      "person": "李东阳",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1177
+    },
+    "creatorCn": "李东阳",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829151224140.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb984",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "唐寅书《赠日本友人彦九郎》",
+    "titleCn": "唐寅书《赠日本友人彦九郎》",
+    "date": {
+      "year": 1512
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "正德七年",
+      "person": "唐寅",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1178
+    },
+    "creatorCn": "唐寅",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829151444994.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb985",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "朱存理撰《铁网珊瑚》",
+    "titleCn": "朱存理撰《铁网珊瑚》",
+    "date": {
+      "year": 1513,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书论与收藏 / Theory and Connoisseurship"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "正德八年以前",
+      "person": "朱存理",
+      "style": "书论与收藏 / Theory and Connoisseurship",
+      "sourceOrder": 1179
+    },
+    "creatorCn": "朱存理",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829151807791.png",
+    "descriptionCn": "朱存理撰《铁纲珊瑚》。或以为是书乃赵琦美以所得秦四麟、焦竑两家无名氏书画题跋并合，复以所见真迹补缀而成。"
+  },
+  {
+    "id": "66b45009942c7eb28beeb986",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "祝允明书《出师表》",
+    "titleCn": "祝允明书《出师表》",
+    "date": {
+      "year": 1514
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "正德九年",
+      "person": "祝允明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1180
+    },
+    "creatorCn": "祝允明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829152514971.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb987",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "《淳化阁帖》肃府本刊行",
+    "titleCn": "《淳化阁帖》肃府本刊行",
+    "date": {
+      "year": 1515
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "正德十年",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1181
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829152701923.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb988",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王守仁书《龙江留别诗卷》",
+    "titleCn": "王守仁书《龙江留别诗卷》",
+    "date": {
+      "year": 1516
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "正德十一年",
+      "person": "王守仁",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1182
+    },
+    "creatorCn": "王守仁",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829152826375.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb98a",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王宠书《自书诗卷》",
+    "titleCn": "王宠书《自书诗卷》",
+    "date": {
+      "year": 1518
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "正德十三年",
+      "person": "王宠",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1184
+    },
+    "creatorCn": "王宠",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829154641888.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb98b",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "祝允明书《和陶渊明钦酒二十首诗卷》",
+    "titleCn": "祝允明书《和陶渊明钦酒二十首诗卷》",
+    "date": {
+      "year": 1520
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "正德十五年",
+      "person": "祝允明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1185
+    },
+    "creatorCn": "祝允明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829155107819.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb98c",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "徐渭出生",
+    "titleCn": "徐渭出生",
+    "date": {
+      "year": 1521
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "正德十六年",
+      "person": "徐渭",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1186
+    },
+    "creatorCn": "徐渭",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829155511351.png",
+    "descriptionCn": "徐渭卒于公元1593年，时年七十二岁。"
+  },
+  {
+    "id": "66b45009942c7eb28beeb98d",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "《真赏斋帖》三卷问世",
+    "titleCn": "《真赏斋帖》三卷问世",
+    "date": {
+      "year": 1522
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖元年",
+      "person": "文征明、文彭、章简甫",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1187
+    },
+    "creatorCn": "文征明、文彭、章简甫",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829160023564.png",
+    "descriptionCn": "华夏选集、文征明文彭父子钩摹、章简甫刻《真赏斋帖》三卷。"
+  },
+  {
+    "id": "66b45009942c7eb28beeb98e",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "祝允明书《怀知诗卷》",
+    "titleCn": "祝允明书《怀知诗卷》",
+    "date": {
+      "year": 1523
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖二年",
+      "person": "祝允明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1188
+    },
+    "creatorCn": "祝允明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829160648913.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb98f",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "祝允明书《牡丹赋》",
+    "titleCn": "祝允明书《牡丹赋》",
+    "date": {
+      "year": 1524
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三年",
+      "person": "祝允明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1189
+    },
+    "creatorCn": "祝允明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829161949770.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb990",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "祝允明书《先母陈夫人手状》",
+    "titleCn": "祝允明书《先母陈夫人手状》",
+    "date": {
+      "year": 1524
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三年",
+      "person": "祝允明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1190
+    },
+    "creatorCn": "祝允明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829162134097.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb991",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "祝允明书《毛珵妻韩夫人墓志铭》",
+    "titleCn": "祝允明书《毛珵妻韩夫人墓志铭》",
+    "date": {
+      "year": 1525
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "楷书 / Regular Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖四年",
+      "person": "祝允明",
+      "style": "楷书 / Regular Script",
+      "sourceOrder": 1191
+    },
+    "creatorCn": "祝允明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829162305541.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb992",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "祝允明书《和陶渊明饮酒二十首诗卷》",
+    "titleCn": "祝允明书《和陶渊明饮酒二十首诗卷》",
+    "date": {
+      "year": 1525
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖四年",
+      "person": "祝允明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1192
+    },
+    "creatorCn": "祝允明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829162550614.png"
+  },
+  {
+    "id": "66b45009942c7eb28beeb993",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "项元汴出生",
+    "titleCn": "项元汴出生",
+    "date": {
+      "year": 1525
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖四年",
+      "person": "项元汴",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1193
+    },
+    "creatorCn": "项元汴",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829162835134.png",
+    "descriptionCn": "项元汴卒于公元1590年，时年六十五岁。"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb994",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王世贞出生",
+    "titleCn": "王世贞出生",
+    "date": {
+      "year": 1526
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖五年",
+      "person": "王世贞",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1194
+    },
+    "creatorCn": "王世贞",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829163036221.png",
+    "descriptionCn": "王世贞卒于公元1590年，时年六十四岁。生前有等多种书迹。"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb995",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王宠书《赠南岩顾君诗轴》",
+    "titleCn": "王宠书《赠南岩顾君诗轴》",
+    "date": {
+      "year": 1527
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖六年",
+      "person": "王宠",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1195
+    },
+    "creatorCn": "王宠",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829163335770.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb996",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "祝允明书《草书诗帖》",
+    "titleCn": "祝允明书《草书诗帖》",
+    "date": {
+      "year": 1527,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "草书 / Cursive Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖六年以前",
+      "person": "祝允明",
+      "style": "草书 / Cursive Script",
+      "sourceOrder": 1196
+    },
+    "creatorCn": "祝允明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829164725750.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb997",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "祝允明书《赤壁斌》",
+    "titleCn": "祝允明书《赤壁斌》",
+    "date": {
+      "year": 1527,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖六年以前",
+      "person": "祝允明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1197
+    },
+    "creatorCn": "祝允明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829165031395.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb998",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王守仁书《象祠记卷》",
+    "titleCn": "王守仁书《象祠记卷》",
+    "date": {
+      "year": 1528,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖七年以前",
+      "person": "王守仁",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1198
+    },
+    "creatorCn": "王守仁",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829165232737.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb999",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王守仁书《家书信札》",
+    "titleCn": "王守仁书《家书信札》",
+    "date": {
+      "year": 1529,
+      "accuracy": "not_after"
+    },
+    "importance": 5,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖八年以前",
+      "person": "王守仁",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1199
+    },
+    "creatorCn": "王守仁"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb99a",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王宠书《宋之问诗帖》",
+    "titleCn": "王宠书《宋之问诗帖》",
+    "date": {
+      "year": 1529
+    },
+    "importance": 2,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖八年",
+      "person": "王宠",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1200
+    },
+    "creatorCn": "王宠",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829170751380.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb99b",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王宠书《杂诗十首卷》",
+    "titleCn": "王宠书《杂诗十首卷》",
+    "date": {
+      "year": 1531
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖十年",
+      "person": "王宠",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1201
+    },
+    "creatorCn": "王宠",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829170505596.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb99c",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "祝允明书狂草《前后赤壁赋》",
+    "titleCn": "祝允明书狂草《前后赤壁赋》",
+    "date": {
+      "year": 1531,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "草书 / Cursive Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖十年以前",
+      "person": "祝允明",
+      "style": "草书 / Cursive Script",
+      "sourceOrder": 1202
+    },
+    "creatorCn": "祝允明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829173633026.png",
+    "descriptionCn": "按：此卷无年月，然卷后有黄省曾嘉靖十一年跋、文征明嘉靖十三年跋。据以推知。"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb99d",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王宠书《为事茗书七绝二首诗卷》",
+    "titleCn": "王宠书《为事茗书七绝二首诗卷》",
+    "date": {
+      "year": 1532
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖十一年",
+      "person": "王宠",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1203
+    },
+    "creatorCn": "王宠",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829175656444.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb99e",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明书《莲社图记》",
+    "titleCn": "文征明书《莲社图记》",
+    "date": {
+      "year": 1534
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖十三年",
+      "person": "文征明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1204
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829175748920.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb99f",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明书《四体千字文卷》",
+    "titleCn": "文征明书《四体千字文卷》",
+    "date": {
+      "year": 1535
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖十四年至嘉靖十五年",
+      "person": "文征明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1205
+    },
+    "endDate": {
+      "year": 1536
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829175904908.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9b7",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明刻《停云馆帖》",
+    "titleCn": "文征明刻《停云馆帖》",
+    "date": {
+      "year": 1537
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖十六年至嘉靖三十九年",
+      "person": "文征明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1229
+    },
+    "endDate": {
+      "year": 1560
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830171344683.png",
+    "descriptionCn": "文征明与子文彭、文嘉纂刻《停云馆帖》。"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb9a0",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明书《天池诗》",
+    "titleCn": "文征明书《天池诗》",
+    "date": {
+      "year": 1538
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖十七年",
+      "person": "文征明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1206
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240829180212081.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb9a1",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "刻文征明书《辞金记》",
+    "titleCn": "刻文征明书《辞金记》",
+    "date": {
+      "year": 1540
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖十九年",
+      "person": "文征明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1207
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830152756345.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb9a2",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明书《心经卷》",
+    "titleCn": "文征明书《心经卷》",
+    "date": {
+      "year": 1542
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖二十年",
+      "person": "文征明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1208
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830153338542.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb9a3",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "陈淳书《草书长卷》",
+    "titleCn": "陈淳书《草书长卷》",
+    "date": {
+      "year": 1544
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "草书 / Cursive Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖二十一年",
+      "person": "陈淳",
+      "style": "草书 / Cursive Script",
+      "sourceOrder": 1209
+    },
+    "creatorCn": "陈淳",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830155506280.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb9a4",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明书《辋川图卷跋》",
+    "titleCn": "文征明书《辋川图卷跋》",
+    "date": {
+      "year": 1544
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖二十三年",
+      "person": "文征明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1210
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830161147415.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb9a5",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "陈淳书《古诗十九首卷》",
+    "titleCn": "陈淳书《古诗十九首卷》",
+    "date": {
+      "year": 1544,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖二十三年以前",
+      "person": "陈淳",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1211
+    },
+    "creatorCn": "陈淳",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830161511003.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb9a6",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "陈淳书《草书岑参七律立轴》",
+    "titleCn": "陈淳书《草书岑参七律立轴》",
+    "date": {
+      "year": 1544,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "草书 / Cursive Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖二十三年以前",
+      "person": "陈淳",
+      "style": "草书 / Cursive Script",
+      "sourceOrder": 1212
+    },
+    "creatorCn": "陈淳",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830161742869.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb9a7",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明书《草书赤壁赋卷》",
+    "titleCn": "文征明书《草书赤壁赋卷》",
+    "date": {
+      "year": 1545
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "草书 / Cursive Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖二十四年",
+      "person": "文征明",
+      "style": "草书 / Cursive Script",
+      "sourceOrder": 1213
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830162608808.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb9a8",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "丰坊书《谦斋记》",
+    "titleCn": "丰坊书《谦斋记》",
+    "date": {
+      "year": 1548
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖二十七年",
+      "person": "丰坊",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1214
+    },
+    "creatorCn": "丰坊",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830162708678.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb9a9",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明书《雪赋、月赋册》",
+    "titleCn": "文征明书《雪赋、月赋册》",
+    "date": {
+      "year": 1550
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖二十九年",
+      "person": "文征明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1215
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830163018666.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb9aa",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "邢侗出生",
+    "titleCn": "邢侗出生",
+    "date": {
+      "year": 1551
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十年",
+      "person": "邢侗",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1216
+    },
+    "creatorCn": "邢侗",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830163108170.png",
+    "descriptionCn": "邢侗卒于公元1612年，时年六十一岁。"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb9ab",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明书《醉翁亭记》",
+    "titleCn": "文征明书《醉翁亭记》",
+    "date": {
+      "year": 1551
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十年",
+      "person": "文征明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1217
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830163342651.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb9ac",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明草书《兰亭序》",
+    "titleCn": "文征明草书《兰亭序》",
+    "date": {
+      "year": 1554
+    },
+    "importance": 1,
+    "tags": [
+      "明",
+      "行书 / Running Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十三年",
+      "person": "文征明",
+      "style": "行书 / Running Script",
+      "sourceOrder": 1218
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830163541750.png"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb9ad",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "董其昌出生",
+    "titleCn": "董其昌出生",
+    "date": {
+      "year": 1555
+    },
+    "importance": 1,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十四年",
+      "person": "董其昌",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1219
+    },
+    "creatorCn": "董其昌",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830163657232.png",
+    "descriptionCn": "董其昌卒于公元1636年，时年八十一岁。"
+  },
+  {
+    "id": "66b4500a942c7eb28beeb9ae",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文嘉书《致少原世契兄尺牍》",
+    "titleCn": "文嘉书《致少原世契兄尺牍》",
+    "date": {
+      "year": 1555
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十四年",
+      "person": "文嘉",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1220
+    },
+    "creatorCn": "文嘉",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830164320823.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9af",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明书《行书赤壁赋》（其一）",
+    "titleCn": "文征明书《行书赤壁赋》（其一）",
+    "date": {
+      "year": 1556
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "行书 / Running Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十五年",
+      "person": "文征明",
+      "style": "行书 / Running Script",
+      "sourceOrder": 1221
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830164530597.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9b0",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明书《七言律诗册》",
+    "titleCn": "文征明书《七言律诗册》",
+    "date": {
+      "year": 1558
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十七年",
+      "person": "文征明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1222
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830164712927.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9b1",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明书《杂花诗卷》",
+    "titleCn": "文征明书《杂花诗卷》",
+    "date": {
+      "year": 1558
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十七年",
+      "person": "文征明",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1223
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830165034860.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9b2",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明书《行书赤壁赋》（其二）",
+    "titleCn": "文征明书《行书赤壁赋》（其二）",
+    "date": {
+      "year": 1558
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "行书 / Running Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十七年",
+      "person": "文征明",
+      "style": "行书 / Running Script",
+      "sourceOrder": 1224
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830165316506.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9b3",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "陈继儒出生",
+    "titleCn": "陈继儒出生",
+    "date": {
+      "year": 1558
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十七年",
+      "person": "陈继儒",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1225
+    },
+    "creatorCn": "陈继儒",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830165955443.png",
+    "descriptionCn": "陈继儒卒于公元1639年，时年八十一岁。"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9b4",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明草书《陶渊明饮酒诗》",
+    "titleCn": "文征明草书《陶渊明饮酒诗》",
+    "date": {
+      "year": 1559,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "草书 / Cursive Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十八年以前",
+      "person": "文征明",
+      "style": "草书 / Cursive Script",
+      "sourceOrder": 1226
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830170655550.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9b5",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文征明跋《黄庭坚书伏波神祠诗卷跋》",
+    "titleCn": "文征明跋《黄庭坚书伏波神祠诗卷跋》",
+    "date": {
+      "year": 1559,
+      "accuracy": "not_after"
+    },
+    "importance": 1,
+    "tags": [
+      "明",
+      "行书 / Running Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十八年以前",
+      "person": "文征明",
+      "style": "行书 / Running Script",
+      "sourceOrder": 1227
+    },
+    "creatorCn": "文征明",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830171016595.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9b6",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文彭书《采莲曲卷》",
+    "titleCn": "文彭书《采莲曲卷》",
+    "date": {
+      "year": 1559
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十八年",
+      "person": "文彭",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1228
+    },
+    "creatorCn": "文彭",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830171141702.png"
+  },
+  {
+    "id": "66b4500d942c7eb28beeb9f1",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "赵宦光作《竹梅五言篆书联》",
+    "titleCn": "赵宦光作《竹梅五言篆书联》",
+    "date": {
+      "year": 1559
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "篆书 / Seal Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十八年至天启五年",
+      "person": "赵宦光",
+      "style": "篆书 / Seal Script",
+      "sourceOrder": 1287
+    },
+    "endDate": {
+      "year": 1625
+    },
+    "creatorCn": "赵宦光",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902160553426.png"
+  },
+  {
+    "id": "66b4500d942c7eb28beeb9f2",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "赵宦光作《陆游试茶诗轴》",
+    "titleCn": "赵宦光作《陆游试茶诗轴》",
+    "date": {
+      "year": 1559
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十八年至天启五年",
+      "person": "赵宦光",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1288
+    },
+    "endDate": {
+      "year": 1625
+    },
+    "creatorCn": "赵宦光",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902160601394.png"
+  },
+  {
+    "id": "66b4500d942c7eb28beeb9f3",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "赵宦光作《鸟吟五言草篆轴》",
+    "titleCn": "赵宦光作《鸟吟五言草篆轴》",
+    "date": {
+      "year": 1559
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "篆书 / Seal Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖三十八年至天启五年",
+      "person": "赵宦光",
+      "style": "篆书 / Seal Script",
+      "sourceOrder": 1289
+    },
+    "endDate": {
+      "year": 1625
+    },
+    "creatorCn": "赵宦光",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902160611745.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9b8",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文彭书《虎丘纳凉诗卷》",
+    "titleCn": "文彭书《虎丘纳凉诗卷》",
+    "date": {
+      "year": 1562
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖四十一年",
+      "person": "文彭",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1230
+    },
+    "creatorCn": "文彭",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830171436303.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9b9",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "丰坊撰《书诀》",
+    "titleCn": "丰坊撰《书诀》",
+    "date": {
+      "year": 1563,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书论与收藏 / Theory and Connoisseurship"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "嘉靖四十二年以前",
+      "person": "丰坊",
+      "style": "书论与收藏 / Theory and Connoisseurship",
+      "sourceOrder": 1231
+    },
+    "creatorCn": "丰坊",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830171926835.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9ba",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文彭书《卢仝七碗茶歌》",
+    "titleCn": "文彭书《卢仝七碗茶歌》",
+    "date": {
+      "year": 1567
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "隆庆元年",
+      "person": "文彭",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1232
+    },
+    "creatorCn": "文彭",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830173032154.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9bb",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "徐官撰《古今印史》",
+    "titleCn": "徐官撰《古今印史》",
+    "date": {
+      "year": 1569
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书论与收藏 / Theory and Connoisseurship"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "隆庆三年",
+      "person": "徐官",
+      "style": "书论与收藏 / Theory and Connoisseurship",
+      "sourceOrder": 1233
+    },
+    "creatorCn": "徐官",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830173334008.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9bc",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "米万钟出生",
+    "titleCn": "米万钟出生",
+    "date": {
+      "year": 1570
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "隆庆四年",
+      "person": "米万钟",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1234
+    },
+    "creatorCn": "米万钟",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830173525927.png",
+    "descriptionCn": "米万钟卒于公元1631年，时年六十一岁。"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9bd",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "顾从德辑《集古印谱》",
+    "titleCn": "顾从德辑《集古印谱》",
+    "date": {
+      "year": 1572
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "篆刻与印学 / Seal Carving"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "隆庆六年",
+      "person": "顾从德",
+      "style": "篆刻与印学 / Seal Carving",
+      "sourceOrder": 1235
+    },
+    "creatorCn": "顾从德",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830173638931.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9be",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "徐渭书《天瓦庵诗卷》",
+    "titleCn": "徐渭书《天瓦庵诗卷》",
+    "date": {
+      "year": 1573
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历元年",
+      "person": "徐渭",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1236
+    },
+    "creatorCn": "徐渭",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830174908870.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9bf",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文彭书《南极星光诗轴》",
+    "titleCn": "文彭书《南极星光诗轴》",
+    "date": {
+      "year": 1573,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历元年以前",
+      "person": "文彭",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1237
+    },
+    "creatorCn": "文彭",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830175025602.png"
+  },
+  {
+    "id": "66b4500d942c7eb28beeb9e6",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "东汉《曹全碑》于郃阳出土",
+    "titleCn": "东汉《曹全碑》于郃阳出土",
+    "date": {
+      "year": 1573
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "隶书与汉碑 / Clerical Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历元年至万历四十七年",
+      "person": "",
+      "style": "隶书与汉碑 / Clerical Script",
+      "sourceOrder": 1276
+    },
+    "endDate": {
+      "year": 1619
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902150347144.png"
+  },
+  {
+    "id": "66b4500d942c7eb28beeb9e7",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "周应愿撰《印说》",
+    "titleCn": "周应愿撰《印说》",
+    "date": {
+      "year": 1573
+    },
+    "importance": 5,
+    "tags": [
+      "明",
+      "篆书 / Seal Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历元年至万历四十七年",
+      "person": "周应愿",
+      "style": "篆书 / Seal Script",
+      "sourceOrder": 1277
+    },
+    "endDate": {
+      "year": 1619
+    },
+    "creatorCn": "周应愿",
+    "descriptionCn": "周应愿（公谨）撰《印说》，为文人篆刻奠定理论基础。"
+  },
+  {
+    "id": "66b4500d942c7eb28beeb9e8",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "“邢张米董”为晚明“善书四大家”",
+    "titleCn": "“邢张米董”为晚明“善书四大家”",
+    "date": {
+      "year": 1573
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历元年至万历四十七年",
+      "person": "邢侗、米万钟、张瑞图、董其昌",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1278
+    },
+    "endDate": {
+      "year": 1619
+    },
+    "creatorCn": "邢侗、米万钟、张瑞图、董其昌",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902155342249.png",
+    "descriptionCn": "邢侗、米万钟（友石）、张瑞图（长公）、董其昌齐名，时称“邢张米董”。"
+  },
+  {
+    "id": "66b4500d942c7eb28beeb9e9",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "项穆撰《书法雅言》一卷",
+    "titleCn": "项穆撰《书法雅言》一卷",
+    "date": {
+      "year": 1573
+    },
+    "importance": 5,
+    "tags": [
+      "明",
+      "书论与收藏 / Theory and Connoisseurship"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历元年至万历四十七年",
+      "person": "项穆",
+      "style": "书论与收藏 / Theory and Connoisseurship",
+      "sourceOrder": 1279
+    },
+    "endDate": {
+      "year": 1619
+    },
+    "creatorCn": "项穆"
+  },
+  {
+    "id": "66b4500e942c7eb28beeba09",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文震孟“书迹遍天下”",
+    "titleCn": "文震孟“书迹遍天下”",
+    "date": {
+      "year": 1574
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "楷书 / Regular Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历二年至崇祯九年",
+      "person": "文震孟",
+      "style": "楷书 / Regular Script",
+      "sourceOrder": 1311
+    },
+    "endDate": {
+      "year": 1636
+    },
+    "creatorCn": "文震孟",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902172505557.png",
+    "descriptionCn": "文震孟（文起）“书迹遍天下，一时碑版署额，与待诏（文征明）埒”。"
+  },
+  {
+    "id": "66b4500e942c7eb28beeba00",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "李流芳书《天门七言绝句轴》",
+    "titleCn": "李流芳书《天门七言绝句轴》",
+    "date": {
+      "year": 1575
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历三年至崇祯二年",
+      "person": "李流芳",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1302
+    },
+    "endDate": {
+      "year": 1629
+    },
+    "creatorCn": "李流芳",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902165456429.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9c0",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "文嘉书《真率斋铭》",
+    "titleCn": "文嘉书《真率斋铭》",
+    "date": {
+      "year": 1580
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历八年",
+      "person": "文嘉",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1238
+    },
+    "creatorCn": "文嘉",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/08/20240830175209674.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9c1",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "黄道周出生",
+    "titleCn": "黄道周出生",
+    "date": {
+      "year": 1585
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历十三年",
+      "person": "黄道周",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1239
+    },
+    "creatorCn": "黄道周",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115513919.png",
+    "descriptionCn": "黄道周卒于公元1646年，时年六十一岁。"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9c2",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "詹景凤书《赠观澜学士诗轴》",
+    "titleCn": "詹景凤书《赠观澜学士诗轴》",
+    "date": {
+      "year": 1586
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历十四年",
+      "person": "詹景凤",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1240
+    },
+    "creatorCn": "詹景凤",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115525040.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9c3",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "詹景凤书《草书诗轴》",
+    "titleCn": "詹景凤书《草书诗轴》",
+    "date": {
+      "year": 1587
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "草书 / Cursive Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历十五年",
+      "person": "詹景凤",
+      "style": "草书 / Cursive Script",
+      "sourceOrder": 1241
+    },
+    "creatorCn": "詹景凤",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115533870.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9c4",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "周天球书《题自绘墨兰卷》",
+    "titleCn": "周天球书《题自绘墨兰卷》",
+    "date": {
+      "year": 1588
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历十六年",
+      "person": "周天球",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1242
+    },
+    "creatorCn": "周天球",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115541885.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9c5",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "张学礼等辑《考古正文印薮》",
+    "titleCn": "张学礼等辑《考古正文印薮》",
+    "date": {
+      "year": 1589
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历十七年",
+      "person": "张学礼",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1243
+    },
+    "creatorCn": "张学礼",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115549780.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9c6",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王世贞书《宋搨黄庭经跋》",
+    "titleCn": "王世贞书《宋搨黄庭经跋》",
+    "date": {
+      "year": 1590,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历十八年以前",
+      "person": "王世贞",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1244
+    },
+    "creatorCn": "王世贞",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115557703.png"
+  },
+  {
+    "id": "66b4500b942c7eb28beeb9c7",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王世贞书《昨见帖》",
+    "titleCn": "王世贞书《昨见帖》",
+    "date": {
+      "year": 1590,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历十八年以前",
+      "person": "王世贞",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1245
+    },
+    "creatorCn": "王世贞",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115626886.png"
+  },
+  {
+    "id": "66b4500c942c7eb28beeb9c8",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王世贞纂《古今法书苑》",
+    "titleCn": "王世贞纂《古今法书苑》",
+    "date": {
+      "year": 1590,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书论与收藏 / Theory and Connoisseurship"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历十八年以前",
+      "person": "王世贞",
+      "style": "书论与收藏 / Theory and Connoisseurship",
+      "sourceOrder": 1246
+    },
+    "creatorCn": "王世贞",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115639582.png",
+    "descriptionCn": "王氏曾编纂《古今法书苑》七十六卷。死后王干昌始为校勘行世。"
+  },
+  {
+    "id": "66b4500c942c7eb28beeb9c9",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "项元汴书《怀素苦笋帖跋》",
+    "titleCn": "项元汴书《怀素苦笋帖跋》",
+    "date": {
+      "year": 1590,
+      "accuracy": "not_after"
+    },
+    "importance": 1,
+    "tags": [
+      "明",
+      "草书 / Cursive Script"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历十八年以前",
+      "person": "项元汴",
+      "style": "草书 / Cursive Script",
+      "sourceOrder": 1247
+    },
+    "creatorCn": "项元汴",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115652761.png"
+  },
+  {
+    "id": "66b4500c942c7eb28beeb9ca",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "徐渭书行草《呈云岳先生诗卷》",
+    "titleCn": "徐渭书行草《呈云岳先生诗卷》",
+    "date": {
+      "year": 1591
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历十九年",
+      "person": "徐渭",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1248
+    },
+    "creatorCn": "徐渭",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115707918.png"
+  },
+  {
+    "id": "66b4500c942c7eb28beeb9cb",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王铎出生",
+    "titleCn": "王铎出生",
+    "date": {
+      "year": 1592
+    },
+    "importance": 1,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历二十年",
+      "person": "王铎",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1249
+    },
+    "creatorCn": "王铎",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115716130.png",
+    "descriptionCn": "王铎卒于公元1652年，时年六十岁。"
+  },
+  {
+    "id": "66b4500c942c7eb28beeb9cc",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "王时敏出生",
+    "titleCn": "王时敏出生",
+    "date": {
+      "year": 1592
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历二十年",
+      "person": "王时敏",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1250
+    },
+    "creatorCn": "王时敏",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115724516.png",
+    "descriptionCn": "王时敏卒于公元1680年，时年八十八岁。"
+  },
+  {
+    "id": "66b4500c942c7eb28beeb9cd",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "徐渭书《青天歌卷》",
+    "titleCn": "徐渭书《青天歌卷》",
+    "date": {
+      "year": 1593,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历二十一年以前",
+      "person": "徐渭（存疑）",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1251
+    },
+    "creatorCn": "徐渭（存疑）",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115732089.png"
+  },
+  {
+    "id": "66b4500c942c7eb28beeb9ce",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "倪元璐出生",
+    "titleCn": "倪元璐出生",
+    "date": {
+      "year": 1593
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历二十一年",
+      "person": "倪元璐",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1252
+    },
+    "creatorCn": "倪元璐",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115741500.png",
+    "descriptionCn": "倪元璐卒于公元1644年，时年五十一岁。"
+  },
+  {
+    "id": "66b4500c942c7eb28beeb9cf",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "来行学辑《宣和集古印史》八册",
+    "titleCn": "来行学辑《宣和集古印史》八册",
+    "date": {
+      "year": 1596
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历二十四年",
+      "person": "来行学",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1253
+    },
+    "creatorCn": "来行学",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115751208.png"
+  },
+  {
+    "id": "66b4500c942c7eb28beeb9d0",
+    "periodId": "ming",
+    "streamId": "s_ming",
+    "titleEn": "陈洪绶出生（一说生于万历二十六年）",
+    "titleCn": "陈洪绶出生（一说生于万历二十六年）",
+    "date": {
+      "year": 1599
+    },
+    "importance": 4,
+    "tags": [
+      "明",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "明",
+      "traditionalDate": "万历二十七年",
+      "person": "陈洪绶",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1254
+    },
+    "creatorCn": "陈洪绶",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/09/20240902115431317.png",
+    "descriptionCn": "陈洪绶卒于公元1652年，时年五十三岁。"
+  }
+]

@@ -1,72 +1,226 @@
 [
   {
-    "id": "s_europe_continent",
-    "nameEn": "Continental Europe",
-    "nameCn": "欧洲大陆",
-    "color": "#7F5539",
+    "id": "s_prehistoric",
+    "nameEn": "Prehistoric",
+    "nameCn": "史前时代",
     "lane": 0,
     "start": {
-      "year": -500
+      "year": -50000
     },
     "end": {
-      "year": 2050
+      "year": -3200
     },
-    "descriptionCn": "法国、意大利、西班牙、德国等欧洲大陆艺术事件。"
+    "color": "#78716C",
+    "descriptionCn": "旧石器至新石器时代：洞穴壁画、早期雕塑、岩画与史前仪式艺术。"
   },
   {
-    "id": "s_uk_nordic",
-    "nameEn": "United Kingdom & Nordic",
-    "nameCn": "英国与北欧",
-    "color": "#3A86FF",
+    "id": "s_ancient_world",
+    "nameEn": "Ancient World",
+    "nameCn": "古代世界",
     "lane": 1,
     "start": {
-      "year": -500
+      "year": -3200
     },
     "end": {
-      "year": 2050
+      "year": 500
     },
-    "descriptionCn": "以英国为主的艺术与建筑发展线索。"
+    "color": "#B45309",
+    "descriptionCn": "美索不达米亚、埃及、爱琴海、希腊罗马、早期中国青铜文明等古典古代艺术。"
   },
   {
-    "id": "s_us_modern",
-    "nameEn": "United States Modern Art",
-    "nameCn": "美国现代艺术",
-    "color": "#8338EC",
+    "id": "s_medieval_byzantine",
+    "nameEn": "Medieval & Byzantine",
+    "nameCn": "中世纪与拜占庭",
     "lane": 2,
     "start": {
-      "year": 1700
+      "year": 300
     },
     "end": {
-      "year": 2050
+      "year": 1200
     },
-    "descriptionCn": "美国近现代艺术、展览制度与公共艺术节点。"
+    "color": "#7C3AED",
+    "descriptionCn": "早期基督教、拜占庭、罗马式艺术及中世纪盛期欧洲艺术。"
   },
   {
-    "id": "s_china_artifacts",
-    "nameEn": "Chinese Art & Archaeology",
-    "nameCn": "中国艺术与考古",
-    "color": "#E76F51",
+    "id": "s_gothic",
+    "nameEn": "Gothic",
+    "nameCn": "哥特式",
     "lane": 3,
     "start": {
-      "year": -1000
+      "year": 1140
     },
     "end": {
-      "year": 2050
+      "year": 1500
     },
-    "descriptionCn": "中国文物、书画史与考古发现相关事件。"
+    "color": "#4338CA",
+    "descriptionCn": "盛期哥特式大教堂、雕塑与彩绘玻璃，辐射式与垂直式哥特风格。"
   },
   {
-    "id": "s_institutions_historiography",
-    "nameEn": "Institutions & Historiography",
-    "nameCn": "艺术制度与史学写作",
-    "color": "#2A9D8F",
+    "id": "s_cn_ancient_medieval",
+    "nameEn": "China: Ancient to Tang",
+    "nameCn": "中国：上古至隋唐",
     "lane": 4,
     "start": {
-      "year": -500
+      "year": -1600
+    },
+    "end": {
+      "year": 907
+    },
+    "color": "#DC2626",
+    "descriptionCn": "商周秦汉魏晋南北朝至隋唐：青铜器、汉画像、佛教石窟与唐代书画。"
+  },
+  {
+    "id": "s_cn_late_imperial",
+    "nameEn": "China: Song to Qing",
+    "nameCn": "中国：宋元明清",
+    "lane": 5,
+    "start": {
+      "year": 960
+    },
+    "end": {
+      "year": 1912
+    },
+    "color": "#EA580C",
+    "descriptionCn": "五代宋元明清：文人画、院体画、瓷器、建筑与宫廷艺术。"
+  },
+  {
+    "id": "s_renaissance",
+    "nameEn": "Renaissance",
+    "nameCn": "文艺复兴",
+    "lane": 6,
+    "start": {
+      "year": 1300
+    },
+    "end": {
+      "year": 1600
+    },
+    "color": "#CA8A04",
+    "descriptionCn": "意大利及欧洲文艺复兴：人文主义、透视法、古典复兴与盛期大师。"
+  },
+  {
+    "id": "s_baroque_rococo",
+    "nameEn": "Baroque & Rococo",
+    "nameCn": "巴洛克与洛可可",
+    "lane": 7,
+    "start": {
+      "year": 1600
+    },
+    "end": {
+      "year": 1750
+    },
+    "color": "#A16207",
+    "descriptionCn": "巴洛克戏剧性与洛可可装饰风格：宫廷艺术、宗教绘画与雕塑。"
+  },
+  {
+    "id": "s_neoclassical_romantic",
+    "nameEn": "Neoclassicism & Romanticism",
+    "nameCn": "新古典主义与浪漫主义",
+    "lane": 8,
+    "start": {
+      "year": 1750
+    },
+    "end": {
+      "year": 1850
+    },
+    "color": "#059669",
+    "descriptionCn": "启蒙时代新古典回潮与浪漫主义情感表达：大卫、德拉克洛瓦等。"
+  },
+  {
+    "id": "s_realism_impressionism",
+    "nameEn": "Realism to Post-Impressionism",
+    "nameCn": "现实主义至后印象派",
+    "lane": 9,
+    "start": {
+      "year": 1850
+    },
+    "end": {
+      "year": 1900
+    },
+    "color": "#0891B2",
+    "descriptionCn": "库尔贝现实主义、巴比松画派、印象主义与后印象主义。"
+  },
+  {
+    "id": "s_modernism",
+    "nameEn": "Modernism",
+    "nameCn": "现代主义",
+    "lane": 10,
+    "start": {
+      "year": 1900
+    },
+    "end": {
+      "year": 1945
+    },
+    "color": "#2563EB",
+    "descriptionCn": "立体主义、表现主义、未来主义、达达与早期抽象：先锋派艺术革命。"
+  },
+  {
+    "id": "s_east_asia_pre_modern",
+    "nameEn": "East Asia: Pre-modern",
+    "nameCn": "东亚：前现代",
+    "lane": 11,
+    "start": {
+      "year": 538
+    },
+    "end": {
+      "year": 1868
+    },
+    "color": "#DB2777",
+    "descriptionCn": "日本飞鸟至江户、朝鲜半岛传统艺术：佛教美术、浮世绘与工艺。"
+  },
+  {
+    "id": "s_cn_modern",
+    "nameEn": "China: Modern Era",
+    "nameCn": "中国：近现代",
+    "lane": 12,
+    "start": {
+      "year": 1840
     },
     "end": {
       "year": 2050
     },
-    "descriptionCn": "跨国的学院、博物馆、展览与艺术史写作事件。"
+    "color": "#BE123C",
+    "descriptionCn": "晚清至民国、新中国：社会变革中的中国书画、建筑与当代艺术。"
+  },
+  {
+    "id": "s_postwar_contemporary",
+    "nameEn": "Postwar & Contemporary",
+    "nameCn": "战后与当代艺术",
+    "lane": 13,
+    "start": {
+      "year": 1945
+    },
+    "end": {
+      "year": 2050
+    },
+    "color": "#4F46E5",
+    "descriptionCn": "抽象表现主义、波普、极简、观念艺术与全球当代实践。"
+  },
+  {
+    "id": "s_islamic_south_asian",
+    "nameEn": "Islamic & South Asian",
+    "nameCn": "伊斯兰与南亚",
+    "lane": 14,
+    "start": {
+      "year": 600
+    },
+    "end": {
+      "year": 1900
+    },
+    "color": "#0D9488",
+    "descriptionCn": "伊斯兰世界建筑与书法、印度莫卧儿及南亚传统艺术。"
+  },
+  {
+    "id": "s_americas_oceania",
+    "nameEn": "Americas & Oceania",
+    "nameCn": "美洲与大洋洲",
+    "lane": 15,
+    "start": {
+      "year": -2000
+    },
+    "end": {
+      "year": 2050
+    },
+    "color": "#65A30D",
+    "descriptionCn": "前哥伦布文明、殖民时期至现代美洲及大洋洲艺术。"
   }
 ]

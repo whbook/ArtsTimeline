@@ -1,0 +1,3396 @@
+[
+  {
+    "id": "8db7e851-7364-45e8-9c90-05f4765b4cc6",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "用直保圣寺始建",
+    "titleCn": "用直保圣寺始建",
+    "date": {
+      "year": 503
+    },
+    "descriptionCn": "公元503年（梁天监二年），位于江苏吴县（今苏州）的用直保圣寺开始建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "南北朝（梁代）",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "dc168b88-c0d1-4bbd-9b84-8a77e6011147",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "元氏石棺线刻装饰完成",
+    "titleCn": "元氏石棺线刻装饰完成",
+    "date": {
+      "year": 522
+    },
+    "descriptionCn": "522年，元氏石棺在洛阳附近埋葬，石棺上装饰浅浮雕孝子故事线刻。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北魏",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "dc168b88-c0d1-4bbd-9b84-8a77e6011147",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "元氏石棺线刻装饰完成",
+    "titleCn": "元氏石棺线刻装饰完成",
+    "date": {
+      "year": 522
+    },
+    "descriptionCn": "522年，元氏石棺在洛阳附近埋葬，石棺上装饰浅浮雕孝子故事线刻。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北魏",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "dbc84409-87a6-4e2f-aa96-fe16abf6407e",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "圣维塔莱教堂始建",
+    "titleCn": "圣维塔莱教堂始建",
+    "date": {
+      "year": 526
+    },
+    "descriptionCn": "圣维塔莱教堂始建于526年至534年，位于拉文纳。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "拜占庭时期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "ace77bf7-2194-4714-9438-403cdf2fc89d",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "圣维塔莱教堂开始建造",
+    "titleCn": "圣维塔莱教堂开始建造",
+    "date": {
+      "year": 526
+    },
+    "descriptionCn": "公元526年，圣维塔莱教堂在意大利拉文纳开始建造，由拜占庭皇帝查士丁尼大帝和地方主教马克西米安努斯委托建造，采用中央式设计。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "拜占庭时期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "3b6406ee-3ed2-4a82-beb8-b87aea16eb54",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "圣索菲亚大教堂开始修建",
+    "titleCn": "圣索菲亚大教堂开始修建",
+    "date": {
+      "year": 532
+    },
+    "descriptionCn": "公元532年，圣索菲亚大教堂在拜占庭帝国首都君士坦丁堡开始修建，由特拉勒斯的安提莫斯和米莱特的伊西多尔设计，采用穹隅支撑中央穹顶的创新型建筑方案。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "拜占庭帝国",
+      "originalPeriod": "拜占庭时期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "a20d9673-979c-4724-802b-90d3854dac3e",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "圣索菲亚教堂建造",
+    "titleCn": "圣索菲亚教堂建造",
+    "date": {
+      "year": 532
+    },
+    "descriptionCn": "532年至537年，根据皇帝尤斯蒂尼安的御令，君士坦丁堡圣索菲亚教堂建成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "土耳其",
+      "originalPeriod": "拜占庭帝国",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "daee80a5-44d0-4fef-83a1-a892b68b3b9a",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "佛碑局部（北魏）制作",
+    "titleCn": "佛碑局部（北魏）制作",
+    "date": {
+      "year": 533,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "533年-534年，北魏时期制作佛碑局部，现藏纽约大都会博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北魏",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "d0d8683e-47cd-4607-81be-3b92c59d05d6",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "北魏创作佛教石碑（局部）",
+    "titleCn": "北魏创作佛教石碑（局部）",
+    "date": {
+      "year": 533,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "533年，北魏时期创作佛教石碑（局部），现藏于纽约大都会博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北魏",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "9176cc18-cb27-4830-9413-1e49c73eeff9",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "圣索菲亚大教堂完工",
+    "titleCn": "圣索菲亚大教堂完工",
+    "date": {
+      "year": 537
+    },
+    "descriptionCn": "公元537年，圣索菲亚大教堂在君士坦丁堡建成并举行落成仪式，皇帝查士丁尼将其成就与所罗门圣殿相媲美。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "拜占庭帝国",
+      "originalPeriod": "拜占庭时期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "6fae6137-550e-4f67-8497-eb96bb29b9dc",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "智永禅师与弟智欣返回会稽舍家为寺",
+    "titleCn": "智永禅师与弟智欣返回会稽舍家为寺",
+    "date": {
+      "year": 537
+    },
+    "descriptionCn": "大同二年（公元537年），智永禅师与其弟智欣返回会稽兰渚山下，将王家老宅修葺一番，舍家为寺，命名为嘉祥寺。梁武帝萧衍为嘉奖其崇佛行为，从二人名字中各取一字，颁赐寺匾“永欣寺”。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "南朝梁",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "67c97cb2-6ac4-42c0-86ba-368bc82b9125",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "敦煌莫高窟第285窟建成",
+    "titleCn": "敦煌莫高窟第285窟建成",
+    "date": {
+      "year": 538
+    },
+    "descriptionCn": "538年或539年，敦煌莫高窟第285窟建成，窟内壁画包括日天、月天及西方净土场景，是现存最早有明确纪年的敦煌石窟。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北魏晚期",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑、绘画",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "67c97cb2-6ac4-42c0-86ba-368bc82b9125",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "敦煌莫高窟第285窟建成",
+    "titleCn": "敦煌莫高窟第285窟建成",
+    "date": {
+      "year": 538
+    },
+    "descriptionCn": "538年或539年，敦煌莫高窟第285窟建成，窟内壁画包括日天、月天及西方净土场景，是现存最早有明确纪年的敦煌石窟。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北魏晚期",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑、绘画",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "8abad3c4-f79c-4233-a15c-65463a717555",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "圣维塔莱教堂建成",
+    "titleCn": "圣维塔莱教堂建成",
+    "date": {
+      "year": 547
+    },
+    "descriptionCn": "公元547年，圣维塔莱教堂在拉文纳建成，其室内镶嵌画结合了基督教图像志与拜占庭帝国政治主张，如《查士丁尼大帝及其随从》和《狄奥多拉皇后及其随从》。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "镶嵌画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "拜占庭时期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑、镶嵌画",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "40e9bec0-672e-4df2-81d9-f53f35d8a1e8",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "圣维塔莱教堂落成",
+    "titleCn": "圣维塔莱教堂落成",
+    "date": {
+      "year": 547
+    },
+    "descriptionCn": "圣维塔莱教堂于547年落成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "拜占庭时期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "2cab2c9f-1d44-4d82-a59b-13d74a88faf7",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "张僧繇在梁武帝太清年间于秘阁发现曹不兴龙头画并重加欣赏",
+    "titleCn": "张僧繇在梁武帝太清年间于秘阁发现曹不兴龙头画并重加欣赏",
+    "date": {
+      "year": 547
+    },
+    "descriptionCn": "梁武帝太清年间（547年-549年），龙泉亭遭雷击，导致秘阁墙垣震塌，露出了曹不兴所绘的龙头画。张僧繇赶到现场，收拾法书名画，并重新观赏这幅龙头画，方才品味出该画实为神妙佳作。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "南朝梁",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5b8b2598-6211-4d43-afd4-da5c2c8c7a0b",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "高欢病重遇日蚀",
+    "titleCn": "高欢病重遇日蚀",
+    "date": {
+      "year": 547
+    },
+    "descriptionCn": "公元547年正月朔日（正月初一），恰逢日蚀，病重垂死的高欢感叹道：“日蚀为我，死亦何恨！”",
+    "importance": 4,
+    "tags": [],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "南北朝",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "dce57602-1797-4c8c-a3c5-69f83727c765",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "欧阳询出生",
+    "titleCn": "欧阳询出生",
+    "date": {
+      "year": 557
+    },
+    "descriptionCn": "557年，欧阳询出生于潭州临湘（今湖南长沙）。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "南朝陈",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "b2d6586b-c536-4ce5-98f2-ca12792af901",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "圣索菲亚教堂圆顶重建",
+    "titleCn": "圣索菲亚教堂圆顶重建",
+    "date": {
+      "year": 558
+    },
+    "descriptionCn": "558年至562年，小伊西多鲁斯设计并重建了圣索菲亚教堂的高圆顶。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "土耳其",
+      "originalPeriod": "拜占庭帝国",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "82cee5c5-a5e4-464d-868e-50645cc5bdf8",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "虞世南出生",
+    "titleCn": "虞世南出生",
+    "date": {
+      "year": 558
+    },
+    "descriptionCn": "558年，虞世南出生于浙江余姚。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "南朝陈",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "d52406d3-b7a0-4e7f-a3bf-97756410a009",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "隋大兴城（长安）初建",
+    "titleCn": "隋大兴城（长安）初建",
+    "date": {
+      "year": 583
+    },
+    "descriptionCn": "583年，隋大兴城（长安）初建，面积达84平方公里。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "隋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "c6e052f7-7bc4-45d4-bfcd-9d7c92adfd6c",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "隋文帝定都长安",
+    "titleCn": "隋文帝定都长安",
+    "date": {
+      "year": 583
+    },
+    "descriptionCn": "公元583年，隋文帝定都长安，其城市规划覆盖80平方千米，为后来的扩建奠定基础。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "城市规划"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "隋朝",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑、城市规划",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "a636eb88-3f34-497b-9869-399313c80aa6",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "董钦敬造阿弥陀佛及胁侍鎏金铜像",
+    "titleCn": "董钦敬造阿弥陀佛及胁侍鎏金铜像",
+    "date": {
+      "year": 584
+    },
+    "descriptionCn": "584年，隋朝官员董钦在长安敬造了一组阿弥陀佛及胁侍鎏金铜像，包括佛陀、菩萨、天王和狮子，铭文为皇帝及家人祈福。1974年在西安郊外出土。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "隋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "a636eb88-3f34-497b-9869-399313c80aa6",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "董钦敬造阿弥陀佛及胁侍鎏金铜像",
+    "titleCn": "董钦敬造阿弥陀佛及胁侍鎏金铜像",
+    "date": {
+      "year": 584
+    },
+    "descriptionCn": "584年，隋朝官员董钦在长安敬造了一组阿弥陀佛及胁侍鎏金铜像，包括佛陀、菩萨、天王和狮子，铭文为皇帝及家人祈福。1974年在西安郊外出土。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "隋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "80d4cbc0-30b5-42fa-b468-769880d0cd10",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "拉布拉僧侣作《耶稣受难图》第三福音书细密画",
+    "titleCn": "拉布拉僧侣作《耶稣受难图》第三福音书细密画",
+    "date": {
+      "year": 586,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约586年，拉布拉僧侣创作了古叙利亚文饰画手抄本《耶稣受难图》（第三福音书细密画），现藏于佛罗伦萨劳伦西安图书馆。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "书法"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "拜占庭时期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "绘画、书法",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a7571cb7-60df-4618-ac85-43b4657b801d",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "隋代制作天蓝地白花绞缬丝织品",
+    "titleCn": "隋代制作天蓝地白花绞缬丝织品",
+    "date": {
+      "year": 586
+    },
+    "descriptionCn": "隋开皇六年（586年），制作了天蓝地白花绞缬丝织品，该织品后于新疆吐鲁番出土。",
+    "importance": 2,
+    "tags": [
+      "染织"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "隋代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "染织",
+      "eventCategory": "考古与发现"
+    }
+  },
+  {
+    "id": "9d320050-90ed-47f9-a45c-a1019954b782",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "安济桥（赵州桥）开始建造",
+    "titleCn": "安济桥（赵州桥）开始建造",
+    "date": {
+      "year": 590
+    },
+    "descriptionCn": "590年，河北赵州安济桥（赵州桥）开始建造，历时12年，是世界上最早的空撞券桥。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "隋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "678c283e-e7c0-4a02-a9ae-2029c28ae1e0",
+    "periodId": "p_medieval",
+    "streamId": "s_east_asia_pre_modern",
+    "titleEn": "法隆寺建造",
+    "titleCn": "法隆寺建造",
+    "date": {
+      "year": 607
+    },
+    "descriptionCn": "公元607年，日本圣德太子委托建造法隆寺，该寺成为东亚最古老的佛教寺庙之一，其建筑群包括金堂、宝塔等。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "宗教艺术"
+    ],
+    "meta": {
+      "country": "日本",
+      "originalPeriod": "飞鸟时代",
+      "standardPeriod": "东亚：前现代",
+      "eventTypeRaw": "建筑、宗教艺术",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "757af0d9-cd42-4ea5-8bcd-8d21d84396d2",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "唐朝扩建长安并命名为长安",
+    "titleCn": "唐朝扩建长安并命名为长安",
+    "date": {
+      "year": 618
+    },
+    "descriptionCn": "公元618年，唐朝建立后，长安城得到扩建并被命名为“长安”，意为“永久太平的城市”。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "城市规划"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑、城市规划",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "10ff0eb7-6b60-4776-bbba-ffcdd6e65712",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "萨顿胡钱包盖制作",
+    "titleCn": "萨顿胡钱包盖制作",
+    "date": {
+      "year": 620,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "大约公元620年，萨顿胡钱包盖在盎格鲁-撒克逊时期制作，采用黄金、印度的石榴石和景泰蓝掐丝珐琅，交织花纹图案，用于装饰腰带，后于1939年在英国萨顿胡船墓葬中发现。",
+    "importance": 2,
+    "tags": [
+      "金属工艺",
+      "装饰艺术"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "盎格鲁-撒克逊时期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "金属工艺、装饰艺术",
+      "eventCategory": "考古与发现"
+    }
+  },
+  {
+    "id": "be15a980-b29d-4ff6-92ad-c5e05710ab2d",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "唐朝设置修文馆，欧阳询被任命为学士",
+    "titleCn": "唐朝设置修文馆，欧阳询被任命为学士",
+    "date": {
+      "year": 621,
+      "month": 1
+    },
+    "descriptionCn": "621年正月，唐高祖李渊于门下省设置修文馆，欧阳询被任命为学士之一，负责教授书法。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "教育"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、教育",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "2e1553b1-6189-41a0-adef-7189e78d1aa4",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "虞世南入选文学馆十八学士",
+    "titleCn": "虞世南入选文学馆十八学士",
+    "date": {
+      "year": 621
+    },
+    "descriptionCn": "621年，李世民在天策府开设文学馆，虞世南作为俘虏被选中，成为十八学士之一。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "文学"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、文学",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "30948983-c174-47d8-83e3-b856c91e8034",
+    "periodId": "p_medieval",
+    "streamId": "s_east_asia_pre_modern",
+    "titleEn": "鞍作止利制作释迦三尊像",
+    "titleCn": "鞍作止利制作释迦三尊像",
+    "date": {
+      "year": 623
+    },
+    "descriptionCn": "公元623年，日本工艺大师鞍作止利（Tori Busshi）为法隆寺金堂制作了释迦三尊像，中心人物高1.75米，带有镀金青铜材质，是飞鸟时代佛教雕塑的代表作。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "日本",
+      "originalPeriod": "飞鸟时代",
+      "standardPeriod": "东亚：前现代",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "ed64030a-8598-445d-8654-d54f74e33916",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "欧阳询主编《艺文类聚》成书",
+    "titleCn": "欧阳询主编《艺文类聚》成书",
+    "date": {
+      "year": 624
+    },
+    "descriptionCn": "624年（武德七年），由欧阳询主编的《艺文类聚》成书，全书引用文献1431种，成为古代著名的类书。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "学术"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、学术",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "615c3303-1da3-4310-9af5-6fc07e2c5fe1",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "虞世南撰并书《孔子庙堂碑》",
+    "titleCn": "虞世南撰并书《孔子庙堂碑》",
+    "date": {
+      "year": 626
+    },
+    "descriptionCn": "唐武德九年（626年），虞世南撰并书《孔子庙堂碑》，碑文记载唐高祖立孔德伦为褒圣侯并新修孔庙之事。此碑为初唐碑刻杰出之作，历代金石学家和书法家视为虞书妙品。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "8598eacf-c457-496e-92e9-3a9b80c29b46",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "阎立本绘《秦府十八学士图》",
+    "titleCn": "阎立本绘《秦府十八学士图》",
+    "date": {
+      "year": 626
+    },
+    "descriptionCn": "武德九年（626年），阎立本绘制《秦府十八学士图》，描绘秦王李世民属下的房玄龄、杜如晦等十八位文人谋士的肖像，按人写真，生动刻画了每个人的身材、相貌、服饰、年龄及神情等特征。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5687448e-4c21-4a58-a7ce-29e9467a4b09",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "唐太宗颁布诏书令五品以上官员子弟学书",
+    "titleCn": "唐太宗颁布诏书令五品以上官员子弟学书",
+    "date": {
+      "year": 627
+    },
+    "descriptionCn": "627年（贞观元年），唐太宗颁布诏书，允许在京五品以上官员中有书法爱好或天赋的子弟在弘文馆学书，并从宫内提供书法范本。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "教育"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、教育",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "8d87a08c-c2ed-4579-bb8c-0b54ad657bfb",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "石鼓被发现于陕西宝鸡郊外",
+    "titleCn": "石鼓被发现于陕西宝鸡郊外",
+    "date": {
+      "year": 627
+    },
+    "descriptionCn": "公元627年（唐贞观元年），在陕西宝鸡郊外的野地里，有人无意间发现了十个花岗岩石鼓，其上刻有文字，后被称为石鼓文。",
+    "importance": 2,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "考古与发现"
+    }
+  },
+  {
+    "id": "b6bd40c8-5bcc-4dcc-a813-7a4cfb6beb56",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "彦惊撰写《后画录》",
+    "titleCn": "彦惊撰写《后画录》",
+    "date": {
+      "year": 629
+    },
+    "descriptionCn": "唐贞观三年（629年），京兆大慈恩寺沙门彦惊撰写《后画录》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5e56f739-3def-4e85-ad56-5ee22624a81d",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "阎立本协助阎立德为蛮邦使臣绘图",
+    "titleCn": "阎立本协助阎立德为蛮邦使臣绘图",
+    "date": {
+      "year": 629
+    },
+    "descriptionCn": "贞观三年（629年），东蛮人谢元深到长安朝见唐太宗，中书侍郎颜师古奏请绘制番邦使臣图像以彰显德政，太宗批准后，阎立本等人协助阎立德为这些蛮邦使臣绘图画像。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "1d7fef3b-3552-4d0e-9f7d-3453a860350c",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "唐太宗在长安内城东北方扩建大明宫",
+    "titleCn": "唐太宗在长安内城东北方扩建大明宫",
+    "date": {
+      "year": 634
+    },
+    "descriptionCn": "公元634年，唐太宗在长安内城东北方扩建城市，建立了大明宫建筑群，包括含元殿、麟德殿等。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "cb1e5ec1-3f92-4805-9c8c-c34bbdeb95f3",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "虞世南去世",
+    "titleCn": "虞世南去世",
+    "date": {
+      "year": 638
+    },
+    "descriptionCn": "638年，书法家虞世南去世。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "9d3f5cdb-37e2-4cd0-aa32-7af2f0ecde7e",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "褚遂良为唐太宗鉴定王羲之尺牍真伪",
+    "titleCn": "褚遂良为唐太宗鉴定王羲之尺牍真伪",
+    "date": {
+      "year": 638
+    },
+    "descriptionCn": "贞观十二年（638年），虞世南去世后，经魏征推荐，褚遂良被唐太宗召见。太宗拿出一件王羲之尺牍请褚遂良鉴定真伪。褚遂良通过观察墨迹层次，指出尺牍中的涂抹败笔，判定其为赝品，展现了高超的书法鉴赏能力。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "cd36ad7f-e7ea-48be-adf4-fcaf04383d70",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "欧阳询去世",
+    "titleCn": "欧阳询去世",
+    "date": {
+      "year": 641
+    },
+    "descriptionCn": "641年，书法家欧阳询去世，历任太子率更令、弘文馆学士，封渤海男。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "1c52355f-3ea5-43aa-921b-be79057e7f12",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "阎立本绘《步辇图》",
+    "titleCn": "阎立本绘《步辇图》",
+    "date": {
+      "year": 641
+    },
+    "descriptionCn": "贞观十五年（641年），阎立本绘制《步辇图》，描绘吐蕃赞普松赞干布的使臣禄东赞朝见唐太宗请求联姻的场景。画面中唐太宗端坐步辇，禄东赞拱手而立，人物刻画细致，线条圆劲，设色浓重，是记录唐蕃和亲的重要艺术作品。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "c0429742-2115-4c34-820e-2856b35f55c2",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "唐太宗下诏要求将功臣图像于丹青",
+    "titleCn": "唐太宗下诏要求将功臣图像于丹青",
+    "date": {
+      "year": 643
+    },
+    "descriptionCn": "贞观十七年（643年），唐太宗李世民下诏，要求将功臣的功勋刻于钟鼎，并将他们的形象绘制于丹青。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "2636ec3b-a09a-46ea-874b-f27190ecea04",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "阎立本奉诏绘凌烟阁二十四功臣像",
+    "titleCn": "阎立本奉诏绘凌烟阁二十四功臣像",
+    "date": {
+      "year": 643
+    },
+    "descriptionCn": "贞观十七年（643年），阎立本奉唐太宗诏令，在凌烟阁绘制长孙无忌、李孝恭、魏徵、房玄龄、杜如晦等二十四位功臣的肖像，这是继汉代麒麟阁、云台画功臣像之后又一次大型政治性肖像画创作。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "2e67ef23-6ca8-452c-bb8d-8defce6529e9",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "太子李治建慈恩寺",
+    "titleCn": "太子李治建慈恩寺",
+    "date": {
+      "year": 648
+    },
+    "descriptionCn": "贞观二十二年（648年），太子李治为追念母亲文德皇后而建造慈恩寺，寺内设有规模宏大的译经院。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "22afbb5f-c8e0-4c80-a7f3-6f52a92a6e28",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "唐太宗驾崩，《兰亭集序》作为殉葬品埋入昭陵",
+    "titleCn": "唐太宗驾崩，《兰亭集序》作为殉葬品埋入昭陵",
+    "date": {
+      "year": 649
+    },
+    "descriptionCn": "贞观二十二年（649年），唐太宗在长安玉华宫含风殿驾崩。太子李治遵其遗嘱，将《兰亭集序》真迹装入一只玉匣，作为殉葬品深埋昭陵地下。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "86e81bd5-bebb-4918-8816-5e95f797d825",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "怀仁和尚建议集王羲之字刻《圣教序碑》",
+    "titleCn": "怀仁和尚建议集王羲之字刻《圣教序碑》",
+    "date": {
+      "year": 649
+    },
+    "descriptionCn": "贞观二十三年（649年），怀仁和尚在太宗皇帝病重期间，向太宗建议集王羲之的字刻成《大唐三藏圣教序碑》，获得太宗赞许。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "6005a27f-b1b5-4102-9aea-5fced669c575",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "第一部《古兰经》抄写完成",
+    "titleCn": "第一部《古兰经》抄写完成",
+    "date": {
+      "year": 650
+    },
+    "descriptionCn": "公元650年，第一部《古兰经》抄写完成，促进了阿拉伯书法艺术的产生和发展。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "中古时期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "d191e4a3-a47c-49f6-b9ac-013faa127c4d",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "萨顿霍撤克逊族长墓嵌宝景泰蓝金饰匾制作",
+    "titleCn": "萨顿霍撤克逊族长墓嵌宝景泰蓝金饰匾制作",
+    "date": {
+      "year": 650,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约650年，发现于英格兰萨顿霍的撤克逊族长墓中的嵌宝景泰蓝金饰匾（小荷包上的装饰局部）制作完成，现藏于伦敦不列颠博物馆。",
+    "importance": 2,
+    "tags": [
+      "工艺美术",
+      "金工"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "盎格鲁-撒克逊时期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "工艺美术、金工",
+      "eventCategory": "考古与发现"
+    }
+  },
+  {
+    "id": "fc46fde6-eb92-496a-aa84-94c0302b2ef4",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "李思训出生",
+    "titleCn": "李思训出生",
+    "date": {
+      "year": 651
+    },
+    "descriptionCn": "651年，李思训出生。他是唐朝宗室，晚年任左羽林卫大将军，史称大李将军。其山水画继承展子虔青绿传统，为青绿山水画奠基人之一。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "3e500269-cb37-42d0-8cff-45711aaa02f7",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "慈恩寺塔（大雁塔）建造",
+    "titleCn": "慈恩寺塔（大雁塔）建造",
+    "date": {
+      "year": 652
+    },
+    "descriptionCn": "652年，慈恩寺塔（大雁塔）建造，原高5层。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "06ddee85-0e25-474a-b44b-7330ec32f015",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "李思训出生",
+    "titleCn": "李思训出生",
+    "date": {
+      "year": 653
+    },
+    "descriptionCn": "653年，唐代画家李思训出生。李思训字建景，陇西成纪（今甘肃天水地区）人，唐朝宗室，后成为著名山水画家。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "65ceed54-48d6-4b16-95a2-62222e97ae66",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "怀仁和尚完成集王羲之字成《集王圣教序碑》",
+    "titleCn": "怀仁和尚完成集王羲之字成《集王圣教序碑》",
+    "date": {
+      "year": 672
+    },
+    "descriptionCn": "从贞观二十三年（649年）开始，直到咸亨三年（672年），怀仁和尚历时二十四年，终于完成了集王羲之字成《集王圣教序碑》的任务。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "677e0e9b-a369-4507-a6df-f1c1d9c6e43d",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "张旭出生",
+    "titleCn": "张旭出生",
+    "date": {
+      "year": 675,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "唐代书法家张旭出生于约公元675年，字伯高，又字季明，其母陆氏为初唐书法家陆柬之的侄女。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "adf22945-c7bf-4aa2-be12-e4a5f8c6d72d",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "龙门奉先寺完工",
+    "titleCn": "龙门奉先寺完工",
+    "date": {
+      "year": 675
+    },
+    "descriptionCn": "675年，位于河南洛阳龙门石窟的奉先寺完工，由唐高宗和武则天赞助，主像毗卢遮那佛高17.4米，两侧有天王和力士，体现了唐代佛教艺术的现实风格。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "adf22945-c7bf-4aa2-be12-e4a5f8c6d72d",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "龙门奉先寺完工",
+    "titleCn": "龙门奉先寺完工",
+    "date": {
+      "year": 675
+    },
+    "descriptionCn": "675年，位于河南洛阳龙门石窟的奉先寺完工，由唐高宗和武则天赞助，主像毗卢遮那佛高17.4米，两侧有天王和力士，体现了唐代佛教艺术的现实风格。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "8227bc48-366e-44cd-9642-d201f89477bd",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "李邕出生",
+    "titleCn": "李邕出生",
+    "date": {
+      "year": 678
+    },
+    "descriptionCn": "唐代书法家李邕出生于公元678年，字泰和，广陵江都（今江苏扬州）人。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "3b157b8d-f810-418b-bc76-672d7a178331",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "林迪斯法恩圣经饰绘",
+    "titleCn": "林迪斯法恩圣经饰绘",
+    "date": {
+      "year": 698
+    },
+    "descriptionCn": "698-721年间，饰绘了《林迪斯法恩圣经》，现藏于不列颠博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "书法"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "中世纪早期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "绘画、书法",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "6c647eac-6853-4b19-99a6-ffef0feb81fe",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "李重润墓壁画绘制",
+    "titleCn": "李重润墓壁画绘制",
+    "date": {
+      "year": 700
+    },
+    "descriptionCn": "700年，李重润墓甬道未完成的壁画绘制，展现了唐代宫廷壁画工艺流程与贵族生活场景。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "6c647eac-6853-4b19-99a6-ffef0feb81fe",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "李重润墓壁画绘制",
+    "titleCn": "李重润墓壁画绘制",
+    "date": {
+      "year": 700
+    },
+    "descriptionCn": "700年，李重润墓甬道未完成的壁画绘制，展现了唐代宫廷壁画工艺流程与贵族生活场景。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9c85e3f5-8f30-4fa0-9196-56d71b7f6559",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "慈恩寺塔（大雁塔）重修至10层",
+    "titleCn": "慈恩寺塔（大雁塔）重修至10层",
+    "date": {
+      "year": 701
+    },
+    "descriptionCn": "701年至704年，慈恩寺塔（大雁塔）重修至10层。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "90c9e567-7eaa-4f70-ab6c-01e1f0976005",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "王维出生",
+    "titleCn": "王维出生",
+    "date": {
+      "year": 701
+    },
+    "descriptionCn": "701年，王维出生于蒲州（今山西永济）。",
+    "importance": 4,
+    "tags": [
+      "其他"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "其他",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "9761b03c-f07a-4096-b568-f6e0027a31d0",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "唐中宗召李思训回长安任宗正卿",
+    "titleCn": "唐中宗召李思训回长安任宗正卿",
+    "date": {
+      "year": 705
+    },
+    "descriptionCn": "705年（神龙初年），唐中宗派人到江西长江边寻访李思训，李思训举家迁回长安，被任命为宗正卿，管理皇家宗室事务。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "e316e556-9a01-4643-9763-7e1372c79bb8",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "唐宗室皇亲建造荐福寺小雁塔",
+    "titleCn": "唐宗室皇亲建造荐福寺小雁塔",
+    "date": {
+      "year": 708
+    },
+    "descriptionCn": "唐中宗景龙年间（708年），唐宗室皇亲为向唐高后百日献福，在荐福寺建造了小雁塔。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "c1a925b4-998c-404e-b8d5-b1c49e04eb60",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "乐山大佛动工开凿",
+    "titleCn": "乐山大佛动工开凿",
+    "date": {
+      "year": 713
+    },
+    "descriptionCn": "713年，乐山大佛在四川省乐山市凌云山西壁动工开凿，依山而坐，脚踏三江。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "ae66df55-5878-4c27-bffc-9fb7fa3eb1ff",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "李思训去世",
+    "titleCn": "李思训去世",
+    "date": {
+      "year": 718
+    },
+    "descriptionCn": "718年，唐代画家李思训去世。李思训字建景，陇西成纪（今甘肃天水地区）人，擅长青绿山水，被后世称为“大李将军”。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "cdcbef36-7f61-42a4-a8c3-c0edc010cd86",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "李思训逝世",
+    "titleCn": "李思训逝世",
+    "date": {
+      "year": 718
+    },
+    "descriptionCn": "718年（开元六年），李思训逝世。他是唐代著名画家，青绿山水画代表。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "78fb781c-2d4a-49ce-b166-c41ee4d177a3",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "赵姓赞助人雕刻道教天尊石坐像",
+    "titleCn": "赵姓赞助人雕刻道教天尊石坐像",
+    "date": {
+      "year": 719,
+      "month": 11,
+      "day": 10
+    },
+    "descriptionCn": "719年11月10日，一位赵姓赞助人在山西运城附近雕刻了一尊道教天尊石坐像，像右手持羽扇，形制类似佛教造像，现供奉于已毁的道观。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "78fb781c-2d4a-49ce-b166-c41ee4d177a3",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "赵姓赞助人雕刻道教天尊石坐像",
+    "titleCn": "赵姓赞助人雕刻道教天尊石坐像",
+    "date": {
+      "year": 719,
+      "month": 11,
+      "day": 10
+    },
+    "descriptionCn": "719年11月10日，一位赵姓赞助人在山西运城附近雕刻了一尊道教天尊石坐像，像右手持羽扇，形制类似佛教造像，现供奉于已毁的道观。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "e1bde3a4-ad6b-4f1b-945c-d60878f256d2",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "吴道子陪同唐玄宗东封泰山并参与绘制《金桥图》",
+    "titleCn": "吴道子陪同唐玄宗东封泰山并参与绘制《金桥图》",
+    "date": {
+      "year": 725
+    },
+    "descriptionCn": "公元725年，唐玄宗东封泰山，吴道子陪同前往。事后还师至潞州（今山西长治），车驾过金桥。唐玄宗召来吴道子、韦无乔、陈闳，命三人共同绘制《金桥图》。陈闳主画唐玄宗真容及所乘照夜白马，韦无乔主画狗马、骡驴、牛羊等动物，吴道子主画桥梁、山水、车舆、人物、草树、雁鸟、器仗、帷幕等。画成后，朝野誉为大唐一绝。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "00906904-4ac6-456d-8e05-28edf7639e5c",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "圣像破坏运动爆发",
+    "titleCn": "圣像破坏运动爆发",
+    "date": {
+      "year": 726
+    },
+    "descriptionCn": "公元726年，拜占庭帝国爆发圣像破坏运动，圣像破坏者反对圣像崇拜，开始破坏圣像和宗教图像，导致早期基督教艺术品大量遗失。",
+    "importance": 4,
+    "tags": [
+      "宗教艺术",
+      "艺术运动"
+    ],
+    "meta": {
+      "country": "拜占庭帝国",
+      "originalPeriod": "拜占庭时期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "宗教艺术、艺术运动",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "c135ba0b-be6c-42be-984b-86cfe38fc65d",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "王维被召回长安授右拾遗",
+    "titleCn": "王维被召回长安授右拾遗",
+    "date": {
+      "year": 734
+    },
+    "descriptionCn": "734年，张九龄被擢为中书令后，将王维召回长安，任命为右拾遗。",
+    "importance": 4,
+    "tags": [
+      "其他"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "其他",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "fd751713-8daf-4cb5-a47b-aec02db3ccd7",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "王维奉命赴河西任判官",
+    "titleCn": "王维奉命赴河西任判官",
+    "date": {
+      "year": 737
+    },
+    "descriptionCn": "737年，王维奉命赴河西节度副大使崔希逸幕府担任判官。",
+    "importance": 4,
+    "tags": [
+      "其他"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "其他",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "decf639d-1a30-4fdb-a292-99cb612bcaee",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "颜真卿书写《周太师尉迟迥碑铭》",
+    "titleCn": "颜真卿书写《周太师尉迟迥碑铭》",
+    "date": {
+      "year": 737
+    },
+    "descriptionCn": "737年，颜真卿调任校书郎，撰文并书写其第一件传世书法作品《周太师尉迟迥碑铭》。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "fecad0a8-e83d-41e7-9529-4f68ad7eae68",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "颜真卿投拜张旭学习书法",
+    "titleCn": "颜真卿投拜张旭学习书法",
+    "date": {
+      "year": 737
+    },
+    "descriptionCn": "737年，颜真卿在长安通过岳父韦迪引荐，投拜书法大师张旭门下研习书法。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "eb3be993-dd32-4cba-9cd8-73daeea0c742",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "唐玄宗建立翰林院",
+    "titleCn": "唐玄宗建立翰林院",
+    "date": {
+      "year": 745
+    },
+    "descriptionCn": "公元745年，唐玄宗（唐明皇）建立翰林院，聚集学者、诗人和画家，并设立戏曲音乐学院，促进了宫廷艺术的发展。",
+    "importance": 3,
+    "tags": [
+      "机构建设",
+      "音乐",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "机构建设、音乐、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "313ff02a-0f97-4e17-bb0b-7fb494ca9db3",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "李邕在齐州历下亭宴请杜甫，杜甫作《陪李北海宴历下亭》",
+    "titleCn": "李邕在齐州历下亭宴请杜甫，杜甫作《陪李北海宴历下亭》",
+    "date": {
+      "year": 745
+    },
+    "descriptionCn": "天宝四年（745年），北海太守李邕得知杜甫来到齐州，便从青州赶至齐州，在客亭设宴款待杜甫。席间，杜甫即席创作《陪李北海宴历下亭》诗一首，诗中有“海右此亭古，济南名士多”等句。此次聚会成为文学史佳话。",
+    "importance": 3,
+    "tags": [
+      "文学"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "文学",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "139bcb3c-25c1-4095-8b6b-3ede4671c5b3",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "李邕去世",
+    "titleCn": "李邕去世",
+    "date": {
+      "year": 747
+    },
+    "descriptionCn": "唐代书法家李邕去世于公元747年。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "c19a80d0-b5a5-4626-aafc-028cec3225e1",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "李邕被杖杀于青州",
+    "titleCn": "李邕被杖杀于青州",
+    "date": {
+      "year": 748
+    },
+    "descriptionCn": "天宝七年（748年），宰相李林甫借柳勛案栽赃北海太守李邕，遣刑部员外郎祁顺之、监察御史罗希爽至青州，在州府衙门前将李邕杖击致死。李邕时年七十岁。",
+    "importance": 4,
+    "tags": [],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "c477da95-e557-4907-8e0d-a6558e261528",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "圣加尔福音书饰绘",
+    "titleCn": "圣加尔福音书饰绘",
+    "date": {
+      "year": 750
+    },
+    "descriptionCn": "750-760年间，饰绘了《圣加尔福音书》，现藏于瑞士圣加尔藏书楼。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "书法"
+    ],
+    "meta": {
+      "country": "瑞士",
+      "originalPeriod": "中世纪早期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "绘画、书法",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "91528f3e-5d9a-4931-a2a3-fc818296bdf7",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "张旭去世",
+    "titleCn": "张旭去世",
+    "date": {
+      "year": 751,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "唐代书法家张旭去世于约公元751年。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "9c3ef191-781b-428c-ba3c-e50ff02e646e",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "鉴真东渡日本，传播唐代建筑、雕塑、绘画等艺术",
+    "titleCn": "鉴真东渡日本，传播唐代建筑、雕塑、绘画等艺术",
+    "date": {
+      "year": 753
+    },
+    "descriptionCn": "753年，鉴真东渡日本，将唐代的建筑、雕塑、绘画、医药等文化艺术带到日本，促进了中日文化交流。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑",
+      "绘画"
+    ],
+    "meta": {
+      "country": "日本",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑、雕塑、绘画",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "dd61a0eb-7745-40ab-b01e-ac1b330ab7bd",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "张志和官至左金吾卫录事参军",
+    "titleCn": "张志和官至左金吾卫录事参军",
+    "date": {
+      "year": 756
+    },
+    "descriptionCn": "唐代画家张志和于唐肃宗朝（公元756-761年）担任左金吾卫录事参军。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a7714960-d2cf-43fb-b9ba-932e10a88b96",
+    "periodId": "p_medieval",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "凯拉萨纳神庙开始建造并完成",
+    "titleCn": "凯拉萨纳神庙开始建造并完成",
+    "date": {
+      "year": 760,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约760年-800年，拉施德拉古特王朝国王克利希那二世赞助建造了埃洛拉的凯拉萨纳神庙，该神庙从悬崖处开凿而成，高29.26米，是印度教艺术的重要成就。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "印度",
+      "originalPeriod": "拉施德拉古特王朝时期",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "648f2657-1a01-47e4-abad-0b2f9a7ca50b",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "王维逝世",
+    "titleCn": "王维逝世",
+    "date": {
+      "year": 761
+    },
+    "descriptionCn": "761年，王维逝世。",
+    "importance": 4,
+    "tags": [
+      "其他"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "其他",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "58ce41b4-3f99-408d-b43b-8c1a7f38c411",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "怀素自长安南归，途经洛阳拜访邬彤",
+    "titleCn": "怀素自长安南归，途经洛阳拜访邬彤",
+    "date": {
+      "year": 772
+    },
+    "descriptionCn": "大历七年（772年），怀素打点行装返回故乡，先来到东都洛阳，拜访邬彤并学习笔法。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "db3572cd-4338-47d7-892e-2e0630890bdc",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "怀素创作《自叙帖》",
+    "titleCn": "怀素创作《自叙帖》",
+    "date": {
+      "year": 776,
+      "month": 8,
+      "day": 6
+    },
+    "descriptionCn": "大历十一年（776年）八月六日，怀素在零陵或长沙（南归途中）创作了狂草代表作《自叙帖》。全篇七百零二字，一百二十六行，洋洋洒洒，一气呵成，记述了他一生的主要事迹和艺术追求。",
+    "importance": 3,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "587a3b68-e66f-4c9f-8a8d-1690a03478a0",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "怀素书写《自叙帖》",
+    "titleCn": "怀素书写《自叙帖》",
+    "date": {
+      "year": 777
+    },
+    "descriptionCn": "777年，僧怀素书写纸本草书《自叙帖》，纵28.3厘米，横775厘米，现仅存部分，以狂草风格著称。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "587a3b68-e66f-4c9f-8a8d-1690a03478a0",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "怀素书写《自叙帖》",
+    "titleCn": "怀素书写《自叙帖》",
+    "date": {
+      "year": 777
+    },
+    "descriptionCn": "777年，僧怀素书写纸本草书《自叙帖》，纵28.3厘米，横775厘米，现仅存部分，以狂草风格著称。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "587a3b68-e66f-4c9f-8a8d-1690a03478a0",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "怀素书写《自叙帖》",
+    "titleCn": "怀素书写《自叙帖》",
+    "date": {
+      "year": 777
+    },
+    "descriptionCn": "777年，僧怀素书写纸本草书《自叙帖》，纵28.3厘米，横775厘米，现仅存部分，以狂草风格著称。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "1323d289-91e2-47ac-81b2-c3456dbbb2bd",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "南禅寺大殿建造",
+    "titleCn": "南禅寺大殿建造",
+    "date": {
+      "year": 782
+    },
+    "descriptionCn": "782年，南禅寺大殿建造，是'会昌毁佛'前唯一幸存的唐代大殿。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "1e3548c7-f069-4de1-a77e-f48f8cf993ad",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "建造科尔多瓦大清真寺",
+    "titleCn": "建造科尔多瓦大清真寺",
+    "date": {
+      "year": 785
+    },
+    "descriptionCn": "公元785年，西班牙科尔多瓦的穆斯林统治者阿布达尔-拉赫曼开始建造科尔多瓦大清真寺，融合了伊斯兰装饰风格与拱门系列。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "中世纪",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "e58604a8-f5da-4448-ab5b-874de5408e69",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "建造科尔多瓦大清真寺",
+    "titleCn": "建造科尔多瓦大清真寺",
+    "date": {
+      "year": 785
+    },
+    "descriptionCn": "785年，西班牙科尔多瓦的穆斯林统治者阿布达尔-拉赫曼开始建造一座大清真寺，将伊斯兰装饰风格与拱门系列结合。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "中世纪",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "0279f1f2-dc11-46ba-bb67-6d7b982df57c",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "科尔多瓦清真寺建造",
+    "titleCn": "科尔多瓦清真寺建造",
+    "date": {
+      "year": 785
+    },
+    "descriptionCn": "785年，科尔多瓦清真寺动工建造，该清真寺后来成为伊斯兰建筑的杰作。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "中世纪",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "d5c476f2-96a2-47d4-bb01-21608723de72",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "边鸾奉诏于玄武殿绘制新罗孔雀",
+    "titleCn": "边鸾奉诏于玄武殿绘制新罗孔雀",
+    "date": {
+      "year": 785
+    },
+    "descriptionCn": "785年-805年贞元年间，新罗进献孔雀，唐德宗诏令边鸾于玄武殿进行写生。边鸾画出一正一背两只孔雀，以艳丽的色彩画出孔雀婆娑起舞的优美姿态，显示了画家高超的写生能力。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "3a89d177-ab93-4725-a613-b22535bfdd7e",
+    "periodId": "p_medieval",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "阿卜杜·拉赫曼一世建造科尔多瓦清真寺部分内景",
+    "titleCn": "阿卜杜·拉赫曼一世建造科尔多瓦清真寺部分内景",
+    "date": {
+      "year": 785
+    },
+    "descriptionCn": "785年，阿卜杜·拉赫曼一世在科尔多瓦建造清真寺内景部分。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "伊斯兰时期（倭马亚王朝）",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "60b4e72d-1ff7-48d0-9bfc-4d7c39b72fac",
+    "periodId": "p_medieval",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "科尔多瓦清真寺开始建造",
+    "titleCn": "科尔多瓦清真寺开始建造",
+    "date": {
+      "year": 786
+    },
+    "descriptionCn": "公元786年，科尔多瓦清真寺在西班牙开始建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "伊斯兰时期",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "544b8c50-9b6e-4f6f-886b-1af4a21d9946",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "《凯尔经》完成",
+    "titleCn": "《凯尔经》完成",
+    "date": {
+      "year": 800,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元800年，爱尔兰-撒克逊僧侣在爱尔兰或英国修道院完成了《凯尔经》手抄本，其中《道成肉身》页面以复杂的交织花纹和装饰字母著称，被誉为天使的杰作。",
+    "importance": 3,
+    "tags": [
+      "手抄本",
+      "绘画"
+    ],
+    "meta": {
+      "country": "爱尔兰",
+      "originalPeriod": "中世纪早期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "手抄本、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "6e905c3e-388a-4dc6-9702-aad03e69a9eb",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "柳公权书碑《河东节度李说碑》",
+    "titleCn": "柳公权书碑《河东节度李说碑》",
+    "date": {
+      "year": 801
+    },
+    "descriptionCn": "公元801年，二十四岁的柳公权书写了《河东节度李说碑》。该碑由郑檐撰文，原石在洛阳，已佚失，其书风透露年少妍华。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "f904588b-1465-4407-a101-8259c30864cf",
+    "periodId": "p_medieval",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "国王阁耶跋摩二世在山上祭拜天神",
+    "titleCn": "国王阁耶跋摩二世在山上祭拜天神",
+    "date": {
+      "year": 802
+    },
+    "descriptionCn": "802年，国王阁耶跋摩二世在山上祭拜天神，庙-山（temple-mountain）的概念由此而来。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "宗教艺术"
+    ],
+    "meta": {
+      "country": "柬埔寨",
+      "originalPeriod": "高棉帝国",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "建筑、宗教艺术",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "1f154286-12b3-4a04-a089-3ecb437517da",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "乐山大佛竣工",
+    "titleCn": "乐山大佛竣工",
+    "date": {
+      "year": 803
+    },
+    "descriptionCn": "803年，乐山大佛竣工，佛高58.7米，连座高71米，历时90年，是现存世界最大的摩崖石刻佛像。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "4a823efa-dacf-4d7e-b634-ff2a0dd0c2db",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "唐长沙窑制作带纪年窑具及器物",
+    "titleCn": "唐长沙窑制作带纪年窑具及器物",
+    "date": {
+      "year": 808
+    },
+    "descriptionCn": "唐元和三年（808年），长沙窑制作了带纪年的窑具及器物，最早纪年为元和三年。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "092aed65-ba3e-4ed8-804b-fa479a85320b",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "长沙窑出土物中发现最早纪年为元和三年",
+    "titleCn": "长沙窑出土物中发现最早纪年为元和三年",
+    "date": {
+      "year": 808
+    },
+    "descriptionCn": "在长沙窑遗址发掘中，出土的最早纪年器物为元和三年（公元808年），表明长沙窑在元和三年之前已开始烧造。",
+    "importance": 2,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "考古与发现"
+    }
+  },
+  {
+    "id": "503f29a3-e9de-4b14-8aea-70cc69874bce",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "《艾博福音书》创作完成",
+    "titleCn": "《艾博福音书》创作完成",
+    "date": {
+      "year": 816
+    },
+    "descriptionCn": "公元816年至823年，在欧维莱尔修道院院长彼得的指导下，由艾博总主教委托绘制了《艾博福音书》，其中包含《圣马太》插图，采用牛皮纸手绘。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "加洛林时期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9a48f1dd-d8de-4bd7-a197-5da4fab45623",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "圣加伦修道院平面图绘制完成",
+    "titleCn": "圣加伦修道院平面图绘制完成",
+    "date": {
+      "year": 819,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元819年，圣加伦修道院的理想平面图绘制完成，使用五张羊皮纸缝制后打线绘制，尺寸为112厘米×76厘米。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "瑞士",
+      "originalPeriod": "加洛林时期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "10b0ddaa-f530-489b-a4d3-3b9bf27e45c6",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "奥塞伯格维金死舟木标竿制作",
+    "titleCn": "奥塞伯格维金死舟木标竿制作",
+    "date": {
+      "year": 820,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约820至850年，发现于挪威奥塞伯格的维金死舟的木标竿或船首局部制作完成，现藏于比丢格（奥斯陆附近）维金船舶馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "工艺美术"
+    ],
+    "meta": {
+      "country": "挪威",
+      "originalPeriod": "维金时期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "雕塑、工艺美术",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "aedd8633-3961-4368-a62a-352365fccf33",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "柳公权书《左常侍薛苹碑》",
+    "titleCn": "柳公权书《左常侍薛苹碑》",
+    "date": {
+      "year": 820
+    },
+    "descriptionCn": "公元820年，四十三岁的柳公权书写了《左常侍薛苹碑》。该碑虽已不存，但可推知其柳体初成时的体态。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "7e25a888-ad18-4bfb-af94-025656839b1d",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "柳公权作《蒙诏帖》",
+    "titleCn": "柳公权作《蒙诏帖》",
+    "date": {
+      "year": 821
+    },
+    "descriptionCn": "公元821年，四十四岁的柳公权创作了《蒙诏帖》。此帖书法气势超迈，意态雄健，正值其雄姿英发之际。",
+    "importance": 3,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "324a66cd-787e-45ee-9a5e-ed51764a0ca3",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "成都出现杂剧丈夫",
+    "titleCn": "成都出现杂剧丈夫",
+    "date": {
+      "year": 829
+    },
+    "descriptionCn": "唐太和三年（829年），成都出现了“杂剧丈夫”，即南杂剧演员，标志着杂剧的初兴。",
+    "importance": 4,
+    "tags": [
+      "表演",
+      "戏剧"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "表演、戏剧",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "b6717224-bbfa-481a-9a08-627d864d4c64",
+    "periodId": "p_medieval",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "科尔多瓦清真寺第一次扩建",
+    "titleCn": "科尔多瓦清真寺第一次扩建",
+    "date": {
+      "year": 832
+    },
+    "descriptionCn": "公元832年至848年，科尔多瓦清真寺进行了第一次扩建，重复修建了圆柱上叠加的拱门。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "伊斯兰时期",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "b1cbf2b7-1364-4684-b272-e1f4ad04368d",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "《步辇图》重装背并题跋",
+    "titleCn": "《步辇图》重装背并题跋",
+    "date": {
+      "year": 833
+    },
+    "descriptionCn": "太和七年（833年），《步辇图》进行重装背，并由李德裕、李道诗篆书题名，章伯益篆书记述吐蕃使者禄东赞入唐请婚的本事。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "dfae9d54-5470-4fb7-ba34-028d6f25cd38",
+    "periodId": "p_medieval",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "婆罗浮屠佛教神庙建造完成",
+    "titleCn": "婆罗浮屠佛教神庙建造完成",
+    "date": {
+      "year": 835
+    },
+    "descriptionCn": "公元835年至860年，夏连特拉王朝在印度尼西亚爪哇建造了婆罗浮屠佛教神庙，采用火山岩建造，最下方走廊周长为360米，最高处舍利塔直径15.85米。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "印度尼西亚",
+      "originalPeriod": "夏连特拉王朝",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "a43ccb5c-e79b-4030-bc01-2cb6232347af",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "圣像护卫者获胜",
+    "titleCn": "圣像护卫者获胜",
+    "date": {
+      "year": 843
+    },
+    "descriptionCn": "公元843年，圣像护卫者在拜占庭帝国获胜，圣像破坏运动结束，圣像崇拜重新恢复，正统基督教派确立了圣像在宗教中的合法地位。",
+    "importance": 4,
+    "tags": [
+      "宗教艺术",
+      "艺术运动"
+    ],
+    "meta": {
+      "country": "拜占庭帝国",
+      "originalPeriod": "拜占庭时期",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "宗教艺术、艺术运动",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "e1b2ce84-161b-4965-b9ba-ac6d06a7d45f",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "张彦远《历代名画记》成书",
+    "titleCn": "张彦远《历代名画记》成书",
+    "date": {
+      "year": 847
+    },
+    "descriptionCn": "847年（唐大中元年），张彦远所著《历代名画记》成书，该书共十卷，前三卷通论画学，后七卷为史传部分，收录自轩辕至唐会昌元年（841年）372位画人小传。",
+    "importance": 1,
+    "tags": [
+      "绘画",
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画、书法",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "aa3d6f15-a207-49d8-9c96-881e969c0f26",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "张彦远完成《历代名画记》",
+    "titleCn": "张彦远完成《历代名画记》",
+    "date": {
+      "year": 847
+    },
+    "descriptionCn": "847年，张彦远完成《历代名画记》，记述了370余位画家的传记、作品与品评。",
+    "importance": 1,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "aa3d6f15-a207-49d8-9c96-881e969c0f26",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "张彦远完成《历代名画记》",
+    "titleCn": "张彦远完成《历代名画记》",
+    "date": {
+      "year": 847
+    },
+    "descriptionCn": "847年，张彦远完成《历代名画记》，记述了370余位画家的传记、作品与品评。",
+    "importance": 1,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "7cb86672-0181-45e1-bed5-276ecb5a4a4f",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "张彦远编写《历代名画记》",
+    "titleCn": "张彦远编写《历代名画记》",
+    "date": {
+      "year": 847
+    },
+    "descriptionCn": "唐大中元年（847年），唐朝艺术评论家和书画收藏家张彦远编写了《历代名画记》。",
+    "importance": 1,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ea169554-6acb-4178-9b4e-c6b070a86ac6",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "科尔多瓦清真寺第一次扩建",
+    "titleCn": "科尔多瓦清真寺第一次扩建",
+    "date": {
+      "year": 848
+    },
+    "descriptionCn": "848年，科尔多瓦清真寺进行了第一次扩建。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "中世纪",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "176a02d4-fd0d-489d-bb5e-a9a0714e1ced",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "长沙窑鼓价器制作",
+    "titleCn": "长沙窑鼓价器制作",
+    "date": {
+      "year": 856
+    },
+    "descriptionCn": "唐代长沙窑鼓价器上，画工在莲叶图旁题写“大中拾年拾日参造鼓价”款识，记录制作时间为大中十年（公元856年）。",
+    "importance": 4,
+    "tags": [
+      "陶瓷",
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "陶瓷、书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "dbf58eb3-1ea1-4fc4-9b25-c75670650bfb",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "佛光寺东大殿重建",
+    "titleCn": "佛光寺东大殿重建",
+    "date": {
+      "year": 857
+    },
+    "descriptionCn": "857年，佛光寺东大殿重建，是现存原构的唐代大殿。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "d0493237-7fd0-4b69-90ef-45df1c5bc2a4",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "王玠出资印制《金刚经》",
+    "titleCn": "王玠出资印制《金刚经》",
+    "date": {
+      "year": 868
+    },
+    "descriptionCn": "868年，王玠出资印制《金刚经》，是世界上现存最早的有明确纪年的印刷书籍，卷首有佛陀说法木版画，经卷长6米，1907年被斯坦因从敦煌掠走，现藏大英博物馆。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "d0493237-7fd0-4b69-90ef-45df1c5bc2a4",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "王玠出资印制《金刚经》",
+    "titleCn": "王玠出资印制《金刚经》",
+    "date": {
+      "year": 868
+    },
+    "descriptionCn": "868年，王玠出资印制《金刚经》，是世界上现存最早的有明确纪年的印刷书籍，卷首有佛陀说法木版画，经卷长6米，1907年被斯坦因从敦煌掠走，现藏大英博物馆。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "478f6ae8-e5c8-491d-8c1f-b25d11746e7c",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "雕版印刷《金刚般若波罗蜜经》及卷首版画《说法图》完成",
+    "titleCn": "雕版印刷《金刚般若波罗蜜经》及卷首版画《说法图》完成",
+    "date": {
+      "year": 868
+    },
+    "descriptionCn": "晚唐咸通九年（868年）四月十五日，雕版印刷《金刚般若波罗蜜经》卷首版画《说法图》完成，该版画线条细腻优美，是全世界现存最早有确切纪年的版画。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "晚唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d2d45f76-55af-47da-84d1-133ae5ea498a",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "唐懿宗敬造鎏金银捧真身菩萨",
+    "titleCn": "唐懿宗敬造鎏金银捧真身菩萨",
+    "date": {
+      "year": 871
+    },
+    "descriptionCn": "871年，唐懿宗亲自敬造鎏金银捧真身菩萨，供奉于陕西扶风法门寺，以祈愿国泰民安。该像跪于莲花座上，是法门寺地宫出土的重要佛教金银器之一。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "d2d45f76-55af-47da-84d1-133ae5ea498a",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "唐懿宗敬造鎏金银捧真身菩萨",
+    "titleCn": "唐懿宗敬造鎏金银捧真身菩萨",
+    "date": {
+      "year": 871
+    },
+    "descriptionCn": "871年，唐懿宗亲自敬造鎏金银捧真身菩萨，供奉于陕西扶风法门寺，以祈愿国泰民安。该像跪于莲花座上，是法门寺地宫出土的重要佛教金银器之一。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "5ec4ed07-0c8e-4f05-a865-7bb693d53713",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "制作阿尔弗雷德珠宝",
+    "titleCn": "制作阿尔弗雷德珠宝",
+    "date": {
+      "year": 880,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元880年，英国制作了阿尔弗雷德珠宝，这是一件精致的金质珠宝，刻有铭文“奉阿尔弗雷德之命作”，现藏于牛津阿什莫尔博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "中世纪",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "9fe9261b-53a1-4c5b-9edc-79c613cfb76e",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "制作阿尔弗雷德珠宝",
+    "titleCn": "制作阿尔弗雷德珠宝",
+    "date": {
+      "year": 880,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约880年，英国制作了阿尔弗雷德珠宝，一件金质珠宝，现藏牛津阿什莫尔博物馆。",
+    "importance": 4,
+    "tags": [
+      "工艺"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "中世纪",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "工艺",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "4c036c33-6c8a-47d1-a4f7-d105d78259cd",
+    "periodId": "p_medieval",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "耶索跋摩王建都吴哥",
+    "titleCn": "耶索跋摩王建都吴哥",
+    "date": {
+      "year": 893
+    },
+    "descriptionCn": "893年-910年，耶索跋摩王建都吴哥。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "柬埔寨",
+      "originalPeriod": "高棉帝国",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "4a35c794-dbce-4fa7-9cbc-945c2a4e6074",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "贯休持诗祝贺钱谬封吴越王",
+    "titleCn": "贯休持诗祝贺钱谬封吴越王",
+    "date": {
+      "year": 894
+    },
+    "descriptionCn": "唐乾宁年间（894年），贯休自灵隐寺持诗前往镇海军节度使衙门祝贺钱谬封吴越王。",
+    "importance": 4,
+    "tags": [
+      "诗歌"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "诗歌",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "b929c7c9-63dd-4812-9dd1-e7e173367b29",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "平遥万佛殿建造",
+    "titleCn": "平遥万佛殿建造",
+    "date": {
+      "year": 903
+    },
+    "descriptionCn": "后汉903年，平遥万佛殿建成。该殿比佛光寺仅晚46年，其庞大的七铺作斗栱纯为唐代风格。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "后汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "68c8611b-2456-4503-b309-e01bfefa3b46",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "长安城遭破坏，宫廷迁移至洛阳",
+    "titleCn": "长安城遭破坏，宫廷迁移至洛阳",
+    "date": {
+      "year": 904
+    },
+    "descriptionCn": "公元904年，长安城许多建筑被夷为平地，宫廷活动迁移至洛阳，长安政治重要性衰退。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "6fc5ea77-daf3-45c3-b5fa-9fdd8505d28d",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "倭马亚王朝在西班牙建朝",
+    "titleCn": "倭马亚王朝在西班牙建朝",
+    "date": {
+      "year": 929
+    },
+    "descriptionCn": "929年，大马士革倭马亚王朝的后代在西班牙建立王朝，其艺术保持更为接近希腊渊源的传统。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "中世纪",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑、绘画",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "cff1d46b-1e89-4c88-9e5e-cf422c249ddb",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "后蜀创办翰林图画院",
+    "titleCn": "后蜀创办翰林图画院",
+    "date": {
+      "year": 935
+    },
+    "descriptionCn": "后蜀于明德二年（935年）创办翰林图画院，将许多民间画家搜罗入内。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "五代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "c8afcba0-0e51-4def-80a4-c1670c196f84",
+    "periodId": "p_medieval",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "阿卜杜·拉赫曼三世建造麦地那扎赫拉宫大理石壁柱",
+    "titleCn": "阿卜杜·拉赫曼三世建造麦地那扎赫拉宫大理石壁柱",
+    "date": {
+      "year": 936
+    },
+    "descriptionCn": "936年，阿卜杜·拉赫曼三世在科尔多瓦附近的麦地那扎赫拉宫建造大理石壁柱。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "伊斯兰时期（倭马亚王朝）",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "78c5b9e5-ddce-4919-a43a-ede933055903",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "麦地那扎赫拉王宫建造",
+    "titleCn": "麦地那扎赫拉王宫建造",
+    "date": {
+      "year": 936
+    },
+    "descriptionCn": "936年，麦地那扎赫拉王宫建成，属于倭马亚王朝的宫殿建筑。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "中世纪",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "7774a9a3-135f-497c-8735-e4c8873c8348",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "董源等人合作绘制《君臣赏雪图》",
+    "titleCn": "董源等人合作绘制《君臣赏雪图》",
+    "date": {
+      "year": 947
+    },
+    "descriptionCn": "947年，保大五年元日大雪，南唐中主李璟召集群臣登楼赏雪，摆宴赋诗。董源与肖像画家高冲古、仕女画家周文矩、界画家朱澄、花鸟画家徐崇嗣等合作绘制大画《君臣赏雪图》，画中的雪竹寒林由董源主绘。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "南唐",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "07ea3c53-e1e3-46c5-a866-df38d3bded87",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "李成《晴峦萧寺图》创作完成",
+    "titleCn": "李成《晴峦萧寺图》创作完成",
+    "date": {
+      "year": 950,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元950年，画家李成创作了《晴峦萧寺图》，这是一幅绢本水墨与淡色设色的手卷，纵1.07米，由朝廷委托创作。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "五代/北宋",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "7b917525-b556-49c0-9108-662126600077",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "安思谦进献张素卿《十二仙真像》",
+    "titleCn": "安思谦进献张素卿《十二仙真像》",
+    "date": {
+      "year": 954
+    },
+    "descriptionCn": "广政十七年（954年），后蜀后主孟昶庆贺寿诞，大臣安思谦将晚唐画家张素卿所画的十二幅《十二仙真像》献上，孟昶命翰林学士兼礼部侍郎欧阳炯作赞题记，交内府爱护。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "五代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d7703a53-5bea-4af2-8feb-3c63be6075a3",
+    "periodId": "p_medieval",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "科尔多瓦清真寺第二次扩建",
+    "titleCn": "科尔多瓦清真寺第二次扩建",
+    "date": {
+      "year": 961
+    },
+    "descriptionCn": "公元961年至976年，科尔多瓦清真寺进行了第二次扩建，重复修建了圆柱上叠加的拱门。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "伊斯兰时期",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "76e1da49-bd2f-4abe-9ca5-cf3356819960",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "科尔多瓦清真寺第二次扩建",
+    "titleCn": "科尔多瓦清真寺第二次扩建",
+    "date": {
+      "year": 961
+    },
+    "descriptionCn": "961年，科尔多瓦清真寺进行了第二次扩建。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "中世纪",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "76aed3f5-a867-4ec0-9ddb-7be3629c6c22",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "黄荃于八卦殿绘制花鸟雉兔壁画",
+    "titleCn": "黄荃于八卦殿绘制花鸟雉兔壁画",
+    "date": {
+      "year": 963
+    },
+    "descriptionCn": "963年，西蜀广政二十六年，宫内八卦殿落成，孟昶命黄荃在四壁画上花鸟雉兔。黄荃奉命创作，耗时数月精心绘制，终于按期完成了任务。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "五代十国",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "8ff61955-fc8b-4a5a-8576-1752bea13474",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "程公羽进呈贯休罗汉像",
+    "titleCn": "程公羽进呈贯休罗汉像",
+    "date": {
+      "year": 976
+    },
+    "descriptionCn": "太平兴国初年（976年），宋太宗搜访古画，给事中程公羽在蜀地将贯休所绘十六罗汉像进呈朝廷。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "收藏"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "宋代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画、收藏",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "3a39c811-85ad-4519-82de-43d1fee1b5d6",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "郭忠恕去世",
+    "titleCn": "郭忠恕去世",
+    "date": {
+      "year": 977
+    },
+    "descriptionCn": "977年，北宋画家郭忠恕去世。郭忠恕，字恕先，河南洛阳人，以界画著称，亦精于书法和文字学，曾编著《佩觿》和《汗简》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "宋代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "89106425-4747-406c-95e9-533154087fdf",
+    "periodId": "p_medieval",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "科尔多瓦清真寺第三次扩建",
+    "titleCn": "科尔多瓦清真寺第三次扩建",
+    "date": {
+      "year": 987
+    },
+    "descriptionCn": "公元987年至990年，科尔多瓦清真寺进行了第三次扩建，重复修建了圆柱上叠加的拱门。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "伊斯兰时期",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "9f3c4f9b-748c-42fd-a6c2-c00de8bc911b",
+    "periodId": "p_medieval",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "科尔多瓦清真寺第三次扩建",
+    "titleCn": "科尔多瓦清真寺第三次扩建",
+    "date": {
+      "year": 987
+    },
+    "descriptionCn": "987年，科尔多瓦清真寺进行了第三次扩建。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "中世纪",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "afd356cf-e94e-434b-b0e5-3038526bc7f8",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "摹刻《淳化阁帖》木版",
+    "titleCn": "摹刻《淳化阁帖》木版",
+    "date": {
+      "year": 992
+    },
+    "descriptionCn": "992年，宋代皇室下诏摹刻419件书法作品于木版，拓印成《淳化阁帖》十卷，是中国第一部书法帖本汇编，以王羲之家族作品为主。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北宋",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "afd356cf-e94e-434b-b0e5-3038526bc7f8",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "摹刻《淳化阁帖》木版",
+    "titleCn": "摹刻《淳化阁帖》木版",
+    "date": {
+      "year": 992
+    },
+    "descriptionCn": "992年，宋代皇室下诏摹刻419件书法作品于木版，拓印成《淳化阁帖》十卷，是中国第一部书法帖本汇编，以王羲之家族作品为主。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北宋",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "afd356cf-e94e-434b-b0e5-3038526bc7f8",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "摹刻《淳化阁帖》木版",
+    "titleCn": "摹刻《淳化阁帖》木版",
+    "date": {
+      "year": 992
+    },
+    "descriptionCn": "992年，宋代皇室下诏摹刻419件书法作品于木版，拓印成《淳化阁帖》十卷，是中国第一部书法帖本汇编，以王羲之家族作品为主。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北宋",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "83c039d9-77fb-404f-af00-c259f3120b06",
+    "periodId": "p_medieval",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "黄居案出使成都并绘制壁画",
+    "titleCn": "黄居案出使成都并绘制壁画",
+    "date": {
+      "year": 993
+    },
+    "descriptionCn": "993年，北宋淳化四年，黄居案出使成都府，时年六十一，在圣兴寺绘制《龙水》、《天台山》、《水石》等壁画。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北宋",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  }
+]

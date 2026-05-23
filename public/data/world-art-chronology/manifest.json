@@ -1,0 +1,83 @@
+{
+  "topicId": "world-art-chronology",
+  "chunks": [
+    {
+      "start": -100000,
+      "end": 499,
+      "file": "chunks/events_chunk_-100000_499.json",
+      "count": 195
+    },
+    {
+      "start": 500,
+      "end": 999,
+      "file": "chunks/events_chunk_500_999.json",
+      "count": 152
+    },
+    {
+      "start": 1000,
+      "end": 1399,
+      "file": "chunks/events_chunk_1000_1399.json",
+      "count": 400
+    },
+    {
+      "start": 1400,
+      "end": 1499,
+      "file": "chunks/events_chunk_1400_1499.json",
+      "count": 260
+    },
+    {
+      "start": 1500,
+      "end": 1599,
+      "file": "chunks/events_chunk_1500_1599.json",
+      "count": 239
+    },
+    {
+      "start": 1600,
+      "end": 1699,
+      "file": "chunks/events_chunk_1600_1699.json",
+      "count": 170
+    },
+    {
+      "start": 1700,
+      "end": 1799,
+      "file": "chunks/events_chunk_1700_1799.json",
+      "count": 289
+    },
+    {
+      "start": 1800,
+      "end": 1849,
+      "file": "chunks/events_chunk_1800_1849.json",
+      "count": 148
+    },
+    {
+      "start": 1850,
+      "end": 1899,
+      "file": "chunks/events_chunk_1850_1899.json",
+      "count": 267
+    },
+    {
+      "start": 1900,
+      "end": 1944,
+      "file": "chunks/events_chunk_1900_1944.json",
+      "count": 624
+    },
+    {
+      "start": 1945,
+      "end": 1969,
+      "file": "chunks/events_chunk_1945_1969.json",
+      "count": 553
+    },
+    {
+      "start": 1970,
+      "end": 1989,
+      "file": "chunks/events_chunk_1970_1989.json",
+      "count": 403
+    },
+    {
+      "start": 1990,
+      "end": 3000,
+      "file": "chunks/events_chunk_1990_3000.json",
+      "count": 116
+    }
+  ]
+}

@@ -2,15 +2,16 @@
   "id": "world-art-chronology",
   "titleEn": "World Art Chronology",
   "titleCn": "世界艺术编年史",
-  "description": "A global timeline focused on art events, institutions, historiography, and archaeology. / 聚焦艺术事件、艺术制度、艺术史写作与考古发现的全球编年时间轴。",
+  "description": "Global art chronology organized by standard historical and art-historical periods. / 按标准历史与艺术史分期组织的世界艺术编年史。",
   "color": "#1F8A70",
   "defaultViewport": {
-    "startYear": -500,
-    "endYear": 2050
+    "startYear": -3000,
+    "endYear": 2025
   },
   "minZoomRange": 1,
-  "maxZoomRange": 8000,
-  "playbackSpeed": 1.5,
+  "maxZoomRange": 30000,
+  "playbackSpeed": 2.0,
+  "chunked": true,
   "eventFields": [
     {
       "key": "country",
@@ -25,15 +26,21 @@
       "type": "text"
     },
     {
-      "key": "eventCategory",
-      "labelEn": "Event Category",
-      "labelCn": "事件类别",
+      "key": "standardPeriod",
+      "labelEn": "Standard Period",
+      "labelCn": "标准分期",
       "type": "text"
     },
     {
-      "key": "importanceNote",
-      "labelEn": "Importance",
-      "labelCn": "重要性说明",
+      "key": "eventTypeRaw",
+      "labelEn": "Original Types",
+      "labelCn": "原始类型",
+      "type": "text"
+    },
+    {
+      "key": "eventCategory",
+      "labelEn": "Category",
+      "labelCn": "归一类别",
       "type": "text"
     }
   ]

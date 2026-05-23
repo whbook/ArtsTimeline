@@ -1,0 +1,4405 @@
+[
+  {
+    "id": "aa2fca8b-7575-4165-a4ca-16ddcc2b6120",
+    "periodId": "p_prehistoric",
+    "streamId": "s_prehistoric",
+    "titleEn": "维伦多夫女人雕像制作",
+    "titleCn": "维伦多夫女人雕像制作",
+    "date": {
+      "year": -25000,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前25000年至前20000年，欧洲旧石器时代的人类在奥地利维伦多夫制作了一尊小型女性雕像，高11厘米，由石头雕刻而成。雕像夸张表现胸部、腹部、臀部和大腿，被认为与生育仪式相关。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "奥地利",
+      "originalPeriod": "旧石器时代",
+      "standardPeriod": "史前时代",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "27e8a6e9-8ec6-457a-8cb8-610d7572541d",
+    "periodId": "p_prehistoric",
+    "streamId": "s_prehistoric",
+    "titleEn": "史前野牛岩洞画",
+    "titleCn": "史前野牛岩洞画",
+    "date": {
+      "year": -15000,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "史前野牛岩洞画，创作于西班牙阿尔塔米拉洞穴，时间约为公元前15000年至前10000年。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "史前时期",
+      "standardPeriod": "史前时代",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "50e28f1f-3cdf-4a3e-861b-0f544c6ea00a",
+    "periodId": "p_prehistoric",
+    "streamId": "s_prehistoric",
+    "titleEn": "拉斯科洞窟壁画创作",
+    "titleCn": "拉斯科洞窟壁画创作",
+    "date": {
+      "year": -15000,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前15000年至前13000年，旧石器时代人类在法国拉斯科洞窟墙壁和洞顶绘制了大量动物图像，包括公牛、马匹、野牛和鹿等。画作采用矿物颜料，通过涂抹、吹洒和喷溅技法完成，利用洞窟自然凹凸增强立体感。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "旧石器时代",
+      "standardPeriod": "史前时代",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "800ef61f-f524-4aac-ab6d-0cc150bf4211",
+    "periodId": "p_prehistoric",
+    "streamId": "s_prehistoric",
+    "titleEn": "加泰土丘壁画《动物狩猎》创作",
+    "titleCn": "加泰土丘壁画《动物狩猎》创作",
+    "date": {
+      "year": -6000,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前6000年，中东新石器时代的人们在土耳其加泰土丘的神殿墙壁上绘制了《动物狩猎》壁画，描绘一头被小人围困的红色公牛。画作先涂白色石膏底层，再用颜料绘制。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "土耳其",
+      "originalPeriod": "新石器时代",
+      "standardPeriod": "史前时代",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a733b8a2-ce37-4550-bca1-19d2a5096233",
+    "periodId": "p_prehistoric",
+    "streamId": "s_prehistoric",
+    "titleEn": "红山文化仪式场所建造",
+    "titleCn": "红山文化仪式场所建造",
+    "date": {
+      "year": -3500,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前3500年至前3000年，中国史前红山文化在辽宁东山嘴建造了仪式场所，包括矩形和圆形区域，围墙和开阔广场。出土了黏土人像、玉雕和着色黏土圆柱，可能用于公共仪式。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "红山文化",
+      "standardPeriod": "史前时代",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "c39c8d9e-ef9c-458f-9763-4b81795543d9",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_prehistoric",
+    "titleEn": "巨石阵建造",
+    "titleCn": "巨石阵建造",
+    "date": {
+      "year": -2750,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前2750年至前1300年，新石器时代的人们在英格兰威尔特郡索尔斯堡平原分阶段建造了巨石阵。该结构由巨大的砂岩和火成岩组成，外圈直径约91米，内圈直径32.3米，最高巨石约7.7米。其排列与夏至日出等天文现象对齐，可能用于宗教仪式。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "新石器时代",
+      "standardPeriod": "史前时代",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "1647ca0f-e56d-4665-9259-81d35146e735",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "萨尔贡一世建立巴比伦城",
+    "titleCn": "萨尔贡一世建立巴比伦城",
+    "date": {
+      "year": -2450,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前2450年，萨尔贡一世建立巴比伦城，作为其帝国的重要城市。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "伊拉克",
+      "originalPeriod": "阿卡德王朝",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "fba37938-b449-4e51-81ad-fe33cd345802",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "萨尔贡一世建立阿卡德王朝",
+    "titleCn": "萨尔贡一世建立阿卡德王朝",
+    "date": {
+      "year": -2450
+    },
+    "descriptionCn": "公元前2450年，萨尔贡一世（Sargon the Elder）建立阿卡德王朝，统一苏美尔和阿卡德闪米特地区，并建立巴比伦城。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "伊拉克",
+      "originalPeriod": "阿卡德王朝",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "d6ac6b87-3926-4449-bb6d-1277c5aac8f6",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "库迪在拉格什建朝",
+    "titleCn": "库迪在拉格什建朝",
+    "date": {
+      "year": -2250,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前2250年，牧人王库迪（Gudea）在拉格什（Lagash）建立王朝，该时期出土了大量雕刻作品。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "伊拉克",
+      "originalPeriod": "拉格什王朝",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "52efd4c6-1ff5-4f99-bdc3-ecec28e9148f",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "克诺索斯宫殿始建",
+    "titleCn": "克诺索斯宫殿始建",
+    "date": {
+      "year": -2000,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "克诺索斯宫殿大约始建于公元前2000年，中经多次重建、修建，到公元前16世纪左右建成。其时代相当于中国的夏代。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "爱琴文明时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "41b5d9aa-db40-4a97-8eae-e7e2f20ccd0d",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "迈锡尼黄金葬礼面具制作",
+    "titleCn": "迈锡尼黄金葬礼面具制作",
+    "date": {
+      "year": -1550,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前1550年至前1500年，在迈锡尼制作了黄金葬礼面具，该面具很可能覆盖在已故国王的脸上，高约30厘米，通过胡子、弓形眉毛和耳部处理等个性化特征表现出抽象风格。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "30a78d6c-61d7-483e-9645-e76815620fd8",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "制作哈特谢普苏特女王雕像",
+    "titleCn": "制作哈特谢普苏特女王雕像",
+    "date": {
+      "year": -1478,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前1478年至公元前1458年，古埃及制作了哈特谢普苏特女王的雕像，该雕像强调女王的至高无上地位，而非个性化特征。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "埃及",
+      "originalPeriod": "古埃及",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "938b1a45-9506-4b8b-be4f-4adbfe9c7326",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "埃赫那吞推行艺术革命",
+    "titleCn": "埃赫那吞推行艺术革命",
+    "date": {
+      "year": -1380,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前1380-1363年，法老埃赫那吞（Akhenaten）首倡艺术革命，打破埃及传统静止风格，推动自由表现和个人主义原则，尤其在台尔埃尔阿玛尔纳的雕刻和绘画中体现。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "绘画"
+    ],
+    "meta": {
+      "country": "埃及",
+      "originalPeriod": "第十八王朝",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑、绘画",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "7c7552a6-4297-4dc5-b355-59f44b7bef02",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "阿特柔斯国库圆屋形陵墓建造",
+    "titleCn": "阿特柔斯国库圆屋形陵墓建造",
+    "date": {
+      "year": -1300,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前1300年至前1200年，在迈锡尼建造了阿特柔斯国库圆屋形陵墓，该建筑以庞大的规模和精确切割的石砖而闻名，石砖有的重达数吨，建筑高度约13.7米。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "e6925afa-a4d1-4f72-93ca-e410330bdb95",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "妇好墓方鼎铸造完成",
+    "titleCn": "妇好墓方鼎铸造完成",
+    "date": {
+      "year": -1200,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前1200年，在中国河南安阳的妇好墓中铸造完成了一件方鼎，青铜材质，高42.5厘米，用于盛放祭品，现藏于北京文物局。",
+    "importance": 1,
+    "tags": [
+      "雕塑",
+      "青铜"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "商朝",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑、青铜",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "f2fb09b3-62e6-4fa6-b5ec-a1c480fadbbd",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "妇好墓老鹰造型坠饰制作",
+    "titleCn": "妇好墓老鹰造型坠饰制作",
+    "date": {
+      "year": -1200,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前1200年，在中国河南安阳的妇好墓中制作了一件老鹰造型的玉石坠饰，高6厘米，现藏于北京文物局。",
+    "importance": 1,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "商朝",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "54195e4f-c3aa-4fdd-8308-1311a7a67e30",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "奥尔梅克16个仪式雕像群制作",
+    "titleCn": "奥尔梅克16个仪式雕像群制作",
+    "date": {
+      "year": -1000,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前1000年，在墨西哥拉文塔制作了一组16个仪式雕像，材料包括蛇纹石、翡翠和砾岩，人像高度在15.7至18.3厘米之间。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "墨西哥",
+      "originalPeriod": "中形成期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "16c51885-1a90-47ea-ab02-3dc8d4e46d2d",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "奥尔梅克巨大头像制作",
+    "titleCn": "奥尔梅克巨大头像制作",
+    "date": {
+      "year": -900,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前900年，在墨西哥拉文塔圣洛伦佐制作了一件巨大的奥尔梅克玄武岩头像，高2.4米，可能代表统治者。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "墨西哥",
+      "originalPeriod": "中形成期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "67bd826a-4b4b-43d5-830b-adba6b2185a1",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "奥尔梅克抽象美洲豹面具马赛克路面铺设",
+    "titleCn": "奥尔梅克抽象美洲豹面具马赛克路面铺设",
+    "date": {
+      "year": -900,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "公元前900年至前600年，在墨西哥塔巴斯科的拉文塔遗址铺设了抽象美洲豹面具形状的马赛克路面，由约500件蛇纹石组成，面积4.6米×6米。",
+    "importance": 4,
+    "tags": [
+      "马赛克"
+    ],
+    "meta": {
+      "country": "墨西哥",
+      "originalPeriod": "中形成期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "马赛克",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "0b9877d4-3738-4c49-a42b-9091dc466142",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "拉文塔巨型金字塔建造",
+    "titleCn": "拉文塔巨型金字塔建造",
+    "date": {
+      "year": -900,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前900年至前600年，在墨西哥塔巴斯科的拉文塔建造了巨型金字塔和祭祀建筑群，金字塔高约33米，建筑群沿南北轴向延伸约2.4千米。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "墨西哥",
+      "originalPeriod": "中形成期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "9c82cf05-ad4a-4871-a5f0-2fc3d1e54a10",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "亚述人首翼牛《拉玛苏》雕塑完成",
+    "titleCn": "亚述人首翼牛《拉玛苏》雕塑完成",
+    "date": {
+      "year": -883,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前883年至前859年，在亚述尼姆鲁德，为亚述纳西帕尔二世的宫殿制作了人首翼牛《拉玛苏》雕塑，石灰岩材质，高3.11米，现藏于纽约大都会艺术博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "伊拉克",
+      "originalPeriod": "亚述时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "e295c53d-ed41-4b02-97bf-a66caf584963",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "《棺材周围的哀悼者》迪普隆陶瓶制作",
+    "titleCn": "《棺材周围的哀悼者》迪普隆陶瓶制作",
+    "date": {
+      "year": -750,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前750年，在希腊雅典制作了《棺材周围的哀悼者》迪普隆陶瓶，赤陶土材质，高1.55米，属于几何风格，描绘了葬礼哀悼场景。",
+    "importance": 4,
+    "tags": [
+      "陶器"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "陶器",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "c3593977-d835-43f6-a4b7-441b5fafe082",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "人与半人马怪搏斗青铜组雕创作",
+    "titleCn": "人与半人马怪搏斗青铜组雕创作",
+    "date": {
+      "year": -750
+    },
+    "descriptionCn": "公元前750年-公元前725年，在拉柯尼亚创作了人与半人马怪搏斗的青铜组雕。该作品利用马的雕塑创作对自然形式进行了分析和探索，半人马怪的形象探索了相遇与行动的主题。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "几何风格时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "e470e36c-c5d9-49a2-bdcd-bafef4fef6ee",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "尤卑亚岛卵形双耳喷口罐（塞斯诺拉双耳喷口罐）创作",
+    "titleCn": "尤卑亚岛卵形双耳喷口罐（塞斯诺拉双耳喷口罐）创作",
+    "date": {
+      "year": -750
+    },
+    "descriptionCn": "公元前750年-公元前725年，在尤卑亚岛创作了卵形双耳喷口罐（塞斯诺拉双耳喷口罐），属于晚期几何风格，后被发现于塞浦路斯的库里安古。器皿呈卵形，盖子把手为水罐形，装饰有螺旋形同心圆、马、鹿和鸟等纹样。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "几何风格时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "c8c9500c-ccc7-4f83-b063-51343dbc32d2",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "雅典双耳喷口罐（墓碑用）创作",
+    "titleCn": "雅典双耳喷口罐（墓碑用）创作",
+    "date": {
+      "year": -750,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前750年，在雅典创作了一件双耳喷口罐，用作男性墓碑。罐上描绘了哀悼者环绕尸体的丧葬场景，以及战士和战车行列，属于晚期几何风格第I阶段。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "几何风格时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "e466d9c4-936f-4d7f-9035-af67528ae9b2",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "雅典黄金带状头饰制作",
+    "titleCn": "雅典黄金带状头饰制作",
+    "date": {
+      "year": -750
+    },
+    "descriptionCn": "公元前750年-公元前725年，在雅典制作了一件黄金带状头饰。饰带上以浮雕方式表现猫和鹿等动物，风格受近东艺术影响，动物造型柔软生动。该饰品用于穿戴，增加了佩戴者的荣光。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "几何风格时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "69038d1f-17a5-45b7-a145-0f19699e93a2",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "雅典双耳细颈罐（半人马怪装饰）创作",
+    "titleCn": "雅典双耳细颈罐（半人马怪装饰）创作",
+    "date": {
+      "year": -725
+    },
+    "descriptionCn": "公元前725年-公元前700年，在雅典创作了一件双耳细颈罐，属于晚期几何风格第IIb阶段，现藏于哥本哈根。器皿上绘有半人马怪形象，引导观众进入神话世界，是目前所知几何风格时期少数明确指向神话世界的陶罐之一。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "几何风格时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9253a14f-149d-4625-bdc6-5067f77d0763",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "雅典酒樽（战斗场景）创作",
+    "titleCn": "雅典酒樽（战斗场景）创作",
+    "date": {
+      "year": -725
+    },
+    "descriptionCn": "公元前725年-公元前700年，在雅典创作了一件酒樽，属于晚期几何风格第II阶段。器皿颈部有驯马者形象，主体部分描绘了船上战士与陆地进攻者战斗的场景，展现了不同武器和盾牌，但图像缺乏单一焦点，难以构成连贯叙事。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "几何风格时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "25d472bf-fe94-4edc-8063-36b4665705a5",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "雅典酒樽（船难场景）创作",
+    "titleCn": "雅典酒樽（船难场景）创作",
+    "date": {
+      "year": -725
+    },
+    "descriptionCn": "公元前725年-公元前700年，在雅典创作了一件酒樽，属于晚期几何风格第II阶段。器皿颈部绘有翻船场面，大海中满是鱼和人，中心人物在船骨上保持平衡；主体装饰鸟纹和猎犬。该酒樽可能用于交际酒会，图像包含隐喻。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "几何风格时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "97081852-daad-4cf8-959f-21c57537f13e",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "萨尔贡二世建造科尔萨巴德宫殿",
+    "titleCn": "萨尔贡二世建造科尔萨巴德宫殿",
+    "date": {
+      "year": -713
+    },
+    "descriptionCn": "公元前713-707年，亚述国王萨尔贡二世在科尔萨巴德（Khorsabad）建造庞大的宫殿群，包括接见厅、私室、公用房间和齐古拉，是亚述建筑的代表作。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "伊拉克",
+      "originalPeriod": "亚述帝国",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "fe78ca68-98b8-46ea-b51d-91be74c41c41",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "埃及穆特女神青铜小像制作",
+    "titleCn": "埃及穆特女神青铜小像制作",
+    "date": {
+      "year": -700,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前700年，在埃及制作了穆特女神青铜小像，后作为祭品出现在萨摩斯岛的赫拉神庙。雕像生硬直立，身体曲线通过衣褶表现，头发有曲线轮廓，头顶有冠饰。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "埃及",
+      "originalPeriod": "古埃及第三中间期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "e138c5bb-06b6-4554-bcb7-1e21a8e2fe32",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "格里芬头部铸件（青铜三足大锅组件）制作",
+    "titleCn": "格里芬头部铸件（青铜三足大锅组件）制作",
+    "date": {
+      "year": -700
+    },
+    "descriptionCn": "公元前700年-公元前675年，在罗德岛的卡梅罗斯制作了格里芬头部铸件，作为青铜三足大锅的组件。该铸件具有S形颈部、竖立的耳朵、钮状物、尖锐喙部和长有鳞片的脖颈，呈现凶猛而令人憎恶的形象。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "东方化时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "3dd6113b-1de1-4a8d-8d48-eaf38272be8a",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "赫西俄德著作使斯芬克斯在神话中占据一席之地",
+    "titleCn": "赫西俄德著作使斯芬克斯在神话中占据一席之地",
+    "date": {
+      "year": -700,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "大约公元前700年，诗人赫西俄德的著作使斯芬克斯在古希腊神话的神谱中占据了一席之地，成为俄狄浦斯神话的核心元素。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "44ec6693-567f-4453-90f0-ca9bc6ff0f11",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "原科林斯风格香水瓶制作",
+    "titleCn": "原科林斯风格香水瓶制作",
+    "date": {
+      "year": -675
+    },
+    "descriptionCn": "公元前675年-公元前650年，在科林斯制作了一件原科林斯风格香水瓶（短颈单柄球形瓶）。器皿上装饰有豹子、带人头的狮子和带翼男人等东方化形象，并运用了雕刻技法。此类香水瓶用于盛放芳香精油，装饰暗示东方的诱惑。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "东方化时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "f7a98049-32b3-4a7a-9676-d6bb1995f3f9",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "波吕斐摩斯双耳细颈罐制作",
+    "titleCn": "波吕斐摩斯双耳细颈罐制作",
+    "date": {
+      "year": -675
+    },
+    "descriptionCn": "公元前675年至公元前650年间，在雅典或艾伊娜岛制作了波吕斐摩斯双耳细颈罐。该陶罐采用剪影与轮廓线画法，颈部描绘奥德修斯刺瞎独眼巨人波吕斐摩斯，主体部分描绘珀尔修斯斩杀美杜莎的故事。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5a27f1ac-366b-4be8-8d9f-9d86020f3cbe",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "米科诺斯广口陶坛制作",
+    "titleCn": "米科诺斯广口陶坛制作",
+    "date": {
+      "year": -675,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前675年，在米科诺斯岛制作了一件大型广口陶坛，用于墓葬，内装人的尸骨。陶坛颈部再现了特洛伊木马场景，主体装饰带有士兵攻击女人和孩子的场景。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画、雕塑",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "6fe8ff76-d83f-4def-8e44-9226dd4e31aa",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "伊特鲁里亚骨灰坛制作",
+    "titleCn": "伊特鲁里亚骨灰坛制作",
+    "date": {
+      "year": -650,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "公元前650年至前600年左右，在意大利卡斯蒂廖内德拉戈制作了一件伊特鲁里亚骨灰坛，赤陶土材质，高约47厘米，用于盛放死者骨灰。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "伊特鲁里亚时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "445e19e4-c285-4636-9caa-9575ee5ebd2a",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "妮康德尔敬献女子立像于提洛岛",
+    "titleCn": "妮康德尔敬献女子立像于提洛岛",
+    "date": {
+      "year": -650
+    },
+    "descriptionCn": "公元前650年至公元前625年，纳克索斯岛的妮康德尔在提洛岛向阿耳忒弥斯敬献一尊真人大小的大理石女人像。人像直立，身穿束腰披肩式长袍，面部符合代达罗斯式造像传统，是古希腊最早的大型石雕人像之一。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "ca0330cb-91d9-4dc1-832e-78254b0981f5",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "亚述垂死母狮浮雕制作",
+    "titleCn": "亚述垂死母狮浮雕制作",
+    "date": {
+      "year": -645,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前645年至前635年，在亚述尼尼微制作了垂死挣扎的母狮浮雕，石灰岩材质，高约16.5厘米，现藏于大英博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "伊拉克",
+      "originalPeriod": "亚述时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "4f9c44ab-5836-435c-9736-e032e02d478c",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "赫拉木雕小像制作",
+    "titleCn": "赫拉木雕小像制作",
+    "date": {
+      "year": -640,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前640年，在希腊制作了赫拉木雕小像，出自萨摩斯岛的赫拉神庙。雕像受埃及影响但侧重点不同，身体由腰带分为两部分，衣料装饰十字形花纹，头部高度装饰，发辫分散在脸颊两旁，头部成为雕像的重点。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "9ffca00a-f1bd-4732-b4b7-31446f29adc5",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "涅索斯双耳细颈罐作为墓碑竖立",
+    "titleCn": "涅索斯双耳细颈罐作为墓碑竖立",
+    "date": {
+      "year": -625
+    },
+    "descriptionCn": "公元前625年至公元前600年间，在雅典墓地竖立了一件大型黑绘双耳细颈罐作为墓碑。陶罐颈部描绘赫拉克勒斯杀死人马涅索斯，主体部分描绘珀尔修斯与戈耳工的故事。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画、雕塑",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "895e2d1b-bb56-410e-a483-f8ee296421c8",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "大型搅拌钵（迪诺罐）出现",
+    "titleCn": "大型搅拌钵（迪诺罐）出现",
+    "date": {
+      "year": -600
+    },
+    "descriptionCn": "公元前600年至公元前590年，希腊大陆出现了大型搅拌钵（迪诺罐），高达近一米，上部饰有神话主题的具象装饰带，与科林斯微型饰带结合，代表了陶器装饰的新发展。",
+    "importance": 3,
+    "tags": [
+      "设计",
+      "绘画"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "设计、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "58ea3c63-e18a-4aa1-badc-24ac295a66e4",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "科孚岛阿耳忒弥斯神庙三角楣雕塑制作",
+    "titleCn": "科孚岛阿耳忒弥斯神庙三角楣雕塑制作",
+    "date": {
+      "year": -600
+    },
+    "descriptionCn": "公元前600年至公元前575年，科孚岛阿耳忒弥斯神庙的三角楣上雕刻了蛇发女怪美杜莎和她的孩子。该雕塑是已知最早的三角楣雕塑之一，高逾三米，造型简洁大胆，展现了蛇发女怪的力量。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "ce3c6f9f-3016-407f-af5e-869c83880db4",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "索菲罗斯签名迪诺罐制作",
+    "titleCn": "索菲罗斯签名迪诺罐制作",
+    "date": {
+      "year": -600
+    },
+    "descriptionCn": "公元前600年至公元前575年，雅典画家索菲罗斯制作并签名了球状搅拌钵（迪诺罐）及其支架。罐上描绘了珀琉斯与忒提斯婚礼的行进队伍，众神均有姓名标注，是雅典艺术中最早大规模使用标注的作品之一。",
+    "importance": 3,
+    "tags": [
+      "设计",
+      "绘画"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "设计、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "65b91af2-141b-466d-bef6-d053de08f98c",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "索菲罗斯迪诺罐供奉",
+    "titleCn": "索菲罗斯迪诺罐供奉",
+    "date": {
+      "year": -600
+    },
+    "descriptionCn": "公元前600年，陶瓶画家索菲罗斯绘制的迪诺罐作为祭品供奉在雅典卫城。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "设计"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画、设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "c674f71e-c834-436b-bef8-ea2823d57258",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "纽约库罗斯像制作",
+    "titleCn": "纽约库罗斯像制作",
+    "date": {
+      "year": -600,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "公元前600年至公元前575年，制作了纽约库罗斯像，一尊与真人等大的裸体男性立像。该雕像严格遵循埃及比例原则，身体曲线自然，头发等局部与埃及造像类似，是希腊雕塑受埃及影响的重要例证。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "131d4647-a071-4cda-ad1c-8f3d5b4b3617",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_prehistoric",
+    "titleEn": "诺克头像制作",
+    "titleCn": "诺克头像制作",
+    "date": {
+      "year": -600
+    },
+    "descriptionCn": "公元前600年至公元250年，非洲诺克文化的人们在尼日利亚制作了赤陶头像，高30.29厘米，经烧制和抛光。头像容貌兼具自然与抽象特征，可能用于建筑装饰或祖先崇拜。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "尼日利亚",
+      "originalPeriod": "诺克文化",
+      "standardPeriod": "史前时代",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "f1814459-8afc-4e6c-8d39-eafc615e1694",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "所罗门神庙被毁",
+    "titleCn": "所罗门神庙被毁",
+    "date": {
+      "year": -587
+    },
+    "descriptionCn": "公元前587年（或586年），耶路撒冷的所罗门神庙被毁，这一建筑是古代以色列宗教与文化的中心。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "以色列",
+      "originalPeriod": "古代",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "dcb1cdca-4ac7-4be3-a396-6ca4ab5057d3",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "伊特鲁斯坎双耳细颈罐绘制",
+    "titleCn": "伊特鲁斯坎双耳细颈罐绘制",
+    "date": {
+      "year": -575
+    },
+    "descriptionCn": "公元前575年至公元前550年，雅典画家提米阿德斯为意大利市场绘制了伊特鲁斯坎双耳细颈罐。罐上描绘了阿喀琉斯杀死特洛伊罗斯的暴力场景，文字标注混乱，强调恐怖时刻，反映了面向大众市场的绘画风格。",
+    "importance": 3,
+    "tags": [
+      "设计",
+      "绘画"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "设计、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "e66dbba7-0c9d-4d7c-aec7-8e859f90b7db",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "弗朗索瓦陶瓶制作",
+    "titleCn": "弗朗索瓦陶瓶制作",
+    "date": {
+      "year": -575,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前575年，画家克利提亚斯和陶工厄尔戈提摩斯制作了弗朗索瓦陶瓶，一件大型涡形双耳喷口罐。罐上六条饰带描绘了多个神话场景，大量文字标注，体现了阿提卡与科林斯传统的结合。",
+    "importance": 3,
+    "tags": [
+      "设计",
+      "绘画"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "设计、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ae74c65a-26b9-41ab-8757-071e5f39b163",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "荷犊者莫斯弗罗斯像制作",
+    "titleCn": "荷犊者莫斯弗罗斯像制作",
+    "date": {
+      "year": -575
+    },
+    "descriptionCn": "公元前575年至公元前550年，雅典卫城制作了荷犊者莫斯弗罗斯像。雕像表现一位留着胡须的男子背负小牛作为祭品，通过动物形象区分于裸体库罗斯像，展现人类农业活动与众神的联系。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "44f50665-bebd-41bd-8c4e-ddb8dff71b16",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "雅典卫城雅典娜神庙三角楣装饰蛇发女怪图像",
+    "titleCn": "雅典卫城雅典娜神庙三角楣装饰蛇发女怪图像",
+    "date": {
+      "year": -575
+    },
+    "descriptionCn": "公元前575年至公元前550年，雅典卫城雅典娜神庙的三角楣中心很可能装饰了狮子中间的蛇发女怪图像，延续了科孚岛神庙的母题，以展现神祇的威严。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "b06544ce-aea9-4bd7-aa72-5ef77f078e66",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "阿纳维索斯库罗斯像制作",
+    "titleCn": "阿纳维索斯库罗斯像制作",
+    "date": {
+      "year": -550
+    },
+    "descriptionCn": "公元前550年至公元前525年，阿提卡制作了阿纳维索斯库罗斯像，用作年轻战士克罗伊索斯的墓碑。雕像解剖关系更加丰富，面部塑造细致，展现了男性人体表现的新高度。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "78f4e7d5-a475-4bb1-aff7-4618b5399889",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "雅典人吸收爱奥尼亚移民的优雅影响",
+    "titleCn": "雅典人吸收爱奥尼亚移民的优雅影响",
+    "date": {
+      "year": -550
+    },
+    "descriptionCn": "公元前550年，雅典人吸收了来自爱奥尼亚移民的优雅影响，这促使他们在公元前5世纪初叶创造出庄重而不严峻的艺术风格。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "f7c7c1dc-ff07-4106-b7cc-82eb58f18bd9",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "《阿喀琉斯与埃阿斯玩跳棋》双耳黑陶瓶制作",
+    "titleCn": "《阿喀琉斯与埃阿斯玩跳棋》双耳黑陶瓶制作",
+    "date": {
+      "year": -530,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前530年，古希腊艺术家埃克塞基亚斯制作了《阿喀琉斯与埃阿斯玩跳棋》双耳黑陶瓶，赤陶土材质，高61厘米，采用黑绘风格，描绘特洛伊战争间歇期两位英雄下棋的场景。",
+    "importance": 4,
+    "tags": [
+      "陶器"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "陶器",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "ffa1715c-a5f9-49c7-abe5-a09931a5297f",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "伊特鲁里亚石棺（夫妻雕塑）制作",
+    "titleCn": "伊特鲁里亚石棺（夫妻雕塑）制作",
+    "date": {
+      "year": -525,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前525年至前500年，在意大利托斯卡纳塞尔维托里制作了一件伊特鲁里亚石棺，附有倾斜相依的夫妇雕塑，赤陶土材质，长1.9米，人物与真人等大。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "伊特鲁里亚时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "63abb6f0-7c68-43d4-9b16-59a505c20031",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "安多基德斯制作红绘风格双耳细颈罐",
+    "titleCn": "安多基德斯制作红绘风格双耳细颈罐",
+    "date": {
+      "year": -525
+    },
+    "descriptionCn": "公元前525年，陶工安多基德斯制作了一件红绘风格双耳细颈罐，一面描绘雅典娜、阿耳忒弥斯、阿波罗和赫拉克勒斯争夺三脚祭坛，另一面描绘摔跤场景。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "设计"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画、设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "39694a4d-284c-46b0-8c8d-844cd155acbf",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "斯密克罗斯制作贮酒罐",
+    "titleCn": "斯密克罗斯制作贮酒罐",
+    "date": {
+      "year": -525
+    },
+    "descriptionCn": "公元前525年至公元前500年，画家斯密克罗斯制作了一件红绘风格贮酒罐，描绘了交际酒会场景，并标注自己的名字。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "设计"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画、设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "6a3f32b2-563f-4431-a404-8171bcc80885",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "西弗尼安宝库建成",
+    "titleCn": "西弗尼安宝库建成",
+    "date": {
+      "year": -525
+    },
+    "descriptionCn": "公元前525年，西弗尼安宝库在德尔斐建成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "ea71d151-ca46-48d7-a825-2d1fcce786b0",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "邦福德黑绘眼杯制作",
+    "titleCn": "邦福德黑绘眼杯制作",
+    "date": {
+      "year": -525
+    },
+    "descriptionCn": "公元前525年至公元前500年，雅典制作了一件大型黑绘风格眼杯（邦福德陶杯），杯底以男性生殖器为足，杯内绘有宴饮场景。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "设计"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画、设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5e9848ca-d3cc-4048-a09f-58f2f7d0eba0",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "雅典画家开始采用红绘技法",
+    "titleCn": "雅典画家开始采用红绘技法",
+    "date": {
+      "year": -525
+    },
+    "descriptionCn": "公元前525年至公元前500年，雅典画家开始尝试使用红绘技法，替代黑绘技法。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "cc29c8ac-4255-4ace-9810-e808ea77ebcc",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "克洛伊索斯墓葬的库罗斯雕像创作完成",
+    "titleCn": "克洛伊索斯墓葬的库罗斯雕像创作完成",
+    "date": {
+      "year": -520
+    },
+    "descriptionCn": "公元前520年，古希腊艺术家在阿纳维索斯创作了克洛伊索斯墓葬的库罗斯雕像，这是一尊大理石男性青年雕像，高1.93米，采用古风时期风格，头发、头饰带和瞳孔处绘有红色涂料。该雕像由克洛伊索斯或其军队伙伴委托制作，现藏于雅典国家考古博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "f6ccc8f3-3b3b-4dbc-b059-b6410dbb5c2b",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "德尔斐阿波罗神庙重建",
+    "titleCn": "德尔斐阿波罗神庙重建",
+    "date": {
+      "year": -520
+    },
+    "descriptionCn": "公元前520年至公元前510年，德尔斐阿波罗神庙进行重建，其东西三角楣上装饰有雕塑。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "13a6b645-ccd4-48aa-b95f-9611e265c802",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "《萨耳珀冬之死》红绘陶瓶制作",
+    "titleCn": "《萨耳珀冬之死》红绘陶瓶制作",
+    "date": {
+      "year": -515,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前515年，古希腊画家欧弗洛尼奥斯和陶艺家尤西特奥斯合作制作了《萨耳珀冬之死》红绘陶瓶，花萼双耳喷口杯，赤陶土材质，高45.7厘米，描绘了特洛伊英雄萨耳珀冬被睡神和死神抬离战场的场景。",
+    "importance": 4,
+    "tags": [
+      "陶器"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "陶器",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "8ba2e74c-6ae5-4ed4-859f-7a0ccae2ac47",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "伊特鲁里亚狩猎捕鱼之墓壁画绘制",
+    "titleCn": "伊特鲁里亚狩猎捕鱼之墓壁画绘制",
+    "date": {
+      "year": -510,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前510年至前500年，在意大利塔尔奎尼亚绘制了狩猎捕鱼之墓的壁画，描绘了狩猎和捕鱼场景以及宴会人物。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "伊特鲁里亚时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "437f4917-d147-4cf4-a2f6-217d69230946",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "希俄斯岛的科莱雕像创作完成",
+    "titleCn": "希俄斯岛的科莱雕像创作完成",
+    "date": {
+      "year": -510,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "公元前510年，古希腊艺术家在希俄斯岛创作了科莱雕像，这是一尊大理石女性青年雕像，高约55.9厘米，采用古风时期风格，表面残留有红色、蓝色和紫色涂料的痕迹。现藏于雅典卫城博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "9232996f-215d-4457-a034-a93a6a4716fc",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "美人画家绘制红绘风格陶杯",
+    "titleCn": "美人画家绘制红绘风格陶杯",
+    "date": {
+      "year": -510,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前510年，一位被称为“美人画家”的雅典陶瓶画家，使用红绘技巧绘制了一个双耳杯。杯内壁描绘萨梯将酒囊中的酒挤进搅拌钵，外壁一面表现交际酒会中的狂欢与同性恋诱惑，另一面描绘珀琉斯与忒提斯搏斗的场景。画家通过铭文和图像组合，将酒会、神话与当时雅典精英生活相联系，展现了红绘风格的新技巧。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "设计"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古风时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画、设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "15e288ab-7eff-49b1-bb8e-9f73df37003b",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "埃特鲁斯坎工匠制作阿累索吐火兽青铜像",
+    "titleCn": "埃特鲁斯坎工匠制作阿累索吐火兽青铜像",
+    "date": {
+      "year": -500,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前500年至前475年，埃特鲁斯坎工匠制作了阿累索吐火兽青铜像，现藏于佛罗伦萨考古博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "埃特鲁斯坎艺术",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "490561fa-ac4b-45f3-9c5f-774350546ae9",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "奥尔科美诺坟墓石碑雕刻",
+    "titleCn": "奥尔科美诺坟墓石碑雕刻",
+    "date": {
+      "year": -500
+    },
+    "descriptionCn": "公元前500年至公元前475年，贝奥提亚的奥尔科美诺雕刻了一座坟墓石碑，表现一位老人倚靠拐杖。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "ba046ddd-3876-4293-903d-4be8db347931",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "库罗斯像底座雕刻",
+    "titleCn": "库罗斯像底座雕刻",
+    "date": {
+      "year": -500,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前500年，雅典雕刻了一座库罗斯像底座，上面描绘了球类运动场景。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "9c55fb4f-1bad-4a96-bbd6-2a8f0cf18d23",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "波斯波利斯公牛柱头制作",
+    "titleCn": "波斯波利斯公牛柱头制作",
+    "date": {
+      "year": -500,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前500年，在波斯波利斯为大流士宫殿制作了公牛柱头，宽度3.73米，现藏于卢浮宫。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "伊朗",
+      "originalPeriod": "早期波斯文明",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "2f7a57c2-2468-45dd-886c-4e5cf62d8dfa",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "波斯波利斯大流士宫殿阶梯建造",
+    "titleCn": "波斯波利斯大流士宫殿阶梯建造",
+    "date": {
+      "year": -500,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前500年，在波斯波利斯建造了大流士宫殿的皇室大殿和宏伟阶梯，阶梯以浮雕装饰，代表了早期波斯文明的建筑成就。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "伊朗",
+      "originalPeriod": "早期波斯文明",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "ab69a82e-cf77-4024-8c85-4b55ec261426",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "画家杜利斯制作红绘风格冷酒器",
+    "titleCn": "画家杜利斯制作红绘风格冷酒器",
+    "date": {
+      "year": -500
+    },
+    "descriptionCn": "公元前500年至公元前475年，雅典红绘风格陶器画家杜利斯制作了一件冷酒器，描绘了狂欢的萨梯在酒会中玩各种放纵的游戏，展现了高超的杂技和身体平衡技巧。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊古典时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ec87d6a5-e3af-472a-a8e6-20c88144d0cf",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "制陶者弗里戈斯制作饮水器皿底部红色人物",
+    "titleCn": "制陶者弗里戈斯制作饮水器皿底部红色人物",
+    "date": {
+      "year": -490,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前490年至前480年，制陶者弗里戈斯制作了饮水器皿，底部绘有红色人物。",
+    "importance": 3,
+    "tags": [
+      "陶瓷",
+      "绘画"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "陶瓷、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "2146acb9-bb4d-4f6e-bc84-3c4e82dd31a9",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "雅典宝库建造",
+    "titleCn": "雅典宝库建造",
+    "date": {
+      "year": -490
+    },
+    "descriptionCn": "公元前490年，雅典人在德尔斐建造了雅典宝库，据说是用马拉松战役的战利品。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "abbf0bdc-fe23-4500-a123-8c150801f967",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_modernism",
+    "titleEn": "《克里托斯的男孩》库罗斯雕像创作完成",
+    "titleCn": "《克里托斯的男孩》库罗斯雕像创作完成",
+    "date": {
+      "year": -480,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "公元前480年，古希腊雕塑家创作了被称为“克里托斯的男孩”的库罗斯雕像。该雕像为大理石材质，高86厘米，采用简约风格（古典初期），最初可能镶有玻璃或石头的眼睛。现藏于雅典卫城博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "简约时期",
+      "standardPeriod": "现代主义",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "2a6e433d-28d6-4642-a4a8-5bf821adaa4e",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "《阿波罗和拉庇泰与人马族的战斗》雕塑群制作",
+    "titleCn": "《阿波罗和拉庇泰与人马族的战斗》雕塑群制作",
+    "date": {
+      "year": -470,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前470年至前456年，在希腊奥林匹亚的宙斯神庙西面山形墙上制作了《阿波罗和拉庇泰与人马族的战斗》雕塑群，大理石材质，大于真人大小，表现了阿波罗平定混乱的秩序。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "d1df69bd-84c1-4dcb-bb10-162735c9fe28",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "萨索斯画家波利格诺图斯抵达雅典",
+    "titleCn": "萨索斯画家波利格诺图斯抵达雅典",
+    "date": {
+      "year": -470
+    },
+    "descriptionCn": "公元前470年，萨索斯画家波利格诺图斯抵达雅典，其绘画强调自然主义，融入透视效果和心理描写。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "108159e7-42fc-4756-a60d-bdc226725260",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "奥林匹亚宙斯神庙建造",
+    "titleCn": "奥林匹亚宙斯神庙建造",
+    "date": {
+      "year": -460,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前460年，希腊伊利亚人利用与邻邦比萨作战的战利品，在奥林匹亚建造了宙斯神庙，其规模宏大，雕塑装饰丰富，包括东面三角楣的珀罗普斯战车竞赛和西面三角楣的拉庇泰族与半人马怪交战等场景。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊古典时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "6efb7448-4bb2-4b38-b888-eccc4ccb98fd",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_modernism",
+    "titleEn": "宙斯（？）青铜像创作完成",
+    "titleCn": "宙斯（？）青铜像创作完成",
+    "date": {
+      "year": -460
+    },
+    "descriptionCn": "公元前460年，古希腊艺术家创作了一尊青铜宙斯（？）像，高2.9米。该雕像带有镶嵌的眼睛和牙齿，嘴唇和乳头覆盖铜，眼睫毛覆盖银，展现了古典初期的风格。1926年在亚底米海角附近海域被发现，现藏于雅典国家考古博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "简约时期",
+      "standardPeriod": "现代主义",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "4e9d0a9f-fee8-4ee3-b753-ce61b29c2335",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "米龙创作雕塑《掷铁饼者》",
+    "titleCn": "米龙创作雕塑《掷铁饼者》",
+    "date": {
+      "year": -460
+    },
+    "descriptionCn": "公元前460年至公元前450年间，雅典雕刻家米龙创作了雕像《掷铁饼者》（Discobolus），通过捕捉运动员投掷铁饼的瞬间，创造了运动表现的典范。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "1db3be60-dead-4ed0-83c8-3a71e95450d9",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "伯里克利颁布雅典公民权法律",
+    "titleCn": "伯里克利颁布雅典公民权法律",
+    "date": {
+      "year": -451
+    },
+    "descriptionCn": "公元前451年或前450年，伯里克利颁布法律，规定雅典公民必须父母均为雅典人。",
+    "importance": 4,
+    "tags": [],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古典时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "a34e808b-7baa-4583-b211-9e366c4615fb",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "古希腊陶瓶《工作中的希腊陶工》创作",
+    "titleCn": "古希腊陶瓶《工作中的希腊陶工》创作",
+    "date": {
+      "year": -450,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "大约公元前450年，古希腊陶瓶画家“列宁格勒的画家”在陶瓶上绘制了《工作中的希腊陶工》，展示作坊内学徒与工匠共同工作的场景。该陶瓶现藏于意大利私人收藏。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "77e83680-0ca8-4d2b-9c28-0d4901de4480",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "波留克列特斯创作《多律弗路斯》雕像",
+    "titleCn": "波留克列特斯创作《多律弗路斯》雕像",
+    "date": {
+      "year": -450
+    },
+    "descriptionCn": "公元前450年，古希腊雕塑家波留克列特斯创作了青铜雕像《多律弗路斯》（《持长矛的人》），该雕像遵循其著作《卡农》中的人体比例原则，是古典风格的典范。原青铜像已遗失，现存为罗马大理石复制品，高2.12米，藏于意大利那不勒斯国家考古博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古典时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "8ea114b0-8c66-448a-9f6a-5c048c56df04",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "画家吕卡翁绘制红绘风格双耳细颈陶坛",
+    "titleCn": "画家吕卡翁绘制红绘风格双耳细颈陶坛",
+    "date": {
+      "year": -450
+    },
+    "descriptionCn": "公元前450年至公元前425年，雅典红绘风格画家吕卡翁绘制了一件双耳细颈陶坛，描绘了奥德修斯与厄尔皮诺鬼魂相遇的场景，突出了人物的空间感和真实感。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊古典时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "772557af-26b1-48e9-9ddd-3547491dee14",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "伊克蒂努斯和卡利克拉泰斯开始建造巴台农神庙",
+    "titleCn": "伊克蒂努斯和卡利克拉泰斯开始建造巴台农神庙",
+    "date": {
+      "year": -447
+    },
+    "descriptionCn": "公元前447年，伊克蒂努斯和卡利克拉泰斯在雅典卫城开始建造巴台农神庙。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古典时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "3ce736fe-dbc2-4002-81dd-529cc9b9b2f1",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "卡利科瑞特与伊克提诺斯建造帕特农神庙",
+    "titleCn": "卡利科瑞特与伊克提诺斯建造帕特农神庙",
+    "date": {
+      "year": -447,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前447年至前438年，建筑师卡利科瑞特与伊克提诺斯在雅典卫城建造了帕特农神庙，由统治者伯利克里委托。神庙完全采用潘泰列克大理石，地基面积70米×31米，是多利克柱式建筑的典范，以数学比例和视觉改进著称。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古典时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "043ed357-f230-4860-9d04-4ab7a2fa119a",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "菲季亚斯完成巴台农神庙雕塑群像",
+    "titleCn": "菲季亚斯完成巴台农神庙雕塑群像",
+    "date": {
+      "year": -447
+    },
+    "descriptionCn": "公元前447年至公元前432年间，菲季亚斯领导完成了巴台农神庙的雕塑群像，包括山墙、排挡间饰和饰带，展现了多里安与爱奥尼亚风格的融合，达到了古典希腊雕刻的和谐极致。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "907d0120-7841-440b-bc85-29cb3ba89b79",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "菲狄亚斯和作坊制作帕特农神庙东饰带",
+    "titleCn": "菲狄亚斯和作坊制作帕特农神庙东饰带",
+    "date": {
+      "year": -447,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "公元前447年至前422年，古希腊雕刻家菲狄亚斯及其作坊在雅典卫城帕特农神庙制作了东饰带浮雕，描绘了希腊众神和向雅典娜致敬的雅典人队列。饰带采用Pentelian大理石，高约1.1米。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "676c1fa1-5c72-46ac-918f-d654e693c24e",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "波利克利图斯创作青铜像《持矛者》",
+    "titleCn": "波利克利图斯创作青铜像《持矛者》",
+    "date": {
+      "year": -445
+    },
+    "descriptionCn": "公元前445年至公元前440年间，古希腊雕刻家波利克利图斯创作了青铜雕像《持矛者》（Doryphorus），该作品展现了多里安理想的运动员形象，被视为人体理想美的典范。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "21eaecc7-5488-426b-ae0f-67c2ddb5cf2c",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "巴台农神庙落成",
+    "titleCn": "巴台农神庙落成",
+    "date": {
+      "year": -438
+    },
+    "descriptionCn": "公元前438年，伊克蒂努斯和卡利克拉泰斯设计的巴台农神庙在雅典卫城落成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古典时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "45856c23-fc9e-4691-85ab-375056462800",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "菲迪亚斯与工作室制作帕特农神庙雕塑",
+    "titleCn": "菲迪亚斯与工作室制作帕特农神庙雕塑",
+    "date": {
+      "year": -438,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前438年至前432年，雕塑家菲迪亚斯及其工作室为帕特农神庙创作了大量雕塑，包括山形墙上的《雅典娜的诞生》和《雅典娜与波塞冬之争》、92件排档间饰以及长167.6米的雕带。这些雕塑采用了高浮雕和浅浮雕技术，展现了精湛的技艺。其中《命运三女神》和《骑兵》等作品现存于伦敦大英博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古典时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "32f43ac2-2ce7-4af7-af82-674dd00eaf8e",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "曾侯乙下葬并随葬大量艺术品",
+    "titleCn": "曾侯乙下葬并随葬大量艺术品",
+    "date": {
+      "year": -433,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前433年，曾侯乙去世，被埋葬在湖北随州，随葬大量青铜器、漆器、金器、玉器等艺术品。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "设计"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "战国",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑、设计",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "32f43ac2-2ce7-4af7-af82-674dd00eaf8e",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "曾侯乙下葬并随葬大量艺术品",
+    "titleCn": "曾侯乙下葬并随葬大量艺术品",
+    "date": {
+      "year": -433,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前433年，曾侯乙去世，被埋葬在湖北随州，随葬大量青铜器、漆器、金器、玉器等艺术品。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "设计"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "战国",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑、设计",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "04682c8a-afe3-4eea-b14f-04a6fa842078",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "卡利克拉泰斯的雅典娜胜利女神庙落成",
+    "titleCn": "卡利克拉泰斯的雅典娜胜利女神庙落成",
+    "date": {
+      "year": -421
+    },
+    "descriptionCn": "公元前421年，建筑师卡利克拉泰斯设计的雅典娜胜利女神庙在雅典卫城落成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古典时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "3d012a65-0749-4171-abe8-e40e21897de7",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "无名作者制作埃雷克塞夫神庙女像柱",
+    "titleCn": "无名作者制作埃雷克塞夫神庙女像柱",
+    "date": {
+      "year": -420
+    },
+    "descriptionCn": "公元前420年至公元前413年间，无名雕刻家为埃雷克塞夫神庙制作了女像柱，将少女形象（korai）作为建筑支撑结构，体现了爱奥尼亚式的优雅。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "f0bd930f-d665-428c-844f-85c62fdc9c70",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "阿斯克勒庇厄斯神像进入雅典",
+    "titleCn": "阿斯克勒庇厄斯神像进入雅典",
+    "date": {
+      "year": -420
+    },
+    "descriptionCn": "公元前420年至公元前419年，阿斯克勒庇厄斯神像进入雅典。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古典时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "99b4c008-da3b-4106-bdd9-886b930fc75a",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "雅典娜胜利女神庙雕栏建成",
+    "titleCn": "雅典娜胜利女神庙雕栏建成",
+    "date": {
+      "year": -410
+    },
+    "descriptionCn": "公元前410年，雅典娜胜利女神庙的雕栏建成，其浮雕强调女性人物的爱奥尼亚式优雅。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古希腊",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "fa0409c1-e8b6-419b-a2a2-f74295a17d87",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "狄克斯里奥斯家族为其立碑",
+    "titleCn": "狄克斯里奥斯家族为其立碑",
+    "date": {
+      "year": -394
+    },
+    "descriptionCn": "公元前394年至公元前393年，为纪念在战争中牺牲的年轻骑兵狄克斯里奥斯，其家族竖立了一座墓碑。碑上刻有死者姓名、父亲名字、村庄及出生去世年份，浮雕表现骑兵骑于后腿直立的战马上，地上裸体步兵举起右臂持矛自卫。该纪念碑精雕细作，意在给参观墓地者留下深刻印象，彰显家族的牺牲和年轻成就。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古典时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "47460d87-8d50-4811-a824-61d0a6fef618",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "雅典人竖立战争死难者公共纪念碑",
+    "titleCn": "雅典人竖立战争死难者公共纪念碑",
+    "date": {
+      "year": -394
+    },
+    "descriptionCn": "公元前394年至公元前393年，雅典人为纪念在战争中牺牲的士兵，竖立了一座公共纪念碑。碑文上方刻有浮雕，左侧三分之一已缺失，其余部分展示了一位骑兵将矛枪对准近乎崩溃的裸体步兵，战马后腿直立，步兵身后另一位重甲步兵前进。浮雕未再现真实战争场面，但通过象征性场景为战争死难者增添了悲哀气氛。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古典时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "84390328-9cbc-4e97-8d4a-d3824d99189d",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "普拉克西特列斯创作《阿芙洛狄忒》雕像",
+    "titleCn": "普拉克西特列斯创作《阿芙洛狄忒》雕像",
+    "date": {
+      "year": -360,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前360年至前330年，古希腊雕塑家普拉克西特列斯创作了《阿芙洛狄忒》雕像，这是希腊艺术中第一件三维立体的纪念性女性裸体雕像。原作为青铜或大理石已遗失，现存罗马大理石复制品，高2.1米，藏于梵蒂冈博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "4世纪",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "71e822e8-3235-4388-9f8e-8fd0f3008dda",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "德米特里厄斯颁布法令禁止雅典墓碑浮雕",
+    "titleCn": "德米特里厄斯颁布法令禁止雅典墓碑浮雕",
+    "date": {
+      "year": -317
+    },
+    "descriptionCn": "公元前317年，法勒隆的德米特里厄斯颁布法令，禁止在雅典竖立墓碑浮雕。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "古典时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "d43f6ba5-4afe-4ad4-adaa-772877ee58b3",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "《垂死挣扎的小号手》原作创作",
+    "titleCn": "《垂死挣扎的小号手》原作创作",
+    "date": {
+      "year": -230
+    },
+    "descriptionCn": "公元前230年至前220年，帕加马的希腊化雕塑家创作了《垂死挣扎的小号手》青铜原作，作为纪念帕加马国王阿塔罗斯一世击败高卢人的大型群雕的一部分。原作已遗失，现存罗马大理石复制品。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "土耳其",
+      "originalPeriod": "希腊化时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "07089bbb-e678-4c7e-a8ac-0a52e6ce7ad6",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "秦始皇兵马俑坑开始建造",
+    "titleCn": "秦始皇兵马俑坑开始建造",
+    "date": {
+      "year": -210,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "公元前210年，中国秦朝第一位皇帝秦始皇下令在陵墓附近建造大规模的兵马俑坑，以真人大小的陶俑军队守护其陵墓。1号坑最初包含约6000件陶俑、马匹和战车。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "秦代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "097b3424-6b71-4671-a40b-5c88615ecd03",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "秦始皇陵青铜战车制作",
+    "titleCn": "秦始皇陵青铜战车制作",
+    "date": {
+      "year": -210,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "公元前210年，中国秦朝工匠制作了镀金银的青铜战车模型，包括战车、马匹和马夫，尺寸约为真人真马的三分之一，用于秦始皇陵的陪葬。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "秦代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "57ce1e11-a967-47ea-93ef-39c8ced719c9",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_prehistoric",
+    "titleEn": "越南东山文化青铜击鼓制作完成",
+    "titleCn": "越南东山文化青铜击鼓制作完成",
+    "date": {
+      "year": -200,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前200年，越南东山文化青铜击鼓制作完成，现藏于荷兰国立民族学博物馆。",
+    "importance": 4,
+    "tags": [
+      "工艺品"
+    ],
+    "meta": {
+      "country": "越南",
+      "originalPeriod": "东山文化",
+      "standardPeriod": "史前时代",
+      "eventTypeRaw": "工艺品",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "741a0048-ecd0-46c1-933e-909d91c27a3b",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "帕加马祭坛建造",
+    "titleCn": "帕加马祭坛建造",
+    "date": {
+      "year": -197
+    },
+    "descriptionCn": "公元前197年至公元前159年间，为纪念帕加马国王埃夫梅内斯二世，帕加马祭坛建成。祭坛以其巨大的饰带而闻名，描绘了神与巨人之战。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "希腊化时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "572643c2-a81e-4a71-acc8-4f3139d633b3",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "《萨莫色雷斯的胜利女神》创作完成",
+    "titleCn": "《萨莫色雷斯的胜利女神》创作完成",
+    "date": {
+      "year": -190
+    },
+    "descriptionCn": "公元前190年，希腊化时期雕塑家创作了《萨莫色雷斯的胜利女神》，以纪念一场海军胜利。该大理石雕像高3.28米，原竖立在萨莫色雷斯岛诸神圣殿内，雕像姿势向前推进，充满动感。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "希腊化时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "2717ff6d-9b0e-4f6b-8dd0-ed3a1ab00db6",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "帕加马宙斯祭坛饰带完成",
+    "titleCn": "帕加马宙斯祭坛饰带完成",
+    "date": {
+      "year": -180,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "公元前180年至公元前159年间，帕加马宙斯祭坛的饰带完成，全长约390英尺，以高浮雕形式描绘神与巨人之战，展现了希腊化时期的戏剧性与激越情感。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "希腊化时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "b3827d0a-a9fe-418b-a590-8c9f1a754b69",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "着色漆器仪式器皿制作完成",
+    "titleCn": "着色漆器仪式器皿制作完成",
+    "date": {
+      "year": -180,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前180年，一件着色漆器仪式器皿在轪侯夫人墓中制作完成，现藏于湖南省博物馆。",
+    "importance": 4,
+    "tags": [
+      "工艺品"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "汉代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "工艺品",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "ee0429be-768e-4cd7-8491-1753212d5f26",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "轪侯夫人帛画《轪侯夫人与随从》创作完成",
+    "titleCn": "轪侯夫人帛画《轪侯夫人与随从》创作完成",
+    "date": {
+      "year": -180,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前180年，轪侯夫人帛画《轪侯夫人与随从》创作完成。该帛画出土于湖南省长沙市附近的马王堆汉代墓葬，现藏于湖南省博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "汉代",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "57c2b6bb-a84a-443d-a8ca-90245d4f5c9f",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "迈特罗多鲁斯前往罗马",
+    "titleCn": "迈特罗多鲁斯前往罗马",
+    "date": {
+      "year": -168
+    },
+    "descriptionCn": "公元前168年，雅典画家和哲学家迈特罗多鲁斯前往罗马，为埃米利乌斯·保卢斯的孩子担任教师，并为保卢斯创作歌颂其战争功绩的绘画。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "希腊化时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "57c2b6bb-a84a-443d-a8ca-90245d4f5c9f",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "迈特罗多鲁斯前往罗马",
+    "titleCn": "迈特罗多鲁斯前往罗马",
+    "date": {
+      "year": -168
+    },
+    "descriptionCn": "公元前168年，雅典画家和哲学家迈特罗多鲁斯前往罗马，为埃米利乌斯·保卢斯的孩子担任教师，并为保卢斯创作歌颂其战争功绩的绘画。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "希腊化时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "8595402b-dc4d-43f6-8654-411b67effb45",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "汉武帝在长安作角抵戏",
+    "titleCn": "汉武帝在长安作角抵戏",
+    "date": {
+      "year": -105
+    },
+    "descriptionCn": "公元前105年夏季，汉武帝下令在京城长安举行角抵戏（百戏）表演，方圆三百里内的百姓都前来观看。",
+    "importance": 4,
+    "tags": [
+      "表演"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "西汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "表演",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "5034ffe6-002a-4048-8012-e5a05617834b",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "罗得岛派创作《拉奥孔》群像",
+    "titleCn": "罗得岛派创作《拉奥孔》群像",
+    "date": {
+      "year": -50,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前50年，罗得岛学派雕刻家创作了群像《拉奥孔》，该作品以高度戏剧性的痛苦和挣扎表现为特征，成为希腊化雕刻的最后杰作，对后世影响深远。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "希腊化时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "8e87bec0-da02-4ace-9e5e-280e8da1cf8e",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "维特鲁维乌斯·波利奥撰写建筑论文",
+    "titleCn": "维特鲁维乌斯·波利奥撰写建筑论文",
+    "date": {
+      "year": -25
+    },
+    "descriptionCn": "公元前25年-前23年，建筑师维特鲁维乌斯·波利奥撰写了建筑论文，浓缩了奥古斯都古典主义的原则。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "05d3eea5-ca84-4a52-8fbd-a7514a66c9ff",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "罗马和平祭坛建造",
+    "titleCn": "罗马和平祭坛建造",
+    "date": {
+      "year": -13
+    },
+    "descriptionCn": "公元前13年-前9年，罗马和平祭坛建造完成。该祭坛由罗马元老院委托建造，以纪念奥古斯都从高卢和西班牙凯旋。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "10f6ff69-88d6-4b36-95b2-257a99b931d7",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "帕奇斯祭坛北饰带制作",
+    "titleCn": "帕奇斯祭坛北饰带制作",
+    "date": {
+      "year": -9
+    },
+    "descriptionCn": "公元前9年，罗马帕奇斯祭坛北饰带局部完成，描绘议员和僧侣。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "9f2c6714-c02e-4cc5-bf68-5eed17d4e79b",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "佛教药叉女雕像创作",
+    "titleCn": "佛教药叉女雕像创作",
+    "date": {
+      "year": 10,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元10年至30年，佛教药叉女雕像创作于桑吉。该雕像位于佛塔门上，具有性感的人体表现，象征丰收与繁殖。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "印度",
+      "originalPeriod": "古代印度",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "e8cb071d-d4ca-4c48-93dc-e166adcd8a13",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "桑吉大佛塔东塔门药叉女雕塑创作完成",
+    "titleCn": "桑吉大佛塔东塔门药叉女雕塑创作完成",
+    "date": {
+      "year": 10,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元10年-30年，桑吉大佛塔东塔门的药叉女雕塑创作完成。该雕塑位于印度桑吉，现藏于原地。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "印度",
+      "originalPeriod": "早期佛教艺术",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "410ef98c-bb8d-4dce-af3a-e4477922c1a1",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "奥古斯都大帝雕塑创作完成",
+    "titleCn": "奥古斯都大帝雕塑创作完成",
+    "date": {
+      "year": 15
+    },
+    "descriptionCn": "公元15年，奥古斯都大帝雕塑创作完成。该雕塑发现于奥古斯都妻子利维娅的别墅，现藏于梵蒂冈博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "4b4ddecc-bef7-4534-9a51-0d57272bbb06",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "东汉明帝刘庄登基并梦金人",
+    "titleCn": "东汉明帝刘庄登基并梦金人",
+    "date": {
+      "year": 58
+    },
+    "descriptionCn": "公元58年，东汉明帝刘庄登基，当夜梦见金人在殿堂飞行。",
+    "importance": 4,
+    "tags": [],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "f88bc85d-c10f-4ba4-9181-d959057a787d",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "维蒂府邸壁画装饰创作",
+    "titleCn": "维蒂府邸壁画装饰创作",
+    "date": {
+      "year": 63
+    },
+    "descriptionCn": "公元63年-79年，庞贝古城维蒂府邸的壁画装饰创作完成。该壁画由维蒂的兄长康维瓦和莱斯提图特斯委托创作。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "06808877-1a74-4c6a-b046-0706228b2acd",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "尼禄兴建罗马城池与金屋",
+    "titleCn": "尼禄兴建罗马城池与金屋",
+    "date": {
+      "year": 64
+    },
+    "descriptionCn": "公元64年，罗马发生大火，促使皇帝尼禄能够建设该城使其更为健全，并为自己营建巨大的宫殿金屋。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "dc97e1c8-3401-4d37-805a-0d4108c60ad9",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "《开通褒斜道摩崖刻石》刻立",
+    "titleCn": "《开通褒斜道摩崖刻石》刻立",
+    "date": {
+      "year": 66
+    },
+    "descriptionCn": "公元66年（东汉明帝永平九年），《开通褒斜道摩崖刻石》在陕西汉中褒城（今勉县）北石门溪谷道崖壁上刻立。该刻石是迄今为止发现最早的东汉石刻，亦称\"大开道\"或\"开道碑\"，其气势纵横，古朴自然，字近方正，极为拙朴。",
+    "importance": 2,
+    "tags": [
+      "书法",
+      "碑刻"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、碑刻",
+      "eventCategory": "考古与发现"
+    }
+  },
+  {
+    "id": "b5f9696b-3507-49e6-a477-d58513d7fbcc",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "创建白马寺",
+    "titleCn": "创建白马寺",
+    "date": {
+      "year": 67
+    },
+    "descriptionCn": "东汉永平十年（67年），用白马从西域驮来佛经，存放于洛阳鸿胪寺，创建了中国第一座佛教寺庙——白马寺。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "8d17d2c0-33ee-4f96-93f3-064b9837d4a4",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "庞贝古城米南德之居中庭建造",
+    "titleCn": "庞贝古城米南德之居中庭建造",
+    "date": {
+      "year": 70,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元70年，庞贝古城米南德之居的中庭建造完成。该中庭由罗马帝王尼禄的妻子昆图斯·波佩亚的亲戚波佩亚家族建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "08b150f7-1271-4d03-89e8-5c4bd9edcf66",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "提图斯凯旋门浮雕创作完成",
+    "titleCn": "提图斯凯旋门浮雕创作完成",
+    "date": {
+      "year": 70
+    },
+    "descriptionCn": "公元70年-71年，提图斯凯旋门浮雕创作完成。该浮雕描绘了罗马军队从耶路撒冷神殿夺取战利品游行的场景。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "eb1d4e34-e383-42f2-a5cb-b5899ae065b2",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "罗马斗兽场开始建造",
+    "titleCn": "罗马斗兽场开始建造",
+    "date": {
+      "year": 72
+    },
+    "descriptionCn": "公元72年，罗马皇帝韦斯巴芗下令在罗马建造弗拉维亚圆形露天剧场（斗兽场），用于公共娱乐活动。该建筑开创性地使用了混凝土和拱门结构，能快速疏散人群。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "57a53b36-d6fa-4968-bd97-6233d0f48872",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "庞培城被维苏威火山爆发淹没",
+    "titleCn": "庞培城被维苏威火山爆发淹没",
+    "date": {
+      "year": 79
+    },
+    "descriptionCn": "公元79年，意大利庞培城被维苏威火山爆发所淹没。",
+    "importance": 4,
+    "tags": [
+      "其他"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "其他",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "b7abcb8c-6b61-4952-bb06-a02405673d40",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "维苏威火山爆发埋没庞培和赫库兰尼姆",
+    "titleCn": "维苏威火山爆发埋没庞培和赫库兰尼姆",
+    "date": {
+      "year": 79
+    },
+    "descriptionCn": "公元79年，维苏威火山爆发，埋没了庞培和赫库兰尼姆两座城市，使它们得以保存大量罗马艺术遗迹，后于18世纪重新发现。",
+    "importance": 2,
+    "tags": [],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "考古与发现"
+    }
+  },
+  {
+    "id": "0fb76c19-6767-43bf-ac3a-342e59a79340",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "罗马斗兽场举行落成仪式",
+    "titleCn": "罗马斗兽场举行落成仪式",
+    "date": {
+      "year": 80
+    },
+    "descriptionCn": "公元80年，罗马皇帝提图斯为弗拉维亚圆形露天剧场（斗兽场）举行落成仪式，标志着这座宏伟建筑的正式启用。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "d5519674-bcc3-4dc0-a51a-cb9ca447e22c",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "提图斯凯旋门在罗马建成",
+    "titleCn": "提图斯凯旋门在罗马建成",
+    "date": {
+      "year": 81
+    },
+    "descriptionCn": "公元81年，罗马皇帝提图斯为纪念其镇压犹太人、征服耶路撒冷的胜利，在罗马建造了提图斯凯旋门。该建筑采用大理石覆盖混凝土芯的结构，简洁对称，顶部原竖有提图斯的青铜雕像。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "6d8ad542-7c06-4d9a-9ce9-14ab99a85e00",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "《尚未打扫的地板》马赛克变体制作",
+    "titleCn": "《尚未打扫的地板》马赛克变体制作",
+    "date": {
+      "year": 100
+    },
+    "descriptionCn": "公元2世纪，制作了《尚未打扫的地板》马赛克变体，该作品最初由公元前2世纪帕加马的索苏斯绘制，现藏于梵蒂冈博物馆。",
+    "importance": 3,
+    "tags": [
+      "马赛克"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "古罗马",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "马赛克",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "6c5832b2-43d6-43bd-9dab-393d17f3a88a",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "提姆加德城建立",
+    "titleCn": "提姆加德城建立",
+    "date": {
+      "year": 100
+    },
+    "descriptionCn": "公元100年，提姆加德城建立。该城位于阿尔及利亚，由图拉真大帝统治，其城市规划略微偏离了传统的南北和东西轴线。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "阿尔及利亚",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "1590dbca-fb96-4137-9dc3-89ca73d19a97",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "图拉真纪念柱建造",
+    "titleCn": "图拉真纪念柱建造",
+    "date": {
+      "year": 113
+    },
+    "descriptionCn": "公元113年，图拉真纪念柱建造完成。该纪念柱由图拉真委托建造，柱身浮雕记录了图拉真击败达西亚人的战役。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "a125b5ed-3de9-4510-b698-94a2e9560c3b",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "阿德里安重建万神殿",
+    "titleCn": "阿德里安重建万神殿",
+    "date": {
+      "year": 115
+    },
+    "descriptionCn": "公元115年-125年，罗马皇帝阿德里安重建万神殿。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "3dbe6907-c2aa-4671-9939-b817ad4d6ee4",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "罗马万神殿建造",
+    "titleCn": "罗马万神殿建造",
+    "date": {
+      "year": 117
+    },
+    "descriptionCn": "公元117年至125年，罗马皇帝哈德良下令在罗马建造万神殿。该建筑以其巨大的穹顶和混凝土结构著称，穹顶直径达43.3米，是古代工程奇迹。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "01e7b911-5e25-4645-aa4d-5f62ad435387",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "阿德里安建造蒂沃利别墅",
+    "titleCn": "阿德里安建造蒂沃利别墅",
+    "date": {
+      "year": 127
+    },
+    "descriptionCn": "公元127年-134年，罗马皇帝阿德里安在蒂沃利建造别墅，试图在其中使最优秀的希腊建筑形象传之不朽。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "73f7d385-5cd0-4ebb-b7e8-ee09af24dcd0",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "武梁祠修建",
+    "titleCn": "武梁祠修建",
+    "date": {
+      "year": 151
+    },
+    "descriptionCn": "151年，武梁祠修建于山东省西南部的嘉祥县，由武氏家族为祭祀祖先而建。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "73f7d385-5cd0-4ebb-b7e8-ee09af24dcd0",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "武梁祠修建",
+    "titleCn": "武梁祠修建",
+    "date": {
+      "year": 151
+    },
+    "descriptionCn": "151年，武梁祠修建于山东省西南部的嘉祥县，由武氏家族为祭祀祖先而建。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "5e281cb3-b835-4956-b567-bcbd849517d7",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "《乙瑛碑》刻立",
+    "titleCn": "《乙瑛碑》刻立",
+    "date": {
+      "year": 153
+    },
+    "descriptionCn": "公元153年（东汉永兴元年），《乙瑛碑》在山东曲阜孔庙大成殿东房刻立。此碑工整匀适，组织严密，笔法极有法度，是汉隶趋于规范成熟时期的代表作之一。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "碑刻"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、碑刻",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "cc040046-3b4f-4919-97ab-a7bf415cfd30",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "《礼器碑》刻立",
+    "titleCn": "《礼器碑》刻立",
+    "date": {
+      "year": 156
+    },
+    "descriptionCn": "公元156年（东汉永寿二年），《礼器碑》在山东曲阜孔庙刻立。此碑书法细劲雄健，端严而峻逸，方整秀丽兼而有之，被推为隶书极则，是汉碑中经典之作。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "碑刻"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、碑刻",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "29e572cb-b204-419f-bec0-1b42c0e5ceed",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "蔡邕作《述行赋》",
+    "titleCn": "蔡邕作《述行赋》",
+    "date": {
+      "year": 160
+    },
+    "descriptionCn": "160年秋，蔡邕应召进京献艺，行至偃师称病返回，途中作《述行赋》。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "d0639cc2-6422-496d-bb36-9eeb25f81d0f",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "马可·奥勒留青铜塑像创作完成",
+    "titleCn": "马可·奥勒留青铜塑像创作完成",
+    "date": {
+      "year": 161
+    },
+    "descriptionCn": "公元161年-180年，马可·奥勒留青铜塑像创作完成。该塑像现藏于意大利罗马卡皮多里尼博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "11f29847-5979-4fdd-8b2f-f805e5e4a0a5",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "《史晨碑》后碑刻立",
+    "titleCn": "《史晨碑》后碑刻立",
+    "date": {
+      "year": 165
+    },
+    "descriptionCn": "公元165年（东汉建宁元年），《史晨碑》后碑刻立。碑文记载鲁相史晨飨孔庙之事，结字工整精细，神韵超绝，为汉隶成熟期方整平正一路书法的典型。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "碑刻"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、碑刻",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "c290c598-34bc-49ef-91dc-01abadc8466b",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "《西岳华山庙碑》刻立",
+    "titleCn": "《西岳华山庙碑》刻立",
+    "date": {
+      "year": 165
+    },
+    "descriptionCn": "公元165年（东汉桓帝延熹八年），《西岳华山庙碑》在陕西省华阴县西岳庙刻立。碑文记载了汉代祭山、修庙、祈天求雨等情况，书法精妙。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "碑刻"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、碑刻",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "83c760c0-03f6-4732-8698-98fc1ffe6782",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "《鲜于璜碑》刻立",
+    "titleCn": "《鲜于璜碑》刻立",
+    "date": {
+      "year": 165
+    },
+    "descriptionCn": "公元165年（东汉延熹八年），《鲜于璜碑》刻立。现藏天津市艺术博物馆。此碑体势宽绰丰厚，用笔多方折，肥瘦多变，是建国以来所发现的最完整、字迹最多的汉碑。",
+    "importance": 2,
+    "tags": [
+      "书法",
+      "碑刻"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、碑刻",
+      "eventCategory": "考古与发现"
+    }
+  },
+  {
+    "id": "d7bab790-6d49-40ac-813a-d7dca38e281b",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "《史晨碑》前碑刻立",
+    "titleCn": "《史晨碑》前碑刻立",
+    "date": {
+      "year": 166
+    },
+    "descriptionCn": "公元166年（东汉建宁二年），《史晨碑》前碑刻立，现存山东曲阜孔庙。前碑与后碑均为汉隶成熟期的代表作。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "碑刻"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、碑刻",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "7e4b13e9-ee30-4e84-80fc-2c5752e6d4da",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "《衡方碑》刻立",
+    "titleCn": "《衡方碑》刻立",
+    "date": {
+      "year": 168
+    },
+    "descriptionCn": "公元168年（东汉建宁元年），《衡方碑》在山东汶上县刻立。此碑字体方拙朴实，间架稳实厚重，为汉隶中的精品。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "碑刻"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、碑刻",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "0374c533-4255-43c4-b08e-6e9143801667",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "李翕刻《五瑞图》于甘肃成县鱼窍峡摩崖",
+    "titleCn": "李翕刻《五瑞图》于甘肃成县鱼窍峡摩崖",
+    "date": {
+      "year": 171
+    },
+    "descriptionCn": "171年（汉灵帝建宁四年），武都郡守李翕在甘肃成县天井山麓鱼窍峡摩崖上刻《五瑞图》，铭文记载其任淹池令时出现黄龙、白鹿之瑞，后治武都又有嘉禾、甘露、木连理等祥瑞，因此刻画其像于石侧。该摩崖石刻为中国现存最早的吉祥图案之一。",
+    "importance": 4,
+    "tags": [
+      "雕刻",
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕刻、书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "02e8f890-95de-4c3b-9993-4d510121bc05",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "刻《熹平石经》",
+    "titleCn": "刻《熹平石经》",
+    "date": {
+      "year": 175
+    },
+    "descriptionCn": "175年（东汉熹平四年），刻石46块，史称《熹平石经》，开后世刻石经之先河；摩崖石刻也自东汉开始。",
+    "importance": 3,
+    "tags": [
+      "书法",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "9045a538-8e45-4dbf-aa55-25c9b339da3c",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "蔡邕书丹《熹平石经》",
+    "titleCn": "蔡邕书丹《熹平石经》",
+    "date": {
+      "year": 175
+    },
+    "descriptionCn": "175年，汉灵帝命蔡邕等人正定《六经》文字，蔡邕书丹于石，刻成《熹平石经》46块，立于太学门外。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "19b9cd99-2afd-4cd6-bff2-0736dc70b8d2",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "《曹全碑》刻立",
+    "titleCn": "《曹全碑》刻立",
+    "date": {
+      "year": 185
+    },
+    "descriptionCn": "公元185年（东汉中平二年），《曹全碑》刻立，现藏西安碑林。此碑结字匀整，秀润典丽，用笔方圆兼备，是汉隶成熟期飘逸秀丽一路书法的典型。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "碑刻"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、碑刻",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "5c43311b-1655-499b-bc2b-2c6a5ee6c811",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "《张迁碑》刻立",
+    "titleCn": "《张迁碑》刻立",
+    "date": {
+      "year": 186
+    },
+    "descriptionCn": "公元186年（东汉中平三年），《张迁碑》刻立，现存于山东泰安岱庙。此碑字形方正，用笔棱角分明，书法朴厚劲秀，堪称汉碑中的上品。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "碑刻"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、碑刻",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "69dd79e7-8927-4e26-bf71-615551364993",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "罗马发生大火",
+    "titleCn": "罗马发生大火",
+    "date": {
+      "year": 191
+    },
+    "descriptionCn": "公元191年，罗马再次发生大火，促使皇帝塞普蒂穆斯·塞韦鲁斯和卡拉卡拉随后大兴土木。",
+    "importance": 4,
+    "tags": [],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "9fc4ef56-29d9-466b-86dc-2f29d206f4d5",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "制作第一尊独立佛像",
+    "titleCn": "制作第一尊独立佛像",
+    "date": {
+      "year": 193
+    },
+    "descriptionCn": "193年或194年，中国东南地区制作了第一尊独立的佛像，标志着佛像脱离墓葬装饰而成为独立的崇拜对象。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉末期",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "9fc4ef56-29d9-466b-86dc-2f29d206f4d5",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "制作第一尊独立佛像",
+    "titleCn": "制作第一尊独立佛像",
+    "date": {
+      "year": 193
+    },
+    "descriptionCn": "193年或194年，中国东南地区制作了第一尊独立的佛像，标志着佛像脱离墓葬装饰而成为独立的崇拜对象。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉末期",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "d3f17d08-edad-482e-a887-485922dfd25f",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "曹操下令禁止刻碑",
+    "titleCn": "曹操下令禁止刻碑",
+    "date": {
+      "year": 207
+    },
+    "descriptionCn": "公元207年（建安十二年），曹操下令禁止刻碑。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "231a898b-2f56-496e-b44c-21a3c56f3241",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "卡拉卡拉公共浴场建造",
+    "titleCn": "卡拉卡拉公共浴场建造",
+    "date": {
+      "year": 212,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "公元212年-219年，卡拉卡拉公共浴场建造完成。该浴场由卡拉卡拉大帝委托建造，可容纳约1600人。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "b46d4d88-fb30-44fc-8012-d4dfe00c8576",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "卡拉卡拉浴场建造",
+    "titleCn": "卡拉卡拉浴场建造",
+    "date": {
+      "year": 212
+    },
+    "descriptionCn": "公元212年-216年，罗马皇帝卡拉卡拉兴建卡拉卡拉浴场，成为罗马建筑的杰作之一。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "d3d5b701-fa85-43b9-826d-df476c999f09",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "钟繇书写《贺捷表》",
+    "titleCn": "钟繇书写《贺捷表》",
+    "date": {
+      "year": 219
+    },
+    "descriptionCn": "东汉建安二十四年（219年），钟繇六十八岁时书写《贺捷表》，内容为得知蜀将关羽被杀时所作的贺捷表奏。此作品在书写风格上被认为最接近钟繇原作。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "47676d4b-0906-497a-9a7e-f81211c43e04",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "钟繇书写《荐季直表》",
+    "titleCn": "钟繇书写《荐季直表》",
+    "date": {
+      "year": 221
+    },
+    "descriptionCn": "魏黄初二年（221年），钟繇书写《荐季直表》楷书作品，时年已逾七十。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "三国",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "a2dd6ba1-f844-48b9-a7ac-005879b3a70e",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "曹不兴绘赤龙图",
+    "titleCn": "曹不兴绘赤龙图",
+    "date": {
+      "year": 228,
+      "month": 10
+    },
+    "descriptionCn": "赤乌元年（228年）冬十月，孙权游青溪时见赤龙凌波，认为是祥瑞，命曹不兴绘制赤龙图。此画后成为曹不兴的传世之作，有传说南朝时曾以此画祈雨应验。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "三国吴",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "08024539-f089-404c-9758-297764552b47",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "沙普尔一世宫建造",
+    "titleCn": "沙普尔一世宫建造",
+    "date": {
+      "year": 241
+    },
+    "descriptionCn": "公元241年-272年，萨珊王朝沙普尔一世建造宫殿。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "伊朗",
+      "originalPeriod": "萨珊王朝",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "35b20d14-dd13-438d-9edb-80f661451554",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "吴国烧制贴塑佛像陶罐",
+    "titleCn": "吴国烧制贴塑佛像陶罐",
+    "date": {
+      "year": 250,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约250年至280年，中国东南沿海地区的吴国烧制了一件上釉陶瓷罐，罐身贴塑佛像，通过头光可以辨认，用于丧葬仪式。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "三国吴",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "35b20d14-dd13-438d-9edb-80f661451554",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "吴国烧制贴塑佛像陶罐",
+    "titleCn": "吴国烧制贴塑佛像陶罐",
+    "date": {
+      "year": 250,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约250年至280年，中国东南沿海地区的吴国烧制了一件上釉陶瓷罐，罐身贴塑佛像，通过头光可以辨认，用于丧葬仪式。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "三国吴",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "fce261c6-55d8-40b0-9ba5-2fc6fd3fb67a",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "刻《谷朗碑》",
+    "titleCn": "刻《谷朗碑》",
+    "date": {
+      "year": 272
+    },
+    "descriptionCn": "三国吴凤凰元年（272年），《谷朗碑》刻成。此碑是现存最早的楷书碑刻，虽体势尚未完全摆脱隶书样式，但波磔特征已不明显，接近楷书，成为南北朝碑刻楷书的基本形式。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "三国吴",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "bb9aa8f7-76c1-4f88-af5a-c60fce547f49",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "晋武帝下诏禁碑",
+    "titleCn": "晋武帝下诏禁碑",
+    "date": {
+      "year": 278
+    },
+    "descriptionCn": "公元278年（西晋咸宁四年），晋武帝司马炎下诏禁止刻碑。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "西晋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "95ba13c8-dcb6-4df1-a02c-21cf52fee4bd",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "陆机与陆云到达洛阳",
+    "titleCn": "陆机与陆云到达洛阳",
+    "date": {
+      "year": 289
+    },
+    "descriptionCn": "公元289年（太康末年），陆机与陆云来到西晋国都洛阳。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "文学"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "西晋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、文学",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "4e67530c-75f9-49f2-9a26-c5f37327fd9e",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "陆机升任尚书中兵郎",
+    "titleCn": "陆机升任尚书中兵郎",
+    "date": {
+      "year": 296
+    },
+    "descriptionCn": "公元296年（元康六年），陆机升任尚书中兵郎，开始参与军政事务。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "文学"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "西晋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、文学",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "06136e2b-ee80-47cb-b1d6-b59b8336a1ef",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "陆机率军讨伐长沙王司马乂",
+    "titleCn": "陆机率军讨伐长沙王司马乂",
+    "date": {
+      "year": 303
+    },
+    "descriptionCn": "公元303年（太安二年），陆机官拜前军都督，率军二十万南向洛阳讨伐长沙王司马乂。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "文学"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "西晋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、文学",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "1fea35cf-239e-4adf-aab1-2ffe25cff649",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "陆机被杀害",
+    "titleCn": "陆机被杀害",
+    "date": {
+      "year": 303
+    },
+    "descriptionCn": "公元303年（太安二年），陆机与弟弟陆云及其子一同被司马颖杀害，年仅四十二岁。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "文学"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "西晋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、文学",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "8a7dfb62-69d1-4ca0-a9d3-b5b9435582d1",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "康斯坦丁大会堂建造",
+    "titleCn": "康斯坦丁大会堂建造",
+    "date": {
+      "year": 310
+    },
+    "descriptionCn": "公元310年-312年，康斯坦丁大会堂（或马克森蒂乌斯大会堂）建造，是罗马帝国崩溃前最后的营造活动之一。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马帝国时期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "6b72958e-588c-4630-aa9c-94af365e36f5",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "王献之出生",
+    "titleCn": "王献之出生",
+    "date": {
+      "year": 344
+    },
+    "descriptionCn": "344年，王献之出生。王献之字子敬，小名官奴，是王羲之的第七个儿子。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东晋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "4f4d7e7c-bf5e-429d-afda-56a15f2d9a7e",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "顾恺之出生",
+    "titleCn": "顾恺之出生",
+    "date": {
+      "year": 346
+    },
+    "descriptionCn": "346年，顾恺之出生。顾恺之字长康，小字虎头，晋陵（今江苏无锡）人。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东晋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d35f3e69-82b1-4e5c-837b-52f4ef747273",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_medieval_byzantine",
+    "titleEn": "马赛克《亚伯拉罕和三天使》创作",
+    "titleCn": "马赛克《亚伯拉罕和三天使》创作",
+    "date": {
+      "year": 352
+    },
+    "descriptionCn": "352年至366年间，马赛克作品《亚伯拉罕和三天使》（局部天使头像）创作于罗马大圣马利亚教堂。",
+    "importance": 3,
+    "tags": [
+      "马赛克"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "早期基督教艺术",
+      "standardPeriod": "中世纪与拜占庭",
+      "eventTypeRaw": "马赛克",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "5dda8d37-09c1-4948-a722-854517ca4f33",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "王羲之与友人在兰亭修禊雅集",
+    "titleCn": "王羲之与友人在兰亭修禊雅集",
+    "date": {
+      "year": 353
+    },
+    "descriptionCn": "公元353年（东晋穆帝永和九年）三月初三，王羲之邀请谢安、谢万、孙绰等四十一人，于会稽山阴之兰亭（今浙江绍兴市郊）举行修禊雅集，饮酒赋诗，王羲之即兴创作《兰亭序》。",
+    "importance": 3,
+    "tags": [
+      "书法",
+      "文学"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东晋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、文学",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b748c85d-ae6d-439b-9bfa-3ad0267bf298",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "王羲之书写《兰亭集序》",
+    "titleCn": "王羲之书写《兰亭集序》",
+    "date": {
+      "year": 353
+    },
+    "descriptionCn": "东晋穆帝永和九年（353年），王羲之书写《兰亭集序》，该作品后被称作“天下第一行书”。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东晋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "a21ba7dd-4cd7-4bfc-98ac-2ea95d032fd4",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "王羲之在兰亭修禊中创作《兰亭集序》",
+    "titleCn": "王羲之在兰亭修禊中创作《兰亭集序》",
+    "date": {
+      "year": 353
+    },
+    "descriptionCn": "353年（东晋永和九年）暮春之初，王羲之与谢安、孙绰等四十一位名士在会稽山阴的兰亭举行修禊活动。众人曲水流觞，饮酒赋诗。王羲之乘着微醉，用鼠须笔在蚕茧纸上挥毫写下《兰亭集序》。该序文书法被誉为“天下第一行书”，文章亦为千古名篇。",
+    "importance": 3,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东晋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "6a50ec04-48d0-483c-8367-6991b2f85229",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_ancient_world",
+    "titleEn": "尤尼乌斯·巴苏斯大理石棺",
+    "titleCn": "尤尼乌斯·巴苏斯大理石棺",
+    "date": {
+      "year": 359
+    },
+    "descriptionCn": "359年，尤尼乌斯·巴苏斯的大理石棺安置于罗马圣彼得教堂。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "古代世界",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "3647a0e7-a6f1-401b-9888-da331dd739da",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "顾恺之为瓦官寺绘制《维摩诘居士像》壁画",
+    "titleCn": "顾恺之为瓦官寺绘制《维摩诘居士像》壁画",
+    "date": {
+      "year": 364
+    },
+    "descriptionCn": "364年，东晋画家顾恺之于建康（今江苏南京）瓦官寺内，为寺院绘制《维摩诘居士像》壁画。他先闭关作画一个多月，完成全像后，于点睛之日开放寺院，当众点睛，使画像栩栩如生，并借此募得一百万钱，该壁画成为其成名之作。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东晋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "aec3911d-fb7e-445d-951f-cfcf1667f43f",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "莫高窟始凿于前秦建元二年",
+    "titleCn": "莫高窟始凿于前秦建元二年",
+    "date": {
+      "year": 366,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "公元366年（前秦建元二年），莫高窟开始开凿，历经十六国、北魏、西魏、北周等朝代，现存洞窟492个、彩塑2400多尊、壁画约45000平方米，是我国最为重要的石窟群之一。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "十六国（前秦）",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑、雕塑、绘画",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "e3057bc6-0833-48a3-89ae-54b08e92f9e1",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "王献之拒绝为太极殿题匾",
+    "titleCn": "王献之拒绝为太极殿题匾",
+    "date": {
+      "year": 378,
+      "month": 7
+    },
+    "descriptionCn": "378年7月，东晋孝武帝太元三年七月，宫中新建太极殿落成，谢安想让王献之题匾，王献之以韦仲将悬橙书匾典故拒绝。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东晋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "cb109f10-e1bc-4862-9421-b3db49fc2b36",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "王献之升任中书令",
+    "titleCn": "王献之升任中书令",
+    "date": {
+      "year": 383
+    },
+    "descriptionCn": "383年，王献之升任中书令，但朝政混乱，该职位形同虚设。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东晋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "e1df9824-b049-4f3b-ada7-2729b7298382",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "王献之去世",
+    "titleCn": "王献之去世",
+    "date": {
+      "year": 386
+    },
+    "descriptionCn": "386年，王献之病逝，年仅四十余岁。",
+    "importance": 4,
+    "tags": [
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东晋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "1607c2ed-dce7-486e-b7d9-7b6f96096f59",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "顾恺之去世",
+    "titleCn": "顾恺之去世",
+    "date": {
+      "year": 407
+    },
+    "descriptionCn": "407年，顾恺之去世。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东晋",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "86d24017-d8b1-4760-9001-122d3f8fb239",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "炳灵寺第169窟发现“建弘元年”墨书题记",
+    "titleCn": "炳灵寺第169窟发现“建弘元年”墨书题记",
+    "date": {
+      "year": 420
+    },
+    "descriptionCn": "420年，甘肃永靖炳灵寺第169窟（古称“唐述窟”）内东侧上方壁面上发现墨书题记24行，其中包含“建弘元年”字样，该题记是目前已知全国石窟中最早的纪年题记。",
+    "importance": 3,
+    "tags": [
+      "书法",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "十六国",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "书法、雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "102fde00-07f9-42e7-b477-f465a0eb7c40",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "云冈石窟开凿",
+    "titleCn": "云冈石窟开凿",
+    "date": {
+      "year": 460,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约460年，云冈石窟在山西开始开凿。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北魏",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "ec3bc2aa-e5ea-40bf-8dd0-2882547a3ce3",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "昙曜五窟在云冈开凿",
+    "titleCn": "昙曜五窟在云冈开凿",
+    "date": {
+      "year": 460
+    },
+    "descriptionCn": "460年至493年，北魏沙门统昙曜主持在大同附近的云冈开凿了五座巨型石窟，窟内雕刻和彩绘佛像，包括高17.4米的阿弥陀佛巨像，标志着石窟寺建筑群概念在中国的实践。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北魏",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "ec3bc2aa-e5ea-40bf-8dd0-2882547a3ce3",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "昙曜五窟在云冈开凿",
+    "titleCn": "昙曜五窟在云冈开凿",
+    "date": {
+      "year": 460
+    },
+    "descriptionCn": "460年至493年，北魏沙门统昙曜主持在大同附近的云冈开凿了五座巨型石窟，窟内雕刻和彩绘佛像，包括高17.4米的阿弥陀佛巨像，标志着石窟寺建筑群概念在中国的实践。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北魏",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "f2d99649-58bf-40f3-b043-cce4d15ef843",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "北魏迁都洛阳，云冈石窟建造停止",
+    "titleCn": "北魏迁都洛阳，云冈石窟建造停止",
+    "date": {
+      "year": 494
+    },
+    "descriptionCn": "494年，北魏孝文帝迁都洛阳，云冈石窟的建造活动随之停止。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北魏",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "f2d99649-58bf-40f3-b043-cce4d15ef843",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "北魏迁都洛阳，云冈石窟建造停止",
+    "titleCn": "北魏迁都洛阳，云冈石窟建造停止",
+    "date": {
+      "year": 494
+    },
+    "descriptionCn": "494年，北魏孝文帝迁都洛阳，云冈石窟的建造活动随之停止。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北魏",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "8e549a1d-dc0f-4c22-b3b5-ecd29b941fe1",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "龙门石窟开凿",
+    "titleCn": "龙门石窟开凿",
+    "date": {
+      "year": 494
+    },
+    "descriptionCn": "494年，龙门石窟在河南开始开凿。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北魏",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "f45587e7-5feb-4247-84e0-8973df1f0ae5",
+    "periodId": "p_ancient_classical",
+    "streamId": "s_cn_ancient_medieval",
+    "titleEn": "龙门石窟开始开凿",
+    "titleCn": "龙门石窟开始开凿",
+    "date": {
+      "year": 494,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约494年，龙门石窟在河南洛阳伊水岸边开始开凿。该石窟现存大小佛龛2100余座，造像10万余尊，绵延两华里。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北魏",
+      "standardPeriod": "中国：上古至隋唐",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  }
+]

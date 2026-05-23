@@ -30,6 +30,35 @@ body {
   background: rgba(0, 0, 0, 0.4);
 }
 
+.section-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--section-color) rgba(0, 0, 0, 0.04);
+}
+
+.section-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.section-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.section-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--section-color);
+  border-radius: 999px;
+}
+
+.section-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--section-color);
+}
+
+.section-scrollbar::-webkit-scrollbar-button {
+  width: 4px;
+  height: 4px;
+  background: var(--section-color);
+}
+
 .no-select {
   user-select: none;
   -webkit-user-select: none;

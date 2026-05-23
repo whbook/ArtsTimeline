@@ -2,6 +2,7 @@ import React from 'react';
 import { X } from 'lucide-react';
 import { TimelineEvent, Topic } from '../types';
 import { formatFuzzyDate } from '../utils';
+import EventImage from './EventImage';
 
 interface EventModalProps {
   topic: Topic;
@@ -12,78 +13,108 @@ interface EventModalProps {
 const EventModal: React.FC<EventModalProps> = ({ topic, event, onClose }) => {
   if (!event) return null;
 
-  const titleEng = event.titleEn;
-  const titleCn = event.titleCn;
+  const titleCn = event.titleCn?.trim();
+  const titleEng = event.titleEn?.trim();
+  const displayTitle = titleCn || titleEng || '';
+  const subtitle = titleCn && titleEng && titleCn !== titleEng ? titleEng : null;
   const descEng = event.descriptionEn;
   const descCn = event.descriptionCn;
+  const hasImage = !!event.imageUrl;
+
+  const metadata = (
+    <div className="grid grid-cols-2 gap-x-6 gap-y-4 border-b border-gray-100 pb-5">
+      {/* Dynamic Fields */}
+      {topic.eventFields.map(field => {
+          let value = (event as any)[field.key] || (event.meta && event.meta[field.key]);
+          if (!value) return null;
+          if (Array.isArray(value)) value = value.join('、');
+          
+          return (
+              <div key={field.key} className="min-w-0">
+                  <span className="text-xs font-bold uppercase tracking-wider text-gray-400">{field.labelEn} / {field.labelCn}</span>
+                  <p className="text-base font-medium text-gray-900 truncate">
+                      {value}
+                  </p>
+              </div>
+          );
+      })}
+      
+      <div className="min-w-0">
+          <span className="text-xs font-bold uppercase tracking-wider text-gray-400">Date / 时间</span>
+          <p className="text-xl font-bold text-gray-900">
+              {formatFuzzyDate(event.date)}
+          </p>
+      </div>
+    </div>
+  );
+
+  const description = (
+    <div className="space-y-4">
+        {descEng && (
+          <div>
+              <h4 className="font-bold text-gray-800 mb-1">Description</h4>
+              <p className="text-gray-600 leading-relaxed text-sm">{descEng}</p>
+          </div>
+        )}
+        {descCn && (
+            <div>
+                <h4 className="font-bold text-gray-800 mb-1">简介</h4>
+                <p className="text-gray-600 leading-relaxed text-sm">{descCn}</p>
+            </div>
+        )}
+    </div>
+  );
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" onClick={onClose}>
+    <div className="event-modal fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" onClick={onClose}>
       <div 
-        className="bg-white w-full max-w-lg rounded-lg shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-200"
+        className={`bg-white w-full ${hasImage ? 'max-w-5xl' : 'max-w-2xl'} max-h-[76vh] rounded-lg shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-200 font-sans`}
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Header Image Placeholder */}
-        <div className="h-48 bg-gray-200 w-full flex items-center justify-center relative overflow-hidden">
-             {/* If we had real images, <img src={event.imageUrl} ... /> */}
-             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10"></div>
-             <span className="text-6xl text-gray-300 font-serif opacity-20 select-none">ART</span>
-             
-             {/* Title Overlay */}
-             <div className="absolute bottom-4 left-6 z-20 text-white">
-                 <h2 className="text-2xl font-serif font-bold leading-none shadow-black drop-shadow-md">{titleEng}</h2>
-                 <h3 className="text-lg font-serif italic opacity-90">{titleCn}</h3>
-             </div>
+        <button 
+          onClick={onClose}
+          className="absolute top-6 right-6 z-30 p-2 bg-black/40 hover:bg-black/70 text-white rounded-full transition-colors"
+        >
+          <X size={20} />
+        </button>
 
-             <button 
-                onClick={onClose}
-                className="absolute top-4 right-4 z-30 p-2 bg-black/40 hover:bg-black/70 text-white rounded-full transition-colors"
-             >
-                <X size={20} />
-             </button>
-        </div>
+        {hasImage ? (
+          <div className="grid max-h-[76vh] grid-cols-[42%_58%]">
+            <div className="relative min-h-[420px] bg-stone-900">
+              <EventImage
+                src={event.imageUrl}
+                alt={displayTitle}
+                eager
+                className="h-full w-full"
+                imgClassName="object-contain"
+              />
+            </div>
 
-        {/* Content */}
-        <div className="p-6">
-            <div className="flex flex-wrap gap-y-4 justify-between items-start border-b border-gray-100 pb-4 mb-4">
-                {/* Dynamic Fields */}
-                {topic.eventFields.map(field => {
-                    let value = (event as any)[field.key] || (event.meta && event.meta[field.key]);
-                    if (!value) return null;
-                    
-                    return (
-                        <div key={field.key} className="min-w-[45%]">
-                            <span className="text-xs font-bold uppercase tracking-wider text-gray-400">{field.labelEn} / {field.labelCn}</span>
-                            <p className="text-lg font-medium text-gray-900">
-                                {value}
-                            </p>
-                        </div>
-                    );
-                })}
-                
-                <div className="text-right ml-auto">
-                    <span className="text-xs font-bold uppercase tracking-wider text-gray-400">Date / 时间</span>
-                    <p className="text-xl font-serif font-bold text-gray-900">
-                        {formatFuzzyDate(event.date)}
-                    </p>
+            <div className="flex max-h-[76vh] flex-col">
+              <div className="border-b border-gray-100 p-6 pb-4">
+                <h2 className="text-3xl font-bold leading-tight text-gray-900">{displayTitle}</h2>
+                {subtitle && <h3 className="mt-1 text-lg text-gray-500">{subtitle}</h3>}
+              </div>
+              <div className="section-scrollbar overflow-y-auto p-6">
+                {metadata}
+                <div className="mt-5">
+                  {description}
                 </div>
+              </div>
             </div>
-
-            <div className="space-y-4">
-                {descEng && (
-                  <div>
-                      <h4 className="font-bold text-gray-800 mb-1">Description</h4>
-                      <p className="text-gray-600 leading-relaxed text-sm">{descEng}</p>
-                  </div>
-                )}
-                {descCn && (
-                    <div>
-                        <h4 className="font-bold text-gray-800 mb-1">简介</h4>
-                        <p className="text-gray-600 leading-relaxed text-sm font-sans">{descCn}</p>
-                    </div>
-                )}
+          </div>
+        ) : (
+          <div className="max-h-[76vh] overflow-y-auto p-6 section-scrollbar">
+            <div className="mb-5 border-b border-gray-100 pb-4 pr-12">
+              <h2 className="text-3xl font-bold leading-tight text-gray-900">{displayTitle}</h2>
+              {subtitle && <h3 className="mt-1 text-lg text-gray-500">{subtitle}</h3>}
             </div>
-        </div>
+            {metadata}
+            <div className="mt-5">
+              {description}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

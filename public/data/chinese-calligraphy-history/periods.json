@@ -1,0 +1,288 @@
+[
+  {
+    "id": "legend",
+    "nameEn": "Legendary Age",
+    "nameCn": "传说时代",
+    "start": {
+      "year": -3000
+    },
+    "end": {
+      "year": -1601
+    },
+    "colorHex": "#6f4e37",
+    "colorBackground": "#faf5ed"
+  },
+  {
+    "id": "shang",
+    "nameEn": "Shang",
+    "nameCn": "商",
+    "start": {
+      "year": -1600
+    },
+    "end": {
+      "year": -1046
+    },
+    "colorHex": "#8a5a2b",
+    "colorBackground": "#fbf3e6"
+  },
+  {
+    "id": "western_zhou",
+    "nameEn": "Western Zhou",
+    "nameCn": "西周",
+    "start": {
+      "year": -1046
+    },
+    "end": {
+      "year": -771
+    },
+    "colorHex": "#a97142",
+    "colorBackground": "#fbf3e6"
+  },
+  {
+    "id": "spring_autumn",
+    "nameEn": "Spring and Autumn",
+    "nameCn": "春秋",
+    "start": {
+      "year": -770
+    },
+    "end": {
+      "year": -476
+    },
+    "colorHex": "#94613d",
+    "colorBackground": "#fbf0df"
+  },
+  {
+    "id": "warring_states",
+    "nameEn": "Warring States",
+    "nameCn": "战国",
+    "start": {
+      "year": -475
+    },
+    "end": {
+      "year": -221
+    },
+    "colorHex": "#7c5a3a",
+    "colorBackground": "#fbf0df"
+  },
+  {
+    "id": "qin",
+    "nameEn": "Qin",
+    "nameCn": "秦",
+    "start": {
+      "year": -221
+    },
+    "end": {
+      "year": -206
+    },
+    "colorHex": "#3f5f4a",
+    "colorBackground": "#eef6ef"
+  },
+  {
+    "id": "western_han",
+    "nameEn": "Western Han",
+    "nameCn": "西汉",
+    "start": {
+      "year": -202
+    },
+    "end": {
+      "year": 8
+    },
+    "colorHex": "#517a52",
+    "colorBackground": "#eef6ef"
+  },
+  {
+    "id": "eastern_han",
+    "nameEn": "Eastern Han",
+    "nameCn": "东汉",
+    "start": {
+      "year": 25
+    },
+    "end": {
+      "year": 220
+    },
+    "colorHex": "#6b8f5f",
+    "colorBackground": "#eef6ef"
+  },
+  {
+    "id": "three_kingdoms",
+    "nameEn": "Three Kingdoms",
+    "nameCn": "三国",
+    "start": {
+      "year": 220
+    },
+    "end": {
+      "year": 280
+    },
+    "colorHex": "#3d6f8f",
+    "colorBackground": "#edf4f7"
+  },
+  {
+    "id": "western_jin",
+    "nameEn": "Western Jin",
+    "nameCn": "西晋",
+    "start": {
+      "year": 265
+    },
+    "end": {
+      "year": 317
+    },
+    "colorHex": "#4f8490",
+    "colorBackground": "#edf4f7"
+  },
+  {
+    "id": "eastern_jin",
+    "nameEn": "Eastern Jin",
+    "nameCn": "东晋",
+    "start": {
+      "year": 317
+    },
+    "end": {
+      "year": 420
+    },
+    "colorHex": "#5d789b",
+    "colorBackground": "#edf4f7"
+  },
+  {
+    "id": "northern_southern",
+    "nameEn": "Northern and Southern Dynasties",
+    "nameCn": "南北朝",
+    "start": {
+      "year": 420
+    },
+    "end": {
+      "year": 589
+    },
+    "colorHex": "#516ba8",
+    "colorBackground": "#eef1fb"
+  },
+  {
+    "id": "sui",
+    "nameEn": "Sui",
+    "nameCn": "隋",
+    "start": {
+      "year": 581
+    },
+    "end": {
+      "year": 618
+    },
+    "colorHex": "#5b4b8a",
+    "colorBackground": "#f0eef8"
+  },
+  {
+    "id": "tang",
+    "nameEn": "Tang",
+    "nameCn": "唐",
+    "start": {
+      "year": 618
+    },
+    "end": {
+      "year": 907
+    },
+    "colorHex": "#7a4f9a",
+    "colorBackground": "#f3edf8"
+  },
+  {
+    "id": "five_dynasties",
+    "nameEn": "Five Dynasties",
+    "nameCn": "五代",
+    "start": {
+      "year": 907
+    },
+    "end": {
+      "year": 960
+    },
+    "colorHex": "#7b5ab6",
+    "colorBackground": "#f3edf8"
+  },
+  {
+    "id": "northern_song",
+    "nameEn": "Northern Song",
+    "nameCn": "北宋",
+    "start": {
+      "year": 960
+    },
+    "end": {
+      "year": 1127
+    },
+    "colorHex": "#8b5a83",
+    "colorBackground": "#fbf0f7"
+  },
+  {
+    "id": "southern_song",
+    "nameEn": "Southern Song",
+    "nameCn": "南宋",
+    "start": {
+      "year": 1127
+    },
+    "end": {
+      "year": 1279
+    },
+    "colorHex": "#9a5f8f",
+    "colorBackground": "#fbf0f7"
+  },
+  {
+    "id": "yuan",
+    "nameEn": "Yuan",
+    "nameCn": "元",
+    "start": {
+      "year": 1271
+    },
+    "end": {
+      "year": 1368
+    },
+    "colorHex": "#7e4f9f",
+    "colorBackground": "#f7effb"
+  },
+  {
+    "id": "ming",
+    "nameEn": "Ming",
+    "nameCn": "明",
+    "start": {
+      "year": 1368
+    },
+    "end": {
+      "year": 1644
+    },
+    "colorHex": "#9e2f2f",
+    "colorBackground": "#fbefed"
+  },
+  {
+    "id": "qing",
+    "nameEn": "Qing",
+    "nameCn": "清",
+    "start": {
+      "year": 1644
+    },
+    "end": {
+      "year": 1912
+    },
+    "colorHex": "#b24a3a",
+    "colorBackground": "#fbefed"
+  },
+  {
+    "id": "modern_early",
+    "nameEn": "Early Modern China",
+    "nameCn": "近代",
+    "start": {
+      "year": 1840
+    },
+    "end": {
+      "year": 1949
+    },
+    "colorHex": "#b65b48",
+    "colorBackground": "#fbf1ec"
+  },
+  {
+    "id": "modern",
+    "nameEn": "Modern China",
+    "nameCn": "现代",
+    "start": {
+      "year": 1949
+    },
+    "end": {
+      "year": 2026
+    },
+    "colorHex": "#be6b51",
+    "colorBackground": "#fbf1ec"
+  }
+]

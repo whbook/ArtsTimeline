@@ -1,0 +1,332 @@
+[
+  {
+    "id": "s_legend",
+    "periodId": "legend",
+    "nameEn": "Legendary Age",
+    "nameCn": "传说时代",
+    "start": {
+      "year": -3000
+    },
+    "end": {
+      "year": -1601
+    },
+    "color": "#6f4e37",
+    "lane": 0,
+    "descriptionCn": "传说时代书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_shang",
+    "periodId": "shang",
+    "nameEn": "Shang",
+    "nameCn": "商",
+    "start": {
+      "year": -1600
+    },
+    "end": {
+      "year": -1046
+    },
+    "color": "#8a5a2b",
+    "lane": 1,
+    "descriptionCn": "商书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_western_zhou",
+    "periodId": "western_zhou",
+    "nameEn": "Western Zhou",
+    "nameCn": "西周",
+    "start": {
+      "year": -1046
+    },
+    "end": {
+      "year": -771
+    },
+    "color": "#a97142",
+    "lane": 2,
+    "descriptionCn": "西周书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_spring_autumn",
+    "periodId": "spring_autumn",
+    "nameEn": "Spring and Autumn",
+    "nameCn": "春秋",
+    "start": {
+      "year": -770
+    },
+    "end": {
+      "year": -476
+    },
+    "color": "#94613d",
+    "lane": 3,
+    "descriptionCn": "春秋书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_warring_states",
+    "periodId": "warring_states",
+    "nameEn": "Warring States",
+    "nameCn": "战国",
+    "start": {
+      "year": -475
+    },
+    "end": {
+      "year": -221
+    },
+    "color": "#7c5a3a",
+    "lane": 0,
+    "descriptionCn": "战国书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_qin",
+    "periodId": "qin",
+    "nameEn": "Qin",
+    "nameCn": "秦",
+    "start": {
+      "year": -221
+    },
+    "end": {
+      "year": -206
+    },
+    "color": "#3f5f4a",
+    "lane": 1,
+    "descriptionCn": "秦书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_western_han",
+    "periodId": "western_han",
+    "nameEn": "Western Han",
+    "nameCn": "西汉",
+    "start": {
+      "year": -202
+    },
+    "end": {
+      "year": 8
+    },
+    "color": "#517a52",
+    "lane": 2,
+    "descriptionCn": "西汉书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_eastern_han",
+    "periodId": "eastern_han",
+    "nameEn": "Eastern Han",
+    "nameCn": "东汉",
+    "start": {
+      "year": 25
+    },
+    "end": {
+      "year": 220
+    },
+    "color": "#6b8f5f",
+    "lane": 3,
+    "descriptionCn": "东汉书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_three_kingdoms",
+    "periodId": "three_kingdoms",
+    "nameEn": "Three Kingdoms",
+    "nameCn": "三国",
+    "start": {
+      "year": 220
+    },
+    "end": {
+      "year": 280
+    },
+    "color": "#3d6f8f",
+    "lane": 0,
+    "descriptionCn": "三国书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_western_jin",
+    "periodId": "western_jin",
+    "nameEn": "Western Jin",
+    "nameCn": "西晋",
+    "start": {
+      "year": 265
+    },
+    "end": {
+      "year": 317
+    },
+    "color": "#4f8490",
+    "lane": 1,
+    "descriptionCn": "西晋书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_eastern_jin",
+    "periodId": "eastern_jin",
+    "nameEn": "Eastern Jin",
+    "nameCn": "东晋",
+    "start": {
+      "year": 317
+    },
+    "end": {
+      "year": 420
+    },
+    "color": "#5d789b",
+    "lane": 2,
+    "descriptionCn": "东晋书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_northern_southern",
+    "periodId": "northern_southern",
+    "nameEn": "Northern and Southern Dynasties",
+    "nameCn": "南北朝",
+    "start": {
+      "year": 420
+    },
+    "end": {
+      "year": 589
+    },
+    "color": "#516ba8",
+    "lane": 3,
+    "descriptionCn": "南北朝书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_sui",
+    "periodId": "sui",
+    "nameEn": "Sui",
+    "nameCn": "隋",
+    "start": {
+      "year": 581
+    },
+    "end": {
+      "year": 618
+    },
+    "color": "#5b4b8a",
+    "lane": 0,
+    "descriptionCn": "隋书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_tang",
+    "periodId": "tang",
+    "nameEn": "Tang",
+    "nameCn": "唐",
+    "start": {
+      "year": 618
+    },
+    "end": {
+      "year": 907
+    },
+    "color": "#7a4f9a",
+    "lane": 1,
+    "descriptionCn": "唐书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_five_dynasties",
+    "periodId": "five_dynasties",
+    "nameEn": "Five Dynasties",
+    "nameCn": "五代",
+    "start": {
+      "year": 907
+    },
+    "end": {
+      "year": 960
+    },
+    "color": "#7b5ab6",
+    "lane": 2,
+    "descriptionCn": "五代书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_northern_song",
+    "periodId": "northern_song",
+    "nameEn": "Northern Song",
+    "nameCn": "北宋",
+    "start": {
+      "year": 960
+    },
+    "end": {
+      "year": 1127
+    },
+    "color": "#8b5a83",
+    "lane": 3,
+    "descriptionCn": "北宋书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_southern_song",
+    "periodId": "southern_song",
+    "nameEn": "Southern Song",
+    "nameCn": "南宋",
+    "start": {
+      "year": 1127
+    },
+    "end": {
+      "year": 1279
+    },
+    "color": "#9a5f8f",
+    "lane": 0,
+    "descriptionCn": "南宋书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_yuan",
+    "periodId": "yuan",
+    "nameEn": "Yuan",
+    "nameCn": "元",
+    "start": {
+      "year": 1271
+    },
+    "end": {
+      "year": 1368
+    },
+    "color": "#7e4f9f",
+    "lane": 1,
+    "descriptionCn": "元书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_ming",
+    "periodId": "ming",
+    "nameEn": "Ming",
+    "nameCn": "明",
+    "start": {
+      "year": 1368
+    },
+    "end": {
+      "year": 1644
+    },
+    "color": "#9e2f2f",
+    "lane": 2,
+    "descriptionCn": "明书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_qing",
+    "periodId": "qing",
+    "nameEn": "Qing",
+    "nameCn": "清",
+    "start": {
+      "year": 1644
+    },
+    "end": {
+      "year": 1912
+    },
+    "color": "#b24a3a",
+    "lane": 3,
+    "descriptionCn": "清书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_modern_early",
+    "periodId": "modern_early",
+    "nameEn": "Early Modern China",
+    "nameCn": "近代",
+    "start": {
+      "year": 1840
+    },
+    "end": {
+      "year": 1949
+    },
+    "color": "#b65b48",
+    "lane": 0,
+    "descriptionCn": "近代书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  },
+  {
+    "id": "s_modern",
+    "periodId": "modern",
+    "nameEn": "Modern China",
+    "nameCn": "现代",
+    "start": {
+      "year": 1949
+    },
+    "end": {
+      "year": 2026
+    },
+    "color": "#be6b51",
+    "lane": 1,
+    "descriptionCn": "现代书法纪年条目，按作品、书家、碑帖、书论与展览事件组织。"
+  }
+]

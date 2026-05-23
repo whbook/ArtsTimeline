@@ -10,6 +10,7 @@ import { ZoomIn, ZoomOut, Loader2, Play } from 'lucide-react';
 import { formatTimelineDate, getDecimalYear } from './utils';
 import { useTopics } from './hooks/useTopics';
 import { useTopicData } from './hooks/useTopicData';
+import { useChunkedEvents } from './hooks/useChunkedEvents';
 import { useAutoPlay } from './hooks/useAutoPlay';
 import { useResponsiveScale } from './hooks/useResponsiveScale';
 
@@ -31,6 +32,22 @@ const App: React.FC = () => {
   const { data: topicData, loading: dataLoading } = useTopicData(activeTopicId);
 
   const [viewport, setViewport] = useState<Viewport>({ startYear: 0, endYear: 100 });
+
+  // Hook for lazy loading chunked events
+  const isChunked = !!topicData?.topic?.chunked;
+  const { events: chunkedEvents } = useChunkedEvents(
+    activeTopicId,
+    isChunked,
+    viewport
+  );
+
+  // Determine active events source (either chunked or full in-memory)
+  const activeEvents = useMemo(() => {
+    if (isChunked) {
+      return chunkedEvents;
+    }
+    return topicData?.events || [];
+  }, [isChunked, chunkedEvents, topicData?.events]);
   
   // Reset viewport when topic changes
   useEffect(() => {
@@ -75,6 +92,16 @@ const App: React.FC = () => {
 
     // Send focus signal to DetailPanel
     setFocusSection({ id: stream.id, ts: Date.now() });
+  }, []);
+
+  const handleZoomRange = useCallback((start: number, end: number) => {
+    const range = end - start;
+    // Add 15% padding on each side to give visual breathing room around the zoomed region
+    const padding = Math.max(2, range * 0.15);
+    setViewport({
+      startYear: start - padding,
+      endYear: end + padding
+    });
   }, []);
   
   const handleRequestSwitch = useCallback(() => {
@@ -215,7 +242,11 @@ const App: React.FC = () => {
 
   // Prevent generic wheel scrolling on body
   useEffect(() => {
-    const preventDefault = (e: Event) => e.preventDefault();
+    const preventDefault = (e: Event) => {
+      const target = e.target as HTMLElement | null;
+      if (target?.closest('.detail-panel, .event-modal')) return;
+      e.preventDefault();
+    };
     document.body.addEventListener('wheel', preventDefault, { passive: false });
     return () => document.body.removeEventListener('wheel', preventDefault);
   }, []);
@@ -224,18 +255,38 @@ const App: React.FC = () => {
   const range = viewport.endYear - viewport.startYear;
   const precision = range < 1 ? (range < 0.1 ? 'day' : 'month') : 'year';
 
+  // Zoom factor relative to topic default viewport (1× = default span)
+  const zoomBaselineRange = useMemo(() => {
+    if (!topicData?.topic) return null;
+    const defaultRange =
+      topicData.topic.defaultViewport.endYear - topicData.topic.defaultViewport.startYear;
+    return defaultRange * scale.scaleX;
+  }, [topicData?.topic, scale.scaleX]);
+
+  const zoomFactor = useMemo(() => {
+    if (!zoomBaselineRange || range <= 0) return 1;
+    return zoomBaselineRange / range;
+  }, [zoomBaselineRange, range]);
+
+  const zoomFactorLabel = useMemo(() => {
+    if (zoomFactor >= 100) return `${Math.round(zoomFactor)}×`;
+    if (zoomFactor >= 10) return `${zoomFactor.toFixed(1)}×`;
+    if (zoomFactor >= 1) return `${zoomFactor.toFixed(1)}×`;
+    return `${zoomFactor.toFixed(2)}×`;
+  }, [zoomFactor]);
+
   // --- Level of Detail (LOD) Filtering ---
   const visibleEvents = useMemo(() => {
     if (!topicData) return [];
     // Normalize range based on screen width so LOD feels consistent across devices
     const normalizedRange = range / scale.scaleX;
     
-    return topicData.events.filter(event => {
+    return activeEvents.filter(event => {
       const importance = event.importance || 1; // Default to 1 (always visible) if not specified
       const threshold = IMPORTANCE_THRESHOLDS[importance] || Infinity;
       return normalizedRange <= threshold;
     });
-  }, [topicData, range, scale.scaleX]);
+  }, [topicData, activeEvents, range, scale.scaleX]);
 
   if (topicsLoading) {
     return <div className="flex h-screen w-screen items-center justify-center bg-[#f8f8f5]"><Loader2 className="animate-spin text-gray-400" size={32} /></div>;
@@ -256,7 +307,14 @@ const App: React.FC = () => {
             Universal History Timeline
           </h1>
           <div className="flex items-center gap-6 text-sm text-gray-400 font-serif">
-             <span className="hidden md:inline italic opacity-80">Scroll to Zoom / Drag to Pan (滚动缩放 / 拖动平移)</span>
+             <span className="hidden md:inline opacity-80">
+               <span className="italic">Scroll to Zoom / Drag to Pan</span>
+               <span className="mx-2 text-gray-600 not-italic">·</span>
+               <span className="font-mono not-italic text-[#DAA520] tabular-nums" title="相对主题默认视口的缩放倍数">
+                 {zoomFactorLabel}
+               </span>
+               <span className="ml-1 italic text-gray-500">(滚动缩放 / 拖动平移 · 缩放 {zoomFactorLabel})</span>
+             </span>
              <div className="flex gap-0 border border-gray-600 rounded overflow-hidden">
                <button onClick={() => manualZoom('out')} className="p-2 bg-[#2a2a2a] hover:bg-[#333] hover:text-white transition border-r border-gray-600" title="Zoom Out"><ZoomOut size={18}/></button>
                <button onClick={() => manualZoom('in')} className="p-2 bg-[#2a2a2a] hover:bg-[#333] hover:text-white transition" title="Zoom In"><ZoomIn size={18}/></button>
@@ -314,6 +372,7 @@ const App: React.FC = () => {
                 onMovementHover={setHoveredMovement}
                 onMovementClick={handleMovementClick}
                 onEventHover={setHoveredEvent}
+                onZoomRange={handleZoomRange}
             />
             
             {/* Floating current range indicator */}

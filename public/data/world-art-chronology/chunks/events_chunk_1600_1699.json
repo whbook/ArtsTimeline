@@ -1,0 +1,3794 @@
+[
+  {
+    "id": "ad94022a-e84f-4e95-a7c1-504f386974b6",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "鲁本斯在意大利结束学业",
+    "titleCn": "鲁本斯在意大利结束学业",
+    "date": {
+      "year": 1600
+    },
+    "descriptionCn": "1600年至1608年，彼得·保罗·鲁本斯在意大利结束了他的学艺生涯。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "2a152fd5-ee7f-429c-9a98-7886042d9bdc",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "海德尔堡城堡弗雷德里克侧厅建造",
+    "titleCn": "海德尔堡城堡弗雷德里克侧厅建造",
+    "date": {
+      "year": 1601
+    },
+    "descriptionCn": "1601年至1604年，海德尔堡城堡弗雷德里克侧厅建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "4c10ceb5-aed3-4048-9a6d-fcc395f6e70c",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "卡雷尔·凡·曼德创作《画家之书》",
+    "titleCn": "卡雷尔·凡·曼德创作《画家之书》",
+    "date": {
+      "year": 1604
+    },
+    "descriptionCn": "1604年，卡雷尔·凡·曼德创作了绘画理论著作《画家之书》，其中包含关于风景画的章节，介绍了传统构图方式和表现惯例。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "荷兰黄金时代",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "a100a145-80c4-455f-9cbe-541a9bd8bf86",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "荷兰人袭击葡萄牙船获取中国瓷器约60吨",
+    "titleCn": "荷兰人袭击葡萄牙船获取中国瓷器约60吨",
+    "date": {
+      "year": 1604,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1604年，荷兰人袭击葡萄牙船，获得中国瓷器约60吨。",
+    "importance": 4,
+    "tags": [
+      "陶瓷贸易"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷贸易",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "6171aaa7-3543-4e09-b311-f14bc678a43b",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "艾蒂安·马泰朗热建造勒普伊教堂",
+    "titleCn": "艾蒂安·马泰朗热建造勒普伊教堂",
+    "date": {
+      "year": 1605
+    },
+    "descriptionCn": "1605年，艾蒂安·马泰朗热在勒普伊建造了一座教堂。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "fca56847-0600-4075-9fc9-6bb029c7c780",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "《程氏墨苑》出版",
+    "titleCn": "《程氏墨苑》出版",
+    "date": {
+      "year": 1606
+    },
+    "descriptionCn": "1606年，《程氏墨苑》出版。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "fca56847-0600-4075-9fc9-6bb029c7c780",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "《程氏墨苑》出版",
+    "titleCn": "《程氏墨苑》出版",
+    "date": {
+      "year": 1606
+    },
+    "descriptionCn": "1606年，《程氏墨苑》出版。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "e59c9643-7238-4068-bf81-42957b33dd07",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "公元1世纪湿壁画在罗马重新发掘",
+    "titleCn": "公元1世纪湿壁画在罗马重新发掘",
+    "date": {
+      "year": 1606
+    },
+    "descriptionCn": "1606年，一幅公元1世纪的湿壁画在罗马被重新发掘。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴后期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "e59c9643-7238-4068-bf81-42957b33dd07",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "公元1世纪湿壁画在罗马重新发掘",
+    "titleCn": "公元1世纪湿壁画在罗马重新发掘",
+    "date": {
+      "year": 1606
+    },
+    "descriptionCn": "1606年，一幅公元1世纪的湿壁画在罗马被重新发掘。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴后期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "48e5087d-d5cb-42e4-9e2b-4c3ba4efedbc",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "万历三十五年御器厂瓷器烧造基本完成",
+    "titleCn": "万历三十五年御器厂瓷器烧造基本完成",
+    "date": {
+      "year": 1607
+    },
+    "descriptionCn": "1607年（明万历三十五年），景德镇御器厂此前奉命烧造的瓷器已基本完成。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "bf5a5831-edf3-403a-921d-76249e3d558f",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "艾蒂安·马泰朗热建造拉弗莱歇教堂",
+    "titleCn": "艾蒂安·马泰朗热建造拉弗莱歇教堂",
+    "date": {
+      "year": 1607
+    },
+    "descriptionCn": "1607年，艾蒂安·马泰朗热在拉弗莱歇建造了一座教堂。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "b81322cf-087b-43a4-8795-05ee45fec705",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "克莱斯·简兹·维斯彻出版《怡人的场所》系列",
+    "titleCn": "克莱斯·简兹·维斯彻出版《怡人的场所》系列",
+    "date": {
+      "year": 1608
+    },
+    "descriptionCn": "1608年，克莱斯·简兹·维斯彻出版了12幅题为《怡人的场所》（Pleasant Places）的插图，描绘哈勒姆附近的乡村景色，面向喜爱艺术但无暇远游的城市商人。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "荷兰黄金时代",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "bceebbc6-9e8c-4880-8eea-4fc7e7d31627",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "埃尔·格列柯创作《托莱多的风景和平面图》",
+    "titleCn": "埃尔·格列柯创作《托莱多的风景和平面图》",
+    "date": {
+      "year": 1610,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1610—1614年，埃尔·格列柯创作了《托莱多的风景和平面图》，画中结合了城市的风景概貌和标注详细的地图，展现了地形学与艺术的融合。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "3de9b4be-faeb-46f3-af2d-c5d3315ea4b6",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "鲁本斯创作《基督升架》",
+    "titleCn": "鲁本斯创作《基督升架》",
+    "date": {
+      "year": 1610,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1610年，彼得·保罗·鲁本斯为安特卫普教堂创作了祭坛画《基督升架》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "比利时",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "e4037422-7872-4953-b1ec-d0d605c2df7e",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "董其昌创作《荆溪招隐图》",
+    "titleCn": "董其昌创作《荆溪招隐图》",
+    "date": {
+      "year": 1611
+    },
+    "descriptionCn": "1611年，董其昌创作《荆溪招隐图》纸本长卷，为好友吴正志所作。画中山水并非实景，而是通过个性化笔法表达隐逸理想，诗跋结合，强调拒绝“形似”，体现其南北宗理论。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "e4037422-7872-4953-b1ec-d0d605c2df7e",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "董其昌创作《荆溪招隐图》",
+    "titleCn": "董其昌创作《荆溪招隐图》",
+    "date": {
+      "year": 1611
+    },
+    "descriptionCn": "1611年，董其昌创作《荆溪招隐图》纸本长卷，为好友吴正志所作。画中山水并非实景，而是通过个性化笔法表达隐逸理想，诗跋结合，强调拒绝“形似”，体现其南北宗理论。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d7023a22-5b63-44e7-8341-0b5bf2016720",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "鲁本斯创作《基督降架》",
+    "titleCn": "鲁本斯创作《基督降架》",
+    "date": {
+      "year": 1611
+    },
+    "descriptionCn": "1611年至1614年，彼得·保罗·鲁本斯为安特卫普教堂创作了祭坛画《基督降架》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "比利时",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ce043303-9c9b-480e-87e3-69476abb7632",
+    "periodId": "p_early_modern",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "伊斯法罕王家大清真寺建造",
+    "titleCn": "伊斯法罕王家大清真寺建造",
+    "date": {
+      "year": 1612
+    },
+    "descriptionCn": "1612年至1640年，伊斯法罕王家大清真寺建造，采用四个门廊的伊朗型设计，装饰以彩陶为主。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "伊朗",
+      "originalPeriod": "萨非王朝",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "7d487f89-bbad-4cc1-941b-0e89e0898346",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "克莱斯·简兹·维斯彻出版小风景画新版本",
+    "titleCn": "克莱斯·简兹·维斯彻出版小风景画新版本",
+    "date": {
+      "year": 1612
+    },
+    "descriptionCn": "1612年，克莱斯·简兹·维斯彻出版了一个新的小风景画版本，这些风景描绘安特卫普周边的乡村景色，后被称为“小风景画大师”的作品。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "荷兰黄金时代",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "6af6de8f-7233-49a7-bf21-0f5c61d4346c",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "奥波尔图圣洛伦索教堂建造",
+    "titleCn": "奥波尔图圣洛伦索教堂建造",
+    "date": {
+      "year": 1614
+    },
+    "descriptionCn": "1614年，奥波尔图圣洛伦索教堂建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "葡萄牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "4dceb37f-b3df-4581-af62-29eca0669021",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "奥波尔图胜利圣本托教堂建造",
+    "titleCn": "奥波尔图胜利圣本托教堂建造",
+    "date": {
+      "year": 1614
+    },
+    "descriptionCn": "1614年，奥波尔图胜利圣本托教堂建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "葡萄牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "e8b98d19-01e7-47f4-b776-4ece9b3723ce",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "多米尼基诺创作《风景，托拜厄斯抓鱼》",
+    "titleCn": "多米尼基诺创作《风景，托拜厄斯抓鱼》",
+    "date": {
+      "year": 1615,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1615年，多米尼基诺创作了《风景，托拜厄斯抓鱼》。该画作为克劳德·洛兰的《风景，夏甲和天使》提供了构图范本，两者在树冠、小径、海岬等细节上有相似之处。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "巴洛克",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a138ad6c-e524-4f79-b968-e18f3c327bac",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "《圣乔治卫队军官的宴会》",
+    "titleCn": "《圣乔治卫队军官的宴会》",
+    "date": {
+      "year": 1616
+    },
+    "descriptionCn": "1616年，荷兰画家弗兰斯·哈尔斯创作了油画《圣乔治卫队军官的宴会》，现藏于哈莱姆的弗兰斯·哈尔斯博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "fdad1759-5ab4-4765-9c9f-bae248b2e7e5",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "弗朗斯·哈尔斯创作《圣乔治火枪手会盛宴》",
+    "titleCn": "弗朗斯·哈尔斯创作《圣乔治火枪手会盛宴》",
+    "date": {
+      "year": 1616
+    },
+    "descriptionCn": "1616年，弗朗斯·哈尔斯创作了《圣乔治火枪手会盛宴》，现藏于哈勒姆弗朗斯·哈尔斯博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "荷兰黄金时代",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "21fcf87a-3044-460e-8eeb-6176de060d23",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "景德镇官窑制作万历青花经文观音像碗",
+    "titleCn": "景德镇官窑制作万历青花经文观音像碗",
+    "date": {
+      "year": 1616
+    },
+    "descriptionCn": "万历四十四年（1616年）仲冬月，景德镇官窑制作万历青花经文观音像碗。该碗高7.6厘米，口径16.5厘米，足径7厘米，撇口，深弧壁，玉璧底。碗心楷书“南无无量寿佛”，环以缠枝花纹，外壁绘观音像，渡海观音居中，善财童子合掌相拜，韦驮身着戎装双手合十，横置金刚杵护法。一侧青花楷书经文120字，落款“皇明万历四十四年岁次丙辰仲冬月吉日精造”。青花设色清淡，富有层次，人物形象准确生动。",
+    "importance": 4,
+    "tags": [
+      "陶瓷绘画",
+      "青花瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷绘画、青花瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "2d33bf6c-d685-4d58-a8e4-323dd5f3ff77",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "汤显祖逝世",
+    "titleCn": "汤显祖逝世",
+    "date": {
+      "year": 1616
+    },
+    "descriptionCn": "1616年，汤显祖逝世。",
+    "importance": 4,
+    "tags": [
+      "戏曲"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "戏曲",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "ab017f56-505a-4ff0-8c10-95a555d67b14",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "胡塞佩·里维拉从巴伦西亚赴那不勒斯",
+    "titleCn": "胡塞佩·里维拉从巴伦西亚赴那不勒斯",
+    "date": {
+      "year": 1616
+    },
+    "descriptionCn": "1616年，西班牙画家胡塞佩·里维拉从巴伦西亚出发前往那不勒斯，开启其艺术生涯。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "7fb7f346-5ef2-4057-b1c6-ce6d883c58e3",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "莎士比亚逝世",
+    "titleCn": "莎士比亚逝世",
+    "date": {
+      "year": 1616
+    },
+    "descriptionCn": "1616年，莎士比亚逝世。",
+    "importance": 4,
+    "tags": [
+      "戏剧"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "戏剧",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "c211c20d-6a20-4818-b604-1143f5513e54",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "艾蒂安·马泰朗热建造阿维尼翁教堂",
+    "titleCn": "艾蒂安·马泰朗热建造阿维尼翁教堂",
+    "date": {
+      "year": 1617
+    },
+    "descriptionCn": "1617年，艾蒂安·马泰朗热在阿维尼翁建造了一座教堂。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "888fe729-22b5-4dc5-b613-fa3959c13cdc",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "萨拉曼卡牧师堂始建",
+    "titleCn": "萨拉曼卡牧师堂始建",
+    "date": {
+      "year": 1617
+    },
+    "descriptionCn": "1617年，胡安·戈麦斯·德·莫拉设计了西班牙萨拉曼卡的牧师堂，并开始建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "3358ca4a-f53e-47c7-97c0-804e25be3471",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "鲁本斯创作《勒西皮德丝被劫》",
+    "titleCn": "鲁本斯创作《勒西皮德丝被劫》",
+    "date": {
+      "year": 1618
+    },
+    "descriptionCn": "1618年，彼得·保罗·鲁本斯创作了油画《勒西皮德丝被劫》，现藏于慕尼黑老绘画馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "2da44050-1887-428e-a463-d1f3d8e75059",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "伊尼戈·琼斯设计白厅宴会厅",
+    "titleCn": "伊尼戈·琼斯设计白厅宴会厅",
+    "date": {
+      "year": 1619
+    },
+    "descriptionCn": "1619年至1622年，伊尼戈·琼斯设计了白厅的宴会厅，采用帕拉迪奥风格。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "英国文艺复兴",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "24730c4b-3bf4-4019-b8d8-b9701d8f96cb",
+    "periodId": "p_early_modern",
+    "streamId": "s_east_asia_pre_modern",
+    "titleEn": "八条宫智仁亲王与智忠亲王建造桂离宫",
+    "titleCn": "八条宫智仁亲王与智忠亲王建造桂离宫",
+    "date": {
+      "year": 1620
+    },
+    "descriptionCn": "1620年至1623年，日本江户时代八条宫的智仁亲王及其子智忠亲王委托建造了桂离宫，位于京都附近。该建筑群包括别墅、池塘和花园，设计受禅宗影响，强调与自然融合，为日本传统建筑典范。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "日本",
+      "originalPeriod": "江户时代",
+      "standardPeriod": "东亚：前现代",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "dbd437b6-328f-4766-9e0f-f9196a71eb4a",
+    "periodId": "p_early_modern",
+    "streamId": "s_east_asia_pre_modern",
+    "titleEn": "桂离宫书院建造",
+    "titleCn": "桂离宫书院建造",
+    "date": {
+      "year": 1620
+    },
+    "descriptionCn": "1620年至1663年，日本桂离宫书院建造，由八条宫智仁亲王和其子智忠亲王委托建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "日本",
+      "originalPeriod": "江户时期",
+      "standardPeriod": "东亚：前现代",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "51c06ffb-5908-482b-a1dc-5a6e4ec6c730",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "鲁本斯创作《玛丽·德·梅迪奇的生平》",
+    "titleCn": "鲁本斯创作《玛丽·德·梅迪奇的生平》",
+    "date": {
+      "year": 1621
+    },
+    "descriptionCn": "1621年至1625年，彼得·保罗·鲁本斯创作了系列油画《玛丽·德·梅迪奇的生平》，现藏于罗浮宫。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "7d165e56-4bce-4edf-965b-0fb9aac0bf63",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "洛伦佐·贝尔尼尼创作雕塑（达芙妮主题）",
+    "titleCn": "洛伦佐·贝尔尼尼创作雕塑（达芙妮主题）",
+    "date": {
+      "year": 1622
+    },
+    "descriptionCn": "1622年至1624年，洛伦佐·贝尔尼尼创作了雕塑，展示了达芙妮化作月桂树的瞬间。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "e31db501-6c9f-4614-a8d3-d957e8b51803",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "贝尼尼创作雕塑《阿波罗与达芙妮》",
+    "titleCn": "贝尼尼创作雕塑《阿波罗与达芙妮》",
+    "date": {
+      "year": 1622
+    },
+    "descriptionCn": "1622年至1625年间，意大利巴洛克雕塑家吉安·洛伦佐·贝尼尼受红衣主教希皮奥内·博尔盖赛委托，创作了大理石雕塑《阿波罗与达芙妮》。作品取材于奥维德《变形记》，描绘阿波罗追逐达芙妮的瞬间，现藏于罗马博尔盖赛艺术博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "3c2f6c68-755f-42e6-9d51-1aa039bcc842",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "马德里王室圣伊西多教堂始建",
+    "titleCn": "马德里王室圣伊西多教堂始建",
+    "date": {
+      "year": 1622
+    },
+    "descriptionCn": "1622年，西班牙马德里的王室圣伊西多教堂开始建造，由桑切斯和胡安·包蒂斯塔设计。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "c16f8ebe-1114-422d-b523-c23244bdc172",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "迭戈·贝拉斯克斯被委任为王家首席画家",
+    "titleCn": "迭戈·贝拉斯克斯被委任为王家首席画家",
+    "date": {
+      "year": 1623
+    },
+    "descriptionCn": "1623年，西班牙画家迭戈·贝拉斯克斯被委任为王家首席画家，次年赴意大利接触威尼斯画派绘画，从而摆脱早期卡拉瓦焦风格。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "53b59af0-82fb-42a4-b5c6-51b0b9240b58",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "巴勃罗·德·巴利阿多里德雕像创作",
+    "titleCn": "巴勃罗·德·巴利阿多里德雕像创作",
+    "date": {
+      "year": 1624
+    },
+    "descriptionCn": "1624年至1633年间，西班牙雕塑家巴勃罗·德·巴利阿多里德创作了某雕像（可能为贝拉斯克斯所绘肖像对应作品）。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "14e70d2a-20af-46e0-a8f4-fa29d4bd9772",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "新圣彼得大教堂完工并举行祝圣",
+    "titleCn": "新圣彼得大教堂完工并举行祝圣",
+    "date": {
+      "year": 1626,
+      "month": 11,
+      "day": 18
+    },
+    "descriptionCn": "1626年11月18日，新圣彼得大教堂彻底完工并举行祝圣仪式。该工程自1506年动工，历时120多年。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "fc30403a-2270-437a-84c7-8d0ab9ead1e4",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "文俶创作《石竹图》扇面",
+    "titleCn": "文俶创作《石竹图》扇面",
+    "date": {
+      "year": 1627
+    },
+    "descriptionCn": "1627年，文俶创作《石竹图》金箔纸扇面，绘石竹和假山。扇面画是当时流行的馈赠形式，此画可能为顾客所作，后装裱成册供收藏。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "fc30403a-2270-437a-84c7-8d0ab9ead1e4",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "文俶创作《石竹图》扇面",
+    "titleCn": "文俶创作《石竹图》扇面",
+    "date": {
+      "year": 1627
+    },
+    "descriptionCn": "1627年，文俶创作《石竹图》金箔纸扇面，绘石竹和假山。扇面画是当时流行的馈赠形式，此画可能为顾客所作，后装裱成册供收藏。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5d46bf5a-0471-43a1-a250-92550a6486cc",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "艾蒂安·马泰朗热建造巴黎圣保罗-圣路易教堂",
+    "titleCn": "艾蒂安·马泰朗热建造巴黎圣保罗-圣路易教堂",
+    "date": {
+      "year": 1627
+    },
+    "descriptionCn": "1627年，艾蒂安·马泰朗热在巴黎建造了圣保罗-圣路易教堂。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "a2f3321e-e89b-4db8-81c6-4b13e391bafb",
+    "periodId": "p_early_modern",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "玛哈尔陵建造",
+    "titleCn": "玛哈尔陵建造",
+    "date": {
+      "year": 1630
+    },
+    "descriptionCn": "1630年至1648年，印度莫卧儿帝国皇帝沙赫杰罕为其爱妻蒙太姬·玛哈尔建造陵墓，即泰姬陵。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "印度",
+      "originalPeriod": "莫卧儿王朝",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "0390acd0-2124-45cd-847b-d6bd5dd6a3ef",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "皮特·斯内尔斯创作《伊莎贝拉公主于布莱达围攻战》",
+    "titleCn": "皮特·斯内尔斯创作《伊莎贝拉公主于布莱达围攻战》",
+    "date": {
+      "year": 1630,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1630年，皮特·斯内尔斯创作了纪念画《伊莎贝拉公主于布莱达围攻战》，前景描绘人群和士兵，背景以地图形式示意围攻战况。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "荷兰黄金时代",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "2e1e3ba1-1a85-4b02-8a5b-1286671ecdaf",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "董其昌的《容台别集》初刊出版",
+    "titleCn": "董其昌的《容台别集》初刊出版",
+    "date": {
+      "year": 1630
+    },
+    "descriptionCn": "1630年（崇祯三年），董其昌的《容台别集》初刊出版，共十七卷，由董其昌孙董庭编纂。",
+    "importance": 3,
+    "tags": [
+      "书法",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "书法、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "1a6e486e-5198-4605-b62e-cd86ed032413",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "阿特米西亚·真蒂莱斯基创作《作为绘画寓言的自画像》",
+    "titleCn": "阿特米西亚·真蒂莱斯基创作《作为绘画寓言的自画像》",
+    "date": {
+      "year": 1630
+    },
+    "descriptionCn": "1630年，阿特米西亚·真蒂莱斯基创作了自画像《作为绘画寓言的自画像》，将自己描绘成绘画的化身，以调侃女性艺术家的困境。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ea60f6fc-578e-455b-8345-7206e12d936d",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "鲁本斯迎娶海伦娜·福门特",
+    "titleCn": "鲁本斯迎娶海伦娜·福门特",
+    "date": {
+      "year": 1630
+    },
+    "descriptionCn": "1630年，彼得·保罗·鲁本斯迎娶了十六岁的海伦娜·福门特。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "比利时",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "fdfa3510-a9ff-4c89-b7a1-30958a609a10",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "伦勃朗创作《蒂尔普教授的解剖课》",
+    "titleCn": "伦勃朗创作《蒂尔普教授的解剖课》",
+    "date": {
+      "year": 1632
+    },
+    "descriptionCn": "1632年，伦勃朗创作了《蒂尔普教授的解剖课》，该作品是其早期肖像画的代表作。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "荷兰黄金时代",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "2aba279e-a2d1-400a-bad4-ba514406d293",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "安东尼·范·代克来到伦敦",
+    "titleCn": "安东尼·范·代克来到伦敦",
+    "date": {
+      "year": 1632
+    },
+    "descriptionCn": "1632年，安东尼·范·代克来到伦敦。",
+    "importance": 4,
+    "tags": [],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "43bd00ee-a0c6-4038-ab6d-519522611921",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "范·代克移居伦敦",
+    "titleCn": "范·代克移居伦敦",
+    "date": {
+      "year": 1632
+    },
+    "descriptionCn": "1632年，安东尼·范·代克移居伦敦，成为英国国王查理一世的宫廷画家。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "f9ca08db-7862-489c-85a4-f17d61c63585",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "《园冶》初刊",
+    "titleCn": "《园冶》初刊",
+    "date": {
+      "year": 1634
+    },
+    "descriptionCn": "1634年（明崇祯七年），《园冶》初刊，凡三卷，附图235幅。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "园林",
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "建筑、园林、出版",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "df9fbce2-d6bc-473a-812f-71386329edb4",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "韩希孟完成刺绣《洗马图》",
+    "titleCn": "韩希孟完成刺绣《洗马图》",
+    "date": {
+      "year": 1634
+    },
+    "descriptionCn": "1634年，韩希孟完成刺绣《洗马图》，复制宋代画卷。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "设计"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画、设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "df9fbce2-d6bc-473a-812f-71386329edb4",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "韩希孟完成刺绣《洗马图》",
+    "titleCn": "韩希孟完成刺绣《洗马图》",
+    "date": {
+      "year": 1634
+    },
+    "descriptionCn": "1634年，韩希孟完成刺绣《洗马图》，复制宋代画卷。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "设计"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画、设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "55731518-e1e1-41e9-9e1f-2a1aaf68de7d",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "荷兰东印度公司向中国订制欧洲型制瓷器",
+    "titleCn": "荷兰东印度公司向中国订制欧洲型制瓷器",
+    "date": {
+      "year": 1635
+    },
+    "descriptionCn": "1635年，荷兰东印度公司向中国订制欧洲型制的瓷器，此后不断提供木制模型、陶器、瓷器、玻璃器皿、银器、锡器等范本及画本图样。",
+    "importance": 4,
+    "tags": [
+      "陶瓷贸易"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷贸易",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "8e9e6475-f017-4612-84e2-4210d0e5d84d",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "董其昌逝世",
+    "titleCn": "董其昌逝世",
+    "date": {
+      "year": 1636
+    },
+    "descriptionCn": "1636年，董其昌逝世。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画、书法",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "cd2ba14f-b83b-4c63-b971-728616238726",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "鲁本斯创作《斯腾城堡的风景》",
+    "titleCn": "鲁本斯创作《斯腾城堡的风景》",
+    "date": {
+      "year": 1636,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1636年，佛兰德斯画家彼得·保罗·鲁本斯创作布面油画《斯腾城堡的风景》，尺寸1.3米×2.3米，现藏于英国伦敦国家美术馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "比利时",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "137e20f2-d0f4-449b-8125-03ff07d76b4e",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "《天工开物》成书",
+    "titleCn": "《天工开物》成书",
+    "date": {
+      "year": 1637
+    },
+    "descriptionCn": "1637年（明崇祯十年），宋应星写成《天工开物》。",
+    "importance": 2,
+    "tags": [
+      "工艺",
+      "技术",
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "工艺、技术、出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "2894ba12-9629-4dd8-84f6-128116d9a8d2",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "艾儒略出版《天主降生出像经解》插图",
+    "titleCn": "艾儒略出版《天主降生出像经解》插图",
+    "date": {
+      "year": 1637
+    },
+    "descriptionCn": "1637年，意大利耶稣会传教士艾儒略在福建晋江出版《天主降生出像经解》，内含木版插图，复制自安特卫普的铜版画。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "2894ba12-9629-4dd8-84f6-128116d9a8d2",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "艾儒略出版《天主降生出像经解》插图",
+    "titleCn": "艾儒略出版《天主降生出像经解》插图",
+    "date": {
+      "year": 1637
+    },
+    "descriptionCn": "1637年，意大利耶稣会传教士艾儒略在福建晋江出版《天主降生出像经解》，内含木版插图，复制自安特卫普的铜版画。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "2894ba12-9629-4dd8-84f6-128116d9a8d2",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "艾儒略出版《天主降生出像经解》插图",
+    "titleCn": "艾儒略出版《天主降生出像经解》插图",
+    "date": {
+      "year": 1637
+    },
+    "descriptionCn": "1637年，意大利耶稣会传教士艾儒略在福建晋江出版《天主降生出像经解》，内含木版插图，复制自安特卫普的铜版画。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "a144e0fb-1eda-42dd-a019-b08a6e590328",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "普桑创作《阿卡迪亚的牧人》（卢浮宫版）",
+    "titleCn": "普桑创作《阿卡迪亚的牧人》（卢浮宫版）",
+    "date": {
+      "year": 1638
+    },
+    "descriptionCn": "1638年至1639年，法国画家尼古拉斯·普桑创作了第二幅《阿卡迪亚的牧人》，现藏于卢浮宫。该画描绘了阿卡迪亚牧人围绕墓碑的情景，铭文“Et in Arcadia ego”引发了后世诸多解读。",
+    "importance": 1,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "257fbcf1-a9e1-4dce-9b6c-71e5e8d30cc0",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "崇祯青花山水图瓶创作",
+    "titleCn": "崇祯青花山水图瓶创作",
+    "date": {
+      "year": 1639
+    },
+    "descriptionCn": "1639年（崇祯十二年）夏日，创作了崇祯青花山水图瓶，瓶高48厘米，画面描绘峰峦重叠、祥云缭绕，并题诗一首，落款\"乙卯夏日写\"。山峦造型受当时复古山水画影响，笔法细致，表现传统青绿山水的工整感觉。",
+    "importance": 3,
+    "tags": [
+      "陶瓷",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "bdce1c33-ca28-4e6b-9fc9-a440f5fe5355",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "《微风中的一艘荷兰战舰和几只木船》",
+    "titleCn": "《微风中的一艘荷兰战舰和几只木船》",
+    "date": {
+      "year": 1640,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1640年，荷兰画家西蒙·弗利格创作了木板画《微风中的一艘荷兰战舰和几只木船》，现藏于伦敦国家美术馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b3eb5ad6-f29b-414c-9042-d2dc954e15cb",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "克劳德·洛兰创作《正在画速写的艺术家》",
+    "titleCn": "克劳德·洛兰创作《正在画速写的艺术家》",
+    "date": {
+      "year": 1640,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1640年，克劳德·洛兰创作了《正在画速写的艺术家》。画作可能描绘了艺术家在户外写生的场景，反映了克劳德多产的外出写生习惯。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "巴洛克",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "49b9c4dd-0e53-44af-bbcc-462129ee7c79",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "克劳德·洛兰创作《风景和乡村舞蹈》",
+    "titleCn": "克劳德·洛兰创作《风景和乡村舞蹈》",
+    "date": {
+      "year": 1640,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1640—1641年，克劳德·洛兰创作了《风景和乡村舞蹈》。画作描绘了黄金时代的乡村场景，金色光芒充满空间，给前景中的人物和自然背景的轮廓镀上金边，营造出田园牧歌式的氛围。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "巴洛克",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "7c33799f-d9ab-48f5-a028-953854342048",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "伦勃朗创作《夜巡》",
+    "titleCn": "伦勃朗创作《夜巡》",
+    "date": {
+      "year": 1642
+    },
+    "descriptionCn": "1642年，伦勃朗创作了《夜巡》，画中展现了光影的激烈冲突，是艺术家的代表作之一。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "荷兰黄金时代",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4e8a84f7-2c50-4596-a65a-39905ad2b615",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "崇祯青花山水图笔筒创作",
+    "titleCn": "崇祯青花山水图笔筒创作",
+    "date": {
+      "year": 1643
+    },
+    "descriptionCn": "1643年，创作了崇祯青花山水图笔筒，画风进一步文人化，以简洁疏朗的笔法勾勒山树房屋，风格清朗。",
+    "importance": 3,
+    "tags": [
+      "陶瓷",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "57a72d0a-b08f-40aa-8d88-ab14b82687a1",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "汪珂玉提炼‘十八描’",
+    "titleCn": "汪珂玉提炼‘十八描’",
+    "date": {
+      "year": 1643
+    },
+    "descriptionCn": "1643年，汪珂玉进一步提炼绘画技法‘十八描’。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "57a72d0a-b08f-40aa-8d88-ab14b82687a1",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "汪珂玉提炼‘十八描’",
+    "titleCn": "汪珂玉提炼‘十八描’",
+    "date": {
+      "year": 1643
+    },
+    "descriptionCn": "1643年，汪珂玉进一步提炼绘画技法‘十八描’。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "234e793a-140e-49e5-8237-bb03df84e249",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "海牙首相府建成",
+    "titleCn": "海牙首相府建成",
+    "date": {
+      "year": 1643
+    },
+    "descriptionCn": "1643年至1644年间，雅各布·范·卡姆彭设计了海牙首相府。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "荷兰黄金时代",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "34e1da8b-c388-463a-b899-8598ac037c98",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "克劳德·洛兰创作《风景，那喀索斯与厄科》",
+    "titleCn": "克劳德·洛兰创作《风景，那喀索斯与厄科》",
+    "date": {
+      "year": 1644
+    },
+    "descriptionCn": "1644年，克劳德·洛兰创作了《风景，那喀索斯与厄科》。画作描绘了那喀索斯沉浸于自己倒影的场景，厄科在树后窥视，前景中的林间仙女突出了色欲基调。风景以柔和圆润的轮廓线和材质表现温暖、静谧、奢淫的气氛。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "巴洛克",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d1621b3f-2a6c-41a4-9df4-62a44fc5ec9c",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "南京明故宫毁于战火",
+    "titleCn": "南京明故宫毁于战火",
+    "date": {
+      "year": 1645
+    },
+    "descriptionCn": "1645年，南京明故宫毁于战火，后仅存西华门、午门等城门及内外五龙桥、照壁和大量柱础。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "b65ce3f0-90af-4f8a-a9c8-95ca0931fec9",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "文震亨去世",
+    "titleCn": "文震亨去世",
+    "date": {
+      "year": 1645
+    },
+    "descriptionCn": "1645年，文震亨去世。",
+    "importance": 4,
+    "tags": [],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "明清之际",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "d94cb273-f462-49f3-897c-c34e999e7351",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "紫禁城午门重建",
+    "titleCn": "紫禁城午门重建",
+    "date": {
+      "year": 1647
+    },
+    "descriptionCn": "1647年，紫禁城午门重建，正楼与两侧钟鼓楼、两翼雁翅楼呈凹字形，造就了三面环抱的威严格局。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "71cdc24e-7f7e-440c-ac61-94ad1d82be79",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "伦勃朗创作《埃毛斯朝圣者》",
+    "titleCn": "伦勃朗创作《埃毛斯朝圣者》",
+    "date": {
+      "year": 1648
+    },
+    "descriptionCn": "1648年，伦勃朗创作了《埃毛斯朝圣者》，现藏于巴黎罗浮宫。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "荷兰黄金时代",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "f3b3ebd2-7bb1-4f9a-a54c-775d3720678e",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "尼古拉斯·普桑创作《风景，以及被蛇杀死的人》",
+    "titleCn": "尼古拉斯·普桑创作《风景，以及被蛇杀死的人》",
+    "date": {
+      "year": 1648
+    },
+    "descriptionCn": "1648年，尼古拉斯·普桑创作了《风景，以及被蛇杀死的人》。画作表现了发现前景中尸体时的恐惧瞬间，透过层层悬铃木产生褪隐效果，女人看不到被蛇缠绕的尸体，渔夫即将陷入恐惧。该画旨在表现“恐惧的影响效果”。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "法国巴洛克",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "0718da7e-6cdb-488e-ae1a-f1efdaab6763",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "普桑创作《福基翁的葬礼》",
+    "titleCn": "普桑创作《福基翁的葬礼》",
+    "date": {
+      "year": 1648
+    },
+    "descriptionCn": "1648年，尼古拉·普桑创作布面油画《福基翁的葬礼》，尺寸1.19米×1.79米，由塞瑞塞尔委托创作。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "8c09818e-82e8-4508-885f-0bf5dcac1f92",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "法国建立皇家绘画和雕塑学院",
+    "titleCn": "法国建立皇家绘画和雕塑学院",
+    "date": {
+      "year": 1648
+    },
+    "descriptionCn": "1648年，法国建立了皇家绘画和雕塑学院，成为君主政体的宣传机器，提供培训并根据艺术家实践的艺术形式评定等级。",
+    "importance": 4,
+    "tags": [
+      "其他"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "17世纪",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "其他",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "90cf44a6-58b1-49d0-85b0-3039992444a3",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "法国建立绘画和雕塑研究院",
+    "titleCn": "法国建立绘画和雕塑研究院",
+    "date": {
+      "year": 1648
+    },
+    "descriptionCn": "1648年，法国建立绘画和雕塑研究院（Academy of Painting and Sculpture）。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "路易十四时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、雕塑",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "6db9477a-6a41-4a92-b9c8-b8ac0f97a67f",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "科英布拉新圣克拉拉教堂建造",
+    "titleCn": "科英布拉新圣克拉拉教堂建造",
+    "date": {
+      "year": 1648
+    },
+    "descriptionCn": "1648年，若奥·图里亚诺建造了科英布拉新圣克拉拉教堂。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "葡萄牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "923d584d-4520-4b6e-95e1-ca81c16b7ec6",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "迭戈·贝拉斯克斯第二次赴意大利",
+    "titleCn": "迭戈·贝拉斯克斯第二次赴意大利",
+    "date": {
+      "year": 1649
+    },
+    "descriptionCn": "1649年，西班牙画家迭戈·贝拉斯克斯第二次前往意大利。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "465d8452-feea-4f9e-83eb-0d77f87808ad",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "克莱斯·简兹·维斯彻出版地图《高卢》",
+    "titleCn": "克莱斯·简兹·维斯彻出版地图《高卢》",
+    "date": {
+      "year": 1650
+    },
+    "descriptionCn": "1650年，克莱斯·简兹·维斯彻出版了法国地图《高卢》，地图两侧描绘法国各阶层人物，底部边缘展示主要城市的地志画。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "荷兰黄金时代",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "93d57c7b-a17f-4605-b322-8959d28fac2b",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "制作道士礼袍",
+    "titleCn": "制作道士礼袍",
+    "date": {
+      "year": 1650
+    },
+    "descriptionCn": "1650年至1700年间，制作丝绣道士礼袍，上绣神仙列队，带有姓名标识，用于道教仪式。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "93d57c7b-a17f-4605-b322-8959d28fac2b",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "制作道士礼袍",
+    "titleCn": "制作道士礼袍",
+    "date": {
+      "year": 1650
+    },
+    "descriptionCn": "1650年至1700年间，制作丝绣道士礼袍，上绣神仙列队，带有姓名标识，用于道教仪式。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "93d57c7b-a17f-4605-b322-8959d28fac2b",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "制作道士礼袍",
+    "titleCn": "制作道士礼袍",
+    "date": {
+      "year": 1650
+    },
+    "descriptionCn": "1650年至1700年间，制作丝绣道士礼袍，上绣神仙列队，带有姓名标识，用于道教仪式。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "22c7160b-766d-45da-bf1b-5a9b8333df3c",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "委拉斯开兹创作《胡安·德·佩雷加肖像》",
+    "titleCn": "委拉斯开兹创作《胡安·德·佩雷加肖像》",
+    "date": {
+      "year": 1650,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1650年，委拉斯开兹创作布面油画《胡安·德·佩雷加肖像》，尺寸81厘米×70厘米，现藏于纽约大都会艺术博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "3c6bae91-8c99-49cd-8bb4-8790065cc739",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "尼古拉斯·普桑创作《风景，皮拉姆斯和提斯柏》",
+    "titleCn": "尼古拉斯·普桑创作《风景，皮拉姆斯和提斯柏》",
+    "date": {
+      "year": 1650
+    },
+    "descriptionCn": "1650—1651年，尼古拉斯·普桑创作了《风景，皮拉姆斯和提斯柏》。画作描绘了皮拉姆斯误以为提斯柏被狮子杀死而自杀、提斯柏随后吻剑身亡的悲剧。前景中暴风雨肆虐，人物在风中慌乱逃窜，中景处混乱爆发，但远处的湖面平静，建筑未受影响。普桑将自然事件与人类活动融合，提升了风景画的地位。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "法国巴洛克",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "26e09672-1afa-49b3-a266-28638a968060",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "琼华岛上建成藏式白塔",
+    "titleCn": "琼华岛上建成藏式白塔",
+    "date": {
+      "year": 1651
+    },
+    "descriptionCn": "1651年（清顺治八年），在琼华岛上建成高35.9米的藏式白塔，庄严雄浑，成为全园建筑的制高点。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "a25487c7-bf48-4dad-8696-344a9fff3522",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "《亚里士多德和荷马半身像》",
+    "titleCn": "《亚里士多德和荷马半身像》",
+    "date": {
+      "year": 1653,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1653年，荷兰画家伦勃朗创作了油画《亚里士多德和荷马半身像》，现藏于纽约大都会艺术博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "56bf379e-de6b-40fd-82b0-227feb270b50",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "伦勃朗改进雕版《三具十字架》",
+    "titleCn": "伦勃朗改进雕版《三具十字架》",
+    "date": {
+      "year": 1653
+    },
+    "descriptionCn": "1653年，伦勃朗分两次改进了蚀刻雕版《三具十字架》。",
+    "importance": 4,
+    "tags": [
+      "版画"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "版画",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "43b39262-46f4-4e05-98bc-07cf102f22de",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "景德镇官窑开始为宫廷烧造官窑瓷器",
+    "titleCn": "景德镇官窑开始为宫廷烧造官窑瓷器",
+    "date": {
+      "year": 1654
+    },
+    "descriptionCn": "顺治十一年（1654年），景德镇官窑开始沿袭明代旧制为宫廷烧造官窑瓷器，标志着清代官窑青花烧造的起始。",
+    "importance": 4,
+    "tags": [
+      "陶瓷绘画",
+      "青花瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷绘画、青花瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "bbe95ae7-9493-4f72-8747-0f86dc696804",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "景德镇官窑制作顺治青花群仙仰寿图盘",
+    "titleCn": "景德镇官窑制作顺治青花群仙仰寿图盘",
+    "date": {
+      "year": 1655
+    },
+    "descriptionCn": "顺治十二年（1655年），景德镇官窑制作“顺治青花群仙仰寿图盘”，盘底有“乙未年制”四字篆书款。该盘属于顺治官窑青花瓷的代表作之一。",
+    "importance": 4,
+    "tags": [
+      "陶瓷绘画",
+      "青花瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷绘画、青花瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "5813cfc5-4c1f-48b5-8439-62cb115deae8",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "景德镇御窑厂烧制顺治青花群仙仰寿图盘",
+    "titleCn": "景德镇御窑厂烧制顺治青花群仙仰寿图盘",
+    "date": {
+      "year": 1655
+    },
+    "descriptionCn": "顺治十二年（1655年）仲春，景德镇御窑厂烧制顺治青花群仙仰寿图盘。该盘高5.1厘米，口径20.7厘米，足径9.4厘米，盘口微撇，浅弧壁，圈足。外壁釉下暗刻折枝花纹。盘面绘西王母手托玉盘盛寿桃，八仙各持宝物仰望迎接寿星，画面营造自然山水环境。盘上方题祝寿诗，并有青花书“乙未仲春书贺瑞伯相公千秋”纪年纪事铭，底青花双圈内书“乙未年制”四字篆书款。该盘为顺治时期断代标准器之一。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "801da6d3-a94f-47de-ba8b-2aeda400722c",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "伦勃朗因法院判决被迫卖掉家产",
+    "titleCn": "伦勃朗因法院判决被迫卖掉家产",
+    "date": {
+      "year": 1656
+    },
+    "descriptionCn": "1656年，伦勃朗因法院判决被迫卖掉全部家产，此后生活穷困潦倒。",
+    "importance": 4,
+    "tags": [],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "荷兰黄金时代",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "aac92a1e-0d72-4b02-962b-50d5e9f046e3",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "委拉斯开兹创作《宫娥图》",
+    "titleCn": "委拉斯开兹创作《宫娥图》",
+    "date": {
+      "year": 1656
+    },
+    "descriptionCn": "1656年，西班牙画家迭戈·委拉斯开兹创作油画《宫娥图》（又名《名誉女仆》），尺寸为3.2米×2.7米，现藏于西班牙马德里普拉多博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "71bdd509-5f18-4b20-ac37-7fa45baa1f6b",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "贝拉斯克斯创作《宫女》",
+    "titleCn": "贝拉斯克斯创作《宫女》",
+    "date": {
+      "year": 1656
+    },
+    "descriptionCn": "1656年，西班牙画家迭戈·贝拉斯克斯创作了《宫女》（Las Meninas）。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "baf5d915-2517-4aa4-b486-200db1b51f8c",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "景德镇官窑制作顺治青花加官图盘",
+    "titleCn": "景德镇官窑制作顺治青花加官图盘",
+    "date": {
+      "year": 1658
+    },
+    "descriptionCn": "顺治十五年（1658年），景德镇官窑制作“顺治青花加官图盘”，盘底有“戊戍”年号款。该盘画法吸收了陈洪绶人物的装饰意趣，线条方棱折角，浑穆有力。",
+    "importance": 4,
+    "tags": [
+      "陶瓷绘画",
+      "青花瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷绘画、青花瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "f44cf82b-db6e-411a-8912-2a57659dcc84",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "维米尔绘制《倒牛奶的女仆》",
+    "titleCn": "维米尔绘制《倒牛奶的女仆》",
+    "date": {
+      "year": 1658,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1658年-1660年间，荷兰画家约翰内斯·维米尔绘制了油画《倒牛奶的女仆》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "荷兰黄金时代",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "51c3058e-99ad-4819-8d22-84a3646523ce",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "孙承泽编成《庚子销夏记》",
+    "titleCn": "孙承泽编成《庚子销夏记》",
+    "date": {
+      "year": 1660
+    },
+    "descriptionCn": "1660年，孙承泽编成《庚子销夏记》八卷，记载自己收藏和过目的书画碑帖，记录虽不详尽但鉴裁精审，议论精到，受到学者重视。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "书法"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画、书法",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "fb7c2eaf-03fc-4620-a099-061ab118b94d",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "普桑创作《阿卡狄亚牧人》",
+    "titleCn": "普桑创作《阿卡狄亚牧人》",
+    "date": {
+      "year": 1660,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1660年，法国画家尼古拉·普桑创作布面油画《阿卡狄亚牧人》，尺寸87厘米×102厘米，现藏于法国巴黎卢浮宫。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b9fdd1c1-8fdf-43a7-9a72-8c93460521cf",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "安德烈·勒诺特尔为凡尔赛宫设计花园",
+    "titleCn": "安德烈·勒诺特尔为凡尔赛宫设计花园",
+    "date": {
+      "year": 1661
+    },
+    "descriptionCn": "1661年至1665年，安德烈·勒诺特尔为凡尔赛宫设计花园。",
+    "importance": 3,
+    "tags": [
+      "园林",
+      "设计"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "路易十四时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "园林、设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "005cc3ba-14fa-453d-8ed9-49c035015216",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "莱·诺特尔设计凡尔赛宫花园",
+    "titleCn": "莱·诺特尔设计凡尔赛宫花园",
+    "date": {
+      "year": 1661
+    },
+    "descriptionCn": "1661年至1668年，安德烈·莱·诺特尔为法国凡尔赛宫设计花园及公园平面图。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "设计"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑、设计",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "a90e3f06-0740-4c2e-af51-200fdfaf9b30",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "雅各布·凡·德·克鲁斯创作《海牙景色，以及毗邻的二十幅风景》",
+    "titleCn": "雅各布·凡·德·克鲁斯创作《海牙景色，以及毗邻的二十幅风景》",
+    "date": {
+      "year": 1661
+    },
+    "descriptionCn": "1661—1663年，雅各布·凡·德·克鲁斯创作了《海牙景色，以及毗邻的二十幅风景》，以中心城市景观与周边乡村风景并置的形式，强调城市与乡村的连续性。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "荷兰黄金时代",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "c7c5d8d6-7647-4662-968e-d92af5eb0ad9",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "伦勃朗创作《浪子回头》",
+    "titleCn": "伦勃朗创作《浪子回头》",
+    "date": {
+      "year": 1662,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1662年至1668年，伦勃朗创作布面油画《浪子回头》，尺寸2.6米×2米，现藏于俄罗斯圣彼得堡埃尔米塔什博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d2b23d2d-a46f-4980-af3f-ee1263ec063a",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "李渔迁居金陵",
+    "titleCn": "李渔迁居金陵",
+    "date": {
+      "year": 1662
+    },
+    "descriptionCn": "清康熙元年（1662年），李渔迁居金陵。此后在金陵别业芥子园内，刊行画谱、戏曲、小说，成为当时最受欢迎的通俗文艺出版家。",
+    "importance": 3,
+    "tags": [
+      "戏曲",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "戏曲、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ee13b67b-b6dc-4e3e-a1a9-a65f571ce021",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "法国设立戈贝兰家具和挂毯工场",
+    "titleCn": "法国设立戈贝兰家具和挂毯工场",
+    "date": {
+      "year": 1662
+    },
+    "descriptionCn": "1662年，法国设立戈贝兰（Gobelins）家具和挂毯工场。",
+    "importance": 3,
+    "tags": [
+      "设计",
+      "工艺"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "路易十四时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计、工艺",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5434a83b-19ff-4266-bb50-583fcf9a807e",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "萨尔瓦多·罗萨创作蚀刻版画《冥想中的德谟克利特》",
+    "titleCn": "萨尔瓦多·罗萨创作蚀刻版画《冥想中的德谟克利特》",
+    "date": {
+      "year": 1662
+    },
+    "descriptionCn": "1662年，萨尔瓦多·罗萨创作了蚀刻版画《冥想中的德谟克利特》。画中德谟克利特为万物的终结所惊愕，成为表现冥想式忧郁的典范，对18世纪艺术家如提埃坡罗和赖特产生重要影响。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "17世纪",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画、出版",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "0014a086-e613-44ac-b8c0-33966dd152de",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "樊家顯、樊家频、樊家颐为外祖母祝寿并具康熙二年青花八仙祝寿花胍",
+    "titleCn": "樊家顯、樊家频、樊家颐为外祖母祝寿并具康熙二年青花八仙祝寿花胍",
+    "date": {
+      "year": 1663
+    },
+    "descriptionCn": "1663年（清康熙二年）春月，樊家顯、樊家频、樊家颐为外祖母祝寿，特制康熙二年青花八仙祝寿花胍，并题款“癸卯年春月为外祖母老大人寿，不才外孙樊家顯、频、颐具”。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "d028eeab-9bbd-4782-88f8-3392d398a336",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "王时敏作《山水图》",
+    "titleCn": "王时敏作《山水图》",
+    "date": {
+      "year": 1664
+    },
+    "descriptionCn": "1664年（王时敏73岁时），王时敏创作《山水图》，露出重笔、墨而轻丘壑、重师古而轻造化的创作倾向。自题“意亦欲仿子久，口能言而笔不能，曾未得其脚汗气，正米老所谓惭惶杀人也”，以得黄公望“脚汗气”为求。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ba557ba3-f71f-42ca-abf9-b9990489ddd6",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "许茨创作《圣诞清唱剧》",
+    "titleCn": "许茨创作《圣诞清唱剧》",
+    "date": {
+      "year": 1664
+    },
+    "descriptionCn": "1664年，德国作曲家海因里希·许茨创作《圣诞清唱剧》。",
+    "importance": 3,
+    "tags": [
+      "音乐"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "音乐",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "525d06ed-9508-4269-8ec8-c275c55b4e14",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "《放荡的家庭》",
+    "titleCn": "《放荡的家庭》",
+    "date": {
+      "year": 1665,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1665年，荷兰画家扬·施梯恩创作了油画《放荡的家庭》，现藏于伦敦威灵顿博物馆阿普斯利室。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ebd477a6-1723-4f66-ad84-7217caf98238",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "景德镇民窑烧制康熙四年青花缠枝莲碗",
+    "titleCn": "景德镇民窑烧制康熙四年青花缠枝莲碗",
+    "date": {
+      "year": 1665
+    },
+    "descriptionCn": "1665年（清康熙四年），景德镇民窑烧制青花缠枝莲碗，碗底款识为“康熙乙巳年制”。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "069a1568-0684-4e28-b424-4c9d8c0b5666",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "罗浮宫柱廊开始建造",
+    "titleCn": "罗浮宫柱廊开始建造",
+    "date": {
+      "year": 1665
+    },
+    "descriptionCn": "1665年，罗浮宫柱廊开始建造，由勒沃、勒布伦和克洛德·佩罗设计。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "路易十四时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "085349a0-a01c-4e8e-b8cd-6f4e1cf25101",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "景德镇民窑烧制康熙五年青花缠枝莲碗",
+    "titleCn": "景德镇民窑烧制康熙五年青花缠枝莲碗",
+    "date": {
+      "year": 1666
+    },
+    "descriptionCn": "1666年（清康熙五年），景德镇民窑烧制青花缠枝莲碗，碗底款识为“大清丙午年制”。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "9542764d-2341-43f8-9926-979dfb42d8fd",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "法国在罗马建立法兰西美术院",
+    "titleCn": "法国在罗马建立法兰西美术院",
+    "date": {
+      "year": 1666
+    },
+    "descriptionCn": "1666年，法国在罗马建立法兰西美术院（French Academy）。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "路易十四时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、雕塑、建筑",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "eb44b818-5122-4dd6-ac13-f3a3dcb63fc5",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "法国皇家学院绘画和雕塑分院在罗马成立",
+    "titleCn": "法国皇家学院绘画和雕塑分院在罗马成立",
+    "date": {
+      "year": 1666
+    },
+    "descriptionCn": "1666年，法国皇家学院绘画和雕塑分院在罗马成立。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画、雕塑",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9ce93a46-c0ff-4bed-8e7a-57e4779793f6",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "法国绘画和雕塑学院在罗马成立",
+    "titleCn": "法国绘画和雕塑学院在罗马成立",
+    "date": {
+      "year": 1666
+    },
+    "descriptionCn": "1666年，法国在罗马成立了法国绘画和雕塑学院，为法国艺术家直接学习古代及文艺复兴时期的重要作品提供了便利。",
+    "importance": 4,
+    "tags": [
+      "其他"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "17世纪",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "其他",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "fc9e4182-fc8b-492d-812b-25af891670fc",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "景德镇民窑烧制康熙六年青花缠枝莲寿字蒜头瓶",
+    "titleCn": "景德镇民窑烧制康熙六年青花缠枝莲寿字蒜头瓶",
+    "date": {
+      "year": 1667
+    },
+    "descriptionCn": "1667年（清康熙六年），景德镇民窑烧制青花缠枝莲寿字蒜头瓶，瓶底款识为“康熙丁未年制”。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "c14f5753-2671-460e-8ec1-c526401b9a87",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "凡·伍斯特维克创作《虚空主义静物画》",
+    "titleCn": "凡·伍斯特维克创作《虚空主义静物画》",
+    "date": {
+      "year": 1668
+    },
+    "descriptionCn": "1668年，荷兰女画家玛利亚·凡·伍斯特维克创作布面油画《虚空主义静物画》，尺寸74厘米×89厘米，现藏于奥地利维也纳艺术史博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "17b3b451-43db-4bc7-928d-60e9398c7b19",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "凡尔赛宫开始建造",
+    "titleCn": "凡尔赛宫开始建造",
+    "date": {
+      "year": 1668
+    },
+    "descriptionCn": "1668年，凡尔赛宫开始建造，先后根据勒沃和朱尔·阿杜安—芒萨尔的设计营建，于1690年完成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "路易十四时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "965c9e96-dc32-4ad0-a4ce-db4ff3127f9e",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "景德镇民窑烧制康熙七年青花柳石纹碗",
+    "titleCn": "景德镇民窑烧制康熙七年青花柳石纹碗",
+    "date": {
+      "year": 1668
+    },
+    "descriptionCn": "1668年（清康熙七年），景德镇民窑烧制青花柳石纹碗，碗底款识为“大清戊申年制”。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "a018db83-a4ff-4b24-be3e-4068aa6703a6",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "斯特拉迪瓦里开始制作小提琴",
+    "titleCn": "斯特拉迪瓦里开始制作小提琴",
+    "date": {
+      "year": 1669
+    },
+    "descriptionCn": "1669年，意大利制琴师安东尼奥·斯特拉迪瓦里在克雷莫纳开始制作小提琴。",
+    "importance": 4,
+    "tags": [
+      "音乐"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "音乐",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "59468aaf-23fa-4d88-9ef2-ae104164d090",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "莱·沃和阿杜安·芒萨尔开始建造凡尔赛宫",
+    "titleCn": "莱·沃和阿杜安·芒萨尔开始建造凡尔赛宫",
+    "date": {
+      "year": 1669
+    },
+    "descriptionCn": "1669年，建筑师路易斯·莱·沃和朱尔斯·阿杜安·芒萨尔开始建造法国凡尔赛宫的花园正面。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "fe82d22d-949a-4f6a-a4f7-f3002326cc34",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "康熙青花山水图笔筒创作",
+    "titleCn": "康熙青花山水图笔筒创作",
+    "date": {
+      "year": 1670
+    },
+    "descriptionCn": "1670年（康熙九年），创作了康熙青花山水图笔筒，以坚定有力的小斧劈皴和方折硬健的勾线用笔，融合南宋院体和明代浙派山水画法，体现了北宗山水风格。",
+    "importance": 3,
+    "tags": [
+      "陶瓷",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "eb4ec5e7-0985-4d29-8005-d5a30832c72b",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "王原祁中进士并被命为任县知县",
+    "titleCn": "王原祁中进士并被命为任县知县",
+    "date": {
+      "year": 1670
+    },
+    "descriptionCn": "康熙九年（1670年），王原祁考中进士，被任命为任县（今河北境内）知县。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "573c7c61-d29c-451c-a7af-5a611a136f86",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "莫里哀创作《贵人迷》",
+    "titleCn": "莫里哀创作《贵人迷》",
+    "date": {
+      "year": 1670
+    },
+    "descriptionCn": "1670年，法国剧作家莫里哀创作戏剧《贵人迷》。",
+    "importance": 3,
+    "tags": [
+      "表演"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "表演",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "6a18a4de-8737-4d3b-9f8d-5e152297020a",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "莱·诺特尔设计香榭丽舍大街",
+    "titleCn": "莱·诺特尔设计香榭丽舍大街",
+    "date": {
+      "year": 1670
+    },
+    "descriptionCn": "1670年，法国园林设计师安德烈·莱·诺特尔在巴黎设计香榭丽舍大街。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "设计"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑、设计",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "144b32d4-ccfc-4c06-a783-2e6d6929dc4c",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "雅格布·范勒伊斯达尔创作《哈勒姆风景以及漂白的地面》",
+    "titleCn": "雅格布·范勒伊斯达尔创作《哈勒姆风景以及漂白的地面》",
+    "date": {
+      "year": 1670,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1670年，雅格布·范勒伊斯达尔创作了《哈勒姆风景以及漂白的地面》。该画作将城市与亚麻制品漂白工业联系在一起，运用戏剧化的明暗对照法突出城市与工业场景，同时将其余风景隐入阴影中。硬朗的地平线、不规则的光线、几何形状的漂白布与丰满的云层形成强烈对比。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "荷兰黄金时代",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "770f9456-7534-4bce-9443-087ba751c379",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "雷斯达尔创作《从奥弗韦恩的土丘上眺望哈勒姆》",
+    "titleCn": "雷斯达尔创作《从奥弗韦恩的土丘上眺望哈勒姆》",
+    "date": {
+      "year": 1670,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1670年，荷兰画家雅各布·凡·雷斯达尔创作布面油画《从奥弗韦恩的土丘上眺望哈勒姆》，尺寸56厘米×62厘米，现藏于荷兰海牙莫里斯绘画陈列馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "bf2783a2-b71a-4595-a1cd-56577127755a",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "利贝拉尔·布律昂建造巴黎残老军人院",
+    "titleCn": "利贝拉尔·布律昂建造巴黎残老军人院",
+    "date": {
+      "year": 1671
+    },
+    "descriptionCn": "1671年，利贝拉尔·布律昂开始建造巴黎残老军人院。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "bd19b702-8c5e-4c00-8d50-ae0f75d8860b",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "景德镇民窑烧制康熙十年青花八仙炉",
+    "titleCn": "景德镇民窑烧制康熙十年青花八仙炉",
+    "date": {
+      "year": 1671
+    },
+    "descriptionCn": "1671年（清康熙十年），景德镇民窑烧制青花八仙炉，炉底款识为“皇清康熙辛亥年制陈门堂用”。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "bdc57724-0923-4460-8168-f2c382bb2dc4",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "李渔撰《李笠翁一家言全集》十六卷",
+    "titleCn": "李渔撰《李笠翁一家言全集》十六卷",
+    "date": {
+      "year": 1671
+    },
+    "descriptionCn": "康熙十年（1671年），李渔撰艺术随笔《李笠翁一家言全集》十六卷，其中《闲情偶寄》八部，广涉戏曲、园林、建筑、工艺、养生、园艺、饮撰等内容。",
+    "importance": 4,
+    "tags": [
+      "文献编纂",
+      "艺术理论"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "文献编纂、艺术理论",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "6a9df1a2-f371-4eab-90b5-a260b4b2e029",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "法国建立建筑研究院",
+    "titleCn": "法国建立建筑研究院",
+    "date": {
+      "year": 1671
+    },
+    "descriptionCn": "1671年，法国建立建筑研究院（Academy of Architecture）。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "路易十四时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "84e0f4d2-32bc-40d4-b4c5-1550d14d57b8",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "中和堂制作康熙壬子年青花釉里红人物盆",
+    "titleCn": "中和堂制作康熙壬子年青花釉里红人物盆",
+    "date": {
+      "year": 1672
+    },
+    "descriptionCn": "1672年（清康熙十一年），中和堂制作青花釉里红人物盆，盆底款识为“康熙壬子中和堂制”。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "c6d1b799-2ad2-4429-ad18-8fa061879264",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "贝洛里解释《阿卡迪亚的牧人》铭文",
+    "titleCn": "贝洛里解释《阿卡迪亚的牧人》铭文",
+    "date": {
+      "year": 1672
+    },
+    "descriptionCn": "1672年，乔万尼·彼得罗·贝洛里在其著作中对普桑《阿卡迪亚的牧人》中的铭文“Et in Arcadia ego”做出解释，认为其含义是“甚至在阿卡迪亚也能找到坟墓”，强调死神在欢乐中出现。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "17世纪",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "42da38c0-529a-48a3-89a3-fa62d8ce0bc2",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "石涛创作《自写种松图》",
+    "titleCn": "石涛创作《自写种松图》",
+    "date": {
+      "year": 1674
+    },
+    "descriptionCn": "1674年，石涛创作《自写种松图》纸本长卷，画中自画像与种松场景结合，背景隐喻明王朝，诗画表达遗民情怀。此画为赠予圈内理解其深意的友人而作。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "42da38c0-529a-48a3-89a3-fa62d8ce0bc2",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "石涛创作《自写种松图》",
+    "titleCn": "石涛创作《自写种松图》",
+    "date": {
+      "year": 1674
+    },
+    "descriptionCn": "1674年，石涛创作《自写种松图》纸本长卷，画中自画像与种松场景结合，背景隐喻明王朝，诗画表达遗民情怀。此画为赠予圈内理解其深意的友人而作。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b6ba1540-541b-4eef-bee5-045a65b11859",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "克里斯托弗·雷恩重建圣保罗教堂",
+    "titleCn": "克里斯托弗·雷恩重建圣保罗教堂",
+    "date": {
+      "year": 1675
+    },
+    "descriptionCn": "1675年至1710年，克里斯托弗·雷恩主持重建了圣保罗教堂，其圆顶设计受到布拉曼特影响。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "英国巴洛克",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "dc4a261c-f0d9-4d0b-b721-42ee465f40af",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "朱尔·阿尔杜安一芒萨尔建造巴黎残老军人院",
+    "titleCn": "朱尔·阿尔杜安一芒萨尔建造巴黎残老军人院",
+    "date": {
+      "year": 1677
+    },
+    "descriptionCn": "1677年，朱尔·阿尔杜安一芒萨尔继续建造巴黎残老军人院。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "3b45d435-8372-4adb-b1b5-70224942a97e",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "朱尔·阿杜安—芒萨尔建造巴黎残老军人院圣路易教堂",
+    "titleCn": "朱尔·阿杜安—芒萨尔建造巴黎残老军人院圣路易教堂",
+    "date": {
+      "year": 1677
+    },
+    "descriptionCn": "1677年至1701年，朱尔·阿杜安—芒萨尔建造巴黎残老军人院圣路易教堂（又称残老军人院小教堂），其圆顶被认为是十七世纪最为优美的。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "路易十四时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "2c60fe0c-6b7d-4378-9e35-fe5067abac1a",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "邑令张齐仲发布禁令禁止镇户瓷器书年号及圣贤字迹",
+    "titleCn": "邑令张齐仲发布禁令禁止镇户瓷器书年号及圣贤字迹",
+    "date": {
+      "year": 1677
+    },
+    "descriptionCn": "1677年（清康熙十六年），浮梁县邑令张齐仲发布禁令，禁止景德镇镇户瓷器上书写年号及圣贤字迹。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "69506720-950d-4d19-9488-da8acf6acbef",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "《芥子园画传》初集成书",
+    "titleCn": "《芥子园画传》初集成书",
+    "date": {
+      "year": 1679
+    },
+    "descriptionCn": "1679年，沈心友邀请龚贤弟子王概等人，根据明末李流芳的课徒画稿，增编成山水图谱并加以解说，李渔作序，以李渔的金陵别业“芥子园”命名，成《芥子园画传》初集。该画传卷一设《画学浅说》《设色各法》，概要介绍山水画技法和前人画论；卷二至卷四设《树法》《石法》《点景画法》等，详细介绍树、石、水、云和点景人物、鸟兽、建筑、舟楫、器具等的具体画法；卷五设《模仿诸家横长各式、宫纨式、折扇式》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "516f3917-5ffc-4378-aed8-23b7003101ec",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "《芥子园画谱》第一部分刻版印刷",
+    "titleCn": "《芥子园画谱》第一部分刻版印刷",
+    "date": {
+      "year": 1679
+    },
+    "descriptionCn": "1679年，《芥子园画谱》第一部分在南京刻版印刷。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "516f3917-5ffc-4378-aed8-23b7003101ec",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "《芥子园画谱》第一部分刻版印刷",
+    "titleCn": "《芥子园画谱》第一部分刻版印刷",
+    "date": {
+      "year": 1679
+    },
+    "descriptionCn": "1679年，《芥子园画谱》第一部分在南京刻版印刷。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "7679a547-958d-4de7-96a3-ac85ff491128",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "在凡尔赛花园中建造露天舞厅",
+    "titleCn": "在凡尔赛花园中建造露天舞厅",
+    "date": {
+      "year": 1680
+    },
+    "descriptionCn": "1680年至1683年，在凡尔赛花园中建造露天舞厅，由勒诺特尔和假山设计师贝蒂埃设计。",
+    "importance": 3,
+    "tags": [
+      "园林",
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "路易十四时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "园林、建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "66fd576a-d4a6-4971-8435-2ce5aacc54b3",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "布拉加教堂出现巴罗克风格",
+    "titleCn": "布拉加教堂出现巴罗克风格",
+    "date": {
+      "year": 1680,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1680年左右，在西班牙影响下，布拉加教堂出现巴罗克风格。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "葡萄牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "5cf2747b-2557-4d7a-8af0-a085b7688a08",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "康熙青花山水图杯创作",
+    "titleCn": "康熙青花山水图杯创作",
+    "date": {
+      "year": 1680
+    },
+    "descriptionCn": "1680年（康熙十九年），创作了康熙青花山水图杯，气韵朦胧，云气氤氲，雅淡效果远超明末勾线分水程式。",
+    "importance": 3,
+    "tags": [
+      "陶瓷",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "34496c0f-fd26-4a64-ae5e-9f1f93979eee",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "康熙青花山水图瓶创作",
+    "titleCn": "康熙青花山水图瓶创作",
+    "date": {
+      "year": 1680
+    },
+    "descriptionCn": "1680年（康熙十九年），创作了康熙青花山水图瓶，布局画诗并举，一器十诗，记录了岸存先生等人的雅趣情怀，描绘景德镇阳府寺、五龙亭等景色。",
+    "importance": 3,
+    "tags": [
+      "陶瓷",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "aab916e8-7b39-4140-9825-c48aadeda3e6",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "青花人物图注子制作",
+    "titleCn": "青花人物图注子制作",
+    "date": {
+      "year": 1680,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1680年，一件高15.6厘米的“青花人物图注子”被制作完成。该注子腹部画有头发卷曲、浓密胸毛的裸体西方男性人物手持镰刀坐在花丛中，是明末清初景德镇工匠根据欧洲图式专门表现的。",
+    "importance": 3,
+    "tags": [
+      "陶瓷",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a6de2b11-be2c-4f61-832d-6992241744ef",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "吴历受洗为天主教徒",
+    "titleCn": "吴历受洗为天主教徒",
+    "date": {
+      "year": 1681
+    },
+    "descriptionCn": "1681年，吴历受洗为天主教徒。他此前眼见明朝灭亡，又遭丧母、丧妻之痛，曾皈依佛门，此后受洗，思想趋于清空。",
+    "importance": 4,
+    "tags": [],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "cabd9d90-e8c0-432c-a6c7-e3fcb7a51fb0",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "萨拉戈萨圣母柱教堂始建",
+    "titleCn": "萨拉戈萨圣母柱教堂始建",
+    "date": {
+      "year": 1681
+    },
+    "descriptionCn": "1681年，胡安·埃雷拉·埃尔·莫索在西班牙萨拉戈萨开始建造圣母柱教堂。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "3fac8f76-bb98-4188-88fc-c4222a60d556",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "安德烈·费利比安出版对著名作家的研究",
+    "titleCn": "安德烈·费利比安出版对著名作家的研究",
+    "date": {
+      "year": 1685
+    },
+    "descriptionCn": "1685年，法国学者安德烈·费利比安出版了对著名作家的生平和作品的研究，其中论及尼古拉斯·普桑的《风景，以及被蛇杀死的人》，认为该画表现了“恐惧的影响效果”。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "f67f3877-b125-4fb8-a29e-4fd0d7328e25",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "费利比安解释《阿卡迪亚的牧人》铭文",
+    "titleCn": "费利比安解释《阿卡迪亚的牧人》铭文",
+    "date": {
+      "year": 1685
+    },
+    "descriptionCn": "1685年，安德烈·费利比安在其传记中对普桑《阿卡迪亚的牧人》中的铭文做出解释，认为铭文强调的是此坟墓中埋葬的人曾经住在阿卡迪亚，将时态理解为过去时。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "17世纪",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "f67f3877-b125-4fb8-a29e-4fd0d7328e25",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "费利比安解释《阿卡迪亚的牧人》铭文",
+    "titleCn": "费利比安解释《阿卡迪亚的牧人》铭文",
+    "date": {
+      "year": 1685
+    },
+    "descriptionCn": "1685年，安德烈·费利比安在其传记中对普桑《阿卡迪亚的牧人》中的铭文做出解释，认为铭文强调的是此坟墓中埋葬的人曾经住在阿卡迪亚，将时态理解为过去时。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "17世纪",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "401faec5-7cb6-4285-9af1-7cc9e6a12b4c",
+    "periodId": "p_early_modern",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "威尼斯军队轰炸帕特农神庙",
+    "titleCn": "威尼斯军队轰炸帕特农神庙",
+    "date": {
+      "year": 1687,
+      "month": 9,
+      "day": 26
+    },
+    "descriptionCn": "1687年9月26日，威尼斯军队的迫击炮轰炸了雅典卫城的帕特农神庙，引爆了土耳其人存放在神庙中的火药，导致神庙严重损毁。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "希腊",
+      "originalPeriod": "奥斯曼帝国时期",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "2e797140-06ed-4ac5-bbe3-5422b9771701",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "康熙青花山水人物图方瓶绘制完成",
+    "titleCn": "康熙青花山水人物图方瓶绘制完成",
+    "date": {
+      "year": 1690
+    },
+    "descriptionCn": "康熙二十九年（1690年）秋月，康熙青花山水人物图方瓶绘制完成，瓶身一侧书“庚午秋月写于青云居玩”。",
+    "importance": 3,
+    "tags": [
+      "陶瓷",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "742acf23-78ae-4671-ab7c-d3c1f301c273",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "八大山人创作《鱼石图》",
+    "titleCn": "八大山人创作《鱼石图》",
+    "date": {
+      "year": 1691,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1691年，八大山人创作《鱼石图》纸本长卷，以极度个性化的风格表现鱼石，诗文隐含对明王朝的哀悼与个人命运的忧虑，此画在其生前并不被广泛欣赏。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "742acf23-78ae-4671-ab7c-d3c1f301c273",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "八大山人创作《鱼石图》",
+    "titleCn": "八大山人创作《鱼石图》",
+    "date": {
+      "year": 1691,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1691年，八大山人创作《鱼石图》纸本长卷，以极度个性化的风格表现鱼石，诗文隐含对明王朝的哀悼与个人命运的忧虑，此画在其生前并不被广泛欣赏。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "698471b9-639e-40ab-9489-2e81cb3d8817",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "何塞·丘里格拉设计萨拉曼卡圣埃斯特万教堂高祭坛",
+    "titleCn": "何塞·丘里格拉设计萨拉曼卡圣埃斯特万教堂高祭坛",
+    "date": {
+      "year": 1693
+    },
+    "descriptionCn": "1693年，何塞·丘里格拉设计了西班牙萨拉曼卡圣埃斯特万教堂的巨型高祭坛。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "5c8d499e-62aa-4d45-bff5-04147a739613",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "卡姆培夫尔在日本江户搜集苏州套色版画并带回英国",
+    "titleCn": "卡姆培夫尔在日本江户搜集苏州套色版画并带回英国",
+    "date": {
+      "year": 1693
+    },
+    "descriptionCn": "1693年（清康熙三十二年），英国人卡姆培夫尔从日本江户搜集了一批苏州套色版画并带回英国。这批版画包括花鸟、仕女、小说戏曲、山水人物、门神钟馗等题材，绘刻精细，设色雅致，是清代早期苏州年画的重要遗存，现藏于大英博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "版画"
+    ],
+    "meta": {
+      "country": "日本",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画、版画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d1058b38-9fee-46b3-b2fd-f62203930f1e",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "卢卡斯·冯·希尔德布兰特建造维也纳观景楼宫及花园",
+    "titleCn": "卢卡斯·冯·希尔德布兰特建造维也纳观景楼宫及花园",
+    "date": {
+      "year": 1693
+    },
+    "descriptionCn": "1693年至1724年间，卢卡斯·冯·希尔德布兰特建造了维也纳观景楼宫及花园。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "奥地利",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "08976795-e93d-4c0c-9dac-49bd5752c990",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "布鲁塞尔大广场“狐”房屋建造",
+    "titleCn": "布鲁塞尔大广场“狐”房屋建造",
+    "date": {
+      "year": 1694
+    },
+    "descriptionCn": "1694年，布鲁塞尔大广场上的“狐”房屋建成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "比利时",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "8938113b-97e7-4ba7-8d09-7cf406c1e871",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "菲舍尔·冯·埃拉赫设计舍恩布龙宫",
+    "titleCn": "菲舍尔·冯·埃拉赫设计舍恩布龙宫",
+    "date": {
+      "year": 1694
+    },
+    "descriptionCn": "1694年，菲舍尔·冯·埃拉赫设计了舍恩布龙宫。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "奥地利",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "99767147-7a26-481d-bfb0-1381cba87851",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "布鲁塞尔大广场“母狼”房屋建造",
+    "titleCn": "布鲁塞尔大广场“母狼”房屋建造",
+    "date": {
+      "year": 1696
+    },
+    "descriptionCn": "1696年，布鲁塞尔大广场上的“母狼”房屋建成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "比利时",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "98dd755a-1d9c-4715-84e0-9c403722f8ac",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "布鲁塞尔大广场“角”房屋建造",
+    "titleCn": "布鲁塞尔大广场“角”房屋建造",
+    "date": {
+      "year": 1696
+    },
+    "descriptionCn": "1696年，布鲁塞尔大广场上的“角”房屋建成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "比利时",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "ee9613c6-3b5d-4bf6-a01a-a0360e57f554",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "布鲁塞尔大广场“袋”房屋建造",
+    "titleCn": "布鲁塞尔大广场“袋”房屋建造",
+    "date": {
+      "year": 1697
+    },
+    "descriptionCn": "1697年，布鲁塞尔大广场上的“袋”房屋建成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "比利时",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "2dc3fd2a-b6e0-4171-a633-b808dae6453e",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "安德烈亚斯·施吕特尔在柏林建造皇宫",
+    "titleCn": "安德烈亚斯·施吕特尔在柏林建造皇宫",
+    "date": {
+      "year": 1698
+    },
+    "descriptionCn": "自1698年起，安德烈亚斯·施吕特尔在柏林建造了皇宫。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "3a5a8500-363d-4bc4-937c-27292f526975",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "约翰·范布勒建造霍华德城堡",
+    "titleCn": "约翰·范布勒建造霍华德城堡",
+    "date": {
+      "year": 1699,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1699年至1712年，约翰·范布勒建造了霍华德城堡。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "英国巴洛克",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  }
+]

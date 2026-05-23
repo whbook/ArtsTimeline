@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import React, { memo, useMemo } from 'react';
 import { Viewport, Stream, TimelineEvent, Period } from '../types';
 import { getDecimalYear, formatFuzzyDate } from '../utils';
 
@@ -13,7 +13,141 @@ interface TimelineCanvasProps {
   onMovementHover: (movement: Stream | null) => void;
   onMovementClick: (movement: Stream) => void;
   onEventHover: (event: TimelineEvent | null) => void;
+  onZoomRange?: (start: number, end: number) => void;
 }
+
+interface EventCluster {
+  type: 'cluster';
+  id: string;
+  x: number;
+  count: number;
+  startYear: number;
+  endYear: number;
+  events: TimelineEvent[];
+  colorHex: string;
+}
+
+interface ProcessedRenderItem {
+  type: 'event' | 'cluster';
+  id: string;
+  x: number; // pixel coordinate
+  event?: TimelineEvent;
+  cluster?: EventCluster;
+  stackLevel: number;
+}
+
+const stackEvents = (
+  visibleEvents: TimelineEvent[],
+  startYear: number,
+  range: number,
+  W: number
+) => {
+  const sorted = [...visibleEvents].sort((a, b) => getDecimalYear(a.date) - getDecimalYear(b.date));
+  const stacked: { event: TimelineEvent; x: number; stackLevel: number }[] = [];
+  const levelEnds: number[] = [];
+  
+  const LABEL_WIDTH = 90; // Label width in pixels
+  const MIN_GAP = 6;      // Gap in pixels
+  const FOOTPRINT = LABEL_WIDTH + MIN_GAP;
+  const MAX_STACK_LEVELS = 3;
+
+  for (const event of sorted) {
+    const year = getDecimalYear(event.date);
+    const x = ((year - startYear) / range) * W;
+    
+    let assignedLevel = -1;
+    for (let level = 0; level < MAX_STACK_LEVELS; level++) {
+      const lastEnd = levelEnds[level] !== undefined ? levelEnds[level] : -Infinity;
+      if (x - FOOTPRINT / 2 >= lastEnd) {
+        assignedLevel = level;
+        break;
+      }
+    }
+
+    if (assignedLevel === -1) {
+      assignedLevel = 0; // fallback to base level if all levels full
+    }
+
+    levelEnds[assignedLevel] = x + FOOTPRINT / 2;
+    stacked.push({
+      event,
+      x,
+      stackLevel: assignedLevel
+    });
+  }
+
+  return stacked;
+};
+
+const clusterEvents = (
+  visibleEvents: TimelineEvent[],
+  startYear: number,
+  range: number,
+  W: number,
+  periods: Period[]
+): ProcessedRenderItem[] => {
+  const sorted = [...visibleEvents].sort((a, b) => getDecimalYear(a.date) - getDecimalYear(b.date));
+  const BUCKET_WIDTH = 75; // Bucket size in pixels
+  const numBuckets = Math.max(1, Math.floor(W / BUCKET_WIDTH));
+  const buckets: TimelineEvent[][] = Array.from({ length: numBuckets }, () => []);
+
+  for (const event of sorted) {
+    const year = getDecimalYear(event.date);
+    const x = ((year - startYear) / range) * W;
+    let bucketIdx = Math.floor((x / W) * numBuckets);
+    bucketIdx = Math.max(0, Math.min(numBuckets - 1, bucketIdx));
+    buckets[bucketIdx].push(event);
+  }
+
+  const result: ProcessedRenderItem[] = [];
+
+  for (let i = 0; i < numBuckets; i++) {
+    const bucketEvents = buckets[i];
+    if (bucketEvents.length === 0) continue;
+
+    if (bucketEvents.length === 1) {
+      const event = bucketEvents[0];
+      const year = getDecimalYear(event.date);
+      const x = ((year - startYear) / range) * W;
+      result.push({
+        type: 'event',
+        id: `evt-${event.id}`,
+        x,
+        event,
+        stackLevel: 0
+      });
+    } else {
+      const years = bucketEvents.map(e => getDecimalYear(e.date));
+      const minYear = Math.min(...years);
+      const maxYear = Math.max(...years);
+      const meanYear = years.reduce((sum, y) => sum + y, 0) / years.length;
+      const x = ((meanYear - startYear) / range) * W;
+
+      const dominantPeriodId = bucketEvents[0].periodId;
+      const era = periods.find(p => p.id === dominantPeriodId);
+      const colorHex = era?.colorHex || '#1F8A70';
+
+      result.push({
+        type: 'cluster',
+        id: `cluster-${i}-${minYear.toFixed(1)}-${maxYear.toFixed(1)}`,
+        x,
+        stackLevel: 0,
+        cluster: {
+          type: 'cluster',
+          id: `cluster-${i}`,
+          x,
+          count: bucketEvents.length,
+          startYear: minYear,
+          endYear: maxYear,
+          events: bucketEvents,
+          colorHex
+        }
+      });
+    }
+  }
+
+  return result;
+};
 
 const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({ 
     viewport, 
@@ -25,7 +159,8 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
     onEventClick,
     onMovementHover,
     onMovementClick,
-    onEventHover 
+    onEventHover,
+    onZoomRange
 }) => {
   const { startYear, endYear } = viewport;
   const range = endYear - startYear;
@@ -90,6 +225,40 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
       willChange: 'transform'
     };
   };
+
+  // Find current screen width for responsive stacking & clustering
+  const W = typeof window !== 'undefined' ? window.innerWidth : 1200;
+
+  // 1. Filter events within the current viewport range
+  const viewportEvents = useMemo(() => {
+    return events.filter(event => {
+      const year = getDecimalYear(event.date);
+      // Give a tiny padding at edges
+      const padding = range * 0.01;
+      return year >= startYear - padding && year <= endYear + padding;
+    });
+  }, [events, startYear, endYear, range]);
+
+  // 2. Compute processed layout items (hybrid of stacking or clustering)
+  const processedItems = useMemo(() => {
+    if (viewportEvents.length === 0) return [];
+
+    // If there are more than 40 events on the screen, transition into clustering
+    const isDense = viewportEvents.length > 40;
+
+    if (isDense) {
+      return clusterEvents(viewportEvents, startYear, range, W, periods);
+    } else {
+      const stacked = stackEvents(viewportEvents, startYear, range, W);
+      return stacked.map((s, idx) => ({
+        type: 'event' as const,
+        id: `evt-${s.event.id}-${idx}`,
+        x: s.x,
+        event: s.event,
+        stackLevel: s.stackLevel
+      }));
+    }
+  }, [viewportEvents, startYear, range, W, periods]);
 
   return (
     <div className="absolute top-12 left-0 w-full h-[400px] overflow-visible pointer-events-none z-10">
@@ -202,14 +371,86 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
         );
       })}
 
-      {/* LAYER 3: Specific Events Markers */}
-      {events.map(event => {
-        const eventYear = getDecimalYear(event.date);
-        const pos = getPercentage(eventYear);
-        if (pos < -2 || pos > 102) return null;
+      {/* LAYER 3: Specific Events Markers (Clustered or Stacked) */}
+      {processedItems.map(item => {
+        // --- 1. RENDER CLUSTER ---
+        if (item.type === 'cluster') {
+          const cluster = item.cluster!;
+          const count = cluster.count;
+          const color = cluster.colorHex;
+
+          const hoverTooltip = (
+            <div className="absolute bottom-full mb-3 hidden group-hover:block bg-gray-900/95 backdrop-blur-md text-white text-xs p-3.5 rounded-lg shadow-2xl z-50 w-72 pointer-events-none text-left border border-gray-700">
+              <strong className="font-serif text-sm block mb-2 pb-1.5 border-b border-gray-700/80 text-[#DAA520] flex justify-between">
+                <span>{count} 个艺术事件</span>
+                <span className="font-mono text-xs text-gray-400 font-normal">
+                  {formatFuzzyDate({ year: Math.round(cluster.startYear) })} - {formatFuzzyDate({ year: Math.round(cluster.endYear) })}
+                </span>
+              </strong>
+              <ul className="space-y-2 max-h-52 overflow-hidden">
+                {cluster.events.slice(0, 5).map(e => {
+                  const title = e.titleCn || e.titleEn;
+                  const yearStr = formatFuzzyDate(e.date);
+                  return (
+                    <li key={e.id} className="text-[11px] leading-relaxed flex items-start gap-1">
+                      <span className="text-[#DAA520]/85 font-mono shrink-0 select-none">[{yearStr}]</span>
+                      <span className="text-gray-200 truncate font-sans">{title}</span>
+                    </li>
+                  );
+                })}
+              </ul>
+              {count > 5 && (
+                <div className="text-gray-400 text-[10px] mt-2 pt-2 border-t border-gray-800/80 text-center italic">
+                  还有 {count - 5} 个事件... 点击区域放大查看
+                </div>
+              )}
+            </div>
+          );
+
+          return (
+            <div 
+              key={item.id}
+              onClick={(e) => {
+                e.stopPropagation();
+                onZoomRange?.(cluster.startYear, cluster.endYear);
+              }}
+              className="absolute flex flex-col items-center group pointer-events-auto cursor-zoom-in z-25"
+              style={{ 
+                top: `calc(100% - ${60 * Math.max(1, scaleY)}px)`, // Position at base events baseline
+                left: 0, 
+                transform: `translate3d(calc(${(item.x / W) * 100}vw - 50%), 0, 0)`,
+                willChange: 'transform'
+              }}
+            >
+              {/* Cluster Bubble Representation */}
+              <div className="relative flex items-center justify-center">
+                {/* Outer ring */}
+                <div 
+                  className="absolute inset-0 rounded-full bg-current opacity-30 animate-pulse scale-125"
+                  style={{ color }}
+                ></div>
+                
+                {/* Inner bubble */}
+                <div 
+                  className="w-8 h-8 rounded-full border-2 border-white shadow-xl flex items-center justify-center font-bold text-[11px] text-white z-10 transition-transform group-hover:scale-115"
+                  style={{ backgroundColor: color }}
+                >
+                  {count}
+                </div>
+              </div>
+
+              {hoverTooltip}
+            </div>
+          );
+        }
+
+        // --- 2. RENDER INDIVIDUAL EVENT (Stacked) ---
+        const event = item.event!;
         
-        const engLabel = event.titleEn;
-        const cnLabel = event.titleCn;
+        const cnLabel = event.titleCn?.trim();
+        const engLabel = event.titleEn?.trim();
+        const primaryLabel = cnLabel || engLabel || '';
+        const secondaryLabel = cnLabel && engLabel && cnLabel !== engLabel ? engLabel : null;
         const era = periods.find(p => p.id === event.periodId);
         const colorHex = era?.colorHex || '#999';
 
@@ -224,22 +465,36 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
           importance === 4 ? 'w-2.5 h-2.5 border-[1.5px]' : // 10px
           'w-2 h-2 border-[1px]'; // 8px
 
-        const topPos = `calc(100% - ${60 * Math.max(1, scaleY)}px)`;
+        // Y positioning: Base baseline + stacking offset upwards
+        const verticalOffset = item.stackLevel * 55;
+        const topPos = `calc(100% - ${60 * Math.max(1, scaleY)}px - ${verticalOffset}px)`;
 
         return (
             <div 
-                key={`evt-${event.id}-${eventYear}`}
+                key={item.id}
                 onClick={() => onEventClick(event)}
                 onMouseEnter={() => onEventHover(event)}
                 onMouseLeave={() => onEventHover(null)}
                 className="absolute flex flex-col items-center group pointer-events-auto cursor-pointer z-20"
                 style={{ 
-                    top: topPos, // Position from bottom instead of fixed top
+                    top: topPos,
                     left: 0, 
-                    transform: `translate3d(calc(${pos}vw - 50%), 0, 0)`,
+                    transform: `translate3d(calc(${(item.x / W) * 100}vw - 50%), 0, 0)`,
                     willChange: 'transform'
                 }}
             >
+                {/* Vertical Connector Line (draws down to baseline) */}
+                {item.stackLevel > 0 && (
+                  <div 
+                    className="absolute bottom-0 w-[1px] border-l border-dashed border-gray-400/80 pointer-events-none"
+                    style={{ 
+                      height: `${verticalOffset}px`,
+                      transform: 'translateY(100%)',
+                      zIndex: -1
+                    }}
+                  ></div>
+                )}
+
                 {/* The Dot Wrapper */}
                 <div className="relative flex items-center justify-center">
                     {/* Prefix for not_before */}
@@ -265,9 +520,9 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
                 </div>
                 
                 {/* The Label */}
-                <div className="mt-2 flex flex-col items-center opacity-70 group-hover:opacity-100 transition-opacity bg-white/90 backdrop-blur-sm px-1.5 py-1 rounded border border-gray-100 shadow-sm text-center">
-                    <span className="text-[9px] font-bold text-gray-800 whitespace-nowrap block leading-tight">{engLabel}</span>
-                    {cnLabel && <span className="text-[9px] font-medium text-gray-600 whitespace-nowrap block leading-tight scale-90">{cnLabel}</span>}
+                <div className="mt-2 flex flex-col items-center opacity-75 group-hover:opacity-100 transition-opacity bg-white/95 backdrop-blur-sm px-2 py-1 rounded-md border border-gray-200 shadow-md text-center max-w-[120px]">
+                    <span className="text-[9px] font-bold text-gray-800 leading-tight block truncate w-full">{primaryLabel}</span>
+                    {secondaryLabel && <span className="text-[8px] font-medium text-gray-500 leading-tight block truncate w-full mt-0.5">{secondaryLabel}</span>}
                     <span className="text-[8px] text-gray-400 font-mono block mt-0.5">{formatFuzzyDate(event.date)}</span>
                 </div>
             </div>

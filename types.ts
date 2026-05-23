@@ -21,6 +21,7 @@ export interface Topic extends TopicEntry {
   maxZoomRange?: number; // Maximum years visible in viewport
   playbackSpeed?: number; // Multiplier for auto-play speed / 自动播放速度倍率
   eventFields: FieldDef[];
+  chunked?: boolean;
 }
 
 // --- 时间精度与模糊日期 ---

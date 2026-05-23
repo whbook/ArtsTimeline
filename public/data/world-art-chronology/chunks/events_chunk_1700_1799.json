@@ -1,0 +1,6443 @@
+[
+  {
+    "id": "a13452fe-2114-461e-af58-2df51d6d55ca",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "四大徽班进京",
+    "titleCn": "四大徽班进京",
+    "date": {
+      "year": 1700
+    },
+    "descriptionCn": "1700年，四大徽班进京，此后在吸收各种剧种精华的基础上形成了京剧。",
+    "importance": 4,
+    "tags": [
+      "表演",
+      "戏曲"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "表演、戏曲",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "56681360-5bd2-4bba-96f8-f59b8b85711c",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "朱尔·阿杜安—芒萨尔建造凡尔赛宫小教堂",
+    "titleCn": "朱尔·阿杜安—芒萨尔建造凡尔赛宫小教堂",
+    "date": {
+      "year": 1700
+    },
+    "descriptionCn": "1700年至1710年，朱尔·阿杜安—芒萨尔建造凡尔赛宫小教堂（Versailles Chapelle du Palais），后由其侄子罗贝尔·德·科特完成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "路易十四时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "0d255f89-765f-4376-b2d4-59c8d173f633",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "《芥子园画传》二集、三集成书",
+    "titleCn": "《芥子园画传》二集、三集成书",
+    "date": {
+      "year": 1701
+    },
+    "descriptionCn": "1701年，王概与其兄弟编绘《芥子园画传》二集和三集。二集共七卷，包括兰、竹、梅、菊画法浅说，下附各花画法，集首有王概序，各谱前有王蓍序；三集共三卷，包括各式花卉、草虫、翎毛的学画浅说和画法歌诀。三集图文结合，浅显明了，重实用性、工具性，适应了画家课徒和绘画市场化的需求。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "df049729-efcc-474b-9106-c9409b610e08",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "亚森特·里戈创作《法王路易十四肖像》",
+    "titleCn": "亚森特·里戈创作《法王路易十四肖像》",
+    "date": {
+      "year": 1701
+    },
+    "descriptionCn": "1701年，亚森特·里戈受路易十四委托创作了布面油画《法王路易十四肖像》，尺寸为2.7米×1.8米，现藏于法国巴黎的卢浮宫。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "巴洛克",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "477c041f-d929-4bdc-acf3-867c45a36131",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "王原祁创作《岁寒三友图》",
+    "titleCn": "王原祁创作《岁寒三友图》",
+    "date": {
+      "year": 1702
+    },
+    "descriptionCn": "1702年，王原祁创作《岁寒三友图》纸本水墨立轴。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "477c041f-d929-4bdc-acf3-867c45a36131",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "王原祁创作《岁寒三友图》",
+    "titleCn": "王原祁创作《岁寒三友图》",
+    "date": {
+      "year": 1702
+    },
+    "descriptionCn": "1702年，王原祁创作《岁寒三友图》纸本水墨立轴。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "67e79466-0d95-488d-b608-036810f79f2e",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "彼得大帝下令建设圣彼得堡城",
+    "titleCn": "彼得大帝下令建设圣彼得堡城",
+    "date": {
+      "year": 1703
+    },
+    "descriptionCn": "1703年，彼得大帝下令在涅瓦河畔建设圣彼得堡城，计划使之成为欧洲风格的城市。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "俄罗斯",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "061abc2b-82bb-4194-96fe-a07550a0c3e4",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "菲舍尔·冯·埃拉赫设计欧根亲王宫",
+    "titleCn": "菲舍尔·冯·埃拉赫设计欧根亲王宫",
+    "date": {
+      "year": 1703
+    },
+    "descriptionCn": "1703年，菲舍尔·冯·埃拉赫为欧根亲王设计了维也纳的欧根亲王宫。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "奥地利",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "c2161b49-0e50-4c70-ba21-f62ba2d6738d",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "圣本托教堂祭坛主隔墙制作",
+    "titleCn": "圣本托教堂祭坛主隔墙制作",
+    "date": {
+      "year": 1705,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1705年，奥波尔图圣本托教堂的祭坛主隔墙制作，采用所罗门式柱。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "葡萄牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "e0f883f2-1a38-4a8d-ab43-07da80ab9f5d",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "王原祁转任翰林院侍读学士并充任书画谱总裁",
+    "titleCn": "王原祁转任翰林院侍读学士并充任书画谱总裁",
+    "date": {
+      "year": 1705
+    },
+    "descriptionCn": "康熙四十四年（1705年），王原祁由翰林院侍讲学士转任翰林院侍读学士，充任书画谱总裁，奉命与他人共同编辑《佩文斋书画谱》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4b8e24d0-2d28-45e0-887a-02cd11d0c330",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "约翰·范布勒建造布伦海姆宫",
+    "titleCn": "约翰·范布勒建造布伦海姆宫",
+    "date": {
+      "year": 1705,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1705年至1724年，约翰·范布勒建造了布伦海姆宫。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "英国巴洛克",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "286925a4-4747-43d6-bba0-1b88f8733e66",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "匿名创作《查茨沃思，德比郡》",
+    "titleCn": "匿名创作《查茨沃思，德比郡》",
+    "date": {
+      "year": 1707
+    },
+    "descriptionCn": "1707—1711年，匿名创作了《查茨沃思，德比郡》，画作展现了庄园内秩序井然的花园与周围荒凉山地的强烈对比。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "e6378200-95c9-490b-9799-f6b4e0810541",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "德国德累斯顿设立瓷器工场",
+    "titleCn": "德国德累斯顿设立瓷器工场",
+    "date": {
+      "year": 1709,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "康熙四十八年（1709年），德国德累斯顿设立了瓷器工场，约翰·波洁成为西方烧制瓷器第一人。",
+    "importance": 4,
+    "tags": [
+      "工艺美术"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "工艺美术",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "7cdd0af1-f26c-4130-a262-aded9e5c1bc3",
+    "periodId": "p_early_modern",
+    "streamId": "s_americas_oceania",
+    "titleEn": "波士顿国王教堂建成",
+    "titleCn": "波士顿国王教堂建成",
+    "date": {
+      "year": 1709
+    },
+    "descriptionCn": "1709年，波士顿国王教堂建成，属于雷恩式建筑。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "殖民时期",
+      "standardPeriod": "美洲与大洋洲",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "abbfacfb-556c-4548-9db7-872ed52dec7a",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "制作中国艺术风格咖啡或巧克力罐",
+    "titleCn": "制作中国艺术风格咖啡或巧克力罐",
+    "date": {
+      "year": 1710
+    },
+    "descriptionCn": "1710年至1730年，制作了带有法式镀铜底座的上釉带盖中国艺术风格瓷罐，高33.5厘米，现藏于伦敦维多利亚和阿尔伯特博物馆。",
+    "importance": 3,
+    "tags": [
+      "设计",
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "洛可可",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "设计、陶瓷",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "56725bdd-6f5b-4a53-9b34-1357280e5119",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "迈斯森瓷器作坊成立",
+    "titleCn": "迈斯森瓷器作坊成立",
+    "date": {
+      "year": 1710,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1710年，约翰·弗烈特利殊·波格在德累斯顿成功设立迈斯森瓷器作坊，大量生产坚硬白瓷，创造彩瓷风格。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "18世纪德国",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "7a7cea01-3299-4f9a-8d1f-8716a0ba3e78",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "马国贤抵达澳门",
+    "titleCn": "马国贤抵达澳门",
+    "date": {
+      "year": 1710
+    },
+    "descriptionCn": "康熙四十九年（1710年），意大利传教士马国贤抵达澳门，后被召至清宫，先后刻印铜版画《避暑山庄三十六景》、《皇舆全览图》44幅，并绘制《圆明园四十景》。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "版画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画、版画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b9bdaaf5-391e-4544-b1f9-aac4666ab9fc",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "珀佩尔曼兴建德累斯顿茨温格亭",
+    "titleCn": "珀佩尔曼兴建德累斯顿茨温格亭",
+    "date": {
+      "year": 1711
+    },
+    "descriptionCn": "1711年至1722年间，珀佩尔曼在德累斯顿兴建了茨温格亭，这是德国最巴洛克式的纪念碑建筑，后在第二次世界大战中遭毁。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "1efc9dd0-c833-4f09-a991-28c16bf016c6",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "卢多维塞建造马夫拉王宫一修道院",
+    "titleCn": "卢多维塞建造马夫拉王宫一修道院",
+    "date": {
+      "year": 1713
+    },
+    "descriptionCn": "1713年，卢多维塞在葡萄牙建造马夫拉王宫一修道院。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "葡萄牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "f2641be1-9a3d-425f-8522-409f65e34dc0",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "马夫拉宫殿-修道院建造",
+    "titleCn": "马夫拉宫殿-修道院建造",
+    "date": {
+      "year": 1713
+    },
+    "descriptionCn": "1713年至1735年，马夫拉宫殿-修道院营建。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "葡萄牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "c3c506c7-3cf5-40f9-a8ce-806b48d75270",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "帕拉迪奥论文集豪华版出版",
+    "titleCn": "帕拉迪奥论文集豪华版出版",
+    "date": {
+      "year": 1715
+    },
+    "descriptionCn": "1715年，由伊尼戈·琼斯注释的帕拉迪奥论文集的豪华版出版。",
+    "importance": 2,
+    "tags": [],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "英国乔治王朝",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "6bba8b14-7eff-4241-9206-b844d3ac990f",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "康熙青花山水人物图凤尾尊制作完成",
+    "titleCn": "康熙青花山水人物图凤尾尊制作完成",
+    "date": {
+      "year": 1715
+    },
+    "descriptionCn": "康熙五十四年（1715年）仲夏，信士生员和德威喜助清溪古洞神前花瓶一枝，即康熙青花山水人物图凤尾尊制作完成。",
+    "importance": 3,
+    "tags": [
+      "陶瓷",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9c9877ef-090a-4187-bbde-f44da6f70e09",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "郎世宁抵达中国",
+    "titleCn": "郎世宁抵达中国",
+    "date": {
+      "year": 1715
+    },
+    "descriptionCn": "康熙五十四年（1715年），意大利传教士画家郎世宁抵达中国，随后在清宫供职近半个世纪，成为宫廷首席画家。他融合中西画法，创作了大量肖像画、战功图和花鸟走兽画。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "1667a1f6-b649-41ab-b4cb-594d34b4edd7",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "阿兰胡埃斯王家官邸建造",
+    "titleCn": "阿兰胡埃斯王家官邸建造",
+    "date": {
+      "year": 1715
+    },
+    "descriptionCn": "1715年，西班牙阿兰胡埃斯王家官邸开始建造，由意大利或法国建筑师依据凡尔赛宫样式设计，持续至1752年。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "00522c1d-9a4a-4dea-a778-77e9c69dcb65",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "制作海洋马车",
+    "titleCn": "制作海洋马车",
+    "date": {
+      "year": 1716
+    },
+    "descriptionCn": "1716年，制作了木质、丝绸和铁的雕刻鎏金马车“海洋马车”，尺寸为3.6米×6.8米，现藏于葡萄牙里斯本的国家车马博物馆。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "设计"
+    ],
+    "meta": {
+      "country": "葡萄牙",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑、设计",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "c95d81b8-fa6d-4b1c-bb35-89a3beaae40c",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "埃吉德·克维林·阿萨姆制作圣母升天圣坛雕刻",
+    "titleCn": "埃吉德·克维林·阿萨姆制作圣母升天圣坛雕刻",
+    "date": {
+      "year": 1717,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1717年至1722年间，埃吉德·克维林·阿萨姆在雷根斯堡附近的罗尔教堂制作了圣母升天圣坛雕刻。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "洛可可时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "1dce4abd-ba56-4367-bbf4-2c8a37c9f599",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "安东尼·华托创作《基西拉岛朝圣》",
+    "titleCn": "安东尼·华托创作《基西拉岛朝圣》",
+    "date": {
+      "year": 1717
+    },
+    "descriptionCn": "1717年，安东尼·华托创作了布面油画《基西拉岛朝圣》，尺寸为1.3米×1.94米，现藏于法国巴黎的卢浮宫。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "洛可可",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "68fe4a62-5b87-4dc7-8663-e9eb654e89c4",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "菲舍尔·冯·埃拉赫设计维也纳圣查尔斯·博罗穆斯教堂",
+    "titleCn": "菲舍尔·冯·埃拉赫设计维也纳圣查尔斯·博罗穆斯教堂",
+    "date": {
+      "year": 1717
+    },
+    "descriptionCn": "1717年，菲舍尔·冯·埃拉赫设计了维也纳圣查尔斯·博罗穆斯教堂。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "奥地利",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "4fe9abb0-15d2-4cce-9c49-03a4cd34af3d",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "让-安托万·华托创作油画《丑角吉尔》",
+    "titleCn": "让-安托万·华托创作油画《丑角吉尔》",
+    "date": {
+      "year": 1718
+    },
+    "descriptionCn": "1718年至1719年，让-安托万·华托创作了布面油画《丑角吉尔》。画中丑角面带忧戚，身后有人逗弄驴子，喻指其被当作笑料。该作品反映了艺术家对模仿自然的徒劳与自我内省。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "adef8c8f-b054-40f9-8478-9db0dfce0048",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "阿诺德·豪布拉肯撰写《伟大的尼德兰画家和女画家的舞台》",
+    "titleCn": "阿诺德·豪布拉肯撰写《伟大的尼德兰画家和女画家的舞台》",
+    "date": {
+      "year": 1718
+    },
+    "descriptionCn": "1718年至1721年，荷兰画家兼作家阿诺德·豪布拉肯（Arnold Houbraken）撰写并出版了《伟大的尼德兰画家和女画家的舞台》，首次在书名中承认女性艺术家的贡献。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "巴洛克",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "3fb29342-6499-418b-ba46-727ae942ac1f",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "杜·巴斯修道院长翻译《阿卡迪亚的牧人》铭文",
+    "titleCn": "杜·巴斯修道院长翻译《阿卡迪亚的牧人》铭文",
+    "date": {
+      "year": 1719
+    },
+    "descriptionCn": "1719年，杜·巴斯修道院长将拉丁文铭文“Et in Arcadia ego”翻译为法语“Je vivais cependant en Arcadie”，意为“然而我在阿卡迪亚生活过”，将“et”译为“然而”。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "3d072898-8c64-4516-923b-177798dec2ae",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "约翰·巴尔塔扎尔·诺伊曼建造维尔茨堡府邸",
+    "titleCn": "约翰·巴尔塔扎尔·诺伊曼建造维尔茨堡府邸",
+    "date": {
+      "year": 1719,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1719年至1744年间，约翰·巴尔塔扎尔·诺伊曼建造了弗兰科尼亚维尔茨堡府邸。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "3b7e57f4-e3a7-4108-8ad8-fd48c31f98f4",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "迪博神父发表《关于诗歌与绘画的批评思考》",
+    "titleCn": "迪博神父发表《关于诗歌与绘画的批评思考》",
+    "date": {
+      "year": 1719
+    },
+    "descriptionCn": "1719年，迪博神父发表著作《关于诗歌与绘画的批评思考》，在书中定义了“公众”的概念，认为公众是通过阅读或与世界的交流获得启蒙的人。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "d171b842-afcd-420e-8f38-bc4a384da39b",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "华托创作《热尔森店铺招牌》",
+    "titleCn": "华托创作《热尔森店铺招牌》",
+    "date": {
+      "year": 1720
+    },
+    "descriptionCn": "1720年至1721年，法国画家让-安托万·华托为画商E.-F. 热尔森创作了油画《店铺招牌》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "354781c8-78f2-4a60-8090-1c7e32039945",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "华托创作《舟发西苔岛》",
+    "titleCn": "华托创作《舟发西苔岛》",
+    "date": {
+      "year": 1720
+    },
+    "descriptionCn": "1720年至1721年，法国画家让-安托万·华托创作了油画《舟发西苔岛》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "185e961c-1cf7-468d-9d69-3e0055cacf8b",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "景德镇画工开始采用墨绘法摹仿西方版画",
+    "titleCn": "景德镇画工开始采用墨绘法摹仿西方版画",
+    "date": {
+      "year": 1720
+    },
+    "descriptionCn": "1720年起，景德镇画工开始利用墨绘法摹仿西方线刻及版画，以忠实复制西方版画效果。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "887962d4-4ef6-465b-bf25-25e5da9d86ad",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "拉格兰哈庄园建造",
+    "titleCn": "拉格兰哈庄园建造",
+    "date": {
+      "year": 1721
+    },
+    "descriptionCn": "1721年，西班牙拉格兰哈庄园开始建造，由意大利或法国建筑师依据凡尔赛宫样式设计，持续至1725年。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "109d8f69-6804-498e-be95-4b4d4511acc3",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "徐祺父子著《五知斋琴谱》刊行",
+    "titleCn": "徐祺父子著《五知斋琴谱》刊行",
+    "date": {
+      "year": 1722
+    },
+    "descriptionCn": "康熙六十一年（1722年），徐祺父子著《五知斋琴谱》八卷刊行。该谱对33首琴曲进行加工，注明源流出处，指法细致详尽，自身识见一一注于谱旁，此后清代不断翻刻，版本达十余种，成为传世琴谱中翻刻数量最多、流传最广、影响最大的琴谱。",
+    "importance": 4,
+    "tags": [
+      "音乐"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "音乐",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "747a05c1-281a-4f6b-8222-32795097b915",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "郎世宁创作《聚瑞图》",
+    "titleCn": "郎世宁创作《聚瑞图》",
+    "date": {
+      "year": 1723
+    },
+    "descriptionCn": "1723年，郎世宁创作《聚瑞图》立轴绢本。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "747a05c1-281a-4f6b-8222-32795097b915",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "郎世宁创作《聚瑞图》",
+    "titleCn": "郎世宁创作《聚瑞图》",
+    "date": {
+      "year": 1723
+    },
+    "descriptionCn": "1723年，郎世宁创作《聚瑞图》立轴绢本。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "52321afe-fe63-4a25-a771-d891b6e8b69b",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "佚名创作威廉三世国王与玛丽王后蜡像",
+    "titleCn": "佚名创作威廉三世国王与玛丽王后蜡像",
+    "date": {
+      "year": 1725,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1725年，佚名艺术家创作了威廉三世国王与玛丽王后的蜡像模型。该蜡像因过于真实而受到批评，被认为降低了王者的神秘感，反映出低级的写实主义艺术威胁社会等级秩序。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "9623b717-1b64-42d4-8ff4-571af38d1443",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "劝酒图剃须盎制作完成",
+    "titleCn": "劝酒图剃须盎制作完成",
+    "date": {
+      "year": 1725
+    },
+    "descriptionCn": "1725年至1735年间，制作了劝酒图剃须盎，椭圆形，直径分别为25厘米和31.2厘米。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "设计"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画、设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d042cb6e-7564-407f-9f95-a4491e5d4281",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "幽闺仕女图奶壶制作",
+    "titleCn": "幽闺仕女图奶壶制作",
+    "date": {
+      "year": 1725
+    },
+    "descriptionCn": "1725年至1735年间，一件高22.5厘米的“幽闺仕女图奶壶”被制作完成。该壶壶身分段饰以釉上彩欧式图案，壶腹部分描绘了中国味的仕女图，被欧洲人称为“修长的伊莉莎”幽闺图。",
+    "importance": 3,
+    "tags": [
+      "陶瓷",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a691247f-2ffb-4170-80b7-daffecbcb6b3",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "欧籍夫妇与狗儿漫步图碟制作完成",
+    "titleCn": "欧籍夫妇与狗儿漫步图碟制作完成",
+    "date": {
+      "year": 1725
+    },
+    "descriptionCn": "1725年至1730年间，制作了欧籍夫妇与狗儿漫步图碟，碟边饰以青花、铁红彩、金彩及釉上珐琅彩的花卉吉祥图案，主图描绘一对欧籍夫妇与狗儿漫步于中国式庭园。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ae7f6b6e-5c97-4845-83e2-6b485a4744ff",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "格拉纳达卡尔特修道院圣器收藏室修建",
+    "titleCn": "格拉纳达卡尔特修道院圣器收藏室修建",
+    "date": {
+      "year": 1727
+    },
+    "descriptionCn": "1727年至1764年，西班牙格拉纳达的卡尔特修道院圣器收藏室被建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "ecfa7953-38ac-47ae-ab9d-1ab8bbb79a36",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "雍正帝谕旨怡亲王试炼珐琅料并成功",
+    "titleCn": "雍正帝谕旨怡亲王试炼珐琅料并成功",
+    "date": {
+      "year": 1728,
+      "month": 2
+    },
+    "descriptionCn": "雍正六年（1728年）二月，雍正帝谕旨怡亲王试炼珐琅料，经昼夜试炼，于同年七月取得成功。",
+    "importance": 4,
+    "tags": [
+      "陶瓷",
+      "工艺美术"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、工艺美术",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "a478c7c7-f423-4e4a-8b94-f2eabaa2968e",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "高其佩创作《怒容钟馗图》",
+    "titleCn": "高其佩创作《怒容钟馗图》",
+    "date": {
+      "year": 1728
+    },
+    "descriptionCn": "1728年端午节，高其佩创作《怒容钟馗图》巨幅立轴，以指头画法绘钟馗怒容，墨线为主，题款署名，作为礼物赠与他人。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a478c7c7-f423-4e4a-8b94-f2eabaa2968e",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "高其佩创作《怒容钟馗图》",
+    "titleCn": "高其佩创作《怒容钟馗图》",
+    "date": {
+      "year": 1728
+    },
+    "descriptionCn": "1728年端午节，高其佩创作《怒容钟馗图》巨幅立轴，以指头画法绘钟馗怒容，墨线为主，题款署名，作为礼物赠与他人。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "7b927006-ef68-466c-99c3-4dd496b4eb92",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "《衡方碑》陷没",
+    "titleCn": "《衡方碑》陷没",
+    "date": {
+      "year": 1730
+    },
+    "descriptionCn": "公元1730年（清雍正八年），汶水泛滥导致《衡方碑》陷入水中。后由当地居民重新树立，今存于山东泰安岱庙。",
+    "importance": 4,
+    "tags": [
+      "书法",
+      "碑刻"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "书法、碑刻",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "1cede301-09d1-488d-b34f-aa6b0410b108",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "科尼利厄斯·普龙克创作哈勒姆茶馆水彩画",
+    "titleCn": "科尼利厄斯·普龙克创作哈勒姆茶馆水彩画",
+    "date": {
+      "year": 1730,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1730年，科尼利厄斯·普龙克创作了一幅以哈勒姆公园茶馆为题材的水彩画，该画可能与后来的瓷器纹样相关。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "18世纪荷兰",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d501fd28-d35b-441a-af61-74eeb0405735",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "《绅士杂志》首次出版",
+    "titleCn": "《绅士杂志》首次出版",
+    "date": {
+      "year": 1732
+    },
+    "descriptionCn": "1732年，《绅士杂志》在英国首次出版，频繁发表关于两性角色退化的说教文章。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "8c52def3-04f1-4f30-bacf-2a641ae53cdc",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "奥波尔图圣佩德罗教堂始建",
+    "titleCn": "奥波尔图圣佩德罗教堂始建",
+    "date": {
+      "year": 1732
+    },
+    "descriptionCn": "1732年，奥波尔图圣佩德罗教堂始建。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "葡萄牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "9f6a1914-6452-479d-91cb-3ea3ce03146a",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "托莱多教堂染色玻璃窗落成",
+    "titleCn": "托莱多教堂染色玻璃窗落成",
+    "date": {
+      "year": 1732
+    },
+    "descriptionCn": "1732年，纳西索·托梅制作的托莱多教堂的染色玻璃窗（Transparente）落成，并举行了庆祝活动。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "7f0c4315-cdf8-4026-82a4-b0770874e5b3",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "荷加斯创作《大笑的观众》",
+    "titleCn": "荷加斯创作《大笑的观众》",
+    "date": {
+      "year": 1733
+    },
+    "descriptionCn": "1733年，英国画家威廉·荷加斯创作了版画《大笑的观众》，作为《浪子生涯》组画的预定收据。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "e25ab905-9ad3-4943-9d3b-04c5e3e95639",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "让·拉乌绘制赞扬古典童贞美德的油画",
+    "titleCn": "让·拉乌绘制赞扬古典童贞美德的油画",
+    "date": {
+      "year": 1733
+    },
+    "descriptionCn": "1733年，让·拉乌绘制了一对小型油画，赞扬古典的童贞美德。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "0bb19a0f-ad37-4f53-a5e2-bd2b19424be7",
+    "periodId": "p_early_modern",
+    "streamId": "s_islamic_south_asian",
+    "titleEn": "尼泊尔国王宫殿重建",
+    "titleCn": "尼泊尔国王宫殿重建",
+    "date": {
+      "year": 1734
+    },
+    "descriptionCn": "1734年，尼泊尔帕坦的尼泊尔国王宫殿由马拉王委托重建。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "尼泊尔",
+      "originalPeriod": "未分期",
+      "standardPeriod": "伊斯兰与南亚",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "0b5539b9-3ba3-4d65-846c-0de5f2bb96ba",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "清工部刊刻《工程做法》",
+    "titleCn": "清工部刊刻《工程做法》",
+    "date": {
+      "year": 1734
+    },
+    "descriptionCn": "雍正十二年（1734年），清工部刊刻《工程做法》七十四卷，附《工部简明做法》一卷、《内庭工程做法》八卷及《乘舆仪仗做法》二卷。",
+    "importance": 3,
+    "tags": [
+      "工艺美术",
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "工艺美术、建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "c838bb6c-9c14-4ef1-983b-e92bed419a77",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "苏州印制彩色木版画《苏州城门阊门》",
+    "titleCn": "苏州印制彩色木版画《苏州城门阊门》",
+    "date": {
+      "year": 1734
+    },
+    "descriptionCn": "1734年，苏州印制彩色木版画《苏州城门阊门》。",
+    "importance": 2,
+    "tags": [
+      "出版",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版、绘画",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "c838bb6c-9c14-4ef1-983b-e92bed419a77",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "苏州印制彩色木版画《苏州城门阊门》",
+    "titleCn": "苏州印制彩色木版画《苏州城门阊门》",
+    "date": {
+      "year": 1734
+    },
+    "descriptionCn": "1734年，苏州印制彩色木版画《苏州城门阊门》。",
+    "importance": 2,
+    "tags": [
+      "出版",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版、绘画",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "e3489454-33de-45e3-8493-63e4640f1719",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·霍格思创作《浪子雷克堕落记》",
+    "titleCn": "威廉·霍格思创作《浪子雷克堕落记》",
+    "date": {
+      "year": 1735
+    },
+    "descriptionCn": "1735年，威廉·霍格思创作了《浪子雷克堕落记》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "英国乔治王朝",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "cdc71b41-9418-48bb-89e7-d33e10eed75d",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "戴廉增出生",
+    "titleCn": "戴廉增出生",
+    "date": {
+      "year": 1735
+    },
+    "descriptionCn": "1735年，戴廉增出生。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d507a14e-e4ef-4a4b-b66e-ce2907fdf56d",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "景德镇陶工制作钓鱼图盘",
+    "titleCn": "景德镇陶工制作钓鱼图盘",
+    "date": {
+      "year": 1735
+    },
+    "descriptionCn": "1735年至1740年，景德镇陶工制作钓鱼图盘，盘周边饰以墨彩、金彩及各色釉上彩图案，盘心以一点透视表现欧洲男子垂钓情景。",
+    "importance": 4,
+    "tags": [
+      "陶瓷绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷绘画",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "d6ab0be3-dbf2-469b-820b-2e32291ca1a8",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "英国杂志《提词人》发表关于视觉艺术欣赏的文章",
+    "titleCn": "英国杂志《提词人》发表关于视觉艺术欣赏的文章",
+    "date": {
+      "year": 1735,
+      "month": 4
+    },
+    "descriptionCn": "1735年4月，英国杂志《提词人》发表了一篇基于查尔斯·安托万·夸佩尔关于绘画法则与愉悦的论述译文的文章，探讨视觉艺术欣赏。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "fcd6d2e6-1a9c-408a-9879-e37ecb7adbdd",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "荷加斯创作《浪子生涯》组画",
+    "titleCn": "荷加斯创作《浪子生涯》组画",
+    "date": {
+      "year": 1735
+    },
+    "descriptionCn": "1735年，英国艺术家威廉·荷加斯创作了道德讽刺组画《浪子生涯》（A Rake's Progress），通过一系列场景描绘浪子的堕落，其中第二幅中出现意大利乐师和法国击剑教练，抨击外来文化影响。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "098e2682-06ac-404c-94c9-8c5805a5e015",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "热尔曼·波夫朗设计公主沙龙（苏比斯府邸）",
+    "titleCn": "热尔曼·波夫朗设计公主沙龙（苏比斯府邸）",
+    "date": {
+      "year": 1736
+    },
+    "descriptionCn": "1736年至1739年，热尔曼·波夫朗在法国巴黎设计并建造了公主沙龙（苏比斯府邸），该建筑由苏比斯亲王弗朗索瓦·德·罗昂委托建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "洛可可",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "e5812deb-a64f-4b8e-9c40-5599078949db",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "Nivelon出版《绅士行为入门指南》",
+    "titleCn": "Nivelon出版《绅士行为入门指南》",
+    "date": {
+      "year": 1737
+    },
+    "descriptionCn": "1737年，纳维隆（Nivelon）出版了《绅士行为入门指南》（Rudiments of Genteel Behaviour）。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "09900f3c-af13-4c57-9644-37845eafd58b",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "巴黎恢复举办沙龙展",
+    "titleCn": "巴黎恢复举办沙龙展",
+    "date": {
+      "year": 1737
+    },
+    "descriptionCn": "1737年，巴黎卢浮宫恢复举办沙龙展，该展览引发了广大公众的热潮，挽救了绘画，给有天赋的艺术家提供了展示舞台，并激发了公众对艺术的热爱。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "1c4b6004-9c37-4f0d-ac76-c569f8be9823",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "科尼利厄斯·普龙克完成花亭人物图纹样设计",
+    "titleCn": "科尼利厄斯·普龙克完成花亭人物图纹样设计",
+    "date": {
+      "year": 1737
+    },
+    "descriptionCn": "1737年，科尼利厄斯·普龙克完成了为荷兰东印度公司设计的第四款纹样（即花亭人物图纹样）。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "18世纪荷兰",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d59b887d-3c7d-4ef7-b9a6-7d8e901bda2e",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "荷加斯以笔名Britophil写信给报社",
+    "titleCn": "荷加斯以笔名Britophil写信给报社",
+    "date": {
+      "year": 1737
+    },
+    "descriptionCn": "1737年，英国艺术家威廉·荷加斯（William Hogarth）以笔名“Britophil”给报社写了一封公开信，成为第一个利用媒体影响艺术市场的英国艺术家，告诫公众不要效仿国际鉴赏家的趣味。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "563f5d8a-4f8a-4f9c-be54-0cc4409f054e",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "让-巴蒂斯特·夏尔丹在沙龙展出《实验室中的化学家》",
+    "titleCn": "让-巴蒂斯特·夏尔丹在沙龙展出《实验室中的化学家》",
+    "date": {
+      "year": 1737,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1737年，让-巴蒂斯特·夏尔丹在巴黎沙龙展上展出了《实验室中的化学家》。该画意在阐释绘画与魔术之间的关系，被视为关于画家艺术与化学家无效实验的劝世静物画。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "展览"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、展览",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4b61bc4e-08f5-464d-a86c-3a57c30bda03",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·霍格思创作《烟花女子哈洛特堕落记》",
+    "titleCn": "威廉·霍格思创作《烟花女子哈洛特堕落记》",
+    "date": {
+      "year": 1738
+    },
+    "descriptionCn": "1738年，威廉·霍格思创作了《烟花女子哈洛特堕落记》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "英国乔治王朝",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "7dbd0350-fce9-408a-a1cb-af6a67ce11b7",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "孔波斯泰拉圣地亚哥教堂正立面设计",
+    "titleCn": "孔波斯泰拉圣地亚哥教堂正立面设计",
+    "date": {
+      "year": 1738
+    },
+    "descriptionCn": "1738年至1750年，弗尔南多·德·卡萨斯一诺沃亚设计了西班牙孔波斯泰拉圣地亚哥教堂的正立面（奥夫拉多伊罗）。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "650145ca-1bc8-49d9-985c-f28802ee0d6e",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "马德里王宫建造",
+    "titleCn": "马德里王宫建造",
+    "date": {
+      "year": 1738
+    },
+    "descriptionCn": "1738年，西班牙马德里王宫开始建造，由意大利或法国建筑师依据凡尔赛宫样式设计，持续至1764年。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "b25f7d74-82ac-4d18-9b16-7644de9c4179",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "广州成为订烧瓷器附加纹饰的标准处理地",
+    "titleCn": "广州成为订烧瓷器附加纹饰的标准处理地",
+    "date": {
+      "year": 1740
+    },
+    "descriptionCn": "1740年至1745年间，由广州处理订烧瓷器附加纹饰的安排成为标准程序，广州画工在景德镇素瓷上进行彩绘。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b9b0f4ba-ef2d-4d3d-b1b8-e9e63d9bfdb3",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "花亭人物图大碟制作完成",
+    "titleCn": "花亭人物图大碟制作完成",
+    "date": {
+      "year": 1740
+    },
+    "descriptionCn": "1740年，饰以青花及金彩图案的花亭人物图大碟制作完成，该碟直径50.5厘米，为景德镇瓷工所制，后运往荷兰。",
+    "importance": 3,
+    "tags": [
+      "设计",
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "设计、绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "58bfa41e-bbfe-486e-b34a-f1f94c29ed4b",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "阿瓜斯侯爵宫入口装饰",
+    "titleCn": "阿瓜斯侯爵宫入口装饰",
+    "date": {
+      "year": 1740
+    },
+    "descriptionCn": "1740年至1744年，伊格纳西奥·贝尔加拉为西班牙巴伦西亚的阿瓜斯侯爵宫装饰入口。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "1a9cfaf3-20c4-49c6-b206-115714971850",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "乾隆帝谕江西造瓷器处调瓷器匠人进京",
+    "titleCn": "乾隆帝谕江西造瓷器处调瓷器匠人进京",
+    "date": {
+      "year": 1741
+    },
+    "descriptionCn": "乾隆六年（1741年），乾隆帝谕令江西造瓷器处调瓷器匠人进京，补充绘画人员，并令太监将珐琅料送造办处存贮。",
+    "importance": 3,
+    "tags": [
+      "陶瓷",
+      "工艺美术"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷、工艺美术",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9230cd7f-5e7c-42a4-a7b4-44a17e029a79",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "海曼创作《跷跷板》",
+    "titleCn": "海曼创作《跷跷板》",
+    "date": {
+      "year": 1741
+    },
+    "descriptionCn": "1741年至1742年，英国画家弗朗西斯·海曼创作了油画《跷跷板》，作为沃克斯豪尔花园的装饰画。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "175e487a-5371-4268-8a5b-eca4a9fecbd1",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "苏州桃花坞刻印大型年画《姑苏万年桥图》",
+    "titleCn": "苏州桃花坞刻印大型年画《姑苏万年桥图》",
+    "date": {
+      "year": 1741
+    },
+    "descriptionCn": "1741年（乾隆六年），苏州万年桥建成后不久，苏州桃花坞年画作坊刻印了大型年画《姑苏万年桥图》。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "印刷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画、印刷",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "7106ba0a-a6a5-4850-aa7f-bc1a35c262e8",
+    "periodId": "p_early_modern",
+    "streamId": "s_east_asia_pre_modern",
+    "titleEn": "日本发现彩色版画",
+    "titleCn": "日本发现彩色版画",
+    "date": {
+      "year": 1742
+    },
+    "descriptionCn": "1742年，日本发现彩色版画，给予这种艺术形式以充分的活动范围。",
+    "importance": 2,
+    "tags": [
+      "版画"
+    ],
+    "meta": {
+      "country": "日本",
+      "originalPeriod": "江户时代",
+      "standardPeriod": "东亚：前现代",
+      "eventTypeRaw": "版画",
+      "eventCategory": "考古与发现"
+    }
+  },
+  {
+    "id": "97831a01-6892-4f82-979a-da6b59512743",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "莱皮西耶根据夏尔丹油画刻印版画《集市归来》",
+    "titleCn": "莱皮西耶根据夏尔丹油画刻印版画《集市归来》",
+    "date": {
+      "year": 1742
+    },
+    "descriptionCn": "1742年，莱皮西耶根据让-巴蒂斯特·夏尔丹的油画刻印了版画《集市归来》，版画题词揭示了画中女性表里不一的社会讽刺。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "cf5df86a-8ecc-4aff-add5-d68acdca6559",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "蒋骥著《传神秘要》",
+    "titleCn": "蒋骥著《传神秘要》",
+    "date": {
+      "year": 1742
+    },
+    "descriptionCn": "乾隆七年（1742年），蒋骥著《传神秘要》一卷。该书就肖像画取神法、取笑法、神情、气色、笼墨、用笔、全局、生纸画法、矾纸画法、设色层次、用粉、白描、临摹等27目，一一道来，其中论起稿、算全面分寸法最为详明。如果说丁皋著作不仅论述脸面画法，也论述全身，并且把肖像画与天人合一的哲学观结合起来，蒋骥则着重论述脸面画法，行文较丁皋雅训。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d7b4f38d-6af9-440a-a151-8e8ae0f2ed21",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "威廉·荷加斯创作《结婚契约》版画",
+    "titleCn": "威廉·荷加斯创作《结婚契约》版画",
+    "date": {
+      "year": 1743,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1743年，威廉·荷加斯创作了铜版画《结婚契约》，为《时髦婚姻》组画的第一幅，描绘了不幸的婚姻契约。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "17f99918-5cfc-4a3d-80a9-bda504170de7",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "克内贝尔斯多尔夫改建波茨坦城堡",
+    "titleCn": "克内贝尔斯多尔夫改建波茨坦城堡",
+    "date": {
+      "year": 1744
+    },
+    "descriptionCn": "1744年，克内贝尔斯多尔夫以新帕拉迪奥式改建波茨坦城堡。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "洛可可时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "fa1a4fa1-0a57-4b79-ad2b-9baa8f3e7b48",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "克内贝尔斯多尔夫设计圣祖希宫及花园",
+    "titleCn": "克内贝尔斯多尔夫设计圣祖希宫及花园",
+    "date": {
+      "year": 1744
+    },
+    "descriptionCn": "1744年，克内贝尔斯多尔夫设计了圣祖希宫及花园，这是德累斯顿洛可可式的佳例。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "洛可可时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "b76f4c0d-0efe-4014-90cf-0807bc8a400d",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "编撰《秘殿珠林》目录",
+    "titleCn": "编撰《秘殿珠林》目录",
+    "date": {
+      "year": 1744
+    },
+    "descriptionCn": "1744年，清宫廷编撰《秘殿珠林》目录，收录佛教和道教美术作品。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "b76f4c0d-0efe-4014-90cf-0807bc8a400d",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "编撰《秘殿珠林》目录",
+    "titleCn": "编撰《秘殿珠林》目录",
+    "date": {
+      "year": 1744
+    },
+    "descriptionCn": "1744年，清宫廷编撰《秘殿珠林》目录，收录佛教和道教美术作品。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "d407bd60-b2ed-4895-9088-47c657654e12",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "苏州桃花坞再次刻印《姑苏万年桥图》",
+    "titleCn": "苏州桃花坞再次刻印《姑苏万年桥图》",
+    "date": {
+      "year": 1744
+    },
+    "descriptionCn": "1744年（乾隆九年），苏州桃花坞年画作坊再次刻印了大型年画《姑苏万年桥图》。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "印刷"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画、印刷",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "10335255-9420-41b6-b0be-bb769df68af9",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "莱皮西耶根据夏尔丹原作制作版画《炼金士》",
+    "titleCn": "莱皮西耶根据夏尔丹原作制作版画《炼金士》",
+    "date": {
+      "year": 1744
+    },
+    "descriptionCn": "1744年，莱皮西耶根据让-巴蒂斯特·夏尔丹的原作制作了版画《炼金士》。画中描绘了一位炼金士在实验室阅读炼金术书籍，题词指出其徒劳无益，隐喻画家对模仿自然的反思。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "出版"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、出版",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "2040fcfc-1b8b-4a95-b722-b9f7878e53de",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·霍格思完成《时髦婚姻》组画",
+    "titleCn": "威廉·霍格思完成《时髦婚姻》组画",
+    "date": {
+      "year": 1745
+    },
+    "descriptionCn": "1745年，威廉·霍格思完成了《时髦婚姻》组画。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "英国乔治王朝",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "2c4f6438-bd70-4631-8853-bef9357ed696",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "查尔斯·夸佩尔创作《愚蠢之人用年轻姑娘的配饰遮盖衰老》",
+    "titleCn": "查尔斯·夸佩尔创作《愚蠢之人用年轻姑娘的配饰遮盖衰老》",
+    "date": {
+      "year": 1745
+    },
+    "descriptionCn": "1745年，查尔斯·夸佩尔创作了油画《愚蠢之人用年轻姑娘的配饰遮盖衰老》，后由L.叙吕格制成版画。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "f097af02-fbf5-4b5f-87fd-a2e260b20c11",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "法国设窑烧瓷",
+    "titleCn": "法国设窑烧瓷",
+    "date": {
+      "year": 1745
+    },
+    "descriptionCn": "乾隆十年（1745年），法国也开始设窑烧瓷。",
+    "importance": 4,
+    "tags": [
+      "工艺美术"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "工艺美术",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "708400b6-2ef0-4e2b-a219-215a7572d929",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "维斯朝圣者教堂建成",
+    "titleCn": "维斯朝圣者教堂建成",
+    "date": {
+      "year": 1745
+    },
+    "descriptionCn": "1745年至1754年间，维斯朝圣者教堂在巴伐利亚建成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "洛可可时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "e93f0513-f195-4372-a48f-1b77572801cf",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "编撰《石渠宝笈》目录",
+    "titleCn": "编撰《石渠宝笈》目录",
+    "date": {
+      "year": 1745
+    },
+    "descriptionCn": "1745年，清宫廷编撰《石渠宝笈》目录，收录绘画和书法作品。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "e93f0513-f195-4372-a48f-1b77572801cf",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "编撰《石渠宝笈》目录",
+    "titleCn": "编撰《石渠宝笈》目录",
+    "date": {
+      "year": 1745
+    },
+    "descriptionCn": "1745年，清宫廷编撰《石渠宝笈》目录，收录绘画和书法作品。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "9a2182e8-3ce1-49c8-a2b3-64079dac4c87",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "耶稣受难盘制作完成",
+    "titleCn": "耶稣受难盘制作完成",
+    "date": {
+      "year": 1745
+    },
+    "descriptionCn": "1745年至1750年间，制作了一件直径22.5厘米的盘子，描绘耶稣受难情景，饰以铁红彩及金彩图案。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "288294d2-1725-44ee-99de-aed17f1b43ad",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "荷加斯创作自画像《画家与狗》",
+    "titleCn": "荷加斯创作自画像《画家与狗》",
+    "date": {
+      "year": 1745
+    },
+    "descriptionCn": "1745年，英国艺术家威廉·荷加斯创作了自画像《画家与狗》（The Painter and his Pug），画中包括他的狗“特朗普”，象征英国独立品格，表达其作为民族身份捍卫者的立场。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "dcee8bb4-f808-4322-bd15-bd30fd492968",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "乔万尼·巴蒂斯塔·皮拉内西创作蚀刻版画《圆形广场全景》",
+    "titleCn": "乔万尼·巴蒂斯塔·皮拉内西创作蚀刻版画《圆形广场全景》",
+    "date": {
+      "year": 1746
+    },
+    "descriptionCn": "1746年至1748年，乔万尼·巴蒂斯塔·皮拉内西创作了蚀刻版画《圆形广场全景》，尺寸为39厘米×54.5厘米。",
+    "importance": 3,
+    "tags": [
+      "版画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "版画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "74a5b4b2-8d7e-490b-8ad6-1dcfdd800f86",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "卡纳莱托为休·史密森绘制《从威斯敏斯特大桥桥拱远眺伦敦》",
+    "titleCn": "卡纳莱托为休·史密森绘制《从威斯敏斯特大桥桥拱远眺伦敦》",
+    "date": {
+      "year": 1746
+    },
+    "descriptionCn": "1746年，威尼斯画家卡纳莱托为第二任诺森伯兰伯爵休·史密森绘制了油画《从威斯敏斯特大桥桥拱远眺伦敦》，描绘了威斯敏斯特大桥的建设场景。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "8d33c874-4122-4def-908e-36e06ca8c937",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "伦敦市长官邸动工",
+    "titleCn": "伦敦市长官邸动工",
+    "date": {
+      "year": 1747
+    },
+    "descriptionCn": "1747年，伦敦市长官邸开始动工，由年轻建筑师罗伯特·泰勒设计。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "d7d43506-d58f-4fd3-81c8-ff6d98d03a71",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "苏州刊印《全本西厢记》年画",
+    "titleCn": "苏州刊印《全本西厢记》年画",
+    "date": {
+      "year": 1747
+    },
+    "descriptionCn": "1747年（清乾隆十二年），苏州刊印了《全本西厢记》年画。该年画为长近一米的巨幅作品，在普救寺全景中分别安插佛殿相逢、寺警、惠明下书、花园烧香等情节。画上题有\"佳人才子本同心，偶尔相逢胶漆深。总之一段奇缘事，笔底全凭传出神\"四句诗，每个情节旁亦有说明。该年画绘刻精致，注重透视，并标明为\"仿泰西笔法\"。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "c21d03f5-d5c7-4941-8cc3-e686307231e1",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "哈瓦那主教堂的建设",
+    "titleCn": "哈瓦那主教堂的建设",
+    "date": {
+      "year": 1748
+    },
+    "descriptionCn": "1748年至1777年，哈瓦那主教堂在古巴建设，正立面图显示其采用巴洛克风格。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "古巴",
+      "originalPeriod": "巴洛克",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "6cd9603c-39a1-446f-9466-c744689d9177",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "圣佩德罗教堂钟楼建造",
+    "titleCn": "圣佩德罗教堂钟楼建造",
+    "date": {
+      "year": 1748
+    },
+    "descriptionCn": "1748年，圣佩德罗教堂钟楼建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "葡萄牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "1e11606c-c866-4bee-ab40-1cd21674ea31",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "拉斯特雷利建造斯莫尔尼宫教堂和修道院",
+    "titleCn": "拉斯特雷利建造斯莫尔尼宫教堂和修道院",
+    "date": {
+      "year": 1748
+    },
+    "descriptionCn": "1748年至1755年间，拉斯特雷利建造了斯莫尔尼宫教堂和修道院，采用了巴洛克风格。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "俄罗斯",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "31b69a2b-1e8f-47e0-8d23-e233cc79d579",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "特威克南草莓山别墅建造",
+    "titleCn": "特威克南草莓山别墅建造",
+    "date": {
+      "year": 1748
+    },
+    "descriptionCn": "1748年，特威克南草莓山别墅建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "英国乔治王朝",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "90202f93-6e2d-471f-ab24-67ddc1c4e1b7",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "科尔多瓦教堂唱诗班席制作",
+    "titleCn": "科尔多瓦教堂唱诗班席制作",
+    "date": {
+      "year": 1748
+    },
+    "descriptionCn": "1748年至1757年，佩德罗·杜克·科尔内霍制作了西班牙科尔多瓦教堂的唱诗班席。",
+    "importance": 3,
+    "tags": [
+      "建筑",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑、雕塑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "cd7c142c-0391-47ca-b86b-decb740a0344",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "匿名版画《抗议1748年“佩勒姆和谈”条款》出版",
+    "titleCn": "匿名版画《抗议1748年“佩勒姆和谈”条款》出版",
+    "date": {
+      "year": 1749
+    },
+    "descriptionCn": "1749年，一幅匿名铜版画《抗议1748年“佩勒姆和谈”条款》出版，采用普桑画作的图像进行政治讽刺。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画、出版",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9a90960e-fe32-4668-88fb-07c88d01dfd1",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "威廉·荷加斯出版《加莱之门》",
+    "titleCn": "威廉·荷加斯出版《加莱之门》",
+    "date": {
+      "year": 1749
+    },
+    "descriptionCn": "1749年，威廉·荷加斯在伦敦出版版画《加莱之门》。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "9a90960e-fe32-4668-88fb-07c88d01dfd1",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "威廉·荷加斯出版《加莱之门》",
+    "titleCn": "威廉·荷加斯出版《加莱之门》",
+    "date": {
+      "year": 1749
+    },
+    "descriptionCn": "1749年，威廉·荷加斯在伦敦出版版画《加莱之门》。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "d751ce3b-90cf-4e5d-bd89-931a85622004",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "清工部刊刻《钦定工部则例》",
+    "titleCn": "清工部刊刻《钦定工部则例》",
+    "date": {
+      "year": 1749
+    },
+    "descriptionCn": "乾隆十四年（1749年），清工部刊刻《钦定工部则例》一百四十二卷。",
+    "importance": 3,
+    "tags": [
+      "工艺美术",
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "工艺美术、建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "4c4c1d83-b6cc-4508-88d7-987909b73f61",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "科尚访问意大利",
+    "titleCn": "科尚访问意大利",
+    "date": {
+      "year": 1749
+    },
+    "descriptionCn": "1749年，法国雕刻师科尚访问意大利。",
+    "importance": 3,
+    "tags": [
+      "版画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "十八世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "版画",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "a462255f-f89b-410a-b2c5-1c30bce02f04",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "编撰《西清古鉴》目录",
+    "titleCn": "编撰《西清古鉴》目录",
+    "date": {
+      "year": 1749
+    },
+    "descriptionCn": "1749年，清宫廷编撰《西清古鉴》目录，收录古代青铜器。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "a462255f-f89b-410a-b2c5-1c30bce02f04",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "编撰《西清古鉴》目录",
+    "titleCn": "编撰《西清古鉴》目录",
+    "date": {
+      "year": 1749
+    },
+    "descriptionCn": "1749年，清宫廷编撰《西清古鉴》目录，收录古代青铜器。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "dc6d77ef-c6dd-4877-afa8-4cca5df2a914",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "荷加斯版画《加莱之门》发行",
+    "titleCn": "荷加斯版画《加莱之门》发行",
+    "date": {
+      "year": 1749
+    },
+    "descriptionCn": "1749年，英国艺术家威廉·荷加斯（William Hogarth）的版画《加莱之门》（The Gates of Calais）发行，作品表达了画家对法国文化的蔑视。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、出版",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "fe501c16-bac9-44e0-90c6-f16fe9210248",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "广州制作仿荷加斯瓷碗",
+    "titleCn": "广州制作仿荷加斯瓷碗",
+    "date": {
+      "year": 1750,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1750年至1755年，广州制作仿威廉·荷加斯版画《加莱之门》的瓷碗。",
+    "importance": 3,
+    "tags": [
+      "设计",
+      "交易"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "设计、交易",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "1a7c7a2f-cc46-4e86-8207-bde884ea4b8a",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "提埃坡罗创作《四大洲》湿壁画",
+    "titleCn": "提埃坡罗创作《四大洲》湿壁画",
+    "date": {
+      "year": 1750
+    },
+    "descriptionCn": "1750年至1753年，乔万尼·巴蒂斯塔·提埃坡罗在维尔茨堡宫楼梯大厅创作了湿壁画组画《四大洲》，为公国君主所绘。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b67abb7f-8e54-4a9e-8cb9-10ae6203bd6a",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "理查德·威尔逊在意大利结识约瑟夫·韦尔内",
+    "titleCn": "理查德·威尔逊在意大利结识约瑟夫·韦尔内",
+    "date": {
+      "year": 1750,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1750年至1756年，理查德·威尔逊在意大利，结识了约瑟夫·韦尔内。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "10d0f988-d66c-4291-9b43-b562c6178d78",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "蒂耶波洛创作壁画《克莱奥帕特拉离开游艇》",
+    "titleCn": "蒂耶波洛创作壁画《克莱奥帕特拉离开游艇》",
+    "date": {
+      "year": 1750,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1750年，蒂耶波洛在威尼斯拉比亚宫创作了壁画《克莱奥帕特拉离开游艇》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "8ffbbee7-79d2-43de-90ca-1bf304abf1fd",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "蒂耶波洛绘制维尔茨堡府邸大楼梯天顶画",
+    "titleCn": "蒂耶波洛绘制维尔茨堡府邸大楼梯天顶画",
+    "date": {
+      "year": 1750
+    },
+    "descriptionCn": "1750年至1753年间，蒂耶波洛在维尔茨堡府邸大楼梯的天顶上绘制了天顶画。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a06c612d-30f7-41d4-8e8a-dc5677e47b50",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "西风之神掳走花神图盘制作完成",
+    "titleCn": "西风之神掳走花神图盘制作完成",
+    "date": {
+      "year": 1750,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1750年，西风之神掳走花神图盘制作完成，直径23厘米，饰以矾红彩、墨彩、金彩及褐彩图案，描绘西风之神哲菲瓦掳走花神芳娜的场景。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4f12facc-68e5-49e3-b53e-0183edd8b983",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "鲍姆加登出版《美学》",
+    "titleCn": "鲍姆加登出版《美学》",
+    "date": {
+      "year": 1750
+    },
+    "descriptionCn": "1750年，亚历山大·戈特里布·鲍姆加登出版了用拉丁文撰写的著作《美学》，首次提出现代意义上的美学概念，将其定义为感性知识的科学，与逻辑学相对应。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "d14c493d-5189-404a-b2c3-db3298cc3a7e",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "鲍姆嘉通的《美学》出版",
+    "titleCn": "鲍姆嘉通的《美学》出版",
+    "date": {
+      "year": 1750
+    },
+    "descriptionCn": "1750年，亚历山大·戈特利布·鲍姆嘉通的《美学》首次出版。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "启蒙运动时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "d14c493d-5189-404a-b2c3-db3298cc3a7e",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "鲍姆嘉通的《美学》出版",
+    "titleCn": "鲍姆嘉通的《美学》出版",
+    "date": {
+      "year": 1750
+    },
+    "descriptionCn": "1750年，亚历山大·戈特利布·鲍姆嘉通的《美学》首次出版。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "启蒙运动时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "c1ef037a-a65d-4be4-aad0-adddc986ebb5",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·荷加斯发行《杜松子小巷》版画",
+    "titleCn": "威廉·荷加斯发行《杜松子小巷》版画",
+    "date": {
+      "year": 1751
+    },
+    "descriptionCn": "1751年，威廉·荷加斯发行了系列版画《杜松子小巷》，描绘了城市堕落场景。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b872b0f9-8803-42c5-bbb7-b186412cc668",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "荷兰东印度公司运往荷兰大批瓷器",
+    "titleCn": "荷兰东印度公司运往荷兰大批瓷器",
+    "date": {
+      "year": 1751,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1751年，荷兰东印度公司运往荷兰约49.5万件瓷器，其中约20万件为茶具、咖啡具及巧克力器皿。",
+    "importance": 4,
+    "tags": [
+      "陶瓷贸易"
+    ],
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "陶瓷贸易",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "8e4f36f4-dcb1-486e-af60-27441f3bc3b0",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "伦敦市长官邸落成",
+    "titleCn": "伦敦市长官邸落成",
+    "date": {
+      "year": 1752
+    },
+    "descriptionCn": "1752年，伦敦市长官邸落成，山墙中央是一个象征伦敦城的女性形象。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "bb3e154f-28b9-4346-b7a8-a6178b5d3d89",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "圣费尔南多美术院成立",
+    "titleCn": "圣费尔南多美术院成立",
+    "date": {
+      "year": 1752
+    },
+    "descriptionCn": "1752年，西班牙圣费尔南多美术院成立，被赋予评价新建筑物的权力，其成立推动了丘里格拉风格的终结。",
+    "importance": 2,
+    "tags": [
+      "机构成立"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "机构成立",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "914cd859-90cf-4930-8221-a5ebeec25800",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "天坛大享殿换蓝瓦并改名祈年殿",
+    "titleCn": "天坛大享殿换蓝瓦并改名祈年殿",
+    "date": {
+      "year": 1752
+    },
+    "descriptionCn": "1752年，清乾隆十七年，天坛大享殿三重檐换上蓝瓦，改名为祈年殿。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "3b657ba2-1b85-418f-a52d-8c86acd643b8",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "《西斯廷圣母》运抵德累斯顿",
+    "titleCn": "《西斯廷圣母》运抵德累斯顿",
+    "date": {
+      "year": 1753
+    },
+    "descriptionCn": "1753年，拉斐尔的《西斯廷圣母》画作被运至德累斯顿。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "3b657ba2-1b85-418f-a52d-8c86acd643b8",
+    "periodId": "p_early_modern",
+    "streamId": "s_renaissance",
+    "titleEn": "《西斯廷圣母》运抵德累斯顿",
+    "titleCn": "《西斯廷圣母》运抵德累斯顿",
+    "date": {
+      "year": 1753
+    },
+    "descriptionCn": "1753年，拉斐尔的《西斯廷圣母》画作被运至德累斯顿。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "文艺复兴时期",
+      "standardPeriod": "文艺复兴",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "26426d56-034b-4e98-b082-6e0c7cfb55cd",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "塞夫勒陶器开始生产",
+    "titleCn": "塞夫勒陶器开始生产",
+    "date": {
+      "year": 1753
+    },
+    "descriptionCn": "1753年，塞夫勒（Sèvres）陶器开始生产。",
+    "importance": 4,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "洛可可时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "081fc45d-7642-415b-84be-b5769897c6b5",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "宗皮尼出版《威尼斯城中的艺术》",
+    "titleCn": "宗皮尼出版《威尼斯城中的艺术》",
+    "date": {
+      "year": 1753
+    },
+    "descriptionCn": "1753年，意大利版画家加埃塔诺·宗皮尼出版了版画集《威尼斯城中的艺术》。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "529a12b9-e625-48f2-a553-10dfa73464f3",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·荷加斯创作《选举》系列版画",
+    "titleCn": "威廉·荷加斯创作《选举》系列版画",
+    "date": {
+      "year": 1754
+    },
+    "descriptionCn": "1754年至1755年，威廉·荷加斯创作了《选举》系列版画，其中包括《选举宴会》等作品，以滑稽讽刺的形式描绘了选举场面，令人想到荷兰风俗画。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "3b606dd4-e894-465a-b7ef-06fe621845f4",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "拉斯特雷利建造冬宫",
+    "titleCn": "拉斯特雷利建造冬宫",
+    "date": {
+      "year": 1754
+    },
+    "descriptionCn": "1754年至1762年间，拉斯特雷利在圣彼得堡建造了冬宫，采用了巴洛克风格。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "俄罗斯",
+      "originalPeriod": "巴洛克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "dfca4dc9-824f-4502-9041-8e410b1ec999",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼出版《对希腊绘画和雕塑的模仿》",
+    "titleCn": "温克尔曼出版《对希腊绘画和雕塑的模仿》",
+    "date": {
+      "year": 1755,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1755年，约翰·约齐姆·温克尔曼出版了《对希腊绘画和雕塑的模仿》，提出通过模仿古代艺术实现现代艺术的伟大。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "d5361e72-daf4-4c1f-90e3-4b5be1e9bbc6",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼出版《论对希腊作品的模仿》",
+    "titleCn": "温克尔曼出版《论对希腊作品的模仿》",
+    "date": {
+      "year": 1755
+    },
+    "descriptionCn": "1755年，温克尔曼出版了《论对希腊作品的模仿》。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "新古典主义时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "42152524-6358-4c6d-aefd-514209e1dcd5",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼发表《关于在绘画与雕刻中模仿希腊作品的一些意见》",
+    "titleCn": "温克尔曼发表《关于在绘画与雕刻中模仿希腊作品的一些意见》",
+    "date": {
+      "year": 1755,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1755年，约翰·乔基姆·温克尔曼发表了《关于在绘画与雕刻中模仿希腊作品的一些意见》，阐述了对希腊艺术模仿的观点，强调高贵的单纯和静穆的伟大。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "f117ac46-e6f6-49ad-b966-76763350331e",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼抵达罗马",
+    "titleCn": "温克尔曼抵达罗马",
+    "date": {
+      "year": 1755
+    },
+    "descriptionCn": "1755年，温克尔曼抵达罗马。",
+    "importance": 4,
+    "tags": [
+      "学术"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "新古典主义时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "学术",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "505ffb17-748b-4142-925c-e6ba0892bc27",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "理查德·威尔逊创作《阿卡迪亚的牧人》主题绘画",
+    "titleCn": "理查德·威尔逊创作《阿卡迪亚的牧人》主题绘画",
+    "date": {
+      "year": 1755
+    },
+    "descriptionCn": "1755年，英国画家理查德·威尔逊在罗马创作了一幅绘画，其中铭文为“Ego fui in Arcadia”，意为“我在阿卡迪亚生活过”，反映了对普桑作品的回应。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "fc95badd-7029-4634-bbfe-d66e63bac9e4",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "科尚出版《对宝石匠和木雕师的呼吁》",
+    "titleCn": "科尚出版《对宝石匠和木雕师的呼吁》",
+    "date": {
+      "year": 1755
+    },
+    "descriptionCn": "1755年，法国雕刻师科尚（Co-chin）出版《对宝石匠和木雕师的呼吁》，号召回归直线，反对洛可可式曲线。",
+    "importance": 3,
+    "tags": [
+      "设计",
+      "雕塑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "洛可可时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "设计、雕塑",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "7bfcf523-e30d-4819-89ce-5e12685b7432",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "科尚嘲笑路易十五式建筑风格",
+    "titleCn": "科尚嘲笑路易十五式建筑风格",
+    "date": {
+      "year": 1755
+    },
+    "descriptionCn": "1755年，雕版师科尚（Cochin）用“洛可可”一词嘲笑路易十五式的奇形怪状。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "洛可可时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d5b90873-9f63-4d90-8f19-9b89082da0e3",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "让·巴蒂斯特·皮加尔创作萨克斯马雷夏尔墓",
+    "titleCn": "让·巴蒂斯特·皮加尔创作萨克斯马雷夏尔墓",
+    "date": {
+      "year": 1756
+    },
+    "descriptionCn": "1756年至1777年，让·巴蒂斯特·皮加尔在施特拉斯堡圣托马斯教堂创作了萨克斯马雷夏尔墓。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "洛可可时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "f88cae39-103b-4dd3-b98e-990cd78bc337",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "彼得罗·隆吉创作油画《江湖郎中》",
+    "titleCn": "彼得罗·隆吉创作油画《江湖郎中》",
+    "date": {
+      "year": 1757
+    },
+    "descriptionCn": "1757年，彼得罗·隆吉创作布面油画《江湖郎中》，描绘江湖郎中通过木偶表演兜售假春药，借此讽刺低劣的视觉幻像，并表达艺术家对创造真正有效视觉幻像的职业抱负。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "8a2b099e-8dbb-4b09-9408-f04b5d8d4677",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "基卢兹城堡建造",
+    "titleCn": "基卢兹城堡建造",
+    "date": {
+      "year": 1758
+    },
+    "descriptionCn": "1758年至1790年，基卢兹城堡建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "葡萄牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "73654907-e0bf-4b37-964a-d702a655d5fe",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "狄德罗翻译《阿卡迪亚的牧人》铭文",
+    "titleCn": "狄德罗翻译《阿卡迪亚的牧人》铭文",
+    "date": {
+      "year": 1758
+    },
+    "descriptionCn": "1758年，德尼·狄德罗将拉丁文铭文“Et in Arcadia ego”翻译为法语“Je vivais aussi dans la délicieuse Arcadie”，意为“我也在快乐的阿卡迪亚生活过”，将“et”与“ego”衔接，译为“也”。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "fca0dc36-9b07-479c-9343-ddce2f0b631e",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "罗伯特·亚当旅游庞培和斯帕拉托后归国",
+    "titleCn": "罗伯特·亚当旅游庞培和斯帕拉托后归国",
+    "date": {
+      "year": 1758
+    },
+    "descriptionCn": "1758年，罗伯特·亚当从庞培和斯帕拉托旅游后归国，引入新希腊式风格。",
+    "importance": 4,
+    "tags": [],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "英国乔治王朝",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "1bb90a3c-154c-42e5-a6f3-21ffc25434c2",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼发表论贝尔维德尔的《躯干雕像》及望景楼的《阿波罗》的文章",
+    "titleCn": "温克尔曼发表论贝尔维德尔的《躯干雕像》及望景楼的《阿波罗》的文章",
+    "date": {
+      "year": 1759
+    },
+    "descriptionCn": "1759年，温克尔曼发表了论贝尔维德尔的《躯干雕像》及望景楼的《阿波罗》的文章，以及论《拉奥孔》的论文，这些作品收录在《古代艺术史》中。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "启蒙时代",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "4b5d5ec8-c10a-4f21-ba06-f6d6d4d32593",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "爱德华·扬出版《原创性作品推想》",
+    "titleCn": "爱德华·扬出版《原创性作品推想》",
+    "date": {
+      "year": 1759
+    },
+    "descriptionCn": "1759年，英国诗人爱德华·扬出版了《原创性作品推想》一书。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "492e3ef2-59c6-4676-ac3f-73edfa26bc85",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "荷加斯创作《斗鸡》",
+    "titleCn": "荷加斯创作《斗鸡》",
+    "date": {
+      "year": 1759
+    },
+    "descriptionCn": "1759年，英国画家威廉·荷加斯创作了铜版画《斗鸡》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9d5ef650-de60-48b1-9a2c-555253d9c1ab",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "郑燮作《墨竹图》",
+    "titleCn": "郑燮作《墨竹图》",
+    "date": {
+      "year": 1759
+    },
+    "descriptionCn": "1759年，郑燮作水墨纸本《墨竹图》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "04073156-06fe-41c2-a9bb-21ed46c585f3",
+    "periodId": "p_early_modern",
+    "streamId": "s_americas_oceania",
+    "titleEn": "马萨诸塞州剑桥朗费罗宅第建成",
+    "titleCn": "马萨诸塞州剑桥朗费罗宅第建成",
+    "date": {
+      "year": 1759
+    },
+    "descriptionCn": "1759年，马萨诸塞州剑桥的朗费罗宅第建成，这是一座乔治王朝帕拉迪奥式的建筑。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "殖民时期",
+      "standardPeriod": "美洲与大洋洲",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "a092bfa6-01f0-4a11-b4e2-a2238e058a2b",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "本杰明·韦斯特从美国来到罗马",
+    "titleCn": "本杰明·韦斯特从美国来到罗马",
+    "date": {
+      "year": 1760
+    },
+    "descriptionCn": "1760年，美国画家本杰明·韦斯特从费城抵达罗马，开始其艺术生涯。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "935adfd6-f35e-4393-9a4c-77d337457bd3",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼《斯托什男爵宝石雕刻描述》出版",
+    "titleCn": "温克尔曼《斯托什男爵宝石雕刻描述》出版",
+    "date": {
+      "year": 1760
+    },
+    "descriptionCn": "1760年，温克尔曼的《斯托什男爵宝石雕刻描述》在佛罗伦萨出版。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "启蒙运动时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "935adfd6-f35e-4393-9a4c-77d337457bd3",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼《斯托什男爵宝石雕刻描述》出版",
+    "titleCn": "温克尔曼《斯托什男爵宝石雕刻描述》出版",
+    "date": {
+      "year": 1760
+    },
+    "descriptionCn": "1760年，温克尔曼的《斯托什男爵宝石雕刻描述》在佛罗伦萨出版。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "启蒙运动时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "acaa88ad-28f0-451f-8df5-fdb2a1d57dd7",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "霍勒斯·沃波尔出版《英格兰绘画轶事》",
+    "titleCn": "霍勒斯·沃波尔出版《英格兰绘画轶事》",
+    "date": {
+      "year": 1760
+    },
+    "descriptionCn": "1760年至1771年，英国作家霍勒斯·沃波尔出版了他的著作《英格兰绘画轶事》。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "c4ac5a2f-13a0-460a-9272-338a315e3bab",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "鲁比里亚克创作《乔治·林恩纪念碑》",
+    "titleCn": "鲁比里亚克创作《乔治·林恩纪念碑》",
+    "date": {
+      "year": 1760
+    },
+    "descriptionCn": "1760年，法国裔雕塑家路易斯·弗朗西斯·鲁比里亚克在英格兰北安普敦郡索思威克教堂创作了乔治·林恩纪念碑。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "d1475d67-bb13-46a2-8fb6-e581e49a4a92",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "安东·拉斐尔·门斯绘制《帕耳那索斯天顶画》",
+    "titleCn": "安东·拉斐尔·门斯绘制《帕耳那索斯天顶画》",
+    "date": {
+      "year": 1761
+    },
+    "descriptionCn": "1761年，安东·拉斐尔·门斯在罗马阿尔巴尼别墅绘制了《帕耳那索斯天顶画》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "新古典主义时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "201d1b79-1429-496c-8393-952815d2b6b0",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "理查德·威尔逊创作《丘拱门》",
+    "titleCn": "理查德·威尔逊创作《丘拱门》",
+    "date": {
+      "year": 1761
+    },
+    "descriptionCn": "1761年至1762年，理查德·威尔逊创作了风景画《丘拱门》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "26bc69be-bc51-4194-b4ef-2bb86ac3c80c",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "约翰·博伊德尔委托制作《尼俄柏》版画",
+    "titleCn": "约翰·博伊德尔委托制作《尼俄柏》版画",
+    "date": {
+      "year": 1761,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1761年，伦敦版画商约翰·博伊德尔委托威廉·伍利特刻印理查德·威尔森的尼俄柏主题风景画，旨在挑战法国版画市场。",
+    "importance": 2,
+    "tags": [
+      "出版",
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版、绘画",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "e62c662f-c6c1-4fad-858c-ab64dc396231",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "罗伯特·亚当建造奥斯特利公园波蒂科",
+    "titleCn": "罗伯特·亚当建造奥斯特利公园波蒂科",
+    "date": {
+      "year": 1761
+    },
+    "descriptionCn": "1761年，罗伯特·亚当建造了奥斯特利公园波蒂科。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "英国乔治王朝",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "fe614c09-f5b5-4c4f-b4bf-e0684cdc01b0",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "罗伯特·亚当开始建造奥斯特利庄园门厅的壁炉",
+    "titleCn": "罗伯特·亚当开始建造奥斯特利庄园门厅的壁炉",
+    "date": {
+      "year": 1761
+    },
+    "descriptionCn": "1761年，罗伯特·亚当开始建造奥斯特利庄园门厅的壁炉，该壁炉位于英国伦敦米德尔塞克斯，由弗朗西斯·蔡尔德委托制作。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "新古典主义",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "3d4b58a4-0b1a-4b25-bd5c-dc6e633b7800",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "乔舒亚·雷诺兹创作《内利·奥布赖恩》",
+    "titleCn": "乔舒亚·雷诺兹创作《内利·奥布赖恩》",
+    "date": {
+      "year": 1763
+    },
+    "descriptionCn": "1763年，乔舒亚·雷诺兹创作了《内利·奥布赖恩》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "英国乔治王朝",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "059d21f1-a9fa-4d34-b6fb-0d1e7546bb5f",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "加文·汉密尔顿和本杰明·韦斯特在伦敦重新创造历史风俗画",
+    "titleCn": "加文·汉密尔顿和本杰明·韦斯特在伦敦重新创造历史风俗画",
+    "date": {
+      "year": 1763
+    },
+    "descriptionCn": "1763年至1775年，加文·汉密尔顿和本杰明·韦斯特在伦敦重新创造历史风俗画。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "00e45bd9-d380-4bc4-8a02-800f1f5c29c7",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼写作《论在艺术中感受优美的能力》",
+    "titleCn": "温克尔曼写作《论在艺术中感受优美的能力》",
+    "date": {
+      "year": 1763
+    },
+    "descriptionCn": "1763年，温克尔曼写了《论在艺术中感受优美的能力》一文，献给他的朋友弗里德里希·冯·伯格。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "启蒙时代",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "00e45bd9-d380-4bc4-8a02-800f1f5c29c7",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼写作《论在艺术中感受优美的能力》",
+    "titleCn": "温克尔曼写作《论在艺术中感受优美的能力》",
+    "date": {
+      "year": 1763
+    },
+    "descriptionCn": "1763年，温克尔曼写了《论在艺术中感受优美的能力》一文，献给他的朋友弗里德里希·冯·伯格。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "启蒙时代",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "27f75a33-4e74-4e76-8b07-690cd1511038",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "约瑟夫·赖特创作《一位哲学家在太阳系仪前的演说》",
+    "titleCn": "约瑟夫·赖特创作《一位哲学家在太阳系仪前的演说》",
+    "date": {
+      "year": 1763,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1763年至1765年，约瑟夫·赖特创作了布面油画《一位哲学家在太阳系仪前的演说》，尺寸为1.5米×2米，现藏于英国德比郡的德比博物馆和艺术画廊。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "896441a6-86a0-472c-b727-407d88406405",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "让-奥诺雷·弗拉戈纳尔创作蚀刻版画《酒神巴库斯与萨提尔》",
+    "titleCn": "让-奥诺雷·弗拉戈纳尔创作蚀刻版画《酒神巴库斯与萨提尔》",
+    "date": {
+      "year": 1763
+    },
+    "descriptionCn": "1763年，让-奥诺雷·弗拉戈纳尔创作了蚀刻版画《酒神巴库斯与萨提尔》，描绘酒神狂欢主题。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "053e5a5c-745e-4652-b04f-9c6e6325e45b",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼《古代艺术史》出版",
+    "titleCn": "温克尔曼《古代艺术史》出版",
+    "date": {
+      "year": 1764
+    },
+    "descriptionCn": "1764年，温克尔曼的《古代艺术史》在德累斯顿出版。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "启蒙运动时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "053e5a5c-745e-4652-b04f-9c6e6325e45b",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼《古代艺术史》出版",
+    "titleCn": "温克尔曼《古代艺术史》出版",
+    "date": {
+      "year": 1764
+    },
+    "descriptionCn": "1764年，温克尔曼的《古代艺术史》在德累斯顿出版。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "启蒙运动时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "8a9793af-d0f7-403d-9bcd-db0188af92b5",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼出版《古代艺术史》",
+    "titleCn": "温克尔曼出版《古代艺术史》",
+    "date": {
+      "year": 1764,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1764年，约翰·约阿希姆·温克尔曼出版了《古代艺术史》，该书是艺术史学科的奠基之作，系统阐述了古希腊罗马艺术的发展，并确立了以古典理想为核心的艺术史叙事。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "b1f41f9c-7133-495b-b16d-31953470bd76",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼出版《古代艺术史》",
+    "titleCn": "温克尔曼出版《古代艺术史》",
+    "date": {
+      "year": 1764
+    },
+    "descriptionCn": "1764年，温克尔曼出版著作《古代艺术史》，该著作成为艺术史上的第一本国际畅销书，推动了欧洲对古代艺术的研究。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "b06fbdce-2e1d-4980-a7ac-6add63539559",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼出版《古代艺术史》",
+    "titleCn": "温克尔曼出版《古代艺术史》",
+    "date": {
+      "year": 1764
+    },
+    "descriptionCn": "1764年，温克尔曼出版了《古代艺术史》。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "新古典主义时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "5cfbaf79-b8ec-4814-916b-e1c193a0d407",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼撰写《古代艺术史》",
+    "titleCn": "温克尔曼撰写《古代艺术史》",
+    "date": {
+      "year": 1764
+    },
+    "descriptionCn": "1764年，德国考古学家温克尔曼撰写了第一部《古代艺术史》。",
+    "importance": 2,
+    "tags": [],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "03e21207-7710-4807-9a00-561c459db5d9",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼的《古代艺术史》首次出版",
+    "titleCn": "温克尔曼的《古代艺术史》首次出版",
+    "date": {
+      "year": 1764
+    },
+    "descriptionCn": "1764年，温克尔曼的《古代艺术史》首次出版于德累斯顿，该书通常被视为第一部真正的艺术历史著作。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "启蒙时代",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "a3f087f7-8a26-4be5-aead-98d1cdf76bdd",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "蓬佩奥·巴托尼创作《托马斯·邓达斯肖像》",
+    "titleCn": "蓬佩奥·巴托尼创作《托马斯·邓达斯肖像》",
+    "date": {
+      "year": 1764
+    },
+    "descriptionCn": "1764年，蓬佩奥·巴托尼创作了《托马斯·邓达斯肖像》，画中模特站在古物前，象征着对古典传统的崇拜。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "399a69ec-7a7e-4472-8857-d3f795a2f96a",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "《圣玛利亚祝福教堂》",
+    "titleCn": "《圣玛利亚祝福教堂》",
+    "date": {
+      "year": 1765,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1765年，意大利画家弗兰切斯科·瓜第创作了油画《圣玛利亚祝福教堂》，现藏于爱丁堡苏格兰国立美术馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "50156dbb-f2aa-4cb6-94df-fb73c36049bc",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "于贝尔·罗伯特回到巴黎",
+    "titleCn": "于贝尔·罗伯特回到巴黎",
+    "date": {
+      "year": 1765
+    },
+    "descriptionCn": "1765年，法国画家于贝尔·罗伯特从罗马回到巴黎。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d9ab8eaa-8b66-4920-a927-f3d795a9b0f7",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "亨利·弗塞利翻译温克尔曼《关于在绘画和雕刻中模仿希腊作品的一些意见》",
+    "titleCn": "亨利·弗塞利翻译温克尔曼《关于在绘画和雕刻中模仿希腊作品的一些意见》",
+    "date": {
+      "year": 1765
+    },
+    "descriptionCn": "1765年，亨利·弗塞利将温克尔曼的著作《关于在绘画和雕刻中模仿希腊作品的一些意见》翻译成英文。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "8bbff1db-3f34-4f76-92d7-c0a2ba7a0a81",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "夏尔丹斥责大量艺术家模仿沙龙劣作",
+    "titleCn": "夏尔丹斥责大量艺术家模仿沙龙劣作",
+    "date": {
+      "year": 1765
+    },
+    "descriptionCn": "1765年，法国画家让-西蒙·夏尔丹斥责大量艺术家毫无意义地模仿沙龙中那些最差的作品。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "dff34ec9-d0b4-4ec3-826c-469613ee60fa",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "格勒兹的《为死去的小鸟而伤心的少女》在沙龙展出",
+    "titleCn": "格勒兹的《为死去的小鸟而伤心的少女》在沙龙展出",
+    "date": {
+      "year": 1765
+    },
+    "descriptionCn": "1765年，让–巴蒂斯特·格勒兹的作品《为死去的小鸟而伤心的少女》在巴黎沙龙展出，获得了从鉴赏家到普通观众的一致认可，引发了广泛的情感共鸣。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "展览"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、展览",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5e18498d-049c-44bb-a111-5be901680294",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "瓦兰·德·拉·莫特建造美术院",
+    "titleCn": "瓦兰·德·拉·莫特建造美术院",
+    "date": {
+      "year": 1765
+    },
+    "descriptionCn": "1765年至1772年间，瓦兰·德·拉·莫特在圣彼得堡建造了美术院，采用新古典主义风格。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "俄罗斯",
+      "originalPeriod": "新古典主义时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "c5b58ae5-ef6f-483e-9e47-2c952d3d8b1a",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "约翰·以利亚撒·蔡西希创作版画《魔术灯箱》",
+    "titleCn": "约翰·以利亚撒·蔡西希创作版画《魔术灯箱》",
+    "date": {
+      "year": 1765,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1765年，约翰·以利亚撒·蔡西希创作了版画《魔术灯箱》，描绘一群农村孩子对魔术灯箱的反应。通过孩子们的不同表现，讽刺了低劣的幻像只能迷惑无知者，并隐含对启蒙观念的评述。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、出版",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5f8cb20a-ddc6-4872-a691-c8a056c86e55",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "蓬佩奥·巴托尼创作《基里尔·格里戈里耶维奇·拉扎莫夫斯基伯爵肖像》",
+    "titleCn": "蓬佩奥·巴托尼创作《基里尔·格里戈里耶维奇·拉扎莫夫斯基伯爵肖像》",
+    "date": {
+      "year": 1766
+    },
+    "descriptionCn": "1766年，蓬佩奥·巴托尼为俄国的基里尔·格里戈里耶维奇·拉扎莫夫斯基伯爵创作肖像，画中伯爵站在古物收藏前，彰显对古典的尊崇。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b755e748-059b-4f4a-8195-844d382bc318",
+    "periodId": "p_early_modern",
+    "streamId": "s_americas_oceania",
+    "titleEn": "费城基督堂建成",
+    "titleCn": "费城基督堂建成",
+    "date": {
+      "year": 1766
+    },
+    "descriptionCn": "1766年，美国费城的基督堂建成，属于雷恩式建筑。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "殖民时期",
+      "standardPeriod": "美洲与大洋洲",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "a1633d63-7944-4dc3-b2f3-ad8b72b0c322",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "里纳尔迪建造大理石宫和加青纳宫",
+    "titleCn": "里纳尔迪建造大理石宫和加青纳宫",
+    "date": {
+      "year": 1766
+    },
+    "descriptionCn": "1766年至1781年间，里纳尔迪在圣彼得堡建造了大理石宫和加青纳宫，采用新古典主义风格。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "俄罗斯",
+      "originalPeriod": "新古典主义时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "48568e0f-c1cc-4835-b26c-6babc184fbb0",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼《古代未刊纪念物》出版",
+    "titleCn": "温克尔曼《古代未刊纪念物》出版",
+    "date": {
+      "year": 1767
+    },
+    "descriptionCn": "1767年，温克尔曼的《古代未刊纪念物》在罗马出版。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "启蒙运动时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "48568e0f-c1cc-4835-b26c-6babc184fbb0",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "温克尔曼《古代未刊纪念物》出版",
+    "titleCn": "温克尔曼《古代未刊纪念物》出版",
+    "date": {
+      "year": 1767
+    },
+    "descriptionCn": "1767年，温克尔曼的《古代未刊纪念物》在罗马出版。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "启蒙运动时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "ebb2cf95-b8b8-412f-a2b1-20b8fc58ccbe",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "驱逐耶稣会运动推动新古典主义净化",
+    "titleCn": "驱逐耶稣会运动推动新古典主义净化",
+    "date": {
+      "year": 1767
+    },
+    "descriptionCn": "1767年，西班牙驱逐耶稣会运动发生，该运动被视为向新古典主义艺术风格净化迈出的一步。",
+    "importance": 4,
+    "tags": [
+      "艺术运动"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "艺术运动",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "43b51ae2-6fb9-410c-a1d5-5b3ccf83da17",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "乔舒亚·雷诺兹首任皇家美术院院长",
+    "titleCn": "乔舒亚·雷诺兹首任皇家美术院院长",
+    "date": {
+      "year": 1768
+    },
+    "descriptionCn": "1768年，乔舒亚·雷诺兹出任皇家美术院首任院长。",
+    "importance": 4,
+    "tags": [],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "英国乔治王朝",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "53bda0a0-4eee-4cbe-a809-ff685a08578d",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "歌德参观德累斯顿画廊",
+    "titleCn": "歌德参观德累斯顿画廊",
+    "date": {
+      "year": 1768
+    },
+    "descriptionCn": "1768年，歌德首次参观德累斯顿画廊，被其壮丽的陈列和仪式化的氛围所震撼，认为如同步入天国。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "53bda0a0-4eee-4cbe-a809-ff685a08578d",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "歌德参观德累斯顿画廊",
+    "titleCn": "歌德参观德累斯顿画廊",
+    "date": {
+      "year": 1768
+    },
+    "descriptionCn": "1768年，歌德首次参观德累斯顿画廊，被其壮丽的陈列和仪式化的氛围所震撼，认为如同步入天国。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "17533fea-7efe-4b9e-8599-2ba61c3b6384",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "英国皇家美术学院成立",
+    "titleCn": "英国皇家美术学院成立",
+    "date": {
+      "year": 1768
+    },
+    "descriptionCn": "1768年，英国皇家美术学院在伦敦成立，旨在推动艺术发展。",
+    "importance": 2,
+    "tags": [
+      "展览",
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "展览、绘画",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "c5c5a80b-1026-4096-81b8-42250621120c",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "在圣伊里埃克斯发现高岭土",
+    "titleCn": "在圣伊里埃克斯发现高岭土",
+    "date": {
+      "year": 1769
+    },
+    "descriptionCn": "1769年，在圣伊里埃克斯（Saint-Yrieix，利穆赞）发现高岭土，使法国能够生产硬瓷。",
+    "importance": 2,
+    "tags": [
+      "陶瓷"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "十八世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "陶瓷",
+      "eventCategory": "考古与发现"
+    }
+  },
+  {
+    "id": "b37bdd46-a3ba-412d-89e0-d382fe5aadf0",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "格勒兹提交历史画《塞普提米·塞维鲁指责卡拉科拉》在批评界反响不佳",
+    "titleCn": "格勒兹提交历史画《塞普提米·塞维鲁指责卡拉科拉》在批评界反响不佳",
+    "date": {
+      "year": 1769
+    },
+    "descriptionCn": "1769年，法国画家让-巴蒂斯特·格勒兹向沙龙提交历史画《塞普提米·塞维鲁指责卡拉科拉》，但该作品在批评界反响不佳，导致其艺术声望急转直下。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "f0c8955f-cb0f-4121-bab1-4c596d0572fa",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "乔治·斯塔布斯创作《梅尔本勋爵和夫人、拉尔夫·米尔班克爵士、约翰·米尔班克先生》",
+    "titleCn": "乔治·斯塔布斯创作《梅尔本勋爵和夫人、拉尔夫·米尔班克爵士、约翰·米尔班克先生》",
+    "date": {
+      "year": 1770,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1770年，乔治·斯塔布斯创作了风俗画《梅尔本勋爵和夫人、拉尔夫·米尔班克爵士、约翰·米尔班克先生》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "8d87b599-ac67-47b6-afad-900b3d4df715",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "本杰明·韦斯特创作《沃尔夫将军之死》",
+    "titleCn": "本杰明·韦斯特创作《沃尔夫将军之死》",
+    "date": {
+      "year": 1770
+    },
+    "descriptionCn": "1770年，本杰明·韦斯特创作了油画《沃尔夫将军之死》，描绘1759年沃尔夫将军在魁北克战役中的牺牲。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d400dc2a-2183-435a-8ac0-9a04380f1034",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "德比的约瑟夫·赖特展出《寻找哲人石的炼金士发现了磷，并祈祷实验成功》",
+    "titleCn": "德比的约瑟夫·赖特展出《寻找哲人石的炼金士发现了磷，并祈祷实验成功》",
+    "date": {
+      "year": 1771,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1771年，德比的约瑟夫·赖特展出了油画《寻找哲人石的炼金士发现了磷，并祈祷实验成功》。该画描绘了炼金士在超自然探索中发现磷的瞬间，融合了科学发现与神秘主义，反映了共济会式的启蒙观念，于1795年重绘。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "展览"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、展览",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "cc76e87c-963a-44f1-a2b1-2287479a8878",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "让-巴蒂斯特·皮加勒创作《德尼·狄德罗胸像》",
+    "titleCn": "让-巴蒂斯特·皮加勒创作《德尼·狄德罗胸像》",
+    "date": {
+      "year": 1771
+    },
+    "descriptionCn": "1771年，让-巴蒂斯特·皮加勒创作了青铜胸像《德尼·狄德罗胸像》，高度为52.2厘米。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "ed7d6cff-b530-4760-a6ab-c79f93e51f4c",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "佐法尼创作《乌菲齐美术馆收藏室》",
+    "titleCn": "佐法尼创作《乌菲齐美术馆收藏室》",
+    "date": {
+      "year": 1772,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1772年至1778年，英国画家约翰·佐法尼创作了油画《乌菲齐美术馆收藏室》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "77f336e9-bee3-491a-b2da-bb8e22aea08d",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "帕雷特创作《饰品店》",
+    "titleCn": "帕雷特创作《饰品店》",
+    "date": {
+      "year": 1772
+    },
+    "descriptionCn": "1772年，西班牙画家路易斯·帕雷特·阿尔卡扎为唐·路易斯亲王创作了油画《饰品店》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "dfb34545-df90-429c-9cb5-e69355d894ae",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "约翰·佐法尼创作《皇家美术学院的人体写生课》",
+    "titleCn": "约翰·佐法尼创作《皇家美术学院的人体写生课》",
+    "date": {
+      "year": 1772,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1772年，约翰·佐法尼创作了布面油画《皇家美术学院的人体写生课》，尺寸为1米×1.47米，现藏于英国伯克郡温莎宫的皇家藏品。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "81f629fb-cf0c-4a62-a610-5e99fb43c63c",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "乔舒亚·雷诺兹创作《着牛津学士袍的自画像》",
+    "titleCn": "乔舒亚·雷诺兹创作《着牛津学士袍的自画像》",
+    "date": {
+      "year": 1773
+    },
+    "descriptionCn": "1773年，英国画家乔舒亚·雷诺兹为皇家美术学院绘制了自画像《着牛津学士袍的自画像》。画中他身着牛津大学法学荣誉博士礼服，旁边放置米开朗基罗半身胸像，展现出渊博学识与谦逊姿态。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "8132af17-8484-4438-a075-f3ec6c7a5563",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "乔舒亚·雷诺兹创作《着牛津学士袍的自画像》",
+    "titleCn": "乔舒亚·雷诺兹创作《着牛津学士袍的自画像》",
+    "date": {
+      "year": 1773
+    },
+    "descriptionCn": "1773年，乔舒亚·雷诺兹创作了木板油画《着牛津学士袍的自画像》，尺寸为125厘米×100厘米。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4a162c70-ed09-4a0c-9d60-19aa8cb4489e",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "约书亚·雷诺兹创作肖像《装扮许门像的三女士》",
+    "titleCn": "约书亚·雷诺兹创作肖像《装扮许门像的三女士》",
+    "date": {
+      "year": 1773,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1773年，约书亚·雷诺兹为蒙哥马利姐妹创作了肖像画《装扮许门像的三女士》，该画融合了肖像画与历史画的特点，借用了古典主题，展现了女性美德的拟人形象。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "96b47756-73c9-4330-bceb-2813e7b33a4b",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "亚历山大·杰拉德出版《天才论》",
+    "titleCn": "亚历山大·杰拉德出版《天才论》",
+    "date": {
+      "year": 1774
+    },
+    "descriptionCn": "1774年，苏格兰哲学家亚历山大·杰拉德出版了《天才论》一书。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "8f294e1c-cd9c-4b02-a3ea-adf8b61f0181",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "关作霖开始肖像画创作",
+    "titleCn": "关作霖开始肖像画创作",
+    "date": {
+      "year": 1774,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1774年左右，关作霖开始肖像画创作。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "38efff88-4471-4578-bd29-80fa6796aacf",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "艺术家受雇创作《服装胜览》组画",
+    "titleCn": "艺术家受雇创作《服装胜览》组画",
+    "date": {
+      "year": 1774
+    },
+    "descriptionCn": "1774年至1783年间，一批艺术家受雇创作了《服装胜览》版画组画，以叙事方式展现巴黎上流社会的时尚生活。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "1686ac19-fdc4-41f4-84bf-1144cdec0ebc",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "雷诺兹肖像《装扮许门像的三女士》在皇家美术学院展出",
+    "titleCn": "雷诺兹肖像《装扮许门像的三女士》在皇家美术学院展出",
+    "date": {
+      "year": 1774,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1774年，约书亚·雷诺兹的肖像画《装扮许门像的三女士》在伦敦皇家美术学院展出，该展览是艺术家向同行和潜在赞助人展示作品的重要渠道。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "1a51c05f-1855-40a2-a595-ce9f606866dd",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "约翰·托比亚斯·塞格尔完成《马尔斯与维纳斯》模型",
+    "titleCn": "约翰·托比亚斯·塞格尔完成《马尔斯与维纳斯》模型",
+    "date": {
+      "year": 1775,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1775年，约翰·托比亚斯·塞格尔完成了陶土模型《马尔斯与维纳斯》，受理查德·佩恩·奈特委托创作。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "瑞典",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "e2442c4e-36d1-41ab-a8ae-fc2f5a36f3c4",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "纳伊桥落成典礼",
+    "titleCn": "纳伊桥落成典礼",
+    "date": {
+      "year": 1775
+    },
+    "descriptionCn": "1775年，法国纳伊桥正式开放，举行了庆祝典礼，于贝尔·罗伯特记录了这一场景。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "8cf5cf8c-f1ac-4149-a835-0c57f4b61443",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "亨利·弗塞利创作《塞格尔在罗马工作室中》",
+    "titleCn": "亨利·弗塞利创作《塞格尔在罗马工作室中》",
+    "date": {
+      "year": 1776,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1776-1777年，亨利·弗塞利创作了钢笔画《塞格尔在罗马工作室中》，描绘了约翰·托比亚斯·塞格尔雕刻古典雕像的场景。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ebb6eebe-4321-4cb5-ba92-1ab521e1d8b3",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "詹姆斯·巴里创作蚀刻版画《李尔王与科迪莉亚》",
+    "titleCn": "詹姆斯·巴里创作蚀刻版画《李尔王与科迪莉亚》",
+    "date": {
+      "year": 1776
+    },
+    "descriptionCn": "1776年，詹姆斯·巴里创作蚀刻版画《李尔王与科迪莉亚》，画面展现原始的荒野，有意违背当时讲究得体、文雅的惯例。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "cc6988d8-2d26-4d5f-9698-6ac9c79c0a44",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "亚历山大·朗西曼创作天顶画（奥西恩主题）",
+    "titleCn": "亚历山大·朗西曼创作天顶画（奥西恩主题）",
+    "date": {
+      "year": 1777
+    },
+    "descriptionCn": "1777年，詹姆斯·克拉克爵士委托苏格兰画家亚历山大·朗西曼为其位于爱丁堡附近佩尼库克的宅邸创作了一组以奥西恩传说为主题的天顶画。朗西曼放弃了以阿喀琉斯生平为主题的创作初衷，转而选择奥西恩传说，成为第一组以此为主题的重要作品。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5c40bbf1-05e1-41dc-87fc-562065f83e61",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "徐白斋出生",
+    "titleCn": "徐白斋出生",
+    "date": {
+      "year": 1777
+    },
+    "descriptionCn": "1777年，徐白斋出生于北京。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d2bd9f4f-66cb-4983-aa39-f2a429b6ffcb",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "托马斯·班克斯制作浮雕《卡拉克塔克斯国王在罗马皇帝克劳狄一世面前》",
+    "titleCn": "托马斯·班克斯制作浮雕《卡拉克塔克斯国王在罗马皇帝克劳狄一世面前》",
+    "date": {
+      "year": 1777
+    },
+    "descriptionCn": "1777年，托马斯·班克斯在罗马为白金汉侯爵制作了精美浮雕《卡拉克塔克斯国王在罗马皇帝克劳狄一世面前》。浮雕中凯尔特国王的强壮身形与克劳狄一世的坐态形成鲜明反差，体现北欧英雄的高贵精神与体魄。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "bef744a3-76bd-489b-99d0-25469ce702ea",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "皮加勒为狄德罗制作青铜胸像",
+    "titleCn": "皮加勒为狄德罗制作青铜胸像",
+    "date": {
+      "year": 1777
+    },
+    "descriptionCn": "1777年，法国雕塑家让-巴蒂斯特·皮加勒为其友德尼·狄德罗制作了一尊青铜胸像，并在背面刻有题字。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "8ff6139e-b153-424b-950d-60d5fe88942e",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "罗伯特·德劳内根据莫罗草图创作版画《告别》",
+    "titleCn": "罗伯特·德劳内根据莫罗草图创作版画《告别》",
+    "date": {
+      "year": 1777
+    },
+    "descriptionCn": "1777年，罗伯特·德劳内根据小让-米歇尔·莫罗的草图创作了版画《告别》，收录于《服装胜览》组画，展现宫廷社会边缘的奢华服饰。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "e9748337-52c2-4457-bbeb-16a96387df64",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "詹姆斯·巴里创作《人类文明进程》组画",
+    "titleCn": "詹姆斯·巴里创作《人类文明进程》组画",
+    "date": {
+      "year": 1777
+    },
+    "descriptionCn": "1777年至1783年，英国画家詹姆斯·巴里以七年时间无偿为艺术协会“巨型大厅”绘制《人类文明进程》组画。他生活拮据，仅靠面包和苹果充饥，被视为艺术殉道者。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "9048c736-949a-4aad-a37f-2c5daa055951",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "于敏中、梁国治等奉敕编《西清砚谱》",
+    "titleCn": "于敏中、梁国治等奉敕编《西清砚谱》",
+    "date": {
+      "year": 1778
+    },
+    "descriptionCn": "乾隆四十三年（1778年），于敏中、梁国治等奉敕编纂《西清砚谱》二十四卷、目录一卷，记载内府所藏陶、石等古砚和仿制诸品共241方，附图572幅。",
+    "importance": 4,
+    "tags": [
+      "工艺美术"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "工艺美术",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "b325ebb4-ea73-4aa2-8261-4d671dce173e",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "亨利·弗塞利创作《艺术家为宏伟的古代遗迹所感动》",
+    "titleCn": "亨利·弗塞利创作《艺术家为宏伟的古代遗迹所感动》",
+    "date": {
+      "year": 1778
+    },
+    "descriptionCn": "1778-1779年，亨利·弗塞利创作了红色粉笔画《艺术家为宏伟的古代遗迹所感动》，表现了艺术家面对古代遗迹的绝望之感。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "99a5e4db-f426-4432-ab3e-bcf40699f3db",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "卡尔·古滕贝格创作版画涉及美国茶税",
+    "titleCn": "卡尔·古滕贝格创作版画涉及美国茶税",
+    "date": {
+      "year": 1778
+    },
+    "descriptionCn": "1778年，卡尔·古滕贝格创作了一幅版画，内容涉及美国征收的茶税。画中四位女性分别象征四大洲，通过“文明”程度的高低表现对茶税的不同反应。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、出版",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ec1602be-8ff8-4443-a999-48cfab0848a2",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "秦腔艺人魏长生从四川到京献艺",
+    "titleCn": "秦腔艺人魏长生从四川到京献艺",
+    "date": {
+      "year": 1779
+    },
+    "descriptionCn": "乾隆四十四年（1779年），秦腔艺人魏长生从四川到京献艺。",
+    "importance": 4,
+    "tags": [
+      "戏曲"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "戏曲",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "2080a731-fe11-43e7-961b-559aad2d6ad4",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "达尼埃尔·查多维奇创作系列蚀刻版画《自然行为与做作举止》",
+    "titleCn": "达尼埃尔·查多维奇创作系列蚀刻版画《自然行为与做作举止》",
+    "date": {
+      "year": 1779
+    },
+    "descriptionCn": "1779年，达尼埃尔·查多维奇创作了十二幅系列蚀刻版画《自然行为与做作举止》，讽刺法国风尚对德国的影响，提倡自然美德。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "abceee20-3bf6-4154-b55f-1544268acd29",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "里斯本埃斯特雷拉教堂建造",
+    "titleCn": "里斯本埃斯特雷拉教堂建造",
+    "date": {
+      "year": 1779
+    },
+    "descriptionCn": "1779年至1790年，里斯本埃斯特雷拉教堂建造。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "葡萄牙",
+      "originalPeriod": "巴罗克时期",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "e08f47ab-824f-4f23-8cef-65f152448da1",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "徽班进京",
+    "titleCn": "徽班进京",
+    "date": {
+      "year": 1780
+    },
+    "descriptionCn": "1780年（乾隆四十五年），值乾隆帝80寿辰，四大徽班进京，成为京剧发展的重要里程碑。",
+    "importance": 4,
+    "tags": [
+      "戏曲",
+      "表演"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "戏曲、表演",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "af6d2d49-849e-40b2-8413-364029fa043d",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "《法兰西信报》发表声明号召画家寻求不朽声名",
+    "titleCn": "《法兰西信报》发表声明号召画家寻求不朽声名",
+    "date": {
+      "year": 1781,
+      "month": 10
+    },
+    "descriptionCn": "1781年10月，《法兰西信报》发表声明，号召画家寻求不朽声名，抵御金钱诱惑，为永恒愉悦而不懈奋斗。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "7eec6d34-6411-4157-b1e6-f96915148fa2",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "利奥塔尔出版《论绘画的原则和规律》",
+    "titleCn": "利奥塔尔出版《论绘画的原则和规律》",
+    "date": {
+      "year": 1781
+    },
+    "descriptionCn": "1781年，让–艾蒂安·利奥塔尔出版著作《论绘画的原则和规律》，主张没有学术训练但具备先天审美的人，其艺术评判可能比学究和鉴赏家更高明。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "f312eddf-62ed-49e3-a4e3-f8778e539915",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "匿名创作《赫维宁汉庄园》",
+    "titleCn": "匿名创作《赫维宁汉庄园》",
+    "date": {
+      "year": 1781,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1781年，匿名创作了《赫维宁汉庄园》，画作展示了别墅直接坐落在自然风景中的场景，体现了朗瑟罗·布朗式的风景设计理念。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "0e012ade-eb99-4da9-8ba4-703e7a96876a",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "菲利普·德·卢泰尔堡在伦敦放映活动图像（Eidophusikon）",
+    "titleCn": "菲利普·德·卢泰尔堡在伦敦放映活动图像（Eidophusikon）",
+    "date": {
+      "year": 1781
+    },
+    "descriptionCn": "1781年，菲利普·德·卢泰尔堡在伦敦俪人街首次放映了活动图像（Eidophusikon），一种前电影时代的娱乐表演，通过发光圆柱将幻像投影到屏幕上，制造出令观众恐惧、困惑的视觉幻像，包括末日景象等。",
+    "importance": 3,
+    "tags": [
+      "设计",
+      "展览"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计、展览",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "3693c257-43e5-4e87-852a-d9b56a1ebe36",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "蒂施拜因评论达维特《荷拉斯兄弟之誓》",
+    "titleCn": "蒂施拜因评论达维特《荷拉斯兄弟之誓》",
+    "date": {
+      "year": 1781
+    },
+    "descriptionCn": "1781年，德国画家J. H. 蒂施拜因对雅克-路易·达维特的《荷拉斯兄弟之誓》发表评论，引发罗马艺术界关于文化优越性的争论。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "1a4b1b3f-2558-4d67-ad5c-52c2adadca9b",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "让-安托万·乌东创作伏尔泰大理石雕像",
+    "titleCn": "让-安托万·乌东创作伏尔泰大理石雕像",
+    "date": {
+      "year": 1781
+    },
+    "descriptionCn": "1781年，让-安托万·乌东创作了大理石雕像《伏尔泰：“理性的微笑”》。雕像中伏尔泰面带揶揄的笑容，被视为“理性的微笑”，体现了对哲学真理的洞察。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "070446dc-9f54-44c3-9207-69a6bdf5847a",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "卡梅伦建造察斯科伊村镜厅和柱廊、巴甫洛夫斯克宫",
+    "titleCn": "卡梅伦建造察斯科伊村镜厅和柱廊、巴甫洛夫斯克宫",
+    "date": {
+      "year": 1782
+    },
+    "descriptionCn": "1782年至1785年间，卡梅伦在察斯科伊村建造了镜厅和柱廊，以及巴甫洛夫斯克宫，引入了庞培式装饰和帕拉迪奥式优雅。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "俄罗斯",
+      "originalPeriod": "新古典主义时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "a8e34a5d-36f3-406d-8c87-441c724917e4",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "皮洛创作《古斯塔夫三世加冕》",
+    "titleCn": "皮洛创作《古斯塔夫三世加冕》",
+    "date": {
+      "year": 1782
+    },
+    "descriptionCn": "1782年至1793年，卡尔·古斯塔夫·皮洛创作了油画《古斯塔夫三世加冕》，为王朝宣传画，歌颂君主专制。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "瑞典",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "1a812450-e194-4ec4-986b-5f357c7a6c40",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "创作法国讽刺画《无名氏，为医学献身的人》",
+    "titleCn": "创作法国讽刺画《无名氏，为医学献身的人》",
+    "date": {
+      "year": 1783
+    },
+    "descriptionCn": "1783年，一位佚名法国画家创作了讽刺画《无名氏，为医学献身的人》，描绘了热气球升空时的混乱场面。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "e0d96ed1-c7ed-45e0-8f34-dd07ee9265b8",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "斯塔罗夫建造陶里德宫",
+    "titleCn": "斯塔罗夫建造陶里德宫",
+    "date": {
+      "year": 1783
+    },
+    "descriptionCn": "1783年至1788年间，斯塔罗夫在圣彼得堡建造了陶里德宫。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "俄罗斯",
+      "originalPeriod": "新古典主义时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "9f468ce1-66d1-4ff1-a14f-7d2d75655f0d",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "伊丽莎白·维热-勒布伦创作《玛丽·加布丽埃勒·德·格拉蒙特，卡德鲁斯公爵夫人像》",
+    "titleCn": "伊丽莎白·维热-勒布伦创作《玛丽·加布丽埃勒·德·格拉蒙特，卡德鲁斯公爵夫人像》",
+    "date": {
+      "year": 1784
+    },
+    "descriptionCn": "1784年，伊丽莎白·维热-勒布伦创作了木板油画《玛丽·加布丽埃勒·德·格拉蒙特，卡德鲁斯公爵夫人像》，尺寸为106厘米×76厘米，现藏于美国密苏里州堪萨斯城的纳尔逊-阿特金斯艺术博物馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "洛可可",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4b805e1a-1603-4e8a-987f-af1a91306292",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "让-热尔曼·德鲁埃获得1784年罗马大奖",
+    "titleCn": "让-热尔曼·德鲁埃获得1784年罗马大奖",
+    "date": {
+      "year": 1784
+    },
+    "descriptionCn": "1784年，法国画家让-热尔曼·德鲁埃获得罗马大奖，之后他的拥护者以庆祝军事胜利的方式庆贺。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "展览"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、展览",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ef816165-3f3c-46ef-bc83-c00f71934f65",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "路易·达维德创作《霍拉蒂之誓》",
+    "titleCn": "路易·达维德创作《霍拉蒂之誓》",
+    "date": {
+      "year": 1784
+    },
+    "descriptionCn": "1784年，雅克-路易·达维德创作油画《霍拉蒂之誓》，现藏于巴黎罗浮宫。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "新古典主义",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4998a05a-101c-45cc-840d-dc23c51780c1",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "达维特创作《荷拉斯兄弟之誓》",
+    "titleCn": "达维特创作《荷拉斯兄弟之誓》",
+    "date": {
+      "year": 1784
+    },
+    "descriptionCn": "1784年至1785年，法国画家雅克-路易·达维特创作了油画《荷拉斯兄弟之誓》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "95b64559-7426-460e-889b-b3841212a8e5",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "弗朗西斯科·戈雅致信萨帕特尔表达对人类腐化堕落的思考",
+    "titleCn": "弗朗西斯科·戈雅致信萨帕特尔表达对人类腐化堕落的思考",
+    "date": {
+      "year": 1785
+    },
+    "descriptionCn": "1785年，弗朗西斯科·戈雅致信友人萨帕特尔，表达了对人类腐化堕落及超越死亡欲念的思考。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "8e004f48-fe43-43f6-a3ca-24b21d76565b",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "托马斯·庚斯博罗创作《威廉·哈利特夫妇像》",
+    "titleCn": "托马斯·庚斯博罗创作《威廉·哈利特夫妇像》",
+    "date": {
+      "year": 1785
+    },
+    "descriptionCn": "1785年，英国画家托马斯·庚斯博罗创作了油画《威廉·哈利特夫妇像》（又名《清晨漫步》）。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "736efdba-1c24-4041-bba3-6509cb8ae334",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "达尼埃尔·查多维奇设计“自然的”服装",
+    "titleCn": "达尼埃尔·查多维奇设计“自然的”服装",
+    "date": {
+      "year": 1785
+    },
+    "descriptionCn": "1785年，达尼埃尔·查多维奇受杂志出版商弗朗兹·埃伦贝格委托，设计了一套符合社会改革要求的“自然的”服装，倡导简洁风尚。",
+    "importance": 3,
+    "tags": [
+      "设计"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d3a6e29a-99b8-4c25-b8a5-9feee98f8b2c",
+    "periodId": "p_early_modern",
+    "streamId": "s_baroque_rococo",
+    "titleEn": "阿代拉伊德·拉比耶-吉亚尔创作《有两个学生在身后的自画像》",
+    "titleCn": "阿代拉伊德·拉比耶-吉亚尔创作《有两个学生在身后的自画像》",
+    "date": {
+      "year": 1785,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1785年，阿代拉伊德·拉比耶-吉亚尔创作了布面油画《有两个学生在身后的自画像》，尺寸为2.1米×1.5米，现藏于纽约大都会美术馆。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "洛可可",
+      "standardPeriod": "巴洛克与洛可可",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4802ca73-805c-44e7-9146-d6e4f70693d1",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "乾隆帝在玉圭上题字并添加铭文",
+    "titleCn": "乾隆帝在玉圭上题字并添加铭文",
+    "date": {
+      "year": 1786
+    },
+    "descriptionCn": "1786年，乾隆皇帝在玉圭上题字并添加铭文，将其归入古代藏品，并赋予鹰和熊的象征意义。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "4802ca73-805c-44e7-9146-d6e4f70693d1",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "乾隆帝在玉圭上题字并添加铭文",
+    "titleCn": "乾隆帝在玉圭上题字并添加铭文",
+    "date": {
+      "year": 1786
+    },
+    "descriptionCn": "1786年，乾隆皇帝在玉圭上题字并添加铭文，将其归入古代藏品，并赋予鹰和熊的象征意义。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "a9f964a3-8ce7-4e27-8f88-f9465c6fbeee",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·霍奇斯出版《印度风景》",
+    "titleCn": "威廉·霍奇斯出版《印度风景》",
+    "date": {
+      "year": 1786
+    },
+    "descriptionCn": "1786年，威廉·霍奇斯出版了《印度风景》（Select View of India）一书，书中描绘了许多印度皇宫遗迹，将其喻为“化作尘埃的人类伟大文明纪念碑”，以此证明印度文化已进入衰退期。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "cb973c1a-0edb-4110-b171-0229c766d354",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "茹兰发表关于版画交易的言论",
+    "titleCn": "茹兰发表关于版画交易的言论",
+    "date": {
+      "year": 1786,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1786年，巴黎版画家兼商人F.-C.茹兰发表言论，赞扬版画交易作为欧洲知识共同体的媒介，声称艺术爱好者与艺术家之间达成完美协议。",
+    "importance": 2,
+    "tags": [
+      "出版",
+      "交易"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版、交易",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "cd863a8d-da17-4855-a304-5fe3daafa13e",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "菲利普·德·卢泰尔堡随卡廖斯特罗被流放",
+    "titleCn": "菲利普·德·卢泰尔堡随卡廖斯特罗被流放",
+    "date": {
+      "year": 1786
+    },
+    "descriptionCn": "1786年，菲利普·德·卢泰尔堡因与卡廖斯特罗的神秘学说关系密切，随其被流放。此事对他在英国的公众声誉产生了负面影响。",
+    "importance": 4,
+    "tags": [],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "未标注",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "77861b8d-4b96-4cae-9699-b3ad96f798c7",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "让-安托万·乌东创作卡廖斯特罗胸像",
+    "titleCn": "让-安托万·乌东创作卡廖斯特罗胸像",
+    "date": {
+      "year": 1786
+    },
+    "descriptionCn": "1786年，让-安托万·乌东创作了白色大理石胸像《朱塞佩·巴尔萨莫（别名卡廖斯特罗伯爵）胸像》。胸像中卡廖斯特罗目光望向苍穹，衣冠不整，暗示其思想家身份，反映了艺术家对其神秘感知力的认同。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "5d60a75f-938c-4ebd-89b0-7fa124acca0c",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "《大禹治水玉山》雕刻完成",
+    "titleCn": "《大禹治水玉山》雕刻完成",
+    "date": {
+      "year": 1787,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1787年，清宫廷雕刻《大禹治水玉山》完成，高2.24米，重约5330公斤。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "5d60a75f-938c-4ebd-89b0-7fa124acca0c",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "《大禹治水玉山》雕刻完成",
+    "titleCn": "《大禹治水玉山》雕刻完成",
+    "date": {
+      "year": 1787,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1787年，清宫廷雕刻《大禹治水玉山》完成，高2.24米，重约5330公斤。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "ff6e863f-471a-44b6-9c08-4eb1ff50bac7",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "罗伯特·巴克尔创作全景画《城市奇观与爱丁堡城堡》",
+    "titleCn": "罗伯特·巴克尔创作全景画《城市奇观与爱丁堡城堡》",
+    "date": {
+      "year": 1788
+    },
+    "descriptionCn": "1788年，罗伯特·巴克尔创作了《城市奇观与爱丁堡城堡》，这是360度城市全景画的早期范例，展示从山顶观看的城市风景。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "设计"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、设计",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5d675297-068b-4af2-8e03-61ae52724b84",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "四大徽班从扬州进京祝贺乾隆八十寿辰",
+    "titleCn": "四大徽班从扬州进京祝贺乾隆八十寿辰",
+    "date": {
+      "year": 1790
+    },
+    "descriptionCn": "乾隆五十五年（1790年），四大徽班从扬州进京祝贺乾隆八十寿辰，将徽调带入北京。",
+    "importance": 4,
+    "tags": [
+      "戏曲"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "戏曲",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "afafcee4-73d6-4afc-babf-81826badcdab",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "康德《判断力批判》出版",
+    "titleCn": "康德《判断力批判》出版",
+    "date": {
+      "year": 1790
+    },
+    "descriptionCn": "1790年，伊曼努尔·康德的《判断力批判》在柏林和利鲍出版。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "启蒙运动时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "afafcee4-73d6-4afc-babf-81826badcdab",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "康德《判断力批判》出版",
+    "titleCn": "康德《判断力批判》出版",
+    "date": {
+      "year": 1790
+    },
+    "descriptionCn": "1790年，伊曼努尔·康德的《判断力批判》在柏林和利鲍出版。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "启蒙运动时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "179af7c8-b05a-4700-81ea-6c981b50cb87",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "康德出版《判断力批判》",
+    "titleCn": "康德出版《判断力批判》",
+    "date": {
+      "year": 1790
+    },
+    "descriptionCn": "1790年，伊曼努尔·康德出版了《判断力批判》，该书分为审美判断与目的论判断两部分，奠定了现代美学的基础，探讨了趣味判断的普遍性、天才概念以及美与道德的象征关系。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "d075f92f-d273-4af4-b2e2-4baef4f4b4ab",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "康德出版《判断力批判》",
+    "titleCn": "康德出版《判断力批判》",
+    "date": {
+      "year": 1790
+    },
+    "descriptionCn": "1790年，伊曼努尔·康德出版了《判断力批判》，该书是其批判哲学体系的重要组成部分，探讨了审美判断和目的论判断的原则。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "启蒙时代",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "dcfe4278-6ff0-4db1-8f26-16f347d00f7c",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "戈特哈德·朗汉斯以柏林勃兰登门引进考古风格",
+    "titleCn": "戈特哈德·朗汉斯以柏林勃兰登门引进考古风格",
+    "date": {
+      "year": 1790
+    },
+    "descriptionCn": "1790年，戈特哈德·朗汉斯设计了柏林勃兰登门，引入了受雅典卫城入口启发的考古风格。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "新古典主义时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "f73b8b7e-84f3-418c-849d-736593dc5c4a",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "约翰·弗拉克斯曼接受布里斯托尔伯爵委托创作群雕《疯狂的阿塔马斯》",
+    "titleCn": "约翰·弗拉克斯曼接受布里斯托尔伯爵委托创作群雕《疯狂的阿塔马斯》",
+    "date": {
+      "year": 1790,
+      "month": 4,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1790年4月，英国雕塑家约翰·弗拉克斯曼在罗马写信给布里斯托尔伯爵，随后获得委托创作群雕《疯狂的阿塔马斯》，旨在获得国际声誉。",
+    "importance": 3,
+    "tags": [
+      "雕塑"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "42844536-428f-4989-8a29-3c6fe31c3ba4",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "英国《世界报》称赞朱利叶斯·西泽·伊比森",
+    "titleCn": "英国《世界报》称赞朱利叶斯·西泽·伊比森",
+    "date": {
+      "year": 1790,
+      "month": 4,
+      "day": 29
+    },
+    "descriptionCn": "1790年4月29日，英国《世界报》发表文章，称赞年轻画家朱利叶斯·西泽·伊比森为“本年度最耀眼的天才”。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "d08225c4-ba89-4c46-b9a4-4cc3486101ff",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "邰顺继承祖业经营万顺画局",
+    "titleCn": "邰顺继承祖业经营万顺画局",
+    "date": {
+      "year": 1790
+    },
+    "descriptionCn": "乾隆五十五年（1790年），邰顺继承祖业，在陕西凤翔经营万顺画局，从事年画生产。",
+    "importance": 4,
+    "tags": [
+      "年画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "年画",
+      "eventCategory": "其他"
+    }
+  },
+  {
+    "id": "8c96a8dd-99ad-4e94-8c26-951e782e8449",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "安杰莉卡·考夫曼创作《在音乐与绘画之间犹豫的自画像》",
+    "titleCn": "安杰莉卡·考夫曼创作《在音乐与绘画之间犹豫的自画像》",
+    "date": {
+      "year": 1791,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1791年，安杰莉卡·考夫曼创作了布面油画《在音乐与绘画之间犹豫的自画像》，尺寸为1.47米×2.18米，现藏于英国约克郡的诺斯黛尔庄园。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "新古典主义",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "8b8acb81-c573-4d58-9e8e-4759361efe6a",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "马若尔·皮埃尔·夏尔·朗方少校制订华盛顿城规划",
+    "titleCn": "马若尔·皮埃尔·夏尔·朗方少校制订华盛顿城规划",
+    "date": {
+      "year": 1791
+    },
+    "descriptionCn": "1791年，马若尔·皮埃尔·夏尔·朗方少校制订了华盛顿城的规划。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "cecbb7c2-8c30-4db2-899d-be7a8af2d110",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "戈雅在马德里美术学院发表演说谴责艺术受法则支配",
+    "titleCn": "戈雅在马德里美术学院发表演说谴责艺术受法则支配",
+    "date": {
+      "year": 1792
+    },
+    "descriptionCn": "1792年，弗朗西斯科·戈雅在马德里美术学院发表演说，公开谴责艺术受法则支配的观念，强调艺术是个人天赋与自然间的神秘交流，标志着新时代的到来。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "10fdd9a3-5b77-4c78-abf8-595f3f5abbc2",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "黎明等完成佛教人物长卷画",
+    "titleCn": "黎明等完成佛教人物长卷画",
+    "date": {
+      "year": 1792
+    },
+    "descriptionCn": "1792年，宫廷画家黎明带领团队完成佛教人物长卷画，长16米，描绘佛说法场景，色彩鲜艳，使用金色高光，风格源自清代宫廷佛教艺术。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "10fdd9a3-5b77-4c78-abf8-595f3f5abbc2",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "黎明等完成佛教人物长卷画",
+    "titleCn": "黎明等完成佛教人物长卷画",
+    "date": {
+      "year": 1792
+    },
+    "descriptionCn": "1792年，宫廷画家黎明带领团队完成佛教人物长卷画，长16米，描绘佛说法场景，色彩鲜艳，使用金色高光，风格源自清代宫廷佛教艺术。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "10fdd9a3-5b77-4c78-abf8-595f3f5abbc2",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "黎明等完成佛教人物长卷画",
+    "titleCn": "黎明等完成佛教人物长卷画",
+    "date": {
+      "year": 1792
+    },
+    "descriptionCn": "1792年，宫廷画家黎明带领团队完成佛教人物长卷画，长16米，描绘佛说法场景，色彩鲜艳，使用金色高光，风格源自清代宫廷佛教艺术。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "bccb54f3-f6c2-4db1-80a4-d612bfddc94c",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "卢浮宫对外开放",
+    "titleCn": "卢浮宫对外开放",
+    "date": {
+      "year": 1793
+    },
+    "descriptionCn": "1793年，卢浮宫作为公共博物馆对外开放。",
+    "importance": 1,
+    "tags": [
+      "建筑",
+      "展览"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑、展览",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "c58f039e-8d89-4bdd-ae7e-f75aedd64eb0",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "巴黎举行“统一与不可分割庆典”并焚烧雕像",
+    "titleCn": "巴黎举行“统一与不可分割庆典”并焚烧雕像",
+    "date": {
+      "year": 1793,
+      "month": 8
+    },
+    "descriptionCn": "1793年8月，巴黎举行纪念“统一与不可分割庆典”，仪式上集中焚烧了象征贵族与教会权力的雕像。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "展览"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑、展览",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "99038fdc-f277-49db-8e02-d123f8cdf94d",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "法国卢浮宫向公众开放（成立）",
+    "titleCn": "法国卢浮宫向公众开放（成立）",
+    "date": {
+      "year": 1793
+    },
+    "descriptionCn": "1793年，巴黎卢浮宫作为现代意义上的第一批公共博物馆向公众开放，象征着自由、平等、博爱的革命理想，王室收藏的艺术宝藏得以公开展示。",
+    "importance": 1,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "法国大革命时期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "63297b76-f306-4a01-a7c2-057460851cac",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "约翰·弗拉克斯曼制作《神曲》插图，托马斯·霍普限制发行",
+    "titleCn": "约翰·弗拉克斯曼制作《神曲》插图，托马斯·霍普限制发行",
+    "date": {
+      "year": 1793,
+      "month": 7,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1793年，约翰·弗拉克斯曼根据但丁《神曲》创作了线描插图。托马斯·霍普因认为这是“高雅艺术”而限制其公开销售，只私下赠与少数人，反映了精英阶层对艺术流通的控制。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、出版",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "d7e6acd2-1e3a-4014-861c-4df5f1d2d30c",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "达维特创作《玛丽·安托瓦内特被送上断头台》",
+    "titleCn": "达维特创作《玛丽·安托瓦内特被送上断头台》",
+    "date": {
+      "year": 1793
+    },
+    "descriptionCn": "1793年，法国画家雅克-路易·达维特创作了素描《玛丽·安托瓦内特被送上断头台》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ca267c76-b53a-4f5b-90a4-351ea48338bb",
+    "periodId": "p_early_modern",
+    "streamId": "s_cn_late_imperial",
+    "titleEn": "戴廉增去世",
+    "titleCn": "戴廉增去世",
+    "date": {
+      "year": 1795
+    },
+    "descriptionCn": "1795年，戴廉增去世。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清代",
+      "standardPeriod": "中国：宋元明清",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "ba3ab003-c825-4ecb-a350-e1eb12bb3a0e",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "方特希尔寺建造",
+    "titleCn": "方特希尔寺建造",
+    "date": {
+      "year": 1795
+    },
+    "descriptionCn": "1795年，方特希尔寺建造完成。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "英国乔治王朝",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "4224c1a6-c9e6-4605-bb64-ea7c1f36d9f2",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "费尔诺在罗马写信赞扬卡斯滕斯的艺术",
+    "titleCn": "费尔诺在罗马写信赞扬卡斯滕斯的艺术",
+    "date": {
+      "year": 1795
+    },
+    "descriptionCn": "1795年，卡尔·L.费尔诺在罗马写信，赞扬普鲁士画家阿斯穆斯·雅各布·卡斯滕斯的艺术具有纯粹的男性风格，将其视为日耳曼艺术复兴的象征。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "02f48091-0a24-4eb7-88ca-cc8ac93013e8",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "于贝尔·罗伯特在沙龙展出卢浮宫大画廊及其废墟画作",
+    "titleCn": "于贝尔·罗伯特在沙龙展出卢浮宫大画廊及其废墟画作",
+    "date": {
+      "year": 1796
+    },
+    "descriptionCn": "1796年，于贝尔·罗伯特首次在沙龙展出两幅画作，一幅描绘光彩夺目的卢浮宫大画廊，另一幅则为该画廊遭遇灾难后的废墟景象。",
+    "importance": 1,
+    "tags": [
+      "绘画",
+      "展览"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、展览",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "5de2a302-86ea-4486-8825-260ecdd0c210",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "于贝尔与罗斯特出版德国艺术手册",
+    "titleCn": "于贝尔与罗斯特出版德国艺术手册",
+    "date": {
+      "year": 1796
+    },
+    "descriptionCn": "1796年，于贝尔（Huber）与罗斯特（Rost）一同出版了一本畅销的德国艺术手册。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "f11d4ef9-3c38-46a9-a3eb-432cdffec6e6",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·瓦肯罗德参观画廊",
+    "titleCn": "威廉·瓦肯罗德参观画廊",
+    "date": {
+      "year": 1797
+    },
+    "descriptionCn": "1797年，威廉·瓦肯罗德参观了一个画廊，体验到对艺术品的冥想能够使人超脱世俗，达到类似宗教狂喜的精神状态。",
+    "importance": 2,
+    "tags": [
+      "展览"
+    ],
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "展览",
+      "eventCategory": "制度与展览"
+    }
+  },
+  {
+    "id": "d99c74dd-f12d-44e7-ab66-4fe7bd7dd9ed",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "戈雅创作《裸体的玛哈》",
+    "titleCn": "戈雅创作《裸体的玛哈》",
+    "date": {
+      "year": 1797,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1797年至1798年，戈雅创作了《裸体的玛哈》，现藏于马德里普拉多宫。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "浪漫主义初期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "8d130168-7ce7-4a65-bac1-f11e90a282a0",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "威廉·华兹华斯创作诗歌《廷腾寺》",
+    "titleCn": "威廉·华兹华斯创作诗歌《廷腾寺》",
+    "date": {
+      "year": 1798
+    },
+    "descriptionCn": "1798年，威廉·华兹华斯创作了诗歌《廷腾寺》。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "5169e7ba-c340-4a5b-848f-a666b3b89544",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "本杰明·拉特罗布设计宾夕法尼亚银行，开启美国希腊复兴",
+    "titleCn": "本杰明·拉特罗布设计宾夕法尼亚银行，开启美国希腊复兴",
+    "date": {
+      "year": 1798
+    },
+    "descriptionCn": "1798年，本杰明·拉特罗布设计了宾夕法尼亚银行，该建筑采用爱奥尼亚式圆柱门廊，被认为是美国希腊复兴建筑的开端。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "d5d40313-be72-4929-99d1-95aed7a32dbd",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "法国炮轰杜塞尔多夫损毁格林的艺术收藏",
+    "titleCn": "法国炮轰杜塞尔多夫损毁格林的艺术收藏",
+    "date": {
+      "year": 1798
+    },
+    "descriptionCn": "1798年，法国军队炮轰杜塞尔多夫，瓦伦丁·格林（Valentin Green）的艺术博物馆损毁严重，收藏的绘画被毁，导致其破产。",
+    "importance": 3,
+    "tags": [
+      "建筑"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "建筑",
+      "eventCategory": "建筑"
+    }
+  },
+  {
+    "id": "962463f2-e1a9-47a9-8176-ffe65a39e9d0",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "弗拉克斯曼写信给建设委员会提议纪念像",
+    "titleCn": "弗拉克斯曼写信给建设委员会提议纪念像",
+    "date": {
+      "year": 1799,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1799年，英国雕塑家约翰·弗拉克斯曼写信给建设委员会，提议在格林威治天文台附近建造巨型纪念像。",
+    "importance": 3,
+    "tags": [
+      "雕塑",
+      "建筑"
+    ],
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "雕塑、建筑",
+      "eventCategory": "雕塑"
+    }
+  },
+  {
+    "id": "0a905ca3-3311-48a2-a3c8-79972741b0e5",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "弗朗西斯科·戈雅创作《自画像》（《奇想集》组画第1幅）",
+    "titleCn": "弗朗西斯科·戈雅创作《自画像》（《奇想集》组画第1幅）",
+    "date": {
+      "year": 1799
+    },
+    "descriptionCn": "1799年，弗朗西斯科·戈雅创作了铜版画《自画像》，作为《奇想集》组画的第1幅，尺寸为21.5厘米×15厘米。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "b1aedad0-df9e-4b2f-b33f-0adcfa01fcab",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "戈雅出版铜版组画《幻想曲》",
+    "titleCn": "戈雅出版铜版组画《幻想曲》",
+    "date": {
+      "year": 1799
+    },
+    "descriptionCn": "1799年，弗朗西斯科·戈雅出版铜版组画《幻想曲》（Los Caprichos），其中包含《理智沉睡招鬼来》。",
+    "importance": 2,
+    "tags": [
+      "版画"
+    ],
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "浪漫主义",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "版画",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "b9c4532d-e711-41be-ad15-1d75bee26bf0",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "盖兰创作《马库斯·塞克斯图斯归来》",
+    "titleCn": "盖兰创作《马库斯·塞克斯图斯归来》",
+    "date": {
+      "year": 1799
+    },
+    "descriptionCn": "1799年，法国画家皮埃尔-纳西斯·盖兰创作了油画《马库斯·塞克斯图斯归来》。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "239c1539-2b1f-467a-a71d-4df225760542",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "诺瓦利斯创作诗歌《基督教精神或欧洲》",
+    "titleCn": "诺瓦利斯创作诗歌《基督教精神或欧洲》",
+    "date": {
+      "year": 1799
+    },
+    "descriptionCn": "1799年，德国诗人诺瓦利斯创作了诗歌《基督教精神或欧洲》（Christianity or Europe），虚构了欧洲作为基督教世界的美好时光，影响了后来的圣路加兄弟会。",
+    "importance": 2,
+    "tags": [
+      "出版"
+    ],
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "18世纪末",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "出版",
+      "eventCategory": "出版与艺术史写作"
+    }
+  },
+  {
+    "id": "a91bc846-11fa-4d4a-9f3b-3b63daf1e1de",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "达维特创作并展出《抢夺萨宾妇女》",
+    "titleCn": "达维特创作并展出《抢夺萨宾妇女》",
+    "date": {
+      "year": 1799
+    },
+    "descriptionCn": "1799年，雅克-路易·达维特创作并展出布面油画《抢夺萨宾妇女》，在剧院门厅向参观者收费，并发表声明表示艺术家相信群众的意见没有错，此举引发了关于公众评判艺术的讨论。",
+    "importance": 3,
+    "tags": [
+      "绘画",
+      "展览"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画、展览",
+      "eventCategory": "绘画与设计"
+    }
+  },
+  {
+    "id": "136f5e04-2787-4182-b246-677ff95f7408",
+    "periodId": "p_early_modern",
+    "streamId": "s_neoclassical_romantic",
+    "titleEn": "雅克-路易·达维特创作《抢夺萨宾妇女》",
+    "titleCn": "雅克-路易·达维特创作《抢夺萨宾妇女》",
+    "date": {
+      "year": 1799
+    },
+    "descriptionCn": "1799年，雅克-路易·达维特创作了布面油画《抢夺萨宾妇女》，尺寸为385厘米×522厘米。",
+    "importance": 3,
+    "tags": [
+      "绘画"
+    ],
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "standardPeriod": "新古典主义与浪漫主义",
+      "eventTypeRaw": "绘画",
+      "eventCategory": "绘画与设计"
+    }
+  }
+]

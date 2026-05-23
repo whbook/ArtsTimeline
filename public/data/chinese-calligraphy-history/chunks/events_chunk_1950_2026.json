@@ -1,0 +1,1401 @@
+[
+  {
+    "id": "66b45022942c7eb28beebc2e",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "台湾印学会成立",
+    "titleCn": "台湾印学会成立",
+    "date": {
+      "year": 1950
+    },
+    "importance": 5,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1860
+    }
+  },
+  {
+    "id": "66b45022942c7eb28beebc2f",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "方介堪刻印《般若波罗蜜多心经》",
+    "titleCn": "方介堪刻印《般若波罗蜜多心经》",
+    "date": {
+      "year": 1950
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "篆刻与印学 / Seal Carving"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "方介堪",
+      "style": "篆刻与印学 / Seal Carving",
+      "sourceOrder": 1861
+    },
+    "creatorCn": "方介堪",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127103007636.png",
+    "descriptionCn": "方介堪自刻印成《般若波罗蜜多心经》一册，辑吴熙载、赵之谦、胡镢、吴昌硕刻印成《晚清四大家印谱》。"
+  },
+  {
+    "id": "66b45022942c7eb28beebc30",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "沈尹默书《翁松禅临颜平原李元靖碑跋》",
+    "titleCn": "沈尹默书《翁松禅临颜平原李元靖碑跋》",
+    "date": {
+      "year": 1951
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "楷书 / Regular Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "沈尹默",
+      "style": "楷书 / Regular Script",
+      "sourceOrder": 1862
+    },
+    "creatorCn": "沈尹默",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127115306592.png"
+  },
+  {
+    "id": "66b45022942c7eb28beebc31",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "齐白石书《赠则秀仪女弟联》",
+    "titleCn": "齐白石书《赠则秀仪女弟联》",
+    "date": {
+      "year": 1951
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "齐白石",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1863
+    },
+    "creatorCn": "齐白石",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127115907644.png"
+  },
+  {
+    "id": "66b45022942c7eb28beebc32",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "沈尹默书《题徐平羽所藏明人手札》",
+    "titleCn": "沈尹默书《题徐平羽所藏明人手札》",
+    "date": {
+      "year": 1952
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "沈尹默",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1864
+    },
+    "creatorCn": "沈尹默",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127120123749.png"
+  },
+  {
+    "id": "66b45022942c7eb28beebc33",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "沈尹默书《徐平羽藏郑板桥自叙册跋》",
+    "titleCn": "沈尹默书《徐平羽藏郑板桥自叙册跋》",
+    "date": {
+      "year": 1952
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "沈尹默",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1865
+    },
+    "creatorCn": "沈尹默",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127120250562.png"
+  },
+  {
+    "id": "66b45022942c7eb28beebc34",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "胡小石书《楷书五言联》",
+    "titleCn": "胡小石书《楷书五言联》",
+    "date": {
+      "year": 1952
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "楷书 / Regular Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "胡小石",
+      "style": "楷书 / Regular Script",
+      "sourceOrder": 1866
+    },
+    "creatorCn": "胡小石",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127122435600.png"
+  },
+  {
+    "id": "66b45022942c7eb28beebc35",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "吴稚晖撰《上下古今谈》",
+    "titleCn": "吴稚晖撰《上下古今谈》",
+    "date": {
+      "year": 1953,
+      "accuracy": "not_after"
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书论与收藏 / Theory and Connoisseurship"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "吴稚晖",
+      "style": "书论与收藏 / Theory and Connoisseurship",
+      "sourceOrder": 1867
+    },
+    "creatorCn": "吴稚晖",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127122912696.png"
+  },
+  {
+    "id": "66b45022942c7eb28beebc36",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "高二适撰《新定急就章及考证》",
+    "titleCn": "高二适撰《新定急就章及考证》",
+    "date": {
+      "year": 1954
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书论与收藏 / Theory and Connoisseurship"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "高二适",
+      "style": "书论与收藏 / Theory and Connoisseurship",
+      "sourceOrder": 1868
+    },
+    "endDate": {
+      "year": 1964
+    },
+    "creatorCn": "高二适",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127123031542.png"
+  },
+  {
+    "id": "66b45022942c7eb28beebc37",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "武威《仪礼》简策出土",
+    "titleCn": "武威《仪礼》简策出土",
+    "date": {
+      "year": 1957
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1869
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127140753893.png"
+  },
+  {
+    "id": "66b45022942c7eb28beebc38",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "武威《王杖十简诏令册》出土",
+    "titleCn": "武威《王杖十简诏令册》出土",
+    "date": {
+      "year": 1959
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1870
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127141041314.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc39",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "刘孟伉书《杨宗干题升庵先生遗像诗屏》",
+    "titleCn": "刘孟伉书《杨宗干题升庵先生遗像诗屏》",
+    "date": {
+      "year": 1961
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "刘孟伉",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1871
+    },
+    "creatorCn": "刘孟伉",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127143011943.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc3a",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "潘伯鹰《中国书法简论》刊行",
+    "titleCn": "潘伯鹰《中国书法简论》刊行",
+    "date": {
+      "year": 1962
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "潘伯鹰",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1872
+    },
+    "creatorCn": "潘伯鹰",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127144311065.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc3b",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "洛阳出土东汉刑徒墓志八百余通",
+    "titleCn": "洛阳出土东汉刑徒墓志八百余通",
+    "date": {
+      "year": 1964
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "楷书 / Regular Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "楷书 / Regular Script",
+      "sourceOrder": 1873
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127144302316.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc3c",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "《兰亭序》真伪大论辩",
+    "titleCn": "《兰亭序》真伪大论辩",
+    "date": {
+      "year": 1965
+    },
+    "importance": 1,
+    "tags": [
+      "现代",
+      "楷书 / Regular Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "楷书 / Regular Script",
+      "sourceOrder": 1874
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127144901573.png",
+    "descriptionCn": "由郭沫若《由王谢墓志的出土论到〈兰亭序〉的真伪》和高二适《〈兰亭序〉真伪驳议》二文引起一场关于《兰亭序》真伪的大论辩。"
+  },
+  {
+    "id": "66b45023942c7eb28beebc3d",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "甘谷汉简出土",
+    "titleCn": "甘谷汉简出土",
+    "date": {
+      "year": 1971
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1875
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127145731637.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc3e",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "朱建新《孙过庭书谱笺证》出版",
+    "titleCn": "朱建新《孙过庭书谱笺证》出版",
+    "date": {
+      "year": 1972
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书论与收藏 / Theory and Connoisseurship"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "朱建新",
+      "style": "书论与收藏 / Theory and Connoisseurship",
+      "sourceOrder": 1876
+    },
+    "creatorCn": "朱建新",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127150135379.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc3f",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "山东临沂银雀山汉简出土",
+    "titleCn": "山东临沂银雀山汉简出土",
+    "date": {
+      "year": 1972
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1877
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127150406683.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc40",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "武威医简出土",
+    "titleCn": "武威医简出土",
+    "date": {
+      "year": 1972
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1878
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127150605965.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc41",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "湖南长沙马王堆汉墓帛书简策出土",
+    "titleCn": "湖南长沙马王堆汉墓帛书简策出土",
+    "date": {
+      "year": 1973
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "隶书与汉碑 / Clerical Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "隶书与汉碑 / Clerical Script",
+      "sourceOrder": 1879
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127151302811.png",
+    "descriptionCn": "湖南长沙马王堆汉墓帛书简策出土，启古隶研究之门径。"
+  },
+  {
+    "id": "66b45023942c7eb28beebc42",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "高二适书《致智铠兄尺牍》",
+    "titleCn": "高二适书《致智铠兄尺牍》",
+    "date": {
+      "year": 1973
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "高二适",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1880
+    },
+    "creatorCn": "高二适",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127155213819.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc43",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "湖北江陵凤凰山汉墓简牍出土",
+    "titleCn": "湖北江陵凤凰山汉墓简牍出土",
+    "date": {
+      "year": 1973
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "隶书与汉碑 / Clerical Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "隶书与汉碑 / Clerical Script",
+      "sourceOrder": 1881
+    },
+    "endDate": {
+      "year": 1975
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127160051125.png",
+    "descriptionCn": "湖北江陵凤凰山汉墓简牍先后出土六批，达四百余枚。"
+  },
+  {
+    "id": "66b45023942c7eb28beebc44",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "居延《相利善敝剑册》出土",
+    "titleCn": "居延《相利善敝剑册》出土",
+    "date": {
+      "year": 1974
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "居延",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1882
+    },
+    "creatorCn": "居延",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127160314846.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc45",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "湖北云梦睡虎地秦简出土",
+    "titleCn": "湖北云梦睡虎地秦简出土",
+    "date": {
+      "year": 1975
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "隶书与汉碑 / Clerical Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "隶书与汉碑 / Clerical Script",
+      "sourceOrder": 1883
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127161247128.png",
+    "descriptionCn": "湖北云梦睡虎地秦简出土，秦隶面目始昭白天下。"
+  },
+  {
+    "id": "66b45023942c7eb28beebc46",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "阜阳汉简出土",
+    "titleCn": "阜阳汉简出土",
+    "date": {
+      "year": 1977
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1884
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127161632294.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc47",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "《兰亭论辩》问世",
+    "titleCn": "《兰亭论辩》问世",
+    "date": {
+      "year": 1977
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "行书 / Running Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "行书 / Running Script",
+      "sourceOrder": 1885
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127161852277.png",
+    "descriptionCn": "文物出版社辑出有代表性的权威文章近二十篇成《兰亭论辩》一册，于一九七七年出版。"
+  },
+  {
+    "id": "66b45023942c7eb28beebc48",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "沈尹默发表《书法论丛》",
+    "titleCn": "沈尹默发表《书法论丛》",
+    "date": {
+      "year": 1978
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "沈尹默",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1886
+    },
+    "creatorCn": "沈尹默",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127162256119.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc49",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "《书法》杂志于上海创刊",
+    "titleCn": "《书法》杂志于上海创刊",
+    "date": {
+      "year": 1978
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1887
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127162423983.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc4a",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "罗福颐《汉印文字征》增订本刊行",
+    "titleCn": "罗福颐《汉印文字征》增订本刊行",
+    "date": {
+      "year": 1978
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "罗福颐",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1888
+    },
+    "creatorCn": "罗福颐",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127163557130.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc4b",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "青海大通汉简出土",
+    "titleCn": "青海大通汉简出土",
+    "date": {
+      "year": 1978
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1889
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127164013936.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc4c",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "《书法研究》杂志于上海创刊",
+    "titleCn": "《书法研究》杂志于上海创刊",
+    "date": {
+      "year": 1979
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1890
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127164456258.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc4d",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "《历代书法论文选》由上海书画出版社编辑出版",
+    "titleCn": "《历代书法论文选》由上海书画出版社编辑出版",
+    "date": {
+      "year": 1979
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1891
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127165054302.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc4e",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "台湾创办《印林》杂志",
+    "titleCn": "台湾创办《印林》杂志",
+    "date": {
+      "year": 1979
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1892
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127173725781.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc4f",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "陆维钊书《题西泠印社成立七十五周年诗轴》",
+    "titleCn": "陆维钊书《题西泠印社成立七十五周年诗轴》",
+    "date": {
+      "year": 1979
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "陆维钊",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1893
+    },
+    "creatorCn": "陆维钊",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127174353233.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc50",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“全国第一届书法篆刻展”在沈阳举行",
+    "titleCn": "“全国第一届书法篆刻展”在沈阳举行",
+    "date": {
+      "year": 1980
+    },
+    "importance": 5,
+    "tags": [
+      "现代",
+      "篆书 / Seal Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "篆书 / Seal Script",
+      "sourceOrder": 1894
+    }
+  },
+  {
+    "id": "66b45023942c7eb28beebc51",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "沈尹默发表《沈尹默法书集》",
+    "titleCn": "沈尹默发表《沈尹默法书集》",
+    "date": {
+      "year": 1981
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书论与收藏 / Theory and Connoisseurship"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "沈尹默",
+      "style": "书论与收藏 / Theory and Connoisseurship",
+      "sourceOrder": 1895
+    },
+    "creatorCn": "沈尹默",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127175936455.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc52",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "《书法研究》开展关于书法艺术之性质的论辩",
+    "titleCn": "《书法研究》开展关于书法艺术之性质的论辩",
+    "date": {
+      "year": 1982
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1896
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241127180055499.png"
+  },
+  {
+    "id": "66b45023942c7eb28beebc53",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“全国第一届中青年书法篆刻展”在南昌举行",
+    "titleCn": "“全国第一届中青年书法篆刻展”在南昌举行",
+    "date": {
+      "year": 1982
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "篆书 / Seal Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "篆书 / Seal Script",
+      "sourceOrder": 1897
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/12/20241202174130747.png"
+  },
+  {
+    "id": "66b45024942c7eb28beebc54",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "《中国书法》杂志于北京创刊",
+    "titleCn": "《中国书法》杂志于北京创刊",
+    "date": {
+      "year": 1982
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1898
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241128101619741.png",
+    "descriptionCn": "《中国书法》杂志于北京创刊，一九八六年改版并定为季刊发行。"
+  },
+  {
+    "id": "66b45024942c7eb28beebc55",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "中日和平友好条约缔结五周年“中日书法艺术交流展”在北京举行",
+    "titleCn": "中日和平友好条约缔结五周年“中日书法艺术交流展”在北京举行",
+    "date": {
+      "year": 1983
+    },
+    "importance": 5,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1899
+    }
+  },
+  {
+    "id": "66b45024942c7eb28beebc56",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "《书法报》在武汉创刊",
+    "titleCn": "《书法报》在武汉创刊",
+    "date": {
+      "year": 1984
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1900
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241128103605289.png"
+  },
+  {
+    "id": "66b45024942c7eb28beebc57",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“第一届中国、新加坡书法交流展”分别在北京和新加坡举行",
+    "titleCn": "“第一届中国、新加坡书法交流展”分别在北京和新加坡举行",
+    "date": {
+      "year": 1984
+    },
+    "importance": 5,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1901
+    }
+  },
+  {
+    "id": "66b45024942c7eb28beebc58",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“全国第二届书法篆刻展览”在北京举行",
+    "titleCn": "“全国第二届书法篆刻展览”在北京举行",
+    "date": {
+      "year": 1984
+    },
+    "importance": 5,
+    "tags": [
+      "现代",
+      "篆书 / Seal Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "篆书 / Seal Script",
+      "sourceOrder": 1902
+    }
+  },
+  {
+    "id": "66b45024942c7eb28beebc59",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "梁披云主编《中国书法大辞典》出版",
+    "titleCn": "梁披云主编《中国书法大辞典》出版",
+    "date": {
+      "year": 1984
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "梁披云",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1903
+    },
+    "creatorCn": "梁披云",
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/11/20241128115136964.png"
+  },
+  {
+    "id": "66b45024942c7eb28beebc5a",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "沧县东汉朱书砖出土",
+    "titleCn": "沧县东汉朱书砖出土",
+    "date": {
+      "year": 1985
+    },
+    "importance": 5,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1904
+    }
+  },
+  {
+    "id": "66b45024942c7eb28beebc5b",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“河南国际书法展览“在郑州开幕",
+    "titleCn": "“河南国际书法展览“在郑州开幕",
+    "date": {
+      "year": 1985
+    },
+    "importance": 5,
+    "tags": [
+      "现代",
+      "展览与教育 / Exhibition and Education"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "展览与教育 / Exhibition and Education",
+      "sourceOrder": 1905
+    }
+  },
+  {
+    "id": "66b45024942c7eb28beebc5c",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“现代书画学会”在北京成立",
+    "titleCn": "“现代书画学会”在北京成立",
+    "date": {
+      "year": 1985
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "展览与教育 / Exhibition and Education"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "展览与教育 / Exhibition and Education",
+      "sourceOrder": 1906
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/12/20241202141457048.png",
+    "descriptionCn": "现代书画学会在北京成立，同时举办现代书法展览。随之《中国书法》杂志刊载了关于现代书法的论辩。"
+  },
+  {
+    "id": "66b45024942c7eb28beebc5d",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“全国妇女书法篆刻展览”在北京举行",
+    "titleCn": "“全国妇女书法篆刻展览”在北京举行",
+    "date": {
+      "year": 1986
+    },
+    "importance": 5,
+    "tags": [
+      "现代",
+      "篆书 / Seal Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "篆书 / Seal Script",
+      "sourceOrder": 1907
+    }
+  },
+  {
+    "id": "66b45024942c7eb28beebc5e",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“第二届中国、新加坡书法交流展”在北京开幕",
+    "titleCn": "“第二届中国、新加坡书法交流展”在北京开幕",
+    "date": {
+      "year": 1986
+    },
+    "importance": 5,
+    "tags": [
+      "现代",
+      "篆书 / Seal Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "篆书 / Seal Script",
+      "sourceOrder": 1908
+    },
+    "descriptionCn": "全国第二届中青年书法篆刻家作品展览在北京举行，并举行书法创作讨论会。"
+  },
+  {
+    "id": "66b45024942c7eb28beebc5f",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“全国第二届中青年书法篆刻家作品展览”在北京举行",
+    "titleCn": "“全国第二届中青年书法篆刻家作品展览”在北京举行",
+    "date": {
+      "year": 1986
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "篆书 / Seal Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "篆书 / Seal Script",
+      "sourceOrder": 1909
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/12/20241202160216995.png"
+  },
+  {
+    "id": "66b45024942c7eb28beebc60",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“中国书法展览”在瑞典斯德哥尔摩揭幕",
+    "titleCn": "“中国书法展览”在瑞典斯德哥尔摩揭幕",
+    "date": {
+      "year": 1986
+    },
+    "importance": 5,
+    "tags": [
+      "现代",
+      "展览与教育 / Exhibition and Education"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "展览与教育 / Exhibition and Education",
+      "sourceOrder": 1910
+    }
+  },
+  {
+    "id": "66b45024942c7eb28beebc61",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“全国第二届书学讨论会”在山东掖县召开",
+    "titleCn": "“全国第二届书学讨论会”在山东掖县召开",
+    "date": {
+      "year": 1986
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1911
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/12/20241202165234088.png"
+  },
+  {
+    "id": "66b45024942c7eb28beebc62",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“海峡两岸同胞诗书画作品展览”在北京举行",
+    "titleCn": "“海峡两岸同胞诗书画作品展览”在北京举行",
+    "date": {
+      "year": 1987
+    },
+    "importance": 5,
+    "tags": [
+      "现代",
+      "展览与教育 / Exhibition and Education"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "展览与教育 / Exhibition and Education",
+      "sourceOrder": 1912
+    }
+  },
+  {
+    "id": "66b45024942c7eb28beebc63",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“全日本书道联盟访华团”来华访问",
+    "titleCn": "“全日本书道联盟访华团”来华访问",
+    "date": {
+      "year": 1987
+    },
+    "importance": 5,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1913
+    }
+  },
+  {
+    "id": "66b45024942c7eb28beebc64",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“中日妇女书法交流展览”在北京举行",
+    "titleCn": "“中日妇女书法交流展览”在北京举行",
+    "date": {
+      "year": 1987
+    },
+    "importance": 5,
+    "tags": [
+      "现代",
+      "展览与教育 / Exhibition and Education"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "展览与教育 / Exhibition and Education",
+      "sourceOrder": 1914
+    }
+  },
+  {
+    "id": "66b45024942c7eb28beebc65",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“全国第三届书法篆刻展览”在郑州开幕",
+    "titleCn": "“全国第三届书法篆刻展览”在郑州开幕",
+    "date": {
+      "year": 1987
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "篆书 / Seal Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "篆书 / Seal Script",
+      "sourceOrder": 1915
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/12/20241202162927141.png"
+  },
+  {
+    "id": "66b45024942c7eb28beebc66",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“中日书法交流展”在香港开幕",
+    "titleCn": "“中日书法交流展”在香港开幕",
+    "date": {
+      "year": 1988
+    },
+    "importance": 5,
+    "tags": [
+      "现代",
+      "书法事件 / Calligraphy Event"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "书法事件 / Calligraphy Event",
+      "sourceOrder": 1916
+    }
+  },
+  {
+    "id": "66b45024942c7eb28beebc67",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“全国首届篆刻艺术展览”在南京举行",
+    "titleCn": "“全国首届篆刻艺术展览”在南京举行",
+    "date": {
+      "year": 1988
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "篆书 / Seal Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "篆书 / Seal Script",
+      "sourceOrder": 1917
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/12/20241202172706380.png"
+  },
+  {
+    "id": "66b45024942c7eb28beebc68",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“全国第四届书法篆刻展览”在北京举行",
+    "titleCn": "“全国第四届书法篆刻展览”在北京举行",
+    "date": {
+      "year": 1989
+    },
+    "importance": 4,
+    "tags": [
+      "现代",
+      "篆书 / Seal Script"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "篆书 / Seal Script",
+      "sourceOrder": 1918
+    },
+    "imageUrl": "https://yishuwiki.oss-cn-beijing.aliyuncs.com/Operator/HistoricalEvent/2024/12/20241202173247150.png"
+  },
+  {
+    "id": "66b45024942c7eb28beebc69",
+    "periodId": "modern",
+    "streamId": "s_modern",
+    "titleEn": "“台湾书法家作品展览”在北京举行",
+    "titleCn": "“台湾书法家作品展览”在北京举行",
+    "date": {
+      "year": 1989
+    },
+    "importance": 5,
+    "tags": [
+      "现代",
+      "展览与教育 / Exhibition and Education"
+    ],
+    "meta": {
+      "dynasty": "现代",
+      "traditionalDate": "",
+      "person": "",
+      "style": "展览与教育 / Exhibition and Education",
+      "sourceOrder": 1919
+    }
+  }
+]
