@@ -50,6 +50,7 @@ builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<AuditLogService>();
 builder.Services.AddScoped<DashboardService>();
 builder.Services.AddScoped<ExhibitionAutoSeeder>();
+builder.Services.AddScoped<ExhibitionDataImporter>();
 builder.Services.AddScoped<ExhibitionDataFileWriter>();
 builder.Services.AddScoped<BootstrapAdminSeeder>();
 

@@ -1,0 +1,143 @@
+@using Timeline.AdminBlazor.Models
+
+<div class="fuzzy-date-editor">
+    @if (!string.IsNullOrEmpty(Label))
+    {
+        <h5 class="date-label">@Label</h5>
+    }
+    <div class="form-row date-row">
+        <div class="col-field">
+            <label>公元年份</label>
+            <SfNumericTextBox TValue="int" Value="@Value.Year" ValueChanged="@(y => OnFieldChanged(nameof(Value.Year), y))" Format="N0" ShowSpinButton="false" CssClass="e-small" />
+        </div>
+        <div class="col-field">
+            <label>月份 (可选)</label>
+            <SfNumericTextBox TValue="byte?" Value="@Value.Month" ValueChanged="@(m => OnFieldChanged(nameof(Value.Month), m))" Min="1" Max="12" Format="N0" ShowSpinButton="false" CssClass="e-small" />
+        </div>
+        <div class="col-field">
+            <label>日期 (可选)</label>
+            <SfNumericTextBox TValue="byte?" Value="@Value.Day" ValueChanged="@(d => OnFieldChanged(nameof(Value.Day), d))" Min="1" Max="31" Format="N0" ShowSpinButton="false" CssClass="e-small" />
+        </div>
+        <div class="col-field">
+            <label>精确度修饰</label>
+            <SfDropDownList TValue="string" TItem="string" DataSource="@_accuracies" Value="@Value.Accuracy" ValueChanged="@(a => OnFieldChanged(nameof(Value.Accuracy), a))" CssClass="e-small">
+                <DropDownListTemplates TItem="string">
+                    <ItemTemplate>
+                        @GetAccuracyName(context)
+                    </ItemTemplate>
+                    <ValueTemplate>
+                        @GetAccuracyName(context)
+                    </ValueTemplate>
+                </DropDownListTemplates>
+            </SfDropDownList>
+        </div>
+    </div>
+
+    @if (Value.Accuracy == "either_or")
+    {
+        <div class="form-row date-row or-row">
+            <span class="or-separator">或</span>
+            <div class="col-field">
+                <label>或年</label>
+                <SfNumericTextBox TValue="int?" Value="@Value.OrYear" ValueChanged="@(oy => OnFieldChanged(nameof(Value.OrYear), oy))" Format="N0" ShowSpinButton="false" CssClass="e-small" />
+            </div>
+            <div class="col-field">
+                <label>或月 (可选)</label>
+                <SfNumericTextBox TValue="byte?" Value="@Value.OrMonth" ValueChanged="@(om => OnFieldChanged(nameof(Value.OrMonth), om))" Min="1" Max="12" Format="N0" ShowSpinButton="false" CssClass="e-small" />
+            </div>
+            <div class="col-field">
+                <label>或日 (可选)</label>
+                <SfNumericTextBox TValue="byte?" Value="@Value.OrDay" ValueChanged="@(od => OnFieldChanged(nameof(Value.OrDay), od))" Min="1" Max="31" Format="N0" ShowSpinButton="false" CssClass="e-small" />
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .fuzzy-date-editor {
+        border: 1px solid var(--app-border, #e5e7eb);
+        padding: 12px;
+        border-radius: 6px;
+        margin-bottom: 12px;
+        background: var(--app-bg-subtle, #f9fafb);
+    }
+    .date-label {
+        font-weight: 600;
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: var(--app-text, #111827);
+        font-size: 13px;
+    }
+    .date-row {
+        display: flex;
+        gap: 12px;
+        align-items: flex-end;
+    }
+    .col-field {
+        flex: 1;
+    }
+    .col-field label {
+        display: block;
+        font-size: 11px;
+        color: var(--app-text-muted, #4b5563);
+        margin-bottom: 4px;
+    }
+    .or-row {
+        margin-top: 8px;
+        border-top: 1px dashed var(--app-border, #e5e7eb);
+        padding-top: 8px;
+        position: relative;
+    }
+    .or-separator {
+        align-self: center;
+        font-weight: bold;
+        color: var(--app-text-muted, #ef4444);
+        font-size: 12px;
+        padding-bottom: 6px;
+        padding-right: 8px;
+    }
+</style>
+
+@code {
+    [Parameter] public FuzzyDateDto Value { get; set; } = new();
+    [Parameter] public EventCallback<FuzzyDateDto> ValueChanged { get; set; }
+    [Parameter] public string Label { get; set; } = string.Empty;
+
+    private readonly string[] _accuracies = ["exact", "approximate", "not_before", "not_after", "either_or"];
+
+    private string GetAccuracyName(string acc) => acc switch
+    {
+        "exact" => "精确 (exact)",
+        "approximate" => "大约 (approximate)",
+        "not_before" => "不早于 (not_before)",
+        "not_after" => "不晚于 (not_after)",
+        "either_or" => "某时间或某时间 (either_or)",
+        _ => acc
+    };
+
+    private async Task OnFieldChanged(string propertyName, object? val)
+    {
+        if (propertyName == nameof(Value.Year)) Value.Year = (int)(val ?? 0);
+        else if (propertyName == nameof(Value.Month)) Value.Month = (byte?)val;
+        else if (propertyName == nameof(Value.Day)) Value.Day = (byte?)val;
+        else if (propertyName == nameof(Value.Accuracy))
+        {
+            Value.Accuracy = (string)(val ?? "exact");
+            if (Value.Accuracy != "either_or")
+            {
+                Value.OrYear = null;
+                Value.OrMonth = null;
+                Value.OrDay = null;
+            }
+            else
+            {
+                Value.OrYear ??= Value.Year;
+            }
+        }
+        else if (propertyName == nameof(Value.OrYear)) Value.OrYear = (int?)val;
+        else if (propertyName == nameof(Value.OrMonth)) Value.OrMonth = (byte?)val;
+        else if (propertyName == nameof(Value.OrDay)) Value.OrDay = (byte?)val;
+
+        await ValueChanged.InvokeAsync(Value);
+    }
+}

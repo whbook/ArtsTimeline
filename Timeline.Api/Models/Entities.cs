@@ -186,3 +186,88 @@ public class ChangeOwnPasswordRequest
     public string OldPassword { get; set; } = string.Empty;
     public string NewPassword { get; set; } = string.Empty;
 }
+
+public class FuzzyDate
+{
+    public int Year { get; set; }
+    public byte? Month { get; set; }
+    public byte? Day { get; set; }
+    public string Accuracy { get; set; } = "exact"; // exact, approximate, not_before, not_after, either_or
+    public int? OrYear { get; set; }
+    public byte? OrMonth { get; set; }
+    public byte? OrDay { get; set; }
+}
+
+public class Period
+{
+    public string Id { get; set; } = string.Empty; // e.g. "legend", "shang"
+    public Guid ExhibitionId { get; set; }
+    public string NameCn { get; set; } = string.Empty;
+    public string NameEn { get; set; } = string.Empty;
+    public string ColorHex { get; set; } = string.Empty;
+    public string ColorBackground { get; set; } = string.Empty;
+    public string? Description { get; set; }
+
+    // Navigation properties
+    public Exhibition Exhibition { get; set; } = null!;
+    public ICollection<Stream> Streams { get; set; } = new List<Stream>();
+    public ICollection<TimelineEvent> Events { get; set; } = new List<TimelineEvent>();
+
+    // Owned Fuzzy Dates
+    public FuzzyDate Start { get; set; } = new();
+    public FuzzyDate End { get; set; } = new();
+}
+
+public class Stream
+{
+    public string Id { get; set; } = string.Empty; // e.g. "s_legend"
+    public Guid ExhibitionId { get; set; }
+    public string? PeriodId { get; set; }
+    public string NameCn { get; set; } = string.Empty;
+    public string NameEn { get; set; } = string.Empty;
+    public string Color { get; set; } = string.Empty;
+    public int Lane { get; set; }
+    public string? DescriptionCn { get; set; }
+    public string? DescriptionEn { get; set; }
+
+    // Navigation properties
+    public Exhibition Exhibition { get; set; } = null!;
+    public Period? Period { get; set; }
+    public ICollection<TimelineEvent> Events { get; set; } = new List<TimelineEvent>();
+
+    // Owned Fuzzy Dates
+    public FuzzyDate Start { get; set; } = new();
+    public FuzzyDate End { get; set; } = new();
+}
+
+public class TimelineEvent
+{
+    public string Id { get; set; } = string.Empty; // e.g. "w1", "w2"
+    public Guid ExhibitionId { get; set; }
+    public string? PeriodId { get; set; }
+    public string? StreamId { get; set; }
+    public string TitleCn { get; set; } = string.Empty;
+    public string TitleEn { get; set; } = string.Empty;
+    public string? CreatorCn { get; set; }
+    public string? CreatorEn { get; set; }
+    public string? Location { get; set; }
+    public string? ImageUrl { get; set; }
+    public string? DetailPageUrl { get; set; }
+    public string? HighResImageUrl { get; set; }
+    public string? DescriptionCn { get; set; }
+    public string? DescriptionEn { get; set; }
+    public int Importance { get; set; } = 3; // 1-5
+    public List<string> Tags { get; set; } = [];
+    public string MetaJson { get; set; } = "{}"; // JSONB properties
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
+
+    // Navigation properties
+    public Exhibition Exhibition { get; set; } = null!;
+    public Period? Period { get; set; }
+    public Stream? Stream { get; set; }
+
+    // Owned Fuzzy Dates
+    public FuzzyDate Date { get; set; } = new();
+    public FuzzyDate? EndDate { get; set; }
+}

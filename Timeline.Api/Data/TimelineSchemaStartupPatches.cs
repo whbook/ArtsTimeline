@@ -22,6 +22,26 @@ public static class TimelineSchemaStartupPatches
         var exhibitionSeeder = services.GetRequiredService<Services.ExhibitionAutoSeeder>();
         await exhibitionSeeder.SeedAsync(forceOverwrite: false, ct: ct);
 
+        // 自动历史数据无损一键导入
+        try
+        {
+            if (!await db.Periods.AnyAsync(ct) && !await db.TimelineEvents.AnyAsync(ct))
+            {
+                logger.LogInformation("检测到数据库中时代分期与作品卡片表为空，开始自动一键无损导入历史 JSON 数据...");
+                var importer = services.GetRequiredService<Services.ExhibitionDataImporter>();
+                var importResult = await importer.ImportAllAsync(ct);
+                logger.LogInformation("自动导入完成：共成功同步 {ExhibitionsCount} 个展览的时代分期、泳道及卡片作品数据！", importResult.ExhibitionsCount);
+            }
+            else
+            {
+                logger.LogInformation("数据库中已存在时代分期或作品卡片数据，跳过自动无损历史数据导入（需要时可在后台手动导入）");
+            }
+        }
+        catch (Exception ex)
+        {
+            logger.LogError(ex, "自启动自动无损数据导入失败");
+        }
+
         var adminSeeder = services.GetRequiredService<Services.BootstrapAdminSeeder>();
         await adminSeeder.SeedAsync(ct);
     }

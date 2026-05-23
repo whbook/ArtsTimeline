@@ -31,6 +31,20 @@ public class ExhibitionsController : ApiControllerBase
         return Ok(new ExhibitionSyncResult(count, $"已从 public/data 同步 {count} 个展览主题"));
     }
 
+    [HttpPost("import-legacy")]
+    public async Task<ActionResult<ImportLegacyResult>> ImportLegacy(
+        [FromServices] ExhibitionDataImporter importer, CancellationToken ct)
+    {
+        if (!CanWrite()) return Forbid();
+        var result = await importer.ImportAllAsync(ct);
+        
+        await _audit.LogAsync(GetAdminUserId(), GetAdminUsername(), "import", AuditEntityTypes.Exhibition,
+            Guid.Empty, "All Exhibitions", "手动触发一键无损导入全量历史展览数据",
+            ipAddress: GetClientIp(), userAgent: GetUserAgent(), ct: ct);
+
+        return Ok(result);
+    }
+
     [HttpGet]
     public async Task<ActionResult<List<ExhibitionListItemResponse>>> List(CancellationToken ct)
     {
@@ -39,7 +53,7 @@ public class ExhibitionsController : ApiControllerBase
             .Select(e => new ExhibitionListItemResponse(
                 e.Id, e.Slug, e.TitleCn, e.TitleEn, e.Description, e.Color, e.SortOrder,
                 e.IsPublished, e.PlaybackSpeed, e.Chunked, e.InitialZoom, e.MinZoomRange, e.MaxZoomRange,
-                e.DefaultViewportStartYear, e.DefaultViewportEndYear))
+                e.DefaultViewportStartYear, e.DefaultViewportEndYear, e.EventFieldsJson))
             .ToListAsync(ct);
         return Ok(items);
     }

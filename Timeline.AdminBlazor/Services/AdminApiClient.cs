@@ -170,6 +170,13 @@ public class AdminApiClient
         return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));
     }
 
+    public async Task<(bool Ok, string? Error)> ReorderExhibitionsAsync(ExhibitionReorderRequest request)
+    {
+        ApplyBearerToken();
+        var resp = await Client.PutAsJsonAsync("api/exhibitions/reorder", request);
+        return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));
+    }
+
     public Task<GlobalSettingsModel?> GetGlobalSettingsAsync() =>
         GetAsync<GlobalSettingsModel>("api/global-settings");
 
@@ -199,4 +206,86 @@ public class AdminApiClient
             return (false, ex.Message);
         }
     }
+
+    #region Periods (分期管理)
+
+    public Task<List<PeriodDto>?> GetPeriodsAsync(Guid exhibitionId) =>
+        GetAsync<List<PeriodDto>>($"api/timeline-data/exhibitions/{exhibitionId}/periods");
+
+    public async Task<(bool Ok, string? Error)> SavePeriodAsync(PeriodDto model, bool isNew)
+    {
+        var resp = isNew
+            ? await Client.PostAsJsonAsync("api/timeline-data/periods", model)
+            : await Client.PutAsJsonAsync($"api/timeline-data/periods/{model.Id}", model);
+        return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));
+    }
+
+    public async Task<(bool Ok, string? Error)> DeletePeriodAsync(Guid exhibitionId, string id)
+    {
+        var resp = await Client.DeleteAsync($"api/timeline-data/periods/{exhibitionId}/{id}");
+        return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));
+    }
+
+    #endregion
+
+    #region Streams (泳道流派)
+
+    public Task<List<StreamDto>?> GetStreamsAsync(Guid exhibitionId) =>
+        GetAsync<List<StreamDto>>($"api/timeline-data/exhibitions/{exhibitionId}/streams");
+
+    public async Task<(bool Ok, string? Error)> SaveStreamAsync(StreamDto model, bool isNew)
+    {
+        var resp = isNew
+            ? await Client.PostAsJsonAsync("api/timeline-data/streams", model)
+            : await Client.PutAsJsonAsync($"api/timeline-data/streams/{model.Id}", model);
+        return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));
+    }
+
+    public async Task<(bool Ok, string? Error)> DeleteStreamAsync(Guid exhibitionId, string id)
+    {
+        var resp = await Client.DeleteAsync($"api/timeline-data/streams/{exhibitionId}/{id}");
+        return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));
+    }
+
+    #endregion
+
+    #region Events (事件作品)
+
+    public async Task<TimelineEventPageResult?> GetEventsAsync(Guid exhibitionId, int page = 1, int pageSize = 50, string? keyword = null, int? importance = null)
+    {
+        var url = $"api/timeline-data/exhibitions/{exhibitionId}/events?page={page}&pageSize={pageSize}";
+        if (!string.IsNullOrWhiteSpace(keyword)) url += $"&keyword={Uri.EscapeDataString(keyword)}";
+        if (importance.HasValue) url += $"&importance={importance.Value}";
+        return await GetAsync<TimelineEventPageResult>(url);
+    }
+
+    public async Task<(bool Ok, string? Error)> SaveEventAsync(TimelineEventDto model, bool isNew)
+    {
+        var resp = isNew
+            ? await Client.PostAsJsonAsync("api/timeline-data/events", model)
+            : await Client.PutAsJsonAsync($"api/timeline-data/events/{model.Id}", model);
+        return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));
+    }
+
+    public async Task<(bool Ok, string? Error)> DeleteEventAsync(Guid exhibitionId, string id)
+    {
+        var resp = await Client.DeleteAsync($"api/timeline-data/events/{exhibitionId}/{id}");
+        return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));
+    }
+
+    #endregion
+
+    #region Legacy Import
+
+    public async Task<(bool Ok, string? Error, string? Message)> ImportLegacyJsonAsync()
+    {
+        var resp = await Client.PostAsync("api/exhibitions/import-legacy", null);
+        if (resp.IsSuccessStatusCode)
+        {
+            return (true, null, "一键无损导入全量历史展览数据成功！");
+        }
+        return (false, await ReadError(resp), null);
+    }
+
+    #endregion
 }

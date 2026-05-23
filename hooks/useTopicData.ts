@@ -43,11 +43,26 @@ export function useTopicData(topicId: string | null) {
     fetchTopic()
       .then(topic => Promise.all([
         Promise.resolve(topic),
-        fetch(`/data/${topicId}/periods.json`).then(r => r.json()),
-        fetch(`/data/${topicId}/streams.json`).then(r => r.ok ? r.json() : []), // streams are optional
+        fetch(`${apiBase}/api/public/exhibitions/${topicId}/periods`)
+          .then(r => {
+            if (!r.ok) throw new Error('API periods load failed');
+            return r.json();
+          })
+          .catch(() => fetch(`/data/${topicId}/periods.json`).then(r => r.json())),
+        fetch(`${apiBase}/api/public/exhibitions/${topicId}/streams`)
+          .then(r => {
+            if (!r.ok) throw new Error('API streams load failed');
+            return r.json();
+          })
+          .catch(() => fetch(`/data/${topicId}/streams.json`).then(r => r.ok ? r.json() : [])),
         topic.chunked
           ? Promise.resolve([])
-          : fetch(`/data/${topicId}/events.json`).then(r => r.json())
+          : fetch(`${apiBase}/api/public/exhibitions/${topicId}/events`)
+              .then(r => {
+                if (!r.ok) throw new Error('API events load failed');
+                return r.json();
+              })
+              .catch(() => fetch(`/data/${topicId}/events.json`).then(r => r.json()))
       ]))
       .then(([topic, periods, streams, events]) => {
         const topicData: TopicData = { topic, periods, streams, events };

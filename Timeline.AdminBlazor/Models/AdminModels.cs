@@ -127,6 +127,18 @@ public class ExhibitionListItem
     public decimal MaxZoomRange { get; set; }
     public int DefaultViewportStartYear { get; set; }
     public int DefaultViewportEndYear { get; set; }
+    public string EventFieldsJson { get; set; } = "[]";
+}
+
+public class ExhibitionReorderRequest
+{
+    public List<ExhibitionOrderItem> Items { get; set; } = [];
+}
+
+public class ExhibitionOrderItem
+{
+    public Guid Id { get; set; }
+    public int SortOrder { get; set; }
 }
 
 public class ExhibitionModel
@@ -224,4 +236,76 @@ public class LabelValueOption
 {
     public string Value { get; set; } = string.Empty;
     public string Label { get; set; } = string.Empty;
+}
+
+public class FuzzyDateDto
+{
+    public int Year { get; set; }
+    public byte? Month { get; set; }
+    public byte? Day { get; set; }
+    public string Accuracy { get; set; } = "exact"; // exact, approximate, not_before, not_after, either_or
+    public int? OrYear { get; set; }
+    public byte? OrMonth { get; set; }
+    public byte? OrDay { get; set; }
+}
+
+public class PeriodDto
+{
+    public string Id { get; set; } = string.Empty;
+    public Guid ExhibitionId { get; set; }
+    public string NameCn { get; set; } = string.Empty;
+    public string NameEn { get; set; } = string.Empty;
+    public string ColorHex { get; set; } = string.Empty;
+    public string ColorBackground { get; set; } = string.Empty;
+    public string? Description { get; set; }
+    public FuzzyDateDto Start { get; set; } = new();
+    public FuzzyDateDto End { get; set; } = new();
+}
+
+public class StreamDto
+{
+    public string Id { get; set; } = string.Empty;
+    public Guid ExhibitionId { get; set; }
+    public string? PeriodId { get; set; }
+    public string NameCn { get; set; } = string.Empty;
+    public string NameEn { get; set; } = string.Empty;
+    public string Color { get; set; } = string.Empty;
+    public int Lane { get; set; }
+    public string? DescriptionCn { get; set; }
+    public string? DescriptionEn { get; set; }
+    public FuzzyDateDto Start { get; set; } = new();
+    public FuzzyDateDto End { get; set; } = new();
+}
+
+public class TimelineEventDto
+{
+    public string Id { get; set; } = string.Empty;
+    public Guid ExhibitionId { get; set; }
+    public string? PeriodId { get; set; }
+    public string? StreamId { get; set; }
+    public string TitleCn { get; set; } = string.Empty;
+    public string TitleEn { get; set; } = string.Empty;
+    public string? CreatorCn { get; set; }
+    public string? CreatorEn { get; set; }
+    public string? Location { get; set; }
+    public string? ImageUrl { get; set; }
+    public string? DetailPageUrl { get; set; }
+    public string? HighResImageUrl { get; set; }
+    public string? DescriptionCn { get; set; }
+    public string? DescriptionEn { get; set; }
+    public int Importance { get; set; } = 3;
+    public List<string> Tags { get; set; } = [];
+    public string MetaJson { get; set; } = "{}";
+    public DateTime CreatedAt { get; set; }
+    public DateTime UpdatedAt { get; set; }
+    public FuzzyDateDto Date { get; set; } = new();
+    public FuzzyDateDto? EndDate { get; set; }
+}
+
+public class TimelineEventPageResult
+{
+    public List<TimelineEventDto> Items { get; set; } = [];
+    public int TotalCount { get; set; }
+    public int Page { get; set; }
+    public int PageSize { get; set; }
 }

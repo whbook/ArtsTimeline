@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { TimelineEvent, Viewport } from '../types';
+import { getApiBaseUrl } from '../utils';
 
 interface ChunkInfo {
   start: number;
@@ -48,8 +49,8 @@ export function useChunkedEvents(
         const end = viewport!.endYear;
         // 25% viewport buffer on each side for prefetching during panning
         const padding = Math.max(50, (end - start) * 0.25);
-        const bufferedStart = start - padding;
-        const bufferedEnd = end + padding;
+        const bufferedStart = Math.floor(start - padding);
+        const bufferedEnd = Math.ceil(end + padding);
 
         // Optimization: If we are still within the already loaded bounds for the same topic, skip refetching
         if (
@@ -64,6 +65,32 @@ export function useChunkedEvents(
         setLoading(true);
         setError(null);
 
+        const apiBase = getApiBaseUrl();
+
+        // 优先：通过数据库 API 按视口区间加载数据（极速、动态）
+        try {
+          const res = await fetch(`${apiBase}/api/public/exhibitions/${topicId}/events?startYear=${bufferedStart}&endYear=${bufferedEnd}`);
+          if (!res.ok) throw new Error("API load chunk range failed");
+          
+          const mergedEvents: TimelineEvent[] = await res.json();
+          if (isCancelled || activeTopicIdRef.current !== topicId) return;
+
+          loadedBoundsRef.current = {
+            start: bufferedStart,
+            end: bufferedEnd,
+            topicId
+          };
+
+          setEvents(mergedEvents);
+          setLoading(false);
+          return;
+        } catch (apiErr) {
+          console.warn("Failed to load chunked events from API, falling back to static chunks:", apiErr);
+        }
+
+        if (isCancelled || activeTopicIdRef.current !== topicId) return;
+
+        // 后备（Fallback）：传统的 manifest.json + 静态 JSON 块加载
         // 1. Get or fetch manifest
         let manifest = manifestCache.get(topicId);
         if (!manifest) {
@@ -130,7 +157,7 @@ export function useChunkedEvents(
           });
         });
 
-        const mergedEvents = Array.from(combinedMap.values()).sort(
+        const mergedEventsLegacy = Array.from(combinedMap.values()).sort(
           (a, b) => a.date.year - b.date.year
         );
 
@@ -144,7 +171,7 @@ export function useChunkedEvents(
           topicId
         };
 
-        setEvents(mergedEvents);
+        setEvents(mergedEventsLegacy);
         setLoading(false);
       } catch (err) {
         if (!isCancelled && activeTopicIdRef.current === topicId) {

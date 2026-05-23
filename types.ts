@@ -37,6 +37,9 @@ export interface FuzzyDate {
   month?: number;
   day?: number;
   accuracy?: DateAccuracy;
+  orYear?: number;
+  orMonth?: number;
+  orDay?: number;
 }
 
 // --- 时代分期 ---
@@ -78,6 +81,8 @@ export interface TimelineEvent {
   creatorCn?: string;
   location?: string; 
   imageUrl?: string;
+  detailPageUrl?: string;
+  highResImageUrl?: string;
   descriptionEn?: string; 
   descriptionCn?: string;
   importance?: number; // 1 (highest) to 5 (lowest). Defines zoom-level visibility. / 权重等级，决定在何种缩放比例下显示

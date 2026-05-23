@@ -3,12 +3,23 @@
 @inject AdminApiClient Api
 @inject AuthService AuthService
 @inject ToastService Toast
+@using Microsoft.AspNetCore.Components.Authorization
+@using Syncfusion.Blazor
+@using Syncfusion.Blazor.Buttons
+@using Syncfusion.Blazor.Grids
+@using Syncfusion.Blazor.Popups
+@using Syncfusion.Blazor.Navigations
+@using Syncfusion.Blazor.Inputs
+@using Syncfusion.Blazor.DropDowns
+@using Timeline.AdminBlazor.Models
+@using Timeline.AdminBlazor.Components.Shared
 
 <div class="page-header">
     <h2>展览管理</h2>
     <div class="page-header-right">
         <AuthorizeView Roles="super_admin,admin">
-            <SfButton Content="从数据同步" CssClass="e-small e-outline" IconCss="e-icons e-refresh" @onclick="SyncFromData" Disabled="_syncing" />
+            <SfButton Content="从基础定义同步" CssClass="e-small e-outline" IconCss="e-icons e-refresh" @onclick="SyncFromData" Disabled="_syncing" />
+            <SfButton Content="一键无损历史导库" IsPrimary="false" CssClass="e-small e-outline" IconCss="e-icons e-circle-add" @onclick="ImportLegacyData" Disabled="_syncing" />
             <SfButton Content="新建展览" IsPrimary="true" CssClass="e-small" IconCss="e-icons e-plus" @onclick="CreateNew" />
         </AuthorizeView>
     </div>
@@ -19,14 +30,17 @@
     <p class="sync-hint">@_syncHint</p>
 }
 
-<SfGrid DataSource="@_items" AllowPaging="true" Height="calc(100vh - 220px)">
-    <GridPageSettings PageSize="20" />
+<SfGrid @ref="_grid" DataSource="@_items" AllowPaging="false" Height="calc(100vh - 220px)" AllowRowDragAndDrop="true" AllowSelection="true">
+    <GridEvents TValue="ExhibitionListItem" RowDropped="OnRowDropped" />
+    <GridRowDropSettings AllowEmptyAreaDrop="false" />
+    <GridSelectionSettings Type="Syncfusion.Blazor.Grids.SelectionType.Single" />
     <GridColumns>
+        <GridColumn Field="@nameof(ExhibitionListItem.Id)" IsPrimaryKey="true" Visible="false" />
         <GridColumn Field="@nameof(ExhibitionListItem.SortOrder)" HeaderText="排序" Width="70" TextAlign="TextAlign.Center" />
         <GridColumn HeaderText="主题色" Width="80">
             <Template>
                 @{ var c = (ExhibitionListItem)context; }
-                <span class="color-swatch" style="background:@c.Color"></span>
+                <span class="color-swatch" style="background:@c.Color; display:inline-block; width:20px; height:20px; border-radius:4px; border:1px solid #ddd;"></span>
             </Template>
         </GridColumn>
         <GridColumn Field="@nameof(ExhibitionListItem.TitleCn)" HeaderText="中文名" Width="140" />
@@ -37,18 +51,20 @@
         <GridColumn Field="@nameof(ExhibitionListItem.InitialZoom)" HeaderText="初始缩放" Width="90" />
         <GridColumn Field="@nameof(ExhibitionListItem.Chunked)" HeaderText="分块" Width="70" DisplayAsCheckBox="true" />
         <GridColumn Field="@nameof(ExhibitionListItem.IsPublished)" HeaderText="已发布" Width="80" DisplayAsCheckBox="true" />
-        <GridColumn HeaderText="操作" Width="100">
+        <GridColumn HeaderText="操作" Width="220">
             <Template>
                 @{ var row = (ExhibitionListItem)context; }
-                <SfButton Content="编辑" CssClass="e-small e-flat" @onclick="() => Edit(row.Id)" />
+                <SfButton Content="属性" CssClass="e-small e-flat e-primary" @onclick="() => Edit(row.Id)" />
+                <SfButton Content="数据编辑" CssClass="e-small e-flat e-success" IconCss="e-icons e-star-filled" @onclick="() => OpenDataManager(row)" />
             </Template>
         </GridColumn>
     </GridColumns>
 </SfGrid>
 
+@* --- 弹窗 1：展览参数与基本信息编辑 --- *@
 @if (_showDialog)
 {
-    <SfDialog @bind-Visible="_showDialog" Width="780px" IsModal="true" ShowCloseIcon="true" Header="@(_isNew ? "新建展览" : "编辑展览")">
+    <SfDialog @bind-Visible="_showDialog" Width="780px" IsModal="true" ShowCloseIcon="true" Header="@(_isNew ? "新建展览" : "编辑展览属性")">
         <DialogTemplates>
             <Content>
                 <SfTab>
@@ -129,15 +145,576 @@
     </SfDialog>
 }
 
+@* --- 弹窗 2：大型全功能数据编辑面板 --- *@
+@if (_showDataManager)
+{
+    <SfDialog @bind-Visible="_showDataManager" Width="1150px" Height="850px" IsModal="true" ShowCloseIcon="true" Header="@($"管理展览具体数据：{_selectedExhibition.TitleCn} ({_selectedExhibition.Slug})")">
+        <DialogTemplates>
+            <Content>
+                <div class="manager-container">
+                    <SfTab>
+                        <TabItems>
+                            @* 2.1 时代分期 Tab *@
+                            <TabItem>
+                                <HeaderTemplate>时代分期 (Periods)</HeaderTemplate>
+                                <ContentTemplate>
+                                    <div class="sub-grid-panel">
+                                        <div class="grid-actions">
+                                            <SfButton Content="新增分期" IsPrimary="true" CssClass="e-small" IconCss="e-icons e-plus" @onclick="CreatePeriod" />
+                                        </div>
+                                        <SfGrid DataSource="@_periods" Height="450px" AllowPaging="true">
+                                            <GridColumns>
+                                                <GridColumn Field="@nameof(PeriodDto.Id)" HeaderText="ID" Width="100" />
+                                                <GridColumn Field="@nameof(PeriodDto.NameCn)" HeaderText="中文名" Width="120" />
+                                                <GridColumn Field="@nameof(PeriodDto.NameEn)" HeaderText="英文名" Width="120" />
+                                                <GridColumn HeaderText="起止年份" Width="160">
+                                                    <Template>
+                                                        @{ var p = (PeriodDto)context; }
+                                                        <span>@FormatFuzzyDateString(p.Start) ~ @FormatFuzzyDateString(p.End)</span>
+                                                    </Template>
+                                                </GridColumn>
+                                                <GridColumn HeaderText="前景色/背景色" Width="140">
+                                                    <Template>
+                                                        @{ var p = (PeriodDto)context; }
+                                                        <span class="color-swatch-badge" style="color:@p.ColorHex; background:@p.ColorBackground; padding:2px 6px; border-radius:4px; border:1px solid #ccc; font-size:11px;">@p.ColorHex / @p.ColorBackground</span>
+                                                    </Template>
+                                                </GridColumn>
+                                                <GridColumn Field="@nameof(PeriodDto.Description)" HeaderText="简介" Width="200" ClipMode="ClipMode.EllipsisWithTooltip" />
+                                                <GridColumn HeaderText="操作" Width="120">
+                                                    <Template>
+                                                        @{ var p = (PeriodDto)context; }
+                                                        <SfButton Content="编辑" CssClass="e-small e-flat e-primary" @onclick="() => EditPeriod(p)" />
+                                                        <SfButton Content="删除" CssClass="e-small e-flat e-danger" @onclick="() => DeletePeriod(p)" />
+                                                    </Template>
+                                                </GridColumn>
+                                            </GridColumns>
+                                        </SfGrid>
+                                    </div>
+                                </ContentTemplate>
+                            </TabItem>
+
+                            @* 2.2 流派泳道 Tab *@
+                            <TabItem>
+                                <HeaderTemplate>流派泳道 (Streams)</HeaderTemplate>
+                                <ContentTemplate>
+                                    <div class="sub-grid-panel">
+                                        <div class="grid-actions">
+                                            <SfButton Content="新增泳道" IsPrimary="true" CssClass="e-small" IconCss="e-icons e-plus" @onclick="CreateStream" />
+                                        </div>
+                                        <SfGrid DataSource="@_streams" Height="450px" AllowPaging="true">
+                                            <GridColumns>
+                                                <GridColumn Field="@nameof(StreamDto.Id)" HeaderText="ID" Width="100" />
+                                                <GridColumn Field="@nameof(StreamDto.NameCn)" HeaderText="中文名" Width="120" />
+                                                <GridColumn Field="@nameof(StreamDto.NameEn)" HeaderText="英文名" Width="120" />
+                                                <GridColumn Field="@nameof(StreamDto.PeriodId)" HeaderText="关联时代分期" Width="120" />
+                                                <GridColumn Field="@nameof(StreamDto.Lane)" HeaderText="轨道号" Width="80" TextAlign="TextAlign.Center" />
+                                                <GridColumn HeaderText="起止年份" Width="160">
+                                                    <Template>
+                                                        @{ var s = (StreamDto)context; }
+                                                        <span>@FormatFuzzyDateString(s.Start) ~ @FormatFuzzyDateString(s.End)</span>
+                                                    </Template>
+                                                </GridColumn>
+                                                <GridColumn HeaderText="操作" Width="120">
+                                                    <Template>
+                                                        @{ var s = (StreamDto)context; }
+                                                        <SfButton Content="编辑" CssClass="e-small e-flat e-primary" @onclick="() => EditStream(s)" />
+                                                        <SfButton Content="删除" CssClass="e-small e-flat e-danger" @onclick="() => DeleteStream(s)" />
+                                                    </Template>
+                                                </GridColumn>
+                                            </GridColumns>
+                                        </SfGrid>
+                                    </div>
+                                </ContentTemplate>
+                            </TabItem>
+
+                            @* 2.3 作品卡片 Tab *@
+                            <TabItem>
+                                <HeaderTemplate>作品事件 (Events)</HeaderTemplate>
+                                <ContentTemplate>
+                                    <div class="sub-grid-panel">
+                                        <div class="grid-actions filter-actions">
+                                            <div class="left-actions">
+                                                <SfButton Content="新增作品卡片" IsPrimary="true" CssClass="e-small" IconCss="e-icons e-plus" @onclick="CreateEvent" />
+                                            </div>
+                                            <div class="right-filters">
+                                                <SfTextBox Placeholder="搜索标题、创作者..." Value="@_eventKeyword" Input="@(async e => { _eventKeyword = e.Value; _eventPage = 1; await LoadEventsAsync(); })" CssClass="e-small filter-box" />
+                                                <SfDropDownList TValue="int?" TItem="ImportanceOption" DataSource="@_importanceOptions" @bind-Value="_eventImportance" Placeholder="筛选重要度" CssClass="e-small filter-dropdown">
+                                                    <DropDownListFieldSettings Text="Label" Value="Value" />
+                                                    <DropDownListEvents TValue="int?" TItem="ImportanceOption" ValueChange="async () => { _eventPage = 1; await LoadEventsAsync(); }" />
+                                                </SfDropDownList>
+                                            </div>
+                                        </div>
+                                        <SfGrid DataSource="@_events" Height="400px">
+                                            <GridColumns>
+                                                <GridColumn Field="@nameof(TimelineEventDto.Id)" HeaderText="ID" Width="100" />
+                                                <GridColumn Field="@nameof(TimelineEventDto.TitleCn)" HeaderText="中文名" Width="150" />
+                                                <GridColumn Field="@nameof(TimelineEventDto.CreatorCn)" HeaderText="创作者" Width="100" />
+                                                <GridColumn HeaderText="卡片时间" Width="130">
+                                                    <Template>
+                                                        @{ var ev = (TimelineEventDto)context; }
+                                                        <span>@FormatFuzzyDateString(ev.Date)</span>
+                                                    </Template>
+                                                </GridColumn>
+                                                <GridColumn Field="@nameof(TimelineEventDto.Importance)" HeaderText="重要度" Width="80" TextAlign="TextAlign.Center" />
+                                                <GridColumn HeaderText="链接" Width="100">
+                                                    <Template>
+                                                        @{ var ev = (TimelineEventDto)context; }
+                                                        <div class="url-badges">
+                                                            @if (!string.IsNullOrEmpty(ev.ImageUrl)) { <span class="badge" title="有封面图">图</span> }
+                                                            @if (!string.IsNullOrEmpty(ev.DetailPageUrl)) { <span class="badge" title="有详情链接">页</span> }
+                                                            @if (!string.IsNullOrEmpty(ev.HighResImageUrl)) { <span class="badge" title="有高清原图">高</span> }
+                                                        </div>
+                                                    </Template>
+                                                </GridColumn>
+                                                <GridColumn HeaderText="操作" Width="120">
+                                                    <Template>
+                                                        @{ var ev = (TimelineEventDto)context; }
+                                                        <SfButton Content="编辑" CssClass="e-small e-flat e-primary" @onclick="() => EditEvent(ev)" />
+                                                        <SfButton Content="删除" CssClass="e-small e-flat e-danger" @onclick="() => DeleteEvent(ev)" />
+                                                    </Template>
+                                                </GridColumn>
+                                            </GridColumns>
+                                        </SfGrid>
+                                        <div class="custom-pager">
+                                            <SfButton Content="上一页" Disabled="@(_eventPage <= 1)" @onclick="PrevEventPage" CssClass="e-small" />
+                                            <span class="pager-info">第 @_eventPage 页 / 共 @_eventTotalPages 页 (共 @_eventTotalCount 条)</span>
+                                            <SfButton Content="下一页" Disabled="@(_eventPage >= _eventTotalPages)" @onclick="NextEventPage" CssClass="e-small" />
+                                        </div>
+                                    </div>
+                                </ContentTemplate>
+                            </TabItem>
+                        </TabItems>
+                    </SfTab>
+                </div>
+            </Content>
+        </DialogTemplates>
+        <DialogButtons>
+            <DialogButton Content="关闭面板" OnClick="() => _showDataManager = false" />
+        </DialogButtons>
+    </SfDialog>
+}
+
+@* --- 弹窗 3：编辑时代分期 (Period) --- *@
+@if (_showPeriodEdit)
+{
+    <SfDialog @bind-Visible="_showPeriodEdit" Width="680px" IsModal="true" ShowCloseIcon="true" Header="@(_isNewPeriod ? "新建时代分期" : "编辑时代分期")">
+        <DialogTemplates>
+            <Content>
+                <div class="form-section">
+                    <div class="form-row">
+                        <label>分期 ID</label>
+                        <SfTextBox @bind-Value="_editingPeriod.Id" Enabled="@_isNewPeriod" CssClass="e-small" />
+                    </div>
+                    <div class="form-row">
+                        <label>中文名称</label>
+                        <SfTextBox @bind-Value="_editingPeriod.NameCn" CssClass="e-small" />
+                    </div>
+                    <div class="form-row">
+                        <label>英文名称</label>
+                        <SfTextBox @bind-Value="_editingPeriod.NameEn" CssClass="e-small" />
+                    </div>
+                    <div class="form-row">
+                        <label>文字颜色 (Hex)</label>
+                        <SfTextBox @bind-Value="_editingPeriod.ColorHex" CssClass="e-small" />
+                    </div>
+                    <div class="form-row">
+                        <label>背景颜色 (Hex)</label>
+                        <SfTextBox @bind-Value="_editingPeriod.ColorBackground" CssClass="e-small" />
+                    </div>
+                    <div class="form-row align-top">
+                        <label>分期详情</label>
+                        <SfTextArea @bind-Value="_editingPeriod.Description" Rows="3" />
+                    </div>
+
+                    <FuzzyDateEditor @bind-Value="_editingPeriod.Start" Label="开始时间 (Start Date)" />
+                    <FuzzyDateEditor @bind-Value="_editingPeriod.End" Label="结束时间 (End Date)" />
+                </div>
+            </Content>
+        </DialogTemplates>
+        <DialogButtons>
+            <DialogButton Content="保存" IsPrimary="true" OnClick="SavePeriodAsync" />
+            <DialogButton Content="取消" OnClick="() => _showPeriodEdit = false" />
+        </DialogButtons>
+    </SfDialog>
+}
+
+@* --- 弹窗 4：编辑流派泳道 (Stream) --- *@
+@if (_showStreamEdit)
+{
+    <SfDialog @bind-Visible="_showStreamEdit" Width="680px" IsModal="true" ShowCloseIcon="true" Header="@(_isNewStream ? "新建流派泳道" : "编辑流派泳道")">
+        <DialogTemplates>
+            <Content>
+                <div class="form-section">
+                    <div class="form-row">
+                        <label>泳道 ID</label>
+                        <SfTextBox @bind-Value="_editingStream.Id" Enabled="@_isNewStream" CssClass="e-small" />
+                    </div>
+                    <div class="form-row">
+                        <label>所属分期</label>
+                        <SfDropDownList TValue="string" TItem="PeriodDto" DataSource="@_periods" @bind-Value="_editingStream.PeriodId" Placeholder="选择关联时代分期" CssClass="e-small">
+                            <DropDownListFieldSettings Text="NameCn" Value="Id" />
+                        </SfDropDownList>
+                    </div>
+                    <div class="form-row">
+                        <label>中文名称</label>
+                        <SfTextBox @bind-Value="_editingStream.NameCn" CssClass="e-small" />
+                    </div>
+                    <div class="form-row">
+                        <label>英文名称</label>
+                        <SfTextBox @bind-Value="_editingStream.NameEn" CssClass="e-small" />
+                    </div>
+                    <div class="form-row">
+                        <label>泳道颜色 (Hex)</label>
+                        <SfTextBox @bind-Value="_editingStream.Color" CssClass="e-small" />
+                    </div>
+                    <div class="form-row">
+                        <label>泳道轨道排布序号 (Lane)</label>
+                        <SfNumericTextBox @bind-Value="_editingStream.Lane" Format="N0" ShowSpinButton="true" CssClass="e-small" />
+                    </div>
+                    <div class="form-row align-top">
+                        <label>流派中文简介</label>
+                        <SfTextArea @bind-Value="_editingStream.DescriptionCn" Rows="3" />
+                    </div>
+                    <div class="form-row align-top">
+                        <label>流派英文简介</label>
+                        <SfTextArea @bind-Value="_editingStream.DescriptionEn" Rows="3" />
+                    </div>
+
+                    <FuzzyDateEditor @bind-Value="_editingStream.Start" Label="泳道有效开始时间" />
+                    <FuzzyDateEditor @bind-Value="_editingStream.End" Label="泳道有效结束时间" />
+                </div>
+            </Content>
+        </DialogTemplates>
+        <DialogButtons>
+            <DialogButton Content="保存" IsPrimary="true" OnClick="SaveStreamAsync" />
+            <DialogButton Content="取消" OnClick="() => _showStreamEdit = false" />
+        </DialogButtons>
+    </SfDialog>
+}
+
+@* --- 弹窗 5：编辑作品事件 (Event) --- *@
+@if (_showEventEdit)
+{
+    <SfDialog @bind-Visible="_showEventEdit" Width="820px" Height="780px" IsModal="true" ShowCloseIcon="true" Header="@(_isNewEvent ? "新建作品卡片" : "编辑作品卡片")">
+        <DialogTemplates>
+            <Content>
+                <div class="form-scroll-container" style="max-height: 640px; overflow-y: auto; padding-right: 10px;">
+                    <div class="form-section">
+                        <div class="form-row">
+                            <label>卡片 ID (需该展内唯一)</label>
+                            <SfTextBox @bind-Value="_editingEvent.Id" Enabled="@_isNewEvent" CssClass="e-small" />
+                        </div>
+                        <div class="form-row-grid">
+                            <div class="form-row">
+                                <label>所属时代分期</label>
+                                <SfDropDownList TValue="string" TItem="PeriodDto" DataSource="@_periods" @bind-Value="_editingEvent.PeriodId" Placeholder="选择分期 (可空)" CssClass="e-small">
+                                    <DropDownListFieldSettings Text="NameCn" Value="Id" />
+                                </SfDropDownList>
+                            </div>
+                            <div class="form-row">
+                                <label>所属流派泳道</label>
+                                <SfDropDownList TValue="string" TItem="StreamDto" DataSource="@_streams" @bind-Value="_editingEvent.StreamId" Placeholder="选择泳道 (可空)" CssClass="e-small">
+                                    <DropDownListFieldSettings Text="NameCn" Value="Id" />
+                                </SfDropDownList>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <label>中文标题</label>
+                            <SfTextBox @bind-Value="_editingEvent.TitleCn" CssClass="e-small" />
+                        </div>
+                        <div class="form-row">
+                            <label>英文标题</label>
+                            <SfTextBox @bind-Value="_editingEvent.TitleEn" CssClass="e-small" />
+                        </div>
+                        <div class="form-row-grid">
+                            <div class="form-row">
+                                <label>创作者 (中文)</label>
+                                <SfTextBox @bind-Value="_editingEvent.CreatorCn" CssClass="e-small" />
+                            </div>
+                            <div class="form-row">
+                                <label>创作者 (英文)</label>
+                                <SfTextBox @bind-Value="_editingEvent.CreatorEn" CssClass="e-small" />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <label>收藏现藏地 / 地点</label>
+                            <SfTextBox @bind-Value="_editingEvent.Location" CssClass="e-small" />
+                        </div>
+                        <div class="form-row-grid">
+                            <div class="form-row">
+                                <label>缩放显示权重重要度 (1-最高，5-最低)</label>
+                                <SfNumericTextBox @bind-Value="_editingEvent.Importance" Min="1" Max="5" Format="N0" ShowSpinButton="true" CssClass="e-small" />
+                            </div>
+                            <div class="form-row">
+                                <label>标签 (逗号或空格分隔)</label>
+                                <SfTextBox Value="@string.Join(", ", _editingEvent.Tags)" ValueChanged="OnTagsStringChanged" Placeholder="输入标签..." CssClass="e-small" />
+                            </div>
+                        </div>
+
+                        @* 核心新增：三类 URL 属性输入 + 录入校验与预览按钮 *@
+                        <div class="url-input-section">
+                            <h5 class="url-title">多媒体与外部资源链接</h5>
+                            <div class="form-row url-row">
+                                <label>封面图像 URL</label>
+                                <div class="url-control-group">
+                                    <SfTextBox @bind-Value="_editingEvent.ImageUrl" Placeholder="http:// 或 https:// 格式" CssClass="e-small" />
+                                    <SfButton Content="预览" CssClass="e-small e-outline" OnClick="@(() => PreviewUrl(_editingEvent.ImageUrl, "image"))" Disabled="@string.IsNullOrEmpty(_editingEvent.ImageUrl)" />
+                                </div>
+                            </div>
+                            <div class="form-row url-row">
+                                <label>详情页 URL</label>
+                                <div class="url-control-group">
+                                    <SfTextBox @bind-Value="_editingEvent.DetailPageUrl" Placeholder="外部详情、介绍网页链接" CssClass="e-small" />
+                                    <SfButton Content="跳转" CssClass="e-small e-outline" OnClick="@(() => PreviewUrl(_editingEvent.DetailPageUrl, "web"))" Disabled="@string.IsNullOrEmpty(_editingEvent.DetailPageUrl)" />
+                                </div>
+                            </div>
+                            <div class="form-row url-row">
+                                <label>高清原图 URL</label>
+                                <div class="url-control-group">
+                                    <SfTextBox @bind-Value="_editingEvent.HighResImageUrl" Placeholder="超高分辨率无损大图链接" CssClass="e-small" />
+                                    <SfButton Content="预览" CssClass="e-small e-outline" OnClick="@(() => PreviewUrl(_editingEvent.HighResImageUrl, "image"))" Disabled="@string.IsNullOrEmpty(_editingEvent.HighResImageUrl)" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row align-top">
+                            <label>中文详情描述</label>
+                            <SfTextArea @bind-Value="_editingEvent.DescriptionCn" Rows="3" />
+                        </div>
+                        <div class="form-row align-top">
+                            <label>英文详情描述</label>
+                            <SfTextArea @bind-Value="_editingEvent.DescriptionEn" Rows="3" />
+                        </div>
+
+                        <FuzzyDateEditor @bind-Value="_editingEvent.Date" Label="卡片事件时间 (必填)" />
+                        
+                        <div class="form-row checkbox-row">
+                            <SfCheckBox TChecked="bool" Label="启用结束时间" Checked="@_hasEventEndDate" CheckedChanged="@OnEventEndDateToggle" />
+                        </div>
+                        @if (_hasEventEndDate)
+                        {
+                            <FuzzyDateEditor @bind-Value="_editingEvent.EndDate" Label="卡片事件结束时间" />
+                        }
+
+                        @* 柔性元数据动态表单编辑器 *@
+                        <EventMetaEditor EventFieldsJson="@_selectedExhibition.EventFieldsJson" @bind-MetaJson="_editingEvent.MetaJson" />
+                    </div>
+                </div>
+            </Content>
+        </DialogTemplates>
+        <DialogButtons>
+            <DialogButton Content="保存" IsPrimary="true" OnClick="SaveEventAsync" />
+            <DialogButton Content="取消" OnClick="() => _showEventEdit = false" />
+        </DialogButtons>
+    </SfDialog>
+}
+
+@* --- 弹窗 6：URL 预览窗口 --- *@
+@if (_showPreviewDialog)
+{
+    <SfDialog @bind-Visible="_showPreviewDialog" Width="650px" IsModal="true" ShowCloseIcon="true" Header="资源预览">
+        <DialogTemplates>
+            <Content>
+                <div class="preview-dialog-body" style="text-align:center; padding:15px 0;">
+                    @if (_previewType == "image")
+                    {
+                        <img src="@_previewUrl" alt="预览图" style="max-width:100%; max-height:450px; border-radius:4px; box-shadow:0 2px 8px rgba(0,0,0,0.15);" />
+                    }
+                    else
+                    {
+                        <p class="preview-text">由于同源或安全机制限制，部分网页不便在内嵌框架中呈现。建议点击下方按钮：</p>
+                        <a href="@_previewUrl" target="_blank" class="e-btn e-success" style="text-decoration:none; margin-top:10px;">在新标签页中访问该链接</a>
+                    }
+                    <div style="margin-top:15px; font-size:11px; color:var(--app-text-muted, #777); word-break:break-all;">
+                        资源地址：@_previewUrl
+                    </div>
+                </div>
+            </Content>
+        </DialogTemplates>
+        <DialogButtons>
+            <DialogButton Content="关闭" OnClick="() => _showPreviewDialog = false" />
+        </DialogButtons>
+    </SfDialog>
+}
+
+<style>
+    .color-swatch-badge {
+        font-family: monospace;
+    }
+    .grid-actions {
+        margin-bottom: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .filter-actions {
+        display: flex;
+        width: 100%;
+    }
+    .right-filters {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+    }
+    .filter-box {
+        width: 220px;
+    }
+    .filter-dropdown {
+        width: 150px;
+    }
+    .custom-pager {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 12px;
+        border-top: 1px solid var(--app-border, #e5e7eb);
+        padding-top: 12px;
+    }
+    .pager-info {
+        font-size: 13px;
+        color: var(--app-text-muted, #4b5563);
+    }
+    .form-row-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+    .checkbox-row {
+        margin: 10px 0;
+    }
+    .url-input-section {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: 1px solid var(--app-border, #e5e7eb);
+        border-radius: 6px;
+        padding: 12px;
+        background: var(--app-bg, #fff);
+    }
+    .url-title {
+        font-weight: bold;
+        font-size: 13px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: var(--app-primary, #2563eb);
+    }
+    .url-row {
+        margin-bottom: 8px;
+    }
+    .url-row:last-child {
+        margin-bottom: 0;
+    }
+    .url-control-group {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    .url-control-group .e-textbox-container {
+        flex: 1;
+    }
+    .url-badges {
+        display: flex;
+        gap: 4px;
+    }
+    .url-badges .badge {
+        display: inline-block;
+        font-size: 10px;
+        background: var(--app-bg-subtle, #f3f4f6);
+        color: var(--app-text, #374151);
+        border: 1px solid var(--app-border, #d1d5db);
+        border-radius: 3px;
+        padding: 1px 4px;
+        font-weight: bold;
+    }
+    
+    /* 拖拽手柄样式 - 强行设置拖拽手柄列和 col 的宽度，避免 Syncfusion 首次渲染计算为 1px */
+    .e-grid colgroup col.e-rowdragdrop,
+    .e-grid colgroup col:first-child {
+        width: 38px !important;
+    }
+    .e-grid .e-dragheader,
+    .e-grid .e-rowdragheader {
+        width: 38px !important;
+        min-width: 38px !important;
+    }
+    .e-grid .e-rowdragdrop {
+        width: 38px !important;
+        min-width: 38px !important;
+        cursor: move;
+        cursor: grab;
+        text-align: center !important;
+        display: table-cell !important;
+    }
+    .e-grid .e-rowdragdrop:active {
+        cursor: grabbing;
+    }
+    .e-grid .e-rowdragdrop .e-dragicon {
+        font-family: 'e-icons' !important;
+        display: inline-block !important;
+        font-size: 14px !important;
+        color: var(--app-text-muted, #64748b) !important;
+    }
+</style>
+
 @code {
+    private SfGrid<ExhibitionListItem> _grid = null!;
     private List<ExhibitionListItem> _items = [];
     private bool _showDialog;
     private bool _isNew;
     private bool _syncing;
     private string? _syncHint;
     private ExhibitionModel _model = new();
-
     private bool _initialLoadDone;
+
+    // 数据编辑器状态
+    private bool _showDataManager;
+    private ExhibitionListItem _selectedExhibition = new();
+    private List<PeriodDto> _periods = [];
+    private List<StreamDto> _streams = [];
+    private List<TimelineEventDto> _events = [];
+
+    // 分期/泳道/事件编辑窗体
+    private bool _showPeriodEdit;
+    private bool _isNewPeriod;
+    private PeriodDto _editingPeriod = new();
+
+    private bool _showStreamEdit;
+    private bool _isNewStream;
+    private StreamDto _editingStream = new();
+
+    private bool _showEventEdit;
+    private bool _isNewEvent;
+    private TimelineEventDto _editingEvent = new();
+    private bool _hasEventEndDate;
+
+    // 预览窗体
+    private bool _showPreviewDialog;
+    private string _previewUrl = string.Empty;
+    private string _previewType = "web"; // web | image
+
+    // 事件分页与筛选
+    private int _eventPage = 1;
+    private int _eventPageSize = 25;
+    private int _eventTotalCount;
+    private int _eventTotalPages => (int)Math.Ceiling((double)_eventTotalCount / _eventPageSize);
+    private string? _eventKeyword;
+    private int? _eventImportance;
+
+    private class ImportanceOption
+    {
+        public int? Value { get; set; }
+        public string Label { get; set; } = string.Empty;
+    }
+
+    private readonly List<ImportanceOption> _importanceOptions = new()
+    {
+        new ImportanceOption { Value = null, Label = "全部重要度" },
+        new ImportanceOption { Value = 1, Label = "1 - 最高" },
+        new ImportanceOption { Value = 2, Label = "2 - 较高" },
+        new ImportanceOption { Value = 3, Label = "3 - 普通" },
+        new ImportanceOption { Value = 4, Label = "4 - 较低" },
+        new ImportanceOption { Value = 5, Label = "5 - 最低" }
+    };
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
@@ -160,12 +737,6 @@
         }
 
         _items = items ?? [];
-        if (_items.Count == 0)
-        {
-            _syncHint = "列表为空时可点击「从数据同步」，从前端 public/data（含中国书法史等 6 个主题）导入。";
-            return;
-        }
-
         _syncHint = $"共 {_items.Count} 个展览主题（含前端 SPA 数据目录中的主题）。可编辑运行参数后保存。";
     }
 
@@ -180,6 +751,22 @@
             await LoadAsync();
         }
         else Toast.Error(err ?? "同步失败");
+    }
+
+    private async Task ImportLegacyData()
+    {
+        _syncing = true;
+        var (ok, err, msg) = await Api.ImportLegacyJsonAsync();
+        _syncing = false;
+        if (ok)
+        {
+            Toast.Success(msg ?? "历史展览数据一键无损导入成功！");
+            await LoadAsync();
+        }
+        else
+        {
+            Toast.Error(err ?? "导入失败");
+        }
     }
 
     private void CreateNew()
@@ -206,4 +793,289 @@
     }
 
     private Task Cancel() { _showDialog = false; return Task.CompletedTask; }
+
+    #region 子数据管理器逻辑
+
+    private async Task OpenDataManager(ExhibitionListItem ex)
+    {
+        _selectedExhibition = ex;
+        _eventPage = 1;
+        _eventKeyword = null;
+        _eventImportance = null;
+
+        // 加载当前展览关联的 Periods, Streams, Events
+        await LoadPeriodsAsync();
+        await LoadStreamsAsync();
+        await LoadEventsAsync();
+
+        _showDataManager = true;
+    }
+
+    private async Task LoadPeriodsAsync()
+    {
+        _periods = await Api.GetPeriodsAsync(_selectedExhibition.Id) ?? [];
+    }
+
+    private async Task LoadStreamsAsync()
+    {
+        _streams = await Api.GetStreamsAsync(_selectedExhibition.Id) ?? [];
+    }
+
+    private async Task LoadEventsAsync()
+    {
+        var pageResult = await Api.GetEventsAsync(_selectedExhibition.Id, _eventPage, _eventPageSize, _eventKeyword, _eventImportance);
+        if (pageResult is not null)
+        {
+            _events = pageResult.Items;
+            _eventTotalCount = pageResult.TotalCount;
+        }
+        else
+        {
+            _events = [];
+            _eventTotalCount = 0;
+        }
+    }
+
+    private string FormatFuzzyDateString(FuzzyDateDto fd)
+    {
+        if (fd is null) return string.Empty;
+        var yStr = fd.Year < 0 ? $"公元前 {Math.Abs(fd.Year)}" : $"{fd.Year}";
+        var suf = fd.Accuracy switch
+        {
+            "approximate" => " 约",
+            "not_before" => " 不早于",
+            "not_after" => " 不晚于",
+            "either_or" => fd.OrYear.HasValue ? $" 或 {(fd.OrYear.Value < 0 ? $"公元前 {Math.Abs(fd.OrYear.Value)}" : $"{fd.OrYear.Value}")}" : "",
+            _ => ""
+        };
+        return $"{yStr}{suf}年";
+    }
+
+    #endregion
+
+    #region Periods CRUD
+
+    private void CreatePeriod()
+    {
+        _isNewPeriod = true;
+        _editingPeriod = new PeriodDto
+        {
+            ExhibitionId = _selectedExhibition.Id,
+            ColorHex = "#111827",
+            ColorBackground = "#f3f4f6",
+            Start = new FuzzyDateDto { Year = 1900 },
+            End = new FuzzyDateDto { Year = 2000 }
+        };
+        _showPeriodEdit = true;
+    }
+
+    private void EditPeriod(PeriodDto p)
+    {
+        _isNewPeriod = false;
+        _editingPeriod = p;
+        _showPeriodEdit = true;
+    }
+
+    private async Task SavePeriodAsync()
+    {
+        if (string.IsNullOrWhiteSpace(_editingPeriod.Id)) { Toast.Error("分期 ID 不能为空"); return; }
+        var (ok, err) = await Api.SavePeriodAsync(_editingPeriod, _isNewPeriod);
+        if (ok)
+        {
+            Toast.Success("保存成功");
+            _showPeriodEdit = false;
+            await LoadPeriodsAsync();
+        }
+        else Toast.Error(err ?? "保存失败");
+    }
+
+    private async Task DeletePeriod(PeriodDto p)
+    {
+        var (ok, err) = await Api.DeletePeriodAsync(_selectedExhibition.Id, p.Id);
+        if (ok)
+        {
+            Toast.Success("删除成功");
+            await LoadPeriodsAsync();
+        }
+        else Toast.Error(err ?? "删除失败");
+    }
+
+    #endregion
+
+    #region Streams CRUD
+
+    private void CreateStream()
+    {
+        _isNewStream = true;
+        _editingStream = new StreamDto
+        {
+            ExhibitionId = _selectedExhibition.Id,
+            Color = "#2563eb",
+            Start = new FuzzyDateDto { Year = 1900 },
+            End = new FuzzyDateDto { Year = 2000 }
+        };
+        _showStreamEdit = true;
+    }
+
+    private void EditStream(StreamDto s)
+    {
+        _isNewStream = false;
+        _editingStream = s;
+        _showStreamEdit = true;
+    }
+
+    private async Task SaveStreamAsync()
+    {
+        if (string.IsNullOrWhiteSpace(_editingStream.Id)) { Toast.Error("泳道 ID 不能为空"); return; }
+        var (ok, err) = await Api.SaveStreamAsync(_editingStream, _isNewStream);
+        if (ok)
+        {
+            Toast.Success("保存成功");
+            _showStreamEdit = false;
+            await LoadStreamsAsync();
+        }
+        else Toast.Error(err ?? "保存失败");
+    }
+
+    private async Task DeleteStream(StreamDto s)
+    {
+        var (ok, err) = await Api.DeleteStreamAsync(_selectedExhibition.Id, s.Id);
+        if (ok)
+        {
+            Toast.Success("删除成功");
+            await LoadStreamsAsync();
+        }
+        else Toast.Error(err ?? "删除失败");
+    }
+
+    #endregion
+
+    #region Events CRUD
+
+    private void CreateEvent()
+    {
+        _isNewEvent = true;
+        _editingEvent = new TimelineEventDto
+        {
+            ExhibitionId = _selectedExhibition.Id,
+            Importance = 3,
+            Date = new FuzzyDateDto { Year = 1900 },
+            Tags = [],
+            MetaJson = "{}"
+        };
+        _hasEventEndDate = false;
+        _showEventEdit = true;
+    }
+
+    private void EditEvent(TimelineEventDto ev)
+    {
+        _isNewEvent = false;
+        _editingEvent = ev;
+        _hasEventEndDate = ev.EndDate is not null;
+        _showEventEdit = true;
+    }
+
+    private void OnEventEndDateToggle(bool val)
+    {
+        _hasEventEndDate = val;
+        if (val)
+        {
+            _editingEvent.EndDate ??= new FuzzyDateDto { Year = _editingEvent.Date.Year };
+        }
+        else
+        {
+            _editingEvent.EndDate = null;
+        }
+    }
+
+    private void OnTagsStringChanged(string? val)
+    {
+        if (string.IsNullOrWhiteSpace(val))
+        {
+            _editingEvent.Tags = [];
+        }
+        else
+        {
+            _editingEvent.Tags = val.Split(new[] { ',', ' ', '，' }, StringSplitOptions.RemoveEmptyEntries)
+                                   .Select(t => t.Trim())
+                                   .ToList();
+        }
+    }
+
+    private async Task SaveEventAsync()
+    {
+        if (string.IsNullOrWhiteSpace(_editingEvent.Id)) { Toast.Error("卡片 ID 不能为空"); return; }
+        var (ok, err) = await Api.SaveEventAsync(_editingEvent, _isNewEvent);
+        if (ok)
+        {
+            Toast.Success("保存成功");
+            _showEventEdit = false;
+            await LoadEventsAsync();
+        }
+        else Toast.Error(err ?? "保存失败");
+    }
+
+    private async Task DeleteEvent(TimelineEventDto ev)
+    {
+        var (ok, err) = await Api.DeleteEventAsync(_selectedExhibition.Id, ev.Id);
+        if (ok)
+        {
+            Toast.Success("删除成功");
+            await LoadEventsAsync();
+        }
+        else Toast.Error(err ?? "删除失败");
+    }
+
+    private async Task PrevEventPage()
+    {
+        if (_eventPage > 1)
+        {
+            _eventPage--;
+            await LoadEventsAsync();
+        }
+    }
+
+    private async Task NextEventPage()
+    {
+        if (_eventPage < _eventTotalPages)
+        {
+            _eventPage++;
+            await LoadEventsAsync();
+        }
+    }
+
+    private void PreviewUrl(string? url, string type)
+    {
+        if (string.IsNullOrEmpty(url)) return;
+        _previewUrl = url;
+        _previewType = type;
+        _showPreviewDialog = true;
+    }
+
+    private async Task OnRowDropped(RowDroppedEventArgs<ExhibitionListItem> args)
+    {
+        var movingItems = args.Data;
+        if (movingItems == null || movingItems.Count == 0) return;
+
+        // Syncfusion 拖放后已自动更新 bound 集合 _items 里的元素位置
+        // 我们只需根据最新的顺序重新映射 SortOrder 并通知后端
+        for (int i = 0; i < _items.Count; i++)
+        {
+            _items[i].SortOrder = i;
+        }
+
+        var orderItems = _items.Select(x => new ExhibitionOrderItem { Id = x.Id, SortOrder = x.SortOrder }).ToList();
+        var (ok, err) = await Api.ReorderExhibitionsAsync(new ExhibitionReorderRequest { Items = orderItems });
+        if (ok)
+        {
+            Toast.Success("拖动排序成功");
+        }
+        else
+        {
+            Toast.Error(err ?? "排序更新失败");
+            await LoadAsync(); // 失败则重新加载并同步状态
+        }
+    }
+
+    #endregion
 }

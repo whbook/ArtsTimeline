@@ -1,0 +1,128 @@
+@using System.Text.Json
+@using System.Text.Json.Nodes
+
+<div class="event-meta-editor">
+    <h5 class="meta-title">自定义扩展字段 (Meta)</h5>
+    @if (_fields.Count == 0)
+    {
+        <p class="no-meta">当前展览未定义扩展字段。您可以在「基本信息 -> 字段定义 JSON」中定义它们。</p>
+    }
+    else
+    {
+        <div class="meta-grid">
+            @foreach (var f in _fields)
+            {
+                <div class="form-row meta-row">
+                    <label>@f.LabelCn (@f.LabelEn)</label>
+                    <SfTextBox Value="@GetMetaValue(f.Key)" ValueChanged="@(v => OnMetaChanged(f.Key, v))" CssClass="e-small" />
+                </div>
+            }
+        </div>
+    }
+</div>
+
+<style>
+    .event-meta-editor {
+        border: 1px solid var(--app-border, #e5e7eb);
+        padding: 12px;
+        border-radius: 6px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        background: var(--app-bg-subtle, #f9fafb);
+    }
+    .meta-title {
+        font-weight: 600;
+        margin-top: 0;
+        margin-bottom: 12px;
+        color: var(--app-text, #111827);
+        font-size: 13px;
+        border-bottom: 1px solid var(--app-border, #e5e7eb);
+        padding-bottom: 6px;
+    }
+    .no-meta {
+        font-size: 12px;
+        color: var(--app-text-muted, #9ca3af);
+        margin: 0;
+    }
+    .meta-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    .meta-row {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    .meta-row label {
+        font-size: 12px;
+        color: var(--app-text-muted, #4b5563);
+        font-weight: 500;
+    }
+</style>
+
+@code {
+    [Parameter] public string EventFieldsJson { get; set; } = "[]";
+    [Parameter] public string MetaJson { get; set; } = "{}";
+    [Parameter] public EventCallback<string> MetaJsonChanged { get; set; }
+
+    private class EventFieldDef
+    {
+        public string Key { get; set; } = string.Empty;
+        public string LabelEn { get; set; } = string.Empty;
+        public string LabelCn { get; set; } = string.Empty;
+        public string Type { get; set; } = "text";
+    }
+
+    private List<EventFieldDef> _fields = [];
+    private Dictionary<string, string> _metaValues = [];
+
+    protected override void OnParametersSet()
+    {
+        // 1. 解析字段定义
+        try
+        {
+            _fields = JsonSerializer.Deserialize<List<EventFieldDef>>(
+                string.IsNullOrWhiteSpace(EventFieldsJson) ? "[]" : EventFieldsJson,
+                new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? [];
+        }
+        catch
+        {
+            _fields = [];
+        }
+
+        // 2. 解析当前值
+        try
+        {
+            var dict = JsonSerializer.Deserialize<Dictionary<string, object>>(
+                string.IsNullOrWhiteSpace(MetaJson) ? "{}" : MetaJson);
+            
+            _metaValues = new Dictionary<string, string>();
+            if (dict is not null)
+            {
+                foreach (var kvp in dict)
+                {
+                    _metaValues[kvp.Key] = kvp.Value?.ToString() ?? string.Empty;
+                }
+            }
+        }
+        catch
+        {
+            _metaValues = [];
+        }
+    }
+
+    private string GetMetaValue(string key)
+    {
+        return _metaValues.TryGetValue(key, out var val) ? val : string.Empty;
+    }
+
+    private async Task OnMetaChanged(string key, string? val)
+    {
+        _metaValues[key] = val ?? string.Empty;
+
+        // 序列化回 JSON 字符串并发射事件
+        var json = JsonSerializer.Serialize(_metaValues);
+        await MetaJsonChanged.InvokeAsync(json);
+    }
+}
