@@ -306,19 +306,29 @@ const App: React.FC = () => {
             </div>
             Universal History Timeline
           </h1>
-          <div className="flex items-center gap-6 text-sm text-gray-400 font-serif">
-             <span className="hidden md:inline opacity-80">
-               <span className="italic">Scroll to Zoom / Drag to Pan</span>
-               <span className="mx-2 text-gray-600 not-italic">·</span>
-               <span className="font-mono not-italic text-[#DAA520] tabular-nums" title="相对主题默认视口的缩放倍数">
-                 {zoomFactorLabel}
+          <div className="flex flex-col items-end gap-1">
+            <div className="flex items-center gap-6 text-sm text-gray-400 font-serif">
+               <span className="hidden md:inline opacity-80">
+                 <span className="italic">Scroll to Zoom / Drag to Pan</span>
+                 <span className="mx-2 text-gray-600 not-italic">·</span>
+                 <span className="font-mono not-italic text-[#DAA520] tabular-nums" title="相对主题默认视口的缩放倍数">
+                   {zoomFactorLabel}
+                 </span>
+                 <span className="ml-1 italic text-gray-500">(滚动缩放 / 拖动平移 · 缩放 {zoomFactorLabel})</span>
                </span>
-               <span className="ml-1 italic text-gray-500">(滚动缩放 / 拖动平移 · 缩放 {zoomFactorLabel})</span>
-             </span>
-             <div className="flex gap-0 border border-gray-600 rounded overflow-hidden">
-               <button onClick={() => manualZoom('out')} className="p-2 bg-[#2a2a2a] hover:bg-[#333] hover:text-white transition border-r border-gray-600" title="Zoom Out"><ZoomOut size={18}/></button>
-               <button onClick={() => manualZoom('in')} className="p-2 bg-[#2a2a2a] hover:bg-[#333] hover:text-white transition" title="Zoom In"><ZoomIn size={18}/></button>
-             </div>
+               <div className="flex gap-0 border border-gray-600 rounded overflow-hidden">
+                 <button onClick={() => manualZoom('out')} className="p-2 bg-[#2a2a2a] hover:bg-[#333] hover:text-white transition border-r border-gray-600" title="Zoom Out"><ZoomOut size={18}/></button>
+                 <button onClick={() => manualZoom('in')} className="p-2 bg-[#2a2a2a] hover:bg-[#333] hover:text-white transition" title="Zoom In"><ZoomIn size={18}/></button>
+               </div>
+            </div>
+            {isAutoPlaying && (
+              <div className="bg-black/70 text-white px-3 py-1 rounded-full text-xs font-bold flex items-center gap-2 animate-pulse pointer-events-none">
+                <Play size={14} className="text-green-400 fill-green-400" />
+                {countdown !== null
+                  ? `Switching topic in ${countdown}...`
+                  : 'Auto-Playing... (Interact to stop)'}
+              </div>
+            )}
           </div>
         </div>
         <TopicSelector topics={topics} activeTopicId={activeTopicId} onSelectTopic={setActiveTopicId} />
@@ -330,16 +340,6 @@ const App: React.FC = () => {
         </div>
       ) : (
         <div className={`flex-1 flex flex-col min-h-0 transition-opacity duration-500 ease-in-out ${isTransitioning ? 'opacity-0' : 'opacity-100'}`}>
-          {/* Auto-play Indicator */}
-          {isAutoPlaying && (
-            <div className="absolute top-20 left-1/2 -translate-x-1/2 bg-black/70 text-white px-4 py-2 rounded-full text-sm font-bold flex items-center gap-2 z-50 animate-pulse pointer-events-none">
-              <Play size={16} className="text-green-400 fill-green-400" />
-              {countdown !== null 
-                ? `Switching topic in ${countdown}...` 
-                : 'Auto-Playing... (Interact to stop)'}
-            </div>
-          )}
-
           {/* Main Visualization Area (Top Half) */}
           <div 
             ref={containerRef}
