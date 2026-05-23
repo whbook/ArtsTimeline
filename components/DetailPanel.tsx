@@ -5,6 +5,7 @@ import { BASE_COLUMN_WIDTH } from '../constants';
 import { getDecimalYear, formatFuzzyDate } from '../utils';
 import { ChevronLeft, ChevronRight, GripVertical } from 'lucide-react';
 import EventImage from './EventImage';
+import DescriptionText from './DescriptionText';
 
 interface DetailPanelProps {
   topic: Topic;
@@ -31,28 +32,6 @@ type SectionData = {
 };
 
 type RenderedSection = SectionData & { state: 'entering' | 'entered' | 'exiting' };
-
-const decodeHtmlEntities = (value: string) => {
-  return value
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&amp;/g, '&');
-};
-
-const DescriptionText: React.FC<{ value: string }> = ({ value }) => {
-  const html = value.includes('&lt;') && value.includes('&gt;') ? decodeHtmlEntities(value) : value;
-  const hasHtml = /<\/?[a-z][\s\S]*>/i.test(html);
-  const className =
-    'text-sm leading-relaxed text-stone-600 [&_p]:mb-3 [&_p:last-child]:mb-0 [&_br]:block [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5 [&_li]:mb-1 [&_strong]:font-bold [&_b]:font-bold';
-
-  if (hasHtml) {
-    return <div className={className} dangerouslySetInnerHTML={{ __html: html }} />;
-  }
-
-  return <p className={`${className} whitespace-pre-line`}>{value}</p>;
-};
 
 const EventDetailPane: React.FC<{
   topic: Topic;
@@ -126,7 +105,7 @@ const EventDetailPane: React.FC<{
             ))}
           </div>
 
-          <div className="grid grid-cols-1 gap-3 border-b border-stone-100 pb-4">
+          <div className="grid grid-cols-1 gap-3 border-b border-stone-100 pb-4 lg:grid-cols-2">
             {remainingFields.map(field => {
               let value = (event as any)[field.key] || (event.meta && event.meta[field.key]);
               if (!value) return null;
@@ -425,6 +404,16 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, even
     return nearestDistance <= thresholdYears ? nearestEvent : null;
   }, [events, centerYear, range]);
 
+  const [displayedEvent, setDisplayedEvent] = useState<TimelineEvent | null>(null);
+
+  useEffect(() => {
+    setDisplayedEvent(prev => {
+      if (centeredEvent) return centeredEvent;
+      if (prev && events.some(event => event.id === prev.id)) return prev;
+      return null;
+    });
+  }, [centeredEvent, events]);
+
   // 动态计算当前红线位置激活的所有区块（仅限流派 Stream，不再显示大时代 Period）
   const activeSections = React.useMemo(() => {
     const active: SectionData[] = [];
@@ -518,6 +507,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, even
     const GAP = 16;
     return PADDING + (activeColumnCount * COLUMN_WIDTH) + ((activeColumnCount - 1) * GAP);
   }, [renderedSections, COLUMN_WIDTH]);
+  const hasLanePane = autoLeftPaneWidth > 0;
 
   // --- Focus Section Logic ---
   const lastFocusTs = useRef<number>(0);
@@ -586,75 +576,79 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, even
       ref={splitContainerRef}
       className={`relative flex h-full w-full bg-[#f4f4f4] ${isResizing ? 'select-none' : ''}`}
     >
-      <div
-        className="relative h-full min-w-0 transition-[width] duration-500 ease-in-out"
-        style={{ width: `min(${leftPaneMaxWidthPercent}%, ${autoLeftPaneWidth}px)` }}
-      >
-        {/* Left Scroll Button */}
-        {canScrollLeft && (
-          <button
-            onClick={(e) => { e.stopPropagation(); scrollByAmount('left'); }}
-            className="absolute left-2 top-1/2 z-50 -translate-y-1/2 rounded-full border border-gray-200 bg-white/80 p-2 text-gray-800 shadow-md backdrop-blur-sm transition-all animate-in fade-in hover:bg-white"
-            aria-label="Scroll left"
-          >
-            <ChevronLeft size={24} />
-          </button>
-        )}
-
-        {/* Right Scroll Button */}
-        {canScrollRight && (
-          <button
-            onClick={(e) => { e.stopPropagation(); scrollByAmount('right'); }}
-            className="absolute right-2 top-1/2 z-50 -translate-y-1/2 rounded-full border border-gray-200 bg-white/80 p-2 text-gray-800 shadow-md backdrop-blur-sm transition-all animate-in fade-in hover:bg-white"
-            aria-label="Scroll right"
-          >
-            <ChevronRight size={24} />
-          </button>
-        )}
-
+      {hasLanePane && (
         <div
-          ref={containerRef}
-          className={`h-full w-full flex overflow-x-auto custom-scrollbar bg-[#f8f8f5] p-4 gap-4 ${isDragging ? 'cursor-grabbing select-none' : 'cursor-grab'}`}
-          onMouseDown={handleMouseDown}
-          onMouseLeave={() => { handleMouseLeave(); checkScroll(); }}
-          onMouseUp={() => { handleMouseUp(); checkScroll(); }}
-          onMouseMove={handleMouseMove}
-          onScroll={checkScroll}
+          className="relative h-full min-w-0 transition-[width] duration-500 ease-in-out"
+          style={{ width: `min(${leftPaneMaxWidthPercent}%, ${autoLeftPaneWidth}px)` }}
         >
-          {renderedSections.map((section) => {
-            // 过滤事件：只显示分配给该 Stream 的事件
-            const sectionEvents = events.filter(e => e.streamId === section.id);
+          {/* Left Scroll Button */}
+          {canScrollLeft && (
+            <button
+              onClick={(e) => { e.stopPropagation(); scrollByAmount('left'); }}
+              className="absolute left-2 top-1/2 z-50 -translate-y-1/2 rounded-full border border-gray-200 bg-white/80 p-2 text-gray-800 shadow-md backdrop-blur-sm transition-all animate-in fade-in hover:bg-white"
+              aria-label="Scroll left"
+            >
+              <ChevronLeft size={24} />
+            </button>
+          )}
 
-            return (
-              <SectionColumn
-                key={`stream-${section.id}`}
-                section={section}
-                topic={topic}
-                events={sectionEvents}
-                columnWidth={COLUMN_WIDTH}
-                onEventClick={onEventClick}
-                onEventHover={onEventHover}
-                onRemove={handleRemove}
-              />
-            );
-          })}
+          {/* Right Scroll Button */}
+          {canScrollRight && (
+            <button
+              onClick={(e) => { e.stopPropagation(); scrollByAmount('right'); }}
+              className="absolute right-2 top-1/2 z-50 -translate-y-1/2 rounded-full border border-gray-200 bg-white/80 p-2 text-gray-800 shadow-md backdrop-blur-sm transition-all animate-in fade-in hover:bg-white"
+              aria-label="Scroll right"
+            >
+              <ChevronRight size={24} />
+            </button>
+          )}
+
+          <div
+            ref={containerRef}
+            className={`h-full w-full flex overflow-x-auto custom-scrollbar bg-[#f8f8f5] p-4 gap-4 ${isDragging ? 'cursor-grabbing select-none' : 'cursor-grab'}`}
+            onMouseDown={handleMouseDown}
+            onMouseLeave={() => { handleMouseLeave(); checkScroll(); }}
+            onMouseUp={() => { handleMouseUp(); checkScroll(); }}
+            onMouseMove={handleMouseMove}
+            onScroll={checkScroll}
+          >
+            {renderedSections.map((section) => {
+              // 过滤事件：只显示分配给该 Stream 的事件
+              const sectionEvents = events.filter(e => e.streamId === section.id);
+
+              return (
+                <SectionColumn
+                  key={`stream-${section.id}`}
+                  section={section}
+                  topic={topic}
+                  events={sectionEvents}
+                  columnWidth={COLUMN_WIDTH}
+                  onEventClick={onEventClick}
+                  onEventHover={onEventHover}
+                  onRemove={handleRemove}
+                />
+              );
+            })}
+          </div>
         </div>
-      </div>
+      )}
 
-      <button
-        type="button"
-        className="group relative z-40 flex h-full w-2 flex-none cursor-col-resize items-center justify-center bg-transparent transition-colors hover:bg-stone-200/40"
-        onMouseDown={handleResizeStart}
-        aria-label="Resize detail split"
-      >
-        <span className="absolute inset-y-3 left-1/2 w-px -translate-x-1/2 rounded-full bg-stone-300/70 transition-colors group-hover:bg-stone-500/80" />
-        <span className="relative flex h-10 w-3 items-center justify-center rounded-full border border-stone-300/70 bg-[#f8f8f5]/90 text-stone-400 opacity-0 shadow-sm transition-opacity group-hover:opacity-100">
-          <GripVertical size={12} strokeWidth={1.5} />
-        </span>
-      </button>
+      {hasLanePane && (
+        <button
+          type="button"
+          className="group relative z-40 flex h-full w-2 flex-none cursor-col-resize items-center justify-center bg-transparent transition-colors hover:bg-stone-200/40"
+          onMouseDown={handleResizeStart}
+          aria-label="Resize detail split"
+        >
+          <span className="absolute inset-y-3 left-1/2 w-px -translate-x-1/2 rounded-full bg-stone-300/70 transition-colors group-hover:bg-stone-500/80" />
+          <span className="relative flex h-10 w-3 items-center justify-center rounded-full border border-stone-300/70 bg-[#f8f8f5]/90 text-stone-400 opacity-0 shadow-sm transition-opacity group-hover:opacity-100">
+            <GripVertical size={12} strokeWidth={1.5} />
+          </span>
+        </button>
+      )}
 
-      <div className="h-full min-w-0 flex-1 bg-[#f8f8f5] p-4 pl-0">
-        <EventDetailPane topic={topic} event={centeredEvent} />
+      <div className={`h-full min-w-0 flex-1 bg-[#f8f8f5] p-4 ${hasLanePane ? 'pl-0' : 'pl-4'}`}>
+        <EventDetailPane topic={topic} event={displayedEvent} />
       </div>
     </div>
   );

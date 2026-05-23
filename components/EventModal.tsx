@@ -3,6 +3,7 @@ import { X } from 'lucide-react';
 import { TimelineEvent, Topic } from '../types';
 import { formatFuzzyDate } from '../utils';
 import EventImage from './EventImage';
+import DescriptionText from './DescriptionText';
 
 interface EventModalProps {
   topic: Topic;
@@ -53,13 +54,13 @@ const EventModal: React.FC<EventModalProps> = ({ topic, event, onClose }) => {
         {descEng && (
           <div>
               <h4 className="font-bold text-gray-800 mb-1">Description</h4>
-              <p className="text-gray-600 leading-relaxed text-sm">{descEng}</p>
+              <DescriptionText value={descEng} className="text-gray-600" />
           </div>
         )}
         {descCn && (
             <div>
                 <h4 className="font-bold text-gray-800 mb-1">简介</h4>
-                <p className="text-gray-600 leading-relaxed text-sm">{descCn}</p>
+                <DescriptionText value={descCn} className="text-gray-600" />
             </div>
         )}
     </div>
