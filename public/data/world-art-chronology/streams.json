@@ -1,0 +1,72 @@
+[
+  {
+    "id": "s_europe_continent",
+    "nameEn": "Continental Europe",
+    "nameCn": "欧洲大陆",
+    "color": "#7F5539",
+    "lane": 0,
+    "start": {
+      "year": -500
+    },
+    "end": {
+      "year": 2050
+    },
+    "descriptionCn": "法国、意大利、西班牙、德国等欧洲大陆艺术事件。"
+  },
+  {
+    "id": "s_uk_nordic",
+    "nameEn": "United Kingdom & Nordic",
+    "nameCn": "英国与北欧",
+    "color": "#3A86FF",
+    "lane": 1,
+    "start": {
+      "year": -500
+    },
+    "end": {
+      "year": 2050
+    },
+    "descriptionCn": "以英国为主的艺术与建筑发展线索。"
+  },
+  {
+    "id": "s_us_modern",
+    "nameEn": "United States Modern Art",
+    "nameCn": "美国现代艺术",
+    "color": "#8338EC",
+    "lane": 2,
+    "start": {
+      "year": 1700
+    },
+    "end": {
+      "year": 2050
+    },
+    "descriptionCn": "美国近现代艺术、展览制度与公共艺术节点。"
+  },
+  {
+    "id": "s_china_artifacts",
+    "nameEn": "Chinese Art & Archaeology",
+    "nameCn": "中国艺术与考古",
+    "color": "#E76F51",
+    "lane": 3,
+    "start": {
+      "year": -1000
+    },
+    "end": {
+      "year": 2050
+    },
+    "descriptionCn": "中国文物、书画史与考古发现相关事件。"
+  },
+  {
+    "id": "s_institutions_historiography",
+    "nameEn": "Institutions & Historiography",
+    "nameCn": "艺术制度与史学写作",
+    "color": "#2A9D8F",
+    "lane": 4,
+    "start": {
+      "year": -500
+    },
+    "end": {
+      "year": 2050
+    },
+    "descriptionCn": "跨国的学院、博物馆、展览与艺术史写作事件。"
+  }
+]

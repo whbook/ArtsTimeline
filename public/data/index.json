@@ -22,5 +22,11 @@
     "titleCn": "世界文明史",
     "titleEn": "World Civilizations",
     "color": "#27AE60"
+  },
+  {
+    "id": "world-art-chronology",
+    "titleCn": "世界艺术编年史",
+    "titleEn": "World Art Chronology",
+    "color": "#1F8A70"
   }
 ]

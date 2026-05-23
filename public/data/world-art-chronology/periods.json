@@ -1,0 +1,67 @@
+[
+  {
+    "id": "p_ancient_early_china",
+    "nameEn": "Ancient & Early Chinese Traditions",
+    "nameCn": "古代与早期中国传统",
+    "colorHex": "#6C5B7B",
+    "colorBackground": "#f6f2fa",
+    "start": {
+      "year": -5000
+    },
+    "end": {
+      "year": 500
+    }
+  },
+  {
+    "id": "p_roman_medieval",
+    "nameEn": "Romanesque & Early Medieval",
+    "nameCn": "罗马式与早期中世纪",
+    "colorHex": "#355C7D",
+    "colorBackground": "#eef4fa",
+    "start": {
+      "year": 500
+    },
+    "end": {
+      "year": 1139
+    }
+  },
+  {
+    "id": "p_gothic_late_medieval",
+    "nameEn": "Gothic & Late Medieval",
+    "nameCn": "哥特式与晚期中世纪",
+    "colorHex": "#C06C84",
+    "colorBackground": "#fdf1f5",
+    "start": {
+      "year": 1140
+    },
+    "end": {
+      "year": 1449
+    }
+  },
+  {
+    "id": "p_renaissance_academy",
+    "nameEn": "Renaissance & Academy Formation",
+    "nameCn": "文艺复兴与学院化",
+    "colorHex": "#F67280",
+    "colorBackground": "#fff1f3",
+    "start": {
+      "year": 1450
+    },
+    "end": {
+      "year": 1799
+    }
+  },
+  {
+    "id": "p_modern_contemporary",
+    "nameEn": "Modern & Contemporary Art Systems",
+    "nameCn": "现代与当代艺术体系",
+    "colorHex": "#2A9D8F",
+    "colorBackground": "#edf8f6",
+    "start": {
+      "year": 1800
+    },
+    "end": {
+      "year": 2050
+    }
+  }
+]

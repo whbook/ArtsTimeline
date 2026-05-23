@@ -1,0 +1,1837 @@
+[
+  {
+    "id": "32f43ac2-2ce7-4af7-af82-674dd00eaf8e",
+    "periodId": "p_ancient_early_china",
+    "streamId": "s_china_artifacts",
+    "titleEn": "曾侯乙下葬并随葬大量艺术品",
+    "titleCn": "曾侯乙下葬并随葬大量艺术品",
+    "date": {
+      "year": -433,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元前433年，曾侯乙去世，被埋葬在湖北随州，随葬大量青铜器、漆器、金器、玉器等艺术品。",
+    "importance": 4,
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "战国",
+      "eventCategory": "other",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "73f7d385-5cd0-4ebb-b7e8-ee09af24dcd0",
+    "periodId": "p_ancient_early_china",
+    "streamId": "s_china_artifacts",
+    "titleEn": "武梁祠修建",
+    "titleCn": "武梁祠修建",
+    "date": {
+      "year": 151
+    },
+    "descriptionCn": "151年，武梁祠修建于山东省西南部的嘉祥县，由武氏家族为祭祀祖先而建。",
+    "importance": 4,
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "东汉",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "dc168b88-c0d1-4bbd-9b84-8a77e6011147",
+    "periodId": "p_roman_medieval",
+    "streamId": "s_china_artifacts",
+    "titleEn": "元氏石棺线刻装饰完成",
+    "titleCn": "元氏石棺线刻装饰完成",
+    "date": {
+      "year": 522
+    },
+    "descriptionCn": "522年，元氏石棺在洛阳附近埋葬，石棺上装饰浅浮雕孝子故事线刻。",
+    "importance": 4,
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "北魏",
+      "eventCategory": "other",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "1e3548c7-f069-4de1-a77e-f48f8cf993ad",
+    "periodId": "p_roman_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "建造科尔多瓦大清真寺",
+    "titleCn": "建造科尔多瓦大清真寺",
+    "date": {
+      "year": 785
+    },
+    "descriptionCn": "公元785年，西班牙科尔多瓦的穆斯林统治者阿布达尔-拉赫曼开始建造科尔多瓦大清真寺，融合了伊斯兰装饰风格与拱门系列。",
+    "importance": 4,
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "中世纪",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "aa3d6f15-a207-49d8-9c96-881e969c0f26",
+    "periodId": "p_roman_medieval",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "张彦远完成《历代名画记》",
+    "titleCn": "张彦远完成《历代名画记》",
+    "date": {
+      "year": 847
+    },
+    "descriptionCn": "847年，张彦远完成《历代名画记》，记述了370余位画家的传记、作品与品评。",
+    "importance": 1,
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "唐代",
+      "eventCategory": "text_historiography",
+      "importanceNote": "跨时代里程碑：教材级，改变艺术史叙事或方法。"
+    }
+  },
+  {
+    "id": "5ec4ed07-0c8e-4f05-a865-7bb693d53713",
+    "periodId": "p_roman_medieval",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "制作阿尔弗雷德珠宝",
+    "titleCn": "制作阿尔弗雷德珠宝",
+    "date": {
+      "year": 880,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约公元880年，英国制作了阿尔弗雷德珠宝，这是一件精致的金质珠宝，刻有铭文“奉阿尔弗雷德之命作”，现藏于牛津阿什莫尔博物馆。",
+    "importance": 3,
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "中世纪",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "6c46da73-e043-47a6-9d50-9fc380e1bd7c",
+    "periodId": "p_roman_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "动工建造比萨大教堂",
+    "titleCn": "动工建造比萨大教堂",
+    "date": {
+      "year": 1063
+    },
+    "descriptionCn": "1063年，意大利比萨开始动工建造比萨大教堂，属于罗马式风格，外墙以连环拱和彩色大理石装饰。",
+    "importance": 4,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "0c4f9b6b-ab88-4dcc-8e64-c456e9674aa3",
+    "periodId": "p_roman_medieval",
+    "streamId": "s_uk_nordic",
+    "titleEn": "改建伦敦塔为石造堡垒",
+    "titleCn": "改建伦敦塔为石造堡垒",
+    "date": {
+      "year": 1078,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1078年，英格兰国王威廉一世决定将伦敦塔改建为石造堡垒，由修道士冈杜尔夫监造，包括巨大的方形塔楼和圣约翰礼拜堂。",
+    "importance": 4,
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "中世纪",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "a9be8bc9-4e7a-4b9e-882d-f8bb31984c18",
+    "periodId": "p_roman_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "建造图卢兹圣瑟尔南教堂",
+    "titleCn": "建造图卢兹圣瑟尔南教堂",
+    "date": {
+      "year": 1080,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1080年至1120年，法国图卢兹建造了圣瑟尔南教堂，采用罗马式风格，是典型的“朝圣路”教堂，平面呈十字形，使用桃红色烧砖和石材。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "罗马式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "13e9585c-f5c3-4e2a-b666-3905d9f01746",
+    "periodId": "p_roman_medieval",
+    "streamId": "s_uk_nordic",
+    "titleEn": "建造达勒姆大教堂中殿",
+    "titleCn": "建造达勒姆大教堂中殿",
+    "date": {
+      "year": 1093
+    },
+    "descriptionCn": "1093年至1133年，英国达勒姆建造了大教堂中殿，采用诺曼式风格，是英国第一座完全用石头筑顶的大教堂，使用了肋架拱顶。",
+    "importance": 4,
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "罗马式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "47dc7d42-5b42-44f1-a7e9-39c23eeb77ae",
+    "periodId": "p_roman_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "建成穆瓦萨克圣皮埃尔修道院回廊",
+    "titleCn": "建成穆瓦萨克圣皮埃尔修道院回廊",
+    "date": {
+      "year": 1100
+    },
+    "descriptionCn": "1100年，法国穆瓦萨克的圣皮埃尔修道院回廊建成，回廊由小圆柱环绕，柱头饰有叶纹、兽像和圣经故事，体现了克吕尼会的装饰风格。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "罗马式",
+      "eventCategory": "other",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "740d8937-4264-4f49-8124-08cac0715ad2",
+    "periodId": "p_roman_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "建造米埃日维尔门",
+    "titleCn": "建造米埃日维尔门",
+    "date": {
+      "year": 1110
+    },
+    "descriptionCn": "1110年，在图卢兹圣瑟尔南教堂中殿南侧廊第五个跨间处建造了米埃日维尔门，其门楣中心描绘了基督升天场景，是罗马帝国灭亡后欧洲最早的大型雕塑作品之一。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "罗马式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "3c46efc1-e8fe-4be2-a109-a83eb284c7bf",
+    "periodId": "p_roman_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "制作维泽莱玛德莱娜教堂门楣中心雕刻",
+    "titleCn": "制作维泽莱玛德莱娜教堂门楣中心雕刻",
+    "date": {
+      "year": 1120,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1120年至1130年，法国维泽莱的玛德莱娜教堂西外墙正面门楣中心制作了雕刻，主题为“使徒的委任”，基督赐予使徒语言能力，拱门饰有黄道十二宫和每月劳作。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "罗马式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "9af8e6c4-bdb4-49e0-b89f-66a6b5b0ab38",
+    "periodId": "p_roman_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "建造穆瓦萨克圣皮埃尔修道院南大门门楣中心",
+    "titleCn": "建造穆瓦萨克圣皮埃尔修道院南大门门楣中心",
+    "date": {
+      "year": 1125,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1125年，法国穆瓦萨克圣皮埃尔修道院建造了南大门，其门楣中心表现“启示录显圣”主题，基督坐在宝座上，周围有二十四位长老和四活物，门隔柱上有先知耶利米塑像。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "罗马式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "34779d66-adaa-492b-8613-601f822cea4f",
+    "periodId": "p_roman_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "建造圣德尼修道院西墙正面",
+    "titleCn": "建造圣德尼修道院西墙正面",
+    "date": {
+      "year": 1137
+    },
+    "descriptionCn": "1137年至1140年，法国巴黎北部的圣德尼修道院建造了西墙正面，包括三个门、双塔和圆花窗，是新哥特式风格的早期代表。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "67eb3e65-5b71-4dfd-8257-35d911508964",
+    "periodId": "p_roman_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "修建丰特内修道院教堂",
+    "titleCn": "修建丰特内修道院教堂",
+    "date": {
+      "year": 1139
+    },
+    "descriptionCn": "1139年至1147年，法国勃艮第修建了丰特内修道院教堂，属于西多会建筑风格，简朴无装饰，采用带横拱的筒形拱顶。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "罗马式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "1fca7425-b886-4e50-9998-98c7933634a8",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "制作康克斯圣福瓦教堂门楣中心“末日审判”",
+    "titleCn": "制作康克斯圣福瓦教堂门楣中心“末日审判”",
+    "date": {
+      "year": 1140,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1140年，康克斯圣福瓦教堂西外墙正面的门楣中心制作了“末日审判”浮雕，描绘基督审判灵魂的场景，保留有彩绘痕迹。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "罗马式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "f5b19df5-befd-46d2-9067-0f53ff319c44",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "圣德尼修道院前廊落成",
+    "titleCn": "圣德尼修道院前廊落成",
+    "date": {
+      "year": 1140
+    },
+    "descriptionCn": "1140年，圣德尼修道院院长苏热尔主持建造的前廊和正门落成，采用尖形拱门和肋架拱顶，标志着哥特式建筑的诞生。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "480bf3c0-5965-4233-9bdf-5edf1b51f9d6",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "完成康克斯圣福瓦教堂",
+    "titleCn": "完成康克斯圣福瓦教堂",
+    "date": {
+      "year": 1140
+    },
+    "descriptionCn": "1140年，位于法国中部康克斯的圣福瓦教堂完工，该教堂是“朝圣路”类型，用蜜黄色石头建造。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "罗马式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "ed81987b-c5ed-4de3-b551-e86185ff69eb",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "建造圣德尼教堂回廊",
+    "titleCn": "建造圣德尼教堂回廊",
+    "date": {
+      "year": 1140
+    },
+    "descriptionCn": "1140年至1144年，圣德尼修道院教堂建造了回廊，采用肋架拱顶覆盖梯形和五边形平面，七个礼拜堂向外辐射。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "fe4eb96e-2f34-4ece-8318-65a68c294186",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "沙特尔大教堂国王门建造",
+    "titleCn": "沙特尔大教堂国王门建造",
+    "date": {
+      "year": 1145,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1145年至1155年，沙特尔大教堂西外墙正面建造了国王门。国王门有三个入口，每个入口上方有带雕塑的门楣中心，周围是带雕塑的拱门饰。门道两侧立着细长的塑像柱，柱上雕刻着《旧约》中的国王与王后。三个门楣中心分别描述基督生命的三个阶段：右边是出生，左边是复活升天，中间是基督坐在宝座上。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "早期哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "8a3ac8e4-4916-4d41-9044-fcdf2e2fda1f",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "拉昂圣母大教堂动工",
+    "titleCn": "拉昂圣母大教堂动工",
+    "date": {
+      "year": 1155,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1155年，拉昂圣母大教堂开始建造。教堂中殿和袖廊内部体现了法国哥特式建筑早期试验阶段，立面墙高四层，从地面到中殿拱顶距离22米。教堂内部高大、明亮、线条分明。西外墙正面约1200年建造，有三个门，中央门洞上方有圆花窗，两侧上方有双塔楼。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "早期哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "b1daf095-9d21-4549-82c1-57e68c46e2b4",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "巴黎圣母院动工",
+    "titleCn": "巴黎圣母院动工",
+    "date": {
+      "year": 1163,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1163年，巴黎圣母院开始建造。它是最大的哥特式大教堂之一，长150.20米，主拱顶高32.50米。约1175年引入扶壁拱技术，解决了推力问题，使建筑物可以使用大面积彩色玻璃。内部协调有度，西外墙在12世纪末设计。",
+    "importance": 1,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "跨时代里程碑：教材级，改变艺术史叙事或方法。"
+    }
+  },
+  {
+    "id": "81992f81-7e72-454e-ba78-99d22667da6a",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "始建比萨钟楼（斜塔）",
+    "titleCn": "始建比萨钟楼（斜塔）",
+    "date": {
+      "year": 1174
+    },
+    "descriptionCn": "1174年，意大利比萨开始建造钟楼（即斜塔），采用大理石圆柱连环拱装饰，后因地基下沉而倾斜。",
+    "importance": 4,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "罗马式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "a42fe5ba-08f8-4b36-91c9-c6c976c536e8",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_uk_nordic",
+    "titleEn": "坎特伯雷大教堂内殿重建动工",
+    "titleCn": "坎特伯雷大教堂内殿重建动工",
+    "date": {
+      "year": 1175
+    },
+    "descriptionCn": "1175年，坎特伯雷大教堂内殿在1174年大火后开始重建。由法国石匠师傅桑斯的威廉设计，后由英国人威廉接替。内殿设计为三层高，突出水平因素，使用珀贝克黑色大理石和浅色石灰石，较法国设计更有线条感和装饰性。",
+    "importance": 4,
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "英国早期哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "a9ea024e-aca3-49b8-afb2-cb074d12f852",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "凡尔登的尼古拉制作克洛斯特新堡圣坛",
+    "titleCn": "凡尔登的尼古拉制作克洛斯特新堡圣坛",
+    "date": {
+      "year": 1181
+    },
+    "descriptionCn": "1181年，凡尔登的尼古拉完成克洛斯特新堡修道院圣坛。圣坛由51块彩板珐琅组成，采用珐琅镶嵌法。彩板排列成三行，分别表现律前、律后和受神恩时代，采用类比预示。风格过渡，特征为衣服上飘动的平行皱褶和出色的人体解剖表现。",
+    "importance": 3,
+    "meta": {
+      "country": "奥地利",
+      "originalPeriod": "罗马式-哥特式过渡",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "8d89908b-fb97-44e8-8889-3b7bb32071a6",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "沙特尔大教堂火灾",
+    "titleCn": "沙特尔大教堂火灾",
+    "date": {
+      "year": 1194,
+      "month": 6,
+      "day": 10
+    },
+    "descriptionCn": "1194年6月10日晚，沙特尔大教堂发生大火，烧毁了大部分建筑，仅西部外墙幸免。这场火灾被视为重建更壮丽教堂的机会。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "6383842d-8570-400d-86aa-6ce85197a99a",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "沙特尔大教堂重建动工",
+    "titleCn": "沙特尔大教堂重建动工",
+    "date": {
+      "year": 1194,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1194年，沙特尔大教堂在火灾后开始重建。新教堂平面与朝圣路教堂相似，内室更大更复杂。内部立面三层，天窗高起，彩色玻璃以深蓝和亮红为主，和谐神秘。外部扶壁拱厚重，袖廊外墙面有丰富雕塑。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "64ab0b8d-5031-4ef1-a8b5-d51716bbca69",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "布尔日圣艾蒂安大教堂开始建造",
+    "titleCn": "布尔日圣艾蒂安大教堂开始建造",
+    "date": {
+      "year": 1195
+    },
+    "descriptionCn": "1195年，布尔日圣艾蒂安大教堂开始建造。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "54b52de2-dd39-4756-8118-3af93946a1da",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "英格堡诗篇制作",
+    "titleCn": "英格堡诗篇制作",
+    "date": {
+      "year": 1195,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1195年，英格堡诗篇在法国东北部制作。这是一部带插图的手抄本，正文前有一组整页插图。绘画风格与凡尔登的尼古拉相似，体现水槽形皱褶和对人体解剖的了解，使用金色和重色彩混合。",
+    "importance": 3,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "4b9226c8-1eca-4a00-b318-8a991d95e165",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "沙特尔大教堂袖廊外墙面雕刻",
+    "titleCn": "沙特尔大教堂袖廊外墙面雕刻",
+    "date": {
+      "year": 1200,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1200年至1220年，沙特尔大教堂袖廊外墙面进行雕刻。每面有三个门，侧柱雕像近似圆雕，形态生动，衣褶多变。北袖廊表现《旧约》人物，南袖廊中央门洞表现末日审判。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "盛期哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "1947b25e-2f7b-422d-85a7-3cfc4e84ea8a",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "兰斯大教堂动工",
+    "titleCn": "兰斯大教堂动工",
+    "date": {
+      "year": 1210,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1210年，兰斯圣母大教堂开始建造。室内部分在1210年以后动工，设计比例更规整，顶高37.9米。扶壁统一为圆柱体，柱头宽大叶状装饰。西外墙和谐规整，是法国国王加冕地。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "盛期哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "982c3040-fb5d-451d-8538-fae23241a650",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_uk_nordic",
+    "titleEn": "索尔兹伯里大教堂动工",
+    "titleCn": "索尔兹伯里大教堂动工",
+    "date": {
+      "year": 1220
+    },
+    "descriptionCn": "1220年，索尔兹伯里大教堂动工。",
+    "importance": 4,
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "早期英国哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "5fe8d615-b488-4b56-87fb-f9f936ac9abe",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "托莱多《圣经》插图绘制",
+    "titleCn": "托莱多《圣经》插图绘制",
+    "date": {
+      "year": 1226,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1226年至1234年，托莱多《圣经》插图绘制完成。",
+    "importance": 3,
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "哥特式",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "a23a979a-a05e-48cb-965d-c0478da9cd63",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "兰斯大教堂西外墙中央入口右手侧柱雕像“圣母领报”和“圣母访亲”雕刻",
+    "titleCn": "兰斯大教堂西外墙中央入口右手侧柱雕像“圣母领报”和“圣母访亲”雕刻",
+    "date": {
+      "year": 1230
+    },
+    "descriptionCn": "1230年至1250年，兰斯大教堂西外墙中央入口右手侧柱雕像“圣母领报”和“圣母访亲”被雕刻。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "盛期哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "5d72523a-85ad-4279-b0de-dea6838d777c",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "沙特尔大教堂南袖廊末日审判雕刻",
+    "titleCn": "沙特尔大教堂南袖廊末日审判雕刻",
+    "date": {
+      "year": 1230,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1230年至1250年，沙特尔大教堂南袖廊中央大门雕刻了末日审判场景。门楣中心为基督坐像，两侧有圣母和福音约翰。横梁和拱门饰表现死后情况，包括受祝福者和受诅咒者。门洞侧柱和门隔柱雕刻基督和门徒。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "盛期哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "0fb46c1d-6f96-4470-b5c5-745bded2b5c5",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "马尔堡圣伊丽莎白教堂建造",
+    "titleCn": "马尔堡圣伊丽莎白教堂建造",
+    "date": {
+      "year": 1235
+    },
+    "descriptionCn": "1235年至1283年，马尔堡圣伊丽莎白教堂建造。",
+    "importance": 4,
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "德国哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "28bdac2a-ad78-4348-ba94-7a97c3e205cb",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "三一学院《启示录》插图绘制",
+    "titleCn": "三一学院《启示录》插图绘制",
+    "date": {
+      "year": 1242,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1242年至1250年，三一学院《启示录》插图绘制完成。",
+    "importance": 3,
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "哥特式",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "185ae5b8-a875-4ce8-afc1-f2423bcb7162",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "巴黎圣礼拜堂建造",
+    "titleCn": "巴黎圣礼拜堂建造",
+    "date": {
+      "year": 1243
+    },
+    "descriptionCn": "1243年至1246年，巴黎圣礼拜堂建造。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "辐光式哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "87d0fbae-2a95-4554-95f6-859c1ee98903",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "佛罗伦萨圣十字教堂开始建造",
+    "titleCn": "佛罗伦萨圣十字教堂开始建造",
+    "date": {
+      "year": 1294
+    },
+    "descriptionCn": "1294年，佛罗伦萨圣十字教堂开始建造。",
+    "importance": 4,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "3d36f57e-9f03-49bc-a275-1e954fb9c17f",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "乔瓦尼·皮萨诺创作《圣母子》大理石雕像",
+    "titleCn": "乔瓦尼·皮萨诺创作《圣母子》大理石雕像",
+    "date": {
+      "year": 1305,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1305年至1306年，乔瓦尼·皮萨诺创作《圣母子》大理石雕像，现藏于帕多瓦阿雷纳礼拜堂。",
+    "importance": 4,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "d21d1b4d-a335-45ea-809a-f178f7232065",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "让·皮塞勒为埃夫勒的让娜绘制祈祷书插图",
+    "titleCn": "让·皮塞勒为埃夫勒的让娜绘制祈祷书插图",
+    "date": {
+      "year": 1325
+    },
+    "descriptionCn": "1325年至1328年，让·皮塞勒为埃夫勒的让娜王后绘制祈祷书插图，使用灰彩法。",
+    "importance": 3,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "868850c8-215a-4ee7-ab4e-c1908eda7859",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_uk_nordic",
+    "titleEn": "格洛斯特大教堂内殿建造",
+    "titleCn": "格洛斯特大教堂内殿建造",
+    "date": {
+      "year": 1337,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1337年至约1355年，格洛斯特大教堂内殿建造。",
+    "importance": 4,
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "垂直式哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "1019c4b7-f2a9-4fe7-b3e4-8601d7d8a808",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "埃夫勒的让娜圣母像制作",
+    "titleCn": "埃夫勒的让娜圣母像制作",
+    "date": {
+      "year": 1339
+    },
+    "descriptionCn": "1339年，埃夫勒的让娜圣母像制作完成，为镀银凸纹作品，现藏于巴黎卢浮宫。",
+    "importance": 3,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "9a0daa6b-bc1c-4e94-ac78-d72b224879bb",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "布拉格圣维塔斯大教堂内室建造",
+    "titleCn": "布拉格圣维塔斯大教堂内室建造",
+    "date": {
+      "year": 1344
+    },
+    "descriptionCn": "1344年，布拉格圣维塔斯大教堂内室建造。",
+    "importance": 4,
+    "meta": {
+      "country": "捷克",
+      "originalPeriod": "哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "7bfe2f39-8f4c-4694-8ca6-b29a1f7f1743",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_uk_nordic",
+    "titleEn": "格洛斯特大教堂回廊南过道建造",
+    "titleCn": "格洛斯特大教堂回廊南过道建造",
+    "date": {
+      "year": 1351
+    },
+    "descriptionCn": "1351年至1377年，格洛斯特大教堂回廊南过道建造。",
+    "importance": 4,
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "垂直式哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "81c0d59f-fdf7-4da5-b853-70ecc2b5b82a",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "加冕礼师傅为《淑女传》绘制插图",
+    "titleCn": "加冕礼师傅为《淑女传》绘制插图",
+    "date": {
+      "year": 1403,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1403年以前，加冕礼师傅为《淑女传》法文译本绘制插图，该译本于1403年作为新年礼物赠送。",
+    "importance": 2,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式",
+      "eventCategory": "text_historiography",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "d12d0be3-91e7-43ef-a4db-256e2657f1cd",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "威尼斯黄金府邸建造",
+    "titleCn": "威尼斯黄金府邸建造",
+    "date": {
+      "year": 1422
+    },
+    "descriptionCn": "1422年至1440年，威尼斯黄金府邸建造。",
+    "importance": 4,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "69702481-c84c-45a5-9149-7b27fd56ad43",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "切尼诺·切尼尼完成《艺人手册》",
+    "titleCn": "切尼诺·切尼尼完成《艺人手册》",
+    "date": {
+      "year": 1437
+    },
+    "descriptionCn": "1437年，早期文艺复兴艺术家切尼诺·切尼尼完成了他的著作《艺人手册》，其中对蛋彩画技法进行了极为细致的描述。该书后来成为研究蛋彩画技法的重要文献。",
+    "importance": 2,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "eventCategory": "text_historiography",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "e320fc1e-eb72-45b4-9a69-065a72df68dd",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_europe_continent",
+    "titleEn": "布尔日雅克·克尔宅建造",
+    "titleCn": "布尔日雅克·克尔宅建造",
+    "date": {
+      "year": 1443
+    },
+    "descriptionCn": "1443年至1451年，布尔日雅克·克尔宅建造。",
+    "importance": 4,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "adc2623a-fb17-4c08-a475-e1f9a28c4624",
+    "periodId": "p_gothic_late_medieval",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "剑桥大学国王学院礼拜堂建造",
+    "titleCn": "剑桥大学国王学院礼拜堂建造",
+    "date": {
+      "year": 1446
+    },
+    "descriptionCn": "1446年至1515年，剑桥大学国王学院礼拜堂建造。",
+    "importance": 4,
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "垂直式哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "df3f7f5a-0872-40d6-9d45-510af303f5da",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "老普林尼《自然史》被译为意大利文",
+    "titleCn": "老普林尼《自然史》被译为意大利文",
+    "date": {
+      "year": 1476
+    },
+    "descriptionCn": "1476年，老普林尼的《自然史》被翻译成意大利文，从而得以更广泛地流传，对艺术史写作和艺术发展产生了重要影响。",
+    "importance": 2,
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "未分期",
+      "eventCategory": "text_historiography",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "b5f194ed-6f10-46f0-bb0e-c966a773c827",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_europe_continent",
+    "titleEn": "布尔戈斯城主礼拜堂建造",
+    "titleCn": "布尔戈斯城主礼拜堂建造",
+    "date": {
+      "year": 1482
+    },
+    "descriptionCn": "1482年至1494年，布尔戈斯城主礼拜堂建造。",
+    "importance": 4,
+    "meta": {
+      "country": "西班牙",
+      "originalPeriod": "火焰式哥特式",
+      "eventCategory": "architecture",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "99f244e6-394c-4862-afde-0cfb7479910b",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "列奥纳多·达·芬奇撰写《论绘画》",
+    "titleCn": "列奥纳多·达·芬奇撰写《论绘画》",
+    "date": {
+      "year": 1490
+    },
+    "descriptionCn": "1490年-1495年，列奥纳多·达·芬奇撰写了《论绘画》。",
+    "importance": 2,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "eventCategory": "text_historiography",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "9c947522-320e-4ce0-b2f3-1ff8e3b99bf4",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "《被囚禁的独角兽》挂毯制作完成",
+    "titleCn": "《被囚禁的独角兽》挂毯制作完成",
+    "date": {
+      "year": 1500,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1500年，佛兰德斯地区（推测）的艺术家创作了《被囚禁的独角兽》挂毯，该挂毯为后期哥特式艺术，共有七幅系列，此为最后一幅。挂毯以独角兽为题材，采用羊毛和丝绸材质，制作精细，每英寸需13至21根纬线。",
+    "importance": 3,
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "后期哥特式",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "e5dc13ca-ad5d-48e5-a2a9-9c8fc76c0c9b",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_europe_continent",
+    "titleEn": "列奥纳多·达·芬奇绘制《圣母子、圣安妮和施洗者约翰》素描",
+    "titleCn": "列奥纳多·达·芬奇绘制《圣母子、圣安妮和施洗者约翰》素描",
+    "date": {
+      "year": 1500,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1500年，意大利艺术家列奥纳多·达·芬奇绘制了素描《圣母子、圣安妮和施洗者约翰》。",
+    "importance": 3,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "40d007ae-f119-454e-abde-9ff21e16e948",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_europe_continent",
+    "titleEn": "米开朗琪罗创作大卫像",
+    "titleCn": "米开朗琪罗创作大卫像",
+    "date": {
+      "year": 1501
+    },
+    "descriptionCn": "1501年至1504年，米开朗琪罗创作了大理石雕大卫像，该雕像震撼了16世纪早期的意大利。",
+    "importance": 3,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "d04c2853-c8a9-4728-b283-0adc40d8dd70",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "教皇尤里乌斯二世建设贝尔维迪宫",
+    "titleCn": "教皇尤里乌斯二世建设贝尔维迪宫",
+    "date": {
+      "year": 1503
+    },
+    "descriptionCn": "1503年，教皇尤里乌斯二世在罗马建设贝尔维迪宫，该宫殿后来成为庇护-克莱门蒂诺博物馆的一部分，是首件陈列于此的教皇古代雕塑藏品。",
+    "importance": 4,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "eventCategory": "other",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "74bc4e28-c42d-4bf2-a4e3-8361d393fe8f",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_europe_continent",
+    "titleEn": "列奥纳多·达·芬奇开始绘制油画《圣母子、圣安妮和施洗者约翰》",
+    "titleCn": "列奥纳多·达·芬奇开始绘制油画《圣母子、圣安妮和施洗者约翰》",
+    "date": {
+      "year": 1508,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "约1508年，列奥纳多·达·芬奇开始绘制油画《圣母子、圣安妮和施洗者约翰》。",
+    "importance": 3,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "8729a97c-c621-4349-ac22-3fa7813ab187",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "拉斐尔开始绘制《雅典学院》",
+    "titleCn": "拉斐尔开始绘制《雅典学院》",
+    "date": {
+      "year": 1509,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "大约从1509年开始，拉斐尔及其学徒在罗马梵蒂冈宫的签字厅开始绘制湿壁画《雅典学院》。",
+    "importance": 1,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "未分期",
+      "eventCategory": "artwork",
+      "importanceNote": "跨时代里程碑：教材级，改变艺术史叙事或方法。"
+    }
+  },
+  {
+    "id": "4241205e-f542-4ddc-9568-40c3e502b9aa",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "瓦萨里《名人传》第一版出版",
+    "titleCn": "瓦萨里《名人传》第一版出版",
+    "date": {
+      "year": 1550
+    },
+    "descriptionCn": "1550年，乔尔吉奥·瓦萨里的《名人传》第一版出版，旨在颂扬米开朗琪罗的天才，成为艺术史写作的典范。",
+    "importance": 2,
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "未分期",
+      "eventCategory": "text_historiography",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "0107b2f5-ca63-4974-89fb-09f21a337b95",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "本纽委托·切里尼撰写自传《自传》",
+    "titleCn": "本纽委托·切里尼撰写自传《自传》",
+    "date": {
+      "year": 1558
+    },
+    "descriptionCn": "1558年至1562年，意大利文艺复兴时期雕塑家本纽委托·切里尼撰写了《自传》，其中包含对青铜铸造技术的经典描述。",
+    "importance": 2,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴时期",
+      "eventCategory": "text_historiography",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "50ee94c7-b06f-43bd-b309-c4e1a33686e8",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "瓦萨里在佛罗伦萨建立第一所美术学院",
+    "titleCn": "瓦萨里在佛罗伦萨建立第一所美术学院",
+    "date": {
+      "year": 1563
+    },
+    "descriptionCn": "1563年，乔治·瓦萨里在佛罗伦萨建立了第一所美术学院，名誉院长为科西莫·德·美第奇大公和米开朗琪罗，旨在增进艺术家的社会地位并提供培训。",
+    "importance": 2,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴",
+      "eventCategory": "institution_exhibition",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "7de96284-cfb5-4934-a345-4e90ab78833d",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "瓦萨里《名人传》第二版出版",
+    "titleCn": "瓦萨里《名人传》第二版出版",
+    "date": {
+      "year": 1568
+    },
+    "descriptionCn": "1568年，乔尔吉奥·瓦萨里的《名人传》第二版出版，成为后世更为熟知的版本。",
+    "importance": 2,
+    "meta": {
+      "country": "未标注",
+      "originalPeriod": "未分期",
+      "eventCategory": "text_historiography",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "bc6f75f9-2717-4cb8-94fc-f5d6d7036c50",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "罗马建立圣路加美术学院",
+    "titleCn": "罗马建立圣路加美术学院",
+    "date": {
+      "year": 1593
+    },
+    "descriptionCn": "1593年，罗马建立了圣路加学院（美术学院），效仿佛罗伦萨的模式，为艺术家提供培训。",
+    "importance": 2,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴",
+      "eventCategory": "institution_exhibition",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "6596134a-0d04-4650-a52f-26273165c9fe",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "博洛尼亚美术学院成立",
+    "titleCn": "博洛尼亚美术学院成立",
+    "date": {
+      "year": 1598
+    },
+    "descriptionCn": "1598年，博洛尼亚美术学院成立，成为意大利又一家重要的艺术教育机构。",
+    "importance": 2,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "文艺复兴",
+      "eventCategory": "institution_exhibition",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "8c09818e-82e8-4508-885f-0bf5dcac1f92",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "法国建立皇家绘画和雕塑学院",
+    "titleCn": "法国建立皇家绘画和雕塑学院",
+    "date": {
+      "year": 1648
+    },
+    "descriptionCn": "1648年，法国建立了皇家绘画和雕塑学院，成为君主政体的宣传机器，提供培训并根据艺术家实践的艺术形式评定等级。",
+    "importance": 2,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "17世纪",
+      "eventCategory": "institution_exhibition",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "f44cf82b-db6e-411a-8912-2a57659dcc84",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_europe_continent",
+    "titleEn": "维米尔绘制《倒牛奶的女仆》",
+    "titleCn": "维米尔绘制《倒牛奶的女仆》",
+    "date": {
+      "year": 1658,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1658年-1660年间，荷兰画家约翰内斯·维米尔绘制了油画《倒牛奶的女仆》。",
+    "importance": 3,
+    "meta": {
+      "country": "荷兰",
+      "originalPeriod": "荷兰黄金时代",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "9ce93a46-c0ff-4bed-8e7a-57e4779793f6",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "法国绘画和雕塑学院在罗马成立",
+    "titleCn": "法国绘画和雕塑学院在罗马成立",
+    "date": {
+      "year": 1666
+    },
+    "descriptionCn": "1666年，法国在罗马成立了法国绘画和雕塑学院，为法国艺术家直接学习古代及文艺复兴时期的重要作品提供了便利。",
+    "importance": 2,
+    "meta": {
+      "country": "意大利",
+      "originalPeriod": "17世纪",
+      "eventCategory": "institution_exhibition",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "dfca4dc9-824f-4502-9041-8e410b1ec999",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "温克尔曼出版《对希腊绘画和雕塑的模仿》",
+    "titleCn": "温克尔曼出版《对希腊绘画和雕塑的模仿》",
+    "date": {
+      "year": 1755,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1755年，约翰·约齐姆·温克尔曼出版了《对希腊绘画和雕塑的模仿》，提出通过模仿古代艺术实现现代艺术的伟大。",
+    "importance": 2,
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "eventCategory": "text_historiography",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "4a162c70-ed09-4a0c-9d60-19aa8cb4489e",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_uk_nordic",
+    "titleEn": "约书亚·雷诺兹创作肖像《装扮许门像的三女士》",
+    "titleCn": "约书亚·雷诺兹创作肖像《装扮许门像的三女士》",
+    "date": {
+      "year": 1773,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1773年，约书亚·雷诺兹为蒙哥马利姐妹创作了肖像画《装扮许门像的三女士》，该画融合了肖像画与历史画的特点，借用了古典主题，展现了女性美德的拟人形象。",
+    "importance": 3,
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "1686ac19-fdc4-41f4-84bf-1144cdec0ebc",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "雷诺兹肖像《装扮许门像的三女士》在皇家美术学院展出",
+    "titleCn": "雷诺兹肖像《装扮许门像的三女士》在皇家美术学院展出",
+    "date": {
+      "year": 1774,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1774年，约书亚·雷诺兹的肖像画《装扮许门像的三女士》在伦敦皇家美术学院展出，该展览是艺术家向同行和潜在赞助人展示作品的重要渠道。",
+    "importance": 2,
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "18世纪",
+      "eventCategory": "institution_exhibition",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "4802ca73-805c-44e7-9146-d6e4f70693d1",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_china_artifacts",
+    "titleEn": "乾隆帝在玉圭上题字并添加铭文",
+    "titleCn": "乾隆帝在玉圭上题字并添加铭文",
+    "date": {
+      "year": 1786
+    },
+    "descriptionCn": "1786年，乾隆皇帝在玉圭上题字并添加铭文，将其归入古代藏品，并赋予鹰和熊的象征意义。",
+    "importance": 4,
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "清",
+      "eventCategory": "other",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "99038fdc-f277-49db-8e02-d123f8cdf94d",
+    "periodId": "p_renaissance_academy",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "法国卢浮宫向公众开放（成立）",
+    "titleCn": "法国卢浮宫向公众开放（成立）",
+    "date": {
+      "year": 1793
+    },
+    "descriptionCn": "1793年，巴黎卢浮宫作为现代意义上的第一批公共博物馆向公众开放，象征着自由、平等、博爱的革命理想，王室收藏的艺术宝藏得以公开展示。",
+    "importance": 1,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "法国大革命时期",
+      "eventCategory": "institution_exhibition",
+      "importanceNote": "跨时代里程碑：教材级，改变艺术史叙事或方法。"
+    }
+  },
+  {
+    "id": "b574b37f-cffc-44d9-9fd3-5c82081f01ab",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "关乔昌作品参加纽约展览",
+    "titleCn": "关乔昌作品参加纽约展览",
+    "date": {
+      "year": 1841,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1841年，关乔昌作品参加纽约展览。",
+    "importance": 3,
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "清",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "e38bfcb8-6ed2-4134-b4f3-1b8b515172c9",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "维多利亚与艾伯特博物馆成立",
+    "titleCn": "维多利亚与艾伯特博物馆成立",
+    "date": {
+      "year": 1857
+    },
+    "descriptionCn": "1857年，维多利亚与艾伯特博物馆在伦敦成立，其馆藏涵盖从手工制品到批量生产的各类艺术品，旨在为公众确立品位的合适标准。",
+    "importance": 2,
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "维多利亚时代",
+      "eventCategory": "institution_exhibition",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "69e78cbc-5037-4d8d-8720-c32e6996529a",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "布克哈特出版《文艺复兴时期的意大利文化》",
+    "titleCn": "布克哈特出版《文艺复兴时期的意大利文化》",
+    "date": {
+      "year": 1860
+    },
+    "descriptionCn": "1860年，雅各布·布克哈特的《文艺复兴时期的意大利文化》首次在德国出版，将意大利文艺复兴艺术置于文化背景中，对后世影响深远。",
+    "importance": 2,
+    "meta": {
+      "country": "德国",
+      "originalPeriod": "未分期",
+      "eventCategory": "text_historiography",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "e71e4b5e-b504-44f2-995a-f52030b61f73",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_uk_nordic",
+    "titleEn": "克里斯蒂安娜·J. 海林汉姆将《艺人手册》译成英文",
+    "titleCn": "克里斯蒂安娜·J. 海林汉姆将《艺人手册》译成英文",
+    "date": {
+      "year": 1899
+    },
+    "descriptionCn": "1899年，克里斯蒂安娜·J. 海林汉姆将切尼诺·切尼尼的《艺人手册》译成英文，此举重新引发了人们对蛋彩画技法的兴趣。",
+    "importance": 2,
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "维多利亚时代",
+      "eventCategory": "text_historiography",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "8aecf007-0985-4b20-ba52-f6e1d5529fb9",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_europe_continent",
+    "titleEn": "毕加索创作《阿维尼翁少女》",
+    "titleCn": "毕加索创作《阿维尼翁少女》",
+    "date": {
+      "year": 1907
+    },
+    "descriptionCn": "1907年，巴勃罗·毕加索创作了《阿维尼翁少女》，该画作被视为现代艺术的开端，画中少女的面部被描绘得像非洲面具一般，体现了原始主义的影响。",
+    "importance": 1,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "现代主义时期",
+      "eventCategory": "artwork",
+      "importanceNote": "跨时代里程碑：教材级，改变艺术史叙事或方法。"
+    }
+  },
+  {
+    "id": "57bd52ff-b092-43ce-bab2-b6c7ccdbaf70",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "罗杰·弗莱策划展览“马奈和后印象主义画家们”",
+    "titleCn": "罗杰·弗莱策划展览“马奈和后印象主义画家们”",
+    "date": {
+      "year": 1910
+    },
+    "descriptionCn": "1910年至1911年，罗杰·弗莱在伦敦策划了展览“马奈和后印象主义画家们”，展出了凡·高、高更和塞尚等艺术家的作品，并为后印象主义命名，引发了广泛争议。",
+    "importance": 2,
+    "meta": {
+      "country": "英国",
+      "originalPeriod": "20世纪",
+      "eventCategory": "institution_exhibition",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "cc8b541c-0a96-4318-9eb2-fd08c2bcc024",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_europe_continent",
+    "titleEn": "毕加索创作立体主义拼贴《吉他》",
+    "titleCn": "毕加索创作立体主义拼贴《吉他》",
+    "date": {
+      "year": 1913
+    },
+    "descriptionCn": "1913年，毕加索创作了立体主义拼贴作品《吉他》，作品通过抽象图形探索新的视觉表达方式。",
+    "importance": 3,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "未分期",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "cdac9c04-1813-4eaa-92de-d8ede6bee577",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_us_modern",
+    "titleEn": "曼·雷拍摄《安格尔的小提琴》",
+    "titleCn": "曼·雷拍摄《安格尔的小提琴》",
+    "date": {
+      "year": 1924
+    },
+    "descriptionCn": "1924年，美国艺术家曼·雷拍摄了摄影作品《安格尔的小提琴》。",
+    "importance": 3,
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "20世纪",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "e00fb685-3008-4933-9c62-dad9cad0312b",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_china_artifacts",
+    "titleEn": "国民政府出资开始发掘安阳殷墟",
+    "titleCn": "国民政府出资开始发掘安阳殷墟",
+    "date": {
+      "year": 1928
+    },
+    "descriptionCn": "1928年，国民政府出资，由中国第一代专业考古学家开始对安阳殷墟进行考古发掘。",
+    "importance": 2,
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "中华民国",
+      "eventCategory": "archaeology",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "d75976f1-12ff-40f5-a8d3-0c99e7ce9456",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_us_modern",
+    "titleEn": "美国启动联邦艺术计划（1935-1943）",
+    "titleCn": "美国启动联邦艺术计划（1935-1943）",
+    "date": {
+      "year": 1935
+    },
+    "descriptionCn": "1935年，美国启动联邦艺术计划（1935-1943），作为罗斯福新政的一部分，旨在应对大萧条，通过公共艺术服务为艺术家提供经验并提升其社会地位。",
+    "importance": 4,
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "20世纪",
+      "eventCategory": "other",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "dc5dce3b-3bbe-446a-8f40-7139ab70e795",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "华盛顿国家博物馆落成",
+    "titleCn": "华盛顿国家博物馆落成",
+    "date": {
+      "year": 1937
+    },
+    "descriptionCn": "1937年，华盛顿国家博物馆落成，最初由安德鲁·梅隆以个人之资建立，旨在为美国首都提供一座国家美术馆。",
+    "importance": 2,
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "20世纪",
+      "eventCategory": "institution_exhibition",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "63fdde8e-0f6f-43ea-962a-785b9f18c325",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "小约翰·D.洛克菲勒捐赠《被囚禁的独角兽》挂毯给纽约大都会艺术博物馆",
+    "titleCn": "小约翰·D.洛克菲勒捐赠《被囚禁的独角兽》挂毯给纽约大都会艺术博物馆",
+    "date": {
+      "year": 1937,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1937年，小约翰·D.洛克菲勒将《被囚禁的独角兽》挂毯捐赠给纽约大都会艺术博物馆，该挂毯随后收藏于博物馆的修道院分馆。",
+    "importance": 3,
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "未分期",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "ee91e2e4-3240-48ad-95c4-4a7ef0e78f66",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_us_modern",
+    "titleEn": "杰克逊·波洛克创作滴洒绘画《回声》（第25号）",
+    "titleCn": "杰克逊·波洛克创作滴洒绘画《回声》（第25号）",
+    "date": {
+      "year": 1951
+    },
+    "descriptionCn": "1951年，杰克逊·波洛克创作了滴洒绘画《回声》（第25号），该作品是其抽象表现主义风格的典型代表，采用滴洒技法，画布平铺于地面，通过手臂挥洒颜料形成图形。",
+    "importance": 3,
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "抽象表现主义",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "03ed69f4-3067-4803-a5f3-99c2ff27e25f",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "弗兰克·劳埃德·赖特设计纽约古根海姆博物馆",
+    "titleCn": "弗兰克·劳埃德·赖特设计纽约古根海姆博物馆",
+    "date": {
+      "year": 1960,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1960年，弗兰克·劳埃德·赖特设计了纽约古根海姆博物馆，其白色螺旋形建筑风格独特，成为现代建筑的代表。",
+    "importance": 4,
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "现代主义建筑",
+      "eventCategory": "other",
+      "importanceNote": "补充事件：信息价值高但影响范围有限。"
+    }
+  },
+  {
+    "id": "0ef22254-5347-474d-80c7-0966e67e8f9f",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_us_modern",
+    "titleEn": "安迪·沃霍尔创作《玛丽莲·梦露》",
+    "titleCn": "安迪·沃霍尔创作《玛丽莲·梦露》",
+    "date": {
+      "year": 1962
+    },
+    "descriptionCn": "1962年，美国波普艺术家安迪·沃霍尔创作了玛丽莲·梦露的肖像《玛丽莲·梦露》。",
+    "importance": 3,
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "20世纪",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "6d3ac2d0-06c5-4de1-80e8-b1456f16b39e",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_us_modern",
+    "titleEn": "卡尔·安德烈在洛杉矶道恩美术馆创作混凝土块雕塑",
+    "titleCn": "卡尔·安德烈在洛杉矶道恩美术馆创作混凝土块雕塑",
+    "date": {
+      "year": 1967
+    },
+    "descriptionCn": "1967年，卡尔·安德烈在洛杉矶道恩美术馆创作了一件雕塑，他用混凝土块覆盖美术馆地面，然后抽去部分方块，形成负像形状，探索了雕塑与空间的关系。",
+    "importance": 3,
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "极简主义",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "905cc596-6f61-4588-9275-22457b789847",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "诺克林撰写论文《为什么没有伟大的女性艺术家？》",
+    "titleCn": "诺克林撰写论文《为什么没有伟大的女性艺术家？》",
+    "date": {
+      "year": 1971
+    },
+    "descriptionCn": "1971年，林达·诺克林撰写了论文《为什么没有伟大的女性艺术家？》，该文成为女性主义艺术史的标准文献，质疑了艺术天才的性别化假设。",
+    "importance": 2,
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "未分期",
+      "eventCategory": "text_historiography",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "5b95b275-efca-444e-9074-12d428df9725",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_us_modern",
+    "titleEn": "卡尔·安德烈创作系列雕塑《等介物I-VIII》",
+    "titleCn": "卡尔·安德烈创作系列雕塑《等介物I-VIII》",
+    "date": {
+      "year": 1976
+    },
+    "descriptionCn": "1976年，卡尔·安德烈创作了系列雕塑《等介物I-VIII》，使用耐火砖制成八件形状相同的作品，挑战了传统雕塑对垂直和具象的期望。",
+    "importance": 3,
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "极简主义",
+      "eventCategory": "artwork",
+      "importanceNote": "标准事件：主题内重要但非拐点。"
+    }
+  },
+  {
+    "id": "75dc7f43-4cc7-4d81-89ff-abe910f33e02",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_china_artifacts",
+    "titleEn": "商代妇好墓被发现",
+    "titleCn": "商代妇好墓被发现",
+    "date": {
+      "year": 1976
+    },
+    "descriptionCn": "1976年，商代王室贵妇妇好（武丁妻子）的墓室在河南安阳被发现，墓室保存完好，出土了大量青铜器、玉器、象牙器等珍贵文物。",
+    "importance": 1,
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "20世纪",
+      "eventCategory": "archaeology",
+      "importanceNote": "跨时代里程碑：教材级，改变艺术史叙事或方法。"
+    }
+  },
+  {
+    "id": "2febed01-d8b7-409c-bbad-d9c2a9c995c7",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_china_artifacts",
+    "titleEn": "陕西扶风庄白发现青铜器窖藏",
+    "titleCn": "陕西扶风庄白发现青铜器窖藏",
+    "date": {
+      "year": 1976,
+      "accuracy": "approximate"
+    },
+    "descriptionCn": "1976年，陕西扶风庄白发现一处青铜器窖藏，内含103件青铜器，属微史家族祖辛，埋藏于约公元前900-前800年。",
+    "importance": 2,
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "20世纪",
+      "eventCategory": "archaeology",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "175baac6-2a6b-4f55-a738-dfb881b0bd9c",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_china_artifacts",
+    "titleEn": "曾侯乙墓被发掘",
+    "titleCn": "曾侯乙墓被发掘",
+    "date": {
+      "year": 1978
+    },
+    "descriptionCn": "1978年，曾侯乙墓在湖北随州被发掘，出土了大量青铜器、漆器、金器、玉器等珍贵文物，包括著名的青铜编钟。",
+    "importance": 1,
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "20世纪",
+      "eventCategory": "archaeology",
+      "importanceNote": "跨时代里程碑：教材级，改变艺术史叙事或方法。"
+    }
+  },
+  {
+    "id": "85743e3a-a423-4d81-9c2f-a0715bed1479",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "雅克·德里达出版《绘画中的真理》",
+    "titleCn": "雅克·德里达出版《绘画中的真理》",
+    "date": {
+      "year": 1978
+    },
+    "descriptionCn": "1978年，法国哲学家雅克·德里达出版了其第一部关于视觉艺术的著作《绘画中的真理》。",
+    "importance": 2,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "20世纪",
+      "eventCategory": "text_historiography",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "b58f899b-d14f-41c7-9ca0-07fda6fc6a1b",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "朱迪·芝加哥《晚宴》首次展出",
+    "titleCn": "朱迪·芝加哥《晚宴》首次展出",
+    "date": {
+      "year": 1979
+    },
+    "descriptionCn": "1979年，朱迪·芝加哥的装置作品《晚宴》首次在旧金山现代艺术博物馆展出，作品以女性历史为主题，引发广泛讨论。",
+    "importance": 2,
+    "meta": {
+      "country": "美国",
+      "originalPeriod": "未分期",
+      "eventCategory": "institution_exhibition",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "9d54647a-c949-48a0-99fa-6143fb0ff7e6",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_china_artifacts",
+    "titleEn": "三星堆祭祀坑被发现",
+    "titleCn": "三星堆祭祀坑被发现",
+    "date": {
+      "year": 1986
+    },
+    "descriptionCn": "1986年，四川广汉三星堆祭祀坑被发现，出土了大量青铜头像、青铜立人像、金器、玉器等，颠覆了对早期中国文化的认识。",
+    "importance": 1,
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "20世纪",
+      "eventCategory": "archaeology",
+      "importanceNote": "跨时代里程碑：教材级，改变艺术史叙事或方法。"
+    }
+  },
+  {
+    "id": "042da246-c16c-4555-b005-9f35c1518348",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "巴黎奥赛博物馆落成开馆",
+    "titleCn": "巴黎奥赛博物馆落成开馆",
+    "date": {
+      "year": 1986
+    },
+    "descriptionCn": "1986年，巴黎奥赛博物馆落成开馆，该博物馆由19世纪的一座火车站改建而成，采用历史性陈列方式，展出19世纪中期至后印象主义的法国艺术。",
+    "importance": 2,
+    "meta": {
+      "country": "法国",
+      "originalPeriod": "20世纪",
+      "eventCategory": "institution_exhibition",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  },
+  {
+    "id": "3088ae7e-9764-4c13-a78d-ab7fe9f38fcb",
+    "periodId": "p_modern_contemporary",
+    "streamId": "s_institutions_historiography",
+    "titleEn": "译林出版社出版《中世纪艺术》中文版",
+    "titleCn": "译林出版社出版《中世纪艺术》中文版",
+    "date": {
+      "year": 2009,
+      "month": 1
+    },
+    "descriptionCn": "2009年1月，译林出版社出版《中世纪艺术》中文版，由安妮·谢弗-克兰德尔著，钱乘旦译。",
+    "importance": 2,
+    "meta": {
+      "country": "中国",
+      "originalPeriod": "当代",
+      "eventCategory": "text_historiography",
+      "importanceNote": "高影响节点：区域关键转折，长期影响明显。"
+    }
+  }
+]
