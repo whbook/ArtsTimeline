@@ -1,0 +1,18 @@
+{
+  "Urls": "http://localhost:5287",
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=localhost;Port=5432;Database=timeline;Username=epochai;Password=CHANGE_ME"
+  },
+  "Jwt": {
+    "Secret": "CHANGE_ME_TO_RANDOM_32+_CHARS",
+    "Issuer": "timeline-api",
+    "Audience": "timeline-admin",
+    "ExpiryHours": 24
+  },
+  "ArtsTimeline": {
+    "DataRoot": "D:\\WebProjects\\Timeline\\public\\data"
+  },
+  "Cors": {
+    "AdminOrigins": [ "https://timeline-admin.longmaiyun.cn" ]
+  }
+}

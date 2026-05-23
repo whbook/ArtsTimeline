@@ -16,10 +16,11 @@ export interface FieldDef {
 
 export interface Topic extends TopicEntry {
   description?: string;
-  defaultViewport: { startYear: number; endYear: number };
+  defaultViewport?: { startYear: number; endYear: number };
   minZoomRange?: number; // Minimum years visible in viewport (e.g. 0.08 for 1 month)
   maxZoomRange?: number; // Maximum years visible in viewport
   playbackSpeed?: number; // Multiplier for auto-play speed / 自动播放速度倍率
+  initialZoom?: number; // Initial zoom factor / 初始放大倍数
   eventFields: FieldDef[];
   chunked?: boolean;
 }

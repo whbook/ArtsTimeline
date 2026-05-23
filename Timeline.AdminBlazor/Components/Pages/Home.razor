@@ -1,0 +1,79 @@
+﻿@page "/"
+@attribute [Authorize]
+@inject AdminApiClient Api
+@inject AuthService AuthService
+
+<h2 class="page-title">仪表盘</h2>
+
+@if (_summary is null)
+{
+    <p>加载中...</p>
+}
+else
+{
+    <div class="stat-cards">
+        <div class="stat-card">
+            <div class="stat-label">客户单位</div>
+            <div class="stat-value">@_summary.OrganizationTotal</div>
+            <div class="stat-sub">启用 @_summary.OrganizationActive</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">展厅设备</div>
+            <div class="stat-value">@_summary.DeviceTotal</div>
+            <div class="stat-sub">正式 @_summary.DeviceFormal · 试用 @_summary.DeviceTrial</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">展览主题</div>
+            <div class="stat-value">@_summary.ExhibitionTotal</div>
+            <div class="stat-sub">已发布 @_summary.ExhibitionPublished</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">近7日操作</div>
+            <div class="stat-value">@_summary.AuditLogsLast7Days</div>
+        </div>
+    </div>
+
+    <div class="dashboard-charts">
+        <div class="chart-panel">
+            <h3>设备授权到期分布</h3>
+            <SfChart Height="280px">
+                <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category" />
+                <ChartSeriesCollection>
+                    <ChartSeries DataSource="@_expiryData" XName="Label" YName="Value" Type="ChartSeriesType.Column" />
+                </ChartSeriesCollection>
+            </SfChart>
+        </div>
+        <div class="chart-panel">
+            <h3>单位设备 Top 5</h3>
+            <SfChart Height="280px">
+                <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category" />
+                <ChartSeriesCollection>
+                    <ChartSeries DataSource="@_summary.TopOrganizations" XName="OrganizationName" YName="DeviceCount" Type="ChartSeriesType.Column" />
+                </ChartSeriesCollection>
+            </SfChart>
+        </div>
+    </div>
+}
+
+@code {
+    private DashboardSummary? _summary;
+    private List<ExpiryItem> _expiryData = [];
+
+    protected override async Task OnInitializedAsync()
+    {
+        await AuthService.InitializeAsync();
+        _summary = await Api.GetDashboardAsync();
+        if (_summary is not null)
+        {
+            _expiryData =
+            [
+                new("已过期", _summary.DeviceExpired),
+                new("7天内到期", _summary.DeviceExpiring7Days),
+                new("30天内到期", _summary.DeviceExpiring30Days),
+                new("正常", _summary.DeviceHealthy)
+            ];
+        }
+    }
+
+    private record ExpiryItem(string Label, int Value);
+}

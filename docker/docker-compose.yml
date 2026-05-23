@@ -1,0 +1,24 @@
+name: timeline
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: timeline-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-timeline}
+      POSTGRES_USER: ${POSTGRES_USER:-epochai}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD must be set}
+    ports:
+      - "15434:5432"
+    volumes:
+      - timeline_postgres_data:/var/lib/postgresql/data
+      - ../database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-epochai} -d ${POSTGRES_DB:-timeline}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  timeline_postgres_data:

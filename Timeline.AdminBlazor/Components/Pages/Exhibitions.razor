@@ -1,0 +1,209 @@
+@page "/exhibitions"
+@attribute [Authorize]
+@inject AdminApiClient Api
+@inject AuthService AuthService
+@inject ToastService Toast
+
+<div class="page-header">
+    <h2>展览管理</h2>
+    <div class="page-header-right">
+        <AuthorizeView Roles="super_admin,admin">
+            <SfButton Content="从数据同步" CssClass="e-small e-outline" IconCss="e-icons e-refresh" @onclick="SyncFromData" Disabled="_syncing" />
+            <SfButton Content="新建展览" IsPrimary="true" CssClass="e-small" IconCss="e-icons e-plus" @onclick="CreateNew" />
+        </AuthorizeView>
+    </div>
+</div>
+
+@if (!string.IsNullOrEmpty(_syncHint))
+{
+    <p class="sync-hint">@_syncHint</p>
+}
+
+<SfGrid DataSource="@_items" AllowPaging="true" Height="calc(100vh - 220px)">
+    <GridPageSettings PageSize="20" />
+    <GridColumns>
+        <GridColumn Field="@nameof(ExhibitionListItem.SortOrder)" HeaderText="排序" Width="70" TextAlign="TextAlign.Center" />
+        <GridColumn HeaderText="主题色" Width="80">
+            <Template>
+                @{ var c = (ExhibitionListItem)context; }
+                <span class="color-swatch" style="background:@c.Color"></span>
+            </Template>
+        </GridColumn>
+        <GridColumn Field="@nameof(ExhibitionListItem.TitleCn)" HeaderText="中文名" Width="140" />
+        <GridColumn Field="@nameof(ExhibitionListItem.TitleEn)" HeaderText="英文名" Width="160" />
+        <GridColumn Field="@nameof(ExhibitionListItem.Slug)" HeaderText="Slug" Width="150" />
+        <GridColumn Field="@nameof(ExhibitionListItem.Description)" HeaderText="简介" Width="280" ClipMode="ClipMode.EllipsisWithTooltip" />
+        <GridColumn Field="@nameof(ExhibitionListItem.PlaybackSpeed)" HeaderText="播放倍速" Width="90" />
+        <GridColumn Field="@nameof(ExhibitionListItem.InitialZoom)" HeaderText="初始缩放" Width="90" />
+        <GridColumn Field="@nameof(ExhibitionListItem.Chunked)" HeaderText="分块" Width="70" DisplayAsCheckBox="true" />
+        <GridColumn Field="@nameof(ExhibitionListItem.IsPublished)" HeaderText="已发布" Width="80" DisplayAsCheckBox="true" />
+        <GridColumn HeaderText="操作" Width="100">
+            <Template>
+                @{ var row = (ExhibitionListItem)context; }
+                <SfButton Content="编辑" CssClass="e-small e-flat" @onclick="() => Edit(row.Id)" />
+            </Template>
+        </GridColumn>
+    </GridColumns>
+</SfGrid>
+
+@if (_showDialog)
+{
+    <SfDialog @bind-Visible="_showDialog" Width="780px" IsModal="true" ShowCloseIcon="true" Header="@(_isNew ? "新建展览" : "编辑展览")">
+        <DialogTemplates>
+            <Content>
+                <SfTab>
+                    <TabItems>
+                        <TabItem>
+                            <HeaderTemplate>基本信息</HeaderTemplate>
+                            <ContentTemplate>
+                                <div class="form-section">
+                                    <div class="form-row">
+                                        <label>Slug</label>
+                                        <SfTextBox @bind-Value="_model.Slug" Enabled="@_isNew" CssClass="e-small" />
+                                    </div>
+                                    <div class="form-row">
+                                        <label>主题色</label>
+                                        <SfTextBox @bind-Value="_model.Color" CssClass="e-small" />
+                                    </div>
+                                    <div class="form-row">
+                                        <label>中文名</label>
+                                        <SfTextBox @bind-Value="_model.TitleCn" CssClass="e-small" />
+                                    </div>
+                                    <div class="form-row">
+                                        <label>英文名</label>
+                                        <SfTextBox @bind-Value="_model.TitleEn" CssClass="e-small" />
+                                    </div>
+                                    <div class="form-row align-top">
+                                        <label>简介</label>
+                                        <SfTextArea @bind-Value="_model.Description" Rows="3" />
+                                    </div>
+                                    <div class="form-row">
+                                        <label>排序</label>
+                                        <SfNumericTextBox @bind-Value="_model.SortOrder" CssClass="e-small" />
+                                    </div>
+                                    <div class="form-row">
+                                        <label>发布</label>
+                                        <SfCheckBox Label="已发布" @bind-Checked="_model.IsPublished" />
+                                    </div>
+                                </div>
+                            </ContentTemplate>
+                        </TabItem>
+                        <TabItem>
+                            <HeaderTemplate>运行参数</HeaderTemplate>
+                            <ContentTemplate>
+                                <div class="form-section">
+                                    <div class="form-row">
+                                        <label>播放速度倍率</label>
+                                        <SfNumericTextBox @bind-Value="_model.PlaybackSpeed" Decimals="2" CssClass="e-small" />
+                                    </div>
+                                    <div class="form-row">
+                                        <label>初始放大倍数</label>
+                                        <SfNumericTextBox @bind-Value="_model.InitialZoom" Decimals="2" CssClass="e-small" />
+                                    </div>
+                                    <div class="form-row">
+                                        <label>分块加载</label>
+                                        <SfCheckBox Label="启用分块加载" @bind-Checked="_model.Chunked" />
+                                    </div>
+                                </div>
+                            </ContentTemplate>
+                        </TabItem>
+                        <TabItem>
+                            <HeaderTemplate>字段定义 JSON</HeaderTemplate>
+                            <ContentTemplate>
+                                <div class="form-section">
+                                    <div class="form-row align-top">
+                                        <label>eventFields</label>
+                                        <SfTextArea @bind-Value="_model.EventFieldsJson" Rows="14" />
+                                    </div>
+                                </div>
+                            </ContentTemplate>
+                        </TabItem>
+                    </TabItems>
+                </SfTab>
+            </Content>
+        </DialogTemplates>
+        <DialogButtons>
+            <DialogButton Content="保存" IsPrimary="true" OnClick="@Save" />
+            <DialogButton Content="取消" OnClick="@Cancel" />
+        </DialogButtons>
+    </SfDialog>
+}
+
+@code {
+    private List<ExhibitionListItem> _items = [];
+    private bool _showDialog;
+    private bool _isNew;
+    private bool _syncing;
+    private string? _syncHint;
+    private ExhibitionModel _model = new();
+
+    private bool _initialLoadDone;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender || _initialLoadDone) return;
+        _initialLoadDone = true;
+        await AuthService.InitializeAsync();
+        await LoadAsync();
+        StateHasChanged();
+    }
+
+    private async Task LoadAsync()
+    {
+        var (items, err) = await Api.GetExhibitionsWithErrorAsync();
+        if (err is not null)
+        {
+            Toast.Error(err);
+            _items = [];
+            _syncHint = "加载展览列表失败，请确认已登录且 API 服务可用（http://localhost:5287）。";
+            return;
+        }
+
+        _items = items ?? [];
+        if (_items.Count == 0)
+        {
+            _syncHint = "列表为空时可点击「从数据同步」，从前端 public/data（含中国书法史等 6 个主题）导入。";
+            return;
+        }
+
+        _syncHint = $"共 {_items.Count} 个展览主题（含前端 SPA 数据目录中的主题）。可编辑运行参数后保存。";
+    }
+
+    private async Task SyncFromData()
+    {
+        _syncing = true;
+        var (ok, count, message, err) = await Api.SyncExhibitionsFromDataAsync();
+        _syncing = false;
+        if (ok)
+        {
+            Toast.Success(message ?? $"已同步 {count} 个展览");
+            await LoadAsync();
+        }
+        else Toast.Error(err ?? "同步失败");
+    }
+
+    private void CreateNew()
+    {
+        _isNew = true;
+        _model = new ExhibitionModel();
+        _showDialog = true;
+    }
+
+    private async Task Edit(Guid id)
+    {
+        var ex = await Api.GetExhibitionAsync(id);
+        if (ex is null) { Toast.Error("加载失败"); return; }
+        _model = ex;
+        _isNew = false;
+        _showDialog = true;
+    }
+
+    private async Task Save()
+    {
+        var (ok, err) = await Api.SaveExhibitionAsync(_model, _isNew);
+        if (ok) { Toast.Success("保存成功"); _showDialog = false; await LoadAsync(); }
+        else Toast.Error(err ?? "保存失败");
+    }
+
+    private Task Cancel() { _showDialog = false; return Task.CompletedTask; }
+}

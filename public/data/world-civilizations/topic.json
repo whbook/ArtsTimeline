@@ -2,7 +2,7 @@
   "id": "world-civilizations",
   "titleEn": "World Culture & Civilizations",
   "titleCn": "世界文化与文明演进史",
-  "description": "A global timeline of human civilizations, showing concurrent development across different regions. / 全球人类文明时间轴，展示不同地域文明的并行发展。",
+  "description": "世界文化与文明演进史主题展：以地域与领域类别并行展示全球人类文明关键节点，对比不同文明在同一时期的演进。共 12 条精选事件，默认视口约公元前 3500 年至 2050 年，扩展字段含所属地域、领域类别与历史意义。",
   "color": "#27AE60",
   "defaultViewport": {
     "startYear": -3500,

@@ -1,0 +1,168 @@
+@page "/devices"
+@attribute [Authorize]
+@inject AdminApiClient Api
+@inject AuthService AuthService
+@inject ToastService Toast
+@using System.Text.Json
+
+<div class="page-header">
+    <h2>设备管理</h2>
+    <div class="page-header-right">
+        <SfTextBox @bind-Value="_keyword" Placeholder="搜索设备..." Input="@OnSearch" />
+        <AuthorizeView Roles="super_admin,admin">
+            <SfButton Content="新建设备" IsPrimary="true" CssClass="e-small" IconCss="e-icons e-plus" @onclick="CreateNew" />
+        </AuthorizeView>
+    </div>
+</div>
+
+<SfGrid DataSource="@_items" AllowPaging="true" Height="calc(100vh - 180px)">
+    <GridPageSettings PageSize="20" />
+    <GridColumns>
+        <GridColumn Field="@nameof(DeviceListItem.DeviceCode)" HeaderText="设备代码" Width="140" />
+        <GridColumn Field="@nameof(DeviceListItem.OrganizationName)" HeaderText="归属单位" Width="160" />
+        <GridColumn Field="@nameof(DeviceListItem.LicenseType)" HeaderText="许可" Width="80" />
+        <GridColumn Field="@nameof(DeviceListItem.ValidUntil)" HeaderText="截止时间" Format="yyyy-MM-dd HH:mm" Width="150" />
+        <GridColumn Field="@nameof(DeviceListItem.IsExpired)" HeaderText="已过期" Width="80" DisplayAsCheckBox="true" />
+        <GridColumn Field="@nameof(DeviceListItem.IsActive)" HeaderText="启用" Width="80" DisplayAsCheckBox="true" />
+        <GridColumn HeaderText="操作" Width="100">
+            <Template>
+                @{ var row = (DeviceListItem)context; }
+                <SfButton Content="编辑" CssClass="e-small e-flat" @onclick="() => Edit(row.Id)" />
+            </Template>
+        </GridColumn>
+    </GridColumns>
+</SfGrid>
+
+@if (_showDialog)
+{
+    <SfDialog Width="720px" IsModal="true" ShowCloseIcon="true" Header="@(_isNew ? "新建设备" : "编辑设备")" Visible="true">
+        <DialogTemplates>
+            <Content>
+                <div class="form-grid">
+                    <div class="span-2">
+                        <label>归属单位</label>
+                        <SfDropDownList TValue="Guid" TItem="OrgOption" DataSource="@_orgOptions"
+                                        @bind-Value="_model.OrganizationId" Placeholder="选择单位">
+                            <DropDownListFieldSettings Value="Id" Text="Name" />
+                        </SfDropDownList>
+                    </div>
+                    <div><label>设备代码</label><SfTextBox @bind-Value="_model.DeviceCode" /></div>
+                    <div><label>操作系统</label><SfTextBox @bind-Value="_model.OsVersion" /></div>
+                    <div><label>屏幕宽</label><SfNumericTextBox @bind-Value="_model.ScreenWidth" Min="1" /></div>
+                    <div><label>屏幕高</label><SfNumericTextBox @bind-Value="_model.ScreenHeight" Min="1" /></div>
+                    <div>
+                        <label>许可类型</label>
+                        <SfDropDownList TValue="string" TItem="LabelValueOption" DataSource="@_licenseOptions"
+                                        @bind-Value="_model.LicenseType">
+                            <DropDownListFieldSettings Value="Value" Text="Label" />
+                        </SfDropDownList>
+                    </div>
+                    <div><label>有效期起</label><SfDateTimePicker @bind-Value="_model.ValidFrom" /></div>
+                    <div><label>有效期止</label><SfDateTimePicker @bind-Value="_model.ValidUntil" /></div>
+                    <div class="span-2">
+                        <label>IP 地址列表（每行一个 IPv4/IPv6）</label>
+                        <SfTextArea @bind-Value="_model.IpAddressesText" Rows="4" Placeholder="192.168.1.10&#10;2001:db8::1" />
+                    </div>
+                    <div class="span-2"><label>备注</label><SfTextArea @bind-Value="_model.Notes" Rows="2" /></div>
+                    <div><SfCheckBox Label="启用" @bind-Checked="_model.IsActive" /></div>
+                </div>
+            </Content>
+        </DialogTemplates>
+        <DialogButtons>
+            <DialogButton Content="保存" IsPrimary="true" OnClick="@Save" />
+            <DialogButton Content="取消" OnClick="@Cancel" />
+        </DialogButtons>
+    </SfDialog>
+}
+
+@code {
+    private List<DeviceListItem> _items = [];
+    private List<OrgOption> _orgOptions = [];
+    private string? _keyword;
+    private bool _showDialog;
+    private bool _isNew;
+    private DeviceModel _model = new();
+    private readonly List<LabelValueOption> _licenseOptions =
+    [
+        new() { Value = "trial", Label = "试用" },
+        new() { Value = "formal", Label = "正式" }
+    ];
+
+    protected override async Task OnInitializedAsync()
+    {
+        await AuthService.InitializeAsync();
+        var orgs = await Api.GetOrganizationsAsync(pageSize: 500);
+        _orgOptions = orgs?.Items.Select(o => new OrgOption(o.Id, o.Name)).ToList() ?? [];
+        await LoadAsync();
+    }
+
+    private async Task LoadAsync()
+    {
+        var result = await Api.GetDevicesAsync(_keyword);
+        _items = result?.Items ?? [];
+    }
+
+    private async Task OnSearch(InputEventArgs _) => await LoadAsync();
+
+    private void CreateNew()
+    {
+        _isNew = true;
+        _model = new DeviceModel
+        {
+            ValidFrom = DateTime.UtcNow.Date,
+            ValidUntil = DateTime.UtcNow.Date.AddMonths(1),
+            OrganizationId = _orgOptions.FirstOrDefault()?.Id ?? Guid.Empty
+        };
+        _showDialog = true;
+    }
+
+    private async Task Edit(Guid id)
+    {
+        var raw = await Api.GetDeviceRawAsync(id);
+        if (raw is null) { Toast.Error("加载失败"); return; }
+        var el = raw.Value;
+        _model = new DeviceModel
+        {
+            Id = el.GetProperty("id").GetGuid(),
+            OrganizationId = el.GetProperty("organizationId").GetGuid(),
+            DeviceCode = el.GetProperty("deviceCode").GetString() ?? "",
+            ScreenWidth = el.GetProperty("screenWidth").GetInt32(),
+            ScreenHeight = el.GetProperty("screenHeight").GetInt32(),
+            OsVersion = el.TryGetProperty("osVersion", out var os) ? os.GetString() : null,
+            LicenseType = el.GetProperty("licenseType").GetString() ?? "trial",
+            ValidFrom = el.GetProperty("validFrom").GetDateTime(),
+            ValidUntil = el.GetProperty("validUntil").GetDateTime(),
+            IsActive = el.GetProperty("isActive").GetBoolean(),
+            Notes = el.TryGetProperty("notes", out var n) ? n.GetString() : null,
+            IpAddressesText = string.Join("\n", el.GetProperty("ipAddresses").EnumerateArray().Select(x => x.GetString()))
+        };
+        _isNew = false;
+        _showDialog = true;
+    }
+
+    private async Task Save()
+    {
+        var payload = new
+        {
+            _model.OrganizationId,
+            _model.DeviceCode,
+            _model.ScreenWidth,
+            _model.ScreenHeight,
+            _model.OsVersion,
+            _model.LicenseType,
+            _model.ValidFrom,
+            _model.ValidUntil,
+            IpAddresses = _model.IpAddressesText.Split('\n', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries).ToList(),
+            _model.IsActive,
+            _model.Notes,
+            Exhibitions = _model.Exhibitions
+        };
+        var (ok, err) = await Api.SaveDeviceAsync(payload, _isNew, _model.Id);
+        if (ok) { Toast.Success("保存成功"); _showDialog = false; await LoadAsync(); }
+        else Toast.Error(err ?? "保存失败");
+    }
+
+    private Task Cancel() { _showDialog = false; return Task.CompletedTask; }
+
+    private record OrgOption(Guid Id, string Name);
+}

@@ -2,7 +2,7 @@
   "id": "chinese-artifacts",
   "titleEn": "Chinese Artifacts History",
   "titleCn": "中国文物史",
-  "description": "A timeline of Chinese historical artifacts and cultural heritage / 中国历代文物与文化遗产时间轴",
+  "description": "中国文物史主题展：呈现历代代表性文物与文化遗产，涵盖青铜器、陶瓷、书画、玉器等类型。共 11 条精选事件，默认视口约公元前 3000 年至 2000 年，扩展字段含材质、出土/发现地与现藏地。",
   "color": "#C0392B",
   "defaultViewport": {
     "startYear": -3000,

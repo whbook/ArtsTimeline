@@ -49,23 +49,80 @@ const App: React.FC = () => {
     }
     return topicData?.events || [];
   }, [isChunked, chunkedEvents, topicData?.events]);
+
+  // 智能计算时间轴的内容边界：最早年份、最晚年份和默认跨度范围
+  const topicBoundaries = useMemo(() => {
+    if (!topicData) return null;
+    
+    let earliestYear = 2050;
+    let latestYear = -3000;
+    let hasData = false;
+    
+    // 优先级 1：优先采用流派/泳道 (streams)。泳道是时间轴的核心视觉柱条，泳道的起始直接决定了最应该开始看的时间段
+    if (topicData.streams && topicData.streams.length > 0) {
+      const minStreamYear = Math.min(...topicData.streams.map(s => s.start.year).filter(y => y !== undefined && !isNaN(y)));
+      const maxStreamYear = Math.max(...topicData.streams.map(s => s.end.year).filter(y => y !== undefined && !isNaN(y)));
+      if (isFinite(minStreamYear) && isFinite(maxStreamYear)) {
+        earliestYear = minStreamYear;
+        latestYear = maxStreamYear;
+        hasData = true;
+      }
+    }
+    
+    // 优先级 2：如果没有泳道，则使用具体的艺术作品/历史事件 (events)
+    if (!hasData && topicData.events && topicData.events.length > 0) {
+      const minEventYear = Math.min(...topicData.events.map(e => e.year).filter(y => y !== undefined && !isNaN(y)));
+      const maxEventYear = Math.max(...topicData.events.map(e => e.year).filter(y => y !== undefined && !isNaN(y)));
+      if (isFinite(minEventYear) && isFinite(maxEventYear)) {
+        earliestYear = minEventYear;
+        latestYear = maxEventYear;
+        hasData = true;
+      }
+    }
+    
+    // 优先级 3：如果上述两项均空，则采用宏观历史分期 (periods)。
+    // （注意：如果存在泳道/作品，我们不能将“史前与上古”的公元前4万年作为首屏和缩放基准，否则整个时间轴一加载将是 3 万多年的空虚空白，看不见任何泳道柱条！）
+    if (!hasData && topicData.periods && topicData.periods.length > 0) {
+      const minPeriodYear = Math.min(...topicData.periods.map(p => p.start.year).filter(y => y !== undefined && !isNaN(y)));
+      const maxPeriodYear = Math.max(...topicData.periods.map(p => p.end.year).filter(y => y !== undefined && !isNaN(y)));
+      if (isFinite(minPeriodYear) && isFinite(maxPeriodYear)) {
+        earliestYear = minPeriodYear;
+        latestYear = maxPeriodYear;
+        hasData = true;
+      }
+    }
+
+    if (!hasData) {
+      // 没有任何内容时的安全保底
+      earliestYear = -1000;
+      latestYear = 2026;
+    }
+
+    let defaultRange = latestYear - earliestYear;
+    if (defaultRange <= 0) {
+      defaultRange = 100;
+    }
+
+    return { earliestYear, latestYear, defaultRange };
+  }, [topicData]);
   
   // Reset viewport when topic changes
   useEffect(() => {
-    if (topicData?.topic) {
-      // Adjust default viewport based on screen width scale
-      // A wider screen can show more years by default
-      const defaultRange = topicData.topic.defaultViewport.endYear - topicData.topic.defaultViewport.startYear;
-      const scaledRange = defaultRange * scale.scaleX;
+    if (topicData?.topic && topicBoundaries) {
+      const { earliestYear, defaultRange } = topicBoundaries;
+      const initialZoomFactor = topicData.topic.initialZoom || 6;
+      const range = (defaultRange * scale.scaleX) / initialZoomFactor;
       
-      const center = (topicData.topic.defaultViewport.startYear + topicData.topic.defaultViewport.endYear) / 2;
+      // 将最早的有内容的年份置于中心红线的右侧（即红线正好指向 earliestYear，红线左侧为空白，最早的内容刚好在红线右侧开始展开）
+      const startYear = earliestYear - range / 2;
+      const endYear = earliestYear + range / 2;
       
       setViewport(clampViewportToMaxEnd({
-        startYear: center - (scaledRange / 2),
-        endYear: center + (scaledRange / 2)
+        startYear,
+        endYear
       }, timelineMaxYear));
     }
-  }, [topicData?.topic, scale.scaleX, timelineMaxYear]);
+  }, [topicData?.topic, topicBoundaries, scale.scaleX, timelineMaxYear]);
 
   const [isDragging, setIsDragging] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState<TimelineEvent | null>(null);
@@ -154,9 +211,12 @@ const App: React.FC = () => {
     const zoomFactor = e.deltaY > 0 ? 1.1 : 0.9; // Zoom out vs Zoom in
     let newRange = currentRange * zoomFactor;
 
-    // Clamp zoom
-    const minZoom = topicData?.topic?.minZoomRange || MIN_ZOOM_RANGE;
-    const maxZoom = topicData?.topic?.maxZoomRange || MAX_ZOOM_RANGE;
+    // 智能自适应缩放钳制：
+    // 最细放大极限：统一采用全局默认值 MIN_ZOOM_RANGE（允许精确到极细微观）
+    const minZoom = MIN_ZOOM_RANGE;
+    // 最宽缩小极限：动态自适应为该展览绝对内容总跨度的 1.2 倍（确保刚好能看完该展览全貌，又绝不会过度缩小导致两边出现大片无意义的灰色空白）
+    const maxZoom = topicBoundaries ? topicBoundaries.defaultRange * 1.2 : MAX_ZOOM_RANGE;
+    
     if (newRange < minZoom) newRange = minZoom;
     if (newRange > maxZoom) newRange = maxZoom;
 
@@ -231,9 +291,12 @@ const App: React.FC = () => {
     const factor = direction === 'in' ? 0.8 : 1.25;
     let newRange = currentRange * factor;
     
-    // Clamp zoom
-    const minZoom = topicData?.topic?.minZoomRange || MIN_ZOOM_RANGE;
-    const maxZoom = topicData?.topic?.maxZoomRange || MAX_ZOOM_RANGE;
+    // 智能自适应缩放钳制：
+    // 最细放大极限：统一采用全局默认值 MIN_ZOOM_RANGE（允许精确到极细微观）
+    const minZoom = MIN_ZOOM_RANGE;
+    // 最宽缩小极限：动态自适应为该展览绝对内容总跨度的 1.2 倍（确保刚好能看完该展览全貌，又绝不会过度缩小导致两边出现大片无意义的灰色空白）
+    const maxZoom = topicBoundaries ? topicBoundaries.defaultRange * 1.2 : MAX_ZOOM_RANGE;
+    
     if (newRange < minZoom) newRange = minZoom;
     if (newRange > maxZoom) newRange = maxZoom;
 
@@ -261,11 +324,9 @@ const App: React.FC = () => {
 
   // Zoom factor relative to topic default viewport (1× = default span)
   const zoomBaselineRange = useMemo(() => {
-    if (!topicData?.topic) return null;
-    const defaultRange =
-      topicData.topic.defaultViewport.endYear - topicData.topic.defaultViewport.startYear;
-    return defaultRange * scale.scaleX;
-  }, [topicData?.topic, scale.scaleX]);
+    if (!topicData?.topic || !topicBoundaries) return null;
+    return topicBoundaries.defaultRange * scale.scaleX;
+  }, [topicData?.topic, topicBoundaries, scale.scaleX]);
 
   const zoomFactor = useMemo(() => {
     if (!zoomBaselineRange || range <= 0) return 1;
@@ -318,7 +379,6 @@ const App: React.FC = () => {
                  <span className="font-mono not-italic text-[#DAA520] tabular-nums" title="相对主题默认视口的缩放倍数">
                    {zoomFactorLabel}
                  </span>
-                 <span className="ml-1 italic text-gray-500">(滚动缩放 / 拖动平移 · 缩放 {zoomFactorLabel})</span>
                </span>
                <div className="flex gap-0 border border-gray-600 rounded overflow-hidden">
                  <button onClick={() => manualZoom('out')} className="p-2 bg-[#2a2a2a] hover:bg-[#333] hover:text-white transition border-r border-gray-600" title="Zoom Out"><ZoomOut size={18}/></button>

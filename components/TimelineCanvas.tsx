@@ -37,41 +37,39 @@ interface ProcessedRenderItem {
 }
 
 const stackEvents = (
-  visibleEvents: TimelineEvent[],
-  startYear: number,
+  events: TimelineEvent[],
   range: number,
   W: number
 ) => {
-  const sorted = [...visibleEvents].sort((a, b) => getDecimalYear(a.date) - getDecimalYear(b.date));
+  const sorted = [...events].sort((a, b) => getDecimalYear(a.date) - getDecimalYear(b.date));
   const stacked: { event: TimelineEvent; x: number; stackLevel: number }[] = [];
   const levelEnds: number[] = [];
   
-  const LABEL_WIDTH = 90; // Label width in pixels
-  const MIN_GAP = 6;      // Gap in pixels
-  const FOOTPRINT = LABEL_WIDTH + MIN_GAP;
+  const LABEL_WIDTH_PX = 96; // 标签像素宽度
+  const minYearGap = (LABEL_WIDTH_PX * range) / W; // 将物理像素转换为当前缩放下的年份差值，作为绝对堆叠阈值
   const MAX_STACK_LEVELS = 3;
 
   for (const event of sorted) {
     const year = getDecimalYear(event.date);
-    const x = ((year - startYear) / range) * W;
     
     let assignedLevel = -1;
     for (let level = 0; level < MAX_STACK_LEVELS; level++) {
-      const lastEnd = levelEnds[level] !== undefined ? levelEnds[level] : -Infinity;
-      if (x - FOOTPRINT / 2 >= lastEnd) {
+      const lastEndYear = levelEnds[level] !== undefined ? levelEnds[level] : -Infinity;
+      // 在绝对时间线上，如果当前事件年份与上一个事件在同层的结束年份间隔大于等于安全年份阈值，则不重叠
+      if (year - minYearGap / 2 >= lastEndYear) {
         assignedLevel = level;
         break;
       }
     }
 
     if (assignedLevel === -1) {
-      assignedLevel = 0; // fallback to base level if all levels full
+      assignedLevel = 0; // 默认放到底部
     }
 
-    levelEnds[assignedLevel] = x + FOOTPRINT / 2;
+    levelEnds[assignedLevel] = year + minYearGap / 2;
     stacked.push({
       event,
-      x,
+      x: year, // 存储绝对年份
       stackLevel: assignedLevel
     });
   }
@@ -80,62 +78,62 @@ const stackEvents = (
 };
 
 const clusterEvents = (
-  visibleEvents: TimelineEvent[],
-  startYear: number,
-  range: number,
-  W: number,
-  periods: Period[]
+  events: TimelineEvent[],
+  periods: Period[],
+  range: number
 ): ProcessedRenderItem[] => {
-  const sorted = [...visibleEvents].sort((a, b) => getDecimalYear(a.date) - getDecimalYear(b.date));
-  const BUCKET_WIDTH = 75; // Bucket size in pixels
-  const numBuckets = Math.max(1, Math.floor(W / BUCKET_WIDTH));
-  const buckets: TimelineEvent[][] = Array.from({ length: numBuckets }, () => []);
+  // 根据视口的年份范围 range，动态计算在绝对年份轴上的分桶年份跨度
+  // 视口中理想的分桶宽度为 12 个
+  const bucketYearSpan = Math.max(0.001, range / 12);
 
-  for (const event of sorted) {
+  // 1. 将所有事件按绝对时间段分组，滚动时 bucketKey 绝对不变
+  const groups: Record<number, TimelineEvent[]> = {};
+  for (const event of events) {
     const year = getDecimalYear(event.date);
-    const x = ((year - startYear) / range) * W;
-    let bucketIdx = Math.floor((x / W) * numBuckets);
-    bucketIdx = Math.max(0, Math.min(numBuckets - 1, bucketIdx));
-    buckets[bucketIdx].push(event);
+    const bucketKey = Math.floor(year / bucketYearSpan);
+    if (!groups[bucketKey]) {
+      groups[bucketKey] = [];
+    }
+    groups[bucketKey].push(event);
   }
 
   const result: ProcessedRenderItem[] = [];
 
-  for (let i = 0; i < numBuckets; i++) {
-    const bucketEvents = buckets[i];
+  // 2. 遍历各区间，生成稳定位置的事件或聚类气泡
+  for (const keyStr in groups) {
+    const bucketIdx = parseInt(keyStr, 10);
+    const bucketEvents = groups[bucketIdx];
     if (bucketEvents.length === 0) continue;
+
+    const years = bucketEvents.map(e => getDecimalYear(e.date));
+    const meanYear = years.reduce((sum, y) => sum + y, 0) / years.length;
+    const minYear = Math.min(...years);
+    const maxYear = Math.max(...years);
 
     if (bucketEvents.length === 1) {
       const event = bucketEvents[0];
-      const year = getDecimalYear(event.date);
-      const x = ((year - startYear) / range) * W;
+      const eventYear = getDecimalYear(event.date);
       result.push({
         type: 'event',
         id: `evt-${event.id}`,
-        x,
+        x: eventYear, // 直接存储事件的绝对年份
         event,
         stackLevel: 0
       });
     } else {
-      const years = bucketEvents.map(e => getDecimalYear(e.date));
-      const minYear = Math.min(...years);
-      const maxYear = Math.max(...years);
-      const meanYear = years.reduce((sum, y) => sum + y, 0) / years.length;
-      const x = ((meanYear - startYear) / range) * W;
-
       const dominantPeriodId = bucketEvents[0].periodId;
       const era = periods.find(p => p.id === dominantPeriodId);
       const colorHex = era?.colorHex || '#1F8A70';
 
       result.push({
         type: 'cluster',
-        id: `cluster-${i}-${minYear.toFixed(1)}-${maxYear.toFixed(1)}`,
-        x,
+        id: `cluster-${bucketIdx}-${bucketEvents.length}`,
+        x: meanYear, // 存储聚类中心点的绝对年份
         stackLevel: 0,
         cluster: {
           type: 'cluster',
-          id: `cluster-${i}`,
-          x,
+          id: `cluster-${bucketIdx}`,
+          x: meanYear,
           count: bucketEvents.length,
           startYear: minYear,
           endYear: maxYear,
@@ -229,27 +227,26 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
   // Find current screen width for responsive stacking & clustering
   const W = typeof window !== 'undefined' ? window.innerWidth : 1200;
 
-  // 1. Filter events within the current viewport range
-  const viewportEvents = useMemo(() => {
-    return events.filter(event => {
-      const year = getDecimalYear(event.date);
-      // Give a tiny padding at edges
-      const padding = range * 0.01;
-      return year >= startYear - padding && year <= endYear + padding;
-    });
-  }, [events, startYear, endYear, range]);
-
   // 2. Compute processed layout items (hybrid of stacking or clustering)
+  // 此 useMemo 剔除了 startYear，因此在拖拽或自动滚动平移时完全不需要重新执行计算
   const processedItems = useMemo(() => {
-    if (viewportEvents.length === 0) return [];
+    if (events.length === 0) return [];
 
-    // If there are more than 40 events on the screen, transition into clustering
-    const isDense = viewportEvents.length > 40;
+    // 基于当前缩放倍率（range）在总时间跨度上的占比，科学、稳定地估算屏幕上的事件密度，避免跳变
+    let isDense = false;
+    const years = events.map(e => getDecimalYear(e.date));
+    if (years.length > 0) {
+      const minYear = Math.min(...years);
+      const maxYear = Math.max(...years);
+      const totalSpan = maxYear - minYear || 1;
+      const estimatedVisibleCount = events.length * (range / totalSpan);
+      isDense = estimatedVisibleCount > 35;
+    }
 
     if (isDense) {
-      return clusterEvents(viewportEvents, startYear, range, W, periods);
+      return clusterEvents(events, periods, range);
     } else {
-      const stacked = stackEvents(viewportEvents, startYear, range, W);
+      const stacked = stackEvents(events, range, W);
       return stacked.map((s, idx) => ({
         type: 'event' as const,
         id: `evt-${s.event.id}-${idx}`,
@@ -258,7 +255,7 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
         stackLevel: s.stackLevel
       }));
     }
-  }, [viewportEvents, startYear, range, W, periods]);
+  }, [events, range, W, periods]);
 
   return (
     <div className="absolute top-12 left-0 w-full h-[400px] overflow-visible pointer-events-none z-10">
@@ -340,7 +337,7 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
             onMouseEnter={() => onMovementHover(movement)}
             onMouseLeave={() => onMovementHover(null)}
             onClick={(e) => { e.stopPropagation(); onMovementClick(movement); }}
-            className="absolute rounded-sm hover:scale-[1.02] hover:z-50 transition-all duration-200 cursor-pointer pointer-events-auto group overflow-visible"
+            className="absolute rounded-sm hover:scale-[1.02] hover:z-50 transition-shadow duration-200 cursor-pointer pointer-events-auto group overflow-visible"
             style={style}
           >
             {/* Sticky Label centered on the visible portion */}
@@ -373,6 +370,12 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
 
       {/* LAYER 3: Specific Events Markers (Clustered or Stacked) */}
       {processedItems.map(item => {
+        // 动态计算该绝对年份在此视口下的 vw 百分比位置
+        const leftPercent = ((item.x - startYear) / range) * 100;
+        
+        // 渲染视口裁剪过滤：如果完全偏离屏幕范围（留 15% 缓冲区保证滑入边缘也顺畅，不产生截断），则直接不渲染
+        if (leftPercent < -15 || leftPercent > 115) return null;
+
         // --- 1. RENDER CLUSTER ---
         if (item.type === 'cluster') {
           const cluster = item.cluster!;
@@ -418,7 +421,7 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
               style={{ 
                 top: `calc(100% - ${60 * Math.max(1, scaleY)}px)`, // Position at base events baseline
                 left: 0, 
-                transform: `translate3d(calc(${(item.x / W) * 100}vw - 50%), 0, 0)`,
+                transform: `translate3d(${leftPercent}vw, 0, 0)`,
                 willChange: 'transform'
               }}
             >
@@ -479,7 +482,7 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
                 style={{ 
                     top: topPos,
                     left: 0, 
-                    transform: `translate3d(calc(${(item.x / W) * 100}vw - 50%), 0, 0)`,
+                    transform: `translate3d(${leftPercent}vw, 0, 0)`,
                     willChange: 'transform'
                 }}
             >

@@ -1,0 +1,26 @@
+@page "/admin-users"
+@attribute [Authorize(Roles = "super_admin")]
+@inject AdminApiClient Api
+@inject AuthService AuthService
+
+<h2 class="page-title">系统用户</h2>
+
+<SfGrid DataSource="@_items" AllowPaging="true" Height="calc(100vh - 160px)">
+    <GridPageSettings PageSize="20" />
+    <GridColumns>
+        <GridColumn Field="@nameof(AdminUserListItem.Username)" HeaderText="用户名" Width="140" />
+        <GridColumn Field="@nameof(AdminUserListItem.Email)" HeaderText="邮箱" Width="200" />
+        <GridColumn Field="@nameof(AdminUserListItem.Role)" HeaderText="角色" Width="120" />
+        <GridColumn Field="@nameof(AdminUserListItem.IsActive)" HeaderText="启用" Width="80" DisplayAsCheckBox="true" />
+    </GridColumns>
+</SfGrid>
+
+@code {
+    private List<AdminUserListItem> _items = [];
+
+    protected override async Task OnInitializedAsync()
+    {
+        await AuthService.InitializeAsync();
+        _items = await Api.GetAdminUsersAsync() ?? [];
+    }
+}

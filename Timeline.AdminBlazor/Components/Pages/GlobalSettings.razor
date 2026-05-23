@@ -1,0 +1,58 @@
+@page "/global-settings"
+@attribute [Authorize(Roles = "super_admin")]
+@inject AdminApiClient Api
+@inject AuthService AuthService
+@inject ToastService Toast
+
+<h2 class="page-title">全局设置</h2>
+
+@if (_model is null)
+{
+    <p>加载中...</p>
+}
+else
+{
+    <div class="settings-panel">
+        <div class="form-grid">
+            <div><label>自动播放空闲超时(ms)</label><SfNumericTextBox @bind-Value="_model.AutoplayIdleTimeoutMs" /></div>
+            <div>
+                <label>播放模式</label>
+                <SfDropDownList TValue="string" TItem="LabelValueOption" DataSource="@_modeOptions" @bind-Value="_model.AutoplayMode">
+                    <DropDownListFieldSettings Value="Value" Text="Label" />
+                </SfDropDownList>
+            </div>
+            <div><label>基础滑动速度</label><SfNumericTextBox @bind-Value="_model.AutoplayBaseSpeed" Decimals="2" /></div>
+            <div><label>快进滑动速度</label><SfNumericTextBox @bind-Value="_model.AutoplayFastSpeed" Decimals="2" /></div>
+            <div><label>全局最小 Zoom</label><SfNumericTextBox @bind-Value="_model.MinZoomRangeGlobal" Decimals="6" /></div>
+            <div><label>全局最大 Zoom</label><SfNumericTextBox @bind-Value="_model.MaxZoomRangeGlobal" Decimals="2" /></div>
+            <div><label>基准屏幕宽</label><SfNumericTextBox @bind-Value="_model.BaseScreenWidth" /></div>
+            <div><label>基准屏幕高</label><SfNumericTextBox @bind-Value="_model.BaseScreenHeight" /></div>
+            <div><label>底部列宽基准</label><SfNumericTextBox @bind-Value="_model.BaseColumnWidth" /></div>
+            <div class="span-2"><label>LOD 阈值 JSON</label><SfTextArea @bind-Value="_model.ImportanceThresholdsJson" Rows="4" /></div>
+        </div>
+        <SfButton Content="保存设置" IsPrimary="true" CssClass="e-small" @onclick="Save" />
+    </div>
+}
+
+@code {
+    private GlobalSettingsModel? _model;
+    private readonly List<LabelValueOption> _modeOptions =
+    [
+        new() { Value = "sequential", Label = "顺序" },
+        new() { Value = "random", Label = "随机" }
+    ];
+
+    protected override async Task OnInitializedAsync()
+    {
+        await AuthService.InitializeAsync();
+        _model = await Api.GetGlobalSettingsAsync();
+    }
+
+    private async Task Save()
+    {
+        if (_model is null) return;
+        var (ok, err) = await Api.SaveGlobalSettingsAsync(_model);
+        if (ok) Toast.Success("保存成功");
+        else Toast.Error(err ?? "保存失败");
+    }
+}

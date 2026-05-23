@@ -1,0 +1,47 @@
+@page "/login"
+@layout EmptyLayout
+@attribute [AllowAnonymous]
+@inject AuthService AuthService
+@inject NavigationManager Nav
+<div class="login-page">
+    <div class="login-card">
+        <h2>Timeline 管理系统</h2>
+        <p class="login-sub">请登录管理账号</p>
+        @if (!string.IsNullOrEmpty(_error))
+        {
+            <div class="alert-danger">@_error</div>
+        }
+        <div class="login-field">
+            <label>用户名</label>
+            <SfTextBox @bind-Value="_username" Placeholder="请填写账号" />
+        </div>
+        <div class="login-field">
+            <label>密码</label>
+            <SfTextBox @bind-Value="_password" Type="InputType.Password" Placeholder="密码" />
+        </div>
+        <SfButton Content="登录" IsPrimary="true" CssClass="login-btn" @onclick="DoLogin" Disabled="_loading" />
+    </div>
+</div>
+
+@code {
+    private string _username = string.Empty;
+    private string _password = string.Empty;
+    private string? _error;
+    private bool _loading;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender) return;
+        if (await AuthService.RestoreSessionAsync())
+            Nav.NavigateTo("/");
+    }
+
+    private async Task DoLogin()
+    {
+        _loading = true;
+        _error = null;
+        var (ok, err) = await AuthService.LoginAsync(_username, _password);
+        _loading = false;
+        if (ok) Nav.NavigateTo("/");
+        else _error = err;    }
+}

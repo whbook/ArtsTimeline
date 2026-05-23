@@ -1,0 +1,30 @@
+﻿@using Microsoft.AspNetCore.Http
+@using Timeline.AdminBlazor.Services
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var cspNonce = HttpContextAccessor.HttpContext?.Items["CspNonce"] as string ?? string.Empty;
+    var themeName = ThemeNames.Normalize(HttpContextAccessor.HttpContext?.Request.Cookies["sf-theme"]);
+}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <ResourcePreloader />
+    <link rel="icon" href="@Assets["favicon.svg"]" type="image/svg+xml" sizes="any" />
+    <link href="_content/Syncfusion.Blazor.Themes/@(themeName).css" rel="stylesheet" />
+    <link rel="stylesheet" href="@Assets["app.css"]" />
+    <link rel="stylesheet" href="@Assets["Timeline.AdminBlazor.styles.css"]" />
+    <ImportMap Nonce="@cspNonce" />
+    <title>Timeline 管理系统</title>
+    <HeadOutlet @rendermode="InteractiveServer" />
+</head>
+<body data-sf-theme="@themeName">
+    <Routes @rendermode="InteractiveServer" />
+    <ReconnectModal />
+    <script src="@Assets["_framework/blazor.web.js"]"></script>
+    <script src="_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js"></script>
+    <script src="js/theme-interop.js"></script>
+</body>
+</html>

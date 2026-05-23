@@ -2,7 +2,7 @@
   "id": "western-art",
   "titleEn": "Western Art History",
   "titleCn": "西方绘画史",
-  "description": "A timeline of Western Art History",
+  "description": "西方绘画史主题展：从史前爱琴、古典、中世纪至文艺复兴、巴洛克、印象派及现当代，按流派与时间带梳理代表性绘画作品与艺术家。共 47 条事件，默认视口约公元前 4000 年至 2050 年，可按「艺术家」字段检索。",
   "color": "#800080",
   "defaultViewport": {
     "startYear": -4000,

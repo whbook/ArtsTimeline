@@ -1,0 +1,108 @@
+@page "/organizations"
+@attribute [Authorize]
+@inject AdminApiClient Api
+@inject AuthService AuthService
+@inject ToastService Toast
+@inject NavigationManager Nav
+
+<div class="page-header">
+    <h2>客户管理</h2>
+    <div class="page-header-right">
+        <SfTextBox @bind-Value="_keyword" Placeholder="搜索单位..." Input="@OnSearch" />
+        <AuthorizeView Roles="super_admin,admin">
+            <SfButton Content="新建单位" IsPrimary="true" CssClass="e-small" IconCss="e-icons e-plus" @onclick="CreateNew" />
+        </AuthorizeView>
+    </div>
+</div>
+
+<SfGrid DataSource="@_items" AllowPaging="true" Height="calc(100vh - 180px)">
+    <GridPageSettings PageSize="20" />
+    <GridColumns>
+        <GridColumn Field="@nameof(OrganizationListItem.Code)" HeaderText="编码" Width="120" />
+        <GridColumn Field="@nameof(OrganizationListItem.Name)" HeaderText="名称" Width="180" />
+        <GridColumn Field="@nameof(OrganizationListItem.ContactName)" HeaderText="联系人" Width="120" />
+        <GridColumn Field="@nameof(OrganizationListItem.Phone)" HeaderText="电话" Width="120" />
+        <GridColumn Field="@nameof(OrganizationListItem.DeviceCount)" HeaderText="设备数" Width="80" TextAlign="TextAlign.Center" />
+        <GridColumn Field="@nameof(OrganizationListItem.IsActive)" HeaderText="启用" Width="80" DisplayAsCheckBox="true" />
+        <GridColumn HeaderText="操作" Width="120">
+            <Template>
+                @{
+                    var row = (OrganizationListItem)context;
+                }
+                <SfButton Content="编辑" CssClass="e-small e-flat" @onclick="() => Edit(row.Id)" />
+            </Template>
+        </GridColumn>
+    </GridColumns>
+</SfGrid>
+
+@if (_showDialog)
+{
+    <SfDialog Width="640px" IsModal="true" ShowCloseIcon="true" Header="@(_isNew ? "新建单位" : "编辑单位")" Visible="true">
+        <DialogTemplates>
+            <Content>
+                <div class="form-grid">
+                    <div><label>单位编码</label><SfTextBox @bind-Value="_model.Code" Enabled="@_isNew" /></div>
+                    <div><label>单位名称</label><SfTextBox @bind-Value="_model.Name" /></div>
+                    <div><label>电话</label><SfTextBox @bind-Value="_model.Phone" /></div>
+                    <div><label>联系人</label><SfTextBox @bind-Value="_model.ContactName" /></div>
+                    <div><label>联系人电话</label><SfTextBox @bind-Value="_model.ContactPhone" /></div>
+                    <div><label>邮箱</label><SfTextBox @bind-Value="_model.ContactEmail" /></div>
+                    <div class="span-2"><label>网址</label><SfTextBox @bind-Value="_model.WebsiteUrl" /></div>
+                    <div class="span-2"><label>单位介绍</label><SfTextArea @bind-Value="_model.Introduction" Rows="4" /></div>
+                    <div class="span-2"><SfCheckBox Label="启用" @bind-Checked="_model.IsActive" /></div>
+                </div>
+            </Content>
+        </DialogTemplates>
+        <DialogButtons>
+            <DialogButton Content="保存" IsPrimary="true" OnClick="@Save" />
+            <DialogButton Content="取消" OnClick="@Cancel" />
+        </DialogButtons>
+    </SfDialog>
+}
+
+@code {
+    private List<OrganizationListItem> _items = [];
+    private string? _keyword;
+    private bool _showDialog;
+    private bool _isNew;
+    private OrganizationModel _model = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await AuthService.InitializeAsync();
+        await LoadAsync();
+    }
+
+    private async Task LoadAsync()
+    {
+        var result = await Api.GetOrganizationsAsync(keyword: _keyword);
+        _items = result?.Items ?? [];
+    }
+
+    private async Task OnSearch(InputEventArgs _) => await LoadAsync();
+
+    private void CreateNew()
+    {
+        _isNew = true;
+        _model = new OrganizationModel { IsActive = true };
+        _showDialog = true;
+    }
+
+    private async Task Edit(Guid id)
+    {
+        var org = await Api.GetOrganizationAsync(id);
+        if (org is null) { Toast.Error("加载失败"); return; }
+        _model = org;
+        _isNew = false;
+        _showDialog = true;
+    }
+
+    private async Task Save()
+    {
+        var (ok, err) = await Api.SaveOrganizationAsync(_model, _isNew);
+        if (ok) { Toast.Success("保存成功"); _showDialog = false; await LoadAsync(); }
+        else Toast.Error(err ?? "保存失败");
+    }
+
+    private Task Cancel() { _showDialog = false; return Task.CompletedTask; }
+}

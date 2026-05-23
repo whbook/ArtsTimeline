@@ -1,0 +1,211 @@
+﻿@inherits LayoutComponentBase
+@implements IDisposable
+@using Microsoft.AspNetCore.Components.Authorization
+@inject NavigationManager Nav
+@inject AuthService AuthService
+@inject AdminApiClient ApiClient
+@inject ToastService Toast
+@inject IJSRuntime JS
+
+<SfSidebar @ref="_sidebar"
+           class="app-sidebar"
+           Width="220px"
+           Type="SidebarType.Over"
+           Target="body"
+           EnableDock="true"
+           DockSize="64px"
+           EnableGestures="false"
+           IsOpen="_sidebarOpen"
+           IsOpenChanged="OnSidebarOpenChanged">
+    <ChildContent>
+        <div class="sidebar-header">
+            <span class="sidebar-title">Timeline 管理</span>
+            <SfButton IconCss="e-icons e-menu"
+                      CssClass="e-flat e-small sidebar-toggle"
+                      @onclick="ToggleSidebar" />
+        </div>
+        <NavMenu @key="Nav.Uri" />
+    </ChildContent>
+</SfSidebar>
+
+<div id="admin-maincontent" class="main-body maincontent" style="@MainContentStyle">
+    <div class="top-bar">
+        <span class="spacer"></span>
+        <ThemeSwitcher />
+        <AuthorizeView>
+            <Authorized>
+                <span class="top-bar-user">@context.User.Identity?.Name</span>
+                <SfButton Content="修改密码" CssClass="e-small e-outline" @onclick="OpenPasswordDialog" />
+                <SfButton Content="退出" CssClass="e-small e-outline" @onclick="LogoutAsync" />
+            </Authorized>
+        </AuthorizeView>
+    </div>
+    <div class="page-content">
+        @Body
+    </div>
+</div>
+
+<SfToast @ref="_toast" ShowCloseButton="true" Target="body">
+    <ToastPosition X="Right" Y="Top" />
+</SfToast>
+
+<SfDialog @bind-Visible="_pwdDialogVisible" Width="420px" Header="修改密码"
+          ShowCloseIcon="true" IsModal="true">
+    <DialogTemplates>
+        <Content>
+            <div class="pwd-dialog-form">
+                <div class="form-row">
+                    <label>当前密码</label>
+                    <SfTextBox @bind-Value="_pwdOld" Type="InputType.Password" CssClass="e-small" />
+                </div>
+                <div class="form-row">
+                    <label>新密码</label>
+                    <SfTextBox @bind-Value="_pwdNew" Type="InputType.Password" CssClass="e-small" />
+                </div>
+                <div class="form-row">
+                    <label>确认新密码</label>
+                    <SfTextBox @bind-Value="_pwdNew2" Type="InputType.Password" CssClass="e-small" />
+                </div>
+            </div>
+        </Content>
+    </DialogTemplates>
+    <DialogButtons>
+        <DialogButton Content="取消" OnClick="@ClosePasswordDialog" />
+        <DialogButton Content="确定" IsPrimary="true" OnClick="@SubmitPasswordChangeAsync" />
+    </DialogButtons>
+</SfDialog>
+
+@code {
+    const string SidebarStorageKey = "timeline.sidebar.admin";
+    SfSidebar? _sidebar;
+    SfToast? _toast;
+    bool _sidebarOpen = true;
+    bool _sidebarStateLoaded;
+    bool _pwdDialogVisible;
+    string _pwdOld = string.Empty;
+    string _pwdNew = string.Empty;
+    string _pwdNew2 = string.Empty;
+
+    // 与 EpochAI 管理端保持一致：展开时主内容避让完整侧栏宽度，收起时保留 dock 宽度。
+    string MainContentStyle => _sidebarOpen
+        ? "margin-left:220px;width:calc(100% - 220px);"
+        : "margin-left:64px;width:calc(100% - 64px);";
+
+    protected override void OnInitialized()
+    {
+        Toast.OnShow += ShowToast;
+        Nav.LocationChanged += OnNavLocationChanged;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender) return;
+        await AuthService.InitializeAsync();
+        try
+        {
+            var saved = await JS.InvokeAsync<string?>("getSidebarOpenState", SidebarStorageKey);
+            _sidebarOpen = saved != "0";
+            _sidebarStateLoaded = true;
+            StateHasChanged();
+        }
+        catch { _sidebarStateLoaded = true; }
+    }
+
+    void OnNavLocationChanged(object? sender, LocationChangedEventArgs e) => _ = InvokeAsync(StateHasChanged);
+
+    async Task OnSidebarOpenChanged(bool open)
+    {
+        if (_sidebarOpen == open) return;
+        _sidebarOpen = open;
+        if (!_sidebarStateLoaded) return;
+        await PersistSidebarAsync();
+    }
+
+    async Task ToggleSidebar()
+    {
+        _sidebarOpen = !_sidebarOpen;
+        if (!_sidebarStateLoaded) return;
+        await PersistSidebarAsync();
+    }
+
+    async Task PersistSidebarAsync()
+    {
+        try { await JS.InvokeVoidAsync("setSidebarOpenState", SidebarStorageKey, _sidebarOpen); }
+        catch { }
+    }
+
+    async Task LogoutAsync()
+    {
+        await AuthService.LogoutAsync();
+        Nav.NavigateTo("/login", replace: true);
+    }
+
+    void OpenPasswordDialog()
+    {
+        _pwdOld = _pwdNew = _pwdNew2 = string.Empty;
+        _pwdDialogVisible = true;
+    }
+
+    void ClosePasswordDialog() => _pwdDialogVisible = false;
+
+    async Task SubmitPasswordChangeAsync()
+    {
+        if (string.IsNullOrWhiteSpace(_pwdOld))
+        {
+            ShowToast("请输入当前密码", "danger");
+            return;
+        }
+        if (string.IsNullOrWhiteSpace(_pwdNew) || _pwdNew.Length < 8)
+        {
+            ShowToast("新密码不能少于 8 位", "danger");
+            return;
+        }
+        if (_pwdNew != _pwdNew2)
+        {
+            ShowToast("两次输入的新密码不一致", "danger");
+            return;
+        }
+
+        var (ok, err) = await ApiClient.ChangeOwnPasswordAsync(_pwdOld, _pwdNew);
+        if (!ok)
+        {
+            ShowToast(err ?? "修改失败", "danger");
+            if (err?.Contains("未授权", StringComparison.Ordinal) == true
+                || err?.Contains("Unauthorized", StringComparison.OrdinalIgnoreCase) == true
+                || err?.Contains("重新登录", StringComparison.Ordinal) == true)
+            {
+                await AuthService.LogoutAsync();
+                Nav.NavigateTo("/login", replace: true);
+            }
+            return;
+        }
+
+        ShowToast("密码已更新", "success");
+        ClosePasswordDialog();
+    }
+
+    void ShowToast(string message, string type)
+    {
+        var text = string.IsNullOrWhiteSpace(message)
+            ? (type == "danger" ? "操作失败，请稍后重试" : "操作完成")
+            : message;
+
+        _ = InvokeAsync(async () =>
+        {
+            if (_toast is null) return;
+            await _toast.ShowAsync(new ToastModel
+            {
+                Title = text,
+                Content = "",
+                CssClass = type == "danger" ? "e-toast-danger" : "e-toast-success",
+                Timeout = type == "danger" ? 8000 : 3500
+            });
+        });
+    }
+
+    public void Dispose()
+    {
+        Toast.OnShow -= ShowToast;
+        Nav.LocationChanged -= OnNavLocationChanged;
+    }
+}

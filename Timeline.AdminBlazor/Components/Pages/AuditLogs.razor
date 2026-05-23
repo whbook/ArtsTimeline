@@ -1,0 +1,30 @@
+@page "/audit-logs"
+@attribute [Authorize]
+@inject AdminApiClient Api
+@inject AuthService AuthService
+
+<h2 class="page-title">操作日志</h2>
+
+<SfGrid DataSource="@_items" AllowPaging="true" Height="calc(100vh - 160px)">
+    <GridPageSettings PageSize="20" />
+    <GridColumns>
+        <GridColumn Field="@nameof(AuditLogListItem.CreatedAt)" HeaderText="时间" Format="yyyy-MM-dd HH:mm:ss" Width="160" />
+        <GridColumn Field="@nameof(AuditLogListItem.AdminUsername)" HeaderText="操作人" Width="100" />
+        <GridColumn Field="@nameof(AuditLogListItem.Action)" HeaderText="动作" Width="80" />
+        <GridColumn Field="@nameof(AuditLogListItem.EntityType)" HeaderText="对象类型" Width="120" />
+        <GridColumn Field="@nameof(AuditLogListItem.EntityLabel)" HeaderText="对象" Width="140" />
+        <GridColumn Field="@nameof(AuditLogListItem.Summary)" HeaderText="摘要" Width="260" />
+        <GridColumn Field="@nameof(AuditLogListItem.IpAddress)" HeaderText="IP" Width="120" />
+    </GridColumns>
+</SfGrid>
+
+@code {
+    private List<AuditLogListItem> _items = [];
+
+    protected override async Task OnInitializedAsync()
+    {
+        await AuthService.InitializeAsync();
+        var result = await Api.GetAuditLogsAsync();
+        _items = result?.Items ?? [];
+    }
+}

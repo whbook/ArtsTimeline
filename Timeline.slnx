@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Timeline.AdminBlazor/Timeline.AdminBlazor.csproj" />
+  <Project Path="Timeline.Api/Timeline.Api.csproj" />
+</Solution>

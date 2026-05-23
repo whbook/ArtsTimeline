@@ -1,0 +1,13 @@
+@inject NavigationManager Nav
+@inject AuthService AuthService
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender) return;
+
+        var restored = await AuthService.RestoreSessionAsync();
+        if (!restored)
+            Nav.NavigateTo("/login", replace: true);
+    }
+}

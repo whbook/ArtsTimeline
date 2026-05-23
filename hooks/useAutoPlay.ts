@@ -126,24 +126,22 @@ export function useAutoPlay(
 
         // Calculate speed
         const topicMultiplier = topicData.topic.playbackSpeed || 1;
-        // Adjust base speed based on screen width (wider screen = faster pan to cover same visual distance)
-        let speed = AUTOPLAY_BASE_SPEED * topicMultiplier * scaleX;
+        
+        // 确保物理滑动速度（屏幕百分比/秒）保持恒定，与放大倍数（range的大小）完全无关！
+        // 我们设定基准正常播放速度为：每秒平移当前视口范围（range）的 1.25%
+        // 乘上用户配置的播放速度倍率 topicMultiplier 以及屏幕自适应系数 scaleX
+        let speed = range * 0.0125 * topicMultiplier * scaleX;
 
         // Smart fast-forward if far from first event
         const distanceToFirstEvent = firstEventYear - prev.endYear;
-        
-        // Make sure base speed scales somewhat with the viewport range 
-        // so it doesn't feel too slow when zoomed out (e.g. pan 2% of screen per second)
-        const relativeSpeed = range * 0.02 * topicMultiplier * scaleX; 
-        speed = Math.max(speed, relativeSpeed);
 
         if (distanceToFirstEvent > range) {
-          // Fast forward = pan 1.5 screens per second to skip empty space quickly
-          speed = Math.max(AUTOPLAY_FAST_SPEED * scaleX, range * 1.5); 
+          // 快进速度也应当与 range 成正比（每秒平移 1.2 个屏幕宽度），从而与放大倍率无关
+          speed = range * 1.2 * scaleX; 
         } else if (distanceToFirstEvent > 0) {
-          // Decelerate smoothly as we approach the first event
+          // 逼近首个事件时平滑减速：从快进速度（1.2屏/秒）平滑减速到正常播放速度
           const factor = distanceToFirstEvent / range;
-          const fastSpeed = Math.max(AUTOPLAY_FAST_SPEED * scaleX, range * 1.5);
+          const fastSpeed = range * 1.2 * scaleX;
           speed = speed + (fastSpeed - speed) * factor;
         }
 

@@ -2,7 +2,7 @@
   "id": "world-art-chronology",
   "titleEn": "World Art Chronology",
   "titleCn": "世界艺术编年史",
-  "description": "Global art chronology organized by standard historical and art-historical periods. / 按标准历史与艺术史分期组织的世界艺术编年史。",
+  "description": "世界艺术编年史主题展：按标准历史与艺术史分期组织的全球艺术事件库，覆盖多国别、多类型艺术事件。共 3816 条事件，默认视口约公元前 3000 年至 2025 年，启用分块加载；扩展字段含国家、原始/标准分期与事件类型。",
   "color": "#1F8A70",
   "defaultViewport": {
     "startYear": -3000,

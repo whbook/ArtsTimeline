@@ -105,3 +105,14 @@ export const formatTimelineDate = (decimalYear: number, precision: 'year' | 'mon
   }
   return yearLabel;
 };
+
+export function getApiBaseUrl(): string {
+  const { hostname, protocol } = window.location;
+  if (hostname === 'localhost' || hostname === '127.0.0.1') {
+    return 'http://localhost:5287';
+  }
+  if (hostname.startsWith('timeline.')) {
+    return `${protocol}//${hostname.replace('timeline.', 'timeline-api.')}`;
+  }
+  return `${protocol}//${hostname}:5287`;
+}

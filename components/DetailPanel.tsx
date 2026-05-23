@@ -35,9 +35,21 @@ type RenderedSection = SectionData & { state: 'entering' | 'entered' | 'exiting'
 
 const EventDetailPane: React.FC<{
   topic: Topic;
-  event: TimelineEvent | null;
-}> = ({ topic, event }) => {
-  if (!event) {
+  events: TimelineEvent[];
+}> = ({ topic, events }) => {
+  const [activeId, setActiveId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (events.length > 0) {
+      if (!activeId || !events.some(e => e.id === activeId)) {
+        setActiveId(events[0].id);
+      }
+    } else {
+      setActiveId(null);
+    }
+  }, [events, activeId]);
+
+  if (events.length === 0) {
     return (
       <div className="flex h-full flex-col items-center justify-center rounded-lg border border-dashed border-stone-300 bg-white/70 px-8 text-center shadow-inner">
         <div className="mb-3 font-serif text-2xl font-bold text-stone-700">作品详情</div>
@@ -47,6 +59,9 @@ const EventDetailPane: React.FC<{
       </div>
     );
   }
+
+  const activeEvent = events.find(e => e.id === activeId) || events[0];
+  const event = activeEvent;
 
   const titleCn = event.titleCn?.trim();
   const titleEn = event.titleEn?.trim();
@@ -70,6 +85,31 @@ const EventDetailPane: React.FC<{
 
   return (
     <div className="flex h-full min-w-0 flex-col overflow-hidden rounded-lg border border-stone-200 bg-white shadow-sm">
+      {events.length > 1 && (
+        <div className="flex items-center border-b border-stone-100 bg-stone-50/50 px-4 pt-2 gap-1 overflow-x-auto custom-scrollbar shrink-0">
+          {events.map((evt, idx) => {
+            const isSelected = evt.id === activeEvent.id;
+            const title = evt.titleCn?.trim() || evt.titleEn?.trim() || `作品 ${idx + 1}`;
+            return (
+              <button
+                key={evt.id}
+                onClick={() => setActiveId(evt.id)}
+                className={`px-4 py-2 text-xs font-serif font-bold transition-all rounded-t-md border-t border-x -mb-px shrink-0 select-none relative focus:outline-none ${
+                  isSelected
+                    ? 'bg-white border-stone-200 text-stone-950 shadow-sm'
+                    : 'bg-transparent border-transparent text-stone-400 hover:text-stone-700 hover:bg-stone-100/50'
+                }`}
+              >
+                <span className="truncate max-w-[120px] block">{title}</span>
+                {isSelected && (
+                  <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-amber-800 rounded-full" />
+                )}
+              </button>
+            );
+          })}
+        </div>
+      )}
+
       <div className="border-b border-stone-100 bg-stone-50/80 p-4">
         <div className="mb-2 text-[10px] font-bold uppercase tracking-[0.24em] text-stone-400">
           Artwork Detail / 作品详情
@@ -382,37 +422,40 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, even
   const range = viewport.endYear - viewport.startYear;
   const centerYear = viewport.startYear + range / 2;
 
-  const centeredEvent = useMemo(() => {
-    if (events.length === 0 || range <= 0) return null;
+  const centeredEvents = useMemo(() => {
+    if (events.length === 0 || range <= 0) return [];
 
     const viewportWidth = typeof window !== 'undefined' ? window.innerWidth : 1200;
     const centerBandYears = (range / Math.max(viewportWidth, 1)) * 72;
     const minBandYears = range * 0.005;
     const thresholdYears = Math.max(centerBandYears, minBandYears);
 
-    let nearestEvent: TimelineEvent | null = null;
-    let nearestDistance = Infinity;
+    // 找出所有在阈值范围内的作品
+    const matches = events
+      .map(event => {
+        const distance = Math.abs(getDecimalYear(event.date) - centerYear);
+        return { event, distance };
+      })
+      .filter(item => item.distance <= thresholdYears)
+      .sort((a, b) => a.distance - b.distance) // 按距离从小到大排序
+      .map(item => item.event);
 
-    events.forEach(event => {
-      const distance = Math.abs(getDecimalYear(event.date) - centerYear);
-      if (distance < nearestDistance) {
-        nearestDistance = distance;
-        nearestEvent = event;
-      }
-    });
-
-    return nearestDistance <= thresholdYears ? nearestEvent : null;
+    return matches;
   }, [events, centerYear, range]);
 
-  const [displayedEvent, setDisplayedEvent] = useState<TimelineEvent | null>(null);
+  const [displayedEvents, setDisplayedEvents] = useState<TimelineEvent[]>([]);
 
   useEffect(() => {
-    setDisplayedEvent(prev => {
-      if (centeredEvent) return centeredEvent;
-      if (prev && events.some(event => event.id === prev.id)) return prev;
-      return null;
+    setDisplayedEvents(prev => {
+      if (centeredEvents.length > 0) return centeredEvents;
+      
+      // 检查 prev 中的作品是否仍在当前的 events 列表中
+      const validPrev = prev.filter(p => events.some(event => event.id === p.id));
+      if (validPrev.length > 0) return validPrev;
+      
+      return [];
     });
-  }, [centeredEvent, events]);
+  }, [centeredEvents, events]);
 
   // 动态计算当前红线位置激活的所有区块（仅限流派 Stream，不再显示大时代 Period）
   const activeSections = React.useMemo(() => {
@@ -648,7 +691,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, even
       )}
 
       <div className={`h-full min-w-0 flex-1 bg-[#f8f8f5] p-4 ${hasLanePane ? 'pl-0' : 'pl-4'}`}>
-        <EventDetailPane topic={topic} event={displayedEvent} />
+        <EventDetailPane topic={topic} events={displayedEvents} />
       </div>
     </div>
   );

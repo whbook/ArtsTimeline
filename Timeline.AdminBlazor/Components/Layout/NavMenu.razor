@@ -1,0 +1,77 @@
+@inject NavigationManager Nav
+@implements IDisposable
+
+<ul class="nav-list">
+    <li>
+        <a class="nav-item @IsActive("/")" href="/">
+            <span class="e-icons e-home"></span>
+            <span>仪表盘</span>
+        </a>
+    </li>
+    <li>
+        <a class="nav-item @IsActive("/organizations")" href="/organizations">
+            <svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M22 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg>
+            <span>客户管理</span>
+        </a>
+    </li>
+    <li>
+        <a class="nav-item @IsActive("/devices")" href="/devices">
+            <svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" /><path d="M8 21h8M12 17v4" /></svg>
+            <span>设备管理</span>
+        </a>
+    </li>
+    <li>
+        <a class="nav-item @IsActive("/exhibitions")" href="/exhibitions">
+            <span class="e-icons e-image"></span>
+            <span>展览管理</span>
+        </a>
+    </li>
+    <AuthorizeView Roles="super_admin">
+        <li>
+            <a class="nav-item @IsActive("/global-settings")" href="/global-settings">
+                <svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+                <span>全局设置</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav-item @IsActive("/admin-users")" href="/admin-users">
+                <svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>
+                <span>系统用户</span>
+            </a>
+        </li>
+    </AuthorizeView>
+    <li>
+        <a class="nav-item @IsActive("/audit-logs")" href="/audit-logs">
+            <span class="e-icons e-description"></span>
+            <span>操作日志</span>
+        </a>
+    </li>
+</ul>
+
+@code {
+    protected override void OnInitialized() => Nav.LocationChanged += OnLocationChanged;
+
+    void OnLocationChanged(object? sender, LocationChangedEventArgs e) => _ = InvokeAsync(StateHasChanged);
+
+    public void Dispose() => Nav.LocationChanged -= OnLocationChanged;
+
+    string IsActive(string href)
+    {
+        var path = NormalizeAppPath(Nav);
+        if (href == "/") return path is "" or "home" ? "active" : string.Empty;
+        var segment = href.Trim('/').TrimEnd('/');
+        return string.Equals(path, segment, StringComparison.OrdinalIgnoreCase)
+               || path.StartsWith(segment + "/", StringComparison.OrdinalIgnoreCase)
+            ? "active" : string.Empty;
+    }
+
+    static string NormalizeAppPath(NavigationManager nav)
+    {
+        var rel = nav.ToBaseRelativePath(nav.Uri);
+        var q = rel.IndexOf('?', StringComparison.Ordinal);
+        if (q >= 0) rel = rel[..q];
+        var h = rel.IndexOf('#', StringComparison.Ordinal);
+        if (h >= 0) rel = rel[..h];
+        return rel.Trim('/').ToLowerInvariant();
+    }
+}

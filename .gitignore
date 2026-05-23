@@ -23,6 +23,18 @@ dist-ssr
 *.sln
 *.sw?
 
+# .NET / Timeline backend
+!Timeline.slnx
+!scripts/*.ps1
+!.cursor/skills/remote-deploy/scripts/*.ps1
+!.cursor/skills/remote-deploy/server/*.conf
+**/bin/
+**/obj/
+_publish/
+Timeline.Api/appsettings.Production.json
+Timeline.AdminBlazor/appsettings.Production.json
+docker/.env
+
 # Build and Deployment artifacts
 *.zip
 *.ps1

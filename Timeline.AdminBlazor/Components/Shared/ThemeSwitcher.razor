@@ -1,0 +1,70 @@
+@inject NavigationManager Nav
+@inject IJSRuntime JS
+@using Timeline.AdminBlazor.Services
+
+<div class="theme-switcher-wrap">
+    <button type="button"
+            class="top-bar-icon-btn"
+            title="切换主题"
+            aria-label="切换界面主题"
+            @onclick="TogglePanel"
+            @onclick:stopPropagation="true">
+        <svg class="theme-switcher-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <g stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3.25" />
+                <path d="M12 2.25v2.2M12 19.55v2.2M4.34 4.34l1.56 1.56M18.1 18.1l1.56 1.56M2.25 12h2.2M19.55 12h2.2M4.34 19.66l1.56-1.56M18.1 5.9l1.56-1.56" />
+            </g>
+        </svg>
+    </button>
+    @if (_open)
+    {
+        <div class="theme-switcher-backdrop" @onclick="ClosePanel"></div>
+        <div class="theme-switcher-panel shadow-popover" role="listbox" @onclick:stopPropagation="true">
+            @foreach (var t in Themes)
+            {
+                <button type="button"
+                        role="option"
+                        class="theme-switcher-item @(t.Id == current ? "is-active" : "")"
+                        @onclick="@(() => SelectThemeAsync(t))">
+                    @t.Name
+                </button>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    const string DefaultTheme = ThemeNames.Default;
+    string current = DefaultTheme;
+    bool _open;
+
+    record ThemeItem(string Id, string Name);
+
+    readonly List<ThemeItem> Themes = ThemeNames.SwitcherOptions
+        .Select(t => new ThemeItem(t.Id, t.Name))
+        .ToList();
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender) return;
+        try
+        {
+            var saved = await JS.InvokeAsync<string?>("getThemeCookieValue");
+            if (!string.IsNullOrEmpty(saved) && Themes.Any(t => t.Id == saved))
+            {
+                current = saved;
+                StateHasChanged();
+            }
+        }
+        catch { }
+    }
+
+    void TogglePanel() => _open = !_open;
+    void ClosePanel() => _open = false;
+
+    async Task SelectThemeAsync(ThemeItem item)
+    {
+        await JS.InvokeVoidAsync("setThemeCookie", item.Id);
+        Nav.NavigateTo(Nav.Uri, forceLoad: true);
+    }
+}

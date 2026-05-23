@@ -2,7 +2,7 @@
   "id": "japanese-art",
   "titleEn": "Japanese Art History",
   "titleCn": "日本艺术史",
-  "description": "A timeline of Japanese Art History, covering major periods, movements, and iconic artworks. / 日本艺术史时间轴，涵盖主要时代、流派与标志性艺术作品。",
+  "description": "日本艺术史主题展：涵盖绳文、飞鸟、平安、室町、江户至近现代的主要时代、流派与标志性作品。共 11 条精选事件，默认视口约公元前 1000 年至 2050 年，扩展字段含艺术家、媒介/材质与现藏地。",
   "color": "#2E86C1",
   "defaultViewport": {
     "startYear": -1000,
