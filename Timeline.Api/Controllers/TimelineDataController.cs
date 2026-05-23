@@ -5,7 +5,6 @@ using Timeline.Api.Data;
 using Timeline.Api.Models;
 using Timeline.Api.Models.DTOs;
 using Timeline.Api.Services;
-using Stream = Timeline.Api.Models.Stream;
 
 namespace Timeline.Api.Controllers;
 
@@ -23,7 +22,7 @@ public class TimelineDataController : ApiControllerBase
         _audit = audit;
     }
 
-    #region Periods (时代分期)
+    #region Periods (分期)
 
     [HttpGet("exhibitions/{exhibitionId:guid}/periods")]
     public async Task<ActionResult<List<PeriodDto>>> GetPeriods(Guid exhibitionId, CancellationToken ct)
@@ -40,14 +39,10 @@ public class TimelineDataController : ApiControllerBase
     public async Task<ActionResult<PeriodDto>> CreatePeriod([FromBody] PeriodDto dto, CancellationToken ct)
     {
         if (!CanWrite()) return Forbid();
-        if (string.IsNullOrWhiteSpace(dto.Id)) return BadRequest("分期 ID 不能为空");
-
-        var exists = await _db.Periods.AnyAsync(p => p.ExhibitionId == dto.ExhibitionId && p.Id == dto.Id, ct);
-        if (exists) return BadRequest($"分期 ID [{dto.Id}] 在该展览中已存在");
 
         var period = new Period
         {
-            Id = dto.Id.Trim(),
+            Id = Guid.NewGuid(),
             ExhibitionId = dto.ExhibitionId,
             NameCn = dto.NameCn,
             NameEn = dto.NameEn,
@@ -62,14 +57,14 @@ public class TimelineDataController : ApiControllerBase
         await _db.SaveChangesAsync(ct);
 
         await _audit.LogAsync(GetAdminUserId(), GetAdminUsername(), "create", "Period",
-            null, period.Id, $"创建时代分期 [{period.NameCn}]",
+            period.Id, period.NameCn, $"创建分期 [{period.NameCn}]",
             ipAddress: GetClientIp(), userAgent: GetUserAgent(), ct: ct);
 
         return Created("", MapPeriodToDto(period));
     }
 
-    [HttpPut("periods/{id}")]
-    public async Task<ActionResult<PeriodDto>> UpdatePeriod(string id, [FromBody] PeriodDto dto, CancellationToken ct)
+    [HttpPut("periods/{id:guid}")]
+    public async Task<ActionResult<PeriodDto>> UpdatePeriod(Guid id, [FromBody] PeriodDto dto, CancellationToken ct)
     {
         if (!CanWrite()) return Forbid();
 
@@ -87,14 +82,14 @@ public class TimelineDataController : ApiControllerBase
         await _db.SaveChangesAsync(ct);
 
         await _audit.LogAsync(GetAdminUserId(), GetAdminUsername(), "update", "Period",
-            null, period.Id, $"更新时代分期 [{period.NameCn}]",
+            period.Id, period.NameCn, $"更新分期 [{period.NameCn}]",
             ipAddress: GetClientIp(), userAgent: GetUserAgent(), ct: ct);
 
         return Ok(MapPeriodToDto(period));
     }
 
-    [HttpDelete("periods/{exhibitionId:guid}/{id}")]
-    public async Task<IActionResult> DeletePeriod(Guid exhibitionId, string id, CancellationToken ct)
+    [HttpDelete("periods/{exhibitionId:guid}/{id:guid}")]
+    public async Task<IActionResult> DeletePeriod(Guid exhibitionId, Guid id, CancellationToken ct)
     {
         if (!CanWrite()) return Forbid();
 
@@ -105,7 +100,7 @@ public class TimelineDataController : ApiControllerBase
         await _db.SaveChangesAsync(ct);
 
         await _audit.LogAsync(GetAdminUserId(), GetAdminUsername(), "delete", "Period",
-            null, id, $"删除时代分期 [{period.NameCn}]",
+            id, period.NameCn, $"删除分期 [{period.NameCn}]",
             ipAddress: GetClientIp(), userAgent: GetUserAgent(), ct: ct);
 
         return NoContent();
@@ -113,39 +108,35 @@ public class TimelineDataController : ApiControllerBase
 
     #endregion
 
-    #region Streams (流派泳道)
+    #region Swimlanes (泳道)
 
-    [HttpGet("exhibitions/{exhibitionId:guid}/streams")]
-    public async Task<ActionResult<List<StreamDto>>> GetStreams(Guid exhibitionId, CancellationToken ct)
+    [HttpGet("exhibitions/{exhibitionId:guid}/swimlanes")]
+    public async Task<ActionResult<List<SwimlaneDto>>> GetSwimlanes(Guid exhibitionId, CancellationToken ct)
     {
-        var list = await _db.Streams.AsNoTracking()
+        var list = await _db.Swimlanes.AsNoTracking()
             .Where(s => s.ExhibitionId == exhibitionId)
             .OrderBy(s => s.Lane).ThenBy(s => s.Start.Year)
-            .Select(s => MapStreamToDto(s))
+            .Select(s => MapSwimlaneToDto(s))
             .ToListAsync(ct);
         return Ok(list);
     }
 
-    [HttpPost("streams")]
-    public async Task<ActionResult<StreamDto>> CreateStream([FromBody] StreamDto dto, CancellationToken ct)
+    [HttpPost("swimlanes")]
+    public async Task<ActionResult<SwimlaneDto>> CreateSwimlane([FromBody] SwimlaneDto dto, CancellationToken ct)
     {
         if (!CanWrite()) return Forbid();
-        if (string.IsNullOrWhiteSpace(dto.Id)) return BadRequest("泳道 ID 不能为空");
 
-        var exists = await _db.Streams.AnyAsync(s => s.ExhibitionId == dto.ExhibitionId && s.Id == dto.Id, ct);
-        if (exists) return BadRequest($"泳道 ID [{dto.Id}] 在该展览中已存在");
-
-        if (!string.IsNullOrWhiteSpace(dto.PeriodId))
+        if (dto.PeriodId.HasValue && dto.PeriodId != Guid.Empty)
         {
-            var pExists = await _db.Periods.AnyAsync(p => p.ExhibitionId == dto.ExhibitionId && p.Id == dto.PeriodId, ct);
-            if (!pExists) return BadRequest($"关联时代分期 [{dto.PeriodId}] 不存在");
+            var pExists = await _db.Periods.AnyAsync(p => p.ExhibitionId == dto.ExhibitionId && p.Id == dto.PeriodId.Value, ct);
+            if (!pExists) return BadRequest($"关联分期 [{dto.PeriodId}] 不存在");
         }
 
-        var stream = new Stream
+        var swimlane = new Swimlane
         {
-            Id = dto.Id.Trim(),
+            Id = Guid.NewGuid(),
             ExhibitionId = dto.ExhibitionId,
-            PeriodId = string.IsNullOrWhiteSpace(dto.PeriodId) ? null : dto.PeriodId,
+            PeriodId = (dto.PeriodId.HasValue && dto.PeriodId != Guid.Empty) ? dto.PeriodId : null,
             NameCn = dto.NameCn,
             NameEn = dto.NameEn,
             Color = dto.Color,
@@ -156,63 +147,62 @@ public class TimelineDataController : ApiControllerBase
             End = MapFuzzyDate(dto.End)
         };
 
-        _db.Streams.Add(stream);
+        _db.Swimlanes.Add(swimlane);
         await _db.SaveChangesAsync(ct);
 
-        await _audit.LogAsync(GetAdminUserId(), GetAdminUsername(), "create", "Stream",
-            null, stream.Id, $"创建流派泳道 [{stream.NameCn}]",
+        await _audit.LogAsync(GetAdminUserId(), GetAdminUsername(), "create", "Swimlane",
+            swimlane.Id, swimlane.NameCn, $"创建泳道 [{swimlane.NameCn}]",
             ipAddress: GetClientIp(), userAgent: GetUserAgent(), ct: ct);
 
-        return Created("", MapStreamToDto(stream));
+        return Created("", MapSwimlaneToDto(swimlane));
     }
 
-    [System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0060")]
-    [HttpPut("streams/{id}")]
-    public async Task<ActionResult<StreamDto>> UpdateStream(string id, [FromBody] StreamDto dto, CancellationToken ct)
+    [HttpPut("swimlanes/{id:guid}")]
+    public async Task<ActionResult<SwimlaneDto>> UpdateSwimlane(Guid id, [FromBody] SwimlaneDto dto, CancellationToken ct)
     {
         if (!CanWrite()) return Forbid();
 
-        var stream = await _db.Streams.FirstOrDefaultAsync(s => s.ExhibitionId == dto.ExhibitionId && s.Id == id, ct);
-        if (stream is null) return NotFound();
+        var swimlane = await _db.Swimlanes.FirstOrDefaultAsync(s => s.ExhibitionId == dto.ExhibitionId && s.Id == id, ct);
+        if (swimlane is null) return NotFound();
 
-        if (!string.IsNullOrWhiteSpace(dto.PeriodId))
+        if (dto.PeriodId.HasValue && dto.PeriodId != Guid.Empty)
         {
-            var pExists = await _db.Periods.AnyAsync(p => p.ExhibitionId == dto.ExhibitionId && p.Id == dto.PeriodId, ct);
-            if (!pExists) return BadRequest($"关联时代分期 [{dto.PeriodId}] 不存在");
+            var pExists = await _db.Periods.AnyAsync(p => p.ExhibitionId == dto.ExhibitionId && p.Id == dto.PeriodId.Value, ct);
+            if (!pExists) return BadRequest($"关联分期 [{dto.PeriodId}] 不存在");
         }
 
-        stream.PeriodId = string.IsNullOrWhiteSpace(dto.PeriodId) ? null : dto.PeriodId;
-        stream.NameCn = dto.NameCn;
-        stream.NameEn = dto.NameEn;
-        stream.Color = dto.Color;
-        stream.Lane = dto.Lane;
-        stream.DescriptionCn = dto.DescriptionCn;
-        stream.DescriptionEn = dto.DescriptionEn;
-        stream.Start = MapFuzzyDate(dto.Start);
-        stream.End = MapFuzzyDate(dto.End);
+        swimlane.PeriodId = (dto.PeriodId.HasValue && dto.PeriodId != Guid.Empty) ? dto.PeriodId : null;
+        swimlane.NameCn = dto.NameCn;
+        swimlane.NameEn = dto.NameEn;
+        swimlane.Color = dto.Color;
+        swimlane.Lane = dto.Lane;
+        swimlane.DescriptionCn = dto.DescriptionCn;
+        swimlane.DescriptionEn = dto.DescriptionEn;
+        swimlane.Start = MapFuzzyDate(dto.Start);
+        swimlane.End = MapFuzzyDate(dto.End);
 
         await _db.SaveChangesAsync(ct);
 
-        await _audit.LogAsync(GetAdminUserId(), GetAdminUsername(), "update", "Stream",
-            null, stream.Id, $"更新流派泳道 [{stream.NameCn}]",
+        await _audit.LogAsync(GetAdminUserId(), GetAdminUsername(), "update", "Swimlane",
+            swimlane.Id, swimlane.NameCn, $"更新泳道 [{swimlane.NameCn}]",
             ipAddress: GetClientIp(), userAgent: GetUserAgent(), ct: ct);
 
-        return Ok(MapStreamToDto(stream));
+        return Ok(MapSwimlaneToDto(swimlane));
     }
 
-    [HttpDelete("streams/{exhibitionId:guid}/{id}")]
-    public async Task<IActionResult> DeleteStream(Guid exhibitionId, string id, CancellationToken ct)
+    [HttpDelete("swimlanes/{exhibitionId:guid}/{id:guid}")]
+    public async Task<IActionResult> DeleteSwimlane(Guid exhibitionId, Guid id, CancellationToken ct)
     {
         if (!CanWrite()) return Forbid();
 
-        var stream = await _db.Streams.FirstOrDefaultAsync(s => s.ExhibitionId == exhibitionId && s.Id == id, ct);
-        if (stream is null) return NotFound();
+        var swimlane = await _db.Swimlanes.FirstOrDefaultAsync(s => s.ExhibitionId == exhibitionId && s.Id == id, ct);
+        if (swimlane is null) return NotFound();
 
-        _db.Streams.Remove(stream);
+        _db.Swimlanes.Remove(swimlane);
         await _db.SaveChangesAsync(ct);
 
-        await _audit.LogAsync(GetAdminUserId(), GetAdminUsername(), "delete", "Stream",
-            null, id, $"删除流派泳道 [{stream.NameCn}]",
+        await _audit.LogAsync(GetAdminUserId(), GetAdminUsername(), "delete", "Swimlane",
+            id, swimlane.NameCn, $"删除泳道 [{swimlane.NameCn}]",
             ipAddress: GetClientIp(), userAgent: GetUserAgent(), ct: ct);
 
         return NoContent();
@@ -264,8 +254,8 @@ public class TimelineDataController : ApiControllerBase
         });
     }
 
-    [HttpGet("events/{exhibitionId:guid}/{id}")]
-    public async Task<ActionResult<TimelineEventDto>> GetEvent(Guid exhibitionId, string id, CancellationToken ct)
+    [HttpGet("events/{exhibitionId:guid}/{id:guid}")]
+    public async Task<ActionResult<TimelineEventDto>> GetEvent(Guid exhibitionId, Guid id, CancellationToken ct)
     {
         var ev = await _db.TimelineEvents.AsNoTracking()
             .FirstOrDefaultAsync(e => e.ExhibitionId == exhibitionId && e.Id == id, ct);
@@ -276,29 +266,25 @@ public class TimelineDataController : ApiControllerBase
     public async Task<ActionResult<TimelineEventDto>> CreateEvent([FromBody] TimelineEventDto dto, CancellationToken ct)
     {
         if (!CanWrite()) return Forbid();
-        if (string.IsNullOrWhiteSpace(dto.Id)) return BadRequest("事件 ID 不能为空");
 
-        var exists = await _db.TimelineEvents.AnyAsync(e => e.ExhibitionId == dto.ExhibitionId && e.Id == dto.Id, ct);
-        if (exists) return BadRequest($"事件 ID [{dto.Id}] 在该展览中已存在");
-
-        if (!string.IsNullOrWhiteSpace(dto.PeriodId))
+        if (dto.PeriodId.HasValue && dto.PeriodId != Guid.Empty)
         {
-            var pExists = await _db.Periods.AnyAsync(p => p.ExhibitionId == dto.ExhibitionId && p.Id == dto.PeriodId, ct);
-            if (!pExists) return BadRequest($"关联时代分期 [{dto.PeriodId}] 不存在");
+            var pExists = await _db.Periods.AnyAsync(p => p.ExhibitionId == dto.ExhibitionId && p.Id == dto.PeriodId.Value, ct);
+            if (!pExists) return BadRequest($"关联分期 [{dto.PeriodId}] 不存在");
         }
 
-        if (!string.IsNullOrWhiteSpace(dto.StreamId))
+        if (dto.SwimlaneId.HasValue && dto.SwimlaneId != Guid.Empty)
         {
-            var sExists = await _db.Streams.AnyAsync(s => s.ExhibitionId == dto.ExhibitionId && s.Id == dto.StreamId, ct);
-            if (!sExists) return BadRequest($"关联泳道 [{dto.StreamId}] 不存在");
+            var sExists = await _db.Swimlanes.AnyAsync(s => s.ExhibitionId == dto.ExhibitionId && s.Id == dto.SwimlaneId.Value, ct);
+            if (!sExists) return BadRequest($"关联泳道 [{dto.SwimlaneId}] 不存在");
         }
 
         var ev = new TimelineEvent
         {
-            Id = dto.Id.Trim(),
+            Id = Guid.NewGuid(),
             ExhibitionId = dto.ExhibitionId,
-            PeriodId = string.IsNullOrWhiteSpace(dto.PeriodId) ? null : dto.PeriodId,
-            StreamId = string.IsNullOrWhiteSpace(dto.StreamId) ? null : dto.StreamId,
+            PeriodId = (dto.PeriodId.HasValue && dto.PeriodId != Guid.Empty) ? dto.PeriodId : null,
+            SwimlaneId = (dto.SwimlaneId.HasValue && dto.SwimlaneId != Guid.Empty) ? dto.SwimlaneId : null,
             TitleCn = dto.TitleCn,
             TitleEn = dto.TitleEn,
             CreatorCn = dto.CreatorCn,
@@ -322,35 +308,34 @@ public class TimelineDataController : ApiControllerBase
         await _db.SaveChangesAsync(ct);
 
         await _audit.LogAsync(GetAdminUserId(), GetAdminUsername(), "create", "TimelineEvent",
-            null, ev.Id, $"创建卡片作品 [{ev.TitleCn}]",
+            ev.Id, ev.TitleCn, $"创建卡片作品 [{ev.TitleCn}]",
             ipAddress: GetClientIp(), userAgent: GetUserAgent(), ct: ct);
 
         return Created("", MapEventToDto(ev));
     }
 
-    [System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0060")]
-    [HttpPut("events/{id}")]
-    public async Task<ActionResult<TimelineEventDto>> UpdateEvent(string id, [FromBody] TimelineEventDto dto, CancellationToken ct)
+    [HttpPut("events/{id:guid}")]
+    public async Task<ActionResult<TimelineEventDto>> UpdateEvent(Guid id, [FromBody] TimelineEventDto dto, CancellationToken ct)
     {
         if (!CanWrite()) return Forbid();
 
         var ev = await _db.TimelineEvents.FirstOrDefaultAsync(e => e.ExhibitionId == dto.ExhibitionId && e.Id == id, ct);
         if (ev is null) return NotFound();
 
-        if (!string.IsNullOrWhiteSpace(dto.PeriodId))
+        if (dto.PeriodId.HasValue && dto.PeriodId != Guid.Empty)
         {
-            var pExists = await _db.Periods.AnyAsync(p => p.ExhibitionId == dto.ExhibitionId && p.Id == dto.PeriodId, ct);
-            if (!pExists) return BadRequest($"关联时代分期 [{dto.PeriodId}] 不存在");
+            var pExists = await _db.Periods.AnyAsync(p => p.ExhibitionId == dto.ExhibitionId && p.Id == dto.PeriodId.Value, ct);
+            if (!pExists) return BadRequest($"关联分期 [{dto.PeriodId}] 不存在");
         }
 
-        if (!string.IsNullOrWhiteSpace(dto.StreamId))
+        if (dto.SwimlaneId.HasValue && dto.SwimlaneId != Guid.Empty)
         {
-            var sExists = await _db.Streams.AnyAsync(s => s.ExhibitionId == dto.ExhibitionId && s.Id == dto.StreamId, ct);
-            if (!sExists) return BadRequest($"关联泳道 [{dto.StreamId}] 不存在");
+            var sExists = await _db.Swimlanes.AnyAsync(s => s.ExhibitionId == dto.ExhibitionId && s.Id == dto.SwimlaneId.Value, ct);
+            if (!sExists) return BadRequest($"关联泳道 [{dto.SwimlaneId}] 不存在");
         }
 
-        ev.PeriodId = string.IsNullOrWhiteSpace(dto.PeriodId) ? null : dto.PeriodId;
-        ev.StreamId = string.IsNullOrWhiteSpace(dto.StreamId) ? null : dto.StreamId;
+        ev.PeriodId = (dto.PeriodId.HasValue && dto.PeriodId != Guid.Empty) ? dto.PeriodId : null;
+        ev.SwimlaneId = (dto.SwimlaneId.HasValue && dto.SwimlaneId != Guid.Empty) ? dto.SwimlaneId : null;
         ev.TitleCn = dto.TitleCn;
         ev.TitleEn = dto.TitleEn;
         ev.CreatorCn = dto.CreatorCn;
@@ -371,14 +356,14 @@ public class TimelineDataController : ApiControllerBase
         await _db.SaveChangesAsync(ct);
 
         await _audit.LogAsync(GetAdminUserId(), GetAdminUsername(), "update", "TimelineEvent",
-            null, ev.Id, $"更新卡片作品 [{ev.TitleCn}]",
+            ev.Id, ev.TitleCn, $"更新卡片作品 [{ev.TitleCn}]",
             ipAddress: GetClientIp(), userAgent: GetUserAgent(), ct: ct);
 
         return Ok(MapEventToDto(ev));
     }
 
-    [HttpDelete("events/{exhibitionId:guid}/{id}")]
-    public async Task<IActionResult> DeleteEvent(Guid exhibitionId, string id, CancellationToken ct)
+    [HttpDelete("events/{exhibitionId:guid}/{id:guid}")]
+    public async Task<IActionResult> DeleteEvent(Guid exhibitionId, Guid id, CancellationToken ct)
     {
         if (!CanWrite()) return Forbid();
 
@@ -389,7 +374,7 @@ public class TimelineDataController : ApiControllerBase
         await _db.SaveChangesAsync(ct);
 
         await _audit.LogAsync(GetAdminUserId(), GetAdminUsername(), "delete", "TimelineEvent",
-            null, id, $"删除卡片作品 [{ev.TitleCn}]",
+            id, ev.TitleCn, $"删除卡片作品 [{ev.TitleCn}]",
             ipAddress: GetClientIp(), userAgent: GetUserAgent(), ct: ct);
 
         return NoContent();
@@ -434,7 +419,7 @@ public class TimelineDataController : ApiControllerBase
         End = MapFuzzyDateDto(p.End)
     };
 
-    private static StreamDto MapStreamToDto(Stream s) => new()
+    private static SwimlaneDto MapSwimlaneToDto(Swimlane s) => new()
     {
         Id = s.Id,
         ExhibitionId = s.ExhibitionId,
@@ -454,7 +439,7 @@ public class TimelineDataController : ApiControllerBase
         Id = e.Id,
         ExhibitionId = e.ExhibitionId,
         PeriodId = e.PeriodId,
-        StreamId = e.StreamId,
+        SwimlaneId = e.SwimlaneId,
         TitleCn = e.TitleCn,
         TitleEn = e.TitleEn,
         CreatorCn = e.CreatorCn,

@@ -3,10 +3,19 @@
 @inject AdminApiClient Api
 @inject AuthService AuthService
 
-<h2 class="page-title">系统用户</h2>
+<div class="page-header">
+    <h2>系统用户</h2>
+    <div class="page-header-right">
+        <div class="e-input-group filter-search-box" style="width: 240px; border-radius: 4px; display: inline-flex; align-items: center; margin-right: 8px;">
+            <SfTextBox @bind-Value="_keyword" Placeholder="搜索用户..." ShowClearButton="true" Input="@OnSearchInput" />
+            <span class="e-input-group-icon e-icons e-search" @onclick="ExecuteSearch" style="cursor: pointer; padding: 0 8px;"></span>
+        </div>
+    </div>
+</div>
 
-<SfGrid DataSource="@_items" AllowPaging="true" Height="calc(100vh - 160px)">
-    <GridPageSettings PageSize="20" />
+<SfGrid @ref="_gridRef" DataSource="@_items" AllowPaging="true" AllowResizing="true" Height="calc(100vh - 180px)">
+    <GridPageSettings PageSize="@_pageSize" PageSizes="@_pageSizeOptionsCast" />
+    <GridEvents TValue="AdminUserListItem" PageChanged="@OnPageChanged" />
     <GridColumns>
         <GridColumn Field="@nameof(AdminUserListItem.Username)" HeaderText="用户名" Width="140" />
         <GridColumn Field="@nameof(AdminUserListItem.Email)" HeaderText="邮箱" Width="200" />
@@ -16,11 +25,55 @@
 </SfGrid>
 
 @code {
+    private SfGrid<AdminUserListItem> _gridRef = null!;
+    private List<AdminUserListItem> _allUsers = [];
     private List<AdminUserListItem> _items = [];
+    private string? _keyword;
+
+    private int _pageSize = 100;
+    private readonly object[] _pageSizeOptionsCast = [100, 500, 1000, 5000, 10000];
 
     protected override async Task OnInitializedAsync()
     {
         await AuthService.InitializeAsync();
-        _items = await Api.GetAdminUsersAsync() ?? [];
+        _allUsers = await Api.GetAdminUsersAsync() ?? [];
+        _items = _allUsers;
+    }
+
+    private async Task OnSearchInput(InputEventArgs e)
+    {
+        _keyword = e.Value;
+        await ExecuteSearch();
+    }
+
+    private async Task ExecuteSearch()
+    {
+        if (string.IsNullOrWhiteSpace(_keyword))
+        {
+            _items = _allUsers;
+        }
+        else
+        {
+            var k = _keyword.Trim().ToLower();
+            _items = _allUsers.Where(u => u.Username.ToLower().Contains(k) || u.Email.ToLower().Contains(k) || u.Role.ToLower().Contains(k)).ToList();
+        }
+
+        if (_gridRef is not null)
+        {
+            await _gridRef.GoToPageAsync(1);
+        }
+        StateHasChanged();
+    }
+
+    private async Task OnPageChanged(GridPageChangedEventArgs args)
+    {
+        if (args.CurrentPageSize != _pageSize)
+        {
+            _pageSize = args.CurrentPageSize;
+            if (_gridRef is not null)
+            {
+                await _gridRef.GoToPageAsync(1);
+            }
+        }
     }
 }

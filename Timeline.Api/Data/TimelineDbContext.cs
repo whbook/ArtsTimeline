@@ -1,7 +1,6 @@
 using System.Net;
 using Microsoft.EntityFrameworkCore;
 using Timeline.Api.Models;
-using Stream = Timeline.Api.Models.Stream;
 
 namespace Timeline.Api.Data;
 
@@ -19,7 +18,7 @@ public class TimelineDbContext : DbContext
     public DbSet<DeviceAccessLog> DeviceAccessLogs => Set<DeviceAccessLog>();
     public DbSet<SchemaPatch> SchemaPatches => Set<SchemaPatch>();
     public DbSet<Period> Periods => Set<Period>();
-    public DbSet<Stream> Streams => Set<Stream>();
+    public DbSet<Swimlane> Swimlanes => Set<Swimlane>();
     public DbSet<TimelineEvent> TimelineEvents => Set<TimelineEvent>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -123,12 +122,12 @@ public class TimelineDbContext : DbContext
             });
         });
 
-        modelBuilder.Entity<Stream>(e =>
+        modelBuilder.Entity<Swimlane>(e =>
         {
-            e.ToTable("streams");
+            e.ToTable("swimlanes");
             e.HasKey(x => new { x.ExhibitionId, x.Id });
             e.HasOne(x => x.Exhibition).WithMany().HasForeignKey(x => x.ExhibitionId).OnDelete(DeleteBehavior.Cascade);
-            e.HasOne(x => x.Period).WithMany(p => p.Streams)
+            e.HasOne(x => x.Period).WithMany(p => p.Swimlanes)
                 .HasForeignKey(x => new { x.ExhibitionId, x.PeriodId })
                 .OnDelete(DeleteBehavior.SetNull);
 
@@ -163,8 +162,8 @@ public class TimelineDbContext : DbContext
             e.HasOne(x => x.Period).WithMany(p => p.Events)
                 .HasForeignKey(x => new { x.ExhibitionId, x.PeriodId })
                 .OnDelete(DeleteBehavior.SetNull);
-            e.HasOne(x => x.Stream).WithMany(s => s.Events)
-                .HasForeignKey(x => new { x.ExhibitionId, x.StreamId })
+            e.HasOne(x => x.Swimlane).WithMany(s => s.Events)
+                .HasForeignKey(x => new { x.ExhibitionId, x.SwimlaneId })
                 .OnDelete(DeleteBehavior.SetNull);
 
             e.Property(x => x.MetaJson).HasColumnName("meta").HasColumnType("jsonb");

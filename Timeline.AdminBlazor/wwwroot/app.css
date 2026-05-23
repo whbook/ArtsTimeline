@@ -147,6 +147,60 @@ html, body {
 .form-row label { font-size: 0.8125rem; font-weight: 500; color: var(--app-text); }
 .form-row.align-top { align-items: start; }
 .form-row.align-top > label { padding-top: 6px; }
+.form-row > .e-multi-line-input,
+.form-row > .e-input-group.e-multi-line-input {
+    width: 100%;
+    min-width: 0;
+}
+.form-row .e-multi-line-input textarea.e-input {
+    width: 100% !important;
+    max-width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.hex-color-input-wrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    min-width: 0;
+    width: 100%;
+}
+.hex-color-input-wrap > .e-textbox-container,
+.hex-color-input-wrap > .e-input-group {
+    flex: 0 0 200px;
+    max-width: 240px;
+}
+.hex-color-picker-inline .e-container {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+.hex-color-picker-inline .e-container .e-custom-palette.e-palette-group {
+    max-height: 132px;
+    overflow: auto;
+}
+.hex-color-picker-inline .e-container .e-palette .e-tile {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    margin: 2px;
+}
+
+.text-bg-color-preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 48px;
+    padding: 12px 16px;
+    border-radius: 6px;
+    border: 1px solid var(--app-border);
+    font-size: 14px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
 .pwd-dialog-form .form-row {
     grid-template-columns: 100px 1fr;
 }
@@ -163,6 +217,135 @@ html, body {
 .e-grid .e-rowcell, .e-grid .e-headercell { padding: 5px 8px !important; }
 .e-dialog .e-dlg-content { padding: 16px 20px !important; }
 .e-dialog .e-footer-content { padding: 10px 20px 16px !important; }
+
+/* 展览数据管理弹窗：Grid 纵向撑满（弹窗渲染在 body，须用全局样式） */
+.data-manager-dialog.e-dialog {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.data-manager-dialog .e-dlg-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.data-manager-dialog .e-dlg-header-content,
+.data-manager-dialog .e-footer-content {
+    flex-shrink: 0;
+}
+
+.data-manager-dialog .e-dlg-content {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 12px !important;
+}
+
+.data-manager-dialog .manager-container {
+    flex: 1 1 auto;
+    min-height: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.data-manager-dialog .manager-container > .e-tab {
+    flex: 1 1 auto;
+    min-height: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.data-manager-dialog .manager-container .e-tab-header {
+    flex-shrink: 0;
+}
+
+.data-manager-dialog .manager-container .e-tab > .e-content {
+    flex: 1 1 auto;
+    min-height: 0;
+    height: calc(100% - 36px) !important;
+    overflow: hidden;
+}
+
+.data-manager-dialog .manager-container .e-tab .e-content .e-item,
+.data-manager-dialog .manager-container .e-tab .e-content > div[id^="e-content-tab"] {
+    height: 100% !important;
+    min-height: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.data-manager-dialog .manager-container .e-tab .e-content .e-item.e-active,
+.data-manager-dialog .manager-container .e-tab .e-content > div[id^="e-content-tab"][style*="display: block"] {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.data-manager-dialog .sub-grid-panel {
+    flex: 1 1 auto;
+    min-height: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.data-manager-dialog .grid-actions {
+    flex-shrink: 0;
+}
+
+.data-manager-dialog .sub-grid-body {
+    flex: 1 1 0;
+    min-height: 0;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.data-manager-dialog .sub-grid-body > div {
+    flex: 1 1 auto;
+    min-height: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.data-manager-dialog .sub-grid-body .e-grid {
+    flex: 1 1 auto !important;
+    min-height: 0 !important;
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.data-manager-dialog .sub-grid-body .e-grid .e-gridheader {
+    flex-shrink: 0;
+}
+
+.data-manager-dialog .sub-grid-body .e-grid .e-gridcontent {
+    flex: 1 1 auto !important;
+    min-height: 0 !important;
+    height: auto !important;
+    overflow-y: auto !important;
+}
+
+.data-manager-dialog .sub-grid-body .e-grid .e-gridpager {
+    flex-shrink: 0;
+}
+
+.data-manager-dialog .custom-pager {
+    flex-shrink: 0;
+}
 
 /* Theme switcher */
 .theme-switcher-wrap { position: relative; display: inline-flex; align-items: center; }
@@ -196,8 +379,6 @@ html, body {
 .login-btn { width: 100%; margin-top: 8px; }
 .alert-danger { background: var(--app-danger-bg); color: var(--app-danger-text); padding: 8px 12px; border-radius: 6px; margin-bottom: 12px; font-size: 13px; }
 .forbidden-msg, .auth-loading { padding: 24px; color: var(--app-text-muted); }
-
-.sync-hint { margin: 0 0 12px; font-size: 0.8125rem; color: var(--app-text-muted); }
 
 .e-grid .e-headercell .e-headerchkcelldiv { display: flex; align-items: center; height: 100%; }
 .e-grid .e-headercell .e-checkbox-wrapper { display: flex; align-items: center; }

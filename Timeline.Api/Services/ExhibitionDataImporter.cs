@@ -3,7 +3,6 @@ using System.Text.Json.Nodes;
 using Microsoft.EntityFrameworkCore;
 using Timeline.Api.Data;
 using Timeline.Api.Models;
-using Stream = Timeline.Api.Models.Stream;
 
 namespace Timeline.Api.Services;
 
@@ -20,7 +19,7 @@ public class ExhibitionImportReport
     public bool Success { get; set; }
     public string? ErrorMessage { get; set; }
     public int PeriodsImported { get; set; }
-    public int StreamsImported { get; set; }
+    public int SwimlanesImported { get; set; }
     public int EventsImported { get; set; }
 }
 
@@ -94,7 +93,7 @@ public class ExhibitionDataImporter
         await _db.Database.ExecuteSqlRawAsync(
             "DELETE FROM timeline.timeline_events WHERE exhibition_id = {0}", ex.Id);
         await _db.Database.ExecuteSqlRawAsync(
-            "DELETE FROM timeline.streams WHERE exhibition_id = {0}", ex.Id);
+            "DELETE FROM timeline.swimlanes WHERE exhibition_id = {0}", ex.Id);
         await _db.Database.ExecuteSqlRawAsync(
             "DELETE FROM timeline.periods WHERE exhibition_id = {0}", ex.Id);
         
@@ -107,9 +106,10 @@ public class ExhibitionDataImporter
             var nodes = JsonSerializer.Deserialize<List<JsonElement>>(json, JsonOptions) ?? [];
             foreach (var node in nodes)
             {
+                var oldId = node.GetProperty("id").GetString() ?? string.Empty;
                 var period = new Period
                 {
-                    Id = node.GetProperty("id").GetString() ?? string.Empty,
+                    Id = GetGuidFromOldId(ex.Id, oldId) ?? Guid.NewGuid(),
                     ExhibitionId = ex.Id,
                     NameCn = node.TryGetProperty("nameCn", out var nc) ? nc.GetString() ?? string.Empty : string.Empty,
                     NameEn = node.TryGetProperty("nameEn", out var ne) ? ne.GetString() ?? string.Empty : string.Empty,
@@ -130,26 +130,33 @@ public class ExhibitionDataImporter
             }
         }
 
-        // 2. 导入 streams.json
+        // 2. 导入 streams.json (Swimlanes)
         var streamsPath = Path.Combine(topicDir, "streams.json");
-        var streamList = new List<Stream>();
+        var swimlaneList = new List<Swimlane>();
         if (File.Exists(streamsPath))
         {
             var json = await File.ReadAllTextAsync(streamsPath, ct);
             var nodes = JsonSerializer.Deserialize<List<JsonElement>>(json, JsonOptions) ?? [];
             foreach (var node in nodes)
             {
-                var periodId = GetStringOrNull(node, "periodId");
-                // 校验外键有效性
-                if (periodId is not null && !periodList.Any(p => p.Id == periodId))
+                var oldId = node.GetProperty("id").GetString() ?? string.Empty;
+                var oldPeriodId = GetStringOrNull(node, "periodId");
+                Guid? periodId = null;
+
+                if (oldPeriodId is not null)
                 {
-                    _logger.LogWarning("展览 {Slug} 的流派泳道 {StreamId} 关联了不存在的分期 {PeriodId}，已自动置空关联", ex.Slug, node.GetProperty("id").GetString(), periodId);
-                    periodId = null;
+                    periodId = GetGuidFromOldId(ex.Id, oldPeriodId);
+                    // 校验外键有效性
+                    if (periodId.HasValue && !periodList.Any(p => p.Id == periodId.Value))
+                    {
+                        _logger.LogWarning("展览 {Slug} 的流派泳道 {SwimlaneId} 关联了不存在的分期 {PeriodId}，已自动置空关联", ex.Slug, oldId, oldPeriodId);
+                        periodId = null;
+                    }
                 }
 
-                var stream = new Stream
+                var swimlane = new Swimlane
                 {
-                    Id = node.GetProperty("id").GetString() ?? string.Empty,
+                    Id = GetGuidFromOldId(ex.Id, oldId) ?? Guid.NewGuid(),
                     ExhibitionId = ex.Id,
                     PeriodId = periodId,
                     NameCn = node.TryGetProperty("nameCn", out var nc) ? nc.GetString() ?? string.Empty : string.Empty,
@@ -161,14 +168,14 @@ public class ExhibitionDataImporter
                     Start = ParseFuzzyDate(node.GetProperty("start")),
                     End = ParseFuzzyDate(node.GetProperty("end"))
                 };
-                streamList.Add(stream);
+                swimlaneList.Add(swimlane);
             }
 
-            if (streamList.Count > 0)
+            if (swimlaneList.Count > 0)
             {
-                _db.Streams.AddRange(streamList);
+                _db.Swimlanes.AddRange(swimlaneList);
                 await _db.SaveChangesAsync(ct);
-                report.StreamsImported = streamList.Count;
+                report.SwimlanesImported = swimlaneList.Count;
             }
         }
 
@@ -192,7 +199,7 @@ public class ExhibitionDataImporter
                 if (File.Exists(chunkPath))
                 {
                     var chunkJson = await File.ReadAllTextAsync(chunkPath, ct);
-                    var events = ParseEventsJson(chunkJson, ex.Id, periodList, streamList, ex.Slug);
+                    var events = ParseEventsJson(chunkJson, ex.Id, periodList, swimlaneList, ex.Slug);
                     eventList.AddRange(events);
                 }
             }
@@ -203,7 +210,7 @@ public class ExhibitionDataImporter
             if (File.Exists(eventsPath))
             {
                 var json = await File.ReadAllTextAsync(eventsPath, ct);
-                var events = ParseEventsJson(json, ex.Id, periodList, streamList, ex.Slug);
+                var events = ParseEventsJson(json, ex.Id, periodList, swimlaneList, ex.Slug);
                 eventList.AddRange(events);
             }
         }
@@ -218,34 +225,47 @@ public class ExhibitionDataImporter
         }
     }
 
-    private List<TimelineEvent> ParseEventsJson(string json, Guid exhibitionId, List<Period> periodList, List<Stream> streamList, string slug)
+    private List<TimelineEvent> ParseEventsJson(string json, Guid exhibitionId, List<Period> periodList, List<Swimlane> swimlaneList, string slug)
     {
         var result = new List<TimelineEvent>();
         var nodes = JsonSerializer.Deserialize<List<JsonElement>>(json, JsonOptions) ?? [];
         foreach (var node in nodes)
         {
-            var periodId = GetStringOrNull(node, "periodId");
-            // 校验外键存在
-            if (periodId is not null && !periodList.Any(p => p.Id == periodId))
+            var oldId = node.GetProperty("id").GetString() ?? string.Empty;
+            var oldPeriodId = GetStringOrNull(node, "periodId");
+            Guid? periodId = null;
+
+            if (oldPeriodId is not null)
             {
-                _logger.LogWarning("展览 {Slug} 的事件卡片 {EventId} 关联了不存在的分期 {PeriodId}，已自动置空关联", slug, node.GetProperty("id").GetString(), periodId);
-                periodId = null;
+                periodId = GetGuidFromOldId(exhibitionId, oldPeriodId);
+                // 校验外键存在
+                if (periodId.HasValue && !periodList.Any(p => p.Id == periodId.Value))
+                {
+                    _logger.LogWarning("展览 {Slug} 的事件卡片 {EventId} 关联了不存在的分期 {PeriodId}，已自动置空关联", slug, oldId, oldPeriodId);
+                    periodId = null;
+                }
             }
 
-            var streamId = GetStringOrNull(node, "streamId");
-            // 校验外键存在
-            if (streamId is not null && !streamList.Any(s => s.Id == streamId))
+            var oldSwimlaneId = GetStringOrNull(node, "streamId");
+            Guid? swimlaneId = null;
+
+            if (oldSwimlaneId is not null)
             {
-                _logger.LogWarning("展览 {Slug} 的事件卡片 {EventId} 关联了不存在的流派泳道 {StreamId}，已自动置空关联", slug, node.GetProperty("id").GetString(), streamId);
-                streamId = null;
+                swimlaneId = GetGuidFromOldId(exhibitionId, oldSwimlaneId);
+                // 校验外键存在
+                if (swimlaneId.HasValue && !swimlaneList.Any(s => s.Id == swimlaneId.Value))
+                {
+                    _logger.LogWarning("展览 {Slug} 的事件卡片 {EventId} 关联了不存在的流派泳道 {StreamId}，已自动置空关联", slug, oldId, oldSwimlaneId);
+                    swimlaneId = null;
+                }
             }
 
             var ev = new TimelineEvent
             {
-                Id = node.GetProperty("id").GetString() ?? string.Empty,
+                Id = GetGuidFromOldId(exhibitionId, oldId) ?? Guid.NewGuid(),
                 ExhibitionId = exhibitionId,
                 PeriodId = periodId,
-                StreamId = streamId,
+                SwimlaneId = swimlaneId,
                 TitleCn = node.TryGetProperty("titleCn", out var tc) ? tc.GetString() ?? string.Empty : string.Empty,
                 TitleEn = node.TryGetProperty("titleEn", out var te) ? te.GetString() ?? string.Empty : string.Empty,
                 CreatorCn = node.TryGetProperty("creatorCn", out var cc) ? cc.GetString() : null,
@@ -282,6 +302,15 @@ public class ExhibitionDataImporter
             result.Add(ev);
         }
         return result;
+    }
+
+    private static Guid? GetGuidFromOldId(Guid exhibitionId, string? oldId)
+    {
+        if (string.IsNullOrWhiteSpace(oldId)) return null;
+        var input = $"{exhibitionId}_{oldId.Trim()}";
+        using var md5 = System.Security.Cryptography.MD5.Create();
+        var hash = md5.ComputeHash(System.Text.Encoding.UTF8.GetBytes(input));
+        return new Guid(hash);
     }
 
     private static string? GetStringOrNull(JsonElement node, string propertyName)

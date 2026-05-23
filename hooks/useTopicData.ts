@@ -49,9 +49,9 @@ export function useTopicData(topicId: string | null) {
             return r.json();
           })
           .catch(() => fetch(`/data/${topicId}/periods.json`).then(r => r.json())),
-        fetch(`${apiBase}/api/public/exhibitions/${topicId}/streams`)
+        fetch(`${apiBase}/api/public/exhibitions/${topicId}/swimlanes`)
           .then(r => {
-            if (!r.ok) throw new Error('API streams load failed');
+            if (!r.ok) throw new Error('API swimlanes load failed');
             return r.json();
           })
           .catch(() => fetch(`/data/${topicId}/streams.json`).then(r => r.ok ? r.json() : [])),
@@ -64,8 +64,8 @@ export function useTopicData(topicId: string | null) {
               })
               .catch(() => fetch(`/data/${topicId}/events.json`).then(r => r.json()))
       ]))
-      .then(([topic, periods, streams, events]) => {
-        const topicData: TopicData = { topic, periods, streams, events };
+      .then(([topic, periods, swimlanes, events]) => {
+        const topicData: TopicData = { topic, periods, swimlanes, events };
         topicCache.set(topicId, topicData);
         setData(topicData);
       })

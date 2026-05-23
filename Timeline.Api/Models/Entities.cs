@@ -200,7 +200,7 @@ public class FuzzyDate
 
 public class Period
 {
-    public string Id { get; set; } = string.Empty; // e.g. "legend", "shang"
+    public Guid Id { get; set; } = Guid.Empty;
     public Guid ExhibitionId { get; set; }
     public string NameCn { get; set; } = string.Empty;
     public string NameEn { get; set; } = string.Empty;
@@ -210,7 +210,7 @@ public class Period
 
     // Navigation properties
     public Exhibition Exhibition { get; set; } = null!;
-    public ICollection<Stream> Streams { get; set; } = new List<Stream>();
+    public ICollection<Swimlane> Swimlanes { get; set; } = new List<Swimlane>();
     public ICollection<TimelineEvent> Events { get; set; } = new List<TimelineEvent>();
 
     // Owned Fuzzy Dates
@@ -218,11 +218,11 @@ public class Period
     public FuzzyDate End { get; set; } = new();
 }
 
-public class Stream
+public class Swimlane
 {
-    public string Id { get; set; } = string.Empty; // e.g. "s_legend"
+    public Guid Id { get; set; } = Guid.Empty;
     public Guid ExhibitionId { get; set; }
-    public string? PeriodId { get; set; }
+    public Guid? PeriodId { get; set; }
     public string NameCn { get; set; } = string.Empty;
     public string NameEn { get; set; } = string.Empty;
     public string Color { get; set; } = string.Empty;
@@ -242,10 +242,10 @@ public class Stream
 
 public class TimelineEvent
 {
-    public string Id { get; set; } = string.Empty; // e.g. "w1", "w2"
+    public Guid Id { get; set; } = Guid.Empty;
     public Guid ExhibitionId { get; set; }
-    public string? PeriodId { get; set; }
-    public string? StreamId { get; set; }
+    public Guid? PeriodId { get; set; }
+    public Guid? SwimlaneId { get; set; }
     public string TitleCn { get; set; } = string.Empty;
     public string TitleEn { get; set; } = string.Empty;
     public string? CreatorCn { get; set; }
@@ -265,7 +265,7 @@ public class TimelineEvent
     // Navigation properties
     public Exhibition Exhibition { get; set; } = null!;
     public Period? Period { get; set; }
-    public Stream? Stream { get; set; }
+    public Swimlane? Swimlane { get; set; }
 
     // Owned Fuzzy Dates
     public FuzzyDate Date { get; set; } = new();

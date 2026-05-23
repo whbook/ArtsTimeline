@@ -1,0 +1,12 @@
+<div class="text-bg-color-preview" style="@PreviewStyle">彩色预览</div>
+
+@code {
+    [Parameter] public string TextColor { get; set; } = "#111827";
+    [Parameter] public string BackgroundColor { get; set; } = "#f3f4f6";
+
+    private string PreviewStyle =>
+        $"color:{Normalize(TextColor, "#111827")};background:{Normalize(BackgroundColor, "#f3f4f6")};";
+
+    private static string Normalize(string? value, string fallback) =>
+        string.IsNullOrWhiteSpace(value) ? fallback : value.Trim();
+}

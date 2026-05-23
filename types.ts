@@ -54,8 +54,8 @@ export interface Period {
   description?: string;
 }
 
-// --- 流派/运动（可选层，无则 streams.json 为 []）---
-export interface Stream {
+// --- 泳道（可选层，无则 swimlanes 为 []）---
+export interface Swimlane {
   id: string; 
   periodId?: string;
   nameEn: string; 
@@ -64,7 +64,7 @@ export interface Stream {
   end: FuzzyDate;
   color: string; 
   lane: number;
-  descriptionCn?: string; // 流派详细介绍
+  descriptionCn?: string; // 泳道详细介绍
   descriptionEn?: string;
 }
 
@@ -72,7 +72,7 @@ export interface Stream {
 export interface TimelineEvent {
   id: string; 
   periodId?: string; 
-  streamId?: string;
+  swimlaneId?: string;
   titleEn: string; 
   titleCn?: string;
   date: FuzzyDate; 
@@ -94,7 +94,7 @@ export interface TimelineEvent {
 export interface TopicData { 
   topic: Topic; 
   periods: Period[]; 
-  streams: Stream[]; 
+  swimlanes: Swimlane[]; 
   events: TimelineEvent[]; 
 }
 

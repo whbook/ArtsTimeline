@@ -186,8 +186,8 @@ public class AdminApiClient
         return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));
     }
 
-    public Task<AuditLogPageResult?> GetAuditLogsAsync(int page = 1) =>
-        GetAsync<AuditLogPageResult>($"api/audit-logs?page={page}&pageSize=50");
+    public Task<AuditLogPageResult?> GetAuditLogsAsync(int page = 1, int pageSize = 100, string? keyword = null) =>
+        GetAsync<AuditLogPageResult>($"api/audit-logs?page={page}&pageSize={pageSize}&keyword={Uri.EscapeDataString(keyword ?? "")}");
 
     public Task<List<AdminUserListItem>?> GetAdminUsersAsync() =>
         GetAsync<List<AdminUserListItem>>("api/admin-users");
@@ -220,7 +220,7 @@ public class AdminApiClient
         return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));
     }
 
-    public async Task<(bool Ok, string? Error)> DeletePeriodAsync(Guid exhibitionId, string id)
+    public async Task<(bool Ok, string? Error)> DeletePeriodAsync(Guid exhibitionId, Guid id)
     {
         var resp = await Client.DeleteAsync($"api/timeline-data/periods/{exhibitionId}/{id}");
         return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));
@@ -228,22 +228,22 @@ public class AdminApiClient
 
     #endregion
 
-    #region Streams (泳道流派)
+    #region Swimlanes (泳道管理)
 
-    public Task<List<StreamDto>?> GetStreamsAsync(Guid exhibitionId) =>
-        GetAsync<List<StreamDto>>($"api/timeline-data/exhibitions/{exhibitionId}/streams");
+    public Task<List<SwimlaneDto>?> GetSwimlanesAsync(Guid exhibitionId) =>
+        GetAsync<List<SwimlaneDto>>($"api/timeline-data/exhibitions/{exhibitionId}/swimlanes");
 
-    public async Task<(bool Ok, string? Error)> SaveStreamAsync(StreamDto model, bool isNew)
+    public async Task<(bool Ok, string? Error)> SaveSwimlaneAsync(SwimlaneDto model, bool isNew)
     {
         var resp = isNew
-            ? await Client.PostAsJsonAsync("api/timeline-data/streams", model)
-            : await Client.PutAsJsonAsync($"api/timeline-data/streams/{model.Id}", model);
+            ? await Client.PostAsJsonAsync("api/timeline-data/swimlanes", model)
+            : await Client.PutAsJsonAsync($"api/timeline-data/swimlanes/{model.Id}", model);
         return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));
     }
 
-    public async Task<(bool Ok, string? Error)> DeleteStreamAsync(Guid exhibitionId, string id)
+    public async Task<(bool Ok, string? Error)> DeleteSwimlaneAsync(Guid exhibitionId, Guid id)
     {
-        var resp = await Client.DeleteAsync($"api/timeline-data/streams/{exhibitionId}/{id}");
+        var resp = await Client.DeleteAsync($"api/timeline-data/swimlanes/{exhibitionId}/{id}");
         return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));
     }
 
@@ -267,7 +267,7 @@ public class AdminApiClient
         return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));
     }
 
-    public async Task<(bool Ok, string? Error)> DeleteEventAsync(Guid exhibitionId, string id)
+    public async Task<(bool Ok, string? Error)> DeleteEventAsync(Guid exhibitionId, Guid id)
     {
         var resp = await Client.DeleteAsync($"api/timeline-data/events/{exhibitionId}/{id}");
         return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));

@@ -1,5 +1,5 @@
 import React, { useRef, useMemo, useState, useEffect } from 'react';
-import { Viewport, TimelineEvent, Topic, Period, Stream, FuzzyDate } from '../types';
+import { Viewport, TimelineEvent, Topic, Period, Swimlane, FuzzyDate } from '../types';
 import { useVirtualizer } from '@tanstack/react-virtual';
 import { BASE_COLUMN_WIDTH } from '../constants';
 import { getDecimalYear, formatFuzzyDate } from '../utils';
@@ -10,7 +10,7 @@ import DescriptionText from './DescriptionText';
 interface DetailPanelProps {
   topic: Topic;
   periods: Period[];
-  streams: Stream[];
+  swimlanes: Swimlane[];
   events: TimelineEvent[];
   viewport: Viewport;
   scaleX: number;
@@ -21,7 +21,7 @@ interface DetailPanelProps {
 
 type SectionData = {
   id: string;
-  type: 'period' | 'stream';
+  type: 'period' | 'swimlane';
   nameEn: string;
   nameCn?: string;
   start: FuzzyDate;
@@ -340,7 +340,7 @@ const SectionColumn: React.FC<{
   );
 };
 
-const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, events, viewport, scaleX, focusSection, onEventClick, onEventHover }) => {
+const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, swimlanes, events, viewport, scaleX, focusSection, onEventClick, onEventHover }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const splitContainerRef = useRef<HTMLDivElement>(null);
   
@@ -457,18 +457,18 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, even
     });
   }, [centeredEvents, events]);
 
-  // 动态计算当前红线位置激活的所有区块（仅限流派 Stream，不再显示大时代 Period）
+  // 动态计算当前红线位置激活的所有区块（仅限泳道 Swimlane，不再显示大期 Period）
   const activeSections = React.useMemo(() => {
     const active: SectionData[] = [];
     
-    // 仅添加当前激活的流派 (Stream)
-    streams.forEach(s => {
+    // 仅添加当前激活的泳道 (Swimlane)
+    swimlanes.forEach(s => {
       const start = getDecimalYear(s.start);
       const end = getDecimalYear(s.end);
       if (centerYear >= start && centerYear <= end) {
         active.push({
           id: s.id,
-          type: 'stream',
+          type: 'swimlane',
           nameEn: s.nameEn,
           nameCn: s.nameCn,
           start: s.start,
@@ -480,11 +480,11 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, even
       }
     });
 
-    // 排序：流派按开始时间排序
+    // 排序：泳道按开始时间排序
     return active.sort((a, b) => {
       return getDecimalYear(a.start) - getDecimalYear(b.start);
     });
-  }, [streams, centerYear]);
+  }, [swimlanes, centerYear]);
 
   const [renderedSections, setRenderedSections] = useState<RenderedSection[]>([]);
 
@@ -656,8 +656,8 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, even
             onScroll={checkScroll}
           >
             {renderedSections.map((section) => {
-              // 过滤事件：只显示分配给该 Stream 的事件
-              const sectionEvents = events.filter(e => e.streamId === section.id);
+              // 过滤事件：只显示分配给该 Swimlane 的事件
+              const sectionEvents = events.filter(e => e.swimlaneId === section.id);
 
               return (
                 <SectionColumn

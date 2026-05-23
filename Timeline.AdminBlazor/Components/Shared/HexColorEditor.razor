@@ -1,0 +1,21 @@
+@using Syncfusion.Blazor.Inputs
+
+<div class="hex-color-input-wrap">
+    <SfTextBox Value="@Value" ValueChanged="OnTextChanged" CssClass="e-small" Placeholder="@Placeholder" />
+    <SfColorPicker Value="@Value" ValueChanged="OnColorChanged"
+                   Mode="ColorPickerMode.Palette"
+                   Inline="true"
+                   ModeSwitcher="false"
+                   ShowButtons="false"
+                   CssClass="hex-color-picker-inline" />
+</div>
+
+@code {
+    [Parameter] public string Value { get; set; } = "#2563eb";
+    [Parameter] public EventCallback<string> ValueChanged { get; set; }
+    [Parameter] public string? Placeholder { get; set; }
+
+    private Task OnTextChanged(string? value) => ValueChanged.InvokeAsync(value ?? string.Empty);
+
+    private Task OnColorChanged(string? value) => ValueChanged.InvokeAsync(value ?? string.Empty);
+}

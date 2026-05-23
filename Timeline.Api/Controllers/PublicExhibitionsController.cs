@@ -97,13 +97,13 @@ public class PublicExhibitionsController : ControllerBase
         return Ok(response);
     }
 
-    [HttpGet("{slug}/streams")]
-    public async Task<IActionResult> GetStreams(string slug, CancellationToken ct)
+    [HttpGet("{slug}/swimlanes")]
+    public async Task<IActionResult> GetSwimlanes(string slug, CancellationToken ct)
     {
         var ex = await _db.Exhibitions.AsNoTracking().FirstOrDefaultAsync(e => e.Slug.ToLower() == slug.ToLower() && e.IsPublished, ct);
         if (ex is null) return NotFound();
 
-        var list = await _db.Streams.AsNoTracking()
+        var list = await _db.Swimlanes.AsNoTracking()
             .Where(s => s.ExhibitionId == ex.Id)
             .OrderBy(s => s.Lane).ThenBy(s => s.Start.Year)
             .ToListAsync(ct);
@@ -151,7 +151,7 @@ public class PublicExhibitionsController : ControllerBase
         {
             id = e.Id,
             periodId = e.PeriodId,
-            streamId = e.StreamId,
+            swimlaneId = e.SwimlaneId,
             titleCn = e.TitleCn,
             titleEn = e.TitleEn,
             creatorCn = e.CreatorCn,

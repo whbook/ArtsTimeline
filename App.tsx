@@ -58,13 +58,13 @@ const App: React.FC = () => {
     let latestYear = -3000;
     let hasData = false;
     
-    // 优先级 1：优先采用流派/泳道 (streams)。泳道是时间轴的核心视觉柱条，泳道的起始直接决定了最应该开始看的时间段
-    if (topicData.streams && topicData.streams.length > 0) {
-      const minStreamYear = Math.min(...topicData.streams.map(s => s.start.year).filter(y => y !== undefined && !isNaN(y)));
-      const maxStreamYear = Math.max(...topicData.streams.map(s => s.end.year).filter(y => y !== undefined && !isNaN(y)));
-      if (isFinite(minStreamYear) && isFinite(maxStreamYear)) {
-        earliestYear = minStreamYear;
-        latestYear = maxStreamYear;
+    // 优先级 1：优先采用泳道 (swimlanes)。泳道是时间轴的核心视觉柱条，泳道的起始直接决定了最应该开始看的时间段
+    if (topicData.swimlanes && topicData.swimlanes.length > 0) {
+      const minSwimlaneYear = Math.min(...topicData.swimlanes.map(s => s.start.year).filter(y => y !== undefined && !isNaN(y)));
+      const maxSwimlaneYear = Math.max(...topicData.swimlanes.map(s => s.end.year).filter(y => y !== undefined && !isNaN(y)));
+      if (isFinite(minSwimlaneYear) && isFinite(maxSwimlaneYear)) {
+        earliestYear = minSwimlaneYear;
+        latestYear = maxSwimlaneYear;
         hasData = true;
       }
     }
@@ -428,7 +428,7 @@ const App: React.FC = () => {
             <TimelineCanvas 
                 viewport={viewport} 
                 periods={topicData.periods}
-                streams={topicData.streams}
+                swimlanes={topicData.swimlanes}
                 events={visibleEvents}
                 scaleX={scale.scaleX}
                 scaleY={scale.scaleY}
@@ -455,7 +455,7 @@ const App: React.FC = () => {
             <DetailPanel 
                 topic={topicData.topic}
                 periods={topicData.periods}
-                streams={topicData.streams}
+                swimlanes={topicData.swimlanes}
                 events={visibleEvents}
                 viewport={viewport} 
                 scaleX={scale.scaleX}

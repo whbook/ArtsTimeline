@@ -8,15 +8,19 @@
 <div class="page-header">
     <h2>设备管理</h2>
     <div class="page-header-right">
-        <SfTextBox @bind-Value="_keyword" Placeholder="搜索设备..." Input="@OnSearch" />
+        <div class="e-input-group filter-search-box" style="width: 240px; border-radius: 4px; display: inline-flex; align-items: center; margin-right: 8px;">
+            <SfTextBox @bind-Value="_keyword" Placeholder="搜索设备..." ShowClearButton="true" Input="@OnSearchInput" />
+            <span class="e-input-group-icon e-icons e-search" @onclick="ExecuteSearch" style="cursor: pointer; padding: 0 8px;"></span>
+        </div>
         <AuthorizeView Roles="super_admin,admin">
             <SfButton Content="新建设备" IsPrimary="true" CssClass="e-small" IconCss="e-icons e-plus" @onclick="CreateNew" />
         </AuthorizeView>
     </div>
 </div>
 
-<SfGrid DataSource="@_items" AllowPaging="true" Height="calc(100vh - 180px)">
-    <GridPageSettings PageSize="20" />
+<SfGrid @ref="_gridRef" DataSource="@_items" AllowPaging="true" AllowResizing="true" Height="calc(100vh - 180px)">
+    <GridPageSettings PageSize="@_pageSize" PageSizes="@_pageSizeOptionsCast" />
+    <GridEvents TValue="DeviceListItem" PageChanged="@OnPageChanged" />
     <GridColumns>
         <GridColumn Field="@nameof(DeviceListItem.DeviceCode)" HeaderText="设备代码" Width="140" />
         <GridColumn Field="@nameof(DeviceListItem.OrganizationName)" HeaderText="归属单位" Width="160" />
@@ -76,6 +80,7 @@
 }
 
 @code {
+    private SfGrid<DeviceListItem> _gridRef = null!;
     private List<DeviceListItem> _items = [];
     private List<OrgOption> _orgOptions = [];
     private string? _keyword;
@@ -87,6 +92,9 @@
         new() { Value = "trial", Label = "试用" },
         new() { Value = "formal", Label = "正式" }
     ];
+
+    private int _pageSize = 100;
+    private readonly object[] _pageSizeOptionsCast = [100, 500, 1000, 5000, 10000];
 
     protected override async Task OnInitializedAsync()
     {
@@ -102,7 +110,33 @@
         _items = result?.Items ?? [];
     }
 
-    private async Task OnSearch(InputEventArgs _) => await LoadAsync();
+    private async Task OnSearchInput(InputEventArgs e)
+    {
+        _keyword = e.Value;
+        await ExecuteSearch();
+    }
+
+    private async Task ExecuteSearch()
+    {
+        if (_gridRef is not null)
+        {
+            await _gridRef.GoToPageAsync(1);
+        }
+        await LoadAsync();
+    }
+
+    private async Task OnPageChanged(GridPageChangedEventArgs args)
+    {
+        if (args.CurrentPageSize != _pageSize)
+        {
+            _pageSize = args.CurrentPageSize;
+            if (_gridRef is not null)
+            {
+                await _gridRef.GoToPageAsync(1);
+            }
+            await LoadAsync();
+        }
+    }
 
     private void CreateNew()
     {

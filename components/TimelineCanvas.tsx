@@ -1,17 +1,17 @@
 import React, { memo, useMemo } from 'react';
-import { Viewport, Stream, TimelineEvent, Period } from '../types';
+import { Viewport, Swimlane, TimelineEvent, Period } from '../types';
 import { getDecimalYear, formatFuzzyDate } from '../utils';
 
 interface TimelineCanvasProps {
   viewport: Viewport;
   periods: Period[];
-  streams: Stream[];
+  swimlanes: Swimlane[];
   events: TimelineEvent[];
   scaleX: number;
   scaleY: number;
   onEventClick: (event: TimelineEvent) => void;
-  onMovementHover: (movement: Stream | null) => void;
-  onMovementClick: (movement: Stream) => void;
+  onMovementHover: (movement: Swimlane | null) => void;
+  onMovementClick: (movement: Swimlane) => void;
   onEventHover: (event: TimelineEvent | null) => void;
   onZoomRange?: (start: number, end: number) => void;
 }
@@ -150,7 +150,7 @@ const clusterEvents = (
 const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({ 
     viewport, 
     periods,
-    streams,
+    swimlanes,
     events,
     scaleX,
     scaleY,
@@ -173,7 +173,7 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
   const eraLabelEnSize = 50 * Math.max(1, scaleX * 0.8);
   const eraLabelCnSize = 30 * Math.max(1, scaleX * 0.8);
 
-  const getStyle = (movement: Stream) => {
+  const getStyle = (movement: Swimlane) => {
     const startYear = getDecimalYear(movement.start);
     const endYear = getDecimalYear(movement.end);
     const startPerc = getPercentage(startYear);
@@ -315,7 +315,7 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
       <div className="w-full h-full absolute top-0 left-0 opacity-10 bg-[radial-gradient(#000_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
 
       {/* LAYER 2: Movement Swimlanes */}
-      {streams.map((movement) => {
+      {swimlanes.map((movement) => {
         const startYear = getDecimalYear(movement.start);
         const endYear = getDecimalYear(movement.end);
         if (endYear < viewport.startYear || startYear > viewport.endYear) return null;
