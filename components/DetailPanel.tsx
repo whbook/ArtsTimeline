@@ -3,7 +3,7 @@ import { Viewport, TimelineEvent, Topic, Period, Stream, FuzzyDate } from '../ty
 import { useVirtualizer } from '@tanstack/react-virtual';
 import { BASE_COLUMN_WIDTH } from '../constants';
 import { getDecimalYear, formatFuzzyDate } from '../utils';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, GripVertical } from 'lucide-react';
 import EventImage from './EventImage';
 
 interface DetailPanelProps {
@@ -31,6 +31,137 @@ type SectionData = {
 };
 
 type RenderedSection = SectionData & { state: 'entering' | 'entered' | 'exiting' };
+
+const decodeHtmlEntities = (value: string) => {
+  return value
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&amp;/g, '&');
+};
+
+const DescriptionText: React.FC<{ value: string }> = ({ value }) => {
+  const html = value.includes('&lt;') && value.includes('&gt;') ? decodeHtmlEntities(value) : value;
+  const hasHtml = /<\/?[a-z][\s\S]*>/i.test(html);
+  const className =
+    'text-sm leading-relaxed text-stone-600 [&_p]:mb-3 [&_p:last-child]:mb-0 [&_br]:block [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5 [&_li]:mb-1 [&_strong]:font-bold [&_b]:font-bold';
+
+  if (hasHtml) {
+    return <div className={className} dangerouslySetInnerHTML={{ __html: html }} />;
+  }
+
+  return <p className={`${className} whitespace-pre-line`}>{value}</p>;
+};
+
+const EventDetailPane: React.FC<{
+  topic: Topic;
+  event: TimelineEvent | null;
+}> = ({ topic, event }) => {
+  if (!event) {
+    return (
+      <div className="flex h-full flex-col items-center justify-center rounded-lg border border-dashed border-stone-300 bg-white/70 px-8 text-center shadow-inner">
+        <div className="mb-3 font-serif text-2xl font-bold text-stone-700">作品详情</div>
+        <p className="max-w-sm text-sm leading-relaxed text-stone-500">
+          将时间线拖动到红色中心线附近，进入中心区域的作品会在这里显示与弹窗一致的详情信息。
+        </p>
+      </div>
+    );
+  }
+
+  const titleCn = event.titleCn?.trim();
+  const titleEn = event.titleEn?.trim();
+  const displayTitle = titleCn || titleEn || '';
+  const subtitle = titleCn && titleEn && titleCn !== titleEn ? titleEn : null;
+  const descEn = event.descriptionEn;
+  const descCn = event.descriptionCn;
+  const highlightedFieldKeys = ['dynasty', 'traditionalDate'];
+  const getEventFieldValue = (key: string) => {
+    const value = (event as any)[key] || (event.meta && event.meta[key]);
+    return Array.isArray(value) ? value.join('、') : value;
+  };
+  const highlightedFields = highlightedFieldKeys
+    .map(key => {
+      const field = topic.eventFields.find(item => item.key === key);
+      const value = getEventFieldValue(key);
+      return field && value ? { field, value } : null;
+    })
+    .filter((item): item is { field: typeof topic.eventFields[number]; value: string | number } => !!item);
+  const remainingFields = topic.eventFields.filter(field => !highlightedFieldKeys.includes(field.key));
+
+  return (
+    <div className="flex h-full min-w-0 flex-col overflow-hidden rounded-lg border border-stone-200 bg-white shadow-sm">
+      <div className="border-b border-stone-100 bg-stone-50/80 p-4">
+        <div className="mb-2 text-[10px] font-bold uppercase tracking-[0.24em] text-stone-400">
+          Artwork Detail / 作品详情
+        </div>
+        <h2 className="font-serif text-2xl font-bold leading-tight text-stone-900">{displayTitle}</h2>
+        {subtitle && <h3 className="mt-1 text-sm text-stone-500">{subtitle}</h3>}
+      </div>
+
+      <div className="flex min-h-0 flex-1">
+        <div className="flex w-80 flex-none items-center justify-center overflow-hidden border-r border-stone-100 bg-white p-4">
+          <EventImage
+            src={event.imageUrl}
+            alt={displayTitle}
+            eager
+            className="aspect-square h-full max-h-full max-w-full overflow-hidden rounded-md border border-stone-200 bg-stone-50 shadow-sm"
+            imgClassName="object-cover object-center"
+          />
+        </div>
+
+        <div className="section-scrollbar min-w-0 flex-1 overflow-y-auto p-4">
+          <div className="mb-4 grid grid-cols-3 gap-2 border-b border-stone-100 pb-4">
+            <div className="min-w-0 rounded-md border border-stone-200 bg-stone-50 px-3 py-2">
+              <span className="text-[10px] font-bold uppercase tracking-wider text-stone-400">Date / 时间</span>
+              <p className="truncate text-lg font-bold text-stone-900">{formatFuzzyDate(event.date)}</p>
+            </div>
+            {highlightedFields.map(({ field, value }) => (
+              <div key={field.key} className="min-w-0 rounded-md border border-stone-200 bg-stone-50 px-3 py-2">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-stone-400">
+                  {field.labelEn} / {field.labelCn}
+                </span>
+                <p className="truncate text-sm font-medium text-stone-900">{value}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="grid grid-cols-1 gap-3 border-b border-stone-100 pb-4">
+            {remainingFields.map(field => {
+              let value = (event as any)[field.key] || (event.meta && event.meta[field.key]);
+              if (!value) return null;
+              if (Array.isArray(value)) value = value.join('、');
+
+              return (
+                <div key={field.key} className="min-w-0">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-stone-400">
+                    {field.labelEn} / {field.labelCn}
+                  </span>
+                  <p className="truncate text-sm font-medium text-stone-900">{value}</p>
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="mt-4 space-y-4">
+            {descEn && (
+              <div>
+                <h4 className="mb-1 font-bold text-stone-800">Description</h4>
+                <DescriptionText value={descEn} />
+              </div>
+            )}
+            {descCn && (
+              <div>
+                <h4 className="mb-1 font-bold text-stone-800">简介</h4>
+                <DescriptionText value={descCn} />
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 // A sub-component for each active section column
 const SectionColumn: React.FC<{
@@ -192,13 +323,17 @@ const SectionColumn: React.FC<{
 
 const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, events, viewport, scaleX, focusSection, onEventClick, onEventHover }) => {
   const containerRef = useRef<HTMLDivElement>(null);
+  const splitContainerRef = useRef<HTMLDivElement>(null);
   
   // Drag to scroll state
   const [isDragging, setIsDragging] = useState(false);
+  const [isResizing, setIsResizing] = useState(false);
+  const [leftPaneMaxWidthPercent, setLeftPaneMaxWidthPercent] = useState(50);
   const startX = useRef(0);
   const scrollLeft = useRef(0);
 
   const handleMouseDown = (e: React.MouseEvent) => {
+    if (isResizing) return;
     if (!containerRef.current) return;
     setIsDragging(true);
     startX.current = e.pageX - containerRef.current.offsetLeft;
@@ -220,6 +355,45 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, even
     const walk = (x - startX.current) * 1.5; // Scroll speed multiplier
     containerRef.current.scrollLeft = scrollLeft.current - walk;
   };
+
+  const handleResizeStart = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsResizing(true);
+    setIsDragging(false);
+  };
+
+  useEffect(() => {
+    if (!isResizing) return;
+
+    const handleResizeMove = (e: MouseEvent) => {
+      const container = splitContainerRef.current;
+      if (!container) return;
+
+      const rect = container.getBoundingClientRect();
+      const nextWidth = ((e.clientX - rect.left) / rect.width) * 100;
+      setLeftPaneMaxWidthPercent(Math.min(50, Math.max(24, nextWidth)));
+    };
+
+    const handleResizeEnd = () => {
+      setIsResizing(false);
+    };
+
+    const previousCursor = document.body.style.cursor;
+    const previousUserSelect = document.body.style.userSelect;
+    document.body.style.cursor = 'col-resize';
+    document.body.style.userSelect = 'none';
+
+    window.addEventListener('mousemove', handleResizeMove);
+    window.addEventListener('mouseup', handleResizeEnd);
+
+    return () => {
+      window.removeEventListener('mousemove', handleResizeMove);
+      window.removeEventListener('mouseup', handleResizeEnd);
+      document.body.style.cursor = previousCursor;
+      document.body.style.userSelect = previousUserSelect;
+    };
+  }, [isResizing]);
   
   const hasImageEvents = useMemo(() => events.some(event => !!event.imageUrl), [events]);
   const baseColumnWidth = hasImageEvents ? BASE_COLUMN_WIDTH + 120 : BASE_COLUMN_WIDTH;
@@ -228,6 +402,28 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, even
 
   const range = viewport.endYear - viewport.startYear;
   const centerYear = viewport.startYear + range / 2;
+
+  const centeredEvent = useMemo(() => {
+    if (events.length === 0 || range <= 0) return null;
+
+    const viewportWidth = typeof window !== 'undefined' ? window.innerWidth : 1200;
+    const centerBandYears = (range / Math.max(viewportWidth, 1)) * 72;
+    const minBandYears = range * 0.005;
+    const thresholdYears = Math.max(centerBandYears, minBandYears);
+
+    let nearestEvent: TimelineEvent | null = null;
+    let nearestDistance = Infinity;
+
+    events.forEach(event => {
+      const distance = Math.abs(getDecimalYear(event.date) - centerYear);
+      if (distance < nearestDistance) {
+        nearestDistance = distance;
+        nearestEvent = event;
+      }
+    });
+
+    return nearestDistance <= thresholdYears ? nearestEvent : null;
+  }, [events, centerYear, range]);
 
   // 动态计算当前红线位置激活的所有区块（仅限流派 Stream，不再显示大时代 Period）
   const activeSections = React.useMemo(() => {
@@ -314,6 +510,15 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, even
     setRenderedSections(prev => prev.filter(s => !(s.id === id && s.state === 'exiting')));
   };
 
+  const autoLeftPaneWidth = useMemo(() => {
+    const activeColumnCount = renderedSections.filter(section => section.state !== 'exiting').length;
+    if (activeColumnCount === 0) return 0;
+
+    const PADDING = 16 * 2;
+    const GAP = 16;
+    return PADDING + (activeColumnCount * COLUMN_WIDTH) + ((activeColumnCount - 1) * GAP);
+  }, [renderedSections, COLUMN_WIDTH]);
+
   // --- Focus Section Logic ---
   const lastFocusTs = useRef<number>(0);
 
@@ -360,6 +565,11 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, even
     return () => window.removeEventListener('resize', checkScroll);
   }, [activeSections]); // Re-check when content changes
 
+  useEffect(() => {
+    const timer = window.setTimeout(checkScroll, 550);
+    return () => window.clearTimeout(timer);
+  }, [autoLeftPaneWidth, leftPaneMaxWidthPercent]);
+
   const scrollByAmount = (direction: 'left' | 'right') => {
     if (containerRef.current) {
       const amount = containerRef.current.clientWidth * 0.8; // Scroll by 80% of container width
@@ -372,55 +582,79 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, streams, even
   };
 
   return (
-    <div className="relative w-full h-full">
-      {/* Left Scroll Button */}
-      {canScrollLeft && (
-        <button 
-          onClick={(e) => { e.stopPropagation(); scrollByAmount('left'); }}
-          className="absolute left-2 top-1/2 -translate-y-1/2 z-50 p-2 bg-white/80 hover:bg-white text-gray-800 shadow-md border border-gray-200 rounded-full backdrop-blur-sm transition-all animate-in fade-in"
-          aria-label="Scroll left"
-        >
-          <ChevronLeft size={24} />
-        </button>
-      )}
-
-      {/* Right Scroll Button */}
-      {canScrollRight && (
-        <button 
-          onClick={(e) => { e.stopPropagation(); scrollByAmount('right'); }}
-          className="absolute right-2 top-1/2 -translate-y-1/2 z-50 p-2 bg-white/80 hover:bg-white text-gray-800 shadow-md border border-gray-200 rounded-full backdrop-blur-sm transition-all animate-in fade-in"
-          aria-label="Scroll right"
-        >
-          <ChevronRight size={24} />
-        </button>
-      )}
-
-      <div 
-        ref={containerRef}
-        className={`w-full h-full flex overflow-x-auto custom-scrollbar bg-[#f8f8f5] p-4 gap-4 ${isDragging ? 'cursor-grabbing select-none' : 'cursor-grab'}`}
-        onMouseDown={handleMouseDown}
-        onMouseLeave={() => { handleMouseLeave(); checkScroll(); }}
-        onMouseUp={() => { handleMouseUp(); checkScroll(); }}
-        onMouseMove={handleMouseMove}
-        onScroll={checkScroll}
+    <div
+      ref={splitContainerRef}
+      className={`relative flex h-full w-full bg-[#f4f4f4] ${isResizing ? 'select-none' : ''}`}
+    >
+      <div
+        className="relative h-full min-w-0 transition-[width] duration-500 ease-in-out"
+        style={{ width: `min(${leftPaneMaxWidthPercent}%, ${autoLeftPaneWidth}px)` }}
       >
-        {renderedSections.map((section) => {
-        // 过滤事件：只显示分配给该 Stream 的事件
-        const sectionEvents = events.filter(e => e.streamId === section.id);
-        
-        return (
-          <SectionColumn 
-            key={`stream-${section.id}`}
-            section={section}
-            topic={topic}
-            events={sectionEvents}
-            columnWidth={COLUMN_WIDTH}
-            onEventClick={onEventClick}
-            onEventHover={onEventHover}
-            onRemove={handleRemove}
-          />
-        );
-      })}
+        {/* Left Scroll Button */}
+        {canScrollLeft && (
+          <button
+            onClick={(e) => { e.stopPropagation(); scrollByAmount('left'); }}
+            className="absolute left-2 top-1/2 z-50 -translate-y-1/2 rounded-full border border-gray-200 bg-white/80 p-2 text-gray-800 shadow-md backdrop-blur-sm transition-all animate-in fade-in hover:bg-white"
+            aria-label="Scroll left"
+          >
+            <ChevronLeft size={24} />
+          </button>
+        )}
+
+        {/* Right Scroll Button */}
+        {canScrollRight && (
+          <button
+            onClick={(e) => { e.stopPropagation(); scrollByAmount('right'); }}
+            className="absolute right-2 top-1/2 z-50 -translate-y-1/2 rounded-full border border-gray-200 bg-white/80 p-2 text-gray-800 shadow-md backdrop-blur-sm transition-all animate-in fade-in hover:bg-white"
+            aria-label="Scroll right"
+          >
+            <ChevronRight size={24} />
+          </button>
+        )}
+
+        <div
+          ref={containerRef}
+          className={`h-full w-full flex overflow-x-auto custom-scrollbar bg-[#f8f8f5] p-4 gap-4 ${isDragging ? 'cursor-grabbing select-none' : 'cursor-grab'}`}
+          onMouseDown={handleMouseDown}
+          onMouseLeave={() => { handleMouseLeave(); checkScroll(); }}
+          onMouseUp={() => { handleMouseUp(); checkScroll(); }}
+          onMouseMove={handleMouseMove}
+          onScroll={checkScroll}
+        >
+          {renderedSections.map((section) => {
+            // 过滤事件：只显示分配给该 Stream 的事件
+            const sectionEvents = events.filter(e => e.streamId === section.id);
+
+            return (
+              <SectionColumn
+                key={`stream-${section.id}`}
+                section={section}
+                topic={topic}
+                events={sectionEvents}
+                columnWidth={COLUMN_WIDTH}
+                onEventClick={onEventClick}
+                onEventHover={onEventHover}
+                onRemove={handleRemove}
+              />
+            );
+          })}
+        </div>
+      </div>
+
+      <button
+        type="button"
+        className="group relative z-40 flex h-full w-2 flex-none cursor-col-resize items-center justify-center bg-transparent transition-colors hover:bg-stone-200/40"
+        onMouseDown={handleResizeStart}
+        aria-label="Resize detail split"
+      >
+        <span className="absolute inset-y-3 left-1/2 w-px -translate-x-1/2 rounded-full bg-stone-300/70 transition-colors group-hover:bg-stone-500/80" />
+        <span className="relative flex h-10 w-3 items-center justify-center rounded-full border border-stone-300/70 bg-[#f8f8f5]/90 text-stone-400 opacity-0 shadow-sm transition-opacity group-hover:opacity-100">
+          <GripVertical size={12} strokeWidth={1.5} />
+        </span>
+      </button>
+
+      <div className="h-full min-w-0 flex-1 bg-[#f8f8f5] p-4 pl-0">
+        <EventDetailPane topic={topic} event={centeredEvent} />
       </div>
     </div>
   );

@@ -1,13 +1,12 @@
 import { useState, useEffect, useRef } from 'react';
-import { Viewport, TopicData, TopicEntry } from '../types';
+import { Viewport, TopicData } from '../types';
 import { 
   AUTOPLAY_IDLE_TIMEOUT, 
   AUTOPLAY_BASE_SPEED, 
-  AUTOPLAY_FAST_SPEED, 
-  AUTOPLAY_MODE 
+  AUTOPLAY_FAST_SPEED
 } from '../constants';
 
-import { getDecimalYear } from '../utils';
+import { clampViewportToMaxEnd, getTimelineMaxEndDecimal, getDecimalYear } from '../utils';
 
 export function useAutoPlay(
   topicData: TopicData | null,
@@ -24,6 +23,7 @@ export function useAutoPlay(
   const lastFrameTime = useRef<number>(0);
   const isSwitchingRef = useRef(false);
   const countdownStartRef = useRef<number>(0);
+  const timelineMaxYearRef = useRef(getTimelineMaxEndDecimal());
 
   // 1. Idle Detection
   useEffect(() => {
@@ -147,11 +147,14 @@ export function useAutoPlay(
           speed = speed + (fastSpeed - speed) * factor;
         }
 
-        const delta = speed * safeDt;
-        return {
+        // Auto-play must only move forward in time: earlier -> later.
+        const delta = Math.max(0, speed * safeDt);
+        if (delta === 0) return prev;
+
+        return clampViewportToMaxEnd({
           startYear: prev.startYear + delta,
           endYear: prev.endYear + delta
-        };
+        }, timelineMaxYearRef.current);
       });
 
       animationRef.current = requestAnimationFrame(loop);
@@ -162,7 +165,7 @@ export function useAutoPlay(
     return () => {
       if (animationRef.current) cancelAnimationFrame(animationRef.current);
     };
-  }, [isAutoPlaying, topicData, onRequestSwitch, setViewport]);
+  }, [isAutoPlaying, topicData, onRequestSwitch, setViewport, scaleX]);
 
   return { isAutoPlaying, countdown };
 }

@@ -1,6 +1,6 @@
 import React, { useMemo, memo } from 'react';
 import { Viewport, Stream, TimelineEvent } from '../types';
-import { decimalYearToDate, MONTHS, formatTimelineDate, getDecimalYear } from '../utils';
+import { formatTimelineDate, getDecimalYear } from '../utils';
 
 interface TimelineRulerProps {
   viewport: Viewport;

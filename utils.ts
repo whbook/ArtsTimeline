@@ -1,4 +1,4 @@
-import { FuzzyDate } from './types';
+import { FuzzyDate, Viewport } from './types';
 
 export const MONTHS = [
   "Jan/1月", "Feb/2月", "Mar/3月", "Apr/4月", "May/5月", "Jun/6月", 
@@ -17,6 +17,27 @@ export const getDecimalYear = (fd: FuzzyDate): number => {
     }
   }
   return y;
+};
+
+export const getTimelineMaxEndDecimal = () => {
+  return getDecimalYear({
+    year: 2500,
+    month: 12,
+    day: 31,
+  });
+};
+
+export const clampViewportToMaxEnd = (
+  viewport: Viewport,
+  maxEndYear: number = getTimelineMaxEndDecimal()
+): Viewport => {
+  if (viewport.endYear <= maxEndYear) return viewport;
+
+  const range = viewport.endYear - viewport.startYear;
+  return {
+    startYear: maxEndYear - range,
+    endYear: maxEndYear,
+  };
 };
 
 // Format a FuzzyDate into a human-readable string with accuracy prefixes
@@ -69,18 +90,18 @@ export const decimalYearToDate = (decimalYear: number) => {
 
 export const formatTimelineDate = (decimalYear: number, precision: 'year' | 'month' | 'day' = 'year') => {
   const { year, monthIndex, day } = decimalYearToDate(decimalYear);
-  const suffix = year < 0 ? ' BCE/公元前' : '';
   const absYear = Math.abs(year);
   
   // Ensure monthIndex is positive and within 0-11
   const safeMonthIndex = Math.abs(monthIndex) % 12;
-  const mStr = MONTHS[safeMonthIndex];
+  const month = safeMonthIndex + 1;
+  const yearLabel = year < 0 ? `公元前${absYear}年` : `${absYear}年`;
 
   if (precision === 'day') {
-    return `${mStr}${day}, ${absYear}${suffix}`;
+    return `${yearLabel}${month}月${day}日`;
   }
   if (precision === 'month') {
-    return `${mStr}, ${absYear}${suffix}`;
+    return `${yearLabel}${month}月`;
   }
-  return `${absYear}${suffix}`;
+  return yearLabel;
 };

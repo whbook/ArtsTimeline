@@ -7,7 +7,7 @@ import TopicSelector from './components/TopicSelector';
 import { MIN_ZOOM_RANGE, MAX_ZOOM_RANGE, AUTOPLAY_MODE, IMPORTANCE_THRESHOLDS } from './constants';
 import { Viewport, TimelineEvent, Stream } from './types';
 import { ZoomIn, ZoomOut, Loader2, Play } from 'lucide-react';
-import { formatTimelineDate, getDecimalYear } from './utils';
+import { clampViewportToMaxEnd, formatTimelineDate, getTimelineMaxEndDecimal, getDecimalYear } from './utils';
 import { useTopics } from './hooks/useTopics';
 import { useTopicData } from './hooks/useTopicData';
 import { useChunkedEvents } from './hooks/useChunkedEvents';
@@ -21,6 +21,7 @@ const App: React.FC = () => {
   
   // Get responsive scale
   const scale = useResponsiveScale();
+  const timelineMaxYear = useMemo(() => getTimelineMaxEndDecimal(), []);
   
   // Auto-select first topic when loaded
   useEffect(() => {
@@ -59,12 +60,12 @@ const App: React.FC = () => {
       
       const center = (topicData.topic.defaultViewport.startYear + topicData.topic.defaultViewport.endYear) / 2;
       
-      setViewport({
+      setViewport(clampViewportToMaxEnd({
         startYear: center - (scaledRange / 2),
         endYear: center + (scaledRange / 2)
-      });
+      }, timelineMaxYear));
     }
-  }, [topicData?.topic, scale.scaleX]);
+  }, [topicData?.topic, scale.scaleX, timelineMaxYear]);
 
   const [isDragging, setIsDragging] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState<TimelineEvent | null>(null);
@@ -85,24 +86,27 @@ const App: React.FC = () => {
       // If the stream doesn't intersect the red line (centerYear), move the red line to the stream's center
       if (centerYear < start || centerYear > end) {
         const streamCenter = (start + end) / 2;
-        return { startYear: streamCenter - range / 2, endYear: streamCenter + range / 2 };
+        return clampViewportToMaxEnd({
+          startYear: streamCenter - range / 2,
+          endYear: streamCenter + range / 2
+        }, timelineMaxYear);
       }
       return prev;
     });
 
     // Send focus signal to DetailPanel
     setFocusSection({ id: stream.id, ts: Date.now() });
-  }, []);
+  }, [timelineMaxYear]);
 
   const handleZoomRange = useCallback((start: number, end: number) => {
     const range = end - start;
     // Add 15% padding on each side to give visual breathing room around the zoomed region
     const padding = Math.max(2, range * 0.15);
-    setViewport({
+    setViewport(clampViewportToMaxEnd({
       startYear: start - padding,
       endYear: end + padding
-    });
-  }, []);
+    }, timelineMaxYear));
+  }, [timelineMaxYear]);
   
   const handleRequestSwitch = useCallback(() => {
     setIsTransitioning(true);
@@ -168,10 +172,10 @@ const App: React.FC = () => {
     const newStart = cursorYear - (newRange * mouseRatio);
     const newEnd = newStart + newRange;
 
-    setViewport({
+    setViewport(clampViewportToMaxEnd({
       startYear: newStart,
       endYear: newEnd
-    });
+    }, timelineMaxYear));
   };
 
   // --- Pan Logic ---
@@ -204,10 +208,10 @@ const App: React.FC = () => {
       const yearsPerPixel = currentRange / width;
       const deltaYears = deltaPixels * yearsPerPixel;
 
-      setViewport(prev => ({
+      setViewport(prev => clampViewportToMaxEnd({
         startYear: prev.startYear + deltaYears,
         endYear: prev.endYear + deltaYears
-      }));
+      }, timelineMaxYear));
 
       lastMouseX.current = currentX;
     });
@@ -237,7 +241,7 @@ const App: React.FC = () => {
     const newStart = center - (newRange / 2);
     const newEnd = center + (newRange / 2);
 
-    setViewport({ startYear: newStart, endYear: newEnd });
+    setViewport(clampViewportToMaxEnd({ startYear: newStart, endYear: newEnd }, timelineMaxYear));
   };
 
   // Prevent generic wheel scrolling on body
