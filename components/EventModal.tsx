@@ -67,14 +67,16 @@ const EventModal: React.FC<EventModalProps> = ({ topic, event, onClose }) => {
   );
 
   return (
-    <div className="event-modal fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" onClick={onClose}>
+    <div className="event-modal fixed inset-0 z-[100] flex items-center justify-center p-4" onClick={onClose}>
       <div 
-        className={`bg-white w-full ${hasImage ? 'max-w-5xl' : 'max-w-2xl'} max-h-[76vh] rounded-lg shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-200 font-sans`}
+        className={`relative bg-white w-full ${hasImage ? 'max-w-5xl' : 'max-w-2xl'} max-h-[76vh] rounded-lg shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-200 font-sans`}
         onClick={(e) => e.stopPropagation()}
       >
         <button 
+          type="button"
           onClick={onClose}
-          className="absolute top-6 right-6 z-30 p-2 bg-black/40 hover:bg-black/70 text-white rounded-full transition-colors"
+          aria-label="关闭"
+          className="absolute top-4 right-4 z-30 p-1.5 text-gray-400 hover:text-gray-700 hover:bg-gray-100 rounded-full transition-colors"
         >
           <X size={20} />
         </button>

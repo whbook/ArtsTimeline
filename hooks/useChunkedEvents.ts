@@ -30,6 +30,7 @@ export function useChunkedEvents(
   // Track currently active topicId and loaded bounds to prevent redundant loads
   const activeTopicIdRef = useRef<string | null>(null);
   const loadedBoundsRef = useRef<{ start: number; end: number; topicId: string } | null>(null);
+  const requestSeqRef = useRef(0);
 
   useEffect(() => {
     activeTopicIdRef.current = topicId;
@@ -41,7 +42,8 @@ export function useChunkedEvents(
       return;
     }
 
-    let isCancelled = false;
+    const requestSeq = ++requestSeqRef.current;
+    const abortController = new AbortController();
 
     async function loadManifestAndChunks() {
       try {
@@ -66,14 +68,20 @@ export function useChunkedEvents(
         setError(null);
 
         const apiBase = getApiBaseUrl();
+        const isStale = () =>
+          requestSeq !== requestSeqRef.current ||
+          activeTopicIdRef.current !== topicId;
 
         // 优先：通过数据库 API 按视口区间加载数据（极速、动态）
         try {
-          const res = await fetch(`${apiBase}/api/public/exhibitions/${topicId}/events?startYear=${bufferedStart}&endYear=${bufferedEnd}`);
+          const res = await fetch(
+            `${apiBase}/api/public/exhibitions/${topicId}/events?startYear=${bufferedStart}&endYear=${bufferedEnd}`,
+            { signal: abortController.signal }
+          );
           if (!res.ok) throw new Error("API load chunk range failed");
           
           const mergedEvents: TimelineEvent[] = await res.json();
-          if (isCancelled || activeTopicIdRef.current !== topicId) return;
+          if (isStale()) return;
 
           loadedBoundsRef.current = {
             start: bufferedStart,
@@ -85,10 +93,11 @@ export function useChunkedEvents(
           setLoading(false);
           return;
         } catch (apiErr) {
+          if (abortController.signal.aborted) return;
           console.warn("Failed to load chunked events from API, falling back to static chunks:", apiErr);
         }
 
-        if (isCancelled || activeTopicIdRef.current !== topicId) return;
+        if (isStale()) return;
 
         // 后备（Fallback）：传统的 manifest.json + 静态 JSON 块加载
         // 1. Get or fetch manifest
@@ -102,7 +111,7 @@ export function useChunkedEvents(
           manifestCache.set(topicId!, manifest!);
         }
 
-        if (isCancelled || activeTopicIdRef.current !== topicId) return;
+        if (isStale()) return;
 
         // 2. Identify required chunks
         const neededChunks = manifest!.chunks.filter(
@@ -147,7 +156,7 @@ export function useChunkedEvents(
 
         const chunkDataArrays = await Promise.all(fetchPromises);
 
-        if (isCancelled || activeTopicIdRef.current !== topicId) return;
+        if (isStale()) return;
 
         // 4. Combine and deduplicate events
         const combinedMap = new Map<string, TimelineEvent>();
@@ -174,7 +183,8 @@ export function useChunkedEvents(
         setEvents(mergedEventsLegacy);
         setLoading(false);
       } catch (err) {
-        if (!isCancelled && activeTopicIdRef.current === topicId) {
+        if (abortController.signal.aborted) return;
+        if (requestSeq === requestSeqRef.current && activeTopicIdRef.current === topicId) {
           console.error('Error loading chunked events:', err);
           setError(err as Error);
           setLoading(false);
@@ -182,10 +192,13 @@ export function useChunkedEvents(
       }
     }
 
-    loadManifestAndChunks();
+    const debounceTimer = window.setTimeout(() => {
+      loadManifestAndChunks();
+    }, 280);
 
     return () => {
-      isCancelled = true;
+      window.clearTimeout(debounceTimer);
+      abortController.abort();
     };
   }, [topicId, enabled, viewport?.startYear, viewport?.endYear]);
 
