@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Timeline.Api.Data;
+using Timeline.Api.Models;
 using Timeline.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -53,6 +54,10 @@ builder.Services.AddScoped<ExhibitionAutoSeeder>();
 builder.Services.AddScoped<ExhibitionDataImporter>();
 builder.Services.AddScoped<ExhibitionDataFileWriter>();
 builder.Services.AddScoped<BootstrapAdminSeeder>();
+
+builder.Services.Configure<OssSettings>(builder.Configuration.GetSection("Oss"));
+builder.Services.AddHttpClient("oss-upload");
+builder.Services.AddScoped<OssFileUploadService>();
 
 builder.Services.AddControllers()
     .AddJsonOptions(o => o.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase);

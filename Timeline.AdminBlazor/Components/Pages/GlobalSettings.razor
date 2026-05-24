@@ -17,9 +17,12 @@ else
             <div><label>自动播放空闲超时(ms)</label><SfNumericTextBox @bind-Value="_model.AutoplayIdleTimeoutMs" /></div>
             <div>
                 <label>播放模式</label>
-                <SfDropDownList TValue="string" TItem="LabelValueOption" DataSource="@_modeOptions" @bind-Value="_model.AutoplayMode">
-                    <DropDownListFieldSettings Value="Value" Text="Label" />
-                </SfDropDownList>
+                <div class="dropdown-with-copy">
+                    <SfDropDownList TValue="string" TItem="LabelValueOption" DataSource="@_modeOptions" @bind-Value="_model.AutoplayMode">
+                        <DropDownListFieldSettings Value="Value" Text="Label" />
+                    </SfDropDownList>
+                    <DropdownCopyButton Options="@_modeOptions.Select(x => x.Label)" />
+                </div>
             </div>
             <div><label>基础滑动速度</label><SfNumericTextBox @bind-Value="_model.AutoplayBaseSpeed" Decimals="2" /></div>
             <div><label>快进滑动速度</label><SfNumericTextBox @bind-Value="_model.AutoplayFastSpeed" Decimals="2" /></div>

@@ -3,7 +3,10 @@
 @inject AdminApiClient Api
 @inject AuthService AuthService
 @inject ToastService Toast
+@inject IJSRuntime JS
 @using Microsoft.AspNetCore.Components.Authorization
+@using System.Text.Encodings.Web
+@using System.Text.Json
 @using Syncfusion.Blazor
 @using Syncfusion.Blazor.Buttons
 @using Syncfusion.Blazor.Grids
@@ -17,9 +20,9 @@
 <div class="page-header">
     <h2>展览管理</h2>
     <div class="page-header-right">
-        <div class="e-input-group filter-search-box" style="width: 240px; border-radius: 4px; display: inline-flex; align-items: center; margin-right: 8px;">
+        <div class="e-input-group filter-search-box">
             <SfTextBox @bind-Value="_keyword" Placeholder="搜索名称、Slug..." ShowClearButton="true" Input="@OnSearchInput" />
-            <span class="e-input-group-icon e-icons e-search" @onclick="ExecuteSearch" style="cursor: pointer; padding: 0 8px;"></span>
+            <span class="e-input-group-icon e-icons e-search" @onclick="ExecuteSearch"></span>
         </div>
         <AuthorizeView Roles="super_admin,admin">
             <SfButton Content="从基础定义同步" CssClass="e-small e-outline" IconCss="e-icons e-refresh" @onclick="SyncFromData" Disabled="_syncing" />
@@ -160,13 +163,15 @@
                                 <ContentTemplate>
                                     <div class="sub-grid-panel">
                                         <div class="grid-actions">
-                                            <div style="display: flex; gap: 10px; align-items: center;">
+                                            <div style="display: flex; gap: 6px; align-items: center;">
                                                 <SfButton Content="新增分期" IsPrimary="true" CssClass="e-small" IconCss="e-icons e-plus" @onclick="CreatePeriod" />
+                                                <SfButton Content="导出数据" CssClass="e-small e-outline" IconCss="e-icons e-description" @onclick='() => OpenExportDialog("period")' />
+                                                <SfButton Content="导出数据结构" CssClass="e-small e-outline" IconCss="e-icons e-code-view" @onclick='() => ExportSchema("period")' />
                                             </div>
                                             <div style="display: flex; gap: 8px; align-items: center;">
-                                                <div class="e-input-group filter-search-box" style="width: 180px; border-radius: 4px; display: inline-flex; align-items: center;">
+                                                <div class="e-input-group filter-search-box">
                                                     <SfTextBox @bind-Value="_periodKeyword" Placeholder="在当前列表中搜索..." ShowClearButton="true" Input="@OnPeriodSearchInput" />
-                                                    <span class="e-input-group-icon e-icons e-search" @onclick="ExecutePeriodSearch" style="cursor: pointer; padding: 0 6px;"></span>
+                                                    <span class="e-input-group-icon e-icons e-search" @onclick="ExecutePeriodSearch"></span>
                                                 </div>
                                             </div>
                                         </div>
@@ -211,13 +216,15 @@
                                 <ContentTemplate>
                                     <div class="sub-grid-panel">
                                         <div class="grid-actions">
-                                            <div style="display: flex; gap: 10px; align-items: center;">
+                                            <div style="display: flex; gap: 6px; align-items: center;">
                                                 <SfButton Content="新增泳道" IsPrimary="true" CssClass="e-small" IconCss="e-icons e-plus" @onclick="CreateSwimlane" />
+                                                <SfButton Content="导出数据" CssClass="e-small e-outline" IconCss="e-icons e-description" @onclick='() => OpenExportDialog("swimlane")' />
+                                                <SfButton Content="导出数据结构" CssClass="e-small e-outline" IconCss="e-icons e-code-view" @onclick='() => ExportSchema("swimlane")' />
                                             </div>
                                             <div style="display: flex; gap: 8px; align-items: center;">
-                                                <div class="e-input-group filter-search-box" style="width: 180px; border-radius: 4px; display: inline-flex; align-items: center;">
+                                                <div class="e-input-group filter-search-box">
                                                     <SfTextBox @bind-Value="_swimlaneKeyword" Placeholder="在当前列表中搜索..." ShowClearButton="true" Input="@OnSwimlaneSearchInput" />
-                                                    <span class="e-input-group-icon e-icons e-search" @onclick="ExecuteSwimlaneSearch" style="cursor: pointer; padding: 0 6px;"></span>
+                                                    <span class="e-input-group-icon e-icons e-search" @onclick="ExecuteSwimlaneSearch"></span>
                                                 </div>
                                             </div>
                                         </div>
@@ -257,18 +264,23 @@
                                 <ContentTemplate>
                                     <div class="sub-grid-panel">
                                         <div class="grid-actions filter-actions">
-                                            <div class="left-actions" style="display: inline-flex; align-items: center; gap: 8px;">
+                                            <div class="left-actions" style="display: inline-flex; align-items: center; gap: 6px;">
                                                 <SfButton Content="新增作品卡片" IsPrimary="true" CssClass="e-small" IconCss="e-icons e-plus" @onclick="CreateEvent" />
+                                                <SfButton Content="导出数据" CssClass="e-small e-outline" IconCss="e-icons e-description" @onclick='() => OpenExportDialog("event")' />
+                                                <SfButton Content="导出数据结构" CssClass="e-small e-outline" IconCss="e-icons e-code-view" @onclick='() => ExportSchema("event")' />
                                             </div>
                                             <div class="right-filters" style="display: inline-flex; align-items: center; gap: 8px;">
-                                                <div class="e-input-group filter-search-box" style="width: 200px; border-radius: 4px; display: inline-flex; align-items: center;">
+                                                <div class="e-input-group filter-search-box">
                                                     <SfTextBox Placeholder="搜索标题、创作者..." Value="@_eventKeyword" ShowClearButton="true" Input="@OnEventSearchInput" />
-                                                    <span class="e-input-group-icon e-icons e-search" @onclick="ExecuteEventSearch" style="cursor: pointer; padding: 0 6px;"></span>
+                                                    <span class="e-input-group-icon e-icons e-search" @onclick="ExecuteEventSearch"></span>
                                                 </div>
-                                                <SfDropDownList TValue="int?" TItem="ImportanceOption" DataSource="@_importanceOptions" @bind-Value="_eventImportance" Placeholder="筛选重要度" CssClass="e-small filter-dropdown">
-                                                    <DropDownListFieldSettings Text="Label" Value="Value" />
-                                                    <DropDownListEvents TValue="int?" TItem="ImportanceOption" ValueChange="async () => { _eventPage = 1; await LoadEventsAsync(); }" />
-                                                </SfDropDownList>
+                                                <div class="dropdown-with-copy">
+                                                    <SfDropDownList TValue="int?" TItem="ImportanceOption" DataSource="@_importanceOptions" @bind-Value="_eventImportance" Placeholder="筛选重要度" CssClass="e-small filter-dropdown">
+                                                        <DropDownListFieldSettings Text="Label" Value="Value" />
+                                                        <DropDownListEvents TValue="int?" TItem="ImportanceOption" ValueChange="async () => { _eventPage = 1; await LoadEventsAsync(); }" />
+                                                    </SfDropDownList>
+                                                    <DropdownCopyButton Options="@_importanceOptions.Select(x => x.Label)" />
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="sub-grid-body">
@@ -312,9 +324,12 @@
                                             </div>
                                             <div style="display: flex; gap: 6px; align-items: center;">
                                                 <span style="font-size: 11px; color: var(--app-text-muted);">每页:</span>
-                                                <SfDropDownList TValue="int" TItem="int" DataSource="@_pageSizeOptions" @bind-Value="_eventPageSize" Width="80px" CssClass="e-small">
-                                                    <DropDownListEvents TValue="int" TItem="int" ValueChange="@OnEventPageSizeChanged" />
-                                                </SfDropDownList>
+                                                <div class="dropdown-with-copy">
+                                                    <SfDropDownList TValue="int" TItem="int" DataSource="@_pageSizeOptions" @bind-Value="_eventPageSize" Width="80px" CssClass="e-small">
+                                                        <DropDownListEvents TValue="int" TItem="int" ValueChange="@OnEventPageSizeChanged" />
+                                                    </SfDropDownList>
+                                                    <DropdownCopyButton Options="@_pageSizeOptions.Select(x => x.ToString())" />
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -385,9 +400,12 @@
                 <div class="form-section">
                     <div class="form-row">
                         <label>所属分期</label>
-                        <SfDropDownList TValue="Guid?" TItem="PeriodDto" DataSource="@_periods" @bind-Value="_editingSwimlane.PeriodId" Placeholder="选择关联分期" CssClass="e-small">
-                            <DropDownListFieldSettings Text="NameCn" Value="Id" />
-                        </SfDropDownList>
+                        <div class="dropdown-with-copy">
+                            <SfDropDownList TValue="Guid?" TItem="PeriodDto" DataSource="@_periods" @bind-Value="_editingSwimlane.PeriodId" Placeholder="选择关联分期" CssClass="e-small">
+                                <DropDownListFieldSettings Text="NameCn" Value="Id" />
+                            </SfDropDownList>
+                            <DropdownCopyButton Options="@_periods.Select(x => x.NameCn)" />
+                        </div>
                     </div>
                     <div class="form-row">
                         <label>中文名称</label>
@@ -437,15 +455,21 @@
                         <div class="form-row-grid">
                             <div class="form-row">
                                 <label>所属分期</label>
-                                <SfDropDownList TValue="Guid?" TItem="PeriodDto" DataSource="@_periods" @bind-Value="_editingEvent.PeriodId" Placeholder="选择分期 (可空)" CssClass="e-small">
-                                    <DropDownListFieldSettings Text="NameCn" Value="Id" />
-                                </SfDropDownList>
+                                <div class="dropdown-with-copy">
+                                    <SfDropDownList TValue="Guid?" TItem="PeriodDto" DataSource="@_periods" @bind-Value="_editingEvent.PeriodId" Placeholder="选择分期 (可空)" CssClass="e-small">
+                                        <DropDownListFieldSettings Text="NameCn" Value="Id" />
+                                    </SfDropDownList>
+                                    <DropdownCopyButton Options="@_periods.Select(x => x.NameCn)" />
+                                </div>
                             </div>
                             <div class="form-row">
                                 <label>所属泳道</label>
-                                <SfDropDownList TValue="Guid?" TItem="SwimlaneDto" DataSource="@_swimlanes" @bind-Value="_editingEvent.SwimlaneId" Placeholder="选择泳道 (可空)" CssClass="e-small">
-                                    <DropDownListFieldSettings Text="NameCn" Value="Id" />
-                                </SfDropDownList>
+                                <div class="dropdown-with-copy">
+                                    <SfDropDownList TValue="Guid?" TItem="SwimlaneDto" DataSource="@_swimlanes" @bind-Value="_editingEvent.SwimlaneId" Placeholder="选择泳道 (可空)" CssClass="e-small">
+                                        <DropDownListFieldSettings Text="NameCn" Value="Id" />
+                                    </SfDropDownList>
+                                    <DropdownCopyButton Options="@_swimlanes.Select(x => x.NameCn)" />
+                                </div>
                             </div>
                         </div>
                         <div class="form-row">
@@ -488,6 +512,17 @@
                                 <label>封面图像 URL</label>
                                 <div class="url-control-group">
                                     <SfTextBox @bind-Value="_editingEvent.ImageUrl" Placeholder="http:// 或 https:// 格式" CssClass="e-small" />
+                                    <InputFile id="event-image-upload" OnChange="UploadEventImage" style="display:none;" accept="image/*" />
+                                    <label for="event-image-upload" class="e-btn e-small e-success e-outline @(_uploadingImage ? "e-disabled" : "")" style="cursor:pointer; margin:0; display:inline-flex; align-items:center; height: 28px; line-height: 28px; padding: 0 10px;">
+                                        @if (_uploadingImage)
+                                        {
+                                            <span class="e-icons e-refresh" style="margin-right:4px; animation: spin 1s linear infinite;"></span><span>上传中...</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="e-icons e-image" style="margin-right:4px;"></span><span>本地上传</span>
+                                        }
+                                    </label>
                                     <SfButton Content="预览" CssClass="e-small e-outline" OnClick="@(() => PreviewUrl(_editingEvent.ImageUrl, "image"))" Disabled="@string.IsNullOrEmpty(_editingEvent.ImageUrl)" />
                                 </div>
                             </div>
@@ -502,6 +537,17 @@
                                 <label>高清原图 URL</label>
                                 <div class="url-control-group">
                                     <SfTextBox @bind-Value="_editingEvent.HighResImageUrl" Placeholder="超高分辨率无损大图链接" CssClass="e-small" />
+                                    <InputFile id="event-highres-upload" OnChange="UploadHighResImage" style="display:none;" accept="image/*" />
+                                    <label for="event-highres-upload" class="e-btn e-small e-success e-outline @(_uploadingHighRes ? "e-disabled" : "")" style="cursor:pointer; margin:0; display:inline-flex; align-items:center; height: 28px; line-height: 28px; padding: 0 10px;">
+                                        @if (_uploadingHighRes)
+                                        {
+                                            <span class="e-icons e-refresh" style="margin-right:4px; animation: spin 1s linear infinite;"></span><span>上传中...</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="e-icons e-image" style="margin-right:4px;"></span><span>本地上传</span>
+                                        }
+                                    </label>
                                     <SfButton Content="预览" CssClass="e-small e-outline" OnClick="@(() => PreviewUrl(_editingEvent.HighResImageUrl, "image"))" Disabled="@string.IsNullOrEmpty(_editingEvent.HighResImageUrl)" />
                                 </div>
                             </div>
@@ -538,6 +584,12 @@
         </DialogButtons>
     </SfDialog>
 }
+
+@* --- 弹窗 7：导出配置窗口 --- *@
+<ExportConfigDialog @bind-Visible="_showExportDialog"
+                    ExhibitionId="_selectedExhibition.Id"
+                    DataType="@_exportDataType"
+                    DataList="@_exportDataList" />
 
 @* --- 弹窗 6：URL 预览窗口 --- *@
 @if (_showPreviewDialog)
@@ -723,6 +775,11 @@
     private bool _isNewEvent;
     private TimelineEventDto _editingEvent = new();
     private bool _hasEventEndDate;
+    private bool _uploadingImage;
+    private bool _uploadingHighRes;
+    private bool _showExportDialog;
+    private string _exportDataType = string.Empty;
+    private object? _exportDataList;
 
     // 预览窗体
     private bool _showPreviewDialog;
@@ -1238,6 +1295,92 @@
         _showPreviewDialog = true;
     }
 
+    private async Task UploadEventImage(Microsoft.AspNetCore.Components.Forms.InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+        if (file == null) return;
+
+        if (file.Size > 10 * 1024 * 1024)
+        {
+            Toast.Error("上传的图片不能超过 10MB");
+            return;
+        }
+
+        _uploadingImage = true;
+        StateHasChanged();
+
+        try
+        {
+            using var stream = file.OpenReadStream(10 * 1024 * 1024);
+            using var ms = new MemoryStream();
+            await stream.CopyToAsync(ms);
+            var bytes = ms.ToArray();
+
+            var (fileUrl, err) = await Api.UploadFileAsync(_selectedExhibition.Id, bytes, file.Name, file.ContentType);
+            if (err != null)
+            {
+                Toast.Error(err);
+            }
+            else if (!string.IsNullOrWhiteSpace(fileUrl))
+            {
+                _editingEvent.ImageUrl = fileUrl;
+                Toast.Success("图片上传成功");
+            }
+        }
+        catch (Exception ex)
+        {
+            Toast.Error($"图片上传失败: {ex.Message}");
+        }
+        finally
+        {
+            _uploadingImage = false;
+            StateHasChanged();
+        }
+    }
+
+    private async Task UploadHighResImage(Microsoft.AspNetCore.Components.Forms.InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+        if (file == null) return;
+
+        if (file.Size > 30 * 1024 * 1024)
+        {
+            Toast.Error("上传的高清图片不能超过 30MB");
+            return;
+        }
+
+        _uploadingHighRes = true;
+        StateHasChanged();
+
+        try
+        {
+            using var stream = file.OpenReadStream(30 * 1024 * 1024);
+            using var ms = new MemoryStream();
+            await stream.CopyToAsync(ms);
+            var bytes = ms.ToArray();
+
+            var (fileUrl, err) = await Api.UploadFileAsync(_selectedExhibition.Id, bytes, file.Name, file.ContentType);
+            if (err != null)
+            {
+                Toast.Error(err);
+            }
+            else if (!string.IsNullOrWhiteSpace(fileUrl))
+            {
+                _editingEvent.HighResImageUrl = fileUrl;
+                Toast.Success("高清图片上传成功");
+            }
+        }
+        catch (Exception ex)
+        {
+            Toast.Error($"图片上传失败: {ex.Message}");
+        }
+        finally
+        {
+            _uploadingHighRes = false;
+            StateHasChanged();
+        }
+    }
+
     private async Task OnRowDropped(RowDroppedEventArgs<ExhibitionListItem> args)
     {
         var movingItems = args.Data;
@@ -1260,6 +1403,109 @@
         {
             Toast.Error(err ?? "排序更新失败");
             await LoadAsync(); // 失败则重新加载并同步状态
+        }
+    }
+
+    private void OpenExportDialog(string dataType)
+    {
+        _exportDataType = dataType;
+        _exportDataList = dataType switch
+        {
+            "period" => _filteredPeriods,
+            "swimlane" => _filteredSwimlanes,
+            _ => null
+        };
+        _showExportDialog = true;
+    }
+
+    private async Task ExportSchema(string dataType)
+    {
+        object? schemaObj = dataType switch
+        {
+            "period" => new
+            {
+                entity = "Period",
+                name = "分期",
+                fields = new[]
+                {
+                    new { name = "Id", type = "Guid", description = "唯一标识 ID" },
+                    new { name = "ExhibitionId", type = "Guid", description = "关联展览 ID" },
+                    new { name = "NameCn", type = "String", description = "中文名称" },
+                    new { name = "NameEn", type = "String", description = "英文名称" },
+                    new { name = "ColorHex", type = "String", description = "文字颜色 Hex 值" },
+                    new { name = "ColorBackground", type = "String", description = "背景色 Hex 值" },
+                    new { name = "Description", type = "String", description = "详情简介" },
+                    new { name = "Start", type = "FuzzyDate", description = "分期开始时间" },
+                    new { name = "End", type = "FuzzyDate", description = "分期结束时间" }
+                }
+            },
+            "swimlane" => new
+            {
+                entity = "Swimlane",
+                name = "泳道",
+                fields = new[]
+                {
+                    new { name = "Id", type = "Guid", description = "唯一标识 ID" },
+                    new { name = "ExhibitionId", type = "Guid", description = "关联展览 ID" },
+                    new { name = "PeriodId", type = "Guid?", description = "关联分期 ID (可空)" },
+                    new { name = "NameCn", type = "String", description = "中文名称" },
+                    new { name = "NameEn", type = "String", description = "英文名称" },
+                    new { name = "Color", type = "String", description = "泳道色 Hex 值" },
+                    new { name = "Lane", type = "Int32", description = "轨道序号" },
+                    new { name = "DescriptionCn", type = "String", description = "中文简介" },
+                    new { name = "DescriptionEn", type = "String", description = "英文简介" },
+                    new { name = "Start", type = "FuzzyDate", description = "有效开始时间" },
+                    new { name = "End", type = "FuzzyDate", description = "有效结束时间" }
+                }
+            },
+            "event" => new
+            {
+                entity = "TimelineEvent",
+                name = "作品卡片",
+                fields = new[]
+                {
+                    new { name = "Id", type = "Guid", description = "唯一标识 ID" },
+                    new { name = "ExhibitionId", type = "Guid", description = "关联展览 ID" },
+                    new { name = "PeriodId", type = "Guid?", description = "关联分期 ID (可空)" },
+                    new { name = "SwimlaneId", type = "Guid?", description = "关联泳道 ID (可空)" },
+                    new { name = "TitleCn", type = "String", description = "中文标题" },
+                    new { name = "TitleEn", type = "String", description = "英文标题" },
+                    new { name = "CreatorCn", type = "String", description = "创作者(中文)" },
+                    new { name = "CreatorEn", type = "String", description = "创作者(英文)" },
+                    new { name = "Location", type = "String", description = "藏地/地点" },
+                    new { name = "ImageUrl", type = "String", description = "封面图 URL" },
+                    new { name = "DetailPageUrl", type = "String", description = "详情页 URL" },
+                    new { name = "HighResImageUrl", type = "String", description = "高清原图 URL" },
+                    new { name = "DescriptionCn", type = "String", description = "中文详情描述" },
+                    new { name = "DescriptionEn", type = "String", description = "英文详情描述" },
+                    new { name = "Importance", type = "Int32", description = "重要度/缩放权重 (1-5)" },
+                    new { name = "Tags", type = "List<String>", description = "标签列表" },
+                    new { name = "Date", type = "FuzzyDate", description = "事件开始时间" },
+                    new { name = "EndDate", type = "FuzzyDate?", description = "事件结束时间 (可空)" },
+                    new { name = "MetaJson", type = "String (JSON)", description = "柔性自定义元数据 JSON" }
+                }
+            },
+            _ => null
+        };
+
+        if (schemaObj == null) return;
+
+        try
+        {
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true,
+                Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+            };
+            var bytes = JsonSerializer.SerializeToUtf8Bytes(schemaObj, options);
+            var base64 = Convert.ToBase64String(bytes);
+            var finalFileName = $"{dataType}_schema.json";
+            await JS.InvokeVoidAsync("downloadFile", finalFileName, "application/json", base64);
+            Toast.Success($"{finalFileName} 结构定义导出成功！");
+        }
+        catch (Exception ex)
+        {
+            Toast.Error($"结构导出失败: {ex.Message}");
         }
     }
 

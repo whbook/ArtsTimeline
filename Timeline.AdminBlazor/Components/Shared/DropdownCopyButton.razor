@@ -1,0 +1,31 @@
+@inject IJSRuntime JS
+@inject ToastService Toast
+
+<SfButton CssClass="e-small e-outline ddl-copy-btn"
+          Content="复制"
+          title="@Title"
+          @onclick="CopyOptionsAsync" />
+
+@code {
+    [Parameter] public IEnumerable<string>? Options { get; set; }
+    [Parameter] public string Title { get; set; } = "复制下拉选项文本";
+    [Parameter] public string EmptyMessage { get; set; } = "当前下拉没有可复制项";
+
+    private async Task CopyOptionsAsync()
+    {
+        var joined = string.Join(",",
+            (Options ?? [])
+                .Where(x => !string.IsNullOrWhiteSpace(x))
+                .Select(x => x.Trim())
+                .Distinct(StringComparer.Ordinal));
+
+        if (string.IsNullOrWhiteSpace(joined))
+        {
+            Toast.Info(EmptyMessage);
+            return;
+        }
+
+        await JS.InvokeVoidAsync("navigator.clipboard.writeText", joined);
+        Toast.Success("下拉选项文本已复制");
+    }
+}

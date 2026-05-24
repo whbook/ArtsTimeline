@@ -20,16 +20,19 @@
         </div>
         <div class="col-field">
             <label>精确度修饰</label>
-            <SfDropDownList TValue="string" TItem="string" DataSource="@_accuracies" Value="@Value.Accuracy" ValueChanged="@(a => OnFieldChanged(nameof(Value.Accuracy), a))" CssClass="e-small">
-                <DropDownListTemplates TItem="string">
-                    <ItemTemplate>
-                        @GetAccuracyName(context)
-                    </ItemTemplate>
-                    <ValueTemplate>
-                        @GetAccuracyName(context)
-                    </ValueTemplate>
-                </DropDownListTemplates>
-            </SfDropDownList>
+            <div class="dropdown-with-copy">
+                <SfDropDownList TValue="string" TItem="string" DataSource="@_accuracies" Value="@Value.Accuracy" ValueChanged="@(a => OnFieldChanged(nameof(Value.Accuracy), a))" CssClass="e-small">
+                    <DropDownListTemplates TItem="string">
+                        <ItemTemplate>
+                            @GetAccuracyName(context)
+                        </ItemTemplate>
+                        <ValueTemplate>
+                            @GetAccuracyName(context)
+                        </ValueTemplate>
+                    </DropDownListTemplates>
+                </SfDropDownList>
+                <DropdownCopyButton Options="@_accuracies.Select(GetAccuracyName)" />
+            </div>
         </div>
     </div>
 

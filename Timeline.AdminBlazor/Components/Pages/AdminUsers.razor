@@ -6,9 +6,9 @@
 <div class="page-header">
     <h2>系统用户</h2>
     <div class="page-header-right">
-        <div class="e-input-group filter-search-box" style="width: 240px; border-radius: 4px; display: inline-flex; align-items: center; margin-right: 8px;">
+        <div class="e-input-group filter-search-box">
             <SfTextBox @bind-Value="_keyword" Placeholder="搜索用户..." ShowClearButton="true" Input="@OnSearchInput" />
-            <span class="e-input-group-icon e-icons e-search" @onclick="ExecuteSearch" style="cursor: pointer; padding: 0 8px;"></span>
+            <span class="e-input-group-icon e-icons e-search" @onclick="ExecuteSearch"></span>
         </div>
     </div>
 </div>

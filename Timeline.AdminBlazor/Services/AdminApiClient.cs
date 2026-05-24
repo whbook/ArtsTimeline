@@ -288,4 +288,52 @@ public class AdminApiClient
     }
 
     #endregion
+
+    #region OSS (云存储管理)
+
+    public async Task<(string? FileUrl, string? Error)> UploadFileAsync(Guid exhibitionId, byte[] fileBytes, string fileName, string contentType)
+    {
+        try
+        {
+            ApplyBearerToken();
+            using var content = new MultipartFormDataContent();
+            
+            var byteContent = new ByteArrayContent(fileBytes);
+            byteContent.Headers.ContentType = new MediaTypeHeaderValue(contentType);
+            content.Add(byteContent, "file", fileName);
+            content.Add(new StringContent(exhibitionId.ToString()), "exhibitionId");
+
+            var resp = await Client.PostAsync("api/oss/upload", content);
+            if (resp.IsSuccessStatusCode)
+            {
+                var doc = await resp.Content.ReadFromJsonAsync<System.Text.Json.JsonElement>();
+                if (doc.TryGetProperty("fileUrl", out var fileUrlProp))
+                {
+                    return (fileUrlProp.GetString(), null);
+                }
+                return (null, "服务器返回的数据不含 fileUrl");
+            }
+            return (null, await ReadError(resp));
+        }
+        catch (Exception ex)
+        {
+            return (null, ex.Message);
+        }
+    }
+
+    public async Task<(bool Ok, string? Error)> DeleteFileAsync(string fileUrl)
+    {
+        try
+        {
+            ApplyBearerToken();
+            var resp = await Client.DeleteAsync($"api/oss/delete?fileUrl={Uri.EscapeDataString(fileUrl)}");
+            return resp.IsSuccessStatusCode ? (true, null) : (false, await ReadError(resp));
+        }
+        catch (Exception ex)
+        {
+            return (false, ex.Message);
+        }
+    }
+
+    #endregion
 }

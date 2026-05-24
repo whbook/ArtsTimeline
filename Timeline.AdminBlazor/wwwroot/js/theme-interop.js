@@ -49,3 +49,22 @@ function setSidebarOpenState(key, isOpen) {
     try { localStorage.setItem(key, value); } catch { }
     document.cookie = `${key}=${value};path=/;max-age=31536000;SameSite=Lax`;
 }
+
+// 导出文件辅助
+window.downloadFile = function(fileName, contentType, bytesBase64) {
+    const binaryString = window.atob(bytesBase64);
+    const len = binaryString.length;
+    const bytes = new Uint8Array(len);
+    for (let i = 0; i < len; i++) {
+        bytes[i] = binaryString.charCodeAt(i);
+    }
+    const blob = new Blob([bytes], { type: contentType });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = fileName;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+};

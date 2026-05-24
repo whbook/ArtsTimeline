@@ -1,0 +1,659 @@
+@using ClosedXML.Excel
+@using System.IO
+@using System.Text
+@using System.Text.Json
+@using Timeline.AdminBlazor.Models
+@using Timeline.AdminBlazor.Services
+@using Syncfusion.Blazor.Popups
+@using Syncfusion.Blazor.DropDowns
+@using Syncfusion.Blazor.Inputs
+@using Syncfusion.Blazor.Buttons
+
+@inject AdminApiClient Api
+@inject ToastService Toast
+@inject IJSRuntime JS
+
+<SfDialog Width="720px" IsModal="true" ShowCloseIcon="true" @bind-Visible="Visible" Header="导出数据">
+    <DialogTemplates>
+        <Content>
+            @if (_loading)
+            {
+                <div style="display:flex; justify-content:center; align-items:center; height:150px;">
+                    <span class="e-icons e-refresh" style="font-size:24px; animation: spin 1s linear infinite;"></span>
+                    <span style="margin-left:8px;">正在拉取最新数据...</span>
+                </div>
+            }
+            else
+            {
+                <div class="export-dialog-body">
+                    <div class="export-form-grid">
+                        <label>导出格式</label>
+                        <div class="dropdown-with-copy">
+                            <SfDropDownList TValue="string" TItem="ExportOption"
+                                            DataSource="@FormatOptions" @bind-Value="_format">
+                                <DropDownListFieldSettings Value="Value" Text="Label" />
+                            </SfDropDownList>
+                            <DropdownCopyButton Options="@FormatOptions.Select(x => x.Label)" />
+                        </div>
+
+                        <label>文件名前缀</label>
+                        <SfTextBox @bind-Value="_fileName" Placeholder="不填则自动生成" />
+
+                        <label>数据范围</label>
+                        <div class="dropdown-with-copy">
+                            <SfDropDownList TValue="string" TItem="ExportOption"
+                                            DataSource="@RangeOptions" @bind-Value="_range">
+                                <DropDownListFieldSettings Value="Value" Text="Label" />
+                            </SfDropDownList>
+                            <DropdownCopyButton Options="@RangeOptions.Select(x => x.Label)" />
+                        </div>
+
+                        <label>表头模式</label>
+                        <div class="dropdown-with-copy">
+                            <SfDropDownList TValue="string" TItem="ExportOption"
+                                            DataSource="@HeaderOptions" @bind-Value="_headerMode">
+                                <DropDownListFieldSettings Value="Value" Text="Label" />
+                            </SfDropDownList>
+                            <DropdownCopyButton Options="@HeaderOptions.Select(x => x.Label)" />
+                        </div>
+                    </div>
+
+                    <div class="export-field-header" style="margin-top:16px;">
+                        <strong>字段选择与排序</strong>
+                        <span style="font-size:12px; color:var(--app-text-muted);">
+                            已选 @_fields.Count(f => f.IsSelected) / @_fields.Count
+                        </span>
+                    </div>
+
+                    <div class="export-field-list">
+                        @foreach (var field in _fields.OrderBy(f => f.Order))
+                        {
+                            <div class="export-field-row @(_draggingFieldName == field.FieldName ? "is-dragging" : null)"
+                                 @ondragover:preventDefault="true"
+                                 @ondragover="() => OnFieldDragOver(field)"
+                                 @ondrop="() => DropField(field)">
+                                <span class="drag-handle"
+                                      draggable="true"
+                                      title="拖动调整顺序"
+                                      @ondragstart="() => StartFieldDrag(field)"
+                                      @ondragend="EndFieldDrag">
+                                    <span class="e-icons e-drag-and-drop"></span>
+                                </span>
+                                <SfCheckBox @bind-Checked="field.IsSelected" />
+                                <span class="field-name">@field.FieldName</span>
+                                <span class="field-display">@field.DisplayName</span>
+                                <span class="row-spacer"></span>
+                                <SfButton IconCss="e-icons e-chevron-up" CssClass="e-small e-outline" @onclick="() => MoveField(field, -1)" />
+                                <SfButton IconCss="e-icons e-chevron-down" CssClass="e-small e-outline" @onclick="() => MoveField(field, 1)" />
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </Content>
+        <FooterTemplate>
+            <SfButton Content="取消" CssClass="e-outline" @onclick="Close" />
+            <SfButton Content="开始导出" IsPrimary="true" Disabled="@(_submitting || _loading)" @onclick="StartExportAsync" />
+        </FooterTemplate>
+    </DialogTemplates>
+</SfDialog>
+
+@code {
+    [Parameter] public bool Visible { get; set; }
+    [Parameter] public EventCallback<bool> VisibleChanged { get; set; }
+    [Parameter] public Guid ExhibitionId { get; set; }
+    [Parameter] public string DataType { get; set; } = string.Empty; // "period", "swimlane", "event"
+    [Parameter] public object? DataList { get; set; } // 如果是在前端已有全量数据（分期/泳道）可以传入
+
+    private List<ExportFieldModel> _fields = [];
+    private string _format = "excel";
+    private string _fileName = string.Empty;
+    private string _range = "all";
+    private string _headerMode = "both";
+    private bool _loading;
+    private bool _submitting;
+    private string? _draggingFieldName;
+
+    public class ExportFieldModel
+    {
+        public string FieldName { get; set; } = string.Empty;
+        public string DisplayName { get; set; } = string.Empty;
+        public bool IsSelected { get; set; } = true;
+        public int Order { get; set; }
+    }
+
+    private class ExportOption
+    {
+        public string Value { get; set; }
+        public string Label { get; set; }
+        public ExportOption(string v, string l) { Value = v; Label = l; }
+    }
+
+    private static readonly List<ExportOption> FormatOptions = new()
+    {
+        new("excel", "Excel (.xlsx)"),
+        new("csv", "CSV (.csv)"),
+        new("json", "JSON (.json)"),
+        new("ndjson", "NDJSON (.jsonl)"),
+        new("sql", "SQL (.sql)"),
+        new("markdown", "Markdown (.md)")
+    };
+
+    private static readonly List<ExportOption> RangeOptions = new()
+    {
+        new("all", "全部记录"),
+        new("top100", "前 100 条"),
+        new("top10000", "前 10000 条")
+    };
+
+    private static readonly List<ExportOption> HeaderOptions = new()
+    {
+        new("both", "英文（中文）"),
+        new("chinese", "纯中文"),
+        new("english", "纯英文")
+    };
+
+    protected override void OnParametersSet()
+    {
+        if (Visible && _fields.Count == 0 && !string.IsNullOrWhiteSpace(DataType))
+        {
+            InitFields();
+        }
+    }
+
+    private void InitFields()
+    {
+        var rawFields = DataType switch
+        {
+            "period" => new List<(string, string)>
+            {
+                ("Id", "分期ID"),
+                ("ExhibitionId", "展览ID"),
+                ("NameCn", "中文名"),
+                ("NameEn", "英文名"),
+                ("ColorHex", "前景色"),
+                ("ColorBackground", "背景色"),
+                ("Description", "分期详情"),
+                ("Start", "开始时间"),
+                ("End", "结束时间")
+            },
+            "swimlane" => new List<(string, string)>
+            {
+                ("Id", "泳道ID"),
+                ("ExhibitionId", "展览ID"),
+                ("PeriodId", "关联分期ID"),
+                ("NameCn", "中文名"),
+                ("NameEn", "英文名"),
+                ("Color", "泳道颜色"),
+                ("Lane", "轨道号"),
+                ("DescriptionCn", "中文简介"),
+                ("DescriptionEn", "英文简介"),
+                ("Start", "有效开始时间"),
+                ("End", "有效结束时间")
+            },
+            "event" => new List<(string, string)>
+            {
+                ("Id", "作品ID"),
+                ("ExhibitionId", "展览ID"),
+                ("PeriodId", "关联分期ID"),
+                ("SwimlaneId", "关联泳道ID"),
+                ("TitleCn", "中文标题"),
+                ("TitleEn", "英文标题"),
+                ("CreatorCn", "创作者(中)"),
+                ("CreatorEn", "创作者(英)"),
+                ("Location", "收藏地/地点"),
+                ("ImageUrl", "封面图URL"),
+                ("DetailPageUrl", "详情页URL"),
+                ("HighResImageUrl", "高清原图URL"),
+                ("DescriptionCn", "中文描述"),
+                ("DescriptionEn", "英文描述"),
+                ("Importance", "重要度"),
+                ("Tags", "标签"),
+                ("Date", "开始时间"),
+                ("EndDate", "结束时间"),
+                ("MetaJson", "柔性元数据JSON")
+            },
+            _ => new List<(string, string)>()
+        };
+
+        _fields = rawFields.Select((f, idx) => new ExportFieldModel
+        {
+            FieldName = f.Item1,
+            DisplayName = f.Item2,
+            IsSelected = true,
+            Order = idx
+        }).ToList();
+    }
+
+    private void MoveField(ExportFieldModel field, int delta)
+    {
+        var list = _fields.OrderBy(f => f.Order).ToList();
+        var index = list.IndexOf(field);
+        var next = index + delta;
+        if (next < 0 || next >= list.Count) return;
+        (list[index], list[next]) = (list[next], list[index]);
+        for (var i = 0; i < list.Count; i++) list[i].Order = i;
+    }
+
+    private void StartFieldDrag(ExportFieldModel field) => _draggingFieldName = field.FieldName;
+    private void EndFieldDrag() => _draggingFieldName = null;
+
+    private void OnFieldDragOver(ExportFieldModel target)
+    {
+        if (string.IsNullOrWhiteSpace(_draggingFieldName) || _draggingFieldName == target.FieldName)
+            return;
+        ReorderField(_draggingFieldName, target.FieldName);
+    }
+
+    private void DropField(ExportFieldModel target)
+    {
+        if (!string.IsNullOrWhiteSpace(_draggingFieldName) && _draggingFieldName != target.FieldName)
+            ReorderField(_draggingFieldName, target.FieldName);
+        _draggingFieldName = null;
+    }
+
+    private void ReorderField(string sourceFieldName, string targetFieldName)
+    {
+        var list = _fields.OrderBy(f => f.Order).ToList();
+        var source = list.FirstOrDefault(f => f.FieldName == sourceFieldName);
+        var target = list.FirstOrDefault(f => f.FieldName == targetFieldName);
+        if (source == null || target == null || ReferenceEquals(source, target)) return;
+
+        var sourceIndex = list.IndexOf(source);
+        var targetIndex = list.IndexOf(target);
+        list.RemoveAt(sourceIndex);
+        if (sourceIndex < targetIndex) targetIndex--;
+        list.Insert(targetIndex, source);
+        for (var i = 0; i < list.Count; i++) list[i].Order = i;
+    }
+
+    private async Task Close()
+    {
+        _fields.Clear();
+        Visible = false;
+        await VisibleChanged.InvokeAsync(false);
+    }
+
+    private async Task StartExportAsync()
+    {
+        var selectedFields = _fields.Where(f => f.IsSelected).OrderBy(f => f.Order).ToList();
+        if (selectedFields.Count == 0)
+        {
+            Toast.Error("请至少选择一个导出字段");
+            return;
+        }
+
+        _submitting = true;
+        StateHasChanged();
+
+        try
+        {
+            // 1. 获取全量行数据
+            List<Dictionary<string, object?>> rows = [];
+            if (DataType == "period")
+            {
+                List<PeriodDto> periods = [];
+                if (DataList is IEnumerable<PeriodDto> dl)
+                {
+                    periods = dl.ToList();
+                }
+                else
+                {
+                    periods = await Api.GetPeriodsAsync(ExhibitionId) ?? [];
+                }
+                rows = ApplyRange(periods).Select(MapPeriodToRow).ToList();
+            }
+            else if (DataType == "swimlane")
+            {
+                List<SwimlaneDto> swimlanes = [];
+                if (DataList is IEnumerable<SwimlaneDto> dl)
+                {
+                    swimlanes = dl.ToList();
+                }
+                else
+                {
+                    swimlanes = await Api.GetSwimlanesAsync(ExhibitionId) ?? [];
+                }
+                rows = ApplyRange(swimlanes).Select(MapSwimlaneToRow).ToList();
+            }
+            else if (DataType == "event")
+            {
+                // 拉取全量
+                var totalLimit = _range switch
+                {
+                    "top100" => 100,
+                    "top10000" => 10000,
+                    _ => 100000
+                };
+                var pageResult = await Api.GetEventsAsync(ExhibitionId, 1, totalLimit);
+                var events = pageResult?.Items ?? [];
+                rows = events.Select(MapEventToRow).ToList();
+            }
+
+            // 2. 根据格式转换成二进制流
+            byte[] fileBytes = _format switch
+            {
+                "excel" => GenerateExcel(selectedFields, rows, _headerMode),
+                "csv" => GenerateCsv(selectedFields, rows, _headerMode),
+                "json" => GenerateJson(selectedFields, rows),
+                "ndjson" => GenerateNdjson(selectedFields, rows),
+                "sql" => GenerateSql(selectedFields, rows, DataType),
+                "markdown" => GenerateMarkdown(selectedFields, rows, _headerMode),
+                _ => Array.Empty<byte>()
+            };
+
+            // 3. 构建文件名与文件下载类型
+            var ext = _format switch
+            {
+                "excel" => "xlsx",
+                "csv" => "csv",
+                "json" => "json",
+                "ndjson" => "jsonl",
+                "sql" => "sql",
+                "markdown" => "md",
+                _ => "bin"
+            };
+            var mime = _format switch
+            {
+                "excel" => "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "csv" => "text/csv",
+                "json" => "application/json",
+                "ndjson" => "application/x-ndjson",
+                "sql" => "application/sql",
+                "markdown" => "text/markdown",
+                _ => "application/octet-stream"
+            };
+
+            var finalFileName = string.IsNullOrWhiteSpace(_fileName)
+                ? $"{DataType}_{ExhibitionId}_{DateTime.Now:yyyyMMddHHmmss}.{ext}"
+                : _fileName.Trim();
+            if (!finalFileName.EndsWith($".{ext}", StringComparison.OrdinalIgnoreCase))
+            {
+                finalFileName += $".{ext}";
+            }
+
+            // 4. 发起 JS 桥接下载
+            var base64 = Convert.ToBase64String(fileBytes);
+            await JS.InvokeVoidAsync("downloadFile", finalFileName, mime, base64);
+            Toast.Success("导出文件已生成并触发下载");
+            await Close();
+        }
+        catch (Exception ex)
+        {
+            Toast.Error($"导出失败: {ex.Message}");
+        }
+        finally
+        {
+            _submitting = false;
+            StateHasChanged();
+        }
+    }
+
+    private IEnumerable<T> ApplyRange<T>(List<T> source)
+    {
+        return _range switch
+        {
+            "top100" => source.Take(100),
+            "top10000" => source.Take(10000),
+            _ => source
+        };
+    }
+
+    private string GetHeaderName(ExportFieldModel field, string headerMode) => headerMode switch
+    {
+        "chinese" => field.DisplayName,
+        "english" => field.FieldName,
+        _ => $"{field.FieldName}({field.DisplayName})"
+    };
+
+    private Dictionary<string, object?> MapPeriodToRow(PeriodDto p) => new()
+    {
+        { "Id", p.Id },
+        { "ExhibitionId", p.ExhibitionId },
+        { "NameCn", p.NameCn },
+        { "NameEn", p.NameEn },
+        { "ColorHex", p.ColorHex },
+        { "ColorBackground", p.ColorBackground },
+        { "Description", p.Description },
+        { "Start", FormatFuzzyDate(p.Start) },
+        { "End", FormatFuzzyDate(p.End) }
+    };
+
+    private Dictionary<string, object?> MapSwimlaneToRow(SwimlaneDto s) => new()
+    {
+        { "Id", s.Id },
+        { "ExhibitionId", s.ExhibitionId },
+        { "PeriodId", s.PeriodId },
+        { "NameCn", s.NameCn },
+        { "NameEn", s.NameEn },
+        { "Color", s.Color },
+        { "Lane", s.Lane },
+        { "DescriptionCn", s.DescriptionCn },
+        { "DescriptionEn", s.DescriptionEn },
+        { "Start", FormatFuzzyDate(s.Start) },
+        { "End", FormatFuzzyDate(s.End) }
+    };
+
+    private Dictionary<string, object?> MapEventToRow(TimelineEventDto ev) => new()
+    {
+        { "Id", ev.Id },
+        { "ExhibitionId", ev.ExhibitionId },
+        { "PeriodId", ev.PeriodId },
+        { "SwimlaneId", ev.SwimlaneId },
+        { "TitleCn", ev.TitleCn },
+        { "TitleEn", ev.TitleEn },
+        { "CreatorCn", ev.CreatorCn },
+        { "CreatorEn", ev.CreatorEn },
+        { "Location", ev.Location },
+        { "ImageUrl", ev.ImageUrl },
+        { "DetailPageUrl", ev.DetailPageUrl },
+        { "HighResImageUrl", ev.HighResImageUrl },
+        { "DescriptionCn", ev.DescriptionCn },
+        { "DescriptionEn", ev.DescriptionEn },
+        { "Importance", ev.Importance },
+        { "Tags", ev.Tags == null ? "" : string.Join(", ", ev.Tags) },
+        { "Date", FormatFuzzyDate(ev.Date) },
+        { "EndDate", FormatFuzzyDate(ev.EndDate) },
+        { "MetaJson", ev.MetaJson }
+    };
+
+    private string FormatFuzzyDate(FuzzyDateDto? fd)
+    {
+        if (fd == null) return string.Empty;
+        var yStr = fd.Year < 0 ? $"公元前 {Math.Abs(fd.Year)}" : $"{fd.Year}";
+        var suf = fd.Accuracy switch
+        {
+            "approximate" => " 约",
+            "not_before" => " 不早于",
+            "not_after" => " 不晚于",
+            "either_or" => fd.OrYear.HasValue ? $" 或 {(fd.OrYear.Value < 0 ? $"公元前 {Math.Abs(fd.OrYear.Value)}" : $"{fd.OrYear.Value}")}" : "",
+            _ => ""
+        };
+        return $"{yStr}{suf}年";
+    }
+
+    private byte[] GenerateExcel(IReadOnlyList<ExportFieldModel> selectedFields, IReadOnlyList<Dictionary<string, object?>> rows, string headerMode)
+    {
+        using var workbook = new XLWorkbook();
+        var worksheet = workbook.Worksheets.Add("ExportData");
+
+        for (int i = 0; i < selectedFields.Count; i++)
+        {
+            var field = selectedFields[i];
+            var headerText = GetHeaderName(field, headerMode);
+            worksheet.Cell(1, i + 1).Value = headerText;
+            worksheet.Cell(1, i + 1).Style.Font.Bold = true;
+            worksheet.Cell(1, i + 1).Style.Fill.BackgroundColor = XLColor.FromHtml("#F3F4F6");
+        }
+
+        for (int rowIdx = 0; rowIdx < rows.Count; rowIdx++)
+        {
+            var row = rows[rowIdx];
+            for (int colIdx = 0; colIdx < selectedFields.Count; colIdx++)
+            {
+                var field = selectedFields[colIdx];
+                var val = row.GetValueOrDefault(field.FieldName);
+                worksheet.Cell(rowIdx + 2, colIdx + 1).Value = val?.ToString() ?? string.Empty;
+            }
+        }
+
+        worksheet.Columns().AdjustToContents();
+
+        using var ms = new MemoryStream();
+        workbook.SaveAs(ms);
+        return ms.ToArray();
+    }
+
+    private byte[] GenerateCsv(IReadOnlyList<ExportFieldModel> selectedFields, IReadOnlyList<Dictionary<string, object?>> rows, string headerMode)
+    {
+        var sb = new StringBuilder();
+        sb.Append('\uFEFF'); // UTF-8 BOM
+
+        var headers = new List<string>();
+        foreach (var f in selectedFields)
+        {
+            headers.Add(EscapeCsv(GetHeaderName(f, headerMode)));
+        }
+        sb.AppendLine(string.Join(",", headers));
+
+        foreach (var row in rows)
+        {
+            var rowVals = new List<string>();
+            foreach (var f in selectedFields)
+            {
+                var val = row.GetValueOrDefault(f.FieldName);
+                rowVals.Add(EscapeCsv(val?.ToString() ?? string.Empty));
+            }
+            sb.AppendLine(string.Join(",", rowVals));
+        }
+
+        return Encoding.UTF8.GetBytes(sb.ToString());
+    }
+
+    private string EscapeCsv(string val)
+    {
+        if (!val.Contains('"') && !val.Contains(',') && !val.Contains('\n') && !val.Contains('\r'))
+            return val;
+        return "\"" + val.Replace("\"", "\"\"") + "\"";
+    }
+
+    private byte[] GenerateMarkdown(IReadOnlyList<ExportFieldModel> selectedFields, IReadOnlyList<Dictionary<string, object?>> rows, string headerMode)
+    {
+        var sb = new StringBuilder();
+        var headers = new List<string>();
+        foreach (var f in selectedFields)
+        {
+            headers.Add(GetHeaderName(f, headerMode).Replace("|", "\\|"));
+        }
+        sb.AppendLine("| " + string.Join(" | ", headers) + " |");
+
+        var separators = new List<string>();
+        for (int i = 0; i < selectedFields.Count; i++) separators.Add("---");
+        sb.AppendLine("| " + string.Join(" | ", separators) + " |");
+
+        foreach (var row in rows)
+        {
+            var cells = new List<string>();
+            foreach (var f in selectedFields)
+            {
+                var val = row.GetValueOrDefault(f.FieldName);
+                var str = val?.ToString() ?? string.Empty;
+                cells.Add(str.Replace("|", "\\|").Replace("\r", " ").Replace("\n", " "));
+            }
+            sb.AppendLine("| " + string.Join(" | ", cells) + " |");
+        }
+
+        return Encoding.UTF8.GetBytes(sb.ToString());
+    }
+
+    private byte[] GenerateSql(IReadOnlyList<ExportFieldModel> selectedFields, IReadOnlyList<Dictionary<string, object?>> rows, string tableName)
+    {
+        var sb = new StringBuilder();
+        sb.AppendLine($"-- Exported table: {tableName}");
+        
+        var cols = new List<string>();
+        foreach (var f in selectedFields)
+        {
+            cols.Add($"\"{f.FieldName}\" TEXT");
+        }
+        var columns = string.Join(", ", cols);
+        sb.AppendLine($"CREATE TABLE IF NOT EXISTS \"{tableName}\" ({columns});");
+
+        foreach (var row in rows)
+        {
+            var namesList = new List<string>();
+            var valuesList = new List<string>();
+            foreach (var f in selectedFields)
+            {
+                namesList.Add($"\"{f.FieldName}\"");
+                var val = row.GetValueOrDefault(f.FieldName);
+                if (val == null)
+                {
+                    valuesList.Add("NULL");
+                }
+                else
+                {
+                    var escaped = val.ToString()?.Replace("'", "''") ?? "";
+                    valuesList.Add($"'{escaped}'");
+                }
+            }
+            var names = string.Join(", ", namesList);
+            var values = string.Join(", ", valuesList);
+            sb.AppendLine($"INSERT INTO \"{tableName}\" ({names}) VALUES ({values});");
+        }
+
+        return Encoding.UTF8.GetBytes(sb.ToString());
+    }
+
+    private byte[] GenerateJson(IReadOnlyList<ExportFieldModel> selectedFields, IReadOnlyList<Dictionary<string, object?>> rows)
+    {
+        var list = new List<Dictionary<string, object?>>();
+        foreach (var row in rows)
+        {
+            var dict = new Dictionary<string, object?>();
+            foreach (var f in selectedFields)
+            {
+                dict[f.FieldName] = row.GetValueOrDefault(f.FieldName);
+            }
+            list.Add(dict);
+        }
+        var options = new JsonSerializerOptions { WriteIndented = true, PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
+        return JsonSerializer.SerializeToUtf8Bytes(list, options);
+    }
+
+    private byte[] GenerateNdjson(IReadOnlyList<ExportFieldModel> selectedFields, IReadOnlyList<Dictionary<string, object?>> rows)
+    {
+        var sb = new StringBuilder();
+        var options = new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
+        foreach (var row in rows)
+        {
+            var dict = new Dictionary<string, object?>();
+            foreach (var f in selectedFields)
+            {
+                dict[f.FieldName] = row.GetValueOrDefault(f.FieldName);
+            }
+            sb.AppendLine(JsonSerializer.Serialize(dict, options));
+        }
+        return Encoding.UTF8.GetBytes(sb.ToString());
+    }
+}
+
+<style>
+.export-dialog-body { display:flex; flex-direction:column; gap:12px; }
+.export-form-grid { display:grid; grid-template-columns:100px 1fr 100px 1fr; gap:10px; align-items:center; }
+.export-field-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; }
+.export-field-list { max-height:280px; overflow:auto; border:1px solid var(--app-border, #e5e7eb); border-radius:8px; background:var(--app-bg-subtle, #f9fafb); }
+.export-field-row { display:flex; gap:8px; align-items:center; padding:6px 12px; border-bottom:1px solid var(--app-border, #e5e7eb); }
+.export-field-row:last-child { border-bottom:none; }
+.export-field-row.is-dragging { opacity:.55; background:#f3f4f6; }
+.drag-handle { cursor:grab; color:var(--app-text-muted, #9ca3af); display:inline-flex; align-items:center; }
+.drag-handle:active { cursor:grabbing; }
+.field-name { min-width:120px; font-family:Consolas, monospace; font-size:12px; font-weight:bold; }
+.field-display { color:var(--app-text-muted, #6b7280); font-size:12px; }
+.row-spacer { flex:1; }
+
+@@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+</style>

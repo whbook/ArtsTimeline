@@ -8,9 +8,9 @@
 <div class="page-header">
     <h2>设备管理</h2>
     <div class="page-header-right">
-        <div class="e-input-group filter-search-box" style="width: 240px; border-radius: 4px; display: inline-flex; align-items: center; margin-right: 8px;">
+        <div class="e-input-group filter-search-box">
             <SfTextBox @bind-Value="_keyword" Placeholder="搜索设备..." ShowClearButton="true" Input="@OnSearchInput" />
-            <span class="e-input-group-icon e-icons e-search" @onclick="ExecuteSearch" style="cursor: pointer; padding: 0 8px;"></span>
+            <span class="e-input-group-icon e-icons e-search" @onclick="ExecuteSearch"></span>
         </div>
         <AuthorizeView Roles="super_admin,admin">
             <SfButton Content="新建设备" IsPrimary="true" CssClass="e-small" IconCss="e-icons e-plus" @onclick="CreateNew" />
@@ -45,10 +45,13 @@
                 <div class="form-grid">
                     <div class="span-2">
                         <label>归属单位</label>
-                        <SfDropDownList TValue="Guid" TItem="OrgOption" DataSource="@_orgOptions"
-                                        @bind-Value="_model.OrganizationId" Placeholder="选择单位">
-                            <DropDownListFieldSettings Value="Id" Text="Name" />
-                        </SfDropDownList>
+                        <div class="dropdown-with-copy">
+                            <SfDropDownList TValue="Guid" TItem="OrgOption" DataSource="@_orgOptions"
+                                            @bind-Value="_model.OrganizationId" Placeholder="选择单位">
+                                <DropDownListFieldSettings Value="Id" Text="Name" />
+                            </SfDropDownList>
+                            <DropdownCopyButton Options="@_orgOptions.Select(x => x.Name)" />
+                        </div>
                     </div>
                     <div><label>设备代码</label><SfTextBox @bind-Value="_model.DeviceCode" /></div>
                     <div><label>操作系统</label><SfTextBox @bind-Value="_model.OsVersion" /></div>
@@ -56,10 +59,13 @@
                     <div><label>屏幕高</label><SfNumericTextBox @bind-Value="_model.ScreenHeight" Min="1" /></div>
                     <div>
                         <label>许可类型</label>
-                        <SfDropDownList TValue="string" TItem="LabelValueOption" DataSource="@_licenseOptions"
-                                        @bind-Value="_model.LicenseType">
-                            <DropDownListFieldSettings Value="Value" Text="Label" />
-                        </SfDropDownList>
+                        <div class="dropdown-with-copy">
+                            <SfDropDownList TValue="string" TItem="LabelValueOption" DataSource="@_licenseOptions"
+                                            @bind-Value="_model.LicenseType">
+                                <DropDownListFieldSettings Value="Value" Text="Label" />
+                            </SfDropDownList>
+                            <DropdownCopyButton Options="@_licenseOptions.Select(x => x.Label)" />
+                        </div>
                     </div>
                     <div><label>有效期起</label><SfDateTimePicker @bind-Value="_model.ValidFrom" /></div>
                     <div><label>有效期止</label><SfDateTimePicker @bind-Value="_model.ValidUntil" /></div>
