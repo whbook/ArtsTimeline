@@ -14,6 +14,7 @@ interface TimelineCanvasProps {
   onMovementClick: (movement: Swimlane) => void;
   onEventHover: (event: TimelineEvent | null) => void;
   onZoomRange?: (start: number, end: number) => void;
+  suppressClickRef?: React.RefObject<boolean>;
 }
 
 interface EventCluster {
@@ -158,8 +159,11 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
     onMovementHover,
     onMovementClick,
     onEventHover,
-    onZoomRange
+    onZoomRange,
+    suppressClickRef
 }) => {
+  const shouldSuppressClick = () => suppressClickRef?.current === true;
+
   const { startYear, endYear } = viewport;
   const range = endYear - startYear;
 
@@ -336,7 +340,11 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
             key={movement.id}
             onMouseEnter={() => onMovementHover(movement)}
             onMouseLeave={() => onMovementHover(null)}
-            onClick={(e) => { e.stopPropagation(); onMovementClick(movement); }}
+            onClick={(e) => {
+              if (shouldSuppressClick()) return;
+              e.stopPropagation();
+              onMovementClick(movement);
+            }}
             className="absolute rounded-sm hover:scale-[1.02] hover:z-50 transition-shadow duration-200 cursor-pointer pointer-events-auto group overflow-visible"
             style={style}
           >
@@ -414,6 +422,7 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
             <div 
               key={item.id}
               onClick={(e) => {
+                if (shouldSuppressClick()) return;
                 e.stopPropagation();
                 onZoomRange?.(cluster.startYear, cluster.endYear);
               }}
@@ -475,7 +484,10 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
         return (
             <div 
                 key={item.id}
-                onClick={() => onEventClick(event)}
+                onClick={() => {
+                  if (shouldSuppressClick()) return;
+                  onEventClick(event);
+                }}
                 onMouseEnter={() => onEventHover(event)}
                 onMouseLeave={() => onEventHover(null)}
                 className="absolute flex flex-col items-center group pointer-events-auto cursor-pointer z-20"

@@ -348,8 +348,16 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, swimlanes, ev
   const [isDragging, setIsDragging] = useState(false);
   const [isResizing, setIsResizing] = useState(false);
   const [leftPaneMaxWidthPercent, setLeftPaneMaxWidthPercent] = useState(50);
+  const [isMobile, setIsMobile] = useState(false);
   const startX = useRef(0);
   const scrollLeft = useRef(0);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile(); // Check immediately on mount
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   const handleMouseDown = (e: React.MouseEvent) => {
     if (isResizing) return;
@@ -622,7 +630,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, swimlanes, ev
       {hasLanePane && (
         <div
           className="relative h-full min-w-0 transition-[width] duration-500 ease-in-out"
-          style={{ width: `min(${leftPaneMaxWidthPercent}%, ${autoLeftPaneWidth}px)` }}
+          style={{ width: isMobile ? '100%' : `min(${leftPaneMaxWidthPercent}%, ${autoLeftPaneWidth}px)` }}
         >
           {/* Left Scroll Button */}
           {canScrollLeft && (
@@ -676,7 +684,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, swimlanes, ev
         </div>
       )}
 
-      {hasLanePane && (
+      {hasLanePane && !isMobile && (
         <button
           type="button"
           className="group relative z-40 flex h-full w-2 flex-none cursor-col-resize items-center justify-center bg-transparent transition-colors hover:bg-stone-200/40"
@@ -690,9 +698,11 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ topic, periods, swimlanes, ev
         </button>
       )}
 
-      <div className={`h-full min-w-0 flex-1 bg-[#f8f8f5] p-4 ${hasLanePane ? 'pl-0' : 'pl-4'}`}>
-        <EventDetailPane topic={topic} events={displayedEvents} />
-      </div>
+      {(!isMobile || !hasLanePane) && (
+        <div className={`h-full min-w-0 flex-1 bg-[#f8f8f5] p-4 ${hasLanePane ? 'pl-0' : 'pl-4'}`}>
+          <EventDetailPane topic={topic} events={displayedEvents} />
+        </div>
+      )}
     </div>
   );
 };

@@ -194,8 +194,11 @@ const App: React.FC = () => {
     scale.scaleX // Pass scaleX to adjust playback speed
   );
 
-  const lastMouseX = useRef<number>(0);
+  const lastPointerX = useRef<number>(0);
+  const activePointerId = useRef<number | null>(null);
+  const panMovedRef = useRef(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const PAN_THRESHOLD_PX = 6;
 
   // --- Zoom Logic ---
   const handleWheel = (e: React.WheelEvent) => {
@@ -238,32 +241,39 @@ const App: React.FC = () => {
     }, timelineMaxYear));
   };
 
-  // --- Pan Logic ---
-  const handleMouseDown = (e: React.MouseEvent) => {
-    if ((e.target as HTMLElement).closest('.detail-panel')) return;
+  // --- Pan Logic (pointer events for mouse + touch) ---
+  const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
+    if ((e.target as HTMLElement).closest('.detail-panel, button')) return;
+    if (e.pointerType === 'mouse' && e.button !== 0) return;
+
     setIsDragging(true);
-    lastMouseX.current = e.clientX;
+    panMovedRef.current = false;
+    lastPointerX.current = e.clientX;
+    activePointerId.current = e.pointerId;
+    e.currentTarget.setPointerCapture(e.pointerId);
   };
 
   const rafRef = useRef<number | null>(null);
 
-  const handleMouseMove = (e: React.MouseEvent) => {
-    if (!isDragging) return;
-    
+  const handlePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (!isDragging || activePointerId.current !== e.pointerId) return;
+
     if (rafRef.current) {
       cancelAnimationFrame(rafRef.current);
     }
 
     const currentX = e.clientX;
-    
+
     rafRef.current = requestAnimationFrame(() => {
       const container = containerRef.current;
       if (!container) return;
 
       const { width } = container.getBoundingClientRect();
-      const deltaPixels = lastMouseX.current - currentX;
-      
-      // Convert pixels to years
+      const deltaPixels = lastPointerX.current - currentX;
+      if (Math.abs(deltaPixels) >= PAN_THRESHOLD_PX) {
+        panMovedRef.current = true;
+      }
+
       const currentRange = viewport.endYear - viewport.startYear;
       const yearsPerPixel = currentRange / width;
       const deltaYears = deltaPixels * yearsPerPixel;
@@ -273,12 +283,18 @@ const App: React.FC = () => {
         endYear: prev.endYear + deltaYears
       }, timelineMaxYear));
 
-      lastMouseX.current = currentX;
+      lastPointerX.current = currentX;
     });
   };
 
-  const handleMouseUp = () => {
+  const endPan = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (activePointerId.current !== e.pointerId) return;
+
     setIsDragging(false);
+    activePointerId.current = null;
+    if (e.currentTarget.hasPointerCapture(e.pointerId)) {
+      e.currentTarget.releasePointerCapture(e.pointerId);
+    }
     if (rafRef.current) {
       cancelAnimationFrame(rafRef.current);
       rafRef.current = null;
@@ -407,12 +423,12 @@ const App: React.FC = () => {
           {/* Main Visualization Area (Top Half) */}
           <div 
             ref={containerRef}
-            className={`flex-none relative w-full h-[55%] bg-[#fdfdfd] border-b-4 border-gray-800 shadow-xl overflow-hidden cursor-move ${isDragging ? 'cursor-grabbing' : ''}`}
+            className={`flex-none relative w-full h-[55%] bg-[#fdfdfd] border-b-4 border-gray-800 shadow-xl overflow-hidden cursor-move touch-none select-none ${isDragging ? 'cursor-grabbing' : ''}`}
             onWheel={handleWheel}
-            onMouseDown={handleMouseDown}
-            onMouseMove={handleMouseMove}
-            onMouseUp={handleMouseUp}
-            onMouseLeave={handleMouseUp}
+            onPointerDown={handlePointerDown}
+            onPointerMove={handlePointerMove}
+            onPointerUp={endPan}
+            onPointerCancel={endPan}
           >
             {/* Center Red Triangle Indicator */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 z-40 flex flex-col items-center pointer-events-none h-full">
@@ -437,6 +453,7 @@ const App: React.FC = () => {
                 onMovementClick={handleMovementClick}
                 onEventHover={setHoveredEvent}
                 onZoomRange={handleZoomRange}
+                suppressClickRef={panMovedRef}
             />
             
             {/* Floating current range indicator */}
