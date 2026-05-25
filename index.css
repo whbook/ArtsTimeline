@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", serif;
-  --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", serif;
+  --font-sans: "Inter", "Noto Serif SC", "PingFang SC", "Microsoft YaHei", "Segoe UI", system-ui, sans-serif;
+  --font-serif: "Playfair Display", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "Georgia", "Times New Roman", serif;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
   padding: 0;
   overflow: hidden;
   background-color: #f8f9fa;
-  font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", serif;
+  font-family: "Inter", "Noto Serif SC", "PingFang SC", "Microsoft YaHei", "Segoe UI", system-ui, sans-serif;
 }
 
 .custom-scrollbar::-webkit-scrollbar {

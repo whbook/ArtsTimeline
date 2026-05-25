@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/noto-serif-sc": "^5.2.8",
+    "@fontsource/playfair-display": "^5.2.8",
     "@tanstack/react-virtual": "^3.13.24",
     "lucide-react": "^0.561.0",
     "react": "^19.2.3",
