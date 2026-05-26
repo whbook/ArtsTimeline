@@ -108,6 +108,8 @@ public class OssFileUploadService
         request.Content.Headers.ContentMD5 = Convert.FromBase64String(md5);
         request.Headers.TryAddWithoutValidation("Date", date);
         request.Headers.TryAddWithoutValidation("Authorization", authorization);
+        // 浏览器内联预览（避免 OSS 默认 attachment 导致 <img> 无法显示）
+        request.Headers.TryAddWithoutValidation("Content-Disposition", "inline");
 
         using var response = await client.SendAsync(request, ct);
         if (!response.IsSuccessStatusCode)

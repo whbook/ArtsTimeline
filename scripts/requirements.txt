@@ -1,0 +1,2 @@
+# scripts/upload_event_cover_images_to_oss.py
+psycopg[binary]>=3.2

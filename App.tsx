@@ -243,7 +243,7 @@ const App: React.FC = () => {
 
   // --- Pan Logic (pointer events for mouse + touch) ---
   const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
-    if ((e.target as HTMLElement).closest('.detail-panel, button')) return;
+    if ((e.target as HTMLElement).closest('.detail-panel, button, [data-timeline-interactive]')) return;
     if (e.pointerType === 'mouse' && e.button !== 0) return;
 
     setIsDragging(true);
@@ -298,6 +298,12 @@ const App: React.FC = () => {
     if (rafRef.current) {
       cancelAnimationFrame(rafRef.current);
       rafRef.current = null;
+    }
+    // 拖动手势结束后短暂保留抑制，避免误触；交互元素会在 pointerdown 时自行清除
+    if (panMovedRef.current) {
+      window.setTimeout(() => {
+        panMovedRef.current = false;
+      }, 0);
     }
   };
 

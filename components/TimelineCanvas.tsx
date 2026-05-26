@@ -17,6 +17,17 @@ interface TimelineCanvasProps {
   suppressClickRef?: React.RefObject<boolean>;
 }
 
+/** 阻止父级时间轴拖拽捕获指针，并清除「刚拖过」的点击抑制 */
+const handleInteractivePointerDown = (
+  e: React.PointerEvent,
+  suppressClickRef?: React.RefObject<boolean>,
+) => {
+  e.stopPropagation();
+  if (suppressClickRef) {
+    suppressClickRef.current = false;
+  }
+};
+
 interface EventCluster {
   type: 'cluster';
   id: string;
@@ -338,6 +349,8 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
         return (
           <div
             key={movement.id}
+            data-timeline-interactive
+            onPointerDown={(e) => handleInteractivePointerDown(e, suppressClickRef)}
             onMouseEnter={() => onMovementHover(movement)}
             onMouseLeave={() => onMovementHover(null)}
             onClick={(e) => {
@@ -421,6 +434,8 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
           return (
             <div 
               key={item.id}
+              data-timeline-interactive
+              onPointerDown={(e) => handleInteractivePointerDown(e, suppressClickRef)}
               onClick={(e) => {
                 if (shouldSuppressClick()) return;
                 e.stopPropagation();
@@ -484,8 +499,11 @@ const TimelineCanvas: React.FC<TimelineCanvasProps> = memo(({
         return (
             <div 
                 key={item.id}
-                onClick={() => {
+                data-timeline-interactive
+                onPointerDown={(e) => handleInteractivePointerDown(e, suppressClickRef)}
+                onClick={(e) => {
                   if (shouldSuppressClick()) return;
+                  e.stopPropagation();
                   onEventClick(event);
                 }}
                 onMouseEnter={() => onEventHover(event)}
